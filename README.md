@@ -12,6 +12,8 @@ Dieses Repository organisiert THoC in mehrere Chat-Instanzen mit eigenen Startda
 - `band/start_band.md` – Band Startdatei
 - `urop/start_urop.md` – URoP Startdatei
 
+> Hinweis: Neue Startdateien und relevante Chat-Dateien werden hier ergänzt, sobald sie ins Repository aufgenommen werden.
+
 ## Ordnerstruktur
 - `manifest/`
 - `meta/`
