@@ -1,10 +1,11 @@
 {
-  "schema_version": "2026-04-09_v1",
+  "schema_version": "2026-04-11_v3",
   "type": "cyberware_database",
   "authoritative_note": "Fuehrende Datenquelle fuer Cyberware im Cyberpunk-Modul. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
   "design_notes": [
     "Cyberware soll den URoP-Kern nicht ersetzen, sondern an ihn andocken.",
     "Cyberware oeffnet vor allem neue Moeglichkeiten, Sinnesmodi, Zugriffskanaele, Schutzlagen und Spezialfenster statt rohe Attributsspruenge als Standard.",
+    "Sensorik-Module wie Cyberoptik-Features duerfen als eigene Eintraege gefuehrt werden, damit sie spaeter in Foundry leicht direkt am Actor haengen koennen.",
     "Implant Load ist bewusst ein Richtwert fuer Dichte und Systembelastung, kein harter Verbotszaun.",
     "Quickhacks docken jetzt an network_exposure, wireless-Tags und die eigene Datei URoP_Quickhacks.json an; Netrunning soll spaeter darauf aufbauen statt ein zweites komplett fremdes Regelsystem zu bauen.",
     "Nicht jedes Implant braucht ein eigenes Minispiel. Vieles bleibt eine fiction-first Erweiterung vorhandener Fertigkeiten und Grundaktionen."
@@ -227,8 +228,8 @@
         "support",
         "wireless"
       ],
-      "rules_short": "Ersatzaugen mit stabiler Sensorik, Aufzeichnung und Modulslots.",
-      "description": "Ein verbreiteter Augenersatz fuer Alltag, Einsatz und Strasse. Regelhinweis: Digitale Zoom-, Aufnahme- und Overlayfunktionen; Bleibt auch unter schlechter Beleuchtung oder Bewegungsstress lesbar. Marktbild: weit verbreitet, zivil meist unauffaellig.",
+      "rules_short": "Ersatzaugen mit stabiler Sensorik, Aufzeichnung und Modulslots fuer Zusatzfeatures.",
+      "description": "Ein verbreiteter Augenersatz fuer Alltag, Einsatz und Strasse. Regelhinweis: Liefert saubere Grundsensorik, Aufnahme und Overlayfunktionen; konkrete Zusatzmodi wie Nachtsicht oder starke Vergroesserung koennen als eigene Feature-Eintraege auf die Optiken gesetzt werden. Marktbild: weit verbreitet, zivil meist unauffaellig.",
       "grade": "standard",
       "activation_type": "passive",
       "load": 1,
@@ -240,6 +241,204 @@
       ],
       "setting_scope": "cyberpunk",
       "price_eb": 2200
+    },
+    {
+      "id": "cyber_kyroshi_mk4_modified",
+      "name": "Kyroshi Cyberoptics MK IV, modifiziert",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature_host",
+        "wireless"
+      ],
+      "rules_short": "Hochwertige Optikplattform mit stabiler Grundsensorik und modularen Zusatzfeatures.",
+      "description": "Hochklassige Cyberoptik aus dem Night-City-Umfeld, oft als Sondermodell oder nachtraeglich modifizierte Serie im Einsatz. Regelhinweis: Die Basis liefert verlaessliche Sicht, sauberes Overlay und gute Sensorstabilitaet; konkrete Modi wie Nachtsicht, Vergroesserung, Thermalsicht oder Kampf-Overlay werden als eigene Feature-Eintraege auf den Actor gelegt. Lore-Hook: Diese Augenklasse passt direkt zu den THoC-Protagonisten aus thoc/lore.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Offene Firmware oder Funkprofile brauchen gute Wartung, sonst entstehen Tracking- oder Stoerfenster"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 4200
+    },
+    {
+      "id": "cyber_optic_feature_lowlight",
+      "name": "Optik-Feature: Nachtsicht",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature"
+      ],
+      "rules_short": "Verstaerkt Restlicht und macht Dunkelzonen besser lesbar, ohne echte Vollsicht zu garantieren.",
+      "description": "Ein klassisches Cyberoptik-Modul fuer schwaches Licht, Innenraeume, Nachtzonen und schlechte Sichtverhaeltnisse. Regelhinweis: Hilft bei Beobachtung, Zielsuche und Bewegung in Dunkelheit, solange noch ein plausibler Rest an Bildinformation vorhanden ist.",
+      "grade": "standard",
+      "activation_type": "active",
+      "load": 0,
+      "install_complexity": "clinic",
+      "maintenance_level": "low",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Blendung oder ploetzliche Lichtspitzen koennen das Modul kurzfristig unguenstig machen"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 450
+    },
+    {
+      "id": "cyber_optic_feature_magnification",
+      "name": "Optik-Feature: Vergroesserung",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature"
+      ],
+      "rules_short": "Mehrstufige Bildvergroesserung fuer Entfernungseinschaetzung, Detailsuche und gezielte Beobachtung.",
+      "description": "Optische und digitale Vergroesserung hilft beim Lesen ferner Details, beim Einschaetzen von Linien und beim sauberen Aufklaeren eines Zielraums. Regelhinweis: Oeffnet plausibel bessere Fernbeobachtung, ersetzt aber keine volle Spezialoptik fuer jede Lage.",
+      "grade": "standard",
+      "activation_type": "active",
+      "load": 0,
+      "install_complexity": "clinic",
+      "maintenance_level": "low",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Starke Vergroesserung verengt das Situationsbild und macht Tunnelblick wahrscheinlicher"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 400
+    },
+    {
+      "id": "cyber_optic_feature_thermograph",
+      "name": "Optik-Feature: Thermalsicht",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature",
+        "wireless"
+      ],
+      "rules_short": "Thermisches Overlay fuer Koerperwaerme, Maschinenhitze und frische Spuren.",
+      "description": "Ein Waermebild-Overlay hebt lebende Ziele, ueberhitzte Technik und thermische Unterschiede hervor. Regelhinweis: Besonders stark bei Suche, Jagd, Rauchlagen oder technischer Fehlersuche, aber anfaellig gegen Hitzechaos, Abschirmung oder Ueberlagerung.",
+      "grade": "pro",
+      "activation_type": "active",
+      "load": 0,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Heisse Umgebungen, Brandzonen oder thermische Taeuschung koennen das Bild stark verschlechtern"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 900
+    },
+    {
+      "id": "cyber_optic_feature_antidazzle",
+      "name": "Optik-Feature: Blendfilter",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature"
+      ],
+      "rules_short": "Filtert Lichtspitzen, Reflexe und ploetzliche Helligkeitswechsel sauberer weg.",
+      "description": "Dieses Modul schuetzt die Bildverarbeitung gegen Blendung, Muzzle Flash, Werbetafeln, Schweissreflexe und ueberharte Lichtkanten. Regelhinweis: Hilft, unter visuellem Stress handlungsfaehig zu bleiben, ohne absolute Immunitaet gegen Blendung zu schaffen.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 0,
+      "install_complexity": "clinic",
+      "maintenance_level": "low",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Aggressive Filter koennen Farben, Feinheiten oder Stimmungen etwas flacher wirken lassen"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 300
+    },
+    {
+      "id": "cyber_optic_feature_recording_suite",
+      "name": "Optik-Feature: Aufzeichnungs-Suite",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature",
+        "wireless"
+      ],
+      "rules_short": "Saubere Bildaufzeichnung mit Markerfunktion, Replay und schneller Exportspur.",
+      "description": "Ein Record-Modul speichert Sichtdaten, markiert interessante Momente und erlaubt spaeteres Replay oder Teilen. Regelhinweis: Gut fuer Beweissicherung, Einsatznachbereitung, Recherche und Zielmarkierung; kann aber Privatsphaere, Tarnung und Datensicherheit gefaehrden.",
+      "grade": "standard",
+      "activation_type": "active",
+      "load": 0,
+      "install_complexity": "clinic",
+      "maintenance_level": "standard",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Gespeicherte Sichtdaten koennen gegen den Traeger verwendet oder ausgelesen werden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 550
+    },
+    {
+      "id": "cyber_optic_feature_firmware_hardening",
+      "name": "Optik-Feature: Freie Firmware + Hardening",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature",
+        "security"
+      ],
+      "rules_short": "Entkoppelt proprietaere Kontrollroutinen und stabilisiert die Optik gegen Fremdzugriff.",
+      "description": "Firmwarepaket fuer freie, gehaertete Optiken ohne fremde Hintertueren. Regelhinweis: Hilft gegen heimliche Steuerung, Tracking und unerwuenschte Fernprofile; bleibt aber wartungs- und updatepflichtig. Lore-Hook: Passt zu Figuren, die sich aus elterlich oder korporativ kontrollierter Ware freigeloest haben.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 0,
+      "install_complexity": "surgical",
+      "maintenance_level": "high",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Fehlende Herstellerbindung kann Service, Ersatzteile oder Support erschweren"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1200
+    },
+    {
+      "id": "cyber_optic_feature_combat_overlay",
+      "name": "Optik-Feature: Kampf-Overlay",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "cyberoptics",
+        "feature",
+        "combat",
+        "wireless"
+      ],
+      "rules_short": "Blendet Lage-, Bedrohungs- und Linieninfos fuer kurze Gefechtsfenster ein.",
+      "description": "Taktisches Overlay fuer schnelle Lageerfassung in chaotischen Kampfräumen. Regelhinweis: Unterstuetzt Zielpriorisierung, Deckungslesung und Linienwechsel fiction-first, ohne eigene Minispiel-Subregeln zu erzeugen. Fuer Foundry kann es als reines Feature-Item am Actor liegen und nur als Wurfhilfe dienen.",
+      "grade": "pro",
+      "activation_type": "active",
+      "load": 0,
+      "install_complexity": "clinic",
+      "maintenance_level": "standard",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Informationsflut kann bei Stress zu Tunnelblick oder Ueberfokussierung fuehren"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 950
     },
     {
       "id": "cyber_cyberaudio_suite",
@@ -486,6 +685,151 @@
       ],
       "setting_scope": "cyberpunk",
       "price_eb": 1900
+    },
+    {
+      "id": "cyber_grip_pads",
+      "name": "Grip-Pads",
+      "category": "support",
+      "body_zone": "arm",
+      "tags": [
+        "support",
+        "mobility",
+        "concealed"
+      ],
+      "rules_short": "Verbesserte Haftung in Haenden und Fingern fuer Klettern, Halten und Werkzeugarbeit.",
+      "description": "Mikrostrukturierte Haftflaechen in Handinnenflaechen und Fingern verbessern Griff und Kontrolle auf glatten oder vibrierenden Oberflaechen. Regelhinweis: Hilft bei Halten, Klettern, Werkzeugfuehrung und dem Sichern kleiner Gegenstaende unter Stress. Marktbild: verbreitet bei Technikern, Runnern und Spezialhandwerkern.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "clinic",
+      "maintenance_level": "low",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Feine Stoffe oder empfindliche Oberflaechen koennen darunter leiden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 850
+    },
+    {
+      "id": "cyber_targeting_coprocessor",
+      "name": "Zielkoprozessor",
+      "category": "neural",
+      "body_zone": "head",
+      "tags": [
+        "neural",
+        "combat",
+        "support",
+        "wireless"
+      ],
+      "rules_short": "Verknuepft Optik, Lagebild und Waffenrueckmeldung fuer schnellere Zielerfassung.",
+      "description": "Ein kleiner Rechenkern glattet Zielbild, Bewegungsvorhersage und Rueckmeldung aus kompatiblen Systemen. Regelhinweis: Erleichtert plausibel sauberen Erstbezug, Zielwechsel und das Lesen kurzer Kampfgeometrien. Marktbild: gehobene Sicherheits- und Soloware, rechtlich oft eingeschraenkt.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Offene Datenschnittstellen koennen Ziel fuer Stoerung oder Tracking werden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 3200
+    },
+    {
+      "id": "cyber_voice_modulator",
+      "name": "Stimmemodulator",
+      "category": "support",
+      "body_zone": "head",
+      "tags": [
+        "support",
+        "social",
+        "concealed"
+      ],
+      "rules_short": "Erweitert Stimmlage, Klangfarbe und Stimmkontrolle fuer Tarnung oder starke Auftritte.",
+      "description": "Ein Kehl- und Resonanzpaket, das Stimme sauber formen, stabilisieren oder imitieren hilft. Regelhinweis: Oeffnet plausibel Tarnstimmen, kontrollierte Ansagen und klare Praesenzmomente. Marktbild: legal als Premiumware, in guten Versionen aber auffaellig teuer.",
+      "grade": "standard",
+      "activation_type": "active",
+      "load": 1,
+      "install_complexity": "clinic",
+      "maintenance_level": "standard",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Schlechte Kalibrierung wirkt kuenstlich oder unheimlich"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1400
+    },
+    {
+      "id": "cyber_filter_lung",
+      "name": "Filterlunge",
+      "category": "medical",
+      "body_zone": "internal",
+      "tags": [
+        "medical",
+        "support",
+        "survival"
+      ],
+      "rules_short": "Verbesserte Luftfilterung gegen Rauch, Giftpartikel und urbane Drecksluft.",
+      "description": "Ein internes Filter- und Pufferpaket fuer Atemwege und Blutgaswerte. Regelhinweis: Hilft bei Rauch, Staub, Reizstoffen und schlechter Luft, ohne Vollschutz zu ersetzen. Marktbild: beliebt bei Industriearbeitern, Runnern und Leuten mit schlechter Wohnzone.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Filterkartuschen und Reinigung muessen regelmaessig gewartet werden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1800
+    },
+    {
+      "id": "cyber_gyro_stabilizer",
+      "name": "Gyrostabilisator",
+      "category": "internal",
+      "body_zone": "spine",
+      "tags": [
+        "internal",
+        "combat",
+        "mobility"
+      ],
+      "rules_short": "Verbessert Stand, Rueckstossaufnahme und Kontrolle bei abrupten Bewegungen.",
+      "description": "Ein spinales Stabilisierungspaket mit Mikroaktuatoren und Lagekorrektur. Regelhinweis: Hilft bei Rueckstoss, engem Stand, Kantenarbeit und kurzfristiger Balance unter Belastung. Marktbild: Spezialware fuer Einsatzkraefte, Schuetzen und schwere Arbeiter.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 2,
+      "install_complexity": "deep",
+      "maintenance_level": "standard",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Fehlkalibrierung fuehlt sich wie permanente Verspannung oder Fehlhaltung an"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 4100
+    },
+    {
+      "id": "cyber_toolhand_microkit",
+      "name": "Werkzeughand-Mikrokit",
+      "category": "support",
+      "body_zone": "arm",
+      "tags": [
+        "support",
+        "technical",
+        "concealed"
+      ],
+      "rules_short": "Versteckte Feinwerkzeuge in Hand oder Unterarm fuer Feldreparatur und Aufbrucharbeit.",
+      "description": "Miniaturwerkzeuge, Sonden und Greifer sitzen in Handruecken oder Unterarm und lassen sich schnell ausfahren. Regelhinweis: Oeffnet kleine Reparaturen, sauberes Basteln und improvisierte Technikarbeit ohne grossen Werkzeugkoffer. Marktbild: beliebt bei Techs, Einbrechern und Feldmechanikern.",
+      "grade": "standard",
+      "activation_type": "active",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Begrenzt in Kraft und Reichweite; ersetzt keine volle Werkbank"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1600
     }
   ]
 }

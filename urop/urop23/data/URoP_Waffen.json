@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "type": "urop_weapons",
   "authoritative_note": "Fuehrende Datenquelle fuer Waffen in URoP. Die Struktur bleibt spielorientiert und bewusst schlanker als echte Waffenkunde.",
   "design_note": "Waffen fuehren nur die Felder, die fuer Spielgefuehl, Foundry-Einordnung und spaetere Pflege echten Nutzen haben. Feinere Schnitt-, Stich- oder Schlaglogik bleibt im Beschreibungstext oder Regeltext.",
@@ -493,6 +493,125 @@
         "mittel": 75,
         "weit": 250,
         "extrem": 500
+      }
+    },
+    {
+      "id": "weapon_knuckles_steel_std",
+      "name": "Stahl-Schlagring",
+      "category": "kleinwaffe",
+      "combat_mode": "melee",
+      "description": "Verdeckte Faustverstaerkung fuer rohe direkte Gewalt auf Handgemenge-Distanz.",
+      "rules_short": "Kleine versteckbare Nahkampfwaffe fuer brutale kurze Treffer.",
+      "price_eb": 35,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 2,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "handgemenge"
+      ]
+    },
+    {
+      "id": "weapon_bat_aluminum_std",
+      "name": "Alu-Baseballschlaeger",
+      "category": "nahkampfwaffe",
+      "combat_mode": "melee",
+      "description": "Sportgeraet, Strassenwaffe und Einschuechterungswerkzeug zugleich.",
+      "rules_short": "Guenstige Schlagwaffe mit ordentlicher Wucht und einfacher Handhabung.",
+      "price_eb": 55,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 3,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "nahkampf",
+        "lang"
+      ]
+    },
+    {
+      "id": "weapon_crowbar_utility_std",
+      "name": "Brechstange",
+      "category": "nahkampfwaffe",
+      "combat_mode": "melee",
+      "description": "Werkzeug mit klarer Zweitkarriere als improvisierte Nahkampfwaffe.",
+      "rules_short": "Robuste Hebel- und Schlagwaffe fuer Aufbruch und direkte Gewalt.",
+      "price_eb": 30,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 3,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "handgemenge",
+        "nahkampf"
+      ]
+    },
+    {
+      "id": "weapon_holdout_pistol_22",
+      "name": "Holdout-Pistole .22",
+      "category": "handfeuerwaffe",
+      "combat_mode": "ranged",
+      "description": "Winzige Pistole fuer Verbergen, Notfaelle und letzte Chancen.",
+      "rules_short": "Leicht versteckbare Kleinstwaffe mit begrenzter Wirkung und kurzer Reichweite.",
+      "price_eb": 180,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G2",
+      "damage_baseline": 2,
+      "quality": "standard",
+      "magazine_capacity": 6,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 5,
+        "mittel": 12,
+        "weit": 20,
+        "extrem": 35
+      }
+    },
+    {
+      "id": "weapon_pistol_budget_9mm",
+      "name": "Budgetpistole 9mm",
+      "category": "handfeuerwaffe",
+      "combat_mode": "ranged",
+      "description": "Billige Massenpistole fuer Zivilmarkt, Gangs und Leute mit knappem Budget.",
+      "rules_short": "Guenstige Standard-Kurzwaffe mit solider Wirkung, aber geringerer Verarbeitungsqualitaet.",
+      "price_eb": 220,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 3,
+      "quality": "poor",
+      "magazine_capacity": 12,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 40,
+        "extrem": 80
+      }
+    },
+    {
+      "id": "weapon_shotgun_doublebarrel_12g",
+      "name": "Doppellauf-Schrotflinte 12G",
+      "category": "shotgun",
+      "combat_mode": "ranged",
+      "description": "Einfache zivile oder jagdliche Schrotflinte mit zwei schnellen harten Schuessen.",
+      "rules_short": "Kurze, harte Schrotwaffe mit wenig Kapazitaet und starker Praesenz auf kurzer Distanz.",
+      "price_eb": 420,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 5,
+      "quality": "standard",
+      "magazine_capacity": 2,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 6,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 40
       }
     }
   ]

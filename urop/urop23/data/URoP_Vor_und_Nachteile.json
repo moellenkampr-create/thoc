@@ -1,5 +1,5 @@
 {
-  "schema_version": "2026-04-10_v2",
+  "schema_version": "2026-04-11_v3",
   "type": "trait_list",
   "authoritative_note": "Fuehrende Datenquelle fuer URoP-Vor- und Nachteile. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
   "field_schema": {
@@ -9,6 +9,8 @@
     "tier": "Gewichtung bzw. grobe Kosten- oder Rueckgabeklasse: minor, moderate, major",
     "rules_short": "Kurzregel in 1-2 Saetzen",
     "description": "Lesefassung und ausfuehrlicher Regelsinn",
+    "attribute_anchor": "Optionale Hauptausrichtung auf Koerper, Geist oder Praesenz",
+    "facet": "Optionale Unterausrichtung innerhalb des Attributs, z. B. Kraft, Geschick oder Ausstrahlung",
     "requirements": "Optionale Voraussetzungen als Kurztext",
     "incompatibilities": "Optionale Unvertraeglichkeiten als Kurztext"
   },
@@ -172,6 +174,150 @@
       "description": "Schlechter Ruf steht fuer Vorurteile, Aktenlage, Geruechte oder bekannte Vorfaelle.",
       "requirements": "",
       "incompatibilities": ""
+    },
+    {
+      "id": "adv_powerful",
+      "name": "Kraftvoll",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Tragen, Druecken, Ringen und rohe koerperliche Gewalt liegen dir ueberdurchschnittlich gut.",
+      "description": "Kraftvoll steht fuer hohe Muskelkraft, harte Zugriffsstaerke und klare physische Durchsetzung im direkten Zugriff.",
+      "attribute_anchor": "Koerper",
+      "facet": "Kraft",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Schwaechlich."
+    },
+    {
+      "id": "adv_agile",
+      "name": "Geschickt",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Balance, Ausweichen, Klettern und schnelle saubere Bewegungen gelingen dir leichter.",
+      "description": "Geschickt steht fuer koordinierte Ganzkoerperbewegung, gute Balance und ein sicheres Timing unter Bewegung.",
+      "attribute_anchor": "Koerper",
+      "facet": "Geschick",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Ungelenk."
+    },
+    {
+      "id": "dis_weak",
+      "name": "Schwaechlich",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Last, Griffkraft und rohe koerperliche Durchsetzung kippen bei dir schneller an ihre Grenzen.",
+      "description": "Schwaechlich beschreibt geringe Maximal- und Dauerlast in Situationen, in denen reine Kraft entscheidet.",
+      "attribute_anchor": "Koerper",
+      "facet": "Kraft",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Kraftvoll."
+    },
+    {
+      "id": "dis_clumsy",
+      "name": "Ungelenk",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Feine Balance, schnelle Richtungswechsel und saubere Bewegungsablaeufe geraten dir leichter unsauber.",
+      "description": "Ungelenk steht fuer schlechte Koordination unter Tempo, Last oder engem Raum.",
+      "attribute_anchor": "Koerper",
+      "facet": "Geschick",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Geschickt."
+    },
+    {
+      "id": "adv_analytical",
+      "name": "Analytisch",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Muster, Fehlerquellen, Zusammenhaenge und technische Logik springen dir schneller ins Auge.",
+      "description": "Analytisch steht fuer strukturierte Auswertung, klare Zerlegung komplexer Lagen und belastbare Schlussfolgerungen.",
+      "attribute_anchor": "Geist",
+      "facet": "Analytik",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Zerstreut."
+    },
+    {
+      "id": "adv_willstrong",
+      "name": "Willensstark",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Mentale Belastung, Ablenkung, Druck und Einschuechterung brechen deinen Fokus seltener.",
+      "description": "Willensstark steht fuer innere Stabilitaet, Selbstkontrolle und die Faehigkeit, unter Druck bei einer Linie zu bleiben.",
+      "attribute_anchor": "Geist",
+      "facet": "Willen",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Sprunghaft."
+    },
+    {
+      "id": "dis_scattered",
+      "name": "Zerstreut",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Details, Reihenfolgen und logische Anschlussstellen rutschen dir leichter durch.",
+      "description": "Zerstreut beschreibt unzuverlaessige Strukturierung, schwache Fehlerkontrolle und das Verlieren wichtiger Details.",
+      "attribute_anchor": "Geist",
+      "facet": "Analytik",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Analytisch."
+    },
+    {
+      "id": "dis_impulsive_focus",
+      "name": "Sprunghaft",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Du wechselst leichter den mentalen Fokus, laesst dich eher ziehen und haeltst Linien schlechter durch.",
+      "description": "Sprunghaft steht fuer unruhige Konzentration, schwache Beharrlichkeit und instabiles mentales Dranbleiben.",
+      "attribute_anchor": "Geist",
+      "facet": "Willen",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Willensstark."
+    },
+    {
+      "id": "adv_charismatic",
+      "name": "Charismatisch",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Deine Praesenz bleibt haengen; du gewinnst leichter Aufmerksamkeit, Vertrauen oder Folgebewegung.",
+      "description": "Charismatisch steht fuer magnetische Ausstrahlung, soziale Zugkraft und eine starke Wirkung auf Gruppen oder Einzelpersonen.",
+      "attribute_anchor": "Praesenz",
+      "facet": "Ausstrahlung",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Farblos."
+    },
+    {
+      "id": "adv_sensitive_reader",
+      "name": "Feinfuehlig",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Stimmungen, Unsicherheiten und kleine soziale Brueche liest du schneller und sicherer.",
+      "description": "Feinfuehlig steht fuer starke soziale Wahrnehmung, gutes Timing und einen sauberen Sinn fuer Zwischentoene.",
+      "attribute_anchor": "Praesenz",
+      "facet": "Empathie",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Taktlos."
+    },
+    {
+      "id": "dis_colorless",
+      "name": "Farblos",
+      "kind": "disadvantage",
+      "tier": "minor",
+      "rules_short": "Du bleibst sozial leichter blass, wirst spaeter erinnert und erzeugst weniger Sog in einer Szene.",
+      "description": "Farblos steht fuer geringe Ausstrahlung, schwachen ersten Eindruck und wenig natuerliche soziale Anziehungskraft.",
+      "attribute_anchor": "Praesenz",
+      "facet": "Ausstrahlung",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Charismatisch."
+    },
+    {
+      "id": "dis_tactless",
+      "name": "Taktlos",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Du vergreifst dich leichter im Ton, liest Grenzen spaeter und kippst soziale Lagen schneller an.",
+      "description": "Taktlos beschreibt schwaches Gespuer fuer Timing, Zwischentoene und die Belastbarkeit anderer Menschen.",
+      "attribute_anchor": "Praesenz",
+      "facet": "Empathie",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Feinfuehlig."
     }
   ]
 }
