@@ -48,6 +48,8 @@ Der Lore‑Chat:
 - sichert Flair, Zitate und Tonmarker zusätzlich, statt sie nur in Fakten umzuschreiben  
 - führt Importe in vier Sichten: Ely, Lauri, George, Spielleiter/Erzähler  
 - dokumentiert Perspektivkonflikte explizit vor der Konsolidierung  
+- erlaubt Importe mit unvollständigen Sichten; fehlende Perspektiven werden als Nachtrag geführt  
+- verschiebt Inhalte erst von `ARBEITSSTAND` nach `KANON`, wenn mindestens zwei Sichten übereinstimmen oder die Spielleitung explizit freigibt  
 
 ---
 
@@ -91,6 +93,8 @@ Statusregeln:
 - `INTERPRETATION` ist klar als Deutung oder Vorschlag zu markieren
 - einzelne Abschnitte innerhalb einer Datei dürfen unterschiedliche Status tragen
 - Rohtext, Flair und Zitate dürfen parallel zu strukturierter Faktablage erhalten bleiben
+- bei nur einer Sicht bleibt der Inhalt standardmäßig `ARBEITSSTAND`
+- `KANON`-Freigabe erfolgt nur durch Sichtabgleich oder explizite Spielleiter-Entscheidung
 
 ---
 
@@ -119,6 +123,7 @@ Statusregeln:
 - Beziehungslogik, Plotmodule und offene Fäden nicht in Sammelkategorien verstecken  
 - Originalformulierungen mit Tonwert möglichst wortnah erhalten  
 - Rohquellen nicht durch strukturierte Ableitung ersetzen  
+- Ue18-Kontext beachten: Erotik als Beziehungs- und Szenenmarker ist erlaubt, pornografische Detailtiefe gehört nicht in die Chronikstruktur  
 
 ---
 

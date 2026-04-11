@@ -186,10 +186,20 @@ source: lore_db.md
     - Rueckzug zum ueberfuellten Sunset Motel; improvisierte Ruhephase hinter dem Motel mit emotionaler und erotischer Entlastung des Trios.
 - **2077-07-05 Vormittag**:
   - Oggy / Chip im Kurierbike / Training / beginnende Spurensuche
+  - **Ely-Sicht (ARBEITSSTAND)**:
+    - Morgen nach Sunset-Motel-Nacht: Lauri berichtet von nachlassenden Schmerzen; George bringt Kaffee, Snacks und "Shower in the Can".
+    - Das Trio uebergibt einen Stick bei Dakota, erhaelt Koordinaten und trifft Mitch von den Aldecaldos.
+    - Bei Oggy wird am Kurierbike ein weiterer Datenstick am Reservetank gefunden; George haelt ihn fuer spaetere Donny-Auswertung zurueck.
+    - Scavengers erscheinen am Schrottplatz, ziehen aber wieder ab.
 - **2077-07-05 Nachmittag**:
   - Aldecaldos-Kontakt
   - Trio ist mit Mitch und Scorpion nochmals bei Oggy
   - dort erhalten sie die Information ueber Patrick
+  - **Ely-Sicht (ARBEITSSTAND)**:
+    - Auf dem Weg mit dem Bike Richtung Aldecaldos: Tankstellenstopp, Beobachtung eines Anzugtyps mit zwei Begleitern bei Oggy.
+    - Recherche benennt den Mann als **Harry Bohn**, Privatsekretaer von "Primus Belsarius Prime" (Namensabgleich offen).
+    - Das Trio wird unterwegs von Aldecaldos gestellt; Mitch klaert, das Bike wird aufgeladen und gemeinsam weitertransportiert.
+    - Im Trio wird der Zukunftskonflikt offen: Uniabbruch-/Schrauberlaufbahn (Lauri), Footballausstieg (George), Uniwunsch Chemie (Ely).
 - **2077-07-05 Abend / Nacht**:
   - Ely und Lauri dringen in den Raffen-Shiv-Stuetzpunkt bei der Patrick-Spur ein; George, Mitch und Scorpion warten zunaechst draussen.
   - Ely und Lauri geraten in ein Feuergefecht mit zwei zugedroehnten Raffen; einer toetet dabei versehentlich seinen eigenen Mann.

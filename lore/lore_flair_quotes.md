@@ -82,6 +82,14 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Man war der Kerl schwer."
 - "Sie bricht zusammen, aber das ist uns egal. Wir haben uns."
 
+### 5.-Juli Oggy-/Aldecaldo-Tag (Ely-Sicht)
+**ARBEITSSTAND**
+- "Endlich keine Schmerzen mehr"
+- "Oh Snaki, warum hast du nichts gesagt?"
+- "Donny?" / "Spaeter!"
+- "Das haettet ihr auch einfacher haben koennen. Ich bin Mitch von den Aldecaldos"
+- "Einmal ist keinmal, zweimal ein Zufall, aber dreimal ein Muster."
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

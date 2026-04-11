@@ -30,3 +30,6 @@ source: lore_db.md
 - V/George-Aehnlichkeit und spaetere Verwicklungen bleiben Hook und nicht gesetzter Kanonpfad.
 - 2077-07-04 Ely-Bericht zur Militech-Infiltration ist bisher nur einseitig belegt; Lauri-, George- und Spielleiter-Sicht fehlen fuer Endkonsolidierung.
 - Inhalt und Tragweite der am 2077-07-04 exfiltrierten Daten (Militech/Truck/Race-Relevanz) sind offen.
+- 2077-07-05 Ely-Bericht ist ebenfalls einseitig belegt; Lauri-, George- und Spielleiter-Sicht fehlen.
+- Namensabgleich offen: "Primus Belsarius Prime" (Ely-Bericht 07-05) gegen etabliertes "Primus Belsarius Trump".
+- Bedeutung des zweiten Datensticks aus dem Kurierbike-Reservetank (07-05 Ely-Sicht) offen.
