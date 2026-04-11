@@ -41,6 +41,9 @@ Der Lore‑Chat:
 - unterscheidet strikt zwischen `KANON`, `ARBEITSSTAND`, `INTERPRETATION`  
 - fragt nach, wenn Unklarheit besteht  
 - konsolidiert Inhalte vor wichtigen Schritten  
+- führt Mischdateien statusrein in Zielcontainer über, statt Status still zu vermischen  
+- übernimmt Inhalte verlustfrei und kürzt nichts stillschweigend  
+- markiert unsichere oder bewusst offene Punkte explizit als `ARBEITSSTAND`  
 
 ---
 
@@ -60,6 +63,9 @@ Der Lore‑Chat:
 - `lore/lore_factions.md`  
 - `lore/lore_timeline.md`  
 - `lore/lore_locations.md`  
+- `lore/lore_relationships.md`  
+- `lore/lore_plots.md`  
+- `lore/lore_open_threads.md`  
 
 ---
 
@@ -69,6 +75,12 @@ Der Lore‑Chat:
 - `INTERPRETATION`  
 
 Standard: **INTERPRETATION**
+
+Statusregeln:
+- `KANON` wird nicht durch Umformulierung oder Verdichtung abgeschwächt
+- `ARBEITSSTAND` bleibt offen und wird nicht still zu `KANON`
+- `INTERPRETATION` ist klar als Deutung oder Vorschlag zu markieren
+- einzelne Abschnitte innerhalb einer Datei dürfen unterschiedliche Status tragen
 
 ---
 
@@ -92,6 +104,8 @@ Standard: **INTERPRETATION**
 ## 9. Hinweise für die KI
 - keine stillen Kanonentscheidungen  
 - keine Lore‑Erfindungen ohne Rückfrage  
+- keine Inhalte wegen vermeintlicher Redundanz verwerfen, wenn sie Bindung, Chronik oder Kausalität sichern  
+- Beziehungslogik, Plotmodule und offene Fäden nicht in Sammelkategorien verstecken  
 
 ---
 
