@@ -189,7 +189,7 @@ source: lore_db.md
   - **Ely-Sicht (ARBEITSSTAND)**:
     - Morgen nach Sunset-Motel-Nacht: Lauri berichtet von nachlassenden Schmerzen; George bringt Kaffee, Snacks und "Shower in the Can".
     - Das Trio uebergibt einen Stick bei Dakota, erhaelt Koordinaten und trifft Mitch von den Aldecaldos.
-    - Bei Oggy wird am Kurierbike ein weiterer Datenstick am Reservetank gefunden; George haelt ihn fuer spaetere Donny-Auswertung zurueck.
+    - Der Kurierbike-Stick bleibt zentral fuer Donny-Auswertung und weitere Spurensuche.
     - Scavengers erscheinen am Schrottplatz, ziehen aber wieder ab.
 - **2077-07-05 Nachmittag**:
   - Aldecaldos-Kontakt
@@ -197,17 +197,23 @@ source: lore_db.md
   - dort erhalten sie die Information ueber Patrick
   - **Ely-Sicht (ARBEITSSTAND)**:
     - Auf dem Weg mit dem Bike Richtung Aldecaldos: Tankstellenstopp, Beobachtung eines Anzugtyps mit zwei Begleitern bei Oggy.
-    - Recherche benennt den Mann als **Harry Bohn**, Privatsekretaer von "Primus Belsarius Prime" (Namensabgleich offen).
+    - Recherche benennt den Mann als **Harry Bohn**, Privatsekretaer von **Primus Belsarius Trump**.
     - Das Trio wird unterwegs von Aldecaldos gestellt; Mitch klaert, das Bike wird aufgeladen und gemeinsam weitertransportiert.
     - Im Trio wird der Zukunftskonflikt offen: Uniabbruch-/Schrauberlaufbahn (Lauri), Footballausstieg (George), Uniwunsch Chemie (Ely).
 - **2077-07-05 Abend / Nacht**:
   - Ely und Lauri dringen in den Raffen-Shiv-Stuetzpunkt bei der Patrick-Spur ein; George, Mitch und Scorpion warten zunaechst draussen.
+  - Einsatzkontext: Wraith-Versteck als Night-City-Zweig der Raffen Shiv.
   - Ely und Lauri geraten in ein Feuergefecht mit zwei zugedroehnten Raffen; einer toetet dabei versehentlich seinen eigenen Mann.
   - Lauri toetet den zweiten Angreifer mit **Bluttrinker**, nachdem sie ihm den Arm abtrennt.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Lauri schildert massiven Trigger durch Drogenkontext und den Moment, in dem ein Angreifer den eigenen Mann in ihren Armen erschiesst.
+    - Sie beschreibt kurzzeitigen Tunnelzustand mit extremer Gewaltbereitschaft; Deeskalation erfolgt ueber die Ansprache "Meredith".
   - Das Geschehen traumatisiert Ely und Lauri massiv.
   - Hoeher im Stuetzpunkt ueberwaeltigen Ely und Lauri einen weiteren Raffen, der sich als Anfuehrer ausgibt.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Es wird ein akuter sexualisierter Gewaltkontext gegen eine Frau vor Ort benannt.
   - Die von ihm vergewaltigte Frau **Sylvia** schiesst aus Angst auf Ely.
-  - George erreicht die Szene rechtzeitig, um Lauri mit **"Meredith"** zu beruhigen.
+  - George erreicht die Szene rechtzeitig, um Lauri mit **"Meredith"** zu beruhigen; dies ist das erste dokumentierte "Meredith" von George an Lauri.
   - Nach dem Verhoer zu Patrick schickt Scorpion Trio und Sylvia hinaus und toetet den Anfuehrer selbst.
   - Ely, Lauri, Mitch und Sylvia fahren ins Aldecaldo-Lager; George und Scorpion fahren weiter zu Patrick.
   - Patrick packt aus und nennt auch den Fundort der Leiche des Aldecaldos-Kuriers.
@@ -218,10 +224,24 @@ source: lore_db.md
   - George lenkt die Scavanger auf seiner **ARC** per Drive-by ab; Scorpion bringt den Truck mit den Leichen zurueck zu den Aldecaldos.
 - **2077-07-05 spaetere Nacht**:
   - Im Aldecaldo-Lager werden Sylvia versorgt sowie Ely und Lauri notduerftig aufgefangen; beide duschen und versuchen, das Erlebte zu verarbeiten.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Unmittelbar nach dem Versteckeinsatz folgt eine harte Nacheskalation; George traegt Lauri aus der Szene und stabilisiert sie.
+    - George bestaerkt Lauri in der Nachphase explizit mit "Du hast alles richtig gemacht. Alles absolut richtig."
+    - Teamteilung: George + Scorpion fahren zu Patrick; Ely + Lauri bringen Sylvia ins Aldecaldo-Lager.
+    - Lauri benoetigt starke Selbstregulation (Dusche, Naehe, Training/Abreaktion).
   - Nolan entwirft fuer Lauri als Ablenkung ein Tattoo-Motiv mit **drei Schlangen**.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Bei Live-Call kuendigt George erneuten Drive-by gegen Scavengers an; Leitung wird unterbrochen.
+    - Rueckkehrerwartung aus Georges Funk: Kuehlwagen mit vielen Leichen.
   - Die Aldecaldos bereiten fuer ihre Toten und die uebrigen Leichen eine Feuerzeremonie vor.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Lauri stickt ein Aldecaldo-Emblem auf Stoff aus ihrem Oberteil und legt es als persoenliche Geste bei der Totenfeier auf.
+    - Ely und Mitch organisieren Feuerwerk; die Geste wird im Lager positiv aufgenommen und veraendert den sozialen Blick auf das Trio.
   - Ely und Lauri helfen bei Abschiedsgeschenken fuer die Toten; das wird von den Aldecaldos sehr positiv aufgenommen.
   - George spielt bei der Totenfeier mit geliehener Gitarre zusammen mit anderen Aldecaldos traurige Lieder.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Im zugewiesenen Zelt folgt ein langes Triogespraech ueber Schuld, Notwendigkeit und gemeinsame Linie.
+    - Danach folgt eine intime Rueckversicherung des Trios (ohne pornografische Detailfuehrung in der Chronik).
   - Spaet in der Nacht sprechen George, Ely und Lauri im ihnen ueberlassenen Zelt ihre Aengste offen aus und entscheiden gemeinsam, weiterzumachen.
   - In dieser emotional aufgeladenen Nacht geben sie sich ihrer Liebe hin.
 - **2077-07-06 frueher Morgen**:
@@ -241,3 +261,42 @@ source: lore_db.md
   - Ely beginnt Einkaeufe und Besorgungslisten fuer die Aldecaldos zu sammeln; einige Wuensche wirken wie halb ernste Veraeppelung, werden aber mitgenommen.
   - Wegen Medis, Erste-Hilfe-Ausruestung und Nachsorge fuer George / das Trio wird ein Besuch bei Vik als dringend markiert.
   - Paralleler CP2077-Weltplot laeuft in Night City sichtbar im Hintergrund.
+
+- **2077-07-07 (Uebergangstag)**:
+  - **Sammelstand (ARBEITSSTAND)**:
+    - Kein eigener voll ausgeschriebener Tagesblock in den bisherigen Auszuegen.
+    - Tag liegt in der H10-/NCU-/Nachsorge-Uebergangsphase zwischen 06.07. und 08.07.
+
+- **2077-07-08**:
+  - **Sammelstand (ARBEITSSTAND)**:
+    - Das Trio wacht im H10 auf, trainiert, stimmt sich ab und verbringt gemeinsame Zeit.
+    - Ely geht vormittags zu Wilson ins 2nd Amendment, klaert Wettschiessen-Regeln und kauft Waffenverbesserungen.
+    - Nachmittags zahlt Ely 100 EB Startgebuehr und nimmt am Wettschiessen teil.
+    - Ely wird Zweite; Klaus bleibt formell Sieger ueber Burst-Fire-Vorteil bei nicht praezise gefassten Regeln.
+    - Ely erhaelt guenstig die ikonische schwere Pistole **Dying Light**.
+    - **Dying Light** wird als hochwertige Einzelwaffe mit Burst-Fire-Moeglichkeit und sinnvoller Nutzung ueber Waffenlink gefuehrt.
+    - Rueckkehr ins Apartment; trotz etwa drei Wochen Uni-Entschuldigung wird weiter gelernt.
+    - Lernen kippt in intime, spielerische Naehe (inklusive "Strip learning" als Beziehungsmarker).
+
+- **2077-07-09**:
+  - **Sammelstand (ARBEITSSTAND)**:
+    - Trio wacht im H10 auf; Training mit Anschub fuer Ely.
+    - Delamain-Fahrt zu Oggy, gemeinsames Essen mit Oggys Familie.
+    - Kitt-Fahrzeugthema: George/Ely arbeiten am Wagen, Ely wuenscht roten LED-Frontstreifen.
+    - Trio entscheidet, Raketenwerfer den Raffen Shiv zuzuschreiben; Transport ueber Oggy-Wagen zu den Aldecaldos.
+    - Aldecaldos uebernehmen Zuschreibung der Raketenwerfer; Raketen verbleiben bei ihnen.
+    - Medizin-/Cyberphase:
+      - Ely: erster Tattoo-Teil.
+      - Lauri: Waffenlink rechte Hand, hadert mit Medis.
+      - George: beide Haende angepasst.
+      - Eingriffe bleiben klein, Schmerzen maessig.
+    - Geplanter Rueckzug ins Zelt (Gespraech/Liedarbeit) wird durch neuen Medizinfaden erweitert:
+      - Bronco (DocWagon-Kurier) hat Kontakt zu Tim.
+      - Tim koennte eine Spezialniere fuer Jake beschaffen.
+      - Kosten sehr hoch, Vertrauenswuerdigkeit unklar.
+      - Dakota waere moeglicher, aber langsamer Alternativpfad.
+      - Scavenger-Pfad wird verworfen.
+      - Lauri troestet Jakes Mutter.
+      - Trio diskutiert nicht mehr ob, sondern wie geholfen wird.
+    - Abends Lagerfeuer mit den Aldecaldos; Nolan, Chubby u. a. sind sichtbar freundlich.
+    - Trio wirkt am Feuer musikalisch und sozial stark integriert.

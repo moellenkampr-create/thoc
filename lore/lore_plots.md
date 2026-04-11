@@ -149,9 +149,34 @@ source: lore_db.md
 - Einstieg voraussichtlich ueber ein belauschtes Aldecaldo-Gespraech; optional kann George als spaeterer Informationsverstaerker dienen, aber nicht als primaerer Questverteiler.
 
 ### Band-Entstehungsplot / Club- oder Talentshow-Abend
+**ARBEITSSTAND - SUBPLOT / CORE-IDENTITY-PLOT**
+- Kein klassischer Macht- oder Politplot; im Kern ein Identitaets-, Sichtbarkeits- und Gruppendefinitionsplot.
+- Nicht Teil des Weltplots als Kern, aber spaeter gut daran ankoppelbar.
+- Sollte nicht als Nebenbei-Musik-Kram behandelt werden; fruehe Aktivierung empfohlen, damit das Trio nicht erst sehr spaet als echte Band Form bekommt.
+
+**Kernidee**
 - Im Aldecaldo-Lager existiert ein starker Gitarrist/Saenger: **Rafael "Chubby" Ortega**.
 - Chubby ist stimmlich und atmosphaerisch ideal fuer einen Club- oder Talentshow-Abend unter dem Motto **"Love, Sadness, Fear"** und waere dort wahrscheinlich Favorit.
 - Vor dem Auftritt wird Chubby jedoch von Gegnern bzw. Konkurrenz gezielt verpruegelt, sodass er nicht mehr selbst spielen kann.
 - Das Trio soll auf seine Bitte hin einspringen; aus seiner Sicht sind sie immer noch besser als die "verkackten Scheisser", die sonst profitieren wuerden.
 - Als Gegenpartei ist eine Band oder ein Umfeld aus reichen bzw. privilegierten Kreisen angedacht, die Chubby als unpassende Konkurrenz aus dem Feld raeumen wollen.
 - Der Plot soll organisch dazu fuehren, dass das Trio erstmals real als Band auftritt und aus einem Notfall heraus merkt, dass es musikalisch gemeinsam funktioniert.
+
+**Venue - ARBEITSSTAND (Chat-Entwicklung, noch nicht Lore-abgesichert)**
+- Passender kleiner Club nahe Mandys als Schauplatz entwickelt: **Velvet Static**
+- Besitzerin: **Mireille "Miri" Vasko**
+- Belegschaft: **Sana Vale**, **Derek "Brick" Moreno**, **Ivo Renn**
+- Club- und Personalinfos sind reine Chatentwicklung; muessen noch per Import in die Hauptlore ueberfuehrt werden.
+
+**Spaetere Ankopplung (offen)**
+- Medienaufmerksamkeit nach erstem Auftritt moeglich
+- Einfluss auf NCU-/sozialen Raum
+- Indirekter oder direkter Andockpunkt an den Weltplot
+
+**Offen**
+- Name und genaue Ausgestaltung des Clubs / der Talentshow (Velvet Static als Arbeitsstand)
+- Genauer Ablauf des Abends
+- Wer genau die rivalisierende reiche/privilegierte Band ist
+- Wie stark Chubby vorher schon mit dem Trio verbunden ist
+- Welche Songs das Trio dort spielt
+- Wie gross die unmittelbaren Folgen des Auftritts sind

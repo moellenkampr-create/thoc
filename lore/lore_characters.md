@@ -266,3 +266,27 @@ source: lore_db.md
 **ARBEITSSTAND**
 - starker Gitarrist/Saenger im Aldecaldo-Lager
 - wichtiger moeglicher Ausloeser fuer die spaetere Band-Entstehung
+- geplanter Trigger fuer den Band-Entstehungsplot (Talentshow-Abend "Love, Sadness, Fear")
+- in global_db.json als Side-NPC / Musiker referenziert (Alias "Chubby", Kontext Aldecaldo-Camp-Musiker)
+
+### Mireille "Miri" Vasko
+**ARBEITSSTAND - Chat-Entwicklung, noch nicht Lore-abgesichert**
+- Besitzerin des Clubs **Velvet Static** (nahe Mandys)
+- moeglicher Veranstaltungsort fuer den Band-Entstehungsplot-Auftritt
+
+### Sana Vale
+**ARBEITSSTAND - Chat-Entwicklung, noch nicht Lore-abgesichert**
+- Mitarbeiterin im **Velvet Static**
+
+### Derek "Brick" Moreno
+**ARBEITSSTAND - Chat-Entwicklung, noch nicht Lore-abgesichert**
+- Mitarbeiter im **Velvet Static**
+
+### Ivo Renn
+**ARBEITSSTAND - Chat-Entwicklung, noch nicht Lore-abgesichert**
+- Mitarbeiter im **Velvet Static**
+
+### Meister Ming
+**KANON**
+- Martial-Arts-Trainer von Lauri
+- erscheint in Lauris innerer Reflexion als moralischer Referenzpunkt in der 07-05-Nachtphase

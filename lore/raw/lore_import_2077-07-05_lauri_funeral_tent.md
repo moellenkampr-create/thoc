@@ -1,0 +1,24 @@
+---
+title: THoC Rohimport Lauri Bericht
+version: 1.0.0
+project: thoc
+file: lore_import_2077-07-05_lauri_funeral_tent.md
+type: raw-import
+tags: [lore, raw, import, lauri, 2077-07-05]
+created: 2026-04-11
+story_date: 2077-07-05 late-night
+source: user input
+---
+
+# Lauri Bericht (Rohimport)
+
+Hinweis:
+- Ue18-Umfeld bestaetigt.
+- Erotik und Gewalt sind Teil des Spielerlebnisses.
+- Pornografische Ausfuehrungen sollen nicht in strukturierte Chroniken uebernommen werden.
+
+## Originaltext
+Noch mehr von Lauri:
+Ely quatscht mit Mitch. Es wird eine Totenfeier geben. Wir sind vorher eingeladen worden, die Nacht hier zu bleiben. Ich habe das Gefühl, jetzt bereuen sie es ein wenig. Wir sollten uns anschließen, damit wir keine Fremdpartikel, keine so schlimmen, sind. Gerade als ich das denke, und mit Balanceübungen beginne, damit ich nicht durchdrehe, beim Sitzen, spricht Ely aus, was ich gedacht hab. Mitch ist nicht sicher, aber als Sal das hört, stimmt er zu. Nolen, er war ziemlich begeistert von meinen gestickten Schlangen. Ich verwerfe den Gedanken fort. Das wäre unpassend. Sie bedeuten uns was. Aber wir kannten die Toten nicht. Sie kannten uns nicht. Es wäre geradezu eingebildet das zu tun... Aber...Das Aldecaldos Zeichen. War nicht so kompliziert. Das bekomme ich in einer Stunde hin. Ich lächele. Ich sehe in mein Kästchen. Kein Stück Stoff. Ich reisse einfach den Bauchbereich von meinem Oberteil. Etwas persönliches von mir, und etwas, was ihnen was bedeutet.
+Das klingt super in meinen Ohren. Tunnel, als ich beginne. Unzufrieden muss ich zweimal auftrennen. Und dann... Es ist perfekt. Nolen steht neben mir und starrt es an. "Das ist der Wahnsinn. ich wünschte, ich könnt sowas." Ich muss lachen, als ich sein Bild sehe - es ist um so viel besser, als meines. Es ist, als hätte er es direkt aus meinem Kopf herausgezogen. "Das ist fantastisch. Perfekt. Danke!" Er sieht mich an, lächelt kurz. "Ich geh dann wieder zu den anderen." Ich nicke. Ich habe keine Ahnung, wie es abläuft. Da sehe ich Lala. Mit Holz. Ich gehe auf sie zu. "Kann ich dir helfen?" Sie zieht das Holz weg. "Meinst du, das geht?" Zeige ich ihr das gestickte Emblem. "Warum machst du das. Du gehörst nicht dazu. Du hast sie nicht gekannt." Sie klingt ablehnend. Verhalten wir uns wirklich wie die Politiker, die glauben überall willkommen zu sein? Nein, dashier ist was anderes. Ich sehe sie direkt an. "Ich weiß. Darum hab ich nichts gemacht, was mir was bedeutet, sondern etwas, was ihnen was bedeutet hat." Sie sieht mich überrascht an. Wir sind beim Stapel angekommen, sie wirft mir die Hälfte vom Holz vor die Füße. Grinst mich an. Ich darf helfen. Es erdet mich. Ely und Mitch bauen Feuerwerk. Ich grinse. Ich wette es ist noch niemals ein Feuerwerk für einen Nomaden gezündet worden. Gerade als wir fertig sind, kommen die Wägen an. Ich will, dass Lala das Emblem darauf legt. Will nicht in den Mittelpunkt, aber sie grinst mich gemein an und meint nur. "Das machst du schön selber." Ich fluche leise. George ist am Stück, aber hat was abbekommen. "Du hast Driveby Verbot!" Sagt Ely ernst.
+Er grinst kurz, doch dann geht es auch schon los. Ich lege mein Emblem auf die Toten. "Sichere Reise, schade, dass wir uns nie kennenlernen werden." Flüsstere ich leise. Keine Ahnung, ob mich einer hört, ob es jemandem passt. Sie klopfen Ely auf den Rücken, sie mögen das Feuerwerk. "Danke!" Hört man immer wieder. Ich grinse, da haut mir einer auf den Rücken. Bei mir sagen sie nichts, sie nicken nur. Und ich habe das Gefühl, als würden wir nun anders gesehen. Als wären wir hier willkommener. Seltsam. Fast wie sowas wie entfernte Verwandte. Ely zieht mich und George in das Zelt, das sie zu unserem erklärt haben. Kurz flackert der Gedanke vorbei, musste das jemand räumen? Aber er ist fort, als George mit uns spricht. Wir sprechen sehr sehr lang. Ewig. Es geht um die Toten. George will wissen, ob wir das alles immernoch wollen. Wir versichern uns gegenseitig, dass alles, was wir taten, völlig OK und richtig war. Da beginnt George zu zweifeln. Gut, habe ich auch. Ich wollte dieses Ding töten. Langsam und Qualvoll. Aber ich ertrage es nicht, dass George jetzt zweifelt. Ich merke ich liebe ihn und kann nicht anders. Umarmen tue ich die beiden schon, sein Ständer lächelt mich an. Elys Lippen sind rot. Ihre Brust hebt und senkt sich beim Atmen. Ich beisse George in den Nacken, was eine Kettenreaktion auslöst, wir lassen uns fallen. Wir sind wie diese drei Schlagen, wir schlängeln und umeinander, alle sind nirgends und überall. Ich glaube George steckt noch in Ely, als wir einschlafen. Kurz bevor ich wegdrifte denke ich kurz an Meister Ming. Da kommt ein Lächeln auf mein Gesicht. Er würde bestimmt sowas sagen wie: "Manchmal muss man Taten ausführen, die alleine betrachtet als böse gelten, um etwas gutes zu tun." Ich flüsstere es leise, es klingt so sehr nach ihm, und so weise. Das kann nicht von mir kommen.

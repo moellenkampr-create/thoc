@@ -47,6 +47,7 @@ source: lore_db.md
 - Wird von Ely manchmal **"Snaki"** genannt - foppend, neckend.
 - Wird von Ely manchmal **"Meredith"** genannt, um sie zu beruhigen, zu erden, zu fokussieren.
 - Akzeptiert `Meredith` auch von George.
+- Erstes dokumentiertes `Meredith` von George an Lauri: 2077-07-05 im Versteck-/Eskalationskontext zur Deeskalation.
 - Von anderen waere diese Anrede massive Grenzueberschreitung.
 - Nennt Ely manchmal **"Engel" / "Angel"**.
 

@@ -90,6 +90,28 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Das haettet ihr auch einfacher haben koennen. Ich bin Mitch von den Aldecaldos"
 - "Einmal ist keinmal, zweimal ein Zufall, aber dreimal ein Muster."
 
+### 5.-Juli Wraith-/Raffen-Versteck (Lauri-Sicht)
+**ARBEITSSTAND**
+- "DROGEN! Das Scheisszeug kommt mir nie mehr nahe."
+- "Wieso fallen Arme so leicht ab?!"
+- "Meredith. Meredith... lass ab. Hoer auf."
+- "Er hat sie vergewaltigt."
+
+### 5.-Juli Nachphase im Aldecaldo-Lager (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Ich wollte doch nur, dass er die Pistole loslaesst. Es tut mir leid."
+- "Du hast alles richtig gemacht. Alles absolut richtig."
+- "SCHALT UNS NICHT AB. Bitte."
+- "Drei Schlaege spaeter fetzt der Boxsack auseinander."
+- "Wir werden mit einem Kuehlwagen zurueckkommen... Es sind viele."
+
+### 5.-Juli Totenfeier und Zeltnacht (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Sichere Reise, schade, dass wir uns nie kennenlernen werden."
+- "Als waeren wir hier willkommener."
+- "Du hast Driveby Verbot!"
+- "Manchmal muss man Taten ausfuehren, die alleine betrachtet als boese gelten, um etwas gutes zu tun."
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

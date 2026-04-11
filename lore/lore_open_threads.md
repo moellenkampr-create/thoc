@@ -31,5 +31,10 @@ source: lore_db.md
 - 2077-07-04 Ely-Bericht zur Militech-Infiltration ist bisher nur einseitig belegt; Lauri-, George- und Spielleiter-Sicht fehlen fuer Endkonsolidierung.
 - Inhalt und Tragweite der am 2077-07-04 exfiltrierten Daten (Militech/Truck/Race-Relevanz) sind offen.
 - 2077-07-05 Ely-Bericht ist ebenfalls einseitig belegt; Lauri-, George- und Spielleiter-Sicht fehlen.
-- Namensabgleich offen: "Primus Belsarius Prime" (Ely-Bericht 07-05) gegen etabliertes "Primus Belsarius Trump".
-- Bedeutung des zweiten Datensticks aus dem Kurierbike-Reservetank (07-05 Ely-Sicht) offen.
+- Bedeutung des Kurierbike-Sticks (07-05 Ely-Sicht) fuer Race-/Fraktionslage bleibt offen.
+- 2077-07-05 Wraith-/Raffen-Versteck liegt jetzt auch in Lauri-Sicht vor; Detailreihenfolge zwischen Ely-/Lauri-Sicht ist noch zu harmonisieren.
+- 2077-07-05 Nachphase (Lauri-Sicht) ergaenzt den Spaetabendblock; Abgleich mit George-/SL-Sicht zum Patrick-/Drive-by-Teil offen.
+- Rueckstand aus vorherigem Chat: bereits besprochene Daten sind nur teilweise in der Lore verankert und muessen weiter per Altbericht-Backfill eingepflegt werden.
+- 2077-07-05 Totenfeier-/Zeltnachtblock aus Lauri-Sicht ergaenzt; Feinschliff zu Reihenfolge mit Ely-/George-Sicht bleibt offen.
+- 2077-07-08 und 2077-07-09 sind als Sammelstand neu verankert; Feinschliff ueber Einzelperspektiven steht noch aus.
+- Tim-/Jake-Spezialnierenfaden braucht Folgekonsolidierung (Vertrauenspruefung, Beschaffungspfad, Kosten-/Zeitdruck).

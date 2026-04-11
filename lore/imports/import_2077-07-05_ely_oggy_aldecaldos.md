@@ -10,7 +10,7 @@
 - Kernwahrnehmung:
   - Morgen nach Sunset-Motel-Nacht mit Erschoepfung, dann Rueckkehr in Missionsmodus.
   - Uebergabe von Datenstick bei Dakota, Kontaktanbahnung zu Mitch/Aldecaldos.
-  - Oggy-Schrottplatz mit Kurierbike, Scavenger-Beobachtung und weiterem Stickfund.
+  - Oggy-Schrottplatz mit Kurierbike und Scavenger-Beobachtung.
   - Strategischer Weitertransport des Bikes Richtung Aldecaldos, inklusive Tankstellenstopp und Beobachtung eines Anzugtyps.
   - Zukunftsgespraech im Trio ueber Uni, Football und Lebensausrichtung.
 - Emotionale Marker:
@@ -28,20 +28,19 @@
   - Storyzeitpunkt: 2077-07-05 (Ely-Sicht).
   - George bringt morgens Kaffee, Snacks und "Shower in the Can".
   - Das Trio liefert einen Stick bei Dakota ab, erhaelt Koordinaten und trifft Mitch.
-  - Beim Kurierbike bei Oggy wird ein weiterer Datenstick am Reservetank gefunden und vorerst fuer Donny zurueckgehalten.
+  - Der Stick aus dem Kurierbike bleibt zentral fuer Donny-Auswertung und weitere Spurensuche.
   - Scavengers erscheinen am Schrottplatz; sie ziehen wieder ab.
   - Das Trio transportiert das Bike Richtung Aldecaldos.
   - Tankstellenstopp und verdeckte Beobachtung eines Anzugtyps mit zwei Begleitern bei Oggy.
-  - Spaetere Recherche benennt den Mann als **Harry Bohn**, Privatsekretaer von "Primus Belsarius Prime" (Schreibweise ungesichert).
+  - Spaetere Recherche benennt den Mann als **Harry Bohn**, Privatsekretaer von **Primus Belsarius Trump**.
   - Auf der Route wird das Trio von Aldecaldos gestellt; Mitch klaert die Lage, Bike wird verladen.
   - Im Trio gibt es offene Zukunftsdebatte:
     - Lauri erwaegt Uniabbruch und Werkstatt-/Schrauberweg.
     - George erwaegt Ausstieg aus Football trotz emotionaler Bindung.
     - Ely will an der Uni bleiben (Chemie/Experimente).
 - Unsicherheiten:
-  - Schreibweise und genaue Identitaet: "Primus Belsarius Prime" vs. etablierter Name im Bestand.
   - Exakte Reihenfolge einzelner Oggy-/Tankstellen-/Aldecaldo-Szenen.
-  - Dateninhalt des neu gefundenen Sticks.
+  - Dateninhalt des Kurierbike-Sticks.
   - Aussagen sind bislang nur in Ely-Sicht belegt.
 
 ## Lauri-Sicht
@@ -88,6 +87,5 @@
 - lore_flair_quotes: markante 07-05-Formulierungen und Tonanker
 
 ## Offene Fragen an Spielleitung
-- Ist "Primus Belsarius Prime" ein bewusster Name oder ein Ely-/Datenfehler gegenueber "Primus Belsarius Trump"?
-- Was genau steckt auf dem zweiten Stick aus dem Reservetank?
+- Was genau steckt auf dem Kurierbike-Stick?
 - Soll der Zukunftskonflikt Uni/Football/Schrauberweg als eigener Plotfaden hochgezogen werden?

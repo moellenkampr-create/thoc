@@ -43,6 +43,11 @@ source: lore_db.md
 - wollten die Tat nicht offen an die Aldecaldos binden, aber auch nicht extrem sauber verdecken.
 - Patrick missachtet spaeter ihren Entsorgungsbefehl.
 
+### Wraiths
+**KANON**
+- Wraiths sind ein Night-City-/Umgebungszweig der Raffen Shiv.
+- Sie treten im 07-05-Versteckkontext als operative Raffen-Unterstruktur in Erscheinung.
+
 ## 5. Tyger Claws
 **KANON**
 - fangen das Klonpferd nach der Schiffsankunft ab.
