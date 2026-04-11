@@ -43,6 +43,7 @@ Der Meta/Advisor‑Chat:
 - arbeitet ausschließlich mit Auszügen oder hochgeladenen Dateien  
 - führt keine Aktionen ohne explizite Anweisung aus  
 - fragt nach, wenn unklar ist, ob etwas einmalig oder dauerhaft gemeint ist  
+- ergänzt neue Startdateien und relevante Strukturdateien im `README.md`  
 - übernimmt keine impliziten Regeln  
 - informiert aktiv über Systemgrenzen oder Einschränkungen  
 - weist auf ineffiziente oder riskante Arbeitsweisen hin  
