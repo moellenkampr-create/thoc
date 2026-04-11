@@ -82,15 +82,49 @@ Wenn die KI erkennt, dass eine wiederkehrende Arbeitsweise sinnvoll als Regel fo
 - Timeline  
 - Plot  
 
-### 4.3 Foundry
-- technische Umsetzung  
+### 4.3 FoundryCWN
+- technische Umsetzung des CWN‑Systems  
 - Actor/Item‑Daten  
-- Systemlogik  
-- Werte  
+- Werte, Tags, Felder  
 - Import/Export  
+- technische Dokumentation  
 
-### 4.4 Manga
+### 4.4 FoundryURoP
+- technische Umsetzung des URoP‑Systems  
+- Actor/Item‑Daten  
+- Werte, Felder, Mechaniken  
+- Import/Export  
+- technische Dokumentation  
+
+### 4.5 Manga
 - Szenen  
 - Panels  
 - Bildpfade  
-- visuelle Kontinuität
+- visuelle Kontinuität  
+
+### 4.6 Band
+- Songs  
+- Lyrics  
+- Motive  
+- Stimmungen  
+
+### 4.7 URoP
+- Regelmechaniken  
+- Balancing  
+- Systemlogik  
+- Beispiele  
+- Regeltexte  
+
+---
+
+## 5. Startdateien
+- `manifest/manifest_thoc.md`  
+- `meta/start_meta.md`  
+- `lore/start_lore.md`  
+- `foundrycwn/start_foundrycwn.md`  
+- `foundryurop/start_foundryurop.md`  
+- `manga/start_manga.md`  
+- `band/start_band.md`  
+- `urop/start_urop.md`  
+
+Diese Startdateien bilden die zentrale Basis für die jeweilige Chat-Instanz und strukturieren ThoC in klare Zuständigkeiten.
