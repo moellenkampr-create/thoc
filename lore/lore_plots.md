@@ -11,6 +11,20 @@ source: lore_db.md
 
 # Lore - Plotmodule
 
+## 0. Weltplot-Lagebild
+**KANON / ARBEITSSTAND gemischt**
+- Es gibt keinen einzelnen abgeschlossenen Masterplan, sondern mehrere verzahnte Ebenen.
+- Der wichtigste offene Weltfaden liegt derzeit im **Elias-/Kontroll-/Ueberwachungsstrang** rund um George.
+- Der Race-Machtblock, die CP2077-Seitenlage und die Henshaw-/von-Eichner-Altlasten laufen parallel und koennen sich gegenseitig triggern.
+- Lokale Faeden (z. B. Aldecaldo-Medizinplot) sind nicht Kern-Weltplot, aber als Andockpunkte fuer groessere Macht-, Medizin- und Black-Project-Linien vorgesehen.
+
+### Priorisierte offene Weltplot-Faeden
+**ARBEITSSTAND**
+- Eskalationspunkt von Elias bei George-Fake-Feed / Ueberwachung weiter ausarbeiten.
+- Langfristige Folgen der Day-6/7-Arc und der NCU-Rueckkehr des Trios konsolidieren.
+- Henshaw-/von-Eichner-Black-Project-Spuren und moegliche Restsubjekte bewusst offen halten.
+- Grosses Rennen strukturell weiterfuehren, sobald Spielerentscheidungen zu Teilnahme und Tiefe feststehen.
+
 ## 1. Das grosse Rennen
 **KANON / ARBEITSSTAND gemischt**
 
