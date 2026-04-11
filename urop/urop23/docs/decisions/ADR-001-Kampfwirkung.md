@@ -1,32 +1,31 @@
 ﻿# ADR-001 Kampfwirkung
-Status: vorgeschlagen
+Status: entschieden
 Stand: 2026-04-11
 
 ## Kontext
 Im Kernregeltext existieren zwei Linien:
-- Linie A: Groessen-/Zielmodell
-- Linie B: Waffen-/Ruestungsklassen
+- Linie A: Groessen-/Zielmodell (erspieltes Targeting, Schwachstellen, Vorbereitung)
+- Linie B: Waffen-/Ruestungsklassen (Schnellreferenz, Standardfall am Tisch)
 
 Das erzeugt Umsetzungsrisiko fuer Foundry und unklare Tischentscheidungen.
 
-## Optionen
-1. A als Hauptlinie, B nur als optionale Mappinghilfe
-2. B als Hauptlinie, A nur fuer Spezialfaelle
-3. Hybrid mit klarer Dominanz (A oder B) und enger Konvertierungsregel
+## Entscheidung
+Hybrid mit Dominanz B (Fiktions-Override durch A):
+- **Linie B** liefert die schnelle Grundwirkung im Standardfall.
+- **Linie A** darf Vorrang bekommen, wenn eine klare, erspielte Schwachstelle oder Zielchance vorliegt (Vorwissen, Vorbereitung, Position, gelungenes Setup).
+- Der Override hat Kosten: hoehere Schwelle, Zusatzrisiko oder Setup-Aufwand; bei Fehlschlag entstehen klare Nachteile.
+- Beide Linien nutzen dieselbe Wirkungsleiter — kein separates Schadenssystem.
+- Konfliktfall: plausibelste Fiktion mit hoechster erspielter Verbindlichkeit gewinnt.
 
-## Entscheidungskriterien
-- Tischtempo
-- Erklaerbarkeit
-- Datenmodellierbarkeit in Foundry
-- Anschlussfaehigkeit an Manoever, Schutz, Zielwahl
+Vollstaendige Tischregel: URoP_Grundregeln.md Abschnitt 10.1.
 
-## Vorschlag
-Hybrid mit Dominanz A:
-- A steuert die eigentliche Wirkung
-- B bleibt als kompakte Schnellreferenz fuer Ausruestungsabgleich
-- Konfliktfall gewinnt A
+## Begruendung
+- B ist schneller und erklaerbarer fuer den Standardkampf.
+- A bleibt erreichbar fuer taktische Tiefe und Rollenspiel-Payoffs.
+- Dieselbe Wirkungsleiter haelt das Datenmodell fuer Foundry einheitlich.
+- Die Uebersteuerungslogik verhindert Gaming ("ich erklaere immer eine Schwachstelle").
 
-## Offene Fragen fuer die Inhaltsdiskussion
-1. Brauchen wir B ueberhaupt, wenn A sauber tabelliert wird?
-2. Wo wird der genaue Mappingpunkt A<->B fest verankert?
-3. Welche zwei Beispielkaempfe muessen den Entscheid validieren?
+## Verworfene Optionen
+1. A als Hauptlinie — zu langsam am Tisch, Foundry-Modellierung komplex.
+2. B exklusiv — kein Anreiz fuer taktisches Spiel oder Rollenspielvorbereitung.
+3. Hybrid Dominanz A — widerspricht Tischtempo-Anforderung.

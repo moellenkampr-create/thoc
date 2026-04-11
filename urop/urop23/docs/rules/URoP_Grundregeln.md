@@ -227,6 +227,14 @@ Es existieren derzeit **zwei dokumentierte Linien**:
 
 **Wichtig:** Beide Linien sind dokumentiert. Die Endentscheidung, welche Kernlinie ins finale Gesamtregelwerk geht, ist noch offen.
 
+### 10.1 Tischregel bei Linienkonflikt [ARBEITSSTAND]
+Wenn beide Linien anwendbar sind, gilt folgende Reihenfolge:
+1. **Standard:** Linie B liefert die schnelle Grundwirkung.
+2. **Fiktions-Override:** Linie A darf Vorrang bekommen, wenn eine klare, erspielte Schwachstelle oder Zielchance vorliegt (z. B. Vorwissen, Vorbereitung, Position, gelungenes Setup).
+3. **Preis fuer Override:** Der Override braucht hoehere Huerde, Zusatzrisiko oder Setup-Kosten; bei Fehlschlag entstehen klare Nachteile.
+4. **Gleiche Wirkungsleiter:** Auch mit Override bleibt das Ergebnis auf derselben Wirkungsleiter (kein separates Schadenssystem).
+5. **Konfliktfall:** Wenn Auslegung strittig ist, gewinnt die plausibelste Fiktion mit der hoehsten erspielten Verbindlichkeit.
+
 ---
 
 ## 11. Cyberpunk-Andockung [ARBEITSSTAND]
