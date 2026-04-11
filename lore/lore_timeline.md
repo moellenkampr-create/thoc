@@ -171,11 +171,19 @@ source: lore_db.md
   - Rueckkehr an die NCU offen als Trio im `Clean Mode`
 
 ## 5. Big-Race-Vorlauf
-**KANON**
+**KANON / ARBEITSSTAND gemischt**
 - **2077-07-04**:
   - Sunset Motel / blockierte Hauptzufahrt / Feuerwerke
   - Bike Discovery bei Oggy
   - Einstieg in Big-Race-/Chip-/Fraktionskonflikt
+  - **spaeter Abend (Ely-Sicht, ARBEITSSTAND)**:
+    - George trifft per Delamain bei Ely und Lauri ein.
+    - Donny liefert Drohnen- und Patrouillenmuster; Ely plant einen Stealth-Zugang zu einer Militech-Base.
+    - George bleibt fuer Rueckendeckung im Hintergrund; Ely und Lauri infiltrieren die Anlage ueber einen Containerzugang.
+    - Fastentdeckung nach lauter Bodenberuehrung; zwei Wachen werden im Nahkampf ausgeschaltet (nichttoedlich geschildert).
+    - Garagenzugang gelingt ueber den bewusstlosen Wachmann; zwei Trucks werden als Autopilot-Ablenkung in unterschiedliche Richtungen gesendet.
+    - Daten werden exfiltriert, an Donny gespiegelt und fuer Dakota zur Uebergabe am Folgetag vorbereitet.
+    - Rueckzug zum ueberfuellten Sunset Motel; improvisierte Ruhephase hinter dem Motel mit emotionaler und erotischer Entlastung des Trios.
 - **2077-07-05 Vormittag**:
   - Oggy / Chip im Kurierbike / Training / beginnende Spurensuche
 - **2077-07-05 Nachmittag**:

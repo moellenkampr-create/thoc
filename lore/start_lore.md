@@ -44,6 +44,10 @@ Der Lore‑Chat:
 - führt Mischdateien statusrein in Zielcontainer über, statt Status still zu vermischen  
 - übernimmt Inhalte verlustfrei und kürzt nichts stillschweigend  
 - markiert unsichere oder bewusst offene Punkte explizit als `ARBEITSSTAND`  
+- hält Rohimporte getrennt von Strukturdateien vor  
+- sichert Flair, Zitate und Tonmarker zusätzlich, statt sie nur in Fakten umzuschreiben  
+- führt Importe in vier Sichten: Ely, Lauri, George, Spielleiter/Erzähler  
+- dokumentiert Perspektivkonflikte explizit vor der Konsolidierung  
 
 ---
 
@@ -66,6 +70,11 @@ Der Lore‑Chat:
 - `lore/lore_relationships.md`  
 - `lore/lore_plots.md`  
 - `lore/lore_open_threads.md`  
+- `lore/lore_preservation.md`  
+- `lore/lore_import_schema.md`  
+- `lore/lore_flair_quotes.md`  
+- `lore/raw/`  
+- `lore/imports/`  
 
 ---
 
@@ -81,6 +90,7 @@ Statusregeln:
 - `ARBEITSSTAND` bleibt offen und wird nicht still zu `KANON`
 - `INTERPRETATION` ist klar als Deutung oder Vorschlag zu markieren
 - einzelne Abschnitte innerhalb einer Datei dürfen unterschiedliche Status tragen
+- Rohtext, Flair und Zitate dürfen parallel zu strukturierter Faktablage erhalten bleiben
 
 ---
 
@@ -98,6 +108,7 @@ Statusregeln:
 - entscheidungsorientiert  
 - Unterschiede benennen  
 - harte Empfehlung geben  
+- bei Importen zuerst sichern, dann strukturieren, dann erst verdichten  
 
 ---
 
@@ -106,6 +117,8 @@ Statusregeln:
 - keine Lore‑Erfindungen ohne Rückfrage  
 - keine Inhalte wegen vermeintlicher Redundanz verwerfen, wenn sie Bindung, Chronik oder Kausalität sichern  
 - Beziehungslogik, Plotmodule und offene Fäden nicht in Sammelkategorien verstecken  
+- Originalformulierungen mit Tonwert möglichst wortnah erhalten  
+- Rohquellen nicht durch strukturierte Ableitung ersetzen  
 
 ---
 

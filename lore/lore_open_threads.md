@@ -28,3 +28,5 @@ source: lore_db.md
 - Ob George, Ely und Lauri selbst aktiv in Qualifikation oder Hauptrennen einsteigen, bleibt offen und spielerabhaengig.
 - Ob Trump spaeter gegenueber Elias liefert oder sich verweigert, bleibt offen.
 - V/George-Aehnlichkeit und spaetere Verwicklungen bleiben Hook und nicht gesetzter Kanonpfad.
+- 2077-07-04 Ely-Bericht zur Militech-Infiltration ist bisher nur einseitig belegt; Lauri-, George- und Spielleiter-Sicht fehlen fuer Endkonsolidierung.
+- Inhalt und Tragweite der am 2077-07-04 exfiltrierten Daten (Militech/Truck/Race-Relevanz) sind offen.
