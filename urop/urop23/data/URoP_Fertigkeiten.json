@@ -1,0 +1,533 @@
+{
+  "schema_version": "2026-04-08_v1",
+  "type": "skill_database",
+  "authoritative_note": "Fuehrende Datenquelle fuer Fertigkeiten. Die MD-Datei ist die Lesefassung und Schemaerklaerung.",
+  "status_logic": {
+    "GELOCKT": "als gesetzt behandeln, bis ausdrücklich geändert",
+    "TESTSTAND": "aktiv genutzter Probestand, noch nicht final",
+    "ARBEITSSTAND": "inhaltliche Richtung steht, Details sind noch prüfbar",
+    "OFFEN": "bewusst ungeklärt"
+  },
+  "design_notes": [
+    "Standardfertigkeiten sind optionale Strukturknoten, keine Pflichtstufe.",
+    "Spezialisierungen dürfen direkt an Sammelfertigkeiten angeschlossen werden.",
+    "Der unterstützende Wert wirkt nicht nur atmosphärisch, sondern oft auf Kontrolle und Fehlerbeherrschung.",
+    "Die Struktur soll auch außerhalb des Kampfes sauber funktionieren."
+  ],
+  "enums": {
+    "type": [
+      "broad",
+      "standard",
+      "specialization"
+    ],
+    "attribute_anchor": [
+      "Körper",
+      "Geist",
+      "Präsenz"
+    ],
+    "skill_domain": [
+      "combat",
+      "social",
+      "technical",
+      "medical",
+      "knowledge",
+      "survival",
+      "mobility",
+      "stealth",
+      "perception"
+    ]
+  },
+  "field_schema": {
+    "id": {
+      "required": true,
+      "type": "string",
+      "description": "Stabile interne Kennung"
+    },
+    "name": {
+      "required": true,
+      "type": "string",
+      "description": "Anzeigename"
+    },
+    "type": {
+      "required": true,
+      "type": "string",
+      "description": "broad, standard oder specialization"
+    },
+    "attribute_anchor": {
+      "required": true,
+      "type": "string",
+      "description": "Typischer Attributanker, kein harter Zwang"
+    },
+    "skill_domain": {
+      "required": true,
+      "type": "string",
+      "description": "Praktische Obergruppe zur Sortierung und Filterung"
+    },
+    "parent_ids": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Übergeordnete Fertigkeiten; mehrere Eltern sind erlaubt"
+    },
+    "rules_short": {
+      "required": true,
+      "type": "string",
+      "description": "Kurze Regelerklärung"
+    },
+    "description": {
+      "required": true,
+      "type": "string",
+      "description": "Lesefassung und Einordnung"
+    }
+  },
+  "entries": [
+    {
+      "id": "skill_broad_athletik",
+      "name": "Athletik",
+      "type": "broad",
+      "attribute_anchor": "Körper",
+      "skill_domain": "mobility",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für Bewegung, Kraft, Koordination und Belastbarkeit.",
+      "description": "Athletik umfasst körperliche Bewegung unter Einsatz von Kraft, Koordination und Belastbarkeit."
+    },
+    {
+      "id": "skill_broad_nahkampf",
+      "name": "Nahkampf",
+      "type": "broad",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für bewaffneten und unbewaffneten Kampf auf kurze Distanz.",
+      "description": "Nahkampf umfasst direkte Konfrontation mit Körper, improvisierten Mitteln und Nahkampfwaffen."
+    },
+    {
+      "id": "skill_broad_fernkampf",
+      "name": "Fernkampf",
+      "type": "broad",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für den Einsatz von Distanzwaffen.",
+      "description": "Fernkampf umfasst den allgemeinen Einsatz von Waffen auf Distanz."
+    },
+    {
+      "id": "skill_broad_heimlichkeit",
+      "name": "Heimlichkeit",
+      "type": "broad",
+      "attribute_anchor": "Körper",
+      "skill_domain": "stealth",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für unauffälliges, verborgenes oder schwer nachverfolgbares Handeln.",
+      "description": "Heimlichkeit umfasst Schleichen, Verbergen und diskrete Bewegung."
+    },
+    {
+      "id": "skill_broad_wahrnehmung",
+      "name": "Wahrnehmung",
+      "type": "broad",
+      "attribute_anchor": "Geist",
+      "skill_domain": "perception",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit fuer Bemerken, Erkennen und Einordnen relevanter Eindruecke.",
+      "description": "Wahrnehmung umfasst Sehen, Hören, Mustererkennung und das Bemerken von Auffälligkeiten."
+    },
+    {
+      "id": "skill_broad_einfluss",
+      "name": "Einfluss",
+      "type": "broad",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für Gesprächsführung, soziale Wirkung und Beeinflussung.",
+      "description": "Einfluss umfasst Verhandeln, Auftreten, Täuschen und Druck in sozialen Situationen."
+    },
+    {
+      "id": "skill_broad_technik",
+      "name": "Technik",
+      "type": "broad",
+      "attribute_anchor": "Geist",
+      "skill_domain": "technical",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für den Umgang mit Geräten, Maschinen und praktischen Systemen.",
+      "description": "Technik umfasst Bedienung, Reparatur, Umbau und praktisches Arbeiten an technischen Systemen."
+    },
+    {
+      "id": "skill_broad_medizin",
+      "name": "Medizin",
+      "type": "broad",
+      "attribute_anchor": "Geist",
+      "skill_domain": "medical",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für Diagnose, Versorgung und medizinische Behandlung.",
+      "description": "Medizin umfasst Notfallversorgung, Stabilisierung, Behandlung und strukturiertes medizinisches Arbeiten."
+    },
+    {
+      "id": "skill_broad_ueberleben",
+      "name": "Überleben",
+      "type": "broad",
+      "attribute_anchor": "Geist",
+      "skill_domain": "survival",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für Orientierung, Versorgung und Handeln in schwierigen Umgebungen.",
+      "description": "Überleben umfasst Nahrung, Unterkunft, Spuren, Wetter, Orientierung und improvisierte Feldpraxis."
+    },
+    {
+      "id": "skill_broad_wissen",
+      "name": "Wissen",
+      "type": "broad",
+      "attribute_anchor": "Geist",
+      "skill_domain": "knowledge",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für gespeichertes Wissen, Recherche und strukturierte Informationsnutzung.",
+      "description": "Wissen umfasst Theorie, Fachkenntnis, Quellenarbeit und das Einordnen von Information."
+    },
+    {
+      "id": "skill_broad_fahrzeuge",
+      "name": "Fahrzeuge",
+      "type": "broad",
+      "attribute_anchor": "Körper",
+      "skill_domain": "mobility",
+      "parent_ids": [],
+      "rules_short": "Breite Fertigkeit für das Führen und Kontrollieren typischer Fahrzeuge.",
+      "description": "Fahrzeuge umfasst Steuern, Manövrieren und Halten von Kontrolle in Bewegung."
+    },
+    {
+      "id": "skill_standard_waffenlos",
+      "name": "Waffenlos",
+      "type": "standard",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_broad_nahkampf"
+      ],
+      "rules_short": "Standardfertigkeit für unbewaffneten Kampf und körpernahe Kleinstwaffen.",
+      "description": "Waffenlos bündelt Faustkampf, Tritte, Ringen und sehr körpernahe Kleinwaffen."
+    },
+    {
+      "id": "skill_standard_klingenwaffen",
+      "name": "Klingenwaffen",
+      "type": "standard",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_broad_nahkampf"
+      ],
+      "rules_short": "Standardfertigkeit für typische Klingenwaffen im Nahkampf.",
+      "description": "Klingenwaffen umfasst Schwert, Machete, Dolch und vergleichbare Waffen."
+    },
+    {
+      "id": "skill_standard_schlagwaffen",
+      "name": "Schlagwaffen",
+      "type": "standard",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_broad_nahkampf"
+      ],
+      "rules_short": "Standardfertigkeit für stumpfe Nahkampfwaffen und Wuchtanwendung.",
+      "description": "Schlagwaffen bündelt Knüppel, Hammer und ähnliche stumpfe Waffen."
+    },
+    {
+      "id": "skill_standard_kurzwaffen",
+      "name": "Kurzwaffen",
+      "type": "standard",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_broad_fernkampf"
+      ],
+      "rules_short": "Standardfertigkeit für kompakte Distanzwaffen wie Pistolen und Revolver.",
+      "description": "Kurzwaffen deckt den Einsatz kompakter einhändiger Schusswaffen ab."
+    },
+    {
+      "id": "skill_standard_langwaffen",
+      "name": "Langwaffen",
+      "type": "standard",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_broad_fernkampf"
+      ],
+      "rules_short": "Standardfertigkeit für Gewehre, Schrotflinten und andere Langwaffen.",
+      "description": "Langwaffen umfasst Schulterwaffen mit höherer Reichweite oder stärkerer Wirkung."
+    },
+    {
+      "id": "skill_standard_wurfwaffen",
+      "name": "Wurfwaffen",
+      "type": "standard",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_broad_fernkampf"
+      ],
+      "rules_short": "Standardfertigkeit für geworfene Waffen und Wurfobjekte.",
+      "description": "Wurfwaffen umfasst Messerwurf, Speerwurf, Granaten und improvisierte Würfe."
+    },
+    {
+      "id": "skill_standard_verhandeln",
+      "name": "Verhandeln",
+      "type": "standard",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Standardfertigkeit für Einigungen, Konditionen und kontrollierte Gesprächslenkung.",
+      "description": "Verhandeln deckt das Aushandeln von Zugeständnissen, Preisen und Bedingungen ab."
+    },
+    {
+      "id": "skill_standard_taeuschen",
+      "name": "Täuschen",
+      "type": "standard",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Standardfertigkeit für Lüge, Ablenkung und falsche Darstellung.",
+      "description": "Täuschen umfasst bewusste Irreführung, Coverstories und kontrollierte Falschdarstellung."
+    },
+    {
+      "id": "skill_standard_auftreten",
+      "name": "Auftreten",
+      "type": "standard",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Standardfertigkeit für Ausdruck, Präsenz und kontrollierte Wirkung auf andere.",
+      "description": "Auftreten umfasst Charme, Eindruck, Autorität und Bühnenpräsenz."
+    },
+    {
+      "id": "skill_standard_verhoer_druck",
+      "name": "Verhör / Druck",
+      "type": "standard",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Standardfertigkeit für gezielten sozialen Druck, Verhör und kontrolliertes Ausfragen.",
+      "description": "Verhör / Druck bündelt kaltes Ausfragen, psychologischen Druck und das Aufbrechen von Widerstand."
+    },
+    {
+      "id": "skill_standard_mechanik",
+      "name": "Mechanik",
+      "type": "standard",
+      "attribute_anchor": "Geist",
+      "skill_domain": "technical",
+      "parent_ids": [
+        "skill_broad_technik"
+      ],
+      "rules_short": "Standardfertigkeit für Reparatur, Wartung und Umbau mechanischer Systeme.",
+      "description": "Mechanik umfasst praktisches Arbeiten an Schlössern, Waffen, Maschinen und ähnlichen Systemen."
+    },
+    {
+      "id": "skill_standard_elektronik",
+      "name": "Elektronik",
+      "type": "standard",
+      "attribute_anchor": "Geist",
+      "skill_domain": "technical",
+      "parent_ids": [
+        "skill_broad_technik"
+      ],
+      "rules_short": "Standardfertigkeit für elektronische Komponenten, Sensorik und Steuerungssysteme.",
+      "description": "Elektronik bündelt Arbeiten an Sensoren, Kommunikation, Steuergeräten und ähnlichen Komponenten."
+    },
+    {
+      "id": "skill_standard_sicherheitssysteme",
+      "name": "Sicherheitssysteme",
+      "type": "standard",
+      "attribute_anchor": "Geist",
+      "skill_domain": "technical",
+      "parent_ids": [
+        "skill_broad_technik"
+      ],
+      "rules_short": "Standardfertigkeit für Schlösser, Alarme, Überwachung und Zugangskontrollen.",
+      "description": "Sicherheitssysteme umfasst das Lesen, Umgehen und Bearbeiten typischer Sicherungssysteme."
+    },
+    {
+      "id": "skill_spec_boxen",
+      "name": "Boxen",
+      "type": "specialization",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_standard_waffenlos",
+        "skill_broad_nahkampf"
+      ],
+      "rules_short": "Spezialisierung für Faustkampf mit klarem Schlagfokus.",
+      "description": "Boxen bildet den engen Fokus auf kontrollierten Faustkampf ab."
+    },
+    {
+      "id": "skill_spec_messer",
+      "name": "Messer",
+      "type": "specialization",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_standard_waffenlos",
+        "skill_standard_klingenwaffen",
+        "skill_broad_nahkampf"
+      ],
+      "rules_short": "Spezialisierung fuer Messer als besonders enger Nahkampffokus.",
+      "description": "Messer kann je nach Stil aus Waffenlos oder Klingenwaffen heraus genutzt werden."
+    },
+    {
+      "id": "skill_spec_pistole",
+      "name": "Pistole",
+      "type": "specialization",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_standard_kurzwaffen",
+        "skill_broad_fernkampf"
+      ],
+      "rules_short": "Spezialisierung für halbautomatische Pistolen.",
+      "description": "Pistole bildet den engen Fokus auf typische halbautomatische Kurzwaffen ab."
+    },
+    {
+      "id": "skill_spec_gewehr",
+      "name": "Gewehr",
+      "type": "specialization",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_standard_langwaffen",
+        "skill_broad_fernkampf"
+      ],
+      "rules_short": "Spezialisierung für Gewehre und gewehrähnliche Schulterwaffen.",
+      "description": "Gewehr bildet den engen Fokus auf typische Gewehrplattformen ab."
+    },
+    {
+      "id": "skill_spec_schrotflinte",
+      "name": "Schrotflinte",
+      "type": "specialization",
+      "attribute_anchor": "Körper",
+      "skill_domain": "combat",
+      "parent_ids": [
+        "skill_standard_langwaffen",
+        "skill_broad_fernkampf"
+      ],
+      "rules_short": "Spezialisierung für Schrotflinten und verwandte Waffenprofile.",
+      "description": "Schrotflinte bildet den engen Fokus auf starke Kurz- bis Mitteldistanzwirkung ab."
+    },
+    {
+      "id": "skill_spec_krisenverhandlung",
+      "name": "Krisenverhandlung",
+      "type": "specialization",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_standard_verhandeln",
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Spezialisierung für Verhandlungen unter Druck, Gefahr oder akuter Eskalation.",
+      "description": "Krisenverhandlung fokussiert auf Zeitgewinn, Deeskalation und das Offenhalten von Gesprächskanälen."
+    },
+    {
+      "id": "skill_spec_luegen",
+      "name": "Lügen",
+      "type": "specialization",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_standard_taeuschen",
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Spezialisierung für direkte verbale Unwahrheiten und spontane Erfindung.",
+      "description": "Lügen fokussiert auf kontrollierte spontane Falschaussagen."
+    },
+    {
+      "id": "skill_spec_falsche_identitaet",
+      "name": "Falsche Identität",
+      "type": "specialization",
+      "attribute_anchor": "Präsenz",
+      "skill_domain": "social",
+      "parent_ids": [
+        "skill_standard_taeuschen",
+        "skill_broad_einfluss"
+      ],
+      "rules_short": "Spezialisierung für langfristigere Coverrollen und Identitätsarbeit.",
+      "description": "Falsche Identität bündelt Verhalten, Story, Auftreten und Rollenkonsistenz."
+    },
+    {
+      "id": "skill_spec_schlossmechanik",
+      "name": "Schlossmechanik",
+      "type": "specialization",
+      "attribute_anchor": "Geist",
+      "skill_domain": "technical",
+      "parent_ids": [
+        "skill_standard_mechanik",
+        "skill_broad_technik"
+      ],
+      "rules_short": "Spezialisierung für mechanische Schlösser und feinmechanische Öffnungsarbeit.",
+      "description": "Schlossmechanik fokussiert auf feinmotorisches Arbeiten an mechanischen Verriegelungen."
+    },
+    {
+      "id": "skill_spec_sensorik",
+      "name": "Sensorik",
+      "type": "specialization",
+      "attribute_anchor": "Geist",
+      "skill_domain": "technical",
+      "parent_ids": [
+        "skill_standard_elektronik",
+        "skill_broad_technik"
+      ],
+      "rules_short": "Spezialisierung für Sensoren, Messsysteme und entsprechende Signalbilder.",
+      "description": "Sensorik fokussiert auf das Lesen, Justieren und Täuschen sensorischer Systeme."
+    },
+    {
+      "id": "skill_spec_traumaversorgung",
+      "name": "Traumaversorgung",
+      "type": "specialization",
+      "attribute_anchor": "Geist",
+      "skill_domain": "medical",
+      "parent_ids": [
+        "skill_broad_medizin"
+      ],
+      "rules_short": "Spezialisierung für akute Versorgung schwerer Verletzungen und Schocklagen.",
+      "description": "Traumaversorgung fokussiert auf Stabilisierung unter Zeitdruck und in kritischer Lage."
+    },
+    {
+      "id": "skill_spec_recherche",
+      "name": "Recherche",
+      "type": "specialization",
+      "attribute_anchor": "Geist",
+      "skill_domain": "knowledge",
+      "parent_ids": [
+        "skill_broad_wissen"
+      ],
+      "rules_short": "Spezialisierung für strukturierte Informationssuche und Quellenarbeit.",
+      "description": "Recherche fokussiert auf das Auffinden, Einordnen und Verknüpfen relevanter Information."
+    },
+    {
+      "id": "skill_spec_spurenlesen",
+      "name": "Spurenlesen",
+      "type": "specialization",
+      "attribute_anchor": "Geist",
+      "skill_domain": "survival",
+      "parent_ids": [
+        "skill_broad_ueberleben",
+        "skill_broad_wahrnehmung"
+      ],
+      "rules_short": "Spezialisierung für das Lesen, Verfolgen und Einordnen von Spuren.",
+      "description": "Spurenlesen verbindet Wahrnehmung und Umweltpraxis beim Lesen von Bewegung und Hinterlassenschaften."
+    },
+    {
+      "id": "skill_spec_strassenrennen",
+      "name": "Straßenrennen",
+      "type": "specialization",
+      "attribute_anchor": "Körper",
+      "skill_domain": "mobility",
+      "parent_ids": [
+        "skill_broad_fahrzeuge"
+      ],
+      "rules_short": "Spezialisierung für aggressives Fahren unter hohem Tempo und engem Fehlerspielraum.",
+      "description": "Straßenrennen fokussiert auf Grenzbereich-Fahrten in urbanem oder chaotischem Umfeld."
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "schema_version": "2026-04-09_v1",
+  "type": "cyberware_database",
+  "authoritative_note": "Fuehrende Datenquelle fuer Cyberware im Cyberpunk-Modul. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
+  "design_notes": [
+    "Cyberware soll den URoP-Kern nicht ersetzen, sondern an ihn andocken.",
+    "Cyberware oeffnet vor allem neue Moeglichkeiten, Sinnesmodi, Zugriffskanaele, Schutzlagen und Spezialfenster statt rohe Attributsspruenge als Standard.",
+    "Implant Load ist bewusst ein Richtwert fuer Dichte und Systembelastung, kein harter Verbotszaun.",
+    "Quickhacks docken jetzt an network_exposure, wireless-Tags und die eigene Datei URoP_Quickhacks.json an; Netrunning soll spaeter darauf aufbauen statt ein zweites komplett fremdes Regelsystem zu bauen.",
+    "Nicht jedes Implant braucht ein eigenes Minispiel. Vieles bleibt eine fiction-first Erweiterung vorhandener Fertigkeiten und Grundaktionen."
+  ],
+  "currency_unit": "EB",
+  "currency_aliases": [
+    "ebbies",
+    "Eurodollar",
+    "Eurobuck"
+  ],
+  "pricing_note": "Preise sind Referenzwerte in EB fuer Ware inklusive typischer Standardinstallation. Sonderkliniken, Notfalleinbau oder Schwarzmarktaufschlaege laufen extra.",
+  "enums": {
+    "category": [
+      "neural",
+      "sensory",
+      "interface",
+      "limb",
+      "dermal",
+      "internal",
+      "mobility",
+      "combat",
+      "support",
+      "medical"
+    ],
+    "body_zone": [
+      "head",
+      "eyes",
+      "ears",
+      "spine",
+      "torso",
+      "arm",
+      "leg",
+      "skin",
+      "internal",
+      "full_body",
+      "multi"
+    ],
+    "grade": [
+      "consumer",
+      "standard",
+      "pro",
+      "military",
+      "prototype"
+    ],
+    "activation_type": [
+      "passive",
+      "active",
+      "reaction",
+      "scene"
+    ],
+    "load": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "install_complexity": [
+      "clinic",
+      "surgical",
+      "deep",
+      "full_replacement"
+    ],
+    "maintenance_level": [
+      "low",
+      "standard",
+      "high"
+    ],
+    "network_exposure": [
+      "none",
+      "local",
+      "wireless",
+      "high"
+    ],
+    "setting_scope": [
+      "cyberpunk",
+      "scifi"
+    ]
+  },
+  "field_schema": {
+    "id": {
+      "required": true,
+      "type": "string",
+      "description": "Stabile interne Kennung"
+    },
+    "name": {
+      "required": true,
+      "type": "string",
+      "description": "Anzeigename"
+    },
+    "category": {
+      "required": true,
+      "type": "string",
+      "description": "Primaere Cyberware-Kategorie"
+    },
+    "body_zone": {
+      "required": true,
+      "type": "string",
+      "description": "Koerperbereich oder Implant-Zone"
+    },
+    "tags": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Optionale lokale Schlagworte ohne zentrale Tag-Datei"
+    },
+    "rules_short": {
+      "required": true,
+      "type": "string",
+      "description": "Kurze Regelerklaerung"
+    },
+    "description": {
+      "required": true,
+      "type": "string",
+      "description": "Lesefassung oder Einordnung"
+    },
+    "grade": {
+      "required": true,
+      "type": "string",
+      "description": "Grobklasse von Konsumware bis Prototyp"
+    },
+    "activation_type": {
+      "required": true,
+      "type": "string",
+      "description": "passiv, aktiv, reaktiv oder szenisch"
+    },
+    "load": {
+      "required": true,
+      "type": "integer",
+      "description": "Richtwert fuer Implant-Dichte und Systembelastung"
+    },
+    "install_complexity": {
+      "required": true,
+      "type": "string",
+      "description": "Wie invasiv und aufwendig der Einbau ist"
+    },
+    "maintenance_level": {
+      "required": true,
+      "type": "string",
+      "description": "Wie oft Pflege oder Nachbehandlung noetig ist"
+    },
+    "network_exposure": {
+      "required": true,
+      "type": "string",
+      "description": "Digitale Angriffsoberflaeche"
+    },
+    "drawbacks_or_risks": {
+      "required": false,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typische Risiken oder Nebenwirkungen"
+    },
+    "setting_scope": {
+      "required": false,
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Zielraum des Eintrags"
+    },
+    "price_eb": {
+      "required": false,
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Referenzpreis in EB fuer Ware inklusive typischer Standardinstallation"
+    }
+  },
+  "guideline_load_bands": [
+    {
+      "band": "0-3",
+      "meaning": "Leichte Chrome-Dichte"
+    },
+    {
+      "band": "4-6",
+      "meaning": "Deutlich augmentiert"
+    },
+    {
+      "band": "7+",
+      "meaning": "Schwere Cyberisierung mit sichtbarer Reibung"
+    }
+  ],
+  "entries": [
+    {
+      "id": "cyber_neural_interface_ports",
+      "name": "Neurale Interface-Ports",
+      "category": "interface",
+      "body_zone": "head",
+      "tags": [
+        "interface",
+        "neural",
+        "support"
+      ],
+      "rules_short": "Direkte Kabelkopplung an kompatible Geraete, Fahrzeuge und Spezialhardware.",
+      "description": "Ein klassischer Datenstecker, der direkte Ein- und Ausgaben ohne Tastatur oder Display ermoeglicht. Regelhinweis: Direkte Datenkopplung statt normaler Bedienflaechen; Beschleunigt kabelgebundene Bedienung kompatibler Systeme. Marktbild: weit verbreitet, zivil meist unauffaellig.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "low",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Sichtbare Ports koennen soziale Aufmerksamkeit ziehen",
+        "Physischer Port kann Ziel fuer Sabotage oder Schmutz sein"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1200
+    },
+    {
+      "id": "cyber_cyberoptics_basic",
+      "name": "Cyberoptiken, Basis",
+      "category": "sensory",
+      "body_zone": "eyes",
+      "tags": [
+        "sensory",
+        "support",
+        "wireless"
+      ],
+      "rules_short": "Ersatzaugen mit stabiler Sensorik, Aufzeichnung und Modulslots.",
+      "description": "Ein verbreiteter Augenersatz fuer Alltag, Einsatz und Strasse. Regelhinweis: Digitale Zoom-, Aufnahme- und Overlayfunktionen; Bleibt auch unter schlechter Beleuchtung oder Bewegungsstress lesbar. Marktbild: weit verbreitet, zivil meist unauffaellig.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Kann bei offenen Funkschnittstellen Ziel digitaler Eingriffe werden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 2200
+    },
+    {
+      "id": "cyber_cyberaudio_suite",
+      "name": "Cyberaudio-Suite",
+      "category": "sensory",
+      "body_zone": "ears",
+      "tags": [
+        "sensory",
+        "support",
+        "shielded"
+      ],
+      "rules_short": "Verbesserte Hoerleistung, Filter und Richtungswahrnehmung.",
+      "description": "Digitale Gehoersysteme helfen beim Filtern, Lokalisieren und Mitschneiden relevanter Audioquellen. Regelhinweis: Audiofilter, Richtungsanalyse und Mitschnitt. Marktbild: weit verbreitet, zivil meist unauffaellig.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "low",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Kann in sehr lauten Umgebungen trotz Filter uebersteuert werden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1500
+    },
+    {
+      "id": "cyber_subdermal_armor_weave",
+      "name": "Subdermales Schutzgeflecht",
+      "category": "dermal",
+      "body_zone": "skin",
+      "tags": [
+        "dermal",
+        "combat",
+        "support"
+      ],
+      "rules_short": "Unsichtbarer Grundschutz gegen typische Gewaltspitzen.",
+      "description": "Verstrebungen und Fasern unter der Haut machen den Koerper widerstandsfaehiger, ohne wie schwere Panzerung auszusehen. Regelhinweis: Kann leichten bis mittleren Grundschutz liefern, ohne offene Ruestung zu tragen. Marktbild: nur eingeschraenkt erhaeltlich, haeufig lizenz- oder genehmigungspflichtig.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 2,
+      "install_complexity": "deep",
+      "maintenance_level": "standard",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Heilt nach schwerem Trauma oft unguenstiger als natuerliches Gewebe",
+        "Koerperscanner erkennen oft unnatuerliche Dichte"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 4800
+    },
+    {
+      "id": "cyber_reflex_booster",
+      "name": "Reflexbooster",
+      "category": "neural",
+      "body_zone": "spine",
+      "tags": [
+        "neural",
+        "mobility",
+        "combat",
+        "wireless"
+      ],
+      "rules_short": "Beschleunigt Reaktionsfaehigkeit, Ziehmomente und kurze Gewaltspitzen.",
+      "description": "Ein neuraler Beschleuniger, der auf kritische Momente anspringt und Bewegungen frueher lesbar macht. Regelhinweis: Kann Reaktionsmomente, Schnellzugriff oder Initiativspitzen fiction-first plausibler machen; Oeffnet Raum fuer besonders schnelle Zieh- oder Abfangaktionen. Marktbild: nur eingeschraenkt erhaeltlich, rechtlich stark eingeschraenkt.",
+      "grade": "pro",
+      "activation_type": "reaction",
+      "load": 2,
+      "install_complexity": "deep",
+      "maintenance_level": "high",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Hoher Wartungsbedarf",
+        "Digitale Signatur kann geortet oder gestoert werden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 9000
+    },
+    {
+      "id": "cyber_smartgun_link",
+      "name": "Smartgun-Link",
+      "category": "interface",
+      "body_zone": "arm",
+      "tags": [
+        "interface",
+        "combat",
+        "wireless"
+      ],
+      "rules_short": "Direkte Waffenkopplung fuer Overlay, Rueckmeldung und schnelleren Zielbezug.",
+      "description": "Smartgun-Systeme verbinden Hand, Auge und Waffe zu einem eng gekoppelten Bedienraum. Regelhinweis: Erlaubt engere Kopplung aus Zielbild, Rueckmeldung und Schussabgabe; Kann Spezialfunktionen smarter Waffen freischalten. Marktbild: nur eingeschraenkt erhaeltlich, haeufig lizenz- oder genehmigungspflichtig.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Offene Funkkoppelung macht Waffe und Nutzer potentiell digital verwundbar"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 2600
+    },
+    {
+      "id": "cyber_medmonitor",
+      "name": "Medmonitor",
+      "category": "medical",
+      "body_zone": "internal",
+      "tags": [
+        "medical",
+        "support",
+        "wireless"
+      ],
+      "rules_short": "Liest Vitaldaten, warnt frueh und speichert medizinische Grundwerte.",
+      "description": "Ein implantierter Ueberwacher fuer Blutbild, Stress, Gifte, Herzrhythmus und Traumaindikatoren. Regelhinweis: Liefert im Notfall saubere Vitaldaten und fruehere Warnmomente. Marktbild: weit verbreitet, zivil meist unauffaellig.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 1,
+      "install_complexity": "clinic",
+      "maintenance_level": "low",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Geteilte Gesundheitsdaten koennen Privatsphaere oder Tarnung gefaehrden"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 900
+    },
+    {
+      "id": "cyber_reinforced_skeleton",
+      "name": "Skelettverstaerkung",
+      "category": "internal",
+      "body_zone": "full_body",
+      "tags": [
+        "internal",
+        "mobility",
+        "support"
+      ],
+      "rules_short": "Verstaerkt Belastbarkeit und koerperliche Stabilitaet unter Last.",
+      "description": "Knochen, Gelenke und Ankerpunkte werden so ausgebaut, dass Last, Rueckstoss und Stuerze besser abgefangen werden. Regelhinweis: Hilft bei Last, Rueckstoss, Sturz und roher koerperlicher Belastung. Marktbild: nur eingeschraenkt erhaeltlich, haeufig lizenz- oder genehmigungspflichtig.",
+      "grade": "pro",
+      "activation_type": "passive",
+      "load": 2,
+      "install_complexity": "deep",
+      "maintenance_level": "standard",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Grobere Bewegungen koennen lauter oder auffaelliger wirken",
+        "Operation und Nachheilung sind langwieriger"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 6200
+    },
+    {
+      "id": "cyber_cyberarm_standard",
+      "name": "Cyberarm, Standard",
+      "category": "limb",
+      "body_zone": "arm",
+      "tags": [
+        "limb",
+        "support",
+        "concealed"
+      ],
+      "rules_short": "Vollersatzarm mit Werkzeugslots und konstanter Greifleistung.",
+      "description": "Ein robuster Standardersatz fuer schwere Arbeit, Traumaersatz oder verdeckt eingebauten Werkzeuggebrauch. Regelhinweis: Kann Werkzeugslots, versteckte Faecher oder Spezialgreifer aufnehmen; Konstante Leistung auch bei Schmerz, Ermuedung oder Verlust des frueheren Glieds. Marktbild: weit verbreitet, zivil meist unauffaellig.",
+      "grade": "standard",
+      "activation_type": "passive",
+      "load": 2,
+      "install_complexity": "full_replacement",
+      "maintenance_level": "standard",
+      "network_exposure": "local",
+      "drawbacks_or_risks": [
+        "Billige Modelle sind leicht an Laufgeraeuschen oder falscher Haptik erkennbar"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 3500
+    },
+    {
+      "id": "cyber_cyberleg_sprint",
+      "name": "Cyberbein, Sprintpaket",
+      "category": "mobility",
+      "body_zone": "leg",
+      "tags": [
+        "limb",
+        "mobility",
+        "wireless"
+      ],
+      "rules_short": "Beinpaket fuer Antritt, Sprung und kontrollierte Hochbelastung.",
+      "description": "Ein Lauf- und Antrittsmodul fuer Kuriere, Runner und Einsatzkraefte. Regelhinweis: Ermoeglicht starke Antritte, Sprungfenster und kurzzeitige Hochmobilitaet. Marktbild: nur eingeschraenkt erhaeltlich, rechtlich stark eingeschraenkt.",
+      "grade": "pro",
+      "activation_type": "active",
+      "load": 2,
+      "install_complexity": "full_replacement",
+      "maintenance_level": "high",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Schlechter Boden, Treppen oder enge Innenraeume koennen das Paket taktisch unguenstig machen"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 7800
+    },
+    {
+      "id": "cyber_pain_editor",
+      "name": "Schmerzeditor",
+      "category": "neural",
+      "body_zone": "spine",
+      "tags": [
+        "neural",
+        "medical",
+        "combat",
+        "wireless"
+      ],
+      "rules_short": "Drosselt Schmerzsignale und laesst Figuren laenger handlungsfaehig bleiben.",
+      "description": "Ein neuraler Filter, der Schmerz und Schock herunterregelt, ohne Schaden real verschwinden zu lassen. Regelhinweis: Kann Schmerz und Schock fuer eine Szene drosseln und so Funktion ueber Rohgefuehl stellen. Marktbild: selten auf dem offenen Markt, klar illegal.",
+      "grade": "military",
+      "activation_type": "scene",
+      "load": 2,
+      "install_complexity": "deep",
+      "maintenance_level": "high",
+      "network_exposure": "wireless",
+      "drawbacks_or_risks": [
+        "Verschleiert echte Schaeden",
+        "Kann Figuren zu spaet erkennen lassen, wie schlimm die Lage wirklich ist"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 11000
+    },
+    {
+      "id": "cyber_hidden_blade",
+      "name": "Versteckte Unterarmklinge",
+      "category": "combat",
+      "body_zone": "arm",
+      "tags": [
+        "combat",
+        "limb",
+        "concealed"
+      ],
+      "rules_short": "Verdeckte Nahkampfwaffe im Armgehaeuse.",
+      "description": "Ein ausfahrbares Klingenmodul fuer heimliche Traeger und Strassenkaempfer. Regelhinweis: Oeffnet verdeckte bewaffnete Gewalt ohne sichtbares Ziehen einer externen Waffe. Marktbild: nur eingeschraenkt erhaeltlich, klar illegal.",
+      "grade": "pro",
+      "activation_type": "active",
+      "load": 1,
+      "install_complexity": "surgical",
+      "maintenance_level": "standard",
+      "network_exposure": "none",
+      "drawbacks_or_risks": [
+        "Bei Kontrollen oder medizinischer Bildgebung leicht problematisch"
+      ],
+      "setting_scope": "cyberpunk",
+      "price_eb": 1900
+    }
+  ]
+}

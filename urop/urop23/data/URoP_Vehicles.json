@@ -1,0 +1,693 @@
+{
+  "schema_version": "2026-04-09_v1",
+  "type": "vehicle_database",
+  "authoritative_note": "Fuehrende Datenquelle fuer die Fahrzeug-Grundarchitektur im Cyberpunk-Modul. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
+  "design_notes": [
+    "Vehicles sollen den URoP-Kern erweitern, nicht durch ein separates Rennspiel ersetzen.",
+    "Die gleiche Probe loest auch unter Fahrzeugdruck aus: Leistungswert -> Wurf -> Ergebnis -> Wirkung/Konsequenz.",
+    "Normale Fortbewegung braucht meist keine Sonderregeln. Fahrzeugregeln greifen vor allem bei Zeitdruck, Gefahr, Verfolgung, Kampf, Flucht oder heiklen Manoevern.",
+    "Crewspiel ist wichtiger als Simulationsdetails: Fahrer, Schuetze, Navigator, Hacker, Mechaniker und Passagiere sollen gleichzeitig etwas tun koennen.",
+    "Quickhacks und Netrunning sollen glaubwuerdig an Fahrzeugnetz, Autopilot, Sensorik, Turrets und Sicherheit andocken koennen.",
+    "Positions- und Drucklogik ist wichtiger als exakte Meterwerte. Verfolgungen werden besser als Lagewechsel gelesen als als Kilometerrechnung."
+  ],
+  "vehicle_core": {
+    "definition": "Fahrzeuge sind mobile Plattformen fuer Bewegung, Deckung, Last, Verfolgung, Flucht und mobile Gefechte.",
+    "default_resolution": [
+      "1. Szene klaeren: Transit, Druckfahrt, Verfolgung, Fahrzeugkampf oder Flucht?",
+      "2. Rolle klaeren: Wer steuert, schiesst, navigiert, flickt oder hackt?",
+      "3. Lage klaeren: Kontrolle, Position, Sichtlinie, Hindernisse, Verkehr, Untergrund und Tempo.",
+      "4. Wirkung klaeren: Abstand gewinnen, Linie halten, Ziel stellen, Schaden setzen, abhaengen oder entkommen.",
+      "5. Folge klaeren: Positionswechsel, Kollateralschaden, Kontrollverlust, Fahrzeugschaden, Netzoffenheit oder Alarm."
+    ],
+    "gm_guideline": "Normale Bewegung bleibt leicht. Erst bei Druck, Gefahr, Verfolgung oder Kampf werden Fahrzeugwerte und Rollen wichtig."
+  },
+  "core_distinctions": {
+    "transit_scope": "Alltagsfahrt, Anfahrt, Reise und einfache Ortswechsel. Meist kein eigener Regelblock noetig.",
+    "pressure_drive_scope": "Heikle Fahrt unter Zeitdruck, Gefahr, schwierigen Kurven, Truemmern, Wetter oder Stress. Oft eine einzelne Probe oder kurzer Schlagabtausch.",
+    "chase_scope": "Verfolgung oder Flucht. Wichtiger als exakte Distanz sind Positionslagen, Sichtlinie, Hindernisse und Kontrolle.",
+    "vehicle_combat_scope": "Mobile Gefechte mit Bordwaffen, Drive-bys, Rammen, Wegdruecken, Aussteigen unter Druck oder Boarding.",
+    "crewplay_scope": "Waehren Fahrer oder Pilot das Fahrzeug halten, koennen andere Figuren schiessen, hacken, spotten, flicken oder die Flucht vorbereiten."
+  },
+  "currency_unit": "EB",
+  "currency_aliases": [
+    "ebbies",
+    "Eurodollar",
+    "Eurobuck"
+  ],
+  "pricing_note": "Preise sind Referenzwerte in EB. Sie bilden den typischen Markt- oder Szenenzugang ab, nicht starre Weltmarktgesetze.",
+  "enums": {
+    "vehicle_class": [
+      "bike",
+      "car",
+      "van",
+      "truck",
+      "armored",
+      "av",
+      "drone_vehicle",
+      "watercraft"
+    ],
+    "terrain_profile": [
+      "road",
+      "offroad",
+      "air",
+      "water",
+      "urban_mixed"
+    ],
+    "role_focus": [
+      "escape",
+      "pursuit",
+      "cargo",
+      "combat",
+      "utility",
+      "luxury"
+    ],
+    "position_state": [
+      "kontakt",
+      "nah",
+      "gleichauf",
+      "vorsprung",
+      "abgesetzt"
+    ],
+    "network_exposure": [
+      "low",
+      "standard",
+      "high",
+      "hardened"
+    ],
+    "availability": [
+      "common",
+      "uncommon",
+      "restricted",
+      "rare"
+    ]
+  },
+  "position_state_glossary": {
+    "kontakt": "Direkt am Ziel oder Gegner dran; Boarding, Rammen, Anhalten oder unmittelbare Kollision sind moeglich.",
+    "nah": "Kurzer Abstand; Schusswinkel, enge Verfolgung und riskante Positionswechsel sind plausibel.",
+    "gleichauf": "Weder klar gewonnen noch verloren; beide Seiten koennen die Lage noch kippen.",
+    "vorsprung": "Die fuehrende Seite hat Raum, Route oder Sichtvorteil gewonnen.",
+    "abgesetzt": "Die Verfolgung ist fuer den Moment entschieden; erneuter Kontakt braucht neue Fiktion oder neues Sichtfenster."
+  },
+  "field_schema": {
+    "id": {
+      "required": true,
+      "type": "string",
+      "description": "Stabile interne Kennung"
+    },
+    "name": {
+      "required": true,
+      "type": "string",
+      "description": "Anzeigename"
+    },
+    "vehicle_class": {
+      "required": true,
+      "type": "string",
+      "description": "bike, car, van, truck, armored, av, drone_vehicle oder watercraft"
+    },
+    "terrain_profile": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typische Bewegungsraeume"
+    },
+    "role_focus": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typische Einsatzrolle"
+    },
+    "crew_min": {
+      "required": true,
+      "type": "integer",
+      "description": "Mindestens noetige Bedienung"
+    },
+    "crew_optimal": {
+      "required": false,
+      "type": "integer",
+      "description": "Sinnvolle Standardbesatzung"
+    },
+    "passenger_capacity": {
+      "required": true,
+      "type": "integer",
+      "description": "Zusaetzliche Mitfahrer"
+    },
+    "control": {
+      "required": true,
+      "type": "string",
+      "description": "Wie gut laesst sich das Fahrzeug unter Druck halten?"
+    },
+    "speed": {
+      "required": true,
+      "type": "string",
+      "description": "Wie gut kann das Fahrzeug Tempo und Abstand aufbauen?"
+    },
+    "protection_value": {
+      "required": true,
+      "type": "string",
+      "description": "Wie viel Schutz die Plattform gegen Feuer, Splitter und Einschlaege bietet."
+    },
+    "durability": {
+      "required": true,
+      "type": "string",
+      "description": "Wie viel strukturellen Schaden das Fahrzeug plausibel wegsteckt."
+    },
+    "network_exposure": {
+      "required": true,
+      "type": "string",
+      "description": "Wie offen oder gehaertet Sensorik, Pilotlogik und interne Vernetzung sind."
+    },
+    "hardpoints_or_mounts": {
+      "required": false,
+      "type": "string",
+      "description": "Bewaffnung, Turrets oder Montagepunkte"
+    },
+    "availability": {
+      "required": true,
+      "type": "string",
+      "description": "Wie verbreitet das Fahrzeug im Setting ist"
+    },
+    "tags": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Freie Leseflags"
+    },
+    "rules_short": {
+      "required": true,
+      "type": "string",
+      "description": "Kurze Regelerklaerung"
+    },
+    "description": {
+      "required": true,
+      "type": "string",
+      "description": "Lesefassung und Einordnung"
+    },
+    "crew_notes": {
+      "required": false,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typische Rollen im Fahrzeug"
+    },
+    "quickhack_hooks": {
+      "required": false,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typische digitale Angriffs- oder Schutzhooks"
+    },
+    "scene_use": {
+      "required": false,
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typische Einsaetze in Transit, Chase oder Kampf"
+    },
+    "legal_status": {
+      "required": false,
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Rechtlicher oder institutioneller Status: civilian, licensed, restricted, military oder illegal"
+    },
+    "price_eb": {
+      "required": false,
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Referenzpreis in EB fuer Anschaffung im normalen Markt oder dem typischen Szenenzugang"
+    }
+  },
+  "entries": [
+    {
+      "id": "veh_city_scoot",
+      "name": "City Scooter",
+      "vehicle_class": "bike",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "utility",
+        "escape"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 1,
+      "passenger_capacity": 1,
+      "control": "hoch im dichten Stadtverkehr, schwach auf schlechter Strecke",
+      "speed": "mittel",
+      "protection_value": "sehr gering",
+      "durability": "gering",
+      "network_exposure": "standard",
+      "hardpoints_or_mounts": "keine",
+      "availability": "common",
+      "tags": [
+        "urban",
+        "civilian",
+        "light"
+      ],
+      "rules_short": "Leichtes Stadtrad fuer schnelle Luecken und enge Fluchten.",
+      "description": "Ideal fuer dichte Gassen, Lieferfahrten und enge Parkhaeuser. Bietet fast keinen Schutz, ist aber flink und unauffaellig.",
+      "crew_notes": [
+        "Fahrer steuert; Mitfahrer kann beobachten oder mit leichter Waffe arbeiten."
+      ],
+      "quickhack_hooks": [
+        "Wegfahrsperre",
+        "Navi-Umleitung",
+        "Mietsystem-Authentifizierung"
+      ],
+      "scene_use": [
+        "schnelle Abfahrt",
+        "enge Gassen",
+        "unauffaellige Zivilbewegung"
+      ],
+      "legal_status": "civilian",
+      "price_eb": 1800
+    },
+    {
+      "id": "veh_street_bike",
+      "name": "Street Bike",
+      "vehicle_class": "bike",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "escape",
+        "pursuit"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 1,
+      "passenger_capacity": 1,
+      "control": "hoch, solange der Fahrer die Linie haelt",
+      "speed": "hoch",
+      "protection_value": "sehr gering",
+      "durability": "gering",
+      "network_exposure": "standard",
+      "hardpoints_or_mounts": "optionale Waffenhalter oder Smart-Mounts",
+      "availability": "uncommon",
+      "tags": [
+        "fast",
+        "urban",
+        "street"
+      ],
+      "rules_short": "Schnelles Strassenbike fuer Flucht, Druck und riskante Verfolgungen.",
+      "description": "Ein aggressives Bike fuer Runner, Gangs und Kuriere. Es lebt von Tempo und schmaler Silhouette, nicht von Schutz.",
+      "crew_notes": [
+        "Fahrer dominiert die Szene; Sozius kann feuern, muss aber mit Kontrollverlust rechnen."
+      ],
+      "quickhack_hooks": [
+        "Zuendung",
+        "Stabilitaetskontrolle",
+        "Smart-Mount"
+      ],
+      "scene_use": [
+        "Jagd durch Verkehr",
+        "scharfe Kurven",
+        "schneller Szenenwechsel"
+      ],
+      "legal_status": "civilian",
+      "price_eb": 7000
+    },
+    {
+      "id": "veh_compact_runabout",
+      "name": "Compact Runabout",
+      "vehicle_class": "car",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "utility",
+        "escape"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 1,
+      "passenger_capacity": 3,
+      "control": "solide",
+      "speed": "mittel",
+      "protection_value": "gering",
+      "durability": "mittel",
+      "network_exposure": "standard",
+      "hardpoints_or_mounts": "keine",
+      "availability": "common",
+      "tags": [
+        "civilian",
+        "urban",
+        "cheap"
+      ],
+      "rules_short": "Gewoehnlicher Stadtwagen fuer Transfer, kleine Teams und unauffaellige Flucht.",
+      "description": "Der klassische Wagen fuer Jobs ohne grosses Profil. Unauffaellig, weit verbreitet und schnell ersetzbar.",
+      "crew_notes": [
+        "Fahrer plus Passagiere; einer kann spotten oder auf die Route achten."
+      ],
+      "quickhack_hooks": [
+        "Zentralverriegelung",
+        "Autopark",
+        "Telematik"
+      ],
+      "scene_use": [
+        "Anfahrt",
+        "Absetzen",
+        "normale Verfolgung"
+      ],
+      "legal_status": "civilian",
+      "price_eb": 9000
+    },
+    {
+      "id": "veh_pursuit_sedan",
+      "name": "Pursuit Sedan",
+      "vehicle_class": "car",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "pursuit",
+        "combat"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 2,
+      "control": "hoch",
+      "speed": "hoch",
+      "protection_value": "mittel",
+      "durability": "mittel",
+      "network_exposure": "hardened",
+      "hardpoints_or_mounts": "verstarkter Waffen- oder Sensor-Mount moeglich",
+      "availability": "restricted",
+      "tags": [
+        "security",
+        "fast",
+        "interceptor"
+      ],
+      "rules_short": "Abfangwagen fuer Sicherheitsdienste, Jagdgruppen und bewaffnete Eskorten.",
+      "description": "Gebaut fuer schnelle Reaktion, enge Jagd und robustes Durchhalten unter Feuer.",
+      "crew_notes": [
+        "Fahrer und Spotter/Schuetze funktionieren als starkes Zweierteam."
+      ],
+      "quickhack_hooks": [
+        "IFF",
+        "Pursuit-Assistent",
+        "Funkbruecke",
+        "Bordnetz-Hardening"
+      ],
+      "scene_use": [
+        "Abfangen",
+        "enge Verfolgung",
+        "rollender Feuerkampf"
+      ],
+      "legal_status": "licensed",
+      "price_eb": 22000
+    },
+    {
+      "id": "veh_cargo_van",
+      "name": "Cargo Van",
+      "vehicle_class": "van",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "cargo",
+        "utility"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 5,
+      "control": "mittel",
+      "speed": "mittel bis gering",
+      "protection_value": "gering",
+      "durability": "mittel",
+      "network_exposure": "standard",
+      "hardpoints_or_mounts": "interner Werkbank- oder Rack-Ausbau",
+      "availability": "common",
+      "tags": [
+        "cargo",
+        "crew",
+        "workhorse"
+      ],
+      "rules_short": "Transporter fuer Teams, Ausruestung und mobile Einsatzbasis.",
+      "description": "Das klassische Runner-Fahrzeug: genug Platz fuer Leute, Beute, Werkzeug und improvisierte Modifikationen.",
+      "crew_notes": [
+        "Fahrer, Navigator/Hacker, mehrere Passagiere oder Ausruestung."
+      ],
+      "quickhack_hooks": [
+        "Laderaum",
+        "Schiebetueren",
+        "Routenlog",
+        "Fleet-Tracking"
+      ],
+      "scene_use": [
+        "Teamtransport",
+        "mobile Werkstatt",
+        "Einbruch und Abtransport"
+      ],
+      "legal_status": "civilian",
+      "price_eb": 18000
+    },
+    {
+      "id": "veh_armored_suv",
+      "name": "Armored SUV",
+      "vehicle_class": "armored",
+      "terrain_profile": [
+        "road",
+        "urban_mixed",
+        "offroad"
+      ],
+      "role_focus": [
+        "combat",
+        "escape",
+        "luxury"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 4,
+      "control": "solide trotz Gewicht",
+      "speed": "mittel",
+      "protection_value": "hoch",
+      "durability": "hoch",
+      "network_exposure": "hardened",
+      "hardpoints_or_mounts": "optionale versteckte Waffenports oder Defensivpakete",
+      "availability": "restricted",
+      "tags": [
+        "armored",
+        "vip",
+        "security"
+      ],
+      "rules_short": "Schwerer Schutzwagen fuer VIP-Transport, High-Risk-Transfer und mobile Deckung.",
+      "description": "Langsamer als Abfangfahrzeuge, aber deutlich schwerer zu stoppen. Ideal fuer Extraction, Konvois und gepanzerte Fluchten.",
+      "crew_notes": [
+        "Fahrer und Sicherung/Schuetze; Passagiere koennen relativ geschuetzt handeln."
+      ],
+      "quickhack_hooks": [
+        "Panikprotokoll",
+        "Fensterverriegelung",
+        "abwehrgehaertetes Bordnetz"
+      ],
+      "scene_use": [
+        "Extraktion",
+        "Konvoi",
+        "Feuer aushalten"
+      ],
+      "legal_status": "licensed",
+      "price_eb": 65000
+    },
+    {
+      "id": "veh_box_truck",
+      "name": "Box Truck",
+      "vehicle_class": "truck",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "cargo",
+        "utility"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 2,
+      "control": "gering unter engem Druck",
+      "speed": "gering bis mittel",
+      "protection_value": "gering",
+      "durability": "hoch",
+      "network_exposure": "standard",
+      "hardpoints_or_mounts": "keine; improvisierte Innenausbauten moeglich",
+      "availability": "common",
+      "tags": [
+        "cargo",
+        "heavy",
+        "civilian"
+      ],
+      "rules_short": "Schwerer Lastwagen fuer Material, Beute und massive Tarnabtransporte.",
+      "description": "Nicht elegant, aber viel Volumen und robuste Struktur. In Verfolgungen schwerfaellig, im Rammen oder Blocken aber gefaehrlich.",
+      "crew_notes": [
+        "Fahrer, eventuell Beifahrer fuer Route, Funk oder Sicherung."
+      ],
+      "quickhack_hooks": [
+        "Flottenortung",
+        "Heckverriegelung",
+        "Fuhrpark-OS"
+      ],
+      "scene_use": [
+        "Blockade",
+        "Abtransport",
+        "Barriere im Strassenraum"
+      ],
+      "legal_status": "civilian",
+      "price_eb": 28000
+    },
+    {
+      "id": "veh_offroad_buggy",
+      "name": "Offroad Buggy",
+      "vehicle_class": "car",
+      "terrain_profile": [
+        "offroad",
+        "urban_mixed",
+        "road"
+      ],
+      "role_focus": [
+        "pursuit",
+        "combat",
+        "utility"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 1,
+      "control": "hoch im rauen Gelaende",
+      "speed": "hoch",
+      "protection_value": "gering",
+      "durability": "mittel",
+      "network_exposure": "low",
+      "hardpoints_or_mounts": "leichte Waffen- oder Sensorhalter",
+      "availability": "uncommon",
+      "tags": [
+        "offroad",
+        "raider",
+        "fast"
+      ],
+      "rules_short": "Leichtes Gelaendefahrzeug fuer Wuestenlaeufe, Schrottfelder und hitzige Jagden abseits der Strasse.",
+      "description": "Einfacher, mechanischer und oft weniger stark vernetzt als moderne Stadtwagen. Weniger Komfort, dafuer besser in Dreck, Schutt und improvisierten Routen.",
+      "crew_notes": [
+        "Fahrer und Schuetze/Spotter."
+      ],
+      "quickhack_hooks": [
+        "oft reduzierte Hackflaeche",
+        "nachgeruestete Sensorik",
+        "improvisierte Funknetze"
+      ],
+      "scene_use": [
+        "Wasteland-Jagd",
+        "Querfeldein",
+        "schneller Ueberfall"
+      ],
+      "legal_status": "civilian",
+      "price_eb": 16000
+    },
+    {
+      "id": "veh_patrol_av",
+      "name": "Patrol AV",
+      "vehicle_class": "av",
+      "terrain_profile": [
+        "air",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "pursuit",
+        "combat",
+        "utility"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 4,
+      "control": "hoch in freiem Luftraum, anspruchsvoll in engen Schlaechten",
+      "speed": "hoch",
+      "protection_value": "mittel",
+      "durability": "mittel",
+      "network_exposure": "high",
+      "hardpoints_or_mounts": "Sensorpod, Suchscheinwerfer, optionale Waffenstation",
+      "availability": "restricted",
+      "tags": [
+        "air",
+        "security",
+        "patrol"
+      ],
+      "rules_short": "Leichte AV-Plattform fuer Stadtpatrouille, Zugriff aus der Luft und schnelle Reaktion.",
+      "description": "Stark in Ueberblick, Verfolgung und Luftmobilitaet. In urbanem Raum oft von Sensorik und Vernetzung abhaengig.",
+      "crew_notes": [
+        "Pilot, Co-Pilot/Schuetze, mehrere Einsatzkraefte."
+      ],
+      "quickhack_hooks": [
+        "Autostabilisierung",
+        "IFF",
+        "Luftverkehrsfreigabe",
+        "Sensorik"
+      ],
+      "scene_use": [
+        "Luftverfolgung",
+        "Extraction",
+        "Suchoperation"
+      ],
+      "legal_status": "restricted",
+      "price_eb": 220000
+    },
+    {
+      "id": "veh_corporate_limo",
+      "name": "Corporate Limo",
+      "vehicle_class": "car",
+      "terrain_profile": [
+        "road",
+        "urban_mixed"
+      ],
+      "role_focus": [
+        "luxury",
+        "escape"
+      ],
+      "crew_min": 1,
+      "crew_optimal": 2,
+      "passenger_capacity": 4,
+      "control": "solide",
+      "speed": "mittel",
+      "protection_value": "mittel bis hoch",
+      "durability": "mittel bis hoch",
+      "network_exposure": "high",
+      "hardpoints_or_mounts": "komfort- und sicherheitslastig, selten offen bewaffnet",
+      "availability": "restricted",
+      "tags": [
+        "luxury",
+        "corporate",
+        "vip"
+      ],
+      "rules_short": "Repräsentationsfahrzeug mit Sicherheits- und Komfortpaketen, aber oft starker digitaler Vernetzung.",
+      "description": "Luxus, Isolation und Konzernsicherheit auf Raedern. Stark gegen Kleinwaffen und Strassendruck, aber oft digital ueberfrachtet.",
+      "crew_notes": [
+        "Chauffeur, Sicherung, VIP-Passagiere."
+      ],
+      "quickhack_hooks": [
+        "Komfortsysteme",
+        "Fenster",
+        "Sitzprofile",
+        "Konzerntracking"
+      ],
+      "scene_use": [
+        "VIP-Transfer",
+        "Entfuehrung",
+        "Konzernverfolgung"
+      ],
+      "legal_status": "licensed",
+      "price_eb": 85000
+    }
+  ]
+}

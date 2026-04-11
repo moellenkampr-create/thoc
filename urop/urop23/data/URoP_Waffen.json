@@ -1,0 +1,499 @@
+{
+  "schema_version": "2.0",
+  "type": "urop_weapons",
+  "authoritative_note": "Fuehrende Datenquelle fuer Waffen in URoP. Die Struktur bleibt spielorientiert und bewusst schlanker als echte Waffenkunde.",
+  "design_note": "Waffen fuehren nur die Felder, die fuer Spielgefuehl, Foundry-Einordnung und spaetere Pflege echten Nutzen haben. Feinere Schnitt-, Stich- oder Schlaglogik bleibt im Beschreibungstext oder Regeltext.",
+  "effect_scale": {
+    "1": "reduzierter Druck",
+    "2": "Druck",
+    "3": "Leichte Konsequenz",
+    "4": "Schwere Konsequenz",
+    "5": "Kritische Konsequenz"
+  },
+  "currency_unit": "EB",
+  "currency_aliases": [
+    "ebbies",
+    "Eurodollar",
+    "Eurobuck"
+  ],
+  "enums": {
+    "combat_mode": [
+      "melee",
+      "ranged",
+      "hybrid"
+    ],
+    "category": [
+      "kleinwaffe",
+      "nahkampfwaffe",
+      "zweihandwaffe",
+      "stangenwaffe",
+      "handfeuerwaffe",
+      "shotgun",
+      "gewehr",
+      "sniper",
+      "schwere_waffe",
+      "wurfwaffe",
+      "bogen",
+      "armbrust"
+    ],
+    "size_class": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "vehicle"
+    ],
+    "quality": [
+      "poor",
+      "standard",
+      "excellent"
+    ],
+    "fire_modes": [
+      "single",
+      "burst",
+      "auto"
+    ],
+    "melee_reach_classes": [
+      "handgemenge",
+      "nahkampf",
+      "lang",
+      "stange"
+    ]
+  },
+  "field_schema": {
+    "id": {
+      "required": true,
+      "type": "string",
+      "description": "Stabile interne Kennung"
+    },
+    "name": {
+      "required": true,
+      "type": "string",
+      "description": "Anzeigename"
+    },
+    "category": {
+      "required": true,
+      "type": "string",
+      "description": "Spielorientierte Hauptkategorie fuer Ordnung, Foundry und grobe Handhabung"
+    },
+    "combat_mode": {
+      "required": true,
+      "type": "string",
+      "description": "melee, ranged oder hybrid"
+    },
+    "description": {
+      "required": true,
+      "type": "string",
+      "description": "Beschreibender Fliesstext; hier koennen Schnitt-, Stich-, Schlag- oder Hybridcharakter stehen"
+    },
+    "rules_short": {
+      "required": true,
+      "type": "string",
+      "description": "Kurze regeltechnische Kernaussage"
+    },
+    "price_eb": {
+      "required": true,
+      "type": "number",
+      "description": "Referenzpreis in EB"
+    },
+    "designed_for_size_class": {
+      "required": true,
+      "type": "string",
+      "description": "Fuer welche Nutzergroesse die Waffe primär gebaut ist"
+    },
+    "effective_against_class": {
+      "required": true,
+      "type": "string",
+      "description": "Gegen welche Zielgroesse oder Zielklasse der Basiseffekt primär gelesen wird; ersetzt den frueher diskutierten Gedanken eines zweiten Schadenswerts"
+    },
+    "damage_baseline": {
+      "required": true,
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Typische Standardwirkung der Waffe"
+    },
+    "quality": {
+      "required": true,
+      "type": "string",
+      "description": "Grobe Qualitaetseinstufung"
+    },
+    "magazine_capacity": {
+      "required": false,
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Magazingroesse oder Ladekapazitaet, falls relevant"
+    },
+    "fire_modes": {
+      "required": false,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Verfuegbare Feuerarten fuer Fernkampfwaffen"
+    },
+    "melee_reach_classes": {
+      "required": false,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Aktive Nahkampfreichweiten; mehrere Eintraege sind erlaubt"
+    },
+    "range_bands": {
+      "required": false,
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Reichweitenbaender fuer Fernkampfwaffen; Werte sind grobe Obergrenzen in Metern",
+      "properties": {
+        "nah": {
+          "type": "integer"
+        },
+        "mittel": {
+          "type": "integer"
+        },
+        "weit": {
+          "type": "integer"
+        },
+        "extrem": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": "weapon_knife_combat_std",
+      "name": "Kampfmesser",
+      "category": "kleinwaffe",
+      "combat_mode": "melee",
+      "description": "Standardisiertes Kampf- oder Gebrauchsmesser.",
+      "rules_short": "Leichte bis ernste Nahkampfwaffe im direkten Kontakt.",
+      "price_eb": 40,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 3,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "handgemenge",
+        "nahkampf"
+      ]
+    },
+    {
+      "id": "weapon_baton_telescopic_std",
+      "name": "Teleskopschlagstock",
+      "category": "kleinwaffe",
+      "combat_mode": "melee",
+      "description": "Ausziehbarer Schlagstock fuer Polizei, Sicherheit und verdeckte Traeger.",
+      "rules_short": "Kontrollwaffe fuer Druck, Schmerz und nichtletale Gewalt.",
+      "price_eb": 80,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 2,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "handgemenge",
+        "nahkampf"
+      ]
+    },
+    {
+      "id": "weapon_machete_field_std",
+      "name": "Feldmachete",
+      "category": "nahkampfwaffe",
+      "combat_mode": "melee",
+      "description": "Schwere Machete fuer Busch, Werkstatt und harte Nahkampfeinsaetze.",
+      "rules_short": "Rohe Nahkampf- und Werkzeugwaffe mit guter Schnittwirkung.",
+      "price_eb": 60,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 3,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "nahkampf"
+      ]
+    },
+    {
+      "id": "weapon_sword_longsword_std",
+      "name": "Langschwert",
+      "category": "zweihandwaffe",
+      "combat_mode": "melee",
+      "description": "Militaerisch oder zeremoniell gefuehrtes Langschwert im menschlichen Groessenraum.",
+      "rules_short": "Ernsthafte Nahkampfwaffe mit hoher Wirkung gegen ungeschuetzte Ziele.",
+      "price_eb": 180,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "nahkampf",
+        "lang"
+      ]
+    },
+    {
+      "id": "weapon_hammer_war_std",
+      "name": "Kriegshammer",
+      "category": "zweihandwaffe",
+      "combat_mode": "melee",
+      "description": "Massive Schlagwaffe fuer gepanzerte Gegner oder Durchbruch im Nahkampf.",
+      "rules_short": "Wuchtige Schlagwaffe fuer hohe rohe Wirkung auf kurze Distanz.",
+      "price_eb": 220,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "melee_reach_classes": [
+        "nahkampf",
+        "lang"
+      ]
+    },
+    {
+      "id": "weapon_taser_pistol_std",
+      "name": "Taserpistole",
+      "category": "handfeuerwaffe",
+      "combat_mode": "ranged",
+      "description": "Elektrische Kontrollwaffe fuer Polizei, Security und Zwangseinsatz.",
+      "rules_short": "Kurzreichweitige Kontrollwaffe mit primaer nichtletaler Wirkung.",
+      "price_eb": 250,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 2,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 5,
+        "mittel": 10,
+        "weit": 15,
+        "extrem": 20
+      }
+    },
+    {
+      "id": "weapon_pistol_service_9mm",
+      "name": "9mm Dienstpistole",
+      "category": "handfeuerwaffe",
+      "combat_mode": "ranged",
+      "description": "Verbreitete halbautomatische Dienstpistole.",
+      "rules_short": "Standard-Kurzwaffe gegen Personalziele.",
+      "price_eb": 450,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "magazine_capacity": 15,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 10,
+        "mittel": 25,
+        "weit": 50,
+        "extrem": 100
+      }
+    },
+    {
+      "id": "weapon_revolver_heavy_44",
+      "name": ".44 Schwerer Revolver",
+      "category": "handfeuerwaffe",
+      "combat_mode": "ranged",
+      "description": "Großkalibriger Revolver fuer Jagd, Abschreckung und harte Einzelziele.",
+      "rules_short": "Kurzwaffe mit hoher roher Wirkung und geringerem Komfort als Dienstpistolen.",
+      "price_eb": 550,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "magazine_capacity": 6,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 10,
+        "mittel": 30,
+        "weit": 60,
+        "extrem": 120
+      }
+    },
+    {
+      "id": "weapon_machinepistol_compact_9mm",
+      "name": "Kompakte Maschinenpistole",
+      "category": "handfeuerwaffe",
+      "combat_mode": "ranged",
+      "description": "Kleine Maschinenpistole fuer Sicherheitskraefte, Spezialeinsaetze und kriminelle Nutzung.",
+      "rules_short": "Kompakte automatische Waffe fuer Nahraum und kurze Feuerstoesse.",
+      "price_eb": 700,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "magazine_capacity": 20,
+      "fire_modes": [
+        "single",
+        "burst",
+        "auto"
+      ],
+      "range_bands": {
+        "nah": 10,
+        "mittel": 25,
+        "weit": 50,
+        "extrem": 100
+      }
+    },
+    {
+      "id": "weapon_smg_service_9mm",
+      "name": "Dienst-SMG",
+      "category": "gewehr",
+      "combat_mode": "ranged",
+      "description": "Dienstliche Maschinenpistole mit Schulterstuetze und einsatznaher Ergonomie.",
+      "rules_short": "Kurzdistanzaffe fuer kontrolliertere Feuerstoesse als die kompakte Maschinenpistole.",
+      "price_eb": 950,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "magazine_capacity": 30,
+      "fire_modes": [
+        "single",
+        "burst",
+        "auto"
+      ],
+      "range_bands": {
+        "nah": 15,
+        "mittel": 40,
+        "weit": 80,
+        "extrem": 150
+      }
+    },
+    {
+      "id": "weapon_rifle_service_556",
+      "name": "5.56 Dienstgewehr",
+      "category": "gewehr",
+      "combat_mode": "ranged",
+      "description": "Verbreitetes Dienst- oder Sturmgewehr im menschlichen Groessenraum.",
+      "rules_short": "Standard-Gewehr fuer mittlere bis weitere Distanzen.",
+      "price_eb": 1200,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "magazine_capacity": 30,
+      "fire_modes": [
+        "single",
+        "burst",
+        "auto"
+      ],
+      "range_bands": {
+        "nah": 25,
+        "mittel": 75,
+        "weit": 200,
+        "extrem": 400
+      }
+    },
+    {
+      "id": "weapon_battle_rifle_762",
+      "name": "7.62 Battle Rifle",
+      "category": "gewehr",
+      "combat_mode": "ranged",
+      "description": "Leistungsstarkes Kampfgewehr fuer offene Gefechtsfelder und harte Ziele.",
+      "rules_short": "Schweres Gefechtsgewehr mit hoher Personalwirkung und starker Rueckstosskontrolle-Anforderung.",
+      "price_eb": 1600,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G4",
+      "damage_baseline": 5,
+      "quality": "standard",
+      "magazine_capacity": 20,
+      "fire_modes": [
+        "single",
+        "burst"
+      ],
+      "range_bands": {
+        "nah": 25,
+        "mittel": 100,
+        "weit": 250,
+        "extrem": 500
+      }
+    },
+    {
+      "id": "weapon_shotgun_pump_12g",
+      "name": "12G Pump-Schrotflinte",
+      "category": "shotgun",
+      "combat_mode": "ranged",
+      "description": "Schwere Schrotflinte fuer Hauskampf, Breach und harte kurze Distanzen.",
+      "rules_short": "Sehr harte Nah- und Kurzdistanzwaffe mit Streucharakter.",
+      "price_eb": 800,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 5,
+      "quality": "standard",
+      "magazine_capacity": 8,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 35,
+        "extrem": 60
+      }
+    },
+    {
+      "id": "weapon_marksman_rifle_762",
+      "name": "Praezisionsgewehr 7.62",
+      "category": "sniper",
+      "combat_mode": "ranged",
+      "description": "Schweres Praezisionsgewehr fuer kontrollierte Einzelziele und weite Linien.",
+      "rules_short": "Praezisionswaffe fuer gezielte Wirkung auf mittlere bis extreme Distanz.",
+      "price_eb": 1800,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G4",
+      "damage_baseline": 5,
+      "quality": "standard",
+      "magazine_capacity": 10,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 30,
+        "mittel": 120,
+        "weit": 300,
+        "extrem": 700
+      }
+    },
+    {
+      "id": "weapon_launcher_av_mk1",
+      "name": "AV-Werfer MK1",
+      "category": "schwere_waffe",
+      "combat_mode": "ranged",
+      "description": "Tragbarer Werfer fuer Grossziele, Panzerung und Strukturziele.",
+      "rules_short": "Schultergestuetzte AV-Waffe gegen Fahrzeuge und schwere Ziele.",
+      "price_eb": 6500,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "vehicle",
+      "damage_baseline": 5,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "range_bands": {
+        "nah": 20,
+        "mittel": 75,
+        "weit": 250,
+        "extrem": 500
+      }
+    }
+  ]
+}

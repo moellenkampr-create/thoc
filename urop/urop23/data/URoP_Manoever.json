@@ -1,0 +1,171 @@
+{
+  "schema_version": "2026-04-09_v2",
+  "type": "maneuver_database",
+  "authoritative_note": "Fuehrende Datenquelle fuer volle Manoever im schlanken Kern. Eintragsfelder wurden auf Lesbarkeit, Voraussetzungen und Kosten reduziert; feinere Achsen, Fenster- und Gegenklassen laufen derzeit im Regeltext statt als Pflichtfelder.",
+  "design_notes": [
+    "URoP fuehrt aktuell nur Basisanwendung und volles Manoever; eine eigene Zwischenebene fuer Optionen / Techniken ist vorerst nicht aktiv.",
+    "Reaktive Manoever teilen sich eine gemeinsame knappe Reaktionsressource pro eigenem Initiativzyklus.",
+    "Fensterklassen und Gegenfensterklassen bleiben bewusst klein, damit Gegenreaktionen ueber robuste Klassen statt ueber eine riesige Eins-zu-eins-Matrix lesbar bleiben.",
+    "Diese v2 fuehrt den aktiven Referenzbestand der vollen Manoever fuer Kampf, Sozial und Technik."
+  ],
+  "tier_cost_reference": {
+    "T0": 0,
+    "T1": 15,
+    "T2": 30,
+    "T3": 50
+  },
+  "enums": {
+    "tier": [
+      "T0",
+      "T1",
+      "T2",
+      "T3"
+    ]
+  },
+  "field_schema": {
+    "id": "Stabile eindeutige Kennung des Manoevers.",
+    "name": "Anzeigename des Manoevers.",
+    "tier": "Gewicht oder Stufe des Manoevers innerhalb der aktuellen Tierlogik.",
+    "cost": "Ressourcenkosten des Manoevers, aktuell vor allem Ausdauer oder vergleichbare Bindung.",
+    "rules_short": "Kurze spielnahe Regellesart fuer schnellen Zugriff am Tisch.",
+    "description": "Vollstaendige Lesefassung des Manoevers mit Einsatzlage, Wirkung, Risiko und typischer Gegenlage im Fliesstext.",
+    "requirements": "Voraussetzungen des Manoevers als gut lesbarer Klartext."
+  },
+  "entries": [
+    {
+      "id": "man_befreien_aus_griff",
+      "name": "Befreien aus Griff",
+      "tier": "T0",
+      "cost": 0,
+      "rules_short": "Loest oder lockert einen bestehenden Griff, damit wieder Bewegung oder Distanznahme moeglich wird.",
+      "description": "Defensives Grundmanoever gegen unmittelbare koerperliche Kontrolle im Nahkampf. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Die Figur steht bereits unter Griff, Halt oder direkter koerperlicher Kontrolle. Typische Gegenlage: Bei Fehlschlag bleibt der Griff bestehen und der Gegner kann Druck, Hebel oder Nachsetzen aufbauen. Typische Antwortart: entziehen. Bei Gelingen: Der gegnerische Griff wird geloest oder soweit gebrochen, dass wieder normale Bewegung, Distanznahme oder Anschlussaktion moeglich wird. Bei Teilerfolg: Die Kontrolle lockert sich, aber der Gegner bleibt in Reichweite oder eroeffnet direktes Nachsetzen. Risiko: Scheitert der Versuch klar, bleibt die Figur gebunden und oeffnet sich fuer unmittelbaren Gegendruck. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Wichtig, damit Nahkampfkontrolle stark, aber nie absolut bleibt; teilt sich das Reaktionsfenster mit anderen Antworten.",
+      "requirements": "Die Figur ist bereits gepackt, gehalten oder direkt in ihrer Bewegungsfreiheit eingeschraenkt.; Athletik, Nahkampf oder Waffenlos muessen die Befreiung plausibel tragen koennen.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein, wenn die Befreiung als unmittelbare Reaktion gelesen wird."
+    },
+    {
+      "id": "man_entwaffnen",
+      "name": "Entwaffnen",
+      "tier": "T1",
+      "cost": 15,
+      "rules_short": "Drueckt eine Waffe aus der Linie, aus der Hand oder macht sie akut unbrauchbar.",
+      "description": "Kernmanoever, das nicht den Gegner selbst, sondern seine tragende Waffenfuehrung angreift. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Der Gegner fuehrt eine Waffe offen, ist im Austausch gebunden oder verliert kurz Kontrolle ueber seine Waffenfuehrung. Typische Gegenlage: Ein misslungenes Entwaffnen kann zu Gegenangriff, Distanzgewinn oder Konter gegen die offene eigene Linie fuehren. Bei Gelingen: Die Waffe wird verloren, aus der Linie gedraengt, zu Boden gebracht oder zumindest akut unbrauchbar gemacht. Bei Teilerfolg: Die Waffe bleibt beim Gegner, aber seine Linie bricht auf und Folgeaktionen gegen Haltung, Distanz oder Kontrolle werden leichter. Risiko: Wer zu tief in die gegnerische Linie geht, kann sich sichtbar fuer Gegenstoss oder Konter oeffnen. Designhinweis: Kernwerkzeug gegen bewaffnete Ziele, aber keine sichere Universalantwort.",
+      "requirements": "Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen plausiblen Zugriff auf Hand oder Waffenlinie erlauben.; Nahkontakt oder eine offen lesbare Waffenlinie ist noetig."
+    },
+    {
+      "id": "man_umreissen_niederwerfen",
+      "name": "Umreissen / Niederwerfen",
+      "tier": "T1",
+      "cost": 15,
+      "rules_short": "Bricht Stand, Schwerpunkt oder Laufkontrolle, um ein Ziel aus stabiler Position zu holen.",
+      "description": "Kontrollmanoever gegen Haltung und Stand statt gegen rohe Trefferwirkung. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Der Gegner steht unguenstig, wird gedraengt, ist in Bewegung oder verliert kurz seine stabile Linie. Typische Gegenlage: Misslingt das Manoever, kann der Gegner Griff, Clinch oder Vorstoss gegen die tiefe Linie der angreifenden Figur setzen. Bei Gelingen: Der Gegner geht zu Boden, verliert stabilen Stand oder muss zuerst seine Haltung wiederfinden. Bei Teilerfolg: Das Ziel bleibt stehen, verliert aber Position, Tempo oder eine saubere Folgehandlung. Risiko: Scheitert das Manoever offen, steht die handelnde Figur oft tief in der Linie und laedt zu Gegengriff oder Gegenstoss ein. Designhinweis: Gute Kontrolltechnik ohne Abschlusscharakter.",
+      "requirements": "Athletik, Nahkampf oder Waffenlos muessen den Hebel auf Stand oder Schwerpunkt plausibel tragen.; Nahdistanz, Koerperkontakt oder eine offene Bewegungslinie des Gegners."
+    },
+    {
+      "id": "man_festsetzen",
+      "name": "Festsetzen",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Erzwingt klare Bindung und schraenkt Bewegung, Flucht oder freies Waffenspiel stark ein.",
+      "description": "Fortgeschrittenes Kontrollmanoever, das auf vorherige Oeffnung oder deutlichen Positionsvorteil baut. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Der Gegner ist bereits schlecht gebunden, am Boden, an einer Kante, in engem Raum oder aus einer Voraktion heraus offen. Typische Gegenlage: Befreiungsversuche, Werkzeugnaehe, Nahwaffen oder Eingriffe von Verbuendeten koennen die Bindung brechen. Bei Gelingen: Der Gegner wird in Bewegung oder Handlungsfreiheit klar eingeschraenkt; Flucht, freies Manoevrieren und sauberes Waffenspiel werden stark erschwert. Bei Teilerfolg: Nur kurzer Halt oder blockierte Linie, aber immerhin genug, um Tempo und Optionen des Gegners zu beschneiden. Risiko: Festsetzen bindet auch die eigene Figur und macht sie anfaelliger fuer Eingriffe von aussen. Designhinweis: Starke Kontrolle und deshalb fast nie ohne Lage- oder Kettenbindung.",
+      "requirements": "Koerperliche Kontrolle durch Athletik, Nahkampf oder Waffenlos muss plausibel tragbar sein.; Nahkontakt und ein bereits schlechter Stand des Gegners sind fast immer noetig.; Vorherige Oeffnung, Bodensituation, enge Umgebung oder klarer Positionsvorteil sind typisch."
+    },
+    {
+      "id": "man_konter",
+      "name": "Konter",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Faengt eine erkennbare Aktion nicht nur ab, sondern kippt sie in Nachteil oder Oeffnung fuer den Gegner.",
+      "description": "Timingkritisches Reaktionsmanoever fuer Kampfsituationen mit lesbarer gegnerischer Aktion. Einordnung: Kampf, reaktiv, Umkehren. Typisches Einsatzfenster: Ein Gegner oeffnet sich mit einem klar lesbaren Angriff, Griffversuch, Entwaffnen, Clinch oder anderen deutlich sichtbaren Kampfmanoever. Typische Gegenlage: Ein verfruehter oder falscher Konter verpufft und laesst die reagierende Figur in offener Stellung zurueck. Typische Antwortart: umkehren. Bei Gelingen: Die gegnerische Aktion kippt in Nachteil, Kontrollverlust oder direkte Anschlussoeffnung fuer die reagierende Figur. Bei Teilerfolg: Die gegnerische Aktion wird wenigstens abgebremst, fehlgeleitet oder zu schwaecherer Wirkung gezwungen. Risiko: Falsches Lesen oder falsches Timing verbrennt das Reaktionsfenster und kann die eigene Lage verschlechtern. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Soll stark sein, aber nie als kostenlose Universalparade funktionieren; konkurriert direkt mit anderen Reaktionen.",
+      "requirements": "Passendes Kampfkoennen fuer Reichweite, Linie oder Griffarbeit muss vorhanden sein.; Eine erkennbare gegnerische Aktion und das passende Timingfenster sind zwingend.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein; es wird durch den Konter verbraucht."
+    },
+    {
+      "id": "man_finisher",
+      "name": "Finisher",
+      "tier": "T3",
+      "cost": 50,
+      "rules_short": "Spitzenmanoever fuer den harten Abschluss nach bereits geschaffener Oeffnung oder massiver Kontrolle.",
+      "description": "Seltene Abschlussaktion, die nicht aus dem Nichts kommt, sondern auf deutlicher Vorarbeit aufsetzt. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist bereits deutlich aus der Szene genommen, hart unter Kontrolle oder sichtbar am Rand des Zusammenbruchs. Typische Gegenlage: Wer den Finisher zu frueh ansagt, kann Ressourcen verlieren und der Gegenseite ein letztes Gegenfenster geben. Bei Gelingen: Der Kampf kippt massiv: Ausschalten, Aufgabe erzwingen oder letzte tragende Option des Gegners brechen. Bei Teilerfolg: Kein Vollabschluss, aber maximaler Druck und eine fuer den Gegner extrem schlechte Anschlusslage. Risiko: Finisher sind Commitment-Aktionen; Fehlansage oder Fehlschlag kosten viel und koennen hart zurueckschlagen. Designhinweis: Kein normaler Standardabschluss, sondern seltenes Spitzensignal im Manoeverbaum.",
+      "requirements": "Passendes Kampfkoennen fuer die konkrete Abschlussform muss plausibel sein.; Eine klare Vorbedingung wie harte Oeffnung, gebrochene Deckung oder kontrollierter Gegner ist noetig.; Hohe Ausdauerbindung; kein billiges Alltagswerkzeug."
+    },
+    {
+      "id": "man_schnellziehen",
+      "name": "Schnellziehen",
+      "tier": "T0",
+      "cost": 0,
+      "rules_short": "Bringt eine Waffe im Eskalationsmoment rechtzeitig in die Szene und spart Tempo beim Uebergang in Gewalt.",
+      "description": "Sehr nah an der Basisnutzung, aber mit eigenem Eskalationsfenster und klarer Tempo-Frage. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Der Uebergang von Nicht-Kampf in unmittelbare Kampfhandlung passiert gerade; es ist ein einmaliges Eskalationsfenster, kein Dauerrecht auf Vorziehen. Typische Gegenlage: Stockender Zugriff kann die Figur in Bewegung, Deckung oder Handwechsel unguenstig erwischen. Typische Antwortart: entziehen. Bei Gelingen: Die Figur bringt ihre Waffe rechtzeitig in die Szene und verliert weniger Tempo beim Gewaltuebergang. Bei Teilerfolg: Die Waffe ist da, aber noch unsauber gefuehrt, schlecht ausgerichtet oder erst nach dem Gegner wirklich einsatzbereit. Risiko: Misslingt das Ziehen offen, stockt der Zugriff und die Figur verliert wertvolles Tempo im kritischen Moment. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: T0, weil es nah an der Basisanwendung bleibt; als Reaktion teilt es sich dasselbe Fenster mit anderen Antworten.",
+      "requirements": "Passender Umgang mit der gefuehrten Waffe muss plausibel vorhanden sein.; Die Szene kippt gerade in Gewalt, Zeitdruck oder Ueberraschung.; Eine zugriffsbereite Waffe und ausreichend freie Hand sind noetig.; Das Reaktionsfenster muss frei sein, wenn Schnellziehen im Eskalationsmoment vor der regulaeren Handlung der Figur greift."
+    },
+    {
+      "id": "man_praezisionsschuss",
+      "name": "Praezisionsschuss",
+      "tier": "T1",
+      "cost": 15,
+      "rules_short": "Verzichtet auf reines Schnellfeuer zugunsten gezielter Wirkung gegen Linie, Deckung oder ein kleines Ziel.",
+      "description": "Fernkampf-Kernmanoever fuer saubere Zielwirkung statt roher Volumentreffer. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur hat eine erkennbare Linie und verzichtet bewusst auf blosses schnelles Feuern zugunsten gezielter Wirkung. Typische Gegenlage: Laengere Zielbindung macht Bewegung, Deckungswechsel oder Reaktionsfenster des Gegners relevanter. Bei Gelingen: Der Schuss trifft besonders sinnvoll und kann Deckung knacken, Ausruestung stoeren oder eine gute Anschlussoeffnung schaffen. Bei Teilerfolg: Weniger direkte Wirkung, aber immer noch gezielter Druck auf die angepeilte Schwachstelle. Risiko: Wer zu sauber zielt, bindet Aufmerksamkeit und Zeit und gibt mobilen Gegnern eher Fenster. Designhinweis: Fernkampf-Kernmanoever; nicht bloss mehr Schaden.",
+      "requirements": "Fernkampf und konkrete Waffenfuehrung muessen eine saubere Zielwahl tragen.; Brauchbare Sichtlinie und halbwegs kontrollierter Schuss sind noetig."
+    },
+    {
+      "id": "man_unterdrueckungsfeuer",
+      "name": "Unterdrueckungsfeuer",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Kontrolliert einen Raumabschnitt, bremst Vorstoss und zwingt Gegner zu Vorsicht, Deckung oder Umweg.",
+      "description": "Flaechen- und Tempomanoever fuer Raumkontrolle statt Einzelzielpraezision. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Die Figur will nicht ein Einzelziel praezise brechen, sondern Bereich, Bewegung oder Vorstoss kontrollieren. Typische Gegenlage: Mobile Gegner, Flanken oder harte Deckungswechsel koennen eine starre Feuerlinie ausspielen. Bei Gelingen: Gegner im betroffenen Raum verlieren Tempo, wagen weniger offene Bewegung oder muessen schlechtere Positionen akzeptieren. Bei Teilerfolg: Der Bereich wird nur teilweise kontrolliert, zwingt aber immer noch zu Vorsicht, Deckung oder Umweg. Risiko: Hoher Ressourcenverbrauch und geringere Praezision; die bindende Feuerlinie kann gegen die Figur ausgespielt werden. Designhinweis: Starker Szeneneingriff, deshalb klar T2.",
+      "requirements": "Geeignete Fernkampfwaffe und ausreichend Feuerkontrolle sind noetig.; Ein sinnvoller Raumabschnitt, Korridor oder Vorstossweg muss kontrollierbar sein.; Munition und Bereitschaft zum spuerbaren Ressourcenverbrauch sind noetig."
+    },
+    {
+      "id": "man_reaktionsschuss",
+      "name": "Reaktionsschuss",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Nutzen eines kurzen Expositionsmoments, um Bewegung oder Vorstoss direkt im Oeffnungsfenster zu brechen.",
+      "description": "Timingkritisches Fernkampf-Reaktionsmanoever gegen sichtbare Bewegung oder Exposition. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Ein Ziel tritt sichtbar aus Deckung, sprintet durch eine gehaltene Linie, wechselt Position oder exponiert sich kurz; bereits abgeschlossene Handlungen sind kein gueltiger Trigger. Typische Gegenlage: Falsches Timing oder Taeuschung kann die gebundene Reaktion leer laufen lassen. Typische Antwortart: abfangen. Bei Gelingen: Der Gegner wird im Moment seiner Oeffnung getroffen, gestoert oder mindestens hart gebremst. Bei Teilerfolg: Selbst ohne volle Wirkung erzwingt die Reaktion oft Deckung, Kurswechsel oder Abbruch. Risiko: Wer Bereitschaft bindet, verliert Aufmerksamkeit fuer andere Lagen; falsches Lesen verbrennt das Reaktionsfenster. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Starkes Zeitfenstermanoever; darf nicht gleichzeitig mit anderen Reaktionen derselben Figur in demselben Zyklus genutzt werden.",
+      "requirements": "Passende Waffenfuehrung und Bereitschaft muessen vorhanden sein.; Eine erkennbare gegnerische Bewegung, Exposition oder Positionsaenderung ist zwingend.; Die Figur bindet Aufmerksamkeit auf dieses Fenster; das gemeinsame Reaktionsfenster fuer den aktuellen Initiativzyklus muss noch frei sein."
+    },
+    {
+      "id": "man_gespraechsschock",
+      "name": "Gespraechsschock",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Setzt eine belastende Wahrheit, Enthuellung oder Grenzueberschreitung als harten Schlag gegen Fassung und Haltung.",
+      "description": "Harter sozialer Schlag, der nicht Alltagswerkzeug, sondern Szenen-Kippmoment sein soll. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel ist emotional, sozial oder rhetorisch angreifbar und die Szene traegt einen harten Schlag gegen Haltung oder Fassade. Typische Gegenlage: Zu harte oder unpassende Schocks koennen Autoritaeten, Publikum oder Verbuendete gegen die handelnde Figur drehen. Bei Gelingen: Das Ziel verliert Fassung, Gesicht, argumentative Linie oder soziale Stabilitaet; Anschlussaktionen gegen Widerstand oder Haltung werden leichter. Bei Teilerfolg: Kein kompletter Bruch, aber sichtbare Erschuetterung, Unruhe oder defensiver Rueckzug. Risiko: Soziale Eskalation droht; die Wirkung kann kippen, wenn der Schlag als unpassend, unfair oder unklug gelesen wird. Designhinweis: Bewusst kein T1-Alltagswerkzeug, weil es soziale Szenen stark kippen kann.",
+      "requirements": "Druck, Auftreten oder glaubhafte Inszenierung muessen den Schlag tragen koennen.; Es braucht einen belastenden Hebel, eine harte Wahrheit oder einen wirksamen Statusmoment.; Besonders stark nach vorherigem Druckaufbau oder sichtbarer Instabilitaet des Ziels."
+    },
+    {
+      "id": "man_sozialer_konter",
+      "name": "Sozialer Konter",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Dreht einen sichtbaren Angriff auf Ansehen, Deutung oder Position gegen seinen Urheber zurueck.",
+      "description": "Reaktive Sozialmacht gegen offene Deutungs-, Status- oder Glaubwuerdigkeitsangriffe. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Jemand setzt gerade sichtbar zu Bloßstellung, Deutungshoheit, Statusangriff oder Glaubwuerdigkeitsbruch an; diffuses Unbehagen reicht nicht. Typische Gegenlage: Ein schwacher Konter wirkt defensiv, duennhaeutig oder ausweichend und kann den Angriff sogar verstaerken. Typische Antwortart: umkehren. Bei Gelingen: Der Angriff laeuft ins Leere oder kippt gegen seinen Urheber; die reagierende Figur gewinnt Boden, Wuerde oder Deutungshoheit zurueck. Bei Teilerfolg: Die gegnerische Spitze wird wenigstens entschaerft, zerfasert oder auf Nebenschauplaetze gezogen. Risiko: Schlecht gesetzte Reaktivitaet kann Unsicherheit zeigen und die urspruengliche Attacke verstaerken. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Soziale Reaktivmacht muss da sein, darf aber nie kostenlose Allzweckparade werden; teilt sich das Reaktionsfenster mit anderen Antworten.",
+      "requirements": "Die Figur braucht glaubhafte rhetorische oder soziale Gegenmittel.; Ein sichtbarer Angriff auf Position, Deutung oder Glaubwuerdigkeit muss bereits laufen.; Das gemeinsame Reaktionsfenster der Figur fuer diesen sozialen Schlagabtausch muss noch frei sein; der Konter verbraucht es."
+    },
+    {
+      "id": "man_bypass",
+      "name": "Bypass",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Umgeht eine Schutzlogik ueber einen schmalen Zugangspfad statt sie frontal aufzubrechen.",
+      "description": "Technischer Szenenoeffner fuer Umgehung statt rohe Oeffnung. Einordnung: Technik, aktiv, Oeffnung. Typisches Einsatzfenster: Eine direkte Oeffnung waere zu langsam, zu laut oder zu schwer; stattdessen wird die Schutzlogik umgangen. Typische Gegenlage: Fehler im Umgehungspfad koennen Spuren, Alarm, Rueckkopplungen oder sehr instabilen Teilzugriff erzeugen. Bei Gelingen: Die Sperre wird nicht klassisch gebrochen, sondern ueber einen schmalen und oft fragilen Pfad umgangen. Bei Teilerfolg: Es entsteht nur Teilzugriff, kurzer Zugriff oder Zugriff mit Spuren, Instabilitaet oder begrenzter Berechtigung. Risiko: Bypass kann leiser sein als rohe Gewalt, aber Fehler hinterlassen oft genau die Art von Spuren, die spaeter teuer werden. Designhinweis: Starker Szenenoeffner und deshalb klar oberhalb von T1.",
+      "requirements": "Elektronik, Sicherheitssysteme, Schlossmechanik oder aehnliches muessen den Umgehungspfad tragen koennen.; Eine relevante Schnittstelle, Leitung, Logik oder Schutzstruktur muss greifbar sein.; Vorwissen, Beobachtung oder Vorbereitung verbessern das Fenster deutlich."
+    },
+    {
+      "id": "man_alarm_verzoegern",
+      "name": "Alarm verzoegern",
+      "tier": "T2",
+      "cost": 30,
+      "rules_short": "Gewinnt Zeit, indem Alarm, Meldung oder Eskalationskette gestaut, umgeleitet oder verspaetet wird.",
+      "description": "Zeitkontroll-Manoever gegen drohende Entdeckung statt absolute Unsichtbarkeit. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Entdeckung oder Alarmweg sind bereits aktiv oder loesen gerade aus; vorab ruhige Vorbereitung ist kein Alarm-verzoegern-Manoever. Typische Gegenlage: Manipulation am Alarmweg hinterlaesst oft Spuren; spaetere Entdeckung kann haerter ausfallen, wenn der Eingriff bemerkt wird. Typische Antwortart: entziehen. Bei Gelingen: Alarm, Meldung oder Eskalationskette werden aufgehalten, umgeleitet, gestaut oder spaeter ausgeloest. Bei Teilerfolg: Nur kurze Verzoegerung, aber oft genug fuer Flucht, Abschluss oder Planwechsel. Risiko: Arbeit am Alarmpfad ist selten unsichtbar und kann spaeter fuer umso haertere Reaktion sorgen. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Sehr starker Szeneneingriff, weil Zeitkontrolle ganze Plaene rettet; als Reaktion teilt es sich dasselbe knappe Fenster.",
+      "requirements": "Elektronik, Sicherheitssysteme oder Sensorik muessen den Alarmpfad plausibel lesbar machen.; Ein erkannter oder absehbarer Alarmweg muss bereits aktiv oder kurz vor Aktivierung sein.; Zugriff auf Sensorik, Leitung, Protokoll oder Meldepfad ist noetig.; Das gemeinsame Reaktionsfenster der Figur muss noch frei sein, wenn Alarm verzoegern als unmittelbare Gegenreaktion gelesen wird."
+    }
+  ],
+  "reaction_economy": {
+    "status": "ARBEITSSTAND",
+    "cycle_rule": "Jede Figur hat pro eigenem Initiativzyklus ein Reaktionsfenster.",
+    "refresh": "Das Reaktionsfenster erneuert sich mit der naechsten regulaeren Handlung der Figur.",
+    "consumption": "Ein reaktives Manoever verbraucht das Reaktionsfenster unabhaengig davon, ob es gelingt oder scheitert.",
+    "trigger_limit": "Pro Ausloeser darf eine Figur nur eine reaktive Antwort ansagen.",
+    "chain_limit": "Ein reaktives Manoever eroeffnet nicht sofort wieder ein weiteres reaktives Manoever als Kettenunterbrechung.",
+    "note": "Normale fiktionale Gegenwehr oder Widerstand ohne volles Manoever verbrauchen dieses Reaktionsfenster nicht automatisch."
+  }
+}

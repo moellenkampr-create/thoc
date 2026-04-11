@@ -1,0 +1,177 @@
+{
+  "schema_version": "2026-04-10_v2",
+  "type": "trait_list",
+  "authoritative_note": "Fuehrende Datenquelle fuer URoP-Vor- und Nachteile. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
+  "field_schema": {
+    "id": "Stabile interne Kennung",
+    "name": "Anzeigename",
+    "kind": "Marker fuer advantage oder disadvantage",
+    "tier": "Gewichtung bzw. grobe Kosten- oder Rueckgabeklasse: minor, moderate, major",
+    "rules_short": "Kurzregel in 1-2 Saetzen",
+    "description": "Lesefassung und ausfuehrlicher Regelsinn",
+    "requirements": "Optionale Voraussetzungen als Kurztext",
+    "incompatibilities": "Optionale Unvertraeglichkeiten als Kurztext"
+  },
+  "entries": [
+    {
+      "id": "adv_keen_senses",
+      "name": "Wachsame Sinne",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Fruehe Hinweise, schwache Reize und kleine Auffaelligkeiten kippen bei dir seltener unbemerkt durch.",
+      "description": "Wachsame Sinne steht fuer ueberdurchschnittlich gute Aufnahme, Einordnung und Bewertung relevanter Reize.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "adv_direction_sense",
+      "name": "Richtungssinn",
+      "kind": "advantage",
+      "tier": "minor",
+      "rules_short": "Du behaeltst Wege, Richtungen und Orientierungspunkte ungewoehnlich stabil im Kopf.",
+      "description": "Richtungssinn steht fuer sichere innere Orientierung und gute raeumliche Wiedererkennung.",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Schlechte Orientierung."
+    },
+    {
+      "id": "adv_tough",
+      "name": "Zaeh",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Belastung, Erschoepfung und allgemeiner Druck werfen dich spaeter aus der Bahn als andere.",
+      "description": "Zaeh steht fuer gute Belastungsreserve, robuste Erholung und hohe funktionale Widerstandsfaehigkeit.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "adv_hardened",
+      "name": "Abgebrueht",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Schock, Einschuechterung, Blut, Chaos oder Druck bringen dich seltener aus dem Arbeitsmodus.",
+      "description": "Abgebrueht steht fuer emotionale Robustheit unter belastenden, schmutzigen oder bedrohlichen Lagen.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "adv_field_routine",
+      "name": "Feldroutine",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Typische Gefahrensituationen eskalieren fuer dich seltener unkontrolliert.",
+      "description": "Feldroutine steht fuer praktische Erfahrung in gefaehrlichen, unuebersichtlichen oder belastenden Lagen.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "adv_first_responder",
+      "name": "Erstversorger",
+      "kind": "advantage",
+      "tier": "minor",
+      "rules_short": "Du kannst medizinische Notfallversorgung schnell, praktisch und unter Druck einsetzen.",
+      "description": "Erstversorger steht fuer belastbare Feldversorgung, Ersthilfe und Schockstabilisierung.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "adv_scene_contacts",
+      "name": "Szene-Kontakte",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Du hast belastbare Kontakte in einer relevanten Szene oder einem Milieu.",
+      "description": "Szene-Kontakte stehen fuer informelle Zugaenge, Namen, Anlaufstellen und belastbare Bekanntschaften.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "adv_combat_school",
+      "name": "Kampfschule",
+      "kind": "advantage",
+      "tier": "moderate",
+      "rules_short": "Du hast formale oder halbformale Ausbildung in einem klaren Kampfstil erhalten.",
+      "description": "Kampfschule markiert Stil, Zugang, Techniklinie und Trainingshintergrund, aber ist selbst keine Fertigkeit.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_poor_orientation",
+      "name": "Schlechte Orientierung",
+      "kind": "disadvantage",
+      "tier": "minor",
+      "rules_short": "Routen, Richtungen und Raumanordnung kippen bei dir leichter durcheinander.",
+      "description": "Schlechte Orientierung steht fuer schwache innere Wegfindung und unsichere Raumzuordnung.",
+      "requirements": "",
+      "incompatibilities": "Nicht kombinierbar mit Richtungssinn."
+    },
+    {
+      "id": "dis_fragile",
+      "name": "Fragil",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Koerperliche Belastungen und Treffer kippen bei dir schneller in echte Folgen.",
+      "description": "Fragil beschreibt geringe Belastungsreserve, schlechte Regeneration oder erhoehte Verletzlichkeit.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_skittish",
+      "name": "Schreckhaft",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Ueberraschung, Knall, Schock oder abrupte Eskalation werfen dich leichter aus der Spur.",
+      "description": "Schreckhaft steht fuer geringe Stabilitaet unter Ueberrumpelung und plötzlichem Druck.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_proud",
+      "name": "Stolz",
+      "kind": "disadvantage",
+      "tier": "minor",
+      "rules_short": "Kraenkung, Statusverlust oder Demuetigung lassen Konflikte fuer dich schneller haerter werden.",
+      "description": "Stolz ist nicht blosse Eitelkeit, sondern starke Bindung an Selbstbild, Status oder Wuerde.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_mistrustful",
+      "name": "Misstrauisch",
+      "kind": "disadvantage",
+      "tier": "minor",
+      "rules_short": "Vertrauen faellt dir schwer; Kooperation, Offenheit und Bindung bauen sich zaeher auf.",
+      "description": "Misstrauisch steht fuer tiefe Vorsicht gegenueber Menschen, Institutionen oder Versprechen.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_obligation",
+      "name": "Verpflichtung",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Du hast eine wiederkehrende Pflicht oder Bindung, die Zeit, Loyalitaet oder Handlungsspielraum kostet.",
+      "description": "Verpflichtung steht fuer Familie, Organisation, Schwur, Auftrag oder Personen, denen du real etwas schuldest.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_debt",
+      "name": "Schulden",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "Du stehst finanziell oder faktisch in der Kreide und geraetst dadurch regelmaessig unter Druck.",
+      "description": "Schulden bedeuten nicht nur Zahlen auf Papier, sondern reale Hebel, Fristen, Forderungen und Konsequenzen.",
+      "requirements": "",
+      "incompatibilities": ""
+    },
+    {
+      "id": "dis_bad_reputation",
+      "name": "Schlechter Ruf",
+      "kind": "disadvantage",
+      "tier": "moderate",
+      "rules_short": "In passenden Milieus oder gegenueber informierten Stellen hast du einen spuerenbaren Vertrauens- und Ansehensnachteil.",
+      "description": "Schlechter Ruf steht fuer Vorurteile, Aktenlage, Geruechte oder bekannte Vorfaelle.",
+      "requirements": "",
+      "incompatibilities": ""
+    }
+  ]
+}

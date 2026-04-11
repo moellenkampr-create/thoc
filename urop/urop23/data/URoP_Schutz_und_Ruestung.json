@@ -1,0 +1,192 @@
+{
+  "schema_version": "2026-04-08_v2",
+  "type": "protection_database",
+  "authoritative_note": "Fuehrende Datenquelle fuer Schutz und Ruestung. Die MD-Datei ist die Lesefassung und Schemaerklaerung.",
+  "protection_scale": {
+    "0": "praktisch kein echter Schutz",
+    "1": "leichter Schutz",
+    "2": "spuerbarer Schutz",
+    "3": "starker Schutz",
+    "4": "sehr starker Schutz",
+    "5": "Sonderfall / schwere Spezialpanzerung"
+  },
+  "currency_unit": "EB",
+  "currency_aliases": [
+    "ebbies",
+    "Eurodollar",
+    "Eurobuck"
+  ],
+  "pricing_note": "Preise sind Referenzwerte in EB. Sie bilden den typischen Markt- oder Szenenzugang ab, nicht starre Weltmarktgesetze.",
+  "enums": {
+    "quality": [
+      "poor",
+      "standard",
+      "excellent"
+    ],
+    "category_examples": [
+      "clothing",
+      "vest",
+      "armor_light",
+      "armor_heavy",
+      "riot",
+      "powered",
+      "shield",
+      "helmet"
+    ]
+  },
+  "field_schema": {
+    "id": {
+      "type": "string",
+      "description": "Stabile interne Kennung."
+    },
+    "name": {
+      "type": "string",
+      "description": "Anzeigename des Schutz- oder Ruestungseintrags."
+    },
+    "category": {
+      "type": "string",
+      "description": "Grobe Schutz- oder Ruestungskategorie; dient auch als spaeterer Foundry-Trenner."
+    },
+    "quality": {
+      "type": "enum",
+      "values": [
+        "poor",
+        "standard",
+        "excellent"
+      ],
+      "description": "Allgemeine Qualitaetseinstufung analog zur Waffenstruktur."
+    },
+    "user_size_nominal": {
+      "type": "string",
+      "description": "Nominale Nutzer- oder Ergonomiegroesse; nicht auf Humanoide beschraenkt."
+    },
+    "protection_value": {
+      "type": "integer",
+      "description": "Zentraler Schutzwert als Wirkungsbremse im Kampfkern."
+    },
+    "rules_short": {
+      "type": "string",
+      "description": "Kurze Regelfassung fuer schnelle Nutzung am Tisch."
+    },
+    "description": {
+      "type": "string",
+      "description": "Volle Beschreibung inklusive Abdeckung, rechtlichem Kontext und Besonderheiten."
+    },
+    "price_eb": {
+      "type": "integer",
+      "description": "Preis in EB."
+    }
+  },
+  "entries": [
+    {
+      "id": "armor_clothing_heavy_street",
+      "name": "Verstaerkte Strassenkleidung",
+      "category": "clothing",
+      "user_size_nominal": "G3",
+      "protection_value": 0,
+      "quality": "standard",
+      "rules_short": "Kein echter Schutzwert, aber zusaetzliche Lage- und Plausibilitaetsreserve moeglich.",
+      "description": "Dickere, verstaerkte Alltagskleidung mit leichtem Schutzcharakter. Bedeckt nur Teile des Koerpers. Weit verbreitet und vergleichsweise leicht zu beschaffen. Im zivilen Umfeld meist unauffaellig oder grundsaetzlich tragbar.",
+      "price_eb": 150
+    },
+    {
+      "id": "armor_vest_stab_concealed",
+      "name": "Verdeckte Stichschutzweste",
+      "category": "vest",
+      "user_size_nominal": "G3",
+      "protection_value": 1,
+      "quality": "standard",
+      "rules_short": "Leichter, verdeckter Schutz vor Klingen- und Stichbedrohungen am Torso.",
+      "description": "Diskret tragbare Schutzweste fuer Security, Ermittler und zivile Traeger. Bedeckt hauptsaechlich den Torso. Weit verbreitet und vergleichsweise leicht zu beschaffen. Rechtlich oder sozial oft eingeschraenkt.",
+      "price_eb": 250
+    },
+    {
+      "id": "armor_vest_light_concealed",
+      "name": "Leichte Schutzweste",
+      "category": "vest",
+      "user_size_nominal": "G3",
+      "protection_value": 1,
+      "quality": "standard",
+      "rules_short": "Reduziert die Zielwirkung auf abgedeckten Bereichen um 1 Stufe.",
+      "description": "Verdeckbar tragbare Schutzweste fuer zivile und verdeckte Einsaetze. Bedeckt hauptsaechlich den Torso. Weit verbreitet und vergleichsweise leicht zu beschaffen. Rechtlich oder sozial oft eingeschraenkt.",
+      "price_eb": 400
+    },
+    {
+      "id": "armor_vest_patrol_medium",
+      "name": "Patrouillenweste",
+      "category": "armor_light",
+      "user_size_nominal": "G3",
+      "protection_value": 2,
+      "quality": "standard",
+      "rules_short": "Spuerbarer Schutz fuer typische Einsatzwaffen bei noch alltagstauglicher Beweglichkeit.",
+      "description": "Mittlere Einsatzweste fuer Polizei, Security und bewaffnete Patrouillen. Bedeckt vor allem Torso und Arme. Weit verbreitet und vergleichsweise leicht zu beschaffen. Rechtlich oder sozial oft eingeschraenkt.",
+      "price_eb": 700
+    },
+    {
+      "id": "armor_riot_suit_std",
+      "name": "Riot-Anzug",
+      "category": "riot",
+      "user_size_nominal": "G3",
+      "protection_value": 2,
+      "quality": "standard",
+      "rules_short": "Robuster Einsatzschutz fuer Nahbedrohungen, Wurfobjekte und begrenzte Schusswirkung.",
+      "description": "Schwerer Aufstands- und Zugriffsschutz fuer organisierte Kraefte. Bedeckt vor allem Torso und Arme. Nur eingeschraenkt verfuegbar. Klar militaerisch oder paramilitaerisch gepraegt und im Alltag stark auffaellig. Sperrig, auffaellig und im sozialen Alltag kaum unbemerkt tragbar.",
+      "price_eb": 1500
+    },
+    {
+      "id": "armor_tactical_heavy_plate",
+      "name": "Schwere taktische Panzerung",
+      "category": "armor_heavy",
+      "user_size_nominal": "G3",
+      "protection_value": 3,
+      "quality": "excellent",
+      "rules_short": "Starker Schutz gegen typische Personalwaffen auf abgedeckten Bereichen.",
+      "description": "Schwere Einsatzpanzerung mit harten Platten und taktischem Zuschnitt. Bedeckt vor allem Torso und Arme. Nur eingeschraenkt verfuegbar. Klar militaerisch oder paramilitaerisch gepraegt und im Alltag stark auffaellig. Hoher Schutz, aber sperrig und auffaellig.",
+      "price_eb": 3000
+    },
+    {
+      "id": "armor_helmet_ballistic_std",
+      "name": "Ballistischer Helm",
+      "category": "helmet",
+      "user_size_nominal": "G3",
+      "protection_value": 1,
+      "quality": "standard",
+      "rules_short": "Zusatzschutz fuer Kopf und sensorisch exponierte Bereiche.",
+      "description": "Standardhelm fuer Gefecht, Patrouille und Zugriffseinsaetze. Schuetzt den Kopfbereich. Weit verbreitet und vergleichsweise leicht zu beschaffen. Rechtlich oder sozial oft eingeschraenkt.",
+      "price_eb": 180
+    },
+    {
+      "id": "armor_fullbody_sealed_ops",
+      "name": "Versiegelter Operationsanzug",
+      "category": "armor_light",
+      "user_size_nominal": "G3",
+      "protection_value": 2,
+      "quality": "excellent",
+      "rules_short": "Ganzkoerperschutz mit Umwelt- und Kontaminationsreserve, aber nur mittlerer Kampfwirkung.",
+      "description": "Versiegelter Schutzanzug fuer gefaehrliche Zonen, Chemie, Dekontamination oder raue Spezialraeume. Bedeckt weite Teile des Koerpers als Vollkoerperschutz. Selten und nur ueber passende Kontakte oder Spezialkanaele realistisch zu bekommen. Rechtlich oder sozial oft eingeschraenkt.",
+      "price_eb": 4500
+    },
+    {
+      "id": "armor_powered_assault_frame",
+      "name": "Powered Assault Frame",
+      "category": "powered",
+      "user_size_nominal": "G3",
+      "protection_value": 4,
+      "quality": "excellent",
+      "rules_short": "Sehr starker Schutz fuer schwere Gefechte, Spezialeinsatzziele und aussergewoehnliche Bedrohungen.",
+      "description": "Servo- oder energieunterstuetzter Kampfrahmen mit schwerer Frontschutzrolle. Bedeckt weite Teile des Koerpers als Vollkoerperschutz. Selten und nur ueber passende Kontakte oder Spezialkanaele realistisch zu bekommen. Klar militaerisch oder paramilitaerisch gepraegt und im Alltag stark auffaellig. Extrem auffaellig, logistiklastig und klar ausserhalb ziviler Standards.",
+      "price_eb": 18000
+    },
+    {
+      "id": "armor_shield_riot_std",
+      "name": "Riot-Schild",
+      "category": "shield",
+      "user_size_nominal": "G3",
+      "protection_value": 2,
+      "quality": "standard",
+      "rules_short": "Aktiver Schutz fuer den vorderen Bereich; stark lageabhaengig.",
+      "description": "Schwerer Schutzschild fuer Zugriff, Aufstandslagen und mobile Deckung. Deckt nur den aktiv gefuehrten Schutzwinkel des Schilds ab. Nur eingeschraenkt verfuegbar. Klar militaerisch oder paramilitaerisch gepraegt und im Alltag stark auffaellig. Schutz haengt stark von Haltung, Winkel und aktiver Nutzung ab.",
+      "price_eb": 350
+    }
+  ]
+}
