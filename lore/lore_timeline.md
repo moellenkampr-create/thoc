@@ -249,6 +249,10 @@ source: lore_db.md
   - Lauri zeigt ein gewuenschtes Trio-Tattoo; George erkennt darin bewusst **alle drei**, Ely ist zum Stechen selbst noch nicht bereit.
   - Im Lager wird das Trio offen, neckend und deutlich waermer als zuvor behandelt; besonders Saul, Mitch und andere Aldecaldos signalisieren wachsenden Respekt und informelle Aufnahme, aber noch keinen Status als "unsere Leute".
   - Lauri fuehlt sich im Lager und sogar in groesserer Runde ungewoehnlich wohl.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Der morgendliche Gruppenspass im Camp wird als entlastend erlebt; peinliche Momente werden in soziale Aufnahme umgewandelt statt sanktioniert.
+    - Aldecaldo-Einkaufslisten enthalten neben praktischen Bedarfen auch halb-ernste Party-/Scherzartikel.
+    - Ein Musiker aus dem Camp fragt aktiv nach erneutem gemeinsamen Jammen bei Rueckkehr.
   - Das Trio plant den Rueckweg nach Night City; zusaetzlich bitten die Aldecaldos sie, bei Gelegenheit Besorgungen aus der Stadt mitzubringen.
 - **2077-07-06 spaeter Vormittag**:
   - Vor dem Aufbruch besteht Lauri noch auf einem Tattoo-Termin; der Doppelsinn von Elys Formulierung loest im Lager Gelaechter aus.
@@ -260,7 +264,36 @@ source: lore_db.md
 - **2077-07-06 tagsueber**:
   - Ely beginnt Einkaeufe und Besorgungslisten fuer die Aldecaldos zu sammeln; einige Wuensche wirken wie halb ernste Veraeppelung, werden aber mitgenommen.
   - Wegen Medis, Erste-Hilfe-Ausruestung und Nachsorge fuer George / das Trio wird ein Besuch bei Vik als dringend markiert.
-  - Paralleler CP2077-Weltplot laeuft in Night City sichtbar im Hintergrund.
+  - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Vor Viks Klinik wird das Trio durch eine Frau abgefangen; der Zugang wird verweigert, explizit besonders fuer George.
+    - Beim spaeteren Hineinsehen sitzt Vik schlafend/verletzt in blutiger Umgebung.
+    - Kurz darauf erscheint ein bewaffneter, japanisch wirkender Mann; das Trio zieht sich vorlaeufig zurueck.
+    - Die Nachphase wird emotional durch Stressabfuhr und engen Bindungston getragen (Ue18 nur als Szenenmarker gefuehrt).
+  - **Lauri-Sicht (ARBEITSSTAND, Folgeblock Einkaufstour)**:
+    - In einem Sexshop folgt eine intime Triosequenz in enger Kabine (ohne explizite Chronikdetails).
+    - Die Verkaeuferin gibt Produkthinweise, stellt Bewertungsrabatte in Aussicht und gibt zusaetzliche Ware mit.
+    - Lauri kauft die angefragten Penis-Luftballons in voller verfuegbarer Menge.
+    - Nach einem kurzen Vik-Besorgungsstop fuer Medis/Erste Hilfe folgt weitere Einkaufstour in der Stadt.
+    - In einem Secondhandladen wird eine Jacke fuer Nolan gekauft; geplantes Motiv (Mond/Wueste/Schlange) bleibt offen.
+    - Ely wird als starke Verhandlerin im Einkaufskontext bestaetigt.
+    - Lauri beschreibt zunehmende Reizueberlastung durch Menschenmengen; kurz vor Donny-Rueckkontakt steigt das Rueckzugsbeduerfnis.
+    - Donny taucht am Ende des Blocks wieder auf; Lauri nimmt eine Schildkroete in seiner Hand wahr.   - **Lauri-Sicht (ARBEITSSTAND, Abend/Nacht-Folgeblock - Kritischer Weltplot-Punkt)**:
+     - In der NCU-Bibliothek wird das Trio von bewaffnetem Agenten verfolgt/erkannt.
+     - George identifiziert den Mann: "Der gehoert zu meinem Vater" (Elias-Agent).
+     - Agent sieht George explizit und sagt: "Ich hab dich gesehen! Ich weiss wer du bist!"
+     - Das Trio flieht im Aldecaldo-Auto; der Agent kennt jetzt das Fahrzeug und kann zukuenftig verfolgen.
+     - George spricht allein mit dem Agenten; Uebertragung bricht ab (Bedarf fuer unstoerbare Kommunikation identifiziert).
+     - Agent berichtet von erzwungener Vermaehlung Georges mit Jemandem "aus Uebersee".
+   - Donny hat Bild und Koordinaten fuer das Trio; er organisiert gleichzeitig 3-Wochen-Krankschreibung fuer alle drei bei der NCU.
+   - Ely hat weitergeschriebenes Tagebuch (lose Blaetter im Shakespeare-Buch versteckt); Trio liest unterwegs (Ely vor, George faehrt, Lauri stickt).
+   - George erzaehlt Lauri, dass er mit Gerard laenger zusammen gewesen waere, "waere sein Vater nicht" => Lauri wird eifersuechtigung, stickt intensiv.
+   - Nolan-Jacke wird als "verlorenes" Objekt im Lager hinterlegt (Strategie: keine Beschaemung, nur Freude); Aldecaldos bestaetigen spaeter: "War richtig. Der schlaeft drauf."
+   - Im Lager: Trio jammt am Feuer; Ely ist "absolutes Naturtalent"; Aldecaldos sind begeistert; Trio singt ihr Lied "Drei Herzen aus Chrom".
+   - George wird speziell zum Singen hergeholt, verschwindet danach wieder.
+   - Ely fragt nach Nolans Bild; Lauri gibt es ihr.
+   - Im Zelt: Lauri traegt Outfit an, das sie im Pornoladen kaufte; George wird erregt, merkt dann aber: "es ist ein Zelt, den Schatten sieht man draussen" (Licht aus).
+   - Trio schlaeft erstmals ohne "Sleepy" (George: "Sonst beisst es uns irgendwann in den Arsch"); spielerische Kuschelphase, schlafen als "ungeordnetes Knubbel" ein.
+   - **Ue18-Note**: Sexshop-Kaeufe und Zelt-Szenen werden nur als Beziehungs-/Szenenmarker gefuehrt, ohne pornografische Details.  - Paralleler CP2077-Weltplot laeuft in Night City sichtbar im Hintergrund.
 
 - **2077-07-07 (Uebergangstag)**:
   - **Sammelstand (ARBEITSSTAND)**:

@@ -36,5 +36,21 @@ source: lore_db.md
 - 2077-07-05 Nachphase (Lauri-Sicht) ergaenzt den Spaetabendblock; Abgleich mit George-/SL-Sicht zum Patrick-/Drive-by-Teil offen.
 - Rueckstand aus vorherigem Chat: bereits besprochene Daten sind nur teilweise in der Lore verankert und muessen weiter per Altbericht-Backfill eingepflegt werden.
 - 2077-07-05 Totenfeier-/Zeltnachtblock aus Lauri-Sicht ergaenzt; Feinschliff zu Reihenfolge mit Ely-/George-Sicht bleibt offen.
+- 2077-07-06 Lauri-Detailblock (Camp/Donny/Vik) liegt nun als Einzelsicht vor; Abgleich mit Ely-/George-/SL-Sicht zur Reihenfolge steht aus.
+- 2077-07-06 Lauri-Shopping-Folgeblock liegt als Einzelsicht vor; Abgleich mit Ely-/George-/SL-Sicht (Reihenfolge und Belastungston) steht aus.
+- Wer suchte das Trio am 2077-07-06 an der NCU, mit welchem Auftrag und fuer wen?
+- Kontext am 2077-07-06 bei Vik offen: Rolle der abfangenden Frau, Identitaet/Motivation des bewaffneten japanisch wirkenden Mannes, Einordnung der Blutspuren.
+- 2077-07-06 Elias-Agent-Sichtung (NCU-Bibliothek) - KRITISCH: Agent hat George erkannt, kennt Aldecaldo-Auto-Typ; Verfolgungs-/Observationslinie aktiviert.
+- 2077-07-06 Elias-vermittelte Vermaehlung for George "mit Jemandem aus Uebersee" - wer ist die Zielperson? Wer organisiert das?
+- 2077-07-06 Donny-"Verkackung" - Donny hat Verschluesseling nicht vollstaendig geknackt; grossteil der Daten geloescht. Er bekam nur Ahnungen, dass es um "einen Ort" ging.
+- 2077-07-06 Donny-Bild (verschwommen, moeglichweise Wagen) - Koennte Beweis fuer Trump sein. Genauere Analyse erforderlich.
+- 2077-07-06 Donny-Koordinaten (Wueste) - KRITISCH: Liegen dort, wo vor ca. 6 Jahren Henshaw-/von-Eichner-Black-Project-Entsorgung stattfand. Trio kennt diese Verbindung noch NICHT.
+- 2077-07-06 Ely-Tagebuch weiterschreiben - Wer weiss darueber? Walters/Bertrams Sicht? Spaetere Nutzung/Entdeckung?
+- 2077-07-06 Kommunikationsabbruch bei George-Agent-Dialog - Agent hat bewusst Verbindung gestoert. Unstoerbare Kommunikation erforderlich.
+- 2077-07-06 Ungestoerte Verbindung - Das Trio identifiziert Bedarf; Loesung suchen.
+- 2077-07-06 Schildkroete-Beobachtung - Echte Schildkroete, aber getragen von NACHBAR (nicht Donny). Kontext/Bedeutung unklar.
+- 2077-07-06 Nolans Jacke: Wird das geplante Mond-/Wuesten-/Schlangenmotiv spaeter verbindlich gesetzt?
+- 2077-07-06 Jake-Altersdetail (12 Jahre, "nur noch Monate") - Wie loesen Clan und Trio das medizinische Dilemma? Zeitdruck konkret.
+- 2077-07-06 Sleepy-Verzicht-Experiment - Sleep Inducer sollte nicht zu oft pro Woche genutzt werden. Uebernutzung fuehrt zu: Halluzinationen, Krankheitsbilder. Zu beobachtende Effekte?
 - 2077-07-08 und 2077-07-09 sind als Sammelstand neu verankert; Feinschliff ueber Einzelperspektiven steht noch aus.
 - Tim-/Jake-Spezialnierenfaden braucht Folgekonsolidierung (Vertrauenspruefung, Beschaffungspfad, Kosten-/Zeitdruck).

@@ -112,6 +112,35 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Du hast Driveby Verbot!"
 - "Manchmal muss man Taten ausfuehren, die alleine betrachtet als boese gelten, um etwas gutes zu tun."
 
+### 6.-Juli Camp, Donny und Vik-Zwischenfall (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Das.. sind nur Zeltplanen, keine Waende."
+- "Dachte ihr meldet euch schon, wenn es zu laut ist."
+- "Ihr seid doch nicht so blond.."
+- "Ihr koennt nicht zu Victor. Vor allem du nicht."
+- "Hinterher wischen."
+
+### 6.-Juli Shopping-Folgeblock (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Wenn du willst, dass wir dir deinen feuchten Traum erfuellen, musst du ihn uns aber erzaehlen."
+- "Ich kaufe alle, die es gibt."
+- "Ely ist eine Wucht beim Verhandeln."
+- "Hat der Typ da ne Schildkroete in der Hand?"
+
+### 6.-Juli Abend/Nacht: Elias-Agent, Tagebuch, Lagerfeuer, Nacht (Lauri-Sicht)
+**ARBEITSSTAND - Weltplot-kritisch**
+- "Der gehoert zu meinem Vater."
+- "Ich hab dich gesehen! Ich weiss wer du bist!"
+- "Ihr seid ja wie diese Helikopter Eltern." / "Wir trauen dir, nur nicht ihm."
+- "Du hast weiter geschrieben?!"
+- "Du teilst das mit uns?" George.. ach George. "Ja, All in, oder?"
+- "Es ist ein Zelt, den Schatten sieht man draussen."
+- "Das ist unsere Ely, gibt ihr ne Liste und sie besorgt alles." (Stolz)
+- "War richtig. Hat sich gefreut. Der schlaeft drauf." (Nolan-Jacke-Feedback)
+- "Er hat nur noch Monate." (Jake-Zeitlimit)
+- "Die Aldecaldos sind begeistert." (erste Session)
+- "Gluecklich, als ein ungeordnetes Knubbel, schlafen wir ein." (Sleepy-Verzicht)
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

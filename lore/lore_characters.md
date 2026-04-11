@@ -176,6 +176,8 @@ source: lore_db.md
 - Gerard war verletzt und wuetend, vergab George aber relativ schnell
 - mag George weiterhin und ist emotional nicht voellig abgeschlossen, hat gegen das Trio faktisch aber keine Chance
 - rote Haare, Sommersprossen, franzoesischer Akzent, riecht nach Pferd
+- **WICHTIG (2077-07-06)**: Gerard war George's Lover/Freund, nicht Lauri's romantischer Rivale. Deshalb Lauri's Eifersucht bei Gerard-Referenz auf 2077-07-06.
+- **Gelb-offen**: Koennte durch externe Verfolgung/Bedrohung spaeter wieder relevant werden, oder bleibt casual-Freund.
 
 ### Primus Belsarius Trump
 **KANON**
@@ -290,3 +292,11 @@ source: lore_db.md
 **KANON**
 - Martial-Arts-Trainer von Lauri
 - erscheint in Lauris innerer Reflexion als moralischer Referenzpunkt in der 07-05-Nachtphase
+
+### Jake
+**ARBEITSSTAND**
+- 12-jaehriger Junge im Aldecaldo-Lager
+- Hat gleiche Krankheit wie Oggys Frau (Cyberniere-Ausfall):
+  - Cyberniere noch nicht ausgetauscht
+  - Nur noch "Monate" Lebenserwarung
+- Clan ueberlegt zu gehen, um den Jungen "nicht mit in den Abgrund zu reissen"

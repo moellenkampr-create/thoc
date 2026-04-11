@@ -121,6 +121,14 @@ source: lore_db.md
 - Claire Russell (`ARBEITSSTAND`: sucht noch einen Fahrer fuer **Beast**, damit sie selbst als Beifahrerin auf Peter Sampson schiessen kann)
 - Peter Sampson (`ARBEITSSTAND`: Militech-gesponserter Vorjahressieger und starker Renngegner; ob er vom Superwagen weiss, ist offen)
 
+### Elias-Kontrolllinie / Verfolgtes George-George (Neue Eskalation)
+**ARBEITSSTAND**
+- Am 2077-07-06 wird George in der NCU-Bibliothek von Elias-Agent erkannt und verfolgt.
+- Agent kann George an George erkennen (physiognomisch/visuelle Marker).
+- Agent identifiziert auch das Aldecaldo-Auto; Verfolgung wird zukuenftig trackerbar.
+- Elias hat wohl veranlasst, dass George einer Fernsehheit "aus Uebersee" gegeben werden soll (dynstische/politische Allianz?).
+- George hadert mit Kontrollverlust; Trio diskutiert Bedarf fuer unstoerbare Kommunikation.
+
 ### Machtblock hinter dem grossen Rennen
 - Das grosse Rennen dient 2077 zusaetzlich als informelle Klaerung von Disputen zwischen reichen und maechtigen Akteuren.
 - Zentrale Konfliktpartei ist **Trump**, der die Superkarre als Hebel fuer Prestige, Wetten und Demuetigung seiner Gegenspieler braucht.
@@ -132,6 +140,16 @@ source: lore_db.md
 - Trump sieht sich trotzdem als eigener Koenig und will nicht anerkennen, wie sehr Elias ihn aufgebaut hat.
 - Trump weiss, dass er bei Elias in der Schuld steht; Elias wird diese Schulden spaeter einfordern.
 - Ob Trump dann liefert oder sich verweigert, ist offen.
+
+### Kurierbike-Stick-Bedeutung (Unvollstaendige Dekodierung / Henshaw-Badlands-Hook)
+**KANON / ARBEITSSTAND gemischt**
+- Donny hat die Verschluesselung auf dem Stick NICHT vollstaendig geknackt; grossteil der Daten wurde geloescht.
+- Donny konnte nur noch unklare Ahnungen extrahieren: **"Es war um einen Ort"**.
+- Das Bild auf dem Stick war verschwommen und mehrdeutig; moeglicher Wagenkofferraum oder aehnliches (Trump-Beweise?).
+- **DIE KRITISCHE ANKOPPLUNG**: Die Koordinaten liegen GENAU dort, wo vor ca. 6 Jahren Henshaw-/von-Eichner ein Black-Project-Abfallproblem in die Badlands entsorgt hatten.
+- Das Trio KENNT diese 6-Jahre-alte Verbindung noch NICHT; sie koennen die Koordinaten-Bedeutung noch nicht dekodieren.
+- Spaetere Eskalation moeglich: Falls Trio diese Verbindung begreift (durch Archive, Gespraeche, weitere Recherche), oeffnet sich ein direkter Zugang zu den Henshaw-/von-Eichner-Altlasten und Black-Project-Spuren.
+- **Weltplot-Anker**: Verbindung zwischen Race-Plot (Stick), Kontrolllinie (Henshaw-Verfolgung) und Black-Project-Weltplot (Badlands-Dump).
 
 ### Offene Race-Entscheidung
 **ARBEITSSTAND**

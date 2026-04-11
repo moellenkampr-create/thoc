@@ -37,7 +37,13 @@ source: lore_db.md
 - Donny <-> Trio: vertrauenswuerdiger Backend-Knoten, **kein viertes Teammitglied**
 - Oggy <-> George: **sehr guter Freund**, fuer George quasi **Familie**
 
-## 4. Anreden und Bindungsdynamik
+## 4. Bindungsmarker und spaetere Entwicklungen
+**ARBEITSSTAND**
+- Sleepy-Verzicht (2077-07-06) als Experiment: "Sonst beisst es uns irgendwann in den Arsch" (George).
+- Trio schlaeft erstmals ohne Schlafmittel; spielerische Bindung bleibt erhalten.
+- Lauri wird eifersuechtigung bei Gerard-Referenz (George haette laenger mit Gerard zusammen sein koennen). Gerard war nur George's Lover/Freund, nicht romantischer Rivale fuer Lauri.
+
+## 5. Anreden und Bindungsdynamik
 **KANON**
 
 ### George
