@@ -233,3 +233,56 @@ source: lore_db.md
 - Wie stark Chubby vorher schon mit dem Trio verbunden ist
 - Welche Songs das Trio dort spielt
 - Wie gross die unmittelbaren Folgen des Auftritts sind
+
+## 4. Elternreaktion und Eskalationsmatrix (Post-2077-07-10)
+**ARBEITSSTAND - Leitplanken fuer Plotweiterfuehrung**
+
+### 4.1 Suchvektoren ohne Standortwissen
+- Lauris Vater kennt den exakten Aufenthaltsort des Trios nicht (weder H10 noch Aldecaldos), kann aber ueber Sekundaerquellen Muster aufbauen.
+- Primafokus ist nicht Direktschlag, sondern Contact-Mapping:
+  - Bistro-/Service-Kontakte
+  - Football-Umfeld
+  - Fahrzeugsichtungen / Bewegungsmuster
+  - Kommunikationsmetadaten ueber Dritte
+- In der aktuellen Saburo-Nachphase muss er politisch low profile bleiben; sichtbare Eskalation waere fuer ihn selbst riskant.
+
+### 4.2 Maria-Hook als plausibler Hebel
+- Lauri sucht aktiv nach Maria (altes Kindermaedchen / Koechin, Schlangen-Vorfall, spaeteres Verschwinden).
+- Lauris Vater kennt diese Verbindung und kann Maria als verdeckten Suchknoten nutzen.
+- Plausibles Vorgehen:
+  - Maria durch externe Dritte aufspueren
+  - zunaechst nur beobachten, nicht direkt greifen
+  - ueber Marias Kontaktketten Rueckschluesse auf Lauris Bewegungen gewinnen
+- Zusatzrisiko: moeglicher Druck auf Maria als Schutzfigur, wenn der Suchfaden heisser wird.
+
+### 4.3 Elternrollen - wer findet was wie
+- Lauris Vater:
+  - staerker in lokaler diskreter Aufklaerung (wo/wer)
+  - nutzt soziale Zwischenknoten und alte Haushalts-/Familienlinien
+- Elys Vater:
+  - aufgrund Ely-Block und Saul-Schweigen aktuell mit geringer Direktsicht
+  - eher Damage-Control und Risikoabschaetzung (wie gefaehrlich/welcher Preis)
+  - emotional pro Ely und gegen direkten Schaden an Lauri, aber strategisch unter Zugzwang
+
+### 4.4 CP2077-Seitenlage als Taktgeber
+- Solange Yorinobu/Hanako-Konflikt in Night City hochlaeuft, bleiben Folgekonflikte zwischen Arasaka-/Biotechnica-Nebenlinien eher gedrosselt sichtbar.
+- Nach der Saburo-Nachphase sind nachgelagerte Reibungen deutlich wahrscheinlicher und koennen verzoegert, aber haerter einschlagen.
+
+### 4.5 Elias-Entscheidungsmatrix (Rueckkehrphase)
+- **Pfad A - Quiet Containment (derzeit wahrscheinlichster Pfad)**
+  - Ziel: Zeit gewinnen, politische Exposition minimieren
+  - Mittel: juristische Vorfeldarbeit, Narrativkontrolle, keine offene Grosseskalation
+  - Risiko: Trio stabilisiert Beweiskette in Ruhe
+- **Pfad B - Controlled Discredit**
+  - Ziel: Georges Position oeffentlich entwerten, bevor harte Beweise tragen
+  - Mittel: indirekte Ruf-/Frame-Kampagnen, Echtheitsangriffe auf Belege
+  - Risiko: wirkt bei Ueberzug wie Panikmanoeuvre
+- **Pfad C - Hard Break**
+  - Ziel: harte Trennung ohne Rueckweg
+  - Mittel: operative Druckmassnahmen statt politischer Feinsteuerung
+  - Risiko: maximale Shitshow-Gefahr bei Leaks oder Fehlschlag
+
+### 4.6 Kurzfristige Trigger (Race-Vorlauf kompatibel)
+- Trigger 1: neue belastbare Spur zu Maria -> Suchdruck auf Lauri-Linie steigt
+- Trigger 2: erstes glaubwuerdiges Leak zur Vaterschaftsfrage -> Elias wechselt von A nach B
+- Trigger 3: oeffentliche Vorrennen-Spannung plus Trump-Konflikte -> externe Ausnutzung der Familienkrise
