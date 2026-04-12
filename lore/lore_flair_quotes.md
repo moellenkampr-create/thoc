@@ -141,6 +141,17 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Die Aldecaldos sind begeistert." (erste Session)
 - "Gluecklich, als ein ungeordnetes Knubbel, schlafen wir ein." (Sleepy-Verzicht)
 
+### 9.-Juli Abend/Nacht: Chubby, Velvet Static und Sleep-Inducer (Lauri-Sicht)
+**ARBEITSSTAND**
+- "echtes Potential"
+- "Richis"
+- "hier in dem Dreckloch"
+- Velvet Static als "Talentschuppen"
+- Chubby studiert per Fernstudium "Musik und BWL"
+- Gitarre fuer George / Bass fuer Ely / Faesser fuer Lauri
+- "Man kann sehen, dass es ihnen gut tut."
+- Eigentlich 3 Stunden Sleep Inducer, aber Lauri und Ely stellen nur 1 Stunde ein.
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

@@ -269,6 +269,11 @@ source: lore_db.md
 - starker Gitarrist/Saenger im Aldecaldo-Lager
 - wichtiger moeglicher Ausloeser fuer die spaetere Band-Entstehung
 - geplanter Trigger fuer den Band-Entstehungsplot (Talentshow-Abend "Love, Sadness, Fear")
+- bestaetigt dem Trio am 2077-07-09 ernsthaft musikalisches Potential und jammt mit ihnen am Lagerfeuer
+- organisiert / stellt improvisierte Instrumente fuer George, Ely und Lauri bereit
+- laedt das Trio aktiv ins **Velvet Static** ein
+- fragt direkt nach ihrem moeglichen "Richi"-Hintergrund und dem Widerspruch zu ihrem Leben bei den Aldecaldos
+- studiert per Fernstudium **Musik** und **BWL**
 - in global_db.json als Side-NPC / Musiker referenziert (Alias "Chubby", Kontext Aldecaldo-Camp-Musiker)
 
 ### Mireille "Miri" Vasko

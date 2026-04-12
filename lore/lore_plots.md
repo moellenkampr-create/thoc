@@ -189,6 +189,10 @@ source: lore_db.md
 **Kernidee**
 - Im Aldecaldo-Lager existiert ein starker Gitarrist/Saenger: **Rafael "Chubby" Ortega**.
 - Chubby ist stimmlich und atmosphaerisch ideal fuer einen Club- oder Talentshow-Abend unter dem Motto **"Love, Sadness, Fear"** und waere dort wahrscheinlich Favorit.
+- Am **2077-07-09** wird der Plot erstmals konkret ausgespielt: Chubby jammt mit dem Trio am Feuer, stellt Instrumente / Improvisationsdrums und bestaetigt ernsthaft ihr musikalisches Potential.
+- Chubby laedt das Trio aktiv fuer den Folgetag ins **Velvet Static** ein; der Club ist damit nicht mehr nur abstrakte Chatentwicklung, sondern in-world von Chubby ausgespielter Auftrittsort.
+- Chubby prueft zugleich die soziale Spannungslinie des Trios: Kommen sie wirklich von den "Richis" und was machen sie jetzt bei den Aldecaldos im "Dreckloch"?
+- Seine Kombination aus Lagerpraesenz und Fernstudium in **Musik** und **BWL** macht ihn plausibel als ernsthaften Bandfoerderer mit Szene- und Orga-Blick.
 - Vor dem Auftritt wird Chubby jedoch von Gegnern bzw. Konkurrenz gezielt verpruegelt, sodass er nicht mehr selbst spielen kann.
 - Das Trio soll auf seine Bitte hin einspringen; aus seiner Sicht sind sie immer noch besser als die "verkackten Scheisser", die sonst profitieren wuerden.
 - Als Gegenpartei ist eine Band oder ein Umfeld aus reichen bzw. privilegierten Kreisen angedacht, die Chubby als unpassende Konkurrenz aus dem Feld raeumen wollen.
@@ -206,7 +210,7 @@ source: lore_db.md
 - Indirekter oder direkter Andockpunkt an den Weltplot
 
 **Offen**
-- Name und genaue Ausgestaltung des Clubs / der Talentshow (Velvet Static als Arbeitsstand)
+- Genauer Ablauf des Folgetags im Velvet Static und ob daraus direkt ein Auftritt, Testlauf oder nur ein Kennenlernen wird
 - Genauer Ablauf des Abends
 - Wer genau die rivalisierende reiche/privilegierte Band ist
 - Wie stark Chubby vorher schon mit dem Trio verbunden ist

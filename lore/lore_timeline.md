@@ -331,5 +331,15 @@ source: lore_db.md
       - Scavenger-Pfad wird verworfen.
       - Lauri troestet Jakes Mutter.
       - Trio diskutiert nicht mehr ob, sondern wie geholfen wird.
-    - Abends Lagerfeuer mit den Aldecaldos; Nolan, Chubby u. a. sind sichtbar freundlich.
-    - Trio wirkt am Feuer musikalisch und sozial stark integriert.
+      - Abends Lagerfeuer mit den Aldecaldos; Nolan, Chubby u. a. sind sichtbar freundlich.
+      - Chubby spricht laenger mit George ueber Liedideen und Songskizzen; er haelt das Potential des Trios offenbar fuer echt.
+      - Chubby stellt fuer eine improvisierte Session Material bereit:
+        - Gitarre fuer George
+        - Bass fuer Ely
+        - Faesser fuer Lauri als improvisierte Drums
+      - Das Trio probiert mehrere musikalische Ideen an; alle drei grinsen sichtbar, die Szene tut ihnen emotional gut.
+      - Chubby laedt das Trio fuer den Folgetag ins **Velvet Static** ein, einen Talentschuppen / Club als moeglichen ersten echten Auftrittsraum.
+      - Chubby fragt offen nach dem Widerspruch zwischen ihrer moeglichen Herkunft als "Richis" und ihrem aktuellen Leben "hier in dem Dreckloch" bei den Aldecaldos.
+      - Chubby gibt zu, per Fernstudium **Musik** und **BWL** zu studieren.
+      - Spaet in der Nacht nutzt das Trio wieder Sleep Inducer; vorgesehen sind 3 Stunden, Lauri und Ely stellen ihre Dauer jedoch nur auf 1 Stunde.
+      - Trio wirkt am Feuer musikalisch und sozial stark integriert.

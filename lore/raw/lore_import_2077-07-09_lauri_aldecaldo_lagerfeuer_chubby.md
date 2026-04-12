@@ -1,0 +1,5 @@
+# Rohimport 2077-07-09 - Lauri-Sicht (Aldecaldo-Lagerfeuer, Chubby, Velvet Static, Sleep Inducer)
+
+Quelle: Userbericht, unveraendert als Rohtext abgelegt (09.07.2077, spaeter Abend im Aldecaldo-Lager).
+
+Am 9.7. am Abend bei den Aldecaldos setzt das Trio sich ans Feuer. Chubby redet mit George und die beiden haben viele Ideen fuer Lieder und Songs. Chubby meinte es wohl ernst, dass sie echtes Potential haetten. Chubby hat sogar eine Gitarre fuer George, einen Bass fuer Ely und ein paar Faesser, die Lauri als Drums missbraucht. Sie probieren einiges aus und grinsen alle. Man kann sehen, dass es ihnen gut tun. Chubby laedt sie fuer die kommenden Tag in den Club Velvet Static ein, einem Talentschuppen. Chubby will wissen, ob sie wirklich von den "Richis", den Reichen kommen, und warum sie jetzt hier in dem Dreckloch sind. Ausserdem gibt er zu, dass er per Fernstudium Musik und BWL studiert. Es es spaet wird schlaeft das Trio mit einem Sleepinducer, eigentlich waren 3 Stunden vorgesehen, aber Lauri und Eli haben ihren nur auf eine Stunde eingestellt.

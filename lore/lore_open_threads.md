@@ -54,3 +54,6 @@ source: lore_db.md
 - 2077-07-06 Sleepy-Verzicht-Experiment - Sleep Inducer sollte nicht zu oft pro Woche genutzt werden. Uebernutzung fuehrt zu: Halluzinationen, Krankheitsbilder. Zu beobachtende Effekte?
 - 2077-07-08 und 2077-07-09 sind als Sammelstand neu verankert; Feinschliff ueber Einzelperspektiven steht noch aus.
 - Tim-/Jake-Spezialnierenfaden braucht Folgekonsolidierung (Vertrauenspruefung, Beschaffungspfad, Kosten-/Zeitdruck).
+- 2077-07-09 Velvet-Static-Einladung durch Chubby - Wird daraus am Folgetag direkter Auftritt, Testlauf, Vorspielen oder nur Kennenlernen?
+- 2077-07-09 Chubby-"Richi"-Frage - Wie viel vom Corporate-/NCU-Hintergrund offenbart das Trio im Aldecaldo-/Clubkontext?
+- 2077-07-09 Sleep-Inducer-Timerdifferenz - Warum stellen Lauri und Ely nur 1 Stunde statt 3? Folgen fuer Erholung, Rhythmus oder Risikomanagement offen.
