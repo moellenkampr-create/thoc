@@ -343,3 +343,32 @@ source: lore_db.md
       - Chubby gibt zu, per Fernstudium **Musik** und **BWL** zu studieren.
       - Spaet in der Nacht nutzt das Trio wieder Sleep Inducer; vorgesehen sind 3 Stunden, Lauri und Ely stellen ihre Dauer jedoch nur auf 1 Stunde.
       - Trio wirkt am Feuer musikalisch und sozial stark integriert.
+
+  - **2077-07-10**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND, voller Tagesblock)**:
+      - Lauri und Ely wachen gleichzeitig auf und sind beide ueberrascht, weil jede etwas vor den anderen verbergen wollte.
+      - Ely geht trainieren, Lauri geht sticken; danach hilft Ely in der Kueche.
+      - Ely spricht mit Lala ueber Jakes Nierenlage; im Camp wissen alle Bescheid, aber Saul hat externe Beschaffung untersagt (Dakota-/Familienprinzip).
+      - Das Trio entscheidet intern, die Beschaffung selbst zu uebernehmen, sagt es aber noch nicht offen.
+      - Ely bekommt Waffenlinks eingebaut; Eingriff laeuft gut, aber sie soll den restlichen Tag nicht schiessen.
+      - George bekommt den ersten Teil seines Tattoos.
+      - Lauri geht auf Patrouille, lernt mehr ueber Aldecaldo-Familienalltag und beginnt die soziale Haerte des Nomadenlebens erst verzoegert zu realisieren.
+      - Ely spricht mit Jakes Mutter Emily; sie sammelt trotz Verbots alles Geld von sich und Bob, weil es Jake nahezu stuendlich schlechter geht.
+      - Beim Aufbruch zur Nierenuebergabe reagiert Saul angefressen und nennt das Vorgehen "Panam-Scheiss"; faktisch versucht er das Trio eher abzubremsen.
+      - Ely kann wegen ihrer Haende nicht selbst fahren und faehrt bei Lauri mit.
+      - Auf der Fahrt erzaehlt George von einer fruehen New-York-Band (mit 12/13): Elias kappte den Weg vor einem echten Gig, liess Instrumente verschwinden und drueckte ihn auf Football->Uni->Militaer->Politik.
+      - Kurz vor dem Treffpunkt meldet Emily weinend, dass Dealer Tim 10k nachfordert; das Trio geht trotzdem rein.
+      - Lauri und Ely stellen Tim; er gibt die Niere heraus, verzichtet auf die 10k, plant aber weiterhin sozialen/finanziellen Kontrollhebel gegen die Familie.
+      - George scannt die Nierensoftware und erkennt ein identisches OS-Muster wie bei Jenny.
+      - Lauri und Ely zwingen Tim zur Herausgabe der Originalsoftware; Tim alarmiert waehrend der Flucht die Polizei.
+      - Das Trio hat kaum Zeit, schlaegt Tim nieder und zieht ab.
+      - George bringt die Software zu Donny; Hoffnung auf Duplikation und potenzielle Hilfe fuer Jenny.
+      - Wartephase im Bistro endet in Schlaegerei mit Georges Football-Bekannten; George trennt die Seiten.
+      - Lauri wird erkannt, Information geht an ihren Vater.
+      - Donny schafft die Software-Duplikation.
+      - Auf der Rueckfahrt sieht das Trio ein Luxus-AV mit Arasaka-Logo; Lauri wertet das als sehr schnelle Reaktion ihres Vaters.
+      - Rueckkehr ins Lager: Aldecaldos jubeln, sogar Saul gibt dem Trio ein Bier.
+      - Ely draengt Saul, nicht fuer Biotechnica zu arbeiten, und offenbart eigene familiaere Biotechnica-Naehe; Saul landet in einem offenen Loyalitaetsdilemma.
+      - Oggy/Familie sehen Lauri und Ely nun explizit als Family; die Aldecaldos stufen das Trio als sehr enge, verlaessliche Freunde mit internem Vertrauenszugang ein.
+      - Das Trio uebergibt sein bisheriges Zelt an Oggy/Familie und schlaeft ausserhalb des Lagers in einem kleinen Unterschlupf.
+      - Der akute Kinder-Notfallplot um Jake gilt damit als abgeschlossen; moeglicher Folgefaden bleibt Tim als spaetere Gegenreaktion.

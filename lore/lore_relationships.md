@@ -36,6 +36,8 @@ source: lore_db.md
 - Lauri <-> Enrico: vergangene Beziehung, durch Tod beendet, Trauma bleibt
 - Donny <-> Trio: vertrauenswuerdiger Backend-Knoten, **kein viertes Teammitglied**
 - Oggy <-> George: **sehr guter Freund**, fuer George quasi **Familie**
+- Oggy/Familie <-> Lauri/Ely: nach 2077-07-10 explizit als **Family** anerkannt
+- Aldecaldos <-> Trio: als sehr enge, verlaessliche Freunde mit hoher interner Vertrauensstufe eingestuft
 
 ## 4. Bindungsmarker und spaetere Entwicklungen
 **ARBEITSSTAND**

@@ -152,6 +152,19 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Man kann sehen, dass es ihnen gut tut."
 - Eigentlich 3 Stunden Sleep Inducer, aber Lauri und Ely stellen nur 1 Stunde ein.
 
+### 10.-Juli: Nierenfahrt, Tim, Saul und Rueckkehr (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Fuer so was haben wir Dakota, wir verlassen uns auf Familie."
+- "Panam-Scheiss"
+- George-Bandbruchlinie: Football -> Uni -> Militaer -> Politik
+- "es geht um das Leben von Jack"
+- 10k-Nachforderung kurz vor Uebergabe
+- identisches OS-Muster wie bei Jenny
+- Donny schafft die Duplikation
+- Luxus-AV mit Arasaka-Logo als schneller Druckmarker
+- sogar Saul gibt dem Trio ein Bier
+- Trio gibt Zelt an Oggy/Familie ab und schlaeft ausserhalb
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

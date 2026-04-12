@@ -180,6 +180,23 @@ source: lore_db.md
 - Die Aldecaldos wuerden direkte Geldgeschenke des Trios fuer solche Hilfe eher ablehnen, was zusaetzlichen Druck erzeugt, Hilfe zu organisieren, ohne einfach Geld auf den Tisch zu legen.
 - Einstieg voraussichtlich ueber ein belauschtes Aldecaldo-Gespraech; optional kann George als spaeterer Informationsverstaerker dienen, aber nicht als primaerer Questverteiler.
 
+**Konkreter Stand 2077-07-10 (Lauri-Einzelsicht)**
+- Saul blockiert offiziell eigenmaechtige Beschaffung in diesem Fall (Familienprinzip/Dakota-Linie), kann das Trio praktisch aber nicht komplett kontrollieren.
+- Das Trio fuehrt die Beschaffung dennoch durch und geraet in eine eskalierte Tim-Uebergabe mit kurzfristiger 10k-Nachforderung.
+- Tim gibt unter Druck die Niere und spaeter auch Originalsoftware heraus, versucht aber parallel Polizei und kuenftige Hebel gegen die Familie zu aktivieren.
+- Entscheidend: George erkennt in der Nierensoftware ein identisches OS-Muster wie bei Jenny.
+- Donny gelingt eine Duplikation der Software; dadurch oeffnet sich ein Doppelpfad:
+  - Akuthilfe fuer Jake
+  - potenzieller Rettungs-/Entlastungspfad fuer Jenny (Ripper-/Firmwareseite)
+- Nebenwirkung fuer den Weltkontext: Nach Bistro-Zwischenfall und Erkennung Lauris folgt sehr schnelle Arasaka-Sichtbarkeit (Luxus-AV), was auf kurze Reaktionsketten im Henshaw-/Corporate-Netz hindeutet.
+- Folgedruck: Saul/Biotechnica-Dilemma verschaerft sich, weil das Trio gerade effektiv fuer die Aldecaldo-Familie geliefert hat und nicht mehr als externer Faktor ignoriert werden kann.
+
+**Status-Update (gesetzt)**
+- Der Kinder-Notfallplot (Jake-Akutversorgung) gilt mit dem 2077-07-10-Block als **abgeschlossen**.
+- Als direkter Nachfolgeplot bleibt **"Tim, der Dealer"** aktiv, falls das Trio den Faden weiterverfolgt.
+- Der Jenny-/OS-Pfad gilt nach Donnys Duplikation und erfolgreicher Rettung ebenfalls als **abgeschlossen**.
+- Folgekonflikt bleibt primaer personenbezogen bei Tim (vorsichtigeres Agieren, moegliche Bronco-Rache statt offenem Untertauchen).
+
 ### Band-Entstehungsplot / Club- oder Talentshow-Abend
 **ARBEITSSTAND - SUBPLOT / CORE-IDENTITY-PLOT**
 - Kein klassischer Macht- oder Politplot; im Kern ein Identitaets-, Sichtbarkeits- und Gruppendefinitionsplot.

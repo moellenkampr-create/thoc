@@ -50,10 +50,16 @@ source: lore_db.md
 - 2077-07-06 Ungestoerte Verbindung - Das Trio identifiziert Bedarf; Loesung suchen.
 - 2077-07-06 Schildkroete-Beobachtung - Echte Schildkroete, aber getragen von NACHBAR (nicht Donny). Kontext/Bedeutung unklar.
 - 2077-07-06 Nolans Jacke: Wird das geplante Mond-/Wuesten-/Schlangenmotiv spaeter verbindlich gesetzt?
-- 2077-07-06 Jake-Altersdetail (12 Jahre, "nur noch Monate") - Wie loesen Clan und Trio das medizinische Dilemma? Zeitdruck konkret.
+- 2077-07-06 Jake-Altersdetail (12 Jahre, "nur noch Monate") - **ABGESCHLOSSEN (Akutplot 2077-07-10):** Niere/Software wurden unter Risiko beschafft; akuter Entscheidungsdruck aufgeloest.
 - 2077-07-06 Sleepy-Verzicht-Experiment - Sleep Inducer sollte nicht zu oft pro Woche genutzt werden. Uebernutzung fuehrt zu: Halluzinationen, Krankheitsbilder. Zu beobachtende Effekte?
 - 2077-07-08 und 2077-07-09 sind als Sammelstand neu verankert; Feinschliff ueber Einzelperspektiven steht noch aus.
-- Tim-/Jake-Spezialnierenfaden braucht Folgekonsolidierung (Vertrauenspruefung, Beschaffungspfad, Kosten-/Zeitdruck).
+- Tim-/Jake-Spezialnierenfaden - **ABGESCHLOSSEN als Kinder-Notfallplot (2077-07-10)**; als Nachfolgeplot bleibt **Tim, der Dealer** offen.
 - 2077-07-09 Velvet-Static-Einladung durch Chubby - Wird daraus am Folgetag direkter Auftritt, Testlauf, Vorspielen oder nur Kennenlernen?
 - 2077-07-09 Chubby-"Richi"-Frage - Wie viel vom Corporate-/NCU-Hintergrund offenbart das Trio im Aldecaldo-/Clubkontext?
 - 2077-07-09 Sleep-Inducer-Timerdifferenz - Warum stellen Lauri und Ely nur 1 Stunde statt 3? Folgen fuer Erholung, Rhythmus oder Risikomanagement offen.
+- 2077-07-10 Nachfolgeplot "Tim, der Dealer" - Tim wird nach Niederlage vorsichtiger (nicht untergetaucht); stellt sich Frage nach Gegenzug, v. a. moeglicher Rache gegen Bronco als Vermittler.
+- 2077-07-10 Nieren-OS/Jenny-Hook - **ABGESCHLOSSEN:** Jenny wurde mit neuer OS ebenfalls gerettet.
+- 2077-07-10 Donny-Duplikation - **ABGESCHLOSSEN:** Duplikation erfolgreich und fuer Rettungspfad genutzt.
+- 2077-07-10 Saul-Biotechnica-Dilemma - Wie entscheidet Saul zwischen Clan-Schutz, Biotechnica-Deal und Trio-Naehe?
+- 2077-07-10 Arasaka-AV-Reaktionszeit - War das direkte Henshaw-Reaktion, Monitoring-Zufall oder mehrere parallele Suchlinien?
+- 2077-07-10 George-New-York-Bandbruch - Folgen fuer heutige Bandidentitaet und Trigger bei kommenden Auftritten offen halten.

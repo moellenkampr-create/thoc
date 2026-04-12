@@ -69,6 +69,7 @@ source: lore_db.md
 - Fake-Feed / Ueberwachung / Verhaltenssteuerung
 - Fussballumfeld als Druck- und Gewaltfeld
 - Freiheitswunsch durch Bindung an Ely und Lauri
+- fruehe Bandlinie in New York (12/13) wurde von Elias vor erstem Gig aktiv zerschlagen; wirkt als anhaltender Musik-/Loyalitaetstraumaanker
 
 ### Meredith Laurette Henshaw (Lauri)
 **KANON**
@@ -305,3 +306,20 @@ source: lore_db.md
   - Cyberniere noch nicht ausgetauscht
   - Nur noch "Monate" Lebenserwarung
 - Clan ueberlegt zu gehen, um den Jungen "nicht mit in den Abgrund zu reissen"
+- Name final geklaert: **Jake** ("Jack" war nur situative Fehlbenennung im Feldbericht)
+
+### Tim
+**ARBEITSSTAND**
+- Zwischenhaendler / Dealer im Jake-Nierenpfad
+- fordert kurz vor Uebergabe zusaetzliche 10k
+- gibt unter Druck Niere und spaeter Originalsoftware heraus
+- versucht waehrend der Eskalation Polizei-Intervention zu triggern
+- denkt in kuenftigen Kontrollhebeln gegen die betroffene Familie
+- kann realistischerweise nicht sauber untertauchen, wird aber deutlich vorsichtiger operieren
+- plausibler Folgefaden: moegliche Rache gegen **Bronco** als vermuteten Vermittler des Geschaefts
+
+### Emily
+**ARBEITSSTAND**
+- Mutter von Jake (im Bericht 2077-07-10)
+- sammelt trotz Camp-/Saul-Linie verzweifelt Geld von sich und Bob fuer Jakes Rettung
+- ruft kurz vor Uebergabe weinend an wegen Tims 10k-Nachforderung
