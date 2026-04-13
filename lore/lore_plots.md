@@ -207,9 +207,11 @@ source: lore_db.md
 - Im Aldecaldo-Lager existiert ein starker Gitarrist/Saenger: **Rafael "Chubby" Ortega**.
 - Chubby ist stimmlich und atmosphaerisch ideal fuer einen Club- oder Talentshow-Abend unter dem Motto **"Love, Sadness, Fear"** und waere dort wahrscheinlich Favorit.
 - Am **2077-07-09** wird der Plot erstmals konkret ausgespielt: Chubby jammt mit dem Trio am Feuer, stellt Instrumente / Improvisationsdrums und bestaetigt ernsthaft ihr musikalisches Potential.
-- Chubby laedt das Trio aktiv fuer den Folgetag ins **Velvet Static** ein; der Club ist damit nicht mehr nur abstrakte Chatentwicklung, sondern in-world von Chubby ausgespielter Auftrittsort.
+- Chubby laedt das Trio aktiv ins **Velvet Static** ein; vorerst als **Zuschauer/Mitkommende**, nicht als fix gebuchter Act.
+- Velvet-Events laufen dort typischerweise kurzfristig (ca. 2-4 Tage Vorlauf); das genaue Datum ist bewusst offen.
 - Chubby prueft zugleich die soziale Spannungslinie des Trios: Kommen sie wirklich von den "Richis" und was machen sie jetzt bei den Aldecaldos im "Dreckloch"?
 - Seine Kombination aus Lagerpraesenz und Fernstudium in **Musik** und **BWL** macht ihn plausibel als ernsthaften Bandfoerderer mit Szene- und Orga-Blick.
+- Im gleichen Kontext wird deutlich, dass Chubby ueber Studien-/Bildungsfragen ernsthaft andocken kann; die soziale Distanz zwischen Campmusiker und Ex-"Richies" wird darueber spielbar ueberbrueckt.
 - Vor dem Auftritt wird Chubby jedoch von Gegnern bzw. Konkurrenz gezielt verpruegelt, sodass er nicht mehr selbst spielen kann.
 - Das Trio soll auf seine Bitte hin einspringen; aus seiner Sicht sind sie immer noch besser als die "verkackten Scheisser", die sonst profitieren wuerden.
 - Als Gegenpartei ist eine Band oder ein Umfeld aus reichen bzw. privilegierten Kreisen angedacht, die Chubby als unpassende Konkurrenz aus dem Feld raeumen wollen.
@@ -227,7 +229,7 @@ source: lore_db.md
 - Indirekter oder direkter Andockpunkt an den Weltplot
 
 **Offen**
-- Genauer Ablauf des Folgetags im Velvet Static und ob daraus direkt ein Auftritt, Testlauf oder nur ein Kennenlernen wird
+- Genauer Termin des naechsten Velvet-Events (kurzfristig 2-4 Tage Vorlauf) und ob aus dem Zuschauen spaeter ein Auftritt/Testlauf wird
 - Genauer Ablauf des Abends
 - Wer genau die rivalisierende reiche/privilegierte Band ist
 - Wie stark Chubby vorher schon mit dem Trio verbunden ist
@@ -263,6 +265,15 @@ source: lore_db.md
   - aufgrund Ely-Block und Saul-Schweigen aktuell mit geringer Direktsicht
   - eher Damage-Control und Risikoabschaetzung (wie gefaehrlich/welcher Preis)
   - emotional pro Ely und gegen direkten Schaden an Lauri, aber strategisch unter Zugzwang
+
+### 4.7 Aldecaldo-Soziallogik vs. Trio-Status
+- Das Trio gilt bei den Aldecaldos als enge Freunde, gehoert aber **nicht** als Nomadenmitglied zur Fraktion.
+- Damit ist das Trio nicht formal an alle internen Nomadenregeln gebunden.
+- Praktisch greifen jedoch soziale Regeln und Stolz:
+  - Hilfe wird angenommen, aber nicht als Schmarotzertum
+  - direkte Geldgeschenke werden oft abgelehnt
+  - Respekt fuer Camp-"Gesetze" und Gesichtsfragen bleibt zentral
+- Das Trio versucht aktiv, diese ungeschriebenen Regeln zu verstehen, um den Aldecaldos nicht "auf die Fuesse" zu treten.
 
 ### 4.4 CP2077-Seitenlage als Taktgeber
 - Solange Yorinobu/Hanako-Konflikt in Night City hochlaeuft, bleiben Folgekonflikte zwischen Arasaka-/Biotechnica-Nebenlinien eher gedrosselt sichtbar.

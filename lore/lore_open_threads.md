@@ -54,12 +54,17 @@ source: lore_db.md
 - 2077-07-06 Sleepy-Verzicht-Experiment - Sleep Inducer sollte nicht zu oft pro Woche genutzt werden. Uebernutzung fuehrt zu: Halluzinationen, Krankheitsbilder. Zu beobachtende Effekte?
 - 2077-07-08 und 2077-07-09 sind als Sammelstand neu verankert; Feinschliff ueber Einzelperspektiven steht noch aus.
 - Tim-/Jake-Spezialnierenfaden - **ABGESCHLOSSEN als Kinder-Notfallplot (2077-07-10)**; als Nachfolgeplot bleibt **Tim, der Dealer** offen.
-- 2077-07-09 Velvet-Static-Einladung durch Chubby - Wird daraus am Folgetag direkter Auftritt, Testlauf, Vorspielen oder nur Kennenlernen?
+- 2077-07-09 Velvet-Static-Einladung durch Chubby - Kurzfristige Eventplanung (2-4 Tage Vorlauf): Wann ist der naechste Slot, und bleibt das Trio zuerst nur Zuschauer?
 - 2077-07-09 Chubby-"Richi"-Frage - Wie viel vom Corporate-/NCU-Hintergrund offenbart das Trio im Aldecaldo-/Clubkontext?
 - 2077-07-09 Sleep-Inducer-Timerdifferenz - Warum stellen Lauri und Ely nur 1 Stunde statt 3? Folgen fuer Erholung, Rhythmus oder Risikomanagement offen.
+- 2077-07-09 Georges Optik-Freigabe - Wie sicher ist die Hub-Weiterleitung im Feld (inklusive Replay-Funktion), und wann lernen Ely/Lauri den vollen Funktionsumfang?
 - 2077-07-10 Nachfolgeplot "Tim, der Dealer" - Tim wird nach Niederlage vorsichtiger (nicht untergetaucht); stellt sich Frage nach Gegenzug, v. a. moeglicher Rache gegen Bronco als Vermittler.
 - 2077-07-10 Nieren-OS/Jenny-Hook - **ABGESCHLOSSEN:** Jenny wurde mit neuer OS ebenfalls gerettet.
 - 2077-07-10 Donny-Duplikation - **ABGESCHLOSSEN:** Duplikation erfolgreich und fuer Rettungspfad genutzt.
 - 2077-07-10 Saul-Biotechnica-Dilemma - Wie entscheidet Saul zwischen Clan-Schutz, Biotechnica-Deal und Trio-Naehe?
 - 2077-07-10 Arasaka-AV-Reaktionszeit - War das direkte Henshaw-Reaktion, Monitoring-Zufall oder mehrere parallele Suchlinien?
 - 2077-07-10 George-New-York-Bandbruch - Folgen fuer heutige Bandidentitaet und Trigger bei kommenden Auftritten offen halten.
+- 2077-07-10 Sirenen trotz unterbrochenem Tim-Call - Welche automatische medizinische/polizeiliche Dispatch-Kette greift bei Tims Personalstatus?
+- 2077-07-10 Ripperdoc-Hinweis - Als Wertung von aussen verankert: Er hielt die laufende Nierenaktion fuer "irre", ohne zu wissen, dass das Trio dahintersteht.
+- 2077-07-10 Barkeeper-Leak - Welche unmittelbaren Folgebewegungen entstehen aus der Mail an Lauris Vater?
+- 2077-07-10 Trio-Grenzgespraech nach Bar-Konflikt - Wie stabil bleibt die neue Offenheitsregel bei eifersuchts-/adrenalingetriebenen Situationen?

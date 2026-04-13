@@ -338,37 +338,52 @@ source: lore_db.md
         - Bass fuer Ely
         - Faesser fuer Lauri als improvisierte Drums
       - Das Trio probiert mehrere musikalische Ideen an; alle drei grinsen sichtbar, die Szene tut ihnen emotional gut.
-      - Chubby laedt das Trio fuer den Folgetag ins **Velvet Static** ein, einen Talentschuppen / Club als moeglichen ersten echten Auftrittsraum.
+      - Ely bekommt von Lala gruens Licht fuer die spaetere Hilfsfahrt; wegen erwartetem Raffen-Shiv-Druck darf aus dem Camp selbst niemand abgezogen werden.
+      - Lauri verplappert den Studienhintergrund des Trios; Chubby liest sie dadurch klarer als ehemalige "Richis".
+      - Lauri kontert mit "Waren"; Ely bietet ihre sortierten Studienunterlagen an.
+      - Chubby laedt das Trio ins **Velvet Static** ein; gemeint ist zunaechst **zuschauen/mitkommen**, nicht fest auftreten.
+      - Velvet-Events sind dort kurzfristig (typisch 2-4 Tage Vorlauf), ein genauer Termin steht noch nicht fest.
       - Chubby fragt offen nach dem Widerspruch zwischen ihrer moeglichen Herkunft als "Richis" und ihrem aktuellen Leben "hier in dem Dreckloch" bei den Aldecaldos.
       - Chubby gibt zu, per Fernstudium **Musik** und **BWL** zu studieren.
+      - Vor dem Schlafen praesentiert George stolz eine selbst programmierte Konferenz-/Optik-Freigabe, mit der das Trio Sichtkanaele teilen kann.
+      - Georges System ist bereits taktisch nutzbar: Hub-Weiterleitung der Feeds, virtuelle Monitore verschiebbar/skalierbar; Replay bis zu 5 Minuten ist moeglich, aber Ely und Lauri kennen diese Funktion noch nicht.
       - Spaet in der Nacht nutzt das Trio wieder Sleep Inducer; vorgesehen sind 3 Stunden, Lauri und Ely stellen ihre Dauer jedoch nur auf 1 Stunde.
       - Trio wirkt am Feuer musikalisch und sozial stark integriert.
 
   - **2077-07-10**:
     - **Lauri-Einzelsicht (ARBEITSSTAND, voller Tagesblock)**:
+      - Der Morgen startet nach sehr kurzer Sleep-Inducer-Nacht; vereinbart waren 3 Stunden, Lauri und Ely setzen erneut individuell 1 Stunde.
       - Lauri und Ely wachen gleichzeitig auf und sind beide ueberrascht, weil jede etwas vor den anderen verbergen wollte.
+      - Lauri triggert bei Georges Morgen-Workout erneut die geteilte Sichtfunktion vom Vortag; Trio-Dynamik bleibt spielerisch/neckend trotz Zeitdruck.
       - Ely geht trainieren, Lauri geht sticken; danach hilft Ely in der Kueche.
+      - Kuechen-/Morgenmarker: Ely kocht (Soybrei/Schoko), George kommentiert Zucker-/Ernaehrungspunkt.
       - Ely spricht mit Lala ueber Jakes Nierenlage; im Camp wissen alle Bescheid, aber Saul hat externe Beschaffung untersagt (Dakota-/Familienprinzip).
       - Das Trio entscheidet intern, die Beschaffung selbst zu uebernehmen, sagt es aber noch nicht offen.
       - Ely bekommt Waffenlinks eingebaut; Eingriff laeuft gut, aber sie soll den restlichen Tag nicht schiessen.
+      - Ripperdoc-Markierung: Ely setzt beide Hand-Waffenlinks; parallel kursiert Frust ueber impulsive Alleingangs-Ideen einzelner Aldecaldos zur Nierenbeschaffung.
       - George bekommt den ersten Teil seines Tattoos.
-      - Lauri geht auf Patrouille, lernt mehr ueber Aldecaldo-Familienalltag und beginnt die soziale Haerte des Nomadenlebens erst verzoegert zu realisieren.
+      - Lauri hilft Mitch beim Schrauben und geht mit Cassady auf Patrouille; sie lernt mehr ueber Aldecaldo-Familienalltag und beginnt die soziale Haerte des Nomadenlebens erst verzoegert zu realisieren.
+      - Cassady beschreibt Nomaden explizit als Ausgestossene und zeigt private Seite (Liebesromane, Buchgabe an Lauri).
       - Ely spricht mit Jakes Mutter Emily; sie sammelt trotz Verbots alles Geld von sich und Bob, weil es Jake nahezu stuendlich schlechter geht.
-      - Beim Aufbruch zur Nierenuebergabe reagiert Saul angefressen und nennt das Vorgehen "Panam-Scheiss"; faktisch versucht er das Trio eher abzubremsen.
+      - Beim Aufbruch zur Nierenuebergabe reagiert Saul angefressen und nennt das Vorgehen "Panam-Scheiss"; im Scherz-/Ernst-Mix droht er mit "zusammenfalten" und versucht das Trio faktisch abzubremsen.
       - Ely kann wegen ihrer Haende nicht selbst fahren und faehrt bei Lauri mit.
       - Auf der Fahrt erzaehlt George von einer fruehen New-York-Band (mit 12/13): Elias kappte den Weg vor einem echten Gig, liess Instrumente verschwinden und drueckte ihn auf Football->Uni->Militaer->Politik.
       - Kurz vor dem Treffpunkt meldet Emily weinend, dass Dealer Tim 10k nachfordert; das Trio geht trotzdem rein.
-      - Lauri und Ely stellen Tim; er gibt die Niere heraus, verzichtet auf die 10k, plant aber weiterhin sozialen/finanziellen Kontrollhebel gegen die Familie.
+      - George wartet am Dealort initial draussen, Lauri und Ely gehen hinein.
+      - Lauri und Ely stellen Tim; Ely verhandelt ihn aus Prinzip herunter, Tim gibt die Niere heraus, plant aber weiterhin sozialen/finanziellen Kontrollhebel gegen die Familie.
       - George scannt die Nierensoftware und erkennt ein identisches OS-Muster wie bei Jenny.
-      - Lauri und Ely zwingen Tim zur Herausgabe der Originalsoftware; Tim alarmiert waehrend der Flucht die Polizei.
-      - Das Trio hat kaum Zeit, schlaegt Tim nieder und zieht ab.
+      - Lauri und Ely zwingen Tim zur Herausgabe der Originalsoftware (Splitter); Tim startet einen Cops-Call, George unterbricht ihn.
+      - Sirenen naehern sich trotzdem; das Trio hat kaum Zeit, Lauri schlaegt Tim nieder und alle ziehen sofort ab.
       - George bringt die Software zu Donny; Hoffnung auf Duplikation und potenzielle Hilfe fuer Jenny.
-      - Wartephase im Bistro endet in Schlaegerei mit Georges Football-Bekannten; George trennt die Seiten.
-      - Lauri wird erkannt, Information geht an ihren Vater.
+      - Wartephase im gleichen Bistro/Kneipenort nahe Donny kippt in Konflikt mit einer anonymen Gruppe aus Georges Football-Umfeld; George trennt die Seiten und stellt klar, dass er nicht zurueckkehrt.
+      - Barkeeper erkennt Lauri und schreibt eine Meldung an ihren Vater; Ely erkennt den Leak in Echtzeit, Trio bricht sofort auf.
+      - Danach folgt ein klaerendes Trio-Gespraech zu Grenzen/Absprachen: George verlangt Offenheit statt Eingriffe hinter seinem Ruecken; Lauri bejaht "all in" erneut.
       - Donny schafft die Software-Duplikation.
       - Auf der Rueckfahrt sieht das Trio ein Luxus-AV mit Arasaka-Logo; Lauri wertet das als sehr schnelle Reaktion ihres Vaters.
       - Rueckkehr ins Lager: Aldecaldos jubeln, sogar Saul gibt dem Trio ein Bier.
       - Ely draengt Saul, nicht fuer Biotechnica zu arbeiten, und offenbart eigene familiaere Biotechnica-Naehe; Saul landet in einem offenen Loyalitaetsdilemma.
+      - Oggy bringt Jenny und die Kinder spaet ins Camp; Lauri uebernimmt spontan Kinderbetreuung und stabilisiert sich darueber.
+      - Lagerphase kippt in weichen Familienmodus (Kinderlied/Geschichte); spaeter weicht das Trio wegen belegter Schlafplaetze einmalig auf einen defekten Windrad-Rueckzugsort aus.
       - Oggy/Familie sehen Lauri und Ely nun explizit als Family; die Aldecaldos stufen das Trio als sehr enge, verlaessliche Freunde mit internem Vertrauenszugang ein.
       - Das Trio uebergibt sein bisheriges Zelt an Oggy/Familie und schlaeft ausserhalb des Lagers in einem kleinen Unterschlupf.
       - Der akute Kinder-Notfallplot um Jake gilt damit als abgeschlossen; moeglicher Folgefaden bleibt Tim als spaetere Gegenreaktion.

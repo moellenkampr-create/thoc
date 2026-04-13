@@ -38,12 +38,14 @@ source: lore_db.md
 - Oggy <-> George: **sehr guter Freund**, fuer George quasi **Familie**
 - Oggy/Familie <-> Lauri/Ely: nach 2077-07-10 explizit als **Family** anerkannt
 - Aldecaldos <-> Trio: als sehr enge, verlaessliche Freunde mit hoher interner Vertrauensstufe eingestuft
+- Aldecaldos <-> Trio (Rahmen): Freundschaft mit Vertrauenszugang, aber keine formale Nomadenaufnahme; soziale Campregeln und Stolz gelten trotzdem als praktischer Verhaltensrahmen.
 
 ## 4. Bindungsmarker und spaetere Entwicklungen
 **ARBEITSSTAND**
 - Sleepy-Verzicht (2077-07-06) als Experiment: "Sonst beisst es uns irgendwann in den Arsch" (George).
 - Trio schlaeft erstmals ohne Schlafmittel; spielerische Bindung bleibt erhalten.
 - Lauri wird eifersuechtigung bei Gerard-Referenz (George haette laenger mit Gerard zusammen sein koennen). Gerard war nur George's Lover/Freund, nicht romantischer Rivale fuer Lauri.
+- 2077-07-10 nach Bar-/Football-Konflikt: George setzt Grenze gegen Eingriffe "hinter seinem Ruecken"; Lauri bejaht offenes Vorgehen und bestaetigt "all in" erneut.
 
 ## 5. Anreden und Bindungsdynamik
 **KANON**

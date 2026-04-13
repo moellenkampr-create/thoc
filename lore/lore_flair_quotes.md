@@ -145,21 +145,33 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 **ARBEITSSTAND**
 - "echtes Potential"
 - "Richis"
+- "Benutz die Vergangenheitsform. Waren."
+- "Nimm lieber meine, die sind... detailierter und sortierter..."
 - "hier in dem Dreckloch"
 - Velvet Static als "Talentschuppen"
 - Chubby studiert per Fernstudium "Musik und BWL"
 - Gitarre fuer George / Bass fuer Ely / Faesser fuer Lauri
 - "Man kann sehen, dass es ihnen gut tut."
+- George praesentiert stolz, was er "geschaffen" / programmiert hat: geteilte Sichtkanaele.
+- Lauris "Versuch der Beherrschung" bezieht sich auf **Selbstkontrolle** (Lust regulaeren), nicht auf Kontrolle ueber George.
 - Eigentlich 3 Stunden Sleep Inducer, aber Lauri und Ely stellen nur 1 Stunde ein.
 
 ### 10.-Juli: Nierenfahrt, Tim, Saul und Rueckkehr (Lauri-Sicht)
 **ARBEITSSTAND**
 - "Fuer so was haben wir Dakota, wir verlassen uns auf Familie."
 - "Panam-Scheiss"
+- "IHR SEID SO UNFAIR!"
+- "Ich versuche hier zu ruehren! Ihr seid gemein!"
+- "Der Aerger findet sie.. oder sie ihn."
 - George-Bandbruchlinie: Football -> Uni -> Militaer -> Politik
 - "es geht um das Leben von Jack"
 - 10k-Nachforderung kurz vor Uebergabe
 - identisches OS-Muster wie bei Jenny
+- "Er versucht die Cops anzurufen, George unterbricht das."
+- "AUS! PLATZ! SITZ! DORTHIN!"
+- "Nein, die ist tot." (Lauri ueber sich selbst als Henshaw)
+- "Wenn du das naechste mal sowas vor hast, sag es mir."
+- "ALL IN. Schon vergessen. Und ich MEINE ALL IN."
 - Donny schafft die Duplikation
 - Luxus-AV mit Arasaka-Logo als schneller Druckmarker
 - sogar Saul gibt dem Trio ein Bier

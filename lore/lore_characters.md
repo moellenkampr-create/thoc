@@ -36,6 +36,7 @@ source: lore_db.md
 - Techhair vorhanden
 - Noch **keine** Cybertattoos
 - George traegt dieselbe hochwertige Augenklasse wie Ely und Lauri; die aktuelle Ware ist qualitativ deutlich besser als fruehere Systeme.
+- 2077-07-09 (ARBEITSSTAND): George baut eine stabile Optik-Hub-Funktion fuer Trio-Feeds (Weiterleitung, virtuelle Monitor-Skalierung/Positionierung, Replay bis 5 Minuten); nicht alle Features sind fuer Ely/Lauri bereits transparent.
 
 #### Cyberware-Hintergrund
 - Georges aktueller High-End-Stand war nie primaer durch fehlendes Gesamtvermoegen begrenzt, sondern durch fehlende Liquiditaet.
@@ -293,6 +294,13 @@ source: lore_db.md
 ### Ivo Renn
 **ARBEITSSTAND - Chat-Entwicklung, noch nicht Lore-abgesichert**
 - Mitarbeiter im **Velvet Static**
+
+### Cassady
+**ARBEITSSTAND**
+- Aldecaldo, nimmt Lauri am 2077-07-10 auf Patrouille mit
+- sondiert Lauris Hintergrund, bleibt dabei sozial offen
+- beschreibt Nomaden als Ausgestossene
+- liest privat Liebesromane und gibt Lauri ein Buch
 
 ### Meister Ming
 **KANON**
