@@ -62,11 +62,11 @@ source: lore_db.md
 - 2077-07-10 Nieren-OS/Jenny-Hook - **ABGESCHLOSSEN:** Jenny wurde mit neuer OS ebenfalls gerettet.
 - 2077-07-10 Donny-Duplikation - **ABGESCHLOSSEN:** Duplikation erfolgreich und fuer Rettungspfad genutzt.
 - 2077-07-10 Saul-Biotechnica-Dilemma - Wie entscheidet Saul zwischen Clan-Schutz, Biotechnica-Deal und Trio-Naehe?
-- 2077-07-10 Arasaka-AV-Reaktionszeit - War das direkte Henshaw-Reaktion, Monitoring-Zufall oder mehrere parallele Suchlinien?
+- 2077-07-10 Arasaka-AV-Reaktionszeit - **BESTAETIGT (ARBEITSSTAND):** Direkte Henshaw-Reaktion ueber Barkeeper-Mail. Sicherheitsexperte des Vaters schickte sofort jemanden, um Lauri abzuholen; Einsatz kam zu spaet. Lauri sah das AV auf der Rueckfahrt, wusste nicht, wer darin war; vermutet moeglicherweise ihren Vater. Weitere Eskalation offen.
 - 2077-07-10 George-New-York-Bandbruch - Folgen fuer heutige Bandidentitaet und Trigger bei kommenden Auftritten offen halten.
-- 2077-07-10 Sirenen trotz unterbrochenem Tim-Call - Welche automatische medizinische/polizeiliche Dispatch-Kette greift bei Tims Personalstatus?
+- 2077-07-10 Sirenen trotz unterbrochenem Tim-Call - **BESTAETIGT:** Automatische Dispatch-Kette ueber Tims Sanitaeter-/Medizinpersonal-Status; Sirenen wurden durch unterbrochenen Call automatisch ausgeloest.
 - 2077-07-10 Ripperdoc-Hinweis - Als Wertung von aussen verankert: Er hielt die laufende Nierenaktion fuer "irre", ohne zu wissen, dass das Trio dahintersteht.
-- 2077-07-10 Barkeeper-Leak - Welche unmittelbaren Folgebewegungen entstehen aus der Mail an Lauris Vater?
+- 2077-07-10 Barkeeper-Leak - **ABGESCHLOSSEN (ARBEITSSTAND):** Mail an Vater loeste Sicherheitseinsatz aus (AV, zu spaet). Nachwirkung: Vater weiss, dass Lauri in Night City aktiv und lokalisierbar ist. Folgereaktion des Vaters offen.
 - 2077-07-10 Trio-Grenzgespraech nach Bar-Konflikt - Wie stabil bleibt die neue Offenheitsregel bei eifersuchts-/adrenalingetriebenen Situationen?
 - 2077-07-11 Saul-Besprechungszelt-Zwischenfall - Welche sozialen Nachwirkungen im Camp bleiben nach der peinlichen Ueberkreuzung?
-- 2077-07-11 Lauris Zugehoerigkeitskonflikt - Wie stabilisiert sich der "ich gehoere nicht hierher"-Impuls trotz realer Campnahe?
+- 2077-07-11 Lauris Zugehoerigkeitskonflikt - Derzeit: totale Begeisterung fuer Nomadenleben und Aldecaldo-Kultur. Lauri hat bisher nur die sonnige Seite gesehen. Wie sie reagiert, wenn Schattenseiten sichtbar werden, ist offen. Der innere Abwehrimpuls ("gehoere nicht hierher") liegt unter der Begeisterung vergraben, nicht aufgeloest.

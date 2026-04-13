@@ -379,7 +379,7 @@ source: lore_db.md
       - Barkeeper erkennt Lauri und schreibt eine Meldung an ihren Vater; Ely erkennt den Leak in Echtzeit, Trio bricht sofort auf.
       - Danach folgt ein klaerendes Trio-Gespraech zu Grenzen/Absprachen: George verlangt Offenheit statt Eingriffe hinter seinem Ruecken; Lauri bejaht "all in" erneut.
       - Donny schafft die Software-Duplikation.
-      - Auf der Rueckfahrt sieht das Trio ein Luxus-AV mit Arasaka-Logo; Lauri wertet das als sehr schnelle Reaktion ihres Vaters.
+      - Auf der Rueckfahrt sieht das Trio ein AV; Lauri weiss nicht, wer darin ist, vermutet aber ihren Vater. BESTAETIGT: Sicherheitsexperte des Vaters hatte nach Barkeeper-Mail sofort jemanden entsandt, um Lauri abzuholen - kam zu spaet.
       - Rueckkehr ins Lager: Aldecaldos jubeln, sogar Saul gibt dem Trio ein Bier.
       - Ely draengt Saul, nicht fuer Biotechnica zu arbeiten, und offenbart eigene familiaere Biotechnica-Naehe; Saul landet in einem offenen Loyalitaetsdilemma.
       - Oggy bringt Jenny und die Kinder spaet ins Camp; Lauri uebernimmt spontan Kinderbetreuung und stabilisiert sich darueber.
