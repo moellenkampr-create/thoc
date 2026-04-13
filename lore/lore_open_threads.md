@@ -68,3 +68,5 @@ source: lore_db.md
 - 2077-07-10 Ripperdoc-Hinweis - Als Wertung von aussen verankert: Er hielt die laufende Nierenaktion fuer "irre", ohne zu wissen, dass das Trio dahintersteht.
 - 2077-07-10 Barkeeper-Leak - Welche unmittelbaren Folgebewegungen entstehen aus der Mail an Lauris Vater?
 - 2077-07-10 Trio-Grenzgespraech nach Bar-Konflikt - Wie stabil bleibt die neue Offenheitsregel bei eifersuchts-/adrenalingetriebenen Situationen?
+- 2077-07-11 Saul-Besprechungszelt-Zwischenfall - Welche sozialen Nachwirkungen im Camp bleiben nach der peinlichen Ueberkreuzung?
+- 2077-07-11 Lauris Zugehoerigkeitskonflikt - Wie stabilisiert sich der "ich gehoere nicht hierher"-Impuls trotz realer Campnahe?

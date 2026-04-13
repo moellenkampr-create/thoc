@@ -177,6 +177,16 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - sogar Saul gibt dem Trio ein Bier
 - Trio gibt Zelt an Oggy/Familie ab und schlaeft ausserhalb
 
+### 11.-Juli Nacht/Fruehmorgen: Familienbruch, Saul-Zelt, Sunrise (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Du gehoerst nicht hierher."
+- "Ich muss meinen Koerper fertig machen, sonst drehe ich durch."
+- "Ich kenne sowas nicht. Das fuehlt sich so an, wie ich immer dachte, dass sich Familie anfuehlen soll."
+- "Ihr wisst schon, dass das Zelt von Saul ist..."
+- "Sorry.. Ventil.."
+- "Bitte, nicht dankbar."
+- Wind und aufgehende Sonne als positiver Schlusston
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

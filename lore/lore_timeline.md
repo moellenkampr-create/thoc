@@ -387,3 +387,15 @@ source: lore_db.md
       - Oggy/Familie sehen Lauri und Ely nun explizit als Family; die Aldecaldos stufen das Trio als sehr enge, verlaessliche Freunde mit internem Vertrauenszugang ein.
       - Das Trio uebergibt sein bisheriges Zelt an Oggy/Familie und schlaeft ausserhalb des Lagers in einem kleinen Unterschlupf.
       - Der akute Kinder-Notfallplot um Jake gilt damit als abgeschlossen; moeglicher Folgefaden bleibt Tim als spaetere Gegenreaktion.
+
+  - **2077-07-11**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Nacht bis Fruehmorgen)**:
+      - Im Camp bei Oggys Kindern kippt die Stimmung in einen deutlich weicheren Familienmodus; Trio + Chubby stabilisieren die Kids mit Lied/Geschichte.
+      - Lauri erlebt starke Zugehoerigkeitssehnsucht bei gleichzeitiger innerer Abwehr ("ich gehoere nicht hierher").
+      - Wegen belegter Schlafplaetze folgt eine Bewegungs-/Regulationsphase (Joggen ums Lager); Ely begleitet spielerisch.
+      - Lala gibt Hinweis auf einen defekten Windrad-Rueckzugsort (Couch) als Notloesung.
+      - Ue18-Phase bleibt als Beziehungs-/Spannungsmarker relevant (ohne pornografische Chronikdetails).
+      - Lauri kehrt trotz Erschoepfung zu den Kids zurueck; Sleepy wird erneut gesetzt.
+      - Es folgt ein starker emotionaler Familienbruchmoment bei Lauri ("so sollte sich Familie anfuehlen"), den George/Ely durch Naehe und Rueckversicherung auffangen.
+      - Trio nutzt spaet ein Zelt als Ventilraum und merkt erst danach: Es war Sauls Besprechungszelt; Lala deeskaliert mit pragmatischem Rueckzugshinweis.
+      - Trotz Peinlichkeit bleibt der Camprahmen tragfaehig; bei Sonnenaufgang bricht das Trio Richtung Oggy auf.

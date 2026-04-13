@@ -46,6 +46,7 @@ source: lore_db.md
 - Trio schlaeft erstmals ohne Schlafmittel; spielerische Bindung bleibt erhalten.
 - Lauri wird eifersuechtigung bei Gerard-Referenz (George haette laenger mit Gerard zusammen sein koennen). Gerard war nur George's Lover/Freund, nicht romantischer Rivale fuer Lauri.
 - 2077-07-10 nach Bar-/Football-Konflikt: George setzt Grenze gegen Eingriffe "hinter seinem Ruecken"; Lauri bejaht offenes Vorgehen und bestaetigt "all in" erneut.
+- 2077-07-11 Nachtphase: starkes Trio-Co-Regulationsmuster bei Lauris Familien-/Zugehoerigkeitsbruch; Naehe und Rueckversicherung wirken unmittelbar stabilisierend.
 
 ## 5. Anreden und Bindungsdynamik
 **KANON**
