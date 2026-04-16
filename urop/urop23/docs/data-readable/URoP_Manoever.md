@@ -126,6 +126,15 @@ Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
 - **Aktion**
 - **2+ Aktionen** (Setup, Aufbau, Finisher-Vorbereitung)
 
+### 6.1.1 Erwerbskosten (EP)
+Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft:
+- **T0** = 0 EP
+- **T1** = 15 EP
+- **T2** = 30 EP
+- **T3** = 50 EP
+
+Diese Tabelle ist aktuell mit `tier_cost_reference` in der JSON synchronisiert.
+
 ### 6.2 Einsatzfenster
 Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster:
 - **beliebig** (nur bei kleinen Effekten)
@@ -209,39 +218,39 @@ Reaktive Manöver sollen scharf, spannend und stark bleiben, aber nicht zu einer
 Die folgende Zuordnung ist der aktuelle aktive Teststand der **vollen Manöver**.
 
 ### 9.1 Nahkampf
-- **Befreien aus Griff** – **T0**
+- **Befreien aus Griff** – **T0 (0 EP)**
   - defensives Grundmanöver mit engem Reaktionsfenster
-- **Entwaffnen** – **T1**
+- **Entwaffnen** – **T1 (15 EP)**
   - klares Kernwerkzeug gegen Waffenlinie und Handkontrolle
-- **Umreißen / Niederwerfen** – **T1**
+- **Umreißen / Niederwerfen** – **T1 (15 EP)**
   - gute Kontrolloption ohne Endspielcharakter
-- **Festsetzen** – **T2**
+- **Festsetzen** – **T2 (30 EP)**
   - starke Kontrollwirkung, braucht echte Öffnung oder gebrochene Linie
-- **Konter** – **T2**
+- **Konter** – **T2 (30 EP)**
   - reaktiv, timingkritisch, beansprucht das Reaktionsfenster
-- **Finisher** – **T3**
+- **Finisher** – **T3 (50 EP)**
   - Abschlussaktion mit harter Vorbedingung
 
 ### 9.2 Fernkampf
-- **Schnellziehen** – **T0**
+- **Schnellziehen** – **T0 (0 EP)**
   - Eskalationsfenster beim Übergang in offene Gewalt
-- **Präzisionsschuss** – **T1**
+- **Präzisionsschuss** – **T1 (15 EP)**
   - klassisches Kernmanöver über Zielwahl und Präzision
-- **Unterdrückungsfeuer** – **T2**
+- **Unterdrückungsfeuer** – **T2 (30 EP)**
   - Kontrollmanöver gegen Bewegung, Vorstoß und Linienwechsel
-- **Reaktionsschuss** – **T2**
+- **Reaktionsschuss** – **T2 (30 EP)**
   - reaktiv, timingkritisch, beansprucht dasselbe Reaktionsfenster wie andere Reaktionen
 
 ### 9.3 Einfluss
-- **Gesprächsschock** – **T2**
+- **Gesprächsschock** – **T2 (30 EP)**
   - harter Bruch gegen Haltung, Fassade oder Deutungshoheit
-- **Sozialer Konter** – **T2**
+- **Sozialer Konter** – **T2 (30 EP)**
   - reaktive Umkehr gegen offene soziale Spitze
 
 ### 9.4 Technik
-- **Bypass** – **T2**
+- **Bypass** – **T2 (30 EP)**
   - umgeht Schutzlogik statt nur an ihr zu arbeiten
-- **Alarm verzögern** – **T2**
+- **Alarm verzögern** – **T2 (30 EP)**
   - reaktive Zeitkontrolle gegen bereits laufende Entdeckung
 
 Basisnahe Anwendungen wie ruhiges Öffnen, saubere Routinearbeit, normales Gesprächsführen oder einfache Improvisation bleiben **keine vollen Manöver**, solange sie keine eigene Fenster-, Kosten- oder Gegenlogik brauchen.

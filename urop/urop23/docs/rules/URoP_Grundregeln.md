@@ -129,6 +129,52 @@ Zusaetzlich zu klassischen Konsequenzen nutzt URoP kurze Zustaende zur Taktikste
 
 Diese Zustaende enden typischerweise nach kurzer Zeit (z. B. naechster gegnerischer Angriff, Beginn des naechsten eigenen Zuges oder Szenenende).
 
+### 5.5 Erwerbskosten fuer besondere Faehigkeiten (EP) [TESTSTAND]
+Fuer den Build gelten vorlaeufig feste EP-Kosten pro Faehigkeit.
+
+Basisraster:
+- **T0** = 0 EP
+- **T1** = 15 EP
+- **T2** = 30 EP
+- **T3** = 50 EP
+
+Leitlinie:
+- Manoever nutzen direkt dieses Raster.
+- Kraefte und Zauber nutzen direkt dieses Raster.
+- Quickhacks nutzen eine abgeleitete Tabelle auf Basis von Ausfuehrungsmodus und Verfuegbarkeit.
+
+### 5.6 Quickhack-Erwerbskosten (EP) [TESTSTAND]
+Quickhacks werden im Build ueber Modus plus Verfuegbarkeit bepreist:
+
+Grundkosten nach Modus:
+- **basis** = 10 EP
+- **manoever** = 20 EP
+- **verlaengerte_probe** = 30 EP
+
+Aufschlag nach Verfuegbarkeit:
+- **common** = +0 EP
+- **uncommon** = +5 EP
+- **restricted** = +10 EP
+- **rare** = +20 EP
+
+Beispiele:
+- basis/common = 10 EP
+- basis/uncommon = 15 EP
+- manoever/uncommon = 25 EP
+- manoever/restricted = 30 EP
+- verlaengerte_probe/rare = 50 EP
+
+### 5.7 Beispielkosten fuer Kraefte und Zauber [TESTSTAND]
+Bis eigene Datenbloecke fuer Magie/Psi vorliegen, gilt diese Referenz:
+- **Kraft: Fokusimpuls (T0)** = 0 EP
+- **Kraft: Schutzschub (T1)** = 15 EP
+- **Kraft: Kanalschub (T2)** = 30 EP
+- **Kraft: Wirksturm (T3)** = 50 EP
+- **Zauber: Lichtfaden (T0)** = 0 EP
+- **Zauber: Bannfokus (T1)** = 15 EP
+- **Zauber: Kettenblitz (T2)** = 30 EP
+- **Zauber: Dimensionsschnitt (T3)** = 50 EP
+
 ---
 
 ## 6. Konsequenzen [GELOCKT]
