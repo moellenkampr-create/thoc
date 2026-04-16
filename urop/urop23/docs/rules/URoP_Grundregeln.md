@@ -1,5 +1,5 @@
 # URoP – Grundregeln
-Stand: 2026-04-09
+Stand: 2026-04-16
 
 ## Status dieses Dokuments
 Dieses Dokument sammelt die **Kernregeln** des Basissystems.
@@ -90,27 +90,44 @@ Segment-Logik:
 
 ---
 
-## 5. Ausdauer [GELOCKT / TESTSTAND]
-Ausdauer ist die Belastungsressource für besondere Aktionen.
+## 5. Einsatzlogik fuer besondere Faehigkeiten [GELOCKT / TESTSTAND]
+URoP nutzt im Kern **keinen Ausdauer-Counter** mehr.
+Manoever, Zauber, Kraefte und Quickhacks werden ueber Kosten, Einsatzfenster und Konsequenzen begrenzt.
 
-### 5.1 Grundsatz [GELOCKT]
-- Normale Angriffe und Basisaktionen kosten keine Ausdauer.
-- Vor allem Manöver und Sondertechniken verbrauchen Ausdauer.
+### 5.1 Aktionskosten [GELOCKT]
+Jede besondere Faehigkeit hat eine klare Aktionskosten-Kategorie:
+- **Frei**
+- **Aktion**
+- **2+ Aktionen** (Aufbau, Kanalisation, Vorbereitung)
 
-### 5.2 Zustände [GELOCKT]
-- **0 Ausdauer** = Standardaktionen noch möglich, aber keine Manöver
-- **unter 0** = Ohnmacht oder Erschöpfungs-/Zusammenbruchslösung
+Kleine Effekte duerfen als freie Aktion gestaltet sein, starke Effekte sollen in der Regel Aktion oder 2+ Aktionen kosten.
 
-### 5.3 Regeneration [TESTSTAND]
-Aktuell dokumentierte Zahlen:
-- Durchatmen = 3
-- Leichte Erschöpfung hinnehmen = 6
-- Schwere Erschöpfung hinnehmen = 12
-- kurzes Ausruhen = 8
-- lange Rast = vollständig
+### 5.2 Einsatzfenster [GELOCKT / TESTSTAND]
+Jede Faehigkeit hat ein Einsatzfenster:
+- **beliebig** (nur kleine Effekte)
+- **1x pro Kampf**
+- **1x pro Szene**
 
-Hinweis:
-Diese Zahlen sind derzeit **TESTSTAND**, nicht Endlock.
+Kampf = abgegrenzte Gefechtssituation.
+Szene = zusammenhaengender relevanter Abschnitt, kann Kampf enthalten, muss aber nicht.
+
+### 5.3 Re-Einsatz, Risiko und Konsequenz [GELOCKT / TESTSTAND]
+Wird eine Faehigkeit mit Limit (1x pro Kampf oder 1x pro Szene) erneut in derselben Szene genutzt,
+greift Eskalation:
+- mindestens **Konsequenz leicht**
+- optional zusaetzlich erhoehtes Risiko
+- bei weiterem Re-Einsatz mittlere/schwere Konsequenzen
+
+Leitlinie:
+Konsequenz ist der primaere Preis, Risiko der sekundaere Verstaerker.
+
+### 5.4 Kurzzeitfolgen als Kernwerkzeug [TESTSTAND]
+Zusaetzlich zu klassischen Konsequenzen nutzt URoP kurze Zustaende zur Taktiksteuerung, z. B.:
+- **Offen** (leichter zu treffen / anfaellig fuer Folgeangriffe)
+- **Instabil** (schwaechere Reaktion / Balanceprobleme)
+- **Erschoepft** (temporaerer Leistungsabfall)
+
+Diese Zustaende enden typischerweise nach kurzer Zeit (z. B. naechster gegnerischer Angriff, Beginn des naechsten eigenen Zuges oder Szenenende).
 
 ---
 
@@ -135,6 +152,125 @@ Konsequenzen wirken zuerst fiktional und können zusätzlich:
 - Zusatzrisiko
 - neue gegnerische Gelegenheiten
 erzeugen.
+
+### 6.4 Konsequenzen nach Domaene [TESTSTAND]
+Konsequenzen sollen zur Art der Faehigkeit passen:
+- Nahkampf/Fernkampf: z. B. **Offen**, Verstauchung, Instabilitaet, Deckung verloren
+- Zauber/Kraefte: z. B. Fokusbruch, Rueckkopplung, kurze Erschoepfung
+- Quickhacks: z. B. Signaturspur/Trace, alarmiertes Ziel, gegenhack-offen
+
+### 6.5 Konsequenzentabellen (leicht/mittel/schwer) [TESTSTAND]
+Die Spielleitung waehlt die passende Konsequenz fiction-first aus der passenden Domaene.
+
+#### 6.5.1 Nahkampf/Fernkampf
+Leicht:
+- **Offen** bis zum naechsten gegnerischen Angriff
+- **Instabil** bis Beginn des naechsten eigenen Zuges
+- kleine Verstauchung: Nachteil auf den naechsten kraftvollen Angriff
+
+Mittel:
+- deutliche Verstauchung/Zerrung bis Kampfende
+- Deckung verloren oder schlechte Position
+- Reaktion (Parade/Ausweichen) einmal eingeschraenkt
+
+Schwer:
+- starke Verletzung (z. B. Schulter, Knie, Hand) mit Manoever-Ausschluss
+- zu Boden/aus Position und sofortige gegnerische Gelegenheit
+- anhaltender Praezisionsverlust bis Szenenende
+
+#### 6.5.2 Zauber/Kraefte
+Leicht:
+- kurze Erschoepfung (Nachteil auf die naechste passende Probe)
+- Fokusflackern (naechste Kraft/Zauberwirkung reduziert)
+- magisches/psionisches Echo (kurz wahrnehmbar)
+
+Mittel:
+- Fokusbruch (naechste groessere Wirkung nur mit Zusatzaufwand)
+- Rueckkopplung mit Selbstmalus
+- instabile Aura: gegnerische Gegenmassnahmen erleichtert
+
+Schwer:
+- Kontrollverlust-Moment (Teilwirkung fehlgeleitet)
+- deutliche Selbstbelastung mit anhaltendem Malus
+- Wirkkanal beschaedigt: starke Effekte bis Szenenende gesperrt
+
+#### 6.5.3 Quickhacks
+Leicht:
+- **Signaturspur 2** (am Ende eigener Runden jeweils -1)
+- Ziel ist **alarmiert** (erhoehte Wachsamkeit)
+- **gegenhack-offen** bis Beginn des naechsten eigenen Zuges
+
+Mittel:
+- **Signaturspur 3**
+- Position grob bestimmbar
+- naechster Quickhack mit Nachteil oder Zusatzaktion
+
+Schwer:
+- voller Trace: Position bestimmt
+- sofortige Gegenhack-Gelegenheit fuer Gegenseite
+- Sicherheitseskalation (ICE/Alarmstufe), weitere Hacks deutlich erschwert
+
+Hinweis zu Signaturspur:
+Wenn Signaturspur auf 0 faellt, kann ein berechtigter Gegner den Ursprung zuordnen
+oder eine aktive Gegenmassnahme einleiten.
+
+### 6.6 Referenzkarten fuer Spieltests [TESTSTAND]
+Die folgenden Karten sind feste Beispielkonsequenzen fuer direkte Nutzung am Tisch.
+
+#### 6.6.1 Nahkampf/Fernkampf
+1) **Offen** (Leicht)
+- Effekt: Gegner erhalten einen klaren Angriffsvorteil gegen dich.
+- Dauer: bis zum naechsten gegen dich gerichteten Angriff.
+
+2) **Verstauchte Schulter** (Leicht)
+- Effekt: Nachteil auf den naechsten kraftvollen Angriff oder Wurf.
+- Dauer: bis nach dem naechsten eigenen Angriff.
+
+3) **Instabile Haltung** (Mittel)
+- Effekt: Parade/Ausweichen einmal eingeschraenkt.
+- Dauer: bis Ende des naechsten eigenen Zuges.
+
+4) **Deckung verloren** (Mittel)
+- Effekt: Position gilt als ungeschuetzt; Gegnerische Fernkampfangriffe sind erleichtert.
+- Dauer: bis du 1 Aktion in Neu-Positionierung investierst.
+
+#### 6.6.2 Zauber/Kraefte
+5) **Kurze Erschoepfung** (Leicht)
+- Effekt: Nachteil auf die naechste passende Zauber-/Kraftprobe.
+- Dauer: endet nach der naechsten Zauber-/Kraftprobe.
+
+6) **Fokusflackern** (Leicht)
+- Effekt: naechste Zauber-/Kraftwirkung um eine Stufe reduziert.
+- Dauer: bis zur naechsten Nutzung.
+
+7) **Rueckkopplung** (Mittel)
+- Effekt: Selbstmalus auf Kontrolle/Steuerung magischer oder psionischer Effekte.
+- Dauer: bis Ende der Szene oder bis Stabilisierung (1 Aktion).
+
+8) **Wirkkanal-Riss** (Schwer)
+- Effekt: starke Effekte dieser Domaene bis Szenenende gesperrt.
+- Dauer: Szenenende.
+
+#### 6.6.3 Quickhacks
+9) **Signaturspur 2** (Leicht)
+- Effekt: Spur-Timer startet bei 2; am Ende eigener Runden jeweils -1.
+- Dauer: bis 0 oder aktiv entfernt.
+
+10) **Alarmiertes Ziel** (Leicht)
+- Effekt: Ziel erhaelt digitale Warnung und reagiert defensiver.
+- Dauer: bis Szenenende.
+
+11) **Gegenhack-offen** (Mittel)
+- Effekt: gegnerische Hacker erhalten ein klares Fenster fuer Gegenhack.
+- Dauer: bis Beginn des naechsten eigenen Zuges.
+
+12) **Voller Trace** (Schwer)
+- Effekt: Ursprung wird bestimmt; Gegenseite kann sofortige Gegenmassnahme starten.
+- Dauer: unmittelbar ausgeloest, Folgeeffekte bis Szenenende.
+
+Spieltest-Hinweis:
+Bei Re-Einsatz limitierter Faehigkeiten erst passende leichte Karte ziehen/waehlen,
+bei weiterem Push auf mittlere und dann schwere Karten eskalieren.
 
 ---
 
@@ -167,7 +303,7 @@ Grundsatz:
 Leitlinie:
 - Diese Reaktionsökonomie gilt für volle reaktive Manöver wie `Konter`, `Reaktionsschuss`, `Sozialer Konter` oder `Alarm verzögern`.
 - Normale Gegenwehr, Widerstand oder fiktionale Verteidigung ohne volles Manöver verbrauchen dieses Fenster nicht automatisch.
-- Wer **0 Ausdauer** hat, kann auch keine reaktiven Manöver mehr einsetzen, weil Manöver generell gesperrt sind.
+- Das Reaktionsfenster ist unabhaengig von Ausdauer und wird ueber Einsatzfenster, Konsequenzen und Lagekosten balanciert.
 - Reaktive Manöver brauchen immer einen **klar lesbaren Auslöser**, nicht nur ein vages Gefühl, dass "jetzt vielleicht etwas kommt".
 
 Typische klare Auslöser:
@@ -280,3 +416,11 @@ Leitlinien:
 - tiefere Ausbaustufen fuer Quickhacks und Netrunning
 - Fahrzeugwaffen, Tuning, Spezialchases und Detailschaden spaeter bei Bedarf
 - weitere Cyberware-Kategorien und Deck-/OS-Logik
+
+## 12. Noch offen
+- exakte Endfassung des Probenkerns
+- endgueltige Stellung von Uhren im Basiskern
+- Entscheidung zwischen den Kampfwirkungs-Linien oder deren Verschmelzung
+- Eskalationskurven fuer Re-Einsatz (mild vs. hart)
+- Kernschema fuer faehigkeitsspezifisches Lernen (z. B. Stufe I-III)
+- einheitliche Voraussetzungen (Sammelfertigkeit/Standardfertigkeit/Spezialisierung) pro Faehigkeitskategorie

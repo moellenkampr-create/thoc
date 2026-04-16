@@ -1,5 +1,5 @@
 # URoP – Manöver
-Stand: 2026-04-09
+Stand: 2026-04-16
 
 ## 1. Grundabgrenzung [GELOCKT]
 - **Fertigkeit** = was die Figur grundsätzlich kann
@@ -16,7 +16,7 @@ Sie verändern Nutzung, Wirkung, Kontrolle, Mobilität, Schutz, Zugriff oder Pr�
 Ein Manöver liegt vor, wenn mindestens einer dieser Punkte klar erfüllt ist:
 - es braucht ein **besonderes Einsatzfenster**
 - es erzeugt eine **spürbar andere Wirkung** als die Basisaktion
-- es kostet **Ausdauer** oder trägt ein klares Zusatzrisiko
+- es kostet **Aktionszeit** oder trägt ein klares Zusatzrisiko
 - es eröffnet eine **gezielte Gegenreaktion**
 - es verschiebt die Szene deutlich in Richtung **Kontrolle, Zugriff, Stellung oder Eskalation**
 
@@ -43,7 +43,7 @@ Beispiele:
 ### 3.2 Manöver
 Ein Manöver ist sinnvoll, wenn die Frage am Tisch nicht nur lautet **"schaffe ich das?"**, sondern zusätzlich:
 - **komme ich rechtzeitig in dieses Fenster?**
-- **lohnt sich die Ausdauer?**
+- **lohnt sich die Investition in Aktionszeit, Lage und Konsequenz?**
 - **öffne ich mich für Gegenwehr?**
 - **verändere ich damit Stellung, Kontrolle oder Zugriff spürbar?**
 
@@ -84,9 +84,9 @@ Diese Achsen dienen aktuell vor allem als Lesehilfe und Konstruktionsblick, nich
 
 ### 5.1 Leitlinie
 Je höher das Tier, desto eher sinnvoll:
-- höhere Ausdauerkosten
+- höhere Aktionskosten oder Vorbereitung
 - zusätzliche Voraussetzungen
-- höheres Eigenrisiko
+- staerkere Konsequenzen beim Re-Einsatz
 - engeres Einsatzfenster
 - stärkere oder kontrollierendere Wirkung
 - klarere Combo- oder Kettenlogik
@@ -119,26 +119,36 @@ Je höher das Tier, desto eher sinnvoll:
 
 ---
 
-## 6. Manöverkosten [TESTSTAND]
-Aktueller Arbeitsstand:
-- **T0 = 0**, in Sonderfällen 5
-- **T1 = 15**
-- **T2 = 30**
-- **T3 = 50**
+## 6. Manoeverkosten und Einsatzfenster [GELOCKT / TESTSTAND]
+### 6.1 Aktionskosten
+Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
+- **Frei** (nur kleine, nicht kampfentscheidende Effekte)
+- **Aktion**
+- **2+ Aktionen** (Setup, Aufbau, Finisher-Vorbereitung)
 
-### 6.1 Kosten-Leitlinie
-- **0** nur, wenn das Manöver den Spielfluss kaum bremst und keinen großen Kontrollsprung erzeugt
-- **5** nur für sehr leichte Spezialgriffe, die schon über Basisaktion liegen, aber noch kein volles Kernmanöver sind
-- **15** ist die normale Einstiegsschwelle für echte Manöver
-- **30** markiert spürbare Commitment-Kosten
-- **50** ist Ausnahmebereich und muss eine starke Szenenwirkung rechtfertigen
+### 6.2 Einsatzfenster
+Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster:
+- **beliebig** (nur bei kleinen Effekten)
+- **1x pro Kampf**
+- **1x pro Szene**
 
-### 6.2 Kostenwarnung
-Wenn ein Manöver oft gewählt würde, obwohl die Szene dafür kein echtes Spezialfenster bietet, ist meist nicht der Spieler das Problem, sondern:
-- Tier zu niedrig
-- Kosten zu niedrig
-- Wirkung zu breit
-- Voraussetzung zu weich
+### 6.3 Re-Einsatz
+Wird ein limitiertes Manoever in derselben Szene erneut genutzt,
+entsteht mindestens eine leichte Konsequenz; bei weiteren Re-Einsaetzen steigt die Haerte.
+
+Typische Kurzzeit-Konsequenz fuer risikoreiche Nahkampfmanoever:
+- **Offen** (leichter zu treffen, anfaellig fuer passende Folgeangriffe/Finisher)
+
+### 6.4 Eskalationsleiter fuer limitierte Manoever [TESTSTAND]
+Standardleiter fuer Manoever mit **1x pro Kampf** oder **1x pro Szene**:
+- 1. Einsatz: normal
+- 2. Einsatz: leichte Konsequenz
+- 3. Einsatz: mittlere Konsequenz plus optional erhoehtes Risiko
+- 4. Einsatz: schwere Konsequenz oder Sperre bis Szenenende
+
+Leitlinie:
+- 1x pro Kampf darf tendenziell etwas milder eskalieren.
+- 1x pro Szene eskaliert bei Re-Einsatz strenger.
 
 ---
 
@@ -146,7 +156,7 @@ Wenn ein Manöver oft gewählt würde, obwohl die Szene dafür kein echtes Spezi
 Ein Manöver kann auf bis zu vier Arten gebunden sein:
 - **Könnensbindung** = passende Fertigkeit oder Spezialisierung
 - **Lagebindung** = Deckung, Nahdistanz, Griffkontakt, Zeitfenster, laufende Verhandlung, Zugriff auf System usw.
-- **Ressourcenbindung** = Ausdauer, Werkzeug, freie Hand, Munition, Ruhe, Position
+- **Ressourcenbindung** = Aktionszeit, Werkzeug, freie Hand, Munition, Ruhe, Position
 - **Kettenbindung** = vorherige Öffnung, angesammelter Druck, bestehende Kontrolle oder Setup aus Voraktion
 
 ### Tier-Faustregel
@@ -161,7 +171,7 @@ Ein Manöver kann auf bis zu vier Arten gebunden sein:
 Empfohlene Reihenfolge am Tisch:
 1. **Ansage** – was genau soll erreicht werden?
 2. **Fenster prüfen** – ist die Lage dafür offen?
-3. **Kosten festlegen** – Ausdauer und sonstige Bindungen zahlen
+3. **Kosten festlegen** – Aktionskosten und sonstige Bindungen zahlen
 4. **Probe lesen** – führender Wert, unterstützender Wert, Widerstand oder Lage
 5. **Ergebnis deuten** – nicht nur Erfolg/Misserfolg, sondern Wirkung, Stellung, Risiko, Folgefenster
 6. **Gegenfenster prüfen** – eröffnet das Manöver eine sinnvolle Reaktion?
@@ -190,7 +200,7 @@ Was das praktisch bedeutet:
 - `Konter`, `Reaktionsschuss`, `Sozialer Konter`, `Alarm verzögern`, `Befreien aus Griff` und `Schnellziehen` konkurrieren um dasselbe Reaktionsfenster, wenn sie als reaktive Manöver gelesen werden.
 - normale Gegenwehr, Widerstand oder fiktionales Ausweichen ohne volles Manöver verbrauchen dieses Fenster nicht automatisch.
 - reaktive Manöver brauchen immer einen **konkret lesbaren Trigger**: sichtbarer Angriff, offener Griff, klares Peek-/Bewegungsfenster, erkennbare soziale Spitze oder ein schon laufender Alarmpfad.
-- wer **0 Ausdauer** hat, kann auch keine reaktiven Manöver mehr einsetzen.
+- reaktive Manoever sind nicht an einen Ausdauer-Counter gebunden, sondern an Reaktionsfenster, Einsatzfenster, Lage und Konsequenz.
 
 Ziel dieser Regel:
 Reaktive Manöver sollen scharf, spannend und stark bleiben, aber nicht zu einer kostenlosen Universalunterbrechung für jede Szene werden.
@@ -301,4 +311,5 @@ Ein Manöver ist im aktuellen URoP-Kern dann gelungen, wenn es:
 - Kettenbindung für `Festsetzen` und `Finisher` noch schärfer formulieren
 - konkrete soziale Trigger klarer in Lesebeispiele ziehen
 - falls später nötig: Anschluss- oder Finisherlogik gezielt ergänzen, statt den Kern sofort wieder aufzublähen
-- Endlock der Ausdauerkosten nach weiterem Praxistest
+- Endlock der Re-Einsatz-Eskalation pro Tier
+- Lernpfade je Manoever (z. B. I-III mit Wahlverbesserungen)
