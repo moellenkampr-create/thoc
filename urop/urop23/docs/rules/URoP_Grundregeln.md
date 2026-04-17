@@ -222,123 +222,41 @@ Konsequenzen wirken zuerst fiktional und können zusätzlich:
 erzeugen.
 
 ### 6.4 Konsequenzen nach Domaene [TESTSTAND]
-Konsequenzen sollen zur Art der Faehigkeit passen:
-- Nahkampf/Fernkampf: z. B. **Offen**, Verstauchung, Instabilitaet, Deckung verloren
-- Zauber/Kraefte: z. B. Fokusbruch, Rueckkopplung, kurze Erschoepfung
-- Quickhacks: z. B. Signaturspur/Trace, alarmiertes Ziel, gegenhack-offen
+Konsequenzen sollen zur Art der Faehigkeit passen. Aktuell gefuehrte Domaenen:
+- combat
+- quickhack
+- gear
+- cyberware
+- vehicle
+- environment
+- social
+- mental
+- magic
+- psi (Vorbereitung)
 
-### 6.5 Konsequenzentabellen (leicht/mittel/schwer) [TESTSTAND]
-Die Spielleitung waehlt die passende Konsequenz fiction-first aus der passenden Domaene.
+### 6.5 Trennung: Zustand vs. Konsequenz [GELOCKT / TESTSTAND]
+URoP trennt zwei Ebenen:
+- **Zustaende**: kurzfristig, taktisch, meist in der Szene durch konkrete Aktion aufloesbar
+- **Konsequenzen**: anhaltend, stufenbasiert (short_term / light / heavy / critical), ueber Versorgung, Reparatur oder Downtime abhandelbar
 
-#### 6.5.1 Nahkampf/Fernkampf
-Leicht:
-- **Offen** bis zum naechsten gegnerischen Angriff
-- **Instabil** bis Beginn des naechsten eigenen Zuges
-- kleine Verstauchung: Nachteil auf den naechsten kraftvollen Angriff
+Leitfrage fuer die Spielleitung:
+- Wenn es durch 1 klare Aktion im Kampf aufloesbar ist -> Zustand
+- Wenn es ueber die Szene hinaus Folgen traegt -> Konsequenz
 
-Mittel:
-- deutliche Verstauchung/Zerrung bis Kampfende
-- Deckung verloren oder schlechte Position
-- Reaktion (Parade/Ausweichen) einmal eingeschraenkt
+### 6.6 Abhandlung und Referenz [GELOCKT / ARBEITSSTAND]
+Die vollstaendige Liste mit Abhandlungspfaden steht in den Datenquellen:
+- `data/URoP_Konsequenzen.json` (fuehrend)
+- `docs/data-readable/URoP_Konsequenzen.md` (Lesefassung)
 
-Schwer:
-- starke Verletzung (z. B. Schulter, Knie, Hand) mit Manoever-Ausschluss
-- zu Boden/aus Position und sofortige gegnerische Gelegenheit
-- anhaltender Praezisionsverlust bis Szenenende
-
-#### 6.5.2 Zauber/Kraefte
-Leicht:
-- kurze Erschoepfung (Nachteil auf die naechste passende Probe)
-- Fokusflackern (naechste Kraft/Zauberwirkung reduziert)
-- magisches/psionisches Echo (kurz wahrnehmbar)
-
-Mittel:
-- Fokusbruch (naechste groessere Wirkung nur mit Zusatzaufwand)
-- Rueckkopplung mit Selbstmalus
-- instabile Aura: gegnerische Gegenmassnahmen erleichtert
-
-Schwer:
-- Kontrollverlust-Moment (Teilwirkung fehlgeleitet)
-- deutliche Selbstbelastung mit anhaltendem Malus
-- Wirkkanal beschaedigt: starke Effekte bis Szenenende gesperrt
-
-#### 6.5.3 Quickhacks
-Leicht:
-- **Signaturspur 2** (am Ende eigener Runden jeweils -1)
-- Ziel ist **alarmiert** (erhoehte Wachsamkeit)
-- **gegenhack-offen** bis Beginn des naechsten eigenen Zuges
-
-Mittel:
-- **Signaturspur 3**
-- Position grob bestimmbar
-- naechster Quickhack mit Nachteil oder Zusatzaktion
-
-Schwer:
-- voller Trace: Position bestimmt
-- sofortige Gegenhack-Gelegenheit fuer Gegenseite
-- Sicherheitseskalation (ICE/Alarmstufe), weitere Hacks deutlich erschwert
-
-Hinweis zu Signaturspur:
-Wenn Signaturspur auf 0 faellt, kann ein berechtigter Gegner den Ursprung zuordnen
-oder eine aktive Gegenmassnahme einleiten.
-
-### 6.6 Referenzkarten fuer Spieltests [TESTSTAND]
-Die folgenden Karten sind feste Beispielkonsequenzen fuer direkte Nutzung am Tisch.
-
-#### 6.6.1 Nahkampf/Fernkampf
-1) **Offen** (Leicht)
-- Effekt: Gegner erhalten einen klaren Angriffsvorteil gegen dich.
-- Dauer: bis zum naechsten gegen dich gerichteten Angriff.
-
-2) **Verstauchte Schulter** (Leicht)
-- Effekt: Nachteil auf den naechsten kraftvollen Angriff oder Wurf.
-- Dauer: bis nach dem naechsten eigenen Angriff.
-
-3) **Instabile Haltung** (Mittel)
-- Effekt: Parade/Ausweichen einmal eingeschraenkt.
-- Dauer: bis Ende des naechsten eigenen Zuges.
-
-4) **Deckung verloren** (Mittel)
-- Effekt: Position gilt als ungeschuetzt; Gegnerische Fernkampfangriffe sind erleichtert.
-- Dauer: bis du 1 Aktion in Neu-Positionierung investierst.
-
-#### 6.6.2 Zauber/Kraefte
-5) **Kurze Erschoepfung** (Leicht)
-- Effekt: Nachteil auf die naechste passende Zauber-/Kraftprobe.
-- Dauer: endet nach der naechsten Zauber-/Kraftprobe.
-
-6) **Fokusflackern** (Leicht)
-- Effekt: naechste Zauber-/Kraftwirkung um eine Stufe reduziert.
-- Dauer: bis zur naechsten Nutzung.
-
-7) **Rueckkopplung** (Mittel)
-- Effekt: Selbstmalus auf Kontrolle/Steuerung magischer oder psionischer Effekte.
-- Dauer: bis Ende der Szene oder bis Stabilisierung (1 Aktion).
-
-8) **Wirkkanal-Riss** (Schwer)
-- Effekt: starke Effekte dieser Domaene bis Szenenende gesperrt.
-- Dauer: Szenenende.
-
-#### 6.6.3 Quickhacks
-9) **Signaturspur 2** (Leicht)
-- Effekt: Spur-Timer startet bei 2; am Ende eigener Runden jeweils -1.
-- Dauer: bis 0 oder aktiv entfernt.
-
-10) **Alarmiertes Ziel** (Leicht)
-- Effekt: Ziel erhaelt digitale Warnung und reagiert defensiver.
-- Dauer: bis Szenenende.
-
-11) **Gegenhack-offen** (Mittel)
-- Effekt: gegnerische Hacker erhalten ein klares Fenster fuer Gegenhack.
-- Dauer: bis Beginn des naechsten eigenen Zuges.
-
-12) **Voller Trace** (Schwer)
-- Effekt: Ursprung wird bestimmt; Gegenseite kann sofortige Gegenmassnahme starten.
-- Dauer: unmittelbar ausgeloest, Folgeeffekte bis Szenenende.
+Pfad fuer die Abhandlung am Tisch:
+1. Domäne bestimmen
+2. Stufe waehlen (short_term, light, heavy, critical)
+3. `clear_condition` anwenden
+4. `recovery_track` und Mindestzeit beachten
 
 Spieltest-Hinweis:
-Bei Re-Einsatz limitierter Faehigkeiten erst passende leichte Karte ziehen/waehlen,
-bei weiterem Push auf mittlere und dann schwere Karten eskalieren.
+Bei wiederholtem Push in derselben Szene wird in der Regel ueber die Stufen eskaliert,
+statt denselben leichten Effekt mehrfach zu stapeln.
 
 ---
 
