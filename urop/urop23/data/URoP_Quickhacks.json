@@ -196,7 +196,7 @@
                          "build_cost":  {
                                             "required":  true,
                                             "type":  "number",
-                                            "description":  "Build-Kosten in Entwicklungspunkten (EP) auf Basis von execution_mode und availability."
+                                            "description":  "Build-Kosten in Entwicklungspunkten (EP). Teststand: Quickhacks aktuell pauschal 0 EP."
                                         }
                      },
     "entries":  [
@@ -243,7 +243,7 @@
                                             "Funkstille",
                                             "Ghost-Signatur"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_status_lesen",
@@ -289,7 +289,7 @@
                                             "Read-Only-Sandbox",
                                             "Spoofing"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_sensoren_blenden",
@@ -336,7 +336,7 @@
                                             "manuelle BestÃ¤tigung",
                                             "analoge Sicherung"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_waffe_sperren",
@@ -379,7 +379,7 @@
                                             "offline Modus",
                                             "manueller Override"
                                         ],
-                        "build_cost":  25
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_tuer_freigeben",
@@ -425,7 +425,7 @@
                                             "Mehrfachauthentifizierung",
                                             "lokaler Guard"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_kamera_freundlich",
@@ -471,7 +471,7 @@
                                             "Pattern-Checks",
                                             "lokale KI"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_turret_freundlich",
@@ -518,7 +518,7 @@
                                             "manueller Fire-Control",
                                             "mehrstufige IFF"
                                         ],
-                        "build_cost":  30
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_fahrzeugsicherheit_umgehen",
@@ -563,7 +563,7 @@
                                             "mechanische Sicherung",
                                             "Funkisolierung"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_schloss_freischalten",
@@ -607,7 +607,7 @@
                                             "Harzverguss",
                                             "Sabotagealarm"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_drohne_umflaggen",
@@ -651,7 +651,7 @@
                                             "isolierter Combat Mode",
                                             "manueller Operator"
                                         ],
-                        "build_cost":  30
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_systemschock",
@@ -698,7 +698,7 @@
                                             "Pain Editor",
                                             "isolierter Kampfmodus"
                                         ],
-                        "build_cost":  25
+                        "build_cost":  0
                     },
                     {
                         "id":  "qh_sicherheitsfenster_oeffnen",
@@ -745,21 +745,13 @@
                                             "aktive Gegenueberwachung",
                                             "harte Segmentierung"
                                         ],
-                        "build_cost":  10
+                        "build_cost":  0
                     }
                 ],
     "quickhack_cost_reference":  {
-                                     "mode_base":  {
-                                                       "basis":  10,
-                                                       "manoever":  20,
-                                                       "verlaengerte_probe":  30
-                                                   },
-                                     "availability_modifier":  {
-                                                                   "common":  0,
-                                                                   "uncommon":  5,
-                                                                   "restricted":  10,
-                                                                   "rare":  20
-                                                               }
+                                     "policy":  "temporary_flat_zero",
+                                     "flat_cost":  0,
+                                     "note":  "Quickhacks sind bis zur finalen Kostenrunde pauschal 0 EP."
                                  }
 }
 

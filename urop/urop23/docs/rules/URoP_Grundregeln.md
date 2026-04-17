@@ -141,28 +141,19 @@ Basisraster:
 Leitlinie:
 - Manoever nutzen direkt dieses Raster.
 - Kraefte und Zauber nutzen direkt dieses Raster.
-- Quickhacks nutzen eine abgeleitete Tabelle auf Basis von Ausfuehrungsmodus und Verfuegbarkeit.
+- Quickhacks sind aktuell **nicht bepreist** und werden vorlaeufig als programmierbarer Zugang behandelt.
 
 ### 5.6 Quickhack-Erwerbskosten (EP) [TESTSTAND]
-Quickhacks werden im Build ueber Modus plus Verfuegbarkeit bepreist:
+Quickhacks kosten im Build aktuell **0 EP**.
 
-Grundkosten nach Modus:
-- **basis** = 10 EP
-- **manoever** = 20 EP
-- **verlaengerte_probe** = 30 EP
+Begruendung (vorlaeufig):
+- Quickhacks entstehen ueber Programmierung, Zugriffspfade und Szenen-Setup.
+- Balancing laeuft ueber Plausibilitaet, Zugang, Gegenwehr und Konsequenzen.
+- Eine eigene EP-Bepreisung wird in einem spaeteren Durchlauf neu bewertet.
 
-Aufschlag nach Verfuegbarkeit:
-- **common** = +0 EP
-- **uncommon** = +5 EP
-- **restricted** = +10 EP
-- **rare** = +20 EP
-
-Beispiele:
-- basis/common = 10 EP
-- basis/uncommon = 15 EP
-- manoever/uncommon = 25 EP
-- manoever/restricted = 30 EP
-- verlaengerte_probe/rare = 50 EP
+Praxisregel bis dahin:
+- Quickhack im Blatt eintragen: **0 EP**.
+- Kein Cyberdeck oder kein passender Zugriffspfad: kein Quickhack-Einsatz.
 
 ### 5.7 Beispielkosten fuer Kraefte und Zauber [TESTSTAND]
 Bis eigene Datenbloecke fuer Magie/Psi vorliegen, gilt diese Referenz:

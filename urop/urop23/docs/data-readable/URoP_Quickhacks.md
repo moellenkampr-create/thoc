@@ -245,38 +245,27 @@ Der aktuelle JSON-Bestand führt unter anderem:
 Diese Liste ist eine **erste Arbeitsbasis**, kein vollständiger Katalog.
 
 ## 10.1 Erwerbskosten (EP) [TESTSTAND]
-Quickhacks werden beim Build ueber Modus plus Verfuegbarkeit bepreist.
+Quickhacks sind im Build aktuell **nicht bepreist**.
 
-Grundkosten nach Ausfuehrungsmodus:
-- `basis` = 10 EP
-- `manoever` = 20 EP
-- `verlaengerte_probe` = 30 EP
+Vorlaeufige Regel:
+- Jeder Quickhack wird mit **0 EP** eingetragen.
+- Balancing erfolgt ueber Zugang, Gegenwehr, Risiko und Konsequenzen.
+- Die EP-Logik fuer Quickhacks wird spaeter separat entschieden.
 
-Aufschlag nach Verfuegbarkeit:
-- `common` = +0 EP
-- `uncommon` = +5 EP
-- `restricted` = +10 EP
-- `rare` = +20 EP
-
-Beispielrechnung:
-- `basis/common` = 10 EP
-- `manoever/uncommon` = 25 EP
-- `manoever/restricted` = 30 EP
-- `verlaengerte_probe/rare` = 50 EP
-
-## 10.2 Beispielkosten der Referenzhacks [TESTSTAND]
-- `Scan & Markieren` (basis/common) = **10 EP**
-- `Status lesen` (basis/common) = **10 EP**
-- `Sensoren blenden` (basis/common) = **10 EP**
-- `Waffe sperren` (manoever/uncommon) = **25 EP**
-- `Tür freigeben` (basis/common) = **10 EP**
-- `Kamera auf freundlich` (basis/common) = **10 EP**
-- `Autoturret auf freundlich` (manoever/restricted) = **30 EP**
-- `Fahrzeugsicherheit umgehen` (basis/common) = **10 EP**
-- `Sicherheitsschloss freischalten` (basis/common) = **10 EP**
-- `Drohne umflaggen` (manoever/restricted) = **30 EP**
-- `Systemschock` (manoever/uncommon) = **25 EP**
-- `Sicherheitsfenster öffnen` (basis/common) = **10 EP**
+## 10.2 Kosten der Referenzhacks [TESTSTAND]
+Bis zur finalen Kostenrunde gilt fuer alle Referenzhacks:
+- `Scan & Markieren` = **0 EP**
+- `Status lesen` = **0 EP**
+- `Sensoren blenden` = **0 EP**
+- `Waffe sperren` = **0 EP**
+- `Tür freigeben` = **0 EP**
+- `Kamera auf freundlich` = **0 EP**
+- `Autoturret auf freundlich` = **0 EP**
+- `Fahrzeugsicherheit umgehen` = **0 EP**
+- `Sicherheitsschloss freischalten` = **0 EP**
+- `Drohne umflaggen` = **0 EP**
+- `Systemschock` = **0 EP**
+- `Sicherheitsfenster öffnen` = **0 EP**
 
 ---
 
