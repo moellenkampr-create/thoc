@@ -136,7 +136,8 @@ Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft:
 Diese Tabelle ist aktuell mit `tier_cost_reference` in der JSON synchronisiert.
 
 ### 6.2 Einsatzfenster
-Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster:
+Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster.
+Diese Information wird jetzt in der JSON je Eintrag ueber `usage_window` gefuehrt:
 - **beliebig** (nur bei kleinen Effekten)
 - **1x pro Kampf**
 - **1x pro Szene**
@@ -154,6 +155,11 @@ Standardleiter fuer Manoever mit **1x pro Kampf** oder **1x pro Szene**:
 - 2. Einsatz: leichte Konsequenz
 - 3. Einsatz: mittlere Konsequenz plus optional erhoehtes Risiko
 - 4. Einsatz: schwere Konsequenz oder Sperre bis Szenenende
+
+Die JSON fuehrt das je Eintrag ueber `reuse_escalation_profile`:
+- `none`
+- `standard_conflict`
+- `strict_scene`
 
 Leitlinie:
 - 1x pro Kampf darf tendenziell etwas milder eskalieren.
