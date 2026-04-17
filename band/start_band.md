@@ -87,5 +87,14 @@ Standard: **INTERPRETATION**
 
 ---
 
-## 10. Versionierung
+## 10. Persistente Banddefaults
+- Lyrics standardmaessig auf Deutsch, Englisch nur auf Anforderung
+- THoC = Three Hearts of Chrome
+- Kernbesetzung: George, Ely, Lauri
+- Suno-Ausgaben in drei getrennten Teilen: Lyrics, Style, Avoided Styles
+- Stilkern: emotional
+- Wiedererkennungswert ueber 80s-Metal-DNA, klare Stimmenrollen und wiederkehrende Motivik
+- Produktionsdetails und Suno-Defaults in `band/production_notes.md`
+
+## 11. Versionierung
 Änderungen erfolgen nach musikalischer Prüfung.
