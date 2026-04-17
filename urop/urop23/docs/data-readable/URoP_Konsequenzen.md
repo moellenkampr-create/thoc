@@ -78,7 +78,10 @@ Faustregel:
 - `critical`: **Kritisches Trauma**
 
 ### 5.2 Gear
+- `short_term`: **Ausrichtung verrutscht**
 - `light`: **Waffe beschaedigt**
+- `heavy`: **Primaerausruestung ausgefallen**
+- `critical`: **Katastrophaler Ausruestungsbruch**
 
 ### 5.3 Quickhack
 - `short_term`: **Signaturflare**
@@ -117,10 +120,16 @@ Faustregel:
 - `critical`: **Sozial geaechtet**
 
 ### 5.9 Magic
+- `short_term`: **Fokusflimmern**
+- `light`: **Arkaner Ausbrennimpuls**
 - `heavy`: **Resonanz-Rueckschlag**
+- `critical`: **Wirkkanal-Riss**
 
 ### 5.10 Psi
-- vorbereitet, derzeit noch ohne konkrete Eintraege
+- `short_term`: **Mentales Echo**
+- `light`: **Synaptische Ueberdehnung**
+- `heavy`: **Psi-Rueckkopplung**
+- `critical`: **Psi-Identitaetsbruch**
 
 ## 6. Recovery-Track Referenz [TESTSTAND]
 - `auto_end_of_exchange`: endet innerhalb der laufenden Austauschfolge
@@ -133,6 +142,5 @@ Faustregel:
 - `long_recovery`: laengerer Erholungsbogen, oft mehrere Szenen
 
 ## 7. Noch offen
-- Gear um `short_term/heavy/critical` ergaenzen
-- Magic und Psi auf volle 4-Stufen-Matrix bringen
 - optionale SL-Karten aus den JSON-Eintraegen automatisch ableiten
+- Spieltest-Balancing fuer neue Gear/Magic/Psi-Eintraege (Dauer, Recovery, Sperren)

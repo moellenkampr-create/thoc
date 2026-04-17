@@ -1,4 +1,4 @@
-{
+﻿{
   "schema_version": "2026-04-17_v2",
   "type": "state_and_consequence_list",
   "authoritative_note": "Fuehrende Datenquelle fuer kurzfristige Zustaende und anhaltende Konsequenzen. JSON ist die fuehrende Datenbasis, MD wird spaeter als Lesefassung abgeleitet.",
@@ -88,7 +88,7 @@
       "name": "Offen",
       "kind": "state",
       "domain": "combat",
-      "description": "Du bist kurzzeitig ungedeckt oder ungünstig ausgerichtet und gibst eine klare Angriffschance.",
+      "description": "Du bist kurzzeitig ungedeckt oder ungÃ¼nstig ausgerichtet und gibst eine klare Angriffschance.",
       "mechanical_effect": "Gegnerische Angriffe gegen dich sind deutlich erleichtert.",
       "clear_condition": "Endet nach dem naechsten gegen dich gerichteten Angriff oder durch sofortige Deckungsaktion.",
       "default_duration": "Kurzfristig, meist bis zur naechsten gegnerischen Aktion.",
@@ -259,7 +259,7 @@
       "clear_condition": "Sofortige Stabilisierung, dann Notfallmedizin; ohne beides Eskalation.",
       "default_duration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Critical injury tracks aus Cyberpunk und gritty militärischen Hausregeln.",
+      "source_examples": "Critical injury tracks aus Cyberpunk und gritty militÃ¤rischen Hausregeln.",
       "severity": "critical",
       "overflow_to": "",
       "treatment_required": true,
@@ -270,6 +270,25 @@
         "komplexe_probe"
       ],
       "can_downgrade": "Nur durch sofortige Stabilisierung und anschliessende medizinische Versorgung."
+    },
+    {
+      "id": "con_gear_brief_misalignment",
+      "name": "Ausrichtung verrutscht",
+      "kind": "consequence",
+      "domain": "gear",
+      "description": "Eine Ausruestungskomponente sitzt kurzfristig nicht sauber und stoert den naechsten Einsatz.",
+      "mechanical_effect": "Die naechste ausruestungsgebundene Aktion ist erschwert.",
+      "clear_condition": "Kurz nachjustieren, nachziehen oder neu greifen.",
+      "default_duration": "Kurzfristig.",
+      "stacking": "replace",
+      "source_examples": "Minor gear setbacks in tactical systems.",
+      "severity": "short_term",
+      "overflow_to": "light",
+      "treatment_required": false,
+      "recovery_track": "auto_end_of_exchange",
+      "minimum_recovery_time": "Bis zur naechsten ruhigen Handlungssekunde.",
+      "blocks_actions": [],
+      "can_downgrade": ""
     },
     {
       "id": "con_weapon_damaged",
@@ -293,6 +312,49 @@
       "can_downgrade": "Ja, per provisorischer Reparatur."
     },
     {
+      "id": "con_gear_primary_failure",
+      "name": "Primaerausruestung ausgefallen",
+      "kind": "consequence",
+      "domain": "gear",
+      "description": "Die zentrale Ausruestungskomponente der Szene faellt teilweise oder vollstaendig aus.",
+      "mechanical_effect": "Kernaktionen mit dieser Ausruestung sind stark eingeschraenkt oder unmoeglich.",
+      "clear_condition": "Feldinstandsetzung mit Ersatzteilen oder Wechsel auf Reserve.",
+      "default_duration": "Schwer.",
+      "stacking": "replace",
+      "source_examples": "Major gear breakage in gritty modern combat rules.",
+      "severity": "heavy",
+      "overflow_to": "critical",
+      "treatment_required": true,
+      "recovery_track": "repair",
+      "minimum_recovery_time": "Mindestens bis nach einer technischen Instandsetzung ausserhalb direkter Bedrohung.",
+      "blocks_actions": [
+        "kerneinsatz_der_ausruestung",
+        "spezialfunktion_nutzen"
+      ],
+      "can_downgrade": "Ja, nach erfolgreicher Feldreparatur auf light."
+    },
+    {
+      "id": "con_gear_catastrophic_break",
+      "name": "Katastrophaler Ausruestungsbruch",
+      "kind": "consequence",
+      "domain": "gear",
+      "description": "Die Ausruestung ist so stark beschaedigt, dass sichere Nutzung nicht mehr moeglich ist.",
+      "mechanical_effect": "Die betroffene Ausruestung kann in der laufenden Szene nicht sinnvoll eingesetzt werden.",
+      "clear_condition": "Ausserbetriebnahme, Ersatzbeschaffung oder umfangreiche Werkstattreparatur.",
+      "default_duration": "Kritisch.",
+      "stacking": "none",
+      "source_examples": "Catastrophic item failure in simulationist equipment tracks.",
+      "severity": "critical",
+      "overflow_to": "",
+      "treatment_required": true,
+      "recovery_track": "long_recovery",
+      "minimum_recovery_time": "Nicht in derselben Szene voll behebbar.",
+      "blocks_actions": [
+        "einsatz_der_betroffenen_ausruestung"
+      ],
+      "can_downgrade": "Nur durch Austausch oder umfassende Reparatur."
+    },
+    {
       "id": "con_trace_confirmed",
       "name": "Trace bestaetigt (Identitaet kompromittiert)",
       "kind": "consequence",
@@ -312,6 +374,46 @@
         "offener_wiederholungshack"
       ],
       "can_downgrade": "Ja, auf light nach erfolgreicher Spurverwischung."
+    },
+    {
+      "id": "con_magic_focus_flicker",
+      "name": "Fokusflimmern",
+      "kind": "consequence",
+      "domain": "magic",
+      "description": "Der Wirkkanal flackert kurz und reagiert fuer einen Moment unpraezise.",
+      "mechanical_effect": "Die naechste magische Aktion ist in Wirkung oder Kontrolle leicht eingeschraenkt.",
+      "clear_condition": "Kurze Sammlung und Neuansatz des Fokus.",
+      "default_duration": "Kurzfristig.",
+      "stacking": "replace",
+      "source_examples": "Minor casting instability in arcane systems.",
+      "severity": "short_term",
+      "overflow_to": "light",
+      "treatment_required": false,
+      "recovery_track": "auto_end_of_exchange",
+      "minimum_recovery_time": "Bis nach kurzer Neukonzentration.",
+      "blocks_actions": [],
+      "can_downgrade": ""
+    },
+    {
+      "id": "con_magic_drain",
+      "name": "Arkaner Ausbrennimpuls",
+      "kind": "consequence",
+      "domain": "magic",
+      "description": "Magische Ueberanstrengung trifft Kreislauf und Konzentration spuerbar.",
+      "mechanical_effect": "Folgezauber und konzentrierte Effektsteuerung sind erschwert.",
+      "clear_condition": "Kurze Erholung, Atmung und geordneter Neuaufbau des Fokus.",
+      "default_duration": "Leicht.",
+      "stacking": "accumulate",
+      "source_examples": "Drain-like pressure from Shadowrun-style traditions.",
+      "severity": "light",
+      "overflow_to": "heavy",
+      "treatment_required": true,
+      "recovery_track": "stabilization",
+      "minimum_recovery_time": "Mindestens bis nach einer aktiven Ruhephase.",
+      "blocks_actions": [
+        "mehrfacher_starkzauber"
+      ],
+      "can_downgrade": "Ja, nach Stabilisierung auf short_term."
     },
     {
       "id": "con_aura_backlash",
@@ -334,6 +436,112 @@
         "starke_psi_wirkung"
       ],
       "can_downgrade": "Ja, nach Stabilisierung auf light reduzierbar."
+    },
+    {
+      "id": "con_magic_channel_burn",
+      "name": "Wirkkanal-Riss",
+      "kind": "consequence",
+      "domain": "magic",
+      "description": "Der magische Kanal ist kritisch ueberlastet und reisst strukturell auf.",
+      "mechanical_effect": "Starke oder komplexe Zauber sind bis zur Wiederherstellung gesperrt.",
+      "clear_condition": "Sofortige Entlastung, Schutzmassnahme und laengerer Wiederaufbau in Downtime.",
+      "default_duration": "Kritisch.",
+      "stacking": "none",
+      "source_examples": "Critical spell backlash in high-risk magic frameworks.",
+      "severity": "critical",
+      "overflow_to": "",
+      "treatment_required": true,
+      "recovery_track": "long_recovery",
+      "minimum_recovery_time": "Mindestens bis nach einem vollwertigen Regenerationsfenster.",
+      "blocks_actions": [
+        "starker_zauber",
+        "ritualwirkung"
+      ],
+      "can_downgrade": "Nur durch erfolgreiche Stabilisierung und Ruhephase."
+    },
+    {
+      "id": "con_psi_mental_echo",
+      "name": "Mentales Echo",
+      "kind": "consequence",
+      "domain": "psi",
+      "description": "Ein psionischer Nachhall stoert kurz die innere Ausrichtung.",
+      "mechanical_effect": "Die naechste psi-bezogene Handlung ist leicht erschwert.",
+      "clear_condition": "Kurze Fokussierung und Abschirmung stoerender Reize.",
+      "default_duration": "Kurzfristig.",
+      "stacking": "replace",
+      "source_examples": "Psychic feedback flickers in psionics subsystems.",
+      "severity": "short_term",
+      "overflow_to": "light",
+      "treatment_required": false,
+      "recovery_track": "auto_end_of_exchange",
+      "minimum_recovery_time": "Bis nach einem ruhigen Fokusmoment.",
+      "blocks_actions": [],
+      "can_downgrade": ""
+    },
+    {
+      "id": "con_psi_synaptic_strain",
+      "name": "Synaptische Ueberdehnung",
+      "kind": "consequence",
+      "domain": "psi",
+      "description": "Neurale Belastung durch psionischen Druck fuehrt zu Kopf- und Konzentrationsproblemen.",
+      "mechanical_effect": "Feine psi-Kontrolle und Mehrfachnutzung sind erschwert.",
+      "clear_condition": "Ruhe, Reizreduktion und kontrollierter Neuansatz.",
+      "default_duration": "Leicht.",
+      "stacking": "accumulate",
+      "source_examples": "Psionic fatigue in classic psi rulesets.",
+      "severity": "light",
+      "overflow_to": "heavy",
+      "treatment_required": true,
+      "recovery_track": "stabilization",
+      "minimum_recovery_time": "Mindestens bis nach aktiver Entlastung.",
+      "blocks_actions": [
+        "praezise_psi_steuerung"
+      ],
+      "can_downgrade": "Ja, nach Stabilisierung auf short_term."
+    },
+    {
+      "id": "con_psi_feedback_spike",
+      "name": "Psi-Rueckkopplung",
+      "kind": "consequence",
+      "domain": "psi",
+      "description": "Ein harter Rueckschlag aus dem Ziel- oder Umgebungsfeld trifft den Geist direkt.",
+      "mechanical_effect": "Kraeftige psi-Wirkungen sind stark eingeschraenkt und riskant.",
+      "clear_condition": "Sofortige Abschirmung, Stabilisierung und gefuehrte mentale Rezentrierung.",
+      "default_duration": "Schwer.",
+      "stacking": "replace",
+      "source_examples": "Psionic backlash and overchannel risks.",
+      "severity": "heavy",
+      "overflow_to": "critical",
+      "treatment_required": true,
+      "recovery_track": "medical_care",
+      "minimum_recovery_time": "Mindestens bis nach professioneller Stabilisierung.",
+      "blocks_actions": [
+        "starke_psi_wirkung",
+        "mentale_duelltechnik"
+      ],
+      "can_downgrade": "Ja, nach erfolgreicher Stabilisierung auf light."
+    },
+    {
+      "id": "con_psi_identity_fracture",
+      "name": "Psi-Identitaetsbruch",
+      "kind": "consequence",
+      "domain": "psi",
+      "description": "Kritische psionische Ueberlast fragmentiert Wahrnehmung und Selbststeuerung.",
+      "mechanical_effect": "Verlaessliche psi-Anwendung ist nicht moeglich; mentale Integritaet ist akut gefaehrdet.",
+      "clear_condition": "Sofortige Unterbrechung, Schutzumgebung und laengerfristige neurologische/psychische Nachversorgung.",
+      "default_duration": "Kritisch.",
+      "stacking": "none",
+      "source_examples": "Catastrophic overchannel outcomes in hard-psi designs.",
+      "severity": "critical",
+      "overflow_to": "",
+      "treatment_required": true,
+      "recovery_track": "long_recovery",
+      "minimum_recovery_time": "Nicht in derselben Szene voll aufloesbar.",
+      "blocks_actions": [
+        "zuverlaessige_psi_nutzung",
+        "komplexe_mentale_koordination"
+      ],
+      "can_downgrade": "Nur nach stabilisierter Langzeitbehandlung."
     },
     {
       "id": "con_public_disgrace",
@@ -569,7 +777,7 @@
       "name": "Panikspirale",
       "kind": "consequence",
       "domain": "mental",
-      "description": "Stressreaktionen verstärken sich gegenseitig und reißen Handlungskontrolle auf.",
+      "description": "Stressreaktionen verstÃ¤rken sich gegenseitig und reiÃŸen Handlungskontrolle auf.",
       "mechanical_effect": "Geordnete taktische Aktionen sind stark eingeschraenkt.",
       "clear_condition": "Aktive Beruhigung, Schutzraum und gegebenenfalls medikamentoese Unterstuetzung.",
       "default_duration": "Schwer.",
@@ -656,7 +864,7 @@
       "domain": "social",
       "description": "Die Figur ist in einem relevanten Umfeld offen markiert und wird aktiv ausgeschlossen.",
       "mechanical_effect": "Zugang zu Ressourcen, Schutz und diplomatischen Kanaelen bricht weitgehend weg.",
-      "clear_condition": "Große Wiedergutmachung, Machtwechsel oder radikaler Milieuwechsel.",
+      "clear_condition": "GroÃŸe Wiedergutmachung, Machtwechsel oder radikaler Milieuwechsel.",
       "default_duration": "Kritisch.",
       "stacking": "none",
       "source_examples": "Exile/disgrace outcomes in Song of Ice and Fire style politics.",

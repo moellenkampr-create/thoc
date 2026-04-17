@@ -232,7 +232,7 @@ Konsequenzen sollen zur Art der Faehigkeit passen. Aktuell gefuehrte Domaenen:
 - social
 - mental
 - magic
-- psi (Vorbereitung)
+- psi
 
 ### 6.5 Trennung: Zustand vs. Konsequenz [GELOCKT / TESTSTAND]
 URoP trennt zwei Ebenen:
