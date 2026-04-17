@@ -25,9 +25,40 @@ URoP arbeitet im Basiskern mit drei Hauptattributen:
 ### 2.1 Bedeutung [GELOCKT]
 - **Körper** = Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung
 - **Geist** = Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung
-- **Präsenz** = Wirkung, Ausdruck, Einfluss, soziale Durchsetzung
+- **Präsenz** = Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung
 
-### 2.2 Wertebereich [TESTSTAND]
+### 2.2 Attribut-Facetten [TESTSTAND]
+Jedes Attribut ist in vier Facetten unterteilt. Facetten sind keine eigenständigen Attribute, sondern Stellschrauben für Risiko, Auswirkungen und Zustandsdauer in passenden Situationen. Sie können als Vorteil/Nachteil in Stufen 1–3 gehalten werden.
+
+#### Körper-Facetten
+- **Stärke**: rohe Kraft, Hebeln, Tragen, Wucht
+- **Grobmotorik**: große Bewegungskoordination, Sprint, Sprung, Nahkampf-Flow
+- **Feinmotorik**: Präzision, Fingerarbeit, ruhige Hand, feine Werkzeugführung
+- **Konstitution**: Belastbarkeit, Erschöpfungsresistenz, Schmerz- und Toxintoleranz
+
+#### Geist-Facetten
+- **Analyse**: Muster erkennen, Logik, taktische Bewertung, Schlussfolgerung
+- **Willenskraft**: mentale Standfestigkeit, Selbstkontrolle, Stressresistenz, innerer Gegendruck
+- **Aufmerksamkeit**: Wahrnehmung, Fokus halten, Reizfilter, situatives Lesen
+- **Intuition**: schnelle Urteile, Bauchentscheidungen, Lagegefühl, Sinnesintegration
+
+#### Präsenz-Facetten
+- **Ausdruck**: Absicht und Wirkung nach außen tragen, klar kommunizieren, auftreten
+- **Empathie**: Stimmungen und Motive lesen, soziales Feingehör, resonantes Verstehen
+- **Dominanz**: Macht projizieren, Grenzen setzen, eigenen Willen gegen Widerstand behaupten
+- **Resonanz**: Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und übernatürlichen Feldern; die Qualität des eigenen Signals in der Welt
+
+#### Facetten-Wirkung im Spiel (Grundmodul)
+Facetten beeinflussen keine Würfelwürfe direkt, sondern die Verteilung von Nebenfolgen:
+- **Passende Facette hoch (+2/+3)**: geringeres Risiko, mildere Nebenfolge, kürzere Zustandsdauer
+- **Passende Facette niedrig (-2/-3)**: erhöhtes Risiko, schärfere Nebenfolge, längere Zustandsdauer
+- **Neutrale Facette (0/±1)**: kein Einfluss; Standard greift
+
+Beispiel Konstitution:
+- Konstitution +2: körpernaher Treffer führt eher zu leichter statt schwerer Konsequenz; Erschöpfung tritt später ein
+- Konstitution -2: gleiche Lage führt schneller zu Erschöpft/Instabil oder höherer Konsequenz
+
+### 2.3 Wertebereich [TESTSTAND]
 - aktueller Arbeitsbereich: **0 bis 6**
 - Referenz: **2 = Durchschnitt**
 
