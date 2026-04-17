@@ -1,0 +1,360 @@
+{
+  "schema_version": "2026-04-17_v1",
+  "type": "state_and_consequence_list",
+  "authoritative_note": "Fuehrende Datenquelle fuer kurzfristige Zustaende und anhaltende Konsequenzen. JSON ist die fuehrende Datenbasis, MD wird spaeter als Lesefassung abgeleitet.",
+  "design_notes": [
+    "URoP trennt taktische Zustaende (schnell wechselnd, in der Szene) von Konsequenzen (anhaltend, stufenbasiert).",
+    "Beide Listen teilen sich einen Feldkern, nutzen aber unterschiedliche Pflichtfelder fuer Abhandlung und Erholung.",
+    "Konsequenzen laufen ueber vier Stufen: short_term, light, heavy, critical.",
+    "Inspiration fuer Kampf- und Zustandsdenken: Shadowrun, GURPS, Cyberpunk RED, Green Ronin Song of Ice and Fire Roleplaying."
+  ],
+  "enums": {
+    "kind": [
+      "state",
+      "consequence"
+    ],
+    "domain": [
+      "combat",
+      "magic",
+      "psi",
+      "quickhack",
+      "cyberware",
+      "gear",
+      "vehicle",
+      "social",
+      "mental",
+      "environment"
+    ],
+    "severity": [
+      "short_term",
+      "light",
+      "heavy",
+      "critical"
+    ],
+    "action_cost": [
+      "none",
+      "free",
+      "minor",
+      "major",
+      "full_turn"
+    ],
+    "act_capability": [
+      "full",
+      "limited",
+      "none"
+    ],
+    "recovery_track": [
+      "auto_end_of_exchange",
+      "auto_end_of_scene",
+      "first_aid",
+      "stabilization",
+      "medical_care",
+      "repair",
+      "downtime",
+      "long_recovery"
+    ]
+  },
+  "shared_field_schema": {
+    "id": "Stabile interne Kennung",
+    "name": "Anzeigename",
+    "kind": "state oder consequence",
+    "domain": "Regelbereich, in dem der Eintrag primaer verwendet wird",
+    "description": "Fiction-first Bedeutung in Lesesprache",
+    "mechanical_effect": "Klare mechanische Auswirkung am Tisch",
+    "clear_condition": "Wie der Eintrag abgehandelt oder beendet wird",
+    "default_duration": "Typische Dauer ohne Sonderregeln",
+    "stacking": "none, replace, accumulate; als Kurztext",
+    "source_examples": "Kurze Quellenhinweise aus Vorbildsystemen"
+  },
+  "state_field_schema": {
+    "action_to_clear": "Konkrete Aktion, die den Zustand beendet",
+    "action_cost": "none, free, minor, major, full_turn",
+    "can_act_while_active": "full, limited oder none",
+    "expires_automatically": "true/false",
+    "upgrades_to_consequence": "Optionale Folgekonsequenz bei Nichtbeachtung"
+  },
+  "consequence_field_schema": {
+    "severity": "short_term, light, heavy oder critical",
+    "overflow_to": "Naechste Stufe bei vollem Slot oder Eskalation",
+    "treatment_required": "true/false",
+    "recovery_track": "Primarer Erholungspfad",
+    "minimum_recovery_time": "Mindestdauer als Klartext",
+    "blocks_actions": "Optionale Liste gesperrter Aktionen/Faehigkeiten",
+    "can_downgrade": "Optionale Angabe, ob in niedrigere Stufe ueberfuehrbar"
+  },
+  "states": [
+    {
+      "id": "st_open",
+      "name": "Offen",
+      "kind": "state",
+      "domain": "combat",
+      "description": "Du bist kurzzeitig ungedeckt oder ungünstig ausgerichtet und gibst eine klare Angriffschance.",
+      "mechanical_effect": "Gegnerische Angriffe gegen dich sind deutlich erleichtert.",
+      "clear_condition": "Endet nach dem naechsten gegen dich gerichteten Angriff oder durch sofortige Deckungsaktion.",
+      "default_duration": "Kurzfristig, meist bis zur naechsten gegnerischen Aktion.",
+      "stacking": "replace",
+      "source_examples": "Aehnlich zu vulnerable/opening states in taktischen Systemen.",
+      "action_to_clear": "Deckung suchen oder Distanz neu aufbauen",
+      "action_cost": "minor",
+      "can_act_while_active": "full",
+      "expires_automatically": true,
+      "upgrades_to_consequence": ""
+    },
+    {
+      "id": "st_prone",
+      "name": "Liegend",
+      "kind": "state",
+      "domain": "combat",
+      "description": "Du liegst am Boden und hast schlechtere Mobilitaet und Winkel.",
+      "mechanical_effect": "Bewegung stark eingeschraenkt; viele Angriffe und Reaktionen sind erschwert.",
+      "clear_condition": "Aufstehen als Aktion. Beim Aufstehen giltst du bis zum Ende der Aktion als Offen.",
+      "default_duration": "Bis aktive Aufstehaktion oder fremde Hilfe.",
+      "stacking": "none",
+      "source_examples": "Prone/Lying states in vielen Kampfregeln, u. a. GURPS.",
+      "action_to_clear": "Aufstehen",
+      "action_cost": "major",
+      "can_act_while_active": "limited",
+      "expires_automatically": false,
+      "upgrades_to_consequence": ""
+    },
+    {
+      "id": "st_dropped_weapon",
+      "name": "Waffe verloren",
+      "kind": "state",
+      "domain": "gear",
+      "description": "Die aktive Waffe wurde fallen gelassen, entwaffnet oder ist ausser Reichweite.",
+      "mechanical_effect": "Keine Nutzung der verlorenen Waffe bis Wiederaufnahme; Nahkampf ohne passende Reserve eingeschraenkt.",
+      "clear_condition": "Waffe aufnehmen oder auf Ersatzwaffe wechseln.",
+      "default_duration": "Bis Aufnahme oder Wechsel.",
+      "stacking": "replace",
+      "source_examples": "Disarm outcomes in Shadowrun und Song of Ice and Fire Roleplaying.",
+      "action_to_clear": "Aufheben oder Ziehen einer Ersatzwaffe",
+      "action_cost": "minor",
+      "can_act_while_active": "limited",
+      "expires_automatically": false,
+      "upgrades_to_consequence": "con_gear_lost_primary"
+    },
+    {
+      "id": "st_firearm_jam",
+      "name": "Schusswaffe klemmt",
+      "kind": "state",
+      "domain": "gear",
+      "description": "Die Schusswaffe hat eine Lade- oder Auswurfstoerung und feuert nicht sauber.",
+      "mechanical_effect": "Mit der betroffenen Waffe keine Angriffe moeglich.",
+      "clear_condition": "Stoerung beheben per Freimachaktion; bei Fehlschlag bleibt der Zustand bestehen.",
+      "default_duration": "Bis Freimachaktion oder Waffenwechsel.",
+      "stacking": "none",
+      "source_examples": "Weapon jam/malfunction Konzepte in GURPS Tactical Shooting und Hausregeln vieler Systeme.",
+      "action_to_clear": "Klemmer freimachen",
+      "action_cost": "major",
+      "can_act_while_active": "limited",
+      "expires_automatically": false,
+      "upgrades_to_consequence": "con_weapon_damaged"
+    },
+    {
+      "id": "st_string_snapped",
+      "name": "Bogensehne gerissen",
+      "kind": "state",
+      "domain": "gear",
+      "description": "Die Fernkampfwaffe ist akut nicht einsatzbereit, weil die Sehne gerissen ist.",
+      "mechanical_effect": "Bogenangriffe unmoeglich, bis Material ersetzt und neu gespannt wurde.",
+      "clear_condition": "Sehne ersetzen und Bogen neu spannen ausserhalb direkter Bedrohung.",
+      "default_duration": "Haelt oft bis Szenenende an.",
+      "stacking": "none",
+      "source_examples": "Equipment breakage in gritty combat frameworks.",
+      "action_to_clear": "Neue Sehne anbringen",
+      "action_cost": "full_turn",
+      "can_act_while_active": "limited",
+      "expires_automatically": false,
+      "upgrades_to_consequence": "con_weapon_damaged"
+    },
+    {
+      "id": "st_alerted",
+      "name": "Alarmiert",
+      "kind": "state",
+      "domain": "quickhack",
+      "description": "Ein Ziel oder System ist aufmerksam und sucht aktiv nach weiterer Stoerung.",
+      "mechanical_effect": "Folgeaktionen mit verdeckter Methode sind erschwert; Gegenmassnahmen wahrscheinlicher.",
+      "clear_condition": "Ablenkung, Zeitablauf oder Lagewechsel, der den Verdacht plausibel abbaut.",
+      "default_duration": "Bis Szenenende oder glaubwuerdige Beruhigung.",
+      "stacking": "replace",
+      "source_examples": "Alert states in stealth/hacking loops von Cyberpunk und Shadowrun.",
+      "action_to_clear": "Deckung der Signatur und Lageberuhigung",
+      "action_cost": "major",
+      "can_act_while_active": "full",
+      "expires_automatically": false,
+      "upgrades_to_consequence": "con_trace_confirmed"
+    }
+  ],
+  "consequences": [
+    {
+      "id": "con_brief_sting",
+      "name": "Kurzfristige Blessur",
+      "kind": "consequence",
+      "domain": "combat",
+      "description": "Ein kurzer Schmerz- oder Schreckimpuls beeintraechtigt dich nur voruebergehend.",
+      "mechanical_effect": "Nimmt auf die naechste passende Aktion moderaten Druck; danach endet der Effekt.",
+      "clear_condition": "Automatisch nach dem naechsten eigenen Zug oder spaetestens am Szenenende.",
+      "default_duration": "Kurzfristig.",
+      "stacking": "replace",
+      "source_examples": "Minor setback Konzepte in narrativen Kampfregeln.",
+      "severity": "short_term",
+      "overflow_to": "light",
+      "treatment_required": false,
+      "recovery_track": "auto_end_of_scene",
+      "minimum_recovery_time": "Bis naechster eigener Zug oder Szenenende.",
+      "blocks_actions": [],
+      "can_downgrade": ""
+    },
+    {
+      "id": "con_sprain",
+      "name": "Verstauchung",
+      "kind": "consequence",
+      "domain": "combat",
+      "description": "Gelenk oder Sehne ist ueberzogen; Bewegungen bleiben moeglich, aber instabil und schmerzhaft.",
+      "mechanical_effect": "Passende Bewegungs- oder Kraftaktionen sind erschwert, bis Erstversorgung erfolgt.",
+      "clear_condition": "Erstversorgung oder Schonung bis Szenenende; danach Herabstufung auf kurzfristig.",
+      "default_duration": "Leicht.",
+      "stacking": "accumulate",
+      "source_examples": "Sprain/strain als leichte Verletzung in GURPS und Song of Ice and Fire Roleplaying.",
+      "severity": "light",
+      "overflow_to": "heavy",
+      "treatment_required": true,
+      "recovery_track": "first_aid",
+      "minimum_recovery_time": "Mindestens eine Versorgungsaktion, vollstaendige Erholung meist nach Ruhephase.",
+      "blocks_actions": [
+        "hohe_sprintbelastung"
+      ],
+      "can_downgrade": "Ja, nach Erstversorgung zu short_term moeglich."
+    },
+    {
+      "id": "con_broken_arm",
+      "name": "Gebrochener Arm",
+      "kind": "consequence",
+      "domain": "combat",
+      "description": "Ein Arm ist strukturell verletzt und fuer praezise oder kraftvolle Nutzung unzuverlaessig.",
+      "mechanical_effect": "Zweihandaktionen und schwere Armnutzung sind gesperrt oder stark eingeschraenkt.",
+      "clear_condition": "Stabilisierung in der Szene, danach medizinische Versorgung und Downtime.",
+      "default_duration": "Schwer.",
+      "stacking": "replace",
+      "source_examples": "Major wound Folgen in gritty combat systemen inkl. Green Ronin SIFRP.",
+      "severity": "heavy",
+      "overflow_to": "critical",
+      "treatment_required": true,
+      "recovery_track": "medical_care",
+      "minimum_recovery_time": "Mehrere Tage bis Wochen je nach Versorgung und Technologie.",
+      "blocks_actions": [
+        "zweihand_angriff",
+        "schwere_kletteraktion"
+      ],
+      "can_downgrade": "Ja, nach erfolgreicher Stabilisierung auf light reduzierbar, volle Heilung nur ueber Downtime."
+    },
+    {
+      "id": "con_internal_trauma",
+      "name": "Kritisches Trauma",
+      "kind": "consequence",
+      "domain": "combat",
+      "description": "Lebensgefaehrliche oder systemisch destabilierende Verletzung mit akuter Ausfallgefahr.",
+      "mechanical_effect": "Handlungsfaehigkeit massiv reduziert; ohne schnelle Hilfe droht Ausscheiden aus der Szene.",
+      "clear_condition": "Sofortige Stabilisierung, dann Notfallmedizin; ohne beides Eskalation.",
+      "default_duration": "Kritisch.",
+      "stacking": "none",
+      "source_examples": "Critical injury tracks aus Cyberpunk und gritty militärischen Hausregeln.",
+      "severity": "critical",
+      "overflow_to": "",
+      "treatment_required": true,
+      "recovery_track": "long_recovery",
+      "minimum_recovery_time": "Mindestens bis nach Notfallversorgung; volle Erholung meist mehrstufig ueber laengere Downtime.",
+      "blocks_actions": [
+        "intensiver_kampf",
+        "komplexe_probe"
+      ],
+      "can_downgrade": "Nur durch sofortige Stabilisierung und anschliessende medizinische Versorgung."
+    },
+    {
+      "id": "con_weapon_damaged",
+      "name": "Waffe beschaedigt",
+      "kind": "consequence",
+      "domain": "gear",
+      "description": "Die Waffe ist technisch oder strukturell beeintraechtigt und arbeitet nur noch eingeschraenkt.",
+      "mechanical_effect": "Erhoehte Stoerungswahrscheinlichkeit oder reduzierte Wirkung bis Reparatur.",
+      "clear_condition": "Werkstattreparatur oder Feldreparatur mit geeigneter Ausruestung.",
+      "default_duration": "Leicht bis Schwer je nach Schadensbild.",
+      "stacking": "accumulate",
+      "source_examples": "Gear degradation und malfunction tracks in taktischen Low-Fantasy und Modern-Rules.",
+      "severity": "light",
+      "overflow_to": "heavy",
+      "treatment_required": true,
+      "recovery_track": "repair",
+      "minimum_recovery_time": "Feldreparatur: Szene; Werkstatt: zwischen Szenen.",
+      "blocks_actions": [
+        "praezisionsschuss"
+      ],
+      "can_downgrade": "Ja, per provisorischer Reparatur."
+    },
+    {
+      "id": "con_trace_confirmed",
+      "name": "Trace bestaetigt",
+      "kind": "consequence",
+      "domain": "quickhack",
+      "description": "Gegenseite hat deine Signatur hinreichend sauber zugeordnet.",
+      "mechanical_effect": "Aktive Gegenmassnahmen, lokalisierte Jagd oder Systemisolation werden sofort wahrscheinlicher.",
+      "clear_condition": "Signaturwechsel, Deckwechsel oder laengeres Abtauchen mit Spurenbereinigung.",
+      "default_duration": "Leicht bis Schwer je nach Gegenseite.",
+      "stacking": "replace",
+      "source_examples": "Trace and counter-intrusion loops aus Shadowrun und Cyberpunk RED Netrunning.",
+      "severity": "heavy",
+      "overflow_to": "critical",
+      "treatment_required": true,
+      "recovery_track": "downtime",
+      "minimum_recovery_time": "Mindestens eine Downtime-Phase mit aktiver Spurbereinigung.",
+      "blocks_actions": [
+        "offener_wiederholungshack"
+      ],
+      "can_downgrade": "Ja, auf light nach erfolgreicher Spurverwischung."
+    },
+    {
+      "id": "con_aura_backlash",
+      "name": "Resonanz-Rueckschlag",
+      "kind": "consequence",
+      "domain": "magic",
+      "description": "Magische oder psionische Ueberlast erzeugt einen Rueckschlag auf Fokus und Kanalstabilitaet.",
+      "mechanical_effect": "Starke Effekte dieser Domaene sind temporaer gesperrt oder nur mit Zusatzrisiko nutzbar.",
+      "clear_condition": "Stabilisierung, kurze Ruhephase und ggf. rituelle oder therapeutische Neujustierung.",
+      "default_duration": "Schwer.",
+      "stacking": "replace",
+      "source_examples": "Backlash/Drain Konzepte in Shadowrun und psionischen Systemen.",
+      "severity": "heavy",
+      "overflow_to": "critical",
+      "treatment_required": true,
+      "recovery_track": "stabilization",
+      "minimum_recovery_time": "Mindestens bis Szenenende plus aktive Stabilisierung.",
+      "blocks_actions": [
+        "starker_zauber",
+        "starke_psi_wirkung"
+      ],
+      "can_downgrade": "Ja, nach Stabilisierung auf light reduzierbar."
+    },
+    {
+      "id": "con_public_disgrace",
+      "name": "Oeffentliche Bloesse",
+      "kind": "consequence",
+      "domain": "social",
+      "description": "Ein sozialer Fehltritt oder publikes Scheitern erzeugt kurzfristig messbaren Vertrauensverlust.",
+      "mechanical_effect": "Relevante soziale Interaktionen mit der betroffenen Gruppe sind erschwert.",
+      "clear_condition": "Wiedergutmachung, Narrativkontrolle oder Zeitablauf mit Gegenbeweis.",
+      "default_duration": "Leicht.",
+      "stacking": "accumulate",
+      "source_examples": "Influence and reputation fallout in Green Ronin SIFRP und GURPS Social Engineering.",
+      "severity": "light",
+      "overflow_to": "heavy",
+      "treatment_required": false,
+      "recovery_track": "downtime",
+      "minimum_recovery_time": "Mindestens bis zur naechsten passenden sozialen Szene.",
+      "blocks_actions": [
+        "vertrauensbasierte_verhandlung"
+      ],
+      "can_downgrade": "Ja, durch glaubwuerdige Wiedergutmachung."
+    }
+  ]
+}
