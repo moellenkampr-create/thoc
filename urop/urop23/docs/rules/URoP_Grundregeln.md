@@ -186,6 +186,11 @@ Praxisregel bis dahin:
 - Quickhack im Blatt eintragen: **0 EP**.
 - Kein Cyberdeck oder kein passender Zugriffspfad: kein Quickhack-Einsatz.
 
+Balancing-Leitlinie im aktuellen Teststand:
+- kleine Info- und Zugangshacks duerfen weiter frei oder als normale Aktion lesbar bleiben
+- starke Kampfentzugs-, Ueberlast- oder bewaffnete Kontrollhacks sollen in der Regel mindestens Aktion, oft 2+ Aktionen oder 1x pro Szene tragen
+- bewaffnete Systeme kippen idealerweise erst nach verdientem Zugriff statt durch loses Funkfenster
+
 ### 5.7 Beispielkosten fuer Kraefte und Zauber [TESTSTAND]
 Bis eigene Datenbloecke fuer Magie/Psi vorliegen, gilt diese Referenz:
 - **Kraft: Fokusimpuls (T0)** = 0 EP
@@ -408,5 +413,65 @@ Leitlinien:
 - endgueltige Stellung von Uhren im Basiskern
 - Entscheidung zwischen den Kampfwirkungs-Linien oder deren Verschmelzung
 - Eskalationskurven fuer Re-Einsatz (mild vs. hart)
-- Kernschema fuer faehigkeitsspezifisches Lernen (z. B. Stufe I-III)
+- Kernschema fuer faehigkeitsspezifisches Lernen ausserhalb der Manoeverfamilien (z. B. Stufe I-III)
 - einheitliche Voraussetzungen (Sammelfertigkeit/Standardfertigkeit/Spezialisierung) pro Faehigkeitskategorie
+
+
+### 9.3 Panzerung umgehen
+Für Angriffslogik siehe Abschnitt "Zielwahl und Wirkung".
+
+---
+
+## 10. Sprengstoffe und Spezialmunition [ARBEITSSTAND]
+
+### 10.1 Granaten im Einsatz
+Handgranaten sind Fernwaffen mit **Flächenwirkung** (attack_pattern: area). Sie erfordern das Manöver "Granate werfen" (T1, action_cost: action, unlimited Einsatz).
+
+**Granatentypen:**
+
+- **Splitter-Granate** (Damage 4): Standard-Kampfgranate mit Sprengkörper und Splittereffekt. Balancing: Entspricht roher Wirkung, keine Spezialanpassung nötig.
+
+- **Wärme-Granate / Inkendiar** (Damage 3): Erzeugt Hitzeeffekte und Brandaufbau. Primär für Geländekontrolle, Verbarrikadierungen und Positionsblockade. Neben kinetischem Schaden auch narrative Kontrolleffekte.
+
+- **EMP-Granate** (Damage 1): Spezialisiert auf elektronische Systeme, Cyberware-Interface und Sensoren-Deaktivierung. Balancing: Reduzierte kinetische Wirkung, aber hohe Systemstörung im Fokusbereich.
+
+- **Rauchgranate** (Damage 0): Verdeckung und Sensorenblindung ohne direkte Verletzung. Narrative Wirkung auf Sichtlinien und optische Zielerfassung.
+
+- **Blendgranate** (Damage 1): Intensive Blitz- und Schalleffekte. Primär für Desorientierung und temporäre Kampfunfähigkeit durch Sensor-Betäubeung.
+
+### 10.2 Raketen und Raketenwerfer
+Raketen sind **Plattformwaffen oder spezialisierte tragbare Systeme** mit Bereichswirkung und hohem Schaden (baseline 4–5).
+
+**Einsatz- und Balancing-Leitplanken:**
+
+- Tragbare Raketensysteme (AV-Werfer, Breach-Varianten) erfordern **Granate werfen Manöver-Äquivalent oder höher**.
+- Fahrzeug-Lenkflugkörper sind **Fahrzeugwaffen-Aktionen** (kein separates Manöver nötig).
+- Raketeneinsatz flaggt Position sofort; Gegner können Gegenfeuer, Manöver oder Deckungswechsel ausloesen.
+- Balancing-Anker: Raketen sind nicht Alltagswaffen, sondern Szenen-Kipper. Einsatz bleibt laut, sichtbar und ressourcenintensiv.
+
+### 10.3 Spezialmunition und narrative Flexibilität
+URoP **verzichtet bewusst auf separate Munitionstypen-Felder** und nutzt stattdessen narrative Flexibilität:
+
+**Modell:**
+- Eine konkrete Granate oder Rakete kann mehrere Effekttypen kombinieren (z.B. Splitter + EMP-Komponente).
+- Spezialmunition wird im Regulierungstext oder durch Spieleraussage definiert ("Armor-piercing Kugeln", "EMP-Geschoss", "Incendiar-Rakete").
+- Der Regeleffekt bleibt über Zielwahl und Fiction-First-Modell: Wer gezielt gegen "schwache Stelle" würfelt und trifft, profitiert unabhängig von Munitionsbeschreibung.
+
+**Leitfaden für Spieler und SL:**
+- Beschreibt die Munition, die euer Charakter hat. ("Frangible Rounds, Thermal Slugs, Armor-piercing Discarding Sabot".)
+- Der narrative Kontext ändert die Szenenlage, unterstützt aber kein separates "Munitionssystem".
+- Bei umstrittenem Effekt einigen sich Spieler und SL auf Bonus/Malus ("Das AP-Geschoss reduziert Panzerung um 1 Stufe in dieser Situation") oder loesen es über extended dice mechanics.
+
+### 10.4 Balancing-Prinzipien für Sprengstoffe
+
+**Kostenstruktur:**
+- Granaten sind relativ günstig (40–225 EB) und unbegrenzt in der Einsatzfrequenz.
+- Raketensysteme sind teuer (3200–9850 EB) und munitionslimitiert.
+- Einsatzkosten (action vs. two_actions): Granaten = 1 Aktion ("Werfen"), Raketen = 2 Aktionen ("Laden + Abfeuern").
+
+**Balancing gegen Überlegenheit:**
+- Keine grenzenlose Flächenspamming: Jede Granate/Rakete ist eine bewusste Einsatzentscheidung, nicht Boilerplate.
+- Raketensysteme sind auf Szenen-skalige Einsätze beschränkt (Fahrzeuge, Gebäude, große Ziele); Personenziele mit Raketen sind möglich, aber mit Risikowarnung.
+- Narrative Rückwirkungen (Alarm, Aufmerksamkeit, Ressourcenmanagement) bleiben gültig.
+
+---

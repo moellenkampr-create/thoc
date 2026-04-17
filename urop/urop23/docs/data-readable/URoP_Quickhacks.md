@@ -1,5 +1,5 @@
 # URoP – Quickhacks
-Stand: 2026-04-16
+Stand: 2026-04-17
 
 ## 1. Führende Datenquelle
 Für Quickhacks gilt ab jetzt:
@@ -266,6 +266,46 @@ Bis zur finalen Kostenrunde gilt fuer alle Referenzhacks:
 - `Drohne umflaggen` = **0 EP**
 - `Systemschock` = **0 EP**
 - `Sicherheitsfenster öffnen` = **0 EP**
+
+## 10.3 Einsatzprofile im Referenzbestand [TESTSTAND]
+Die JSON-Daten fuehren jetzt fuer den aktiven Referenzbestand zusaetzliche Felder, die an die Manoever-Logik anschliessen:
+- `action_cost`
+- `usage_window`
+- `reuse_escalation_profile`
+- `requirements_text`
+- `internal_refs` (nur intern, nicht fuer Druck- oder Regelbuchausgaben)
+
+Ziel dieser Struktur:
+- Quickhacks und Manoever sollen dieselbe Grundsprache fuer Aktionskosten, Einsatzfenster und Re-Einsatz teilen.
+- Voraussetzungen bleiben bewusst als Lesetext statt als starre Pflichtmatrix modelliert.
+
+Aktuell ist dieses Profil fuer den ganzen Referenzsatz gepflegt.
+
+Grobe Lesart im Bestand:
+- `Scan & Markieren` und `Status lesen`: kleine Infohacks, meist `free`, `unlimited`, `none`.
+- `Sensoren blenden`: kurze Stoerung, weiter eher `action`, `once_per_conflict`, `standard_conflict`.
+- `Waffe sperren` und `Systemschock`: direkte Kampfentzugs- oder Ueberlasthacks, nach Schaerfung jetzt eher `action`, `once_per_scene`, `strict_scene`.
+- `Tür freigeben`, `Fahrzeugsicherheit umgehen` und `Sicherheitsschloss freischalten`: direkte Zugriffs- und Freigabehacks, meist `action`, `unlimited`, `none`.
+- `Kamera auf freundlich`: lokaler Sicherheitsumschrieb, `action`, `once_per_conflict`, `standard_conflict`.
+- `Autoturret auf freundlich` und `Drohne umflaggen`: starke bewaffnete Kontrollhacks, nach Schaerfung jetzt eher `two_actions`, `once_per_scene`, `strict_scene`.
+- `Sicherheitsfenster öffnen`: starker Setuphack, weiter `action`, `once_per_scene`, `strict_scene`.
+
+## 10.4 Balancing-Leitplanken fuer starke Quickhacks [ARBEITSSTAND]
+Fuer die staerkeren Quickhacks gilt jetzt ausdruecklich:
+
+- direkte Kampfentzugs- oder Ueberlasthacks sollen analoge Manoever nicht klar ausstechen
+- bewaffnete Systeme und autonome Plattformen brauchen fuer verlaessliche Umschreibung meist verdienten Zugriff statt bloss loses Funkfenster
+- starke Kontrolle wirkt standardmaessig lokal: ein Ziel, ein Teilsystem oder ein kleines Sicherheitsfenster
+- Teilzugriff soll haeufig eher zu Pause, Fehlpriorisierung oder kurzem Stoerfenster fuehren als zu voller Dauerkontrolle
+
+Praktische Folge der aktuellen Schaerfung:
+- `Waffe sperren` ist jetzt ein seltenes Kampffenster statt wiederholbarer Standard-Disarm auf Distanz.
+- `Systemschock` bleibt offensiv stark, ist aber kein spammbarer Burst-Ersatz fuer normale Kampflogik.
+- `Autoturret auf freundlich` und `Drohne umflaggen` verlangen mehr Setup-Zeit oder klarer verdienten Zugriff, bevor bewaffnete Systeme kippen.
+
+Wichtig:
+- `internal_refs` dienen nur Autoring, Cross-Checks und spaeteren Exporten.
+- Diese internen Felder sollen in Drucklisten und Regelbuch-Lesefassungen nicht auftauchen.
 
 ---
 

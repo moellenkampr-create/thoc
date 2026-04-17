@@ -117,6 +117,19 @@ Je höher das Tier, desto eher sinnvoll:
 - oft Finisher, dominanter Kontrollabschluss oder hochriskante Spitzenaktion
 - nicht für Spam gedacht
 
+### 5.3 Ranklogik innerhalb einzelner Manoeverfamilien [ARBEITSSTAND]
+Nicht jedes Manoever braucht mehrere Lernstufen.
+Wo Balancing, Spezialisierung oder Wahlverbesserungen davon gewinnen, fuehrt die JSON jetzt **Rank-Familien**:
+- **Rank I** = Einstieg in das Manoever
+- **Rank II** = aufbauender Fortschritt, nicht ueberspringbar
+- **Rank III** = Endrank, ebenfalls nur sequentiell erreichbar
+
+Leitlinien:
+- hoeherer Rank ersetzt niedrigere Ranks nicht automatisch
+- `learn_cost_ep` ist immer die **Zusatzinvestition fuer genau diesen Rank**
+- die Rank-Familie darf von der reinen Tier-Kostentabelle abweichen, wenn das Balancing es braucht
+- Voraussetzungen und Upgrade-Details bleiben oft bewusst lesbar als Text statt als starre Pflichtmatrix
+
 ---
 
 ## 6. Manoeverkosten und Einsatzfenster [GELOCKT / TESTSTAND]
@@ -127,13 +140,17 @@ Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
 - **2+ Aktionen** (Setup, Aufbau, Finisher-Vorbereitung)
 
 ### 6.1.1 Erwerbskosten (EP)
-Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft:
+Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft.
+Die JSON trennt jetzt sauber zwischen **Erwerbskosten** (`learn_cost_ep`) und **Einsatzkosten** (`action_cost`, `uses_reaction_window`, `activation_notes`).
+
+Die Tiertabelle bleibt als Orientierungswert bestehen:
 - **T0** = 0 EP
 - **T1** = 15 EP
 - **T2** = 30 EP
 - **T3** = 50 EP
 
 Diese Tabelle ist aktuell mit `tier_cost_reference` in der JSON synchronisiert.
+Bei Rank-Familien darf ein Folgerank davon bewusst abweichen, weil `learn_cost_ep` nur den **naechsten Schritt der Familie** bezahlt und nicht das ganze Manoever neu einkauft.
 
 ### 6.2 Einsatzfenster
 Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster.
@@ -173,6 +190,10 @@ Ein Manöver kann auf bis zu vier Arten gebunden sein:
 - **Lagebindung** = Deckung, Nahdistanz, Griffkontakt, Zeitfenster, laufende Verhandlung, Zugriff auf System usw.
 - **Ressourcenbindung** = Aktionszeit, Werkzeug, freie Hand, Munition, Ruhe, Position
 - **Kettenbindung** = vorherige Öffnung, angesammelter Druck, bestehende Kontrolle oder Setup aus Voraktion
+
+Die JSON fuehrt Voraussetzungen jetzt bewusst meist als **`requirements_text`** statt als Pflichtlisten.
+Grund: Viele Anforderungen sind am Tisch besser lesbar und auslegbar, als wenn sie zu frueh in starre Arrays zerlegt werden.
+Strukturiert bleiben nur die harten Balancing-Felder, nicht jede einzelne Lagebedingung.
 
 ### Tier-Faustregel
 - **T0**: meist nur Könnensbindung
@@ -220,44 +241,67 @@ Was das praktisch bedeutet:
 Ziel dieser Regel:
 Reaktive Manöver sollen scharf, spannend und stark bleiben, aber nicht zu einer kostenlosen Universalunterbrechung für jede Szene werden.
 
+### 8.2 Reaktiv-Leitplanken fuer Balancing [ARBEITSSTAND]
+Damit Reaktionsfamilien stark bleiben, ohne den Tischfluss zu brechen, gilt zusaetzlich:
+
+- **Rank-Effekt statt Fenster-Mehrung**
+  - hoehere Reaktionsranks machen Antworten verlaesslicher oder schaerfer
+  - sie erzeugen **keine** zusaetzlichen Reaktionsfenster
+
+- **Triggerqualitaet vor Rankhohe**
+  - Rank II und III in reaktiven Familien verlangen einen **klaren hard trigger**
+  - diffuse Vorahnung oder unscharfe Absichtssignale reichen nur fuer Rank I oder basisnahe Gegenwehr
+
+- **Ansagebindung**
+  - bei mehreren moeglichen Reaktionen wird vor dem Wurf genau **eine** Antwort angesagt
+  - kein nachtraegliches Umschalten zwischen `Konter`, `Reaktionsschuss`, `Sozialer Konter`, `Alarm verzoegern` oder `Schnellziehen`
+
+- **Eskalations-Floor fuer Reaktionsfamilien**
+  - reaktive Manoever mit `once_per_conflict` sollen mindestens `standard_conflict` als Re-Einsatz-Eskalation behalten
+  - dadurch bleiben Wiederholungen teuer genug und werden nicht zur Dauerunterbrechung
+
+- **Kein Reaktionsketten-Spiel**
+  - ein reaktives Manoever erzeugt nicht sofort wieder ein neues Reaktionsfenster
+  - damit bleibt die Reihenfolge lesbar und die Initiative bleibt entscheidungsrelevant
+
 ## 9. Typische Kern-Manöver mit geschärfter Tierzuordnung [ARBEITSSTAND]
 Die folgende Zuordnung ist der aktuelle aktive Teststand der **vollen Manöver**.
 
 ### 9.1 Nahkampf
 - **Befreien aus Griff** – **T0 (0 EP)**
   - defensives Grundmanöver mit engem Reaktionsfenster
-- **Entwaffnen** – **T1 (15 EP)**
-  - klares Kernwerkzeug gegen Waffenlinie und Handkontrolle
+- **Entwaffnen I-III** – **T1 bis T3 Rank-Familie**
+  - skaliert von stabilem Waffenlinienbruch bis zu harter Waffenkontrolle in engem Fenster
 - **Umreißen / Niederwerfen** – **T1 (15 EP)**
   - gute Kontrolloption ohne Endspielcharakter
-- **Festsetzen** – **T2 (30 EP)**
-  - starke Kontrollwirkung, braucht echte Öffnung oder gebrochene Linie
+- **Festsetzen I-III** – **T2/T3 Rank-Familie**
+  - baut von klarer Bindung bis zu meisterlicher Lagehoheit aus, bleibt aber commitment-lastig
 - **Konter** – **T2 (30 EP)**
   - reaktiv, timingkritisch, beansprucht das Reaktionsfenster
-- **Finisher** – **T3 (50 EP)**
-  - Abschlussaktion mit harter Vorbedingung
+- **Finisher I-III** – **T2/T3 Rank-Familie**
+  - Abschlussaktion mit harter Vorbedingung und sequentiellem Ausbau
 
 ### 9.2 Fernkampf
-- **Schnellziehen** – **T0 (0 EP)**
-  - Eskalationsfenster beim Übergang in offene Gewalt
-- **Präzisionsschuss** – **T1 (15 EP)**
-  - klassisches Kernmanöver über Zielwahl und Präzision
-- **Unterdrückungsfeuer** – **T2 (30 EP)**
-  - Kontrollmanöver gegen Bewegung, Vorstoß und Linienwechsel
-- **Reaktionsschuss** – **T2 (30 EP)**
-  - reaktiv, timingkritisch, beansprucht dasselbe Reaktionsfenster wie andere Reaktionen
+- **Schnellziehen I-III** – **T0 bis T2 Rank-Familie**
+  - Eskalationsfenster beim Übergang in offene Gewalt; hoehere Ranks entfernen den hektischen Anschlussnachteil und oeffnen spaeter nur passende Folgefenster, nicht gratis fremde Manoeverkosten
+- **Präzisionsschuss I-III** – **T1 bis T3 Rank-Familie**
+  - klassisches Zielwirkungsmanoever; hoehere Ranks verkuerzen vor allem die noetige Vorbereitung
+- **Unterdrückungsfeuer I-III** – **T2/T3 Rank-Familie**
+  - skaliert von stabiler Raumkontrolle zu meisterlicher Feuerzonen-Hoheit bei weiter hohem Bindungs- und Verbrauchspreis
+- **Reaktionsschuss I-III** – **T2/T3 Rank-Familie**
+  - reaktive Bewegungsunterbrechung wird uebersichtlich staerker, bleibt aber strikt an Trigger und Reaktionsknappheit gebunden
 
 ### 9.3 Einfluss
-- **Gesprächsschock** – **T2 (30 EP)**
-  - harter Bruch gegen Haltung, Fassade oder Deutungshoheit
-- **Sozialer Konter** – **T2 (30 EP)**
-  - reaktive Umkehr gegen offene soziale Spitze
+- **Gesprächsschock I-III** – **T2/T3 Rank-Familie**
+  - baut von hartem Kippmoment zu meisterlicher Deutungswirkung aus, bleibt aber bewusst ein seltenes Spitzenwerkzeug
+- **Sozialer Konter I-III** – **T2/T3 Rank-Familie**
+  - reaktive Deutungsumkehr wird robuster, ohne zur kostenlosen Universalparade zu werden
 
 ### 9.4 Technik
-- **Bypass** – **T2 (30 EP)**
-  - umgeht Schutzlogik statt nur an ihr zu arbeiten
-- **Alarm verzögern** – **T2 (30 EP)**
-  - reaktive Zeitkontrolle gegen bereits laufende Entdeckung
+- **Bypass I-III** – **T2/T3 Rank-Familie**
+  - skaliert von fragiler Umgehung hin zu robuster Zugriffsoeffnung unter Druck
+- **Alarm verzögern I-III** – **T2/T3 Rank-Familie**
+  - reaktive Zeitkontrolle wird ueber die Ranks verlaesslicher und weniger eskalationshart
 
 Basisnahe Anwendungen wie ruhiges Öffnen, saubere Routinearbeit, normales Gesprächsführen oder einfache Improvisation bleiben **keine vollen Manöver**, solange sie keine eigene Fenster-, Kosten- oder Gegenlogik brauchen.
 
@@ -298,14 +342,29 @@ Nicht jedes Manöver braucht eine eigene Sonderabwehr. Gegenlagen und Folgefenst
 ## 11. Aktiver Feldkern der JSON [GELOCKT]
 Der aktuelle Datenkern der Manöver ist bewusst schlank gehalten:
 - `id`
+- `family_id`
+- `family_name`
 - `name`
+- `rank`
+- `previous_rank_id`
 - `tier`
-- `cost`
+- `learn_cost_ep`
+- `action_cost`
+- `uses_reaction_window`
+- `activation_notes`
+- `usage_window`
+- `reuse_escalation_profile`
 - `rules_short`
 - `description`
-- `requirements`
+- `requirements_text`
+- `advancement_mode`
+- `advancement_text`
 
-Frühere Strukturfelder wie `domain`, `timing`, `role`, `window`, `counter_window`, `response_type`, Klassenmarker oder separate Wirkungs-/Risikofelder laufen derzeit bewusst im Fließtext statt als Pflichtfelder.
+Frühere Strukturfelder wie `domain`, `timing`, `role`, `window`, `counter_window`, `response_type`, Klassenmarker oder fein zerlegte Voraussetzungen/Upgrade-Matrizen laufen derzeit bewusst im Fließtext statt als Pflichtfelder.
+
+Interne Hilfsfelder:
+- `internal_refs` wird maschinenlesbar fuer Cross-Referenzen gepflegt (z. B. Skill- und Datenblock-Bezuege)
+- diese internen Felder sind **nicht** fuer Drucklisten oder Regelbuch-Lesefassungen gedacht und werden in Spieler-Ausgaben ausgeblendet
 
 ---
 
@@ -327,4 +386,4 @@ Ein Manöver ist im aktuellen URoP-Kern dann gelungen, wenn es:
 - konkrete soziale Trigger klarer in Lesebeispiele ziehen
 - falls später nötig: Anschluss- oder Finisherlogik gezielt ergänzen, statt den Kern sofort wieder aufzublähen
 - Endlock der Re-Einsatz-Eskalation pro Tier
-- Lernpfade je Manoever (z. B. I-III mit Wahlverbesserungen)
+- Praxistest der Reaktiv-Leitplanken (Triggerqualitaet, Ansagebindung, Eskalations-Floor) gegen echtes Tischtempo

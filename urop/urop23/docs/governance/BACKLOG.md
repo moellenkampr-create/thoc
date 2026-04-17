@@ -1,5 +1,5 @@
 ﻿# URoP Backlog
-Stand: 2026-04-16
+Stand: 2026-04-17
 
 ## Hoch
 1. Kampfwirkungs-Endlinie finalisieren und in ADR-001 entscheiden
@@ -7,8 +7,10 @@ Stand: 2026-04-16
 3. Quickhack-Grundlogik gegen Cyberware, Elektronik, Sicherheitssysteme und Szenenzugriff pruefen
 4. Metadateien bei Merges konsistent halten (Governance, Index, Backlog, Export)
 5. Voraussetzungen-Matrix fuer Faehigkeiten finalisieren (Sammelfertigkeit/Standardfertigkeit/Spezialisierung)
-6. Lernstufen je Faehigkeit als Kernschema festlegen (z. B. I-III)
+6. Lernstufen je Faehigkeit ausserhalb der Manoever als Kernschema festlegen (z. B. I-III); Manoever-Ranks sind jetzt als Pilotmodell angelegt
 7. Re-Einsatz-Eskalation (Risiko/Konsequenzen) per Praxistest feinjustieren
+8. Quickhack-Einsatzprofil nach Schaerfung im Spieltest verproben und mit Grundregel 5.x weiter abgleichen (action_cost, usage_window, reuse_escalation_profile, requirements_text, internal_refs)
+9. Sprengstoffe und Spezialmunition im Spieltest pruefen (Granaten-Typen, Raketensysteme, narrative Munitions-Flexibilitaet; Balancing gegen Szenenkippereffekt)
 
 ## Mittel
 1. Preisniveaus fuer Items gegen Spielgefuehl pruefen
@@ -16,6 +18,8 @@ Stand: 2026-04-16
 3. Chassis-Workflow fuer Plattform-Actors finalisieren (Actor -> Chassis -> Slots -> Module)
 4. Cross-Ref-ID-Strategie fuer JSON-Gruppen pruefen
 5. Referenzkarten fuer Konsequenzen als kompakte Druckfassung auskoppeln
+6. Exportfilter fuer interne Cross-Ref-Felder verbindlich setzen (internal_refs und internal_* niemals in Druck-/Regelbuchausgaben)
+7. Mapping-Regel zwischen Kampfwirkungslinie (W/R) und Daten-Skalen (Waffen effect_scale / Ruestung protection_scale) festziehen
 
 ## Spaeter
 1. Matrix-/Astralraum als tieferes Szenenmodul

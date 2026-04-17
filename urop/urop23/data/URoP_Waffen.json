@@ -737,6 +737,206 @@
         "weit": 60,
         "extrem": 80
       }
+    },
+    {
+      "id": "weapon_grenade_frag_std",
+      "name": "Handgranate (Splitter)",
+      "category": "wurfwaffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Wirksame Splittergranate fuer Nahbereichsverteidigung und Kampf lokal begrenzter Bereiche.",
+      "rules_short": "Flaechen-Wurfwaffe mit Sprengwirkung und Splittereffekt im Nah- bis Mittelbreich.",
+      "price_eb": 85,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 4,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      }
+    },
+    {
+      "id": "weapon_grenade_thermal_std",
+      "name": "Waerme-Granate",
+      "category": "wurfwaffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Inkendiaergranate fuer Saeuberings-, Abwehr- und Zugangsblockade. Erzeugt anhaltende Hitze- und Brandeffekte.",
+      "rules_short": "Flaechiges Waffesystem mit Thermische Wirkung und Kontrolleffekt; typisch fuer Einsaetze gegen Positionen und Verbarrikadierungen.",
+      "price_eb": 120,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 3,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      }
+    },
+    {
+      "id": "weapon_grenade_emp_std",
+      "name": "EMP-Granate",
+      "category": "wurfwaffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Spezialisiertes Infrastruktur-Stoerimpuls im Wurf. Zerstoert oder lahmt elektronische Systeme, Cybersysteme, elektrische Verbarrikaden.",
+      "rules_short": "Nicht-kinetische Effektgranate mit elektromagnetischem Stoerpuls; Primaerefekt auf Cyberware, Sensoren und Elektronik.",
+      "price_eb": 225,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 1,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      }
+    },
+    {
+      "id": "weapon_grenade_smoke_std",
+      "name": "Rauchgranate",
+      "category": "wurfwaffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Dichter Rauchabwurf fuer Verdeckung, Deckung und Linienuendung. Reduziert Sichtbarkeit und optische Zielerfassung.",
+      "rules_short": "Verdeckungs- und Kontrollgranate; erzeugt dichtes Rauchfeld fuer taktische Mobiliaet und Sensorenblindung.",
+      "price_eb": 45,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 0,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      }
+    },
+    {
+      "id": "weapon_grenade_flash_std",
+      "name": "Blendgranate",
+      "category": "wurfwaffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Intensive Blitz- und Donnereffekte fuer Desorientierung und temporaere Kampfunfaehigkeit. Wirkt durch sichtbarkeits- und Sensor-Betaeubeung.",
+      "rules_short": "Sensorenstoergranate mit intensivem Blitz- und Schalleffekt; primaer zur Desorientierung von Zielgruppen.",
+      "price_eb": 65,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "G3",
+      "damage_baseline": 1,
+      "quality": "standard",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      }
+    },
+    {
+      "id": "weapon_launcher_av_mk1_std",
+      "name": "AV-Werfer MK1",
+      "category": "schwere_waffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Schulter-tragbares Antivehikel-Raketensystem mit Standard-Splittergefechtskoepfen. Wirkt gegen Fahrzeuge, stationaere Ziele und gepanzerte Positionen.",
+      "rules_short": "Tragbare Raketenwaffe mit Bereichswirkung gegen Fa hrzeugs- und Infrastrukturziele.",
+      "price_eb": 5400,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "vehicle",
+      "damage_baseline": 5,
+      "quality": "excellent",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 50,
+        "mittel": 200,
+        "weit": 500,
+        "extrem": 1200
+      }
+    },
+    {
+      "id": "weapon_launcher_guided_missile_std",
+      "name": "Gelenkflugkoerper (Guided Missile)",
+      "category": "schwere_waffe",
+      "combat_mode": "ranged",
+      "handling_profile": "platform_only",
+      "description": "Fahrzeug-montierter Lenkflugkoerper mit aktiver Zielerfassung und intelligenter Navigationssteuerung. Fuer praeventive Luftabwehr und Praesenzkontrolle.",
+      "rules_short": "Plattformgebundenes Lenkwaffen-System mit hoher Intelligenz und Treffquote gegen mobile und stationaere Fernziele.",
+      "price_eb": 9850,
+      "designed_for_size_class": "G6",
+      "effective_against_class": "vehicle",
+      "damage_baseline": 5,
+      "quality": "masterwork",
+      "magazine_capacity": 2,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 100,
+        "mittel": 400,
+        "weit": 1000,
+        "extrem": 2500
+      }
+    },
+    {
+      "id": "weapon_launcher_specialized_breach",
+      "name": "Spezialisierter Raketenwerfer (Breach-Variante)",
+      "category": "schwere_waffe",
+      "combat_mode": "ranged",
+      "handling_profile": "direct",
+      "description": "Kurzstrecken-Raketenladung fuer Zugangsoeffnung, Barrikadensprengung und Einsatzoeffnungen. Niedrigere Reichweite, hohe Praezision auf kurze Entfernung.",
+      "rules_short": "Tragbare spezialisierte Kurzstrecken-Raketenwaffe fuer Infrastruktur-Eingriff und offensive Zugangseroeffnung.",
+      "price_eb": 3200,
+      "designed_for_size_class": "G3",
+      "effective_against_class": "vehicle",
+      "damage_baseline": 4,
+      "quality": "excellent",
+      "magazine_capacity": 1,
+      "fire_modes": [
+        "single"
+      ],
+      "attack_pattern": "area",
+      "range_bands": {
+        "nah": 20,
+        "mittel": 80,
+        "weit": 200,
+        "extrem": 400
+      }
     }
   ]
 }
