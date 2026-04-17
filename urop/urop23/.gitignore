@@ -1,0 +1,6 @@
+# Local playtest exports and transient generator scripts
+# Keep final/curated artifacts under version control; ignore iterative local drafts.
+
+docs/playtests/*_Readable_v*.pdf
+docs/playtests/URoP_Charaktersheet_Wireframe_v*.pdf
+tmp_generate_*.py
