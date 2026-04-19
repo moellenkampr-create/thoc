@@ -45,6 +45,7 @@ source: lore_db.md
 **ARBEITSSTAND**
 - Sleepy-Verzicht (2077-07-06) als Experiment: "Sonst beisst es uns irgendwann in den Arsch" (George).
 - Trio schlaeft erstmals ohne Schlafmittel; spielerische Bindung bleibt erhalten.
+- 2077-07-05 spaete Nacht (Ely-Sicht): Ely setzt nach Georges riskantem Drive-by einen klaren Schutz-/Grenzmarker ("Drive Bye Verbot") und koppelt Sorge direkt an Koerperrealitaet (blaue Flecke).
 - Lauri wird eifersuechtigung bei Gerard-Referenz (George haette laenger mit Gerard zusammen sein koennen). Gerard war nur George's Lover/Freund, nicht romantischer Rivale fuer Lauri.
 - 2077-07-10 nach Bar-/Football-Konflikt: George setzt Grenze gegen Eingriffe "hinter seinem Ruecken"; Lauri bejaht offenes Vorgehen und bestaetigt "all in" erneut.
 - 2077-07-11 Nachtphase: starkes Trio-Co-Regulationsmuster bei Lauris Familien-/Zugehoerigkeitsbruch; Naehe und Rueckversicherung wirken unmittelbar stabilisierend.

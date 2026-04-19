@@ -237,6 +237,13 @@ source: lore_db.md
   - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
     - Lauri stickt ein Aldecaldo-Emblem auf Stoff aus ihrem Oberteil und legt es als persoenliche Geste bei der Totenfeier auf.
     - Ely und Mitch organisieren Feuerwerk; die Geste wird im Lager positiv aufgenommen und veraendert den sozialen Blick auf das Trio.
+  - **Ely-Sicht (ARBEITSSTAND, Detailergaenzung)**:
+    - Ely beschreibt die Nachphase als "Nebel" und verhindert aktiv Leerlauf, um Gedankenkarussell zu vermeiden.
+    - Nach Georges Drive-by-Ansage und Com-Abbruch informiert Ely Saul sofort ueber den erwarteten Ruecklauf mit Kuehlwagen.
+    - In der Werkstatt baut Ely mit Mitch farbiges Feuerwerk; die technische Arbeit dient als akute Selbstregulation gegen Hoehlen-Nachbilder.
+    - Bei Georges Rueckkehr markiert Ely klar Grenze und Schutzimpuls ("Du hast Drive Bye Verbot!"); Trefferfolgen bleiben als blaue Flecke sichtbar.
+    - Beim Drei-Schlangen-Tattoo bleibt Ely vorerst beim Nein wegen Nadel-/Schmerzangst.
+    - Das Triogespraech im Zelt endet in einer einstimmigen Richtungsentscheidung gegen Rueckzug in die alte Konzernkomfortzone.
   - Ely und Lauri helfen bei Abschiedsgeschenken fuer die Toten; das wird von den Aldecaldos sehr positiv aufgenommen.
   - George spielt bei der Totenfeier mit geliehener Gitarre zusammen mit anderen Aldecaldos traurige Lieder.
   - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:

@@ -90,6 +90,15 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Das haettet ihr auch einfacher haben koennen. Ich bin Mitch von den Aldecaldos"
 - "Einmal ist keinmal, zweimal ein Zufall, aber dreimal ein Muster."
 
+### 5.-Juli Abend/Nacht: Drive-by-Nachlauf, Feuerwerk, Totenfeier (Ely-Sicht)
+**ARBEITSSTAND**
+- "Ich gehe wie durch Nebel."
+- "Wenn ich nichts tue, startet das Gedankenkarussell."
+- "Du hast Drive Bye Verbot!"
+- "Wollen wir auf diesem Weg weitergehen oder zurueck in die heile Welt?"
+- "FUCK NEIN." (einstimmige Triolinie)
+- Feuerwerk als aktiver Trauer-/Integrationsmarker im Aldecaldo-Lager.
+
 ### 5.-Juli Wraith-/Raffen-Versteck (Lauri-Sicht)
 **ARBEITSSTAND**
 - "DROGEN! Das Scheisszeug kommt mir nie mehr nahe."
