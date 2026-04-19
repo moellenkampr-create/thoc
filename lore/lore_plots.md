@@ -155,6 +155,8 @@ source: lore_db.md
 **ARBEITSSTAND**
 - Ob George, Ely und Lauri selbst aktiv in Qualifikation oder Hauptrennen einsteigen, bleibt offen und spielerabhaengig.
 - Qualifikationsrennen werden nur dann ausfuehrlich relevant, wenn die Protagonisten selbst teilnehmen; sonst bleiben sie Hintergrund, Beobachtung oder Kulisse.
+- **Neuer Zwischenstand (2077-07-12, Lauri-Sicht):** City-Vorrunde wurde aus Zivilopfer-/Ethikgruenden vorerst verworfen; Badlands-Vorrunde in der Folgewoche ist aktuell favorisiert.
+- Hauptrennen-Teilnahme bleibt offen, da Teilelage und Tarnumbau der Superkarre noch nicht gesichert sind.
 
 ## 2. Paralleler CP2077-Weltplot / Seitenlage
 **KANON / ARBEITSSTAND gemischt**
@@ -208,6 +210,8 @@ source: lore_db.md
 - Chubby ist stimmlich und atmosphaerisch ideal fuer einen Club- oder Talentshow-Abend unter dem Motto **"Love, Sadness, Fear"** und waere dort wahrscheinlich Favorit.
 - Am **2077-07-09** wird der Plot erstmals konkret ausgespielt: Chubby jammt mit dem Trio am Feuer, stellt Instrumente / Improvisationsdrums und bestaetigt ernsthaft ihr musikalisches Potential.
 - Chubby laedt das Trio aktiv ins **Velvet Static** ein; vorerst als **Zuschauer/Mitkommende**, nicht als fix gebuchter Act.
+- Am **2077-07-11 spaet** ruft Chubby das Trio wieder ins Camp; Aldecaldos stellen alte Instrumente in ihr Zelt. Das wirkt als Integrationssignal und als Musik-Setup vor dem Clubabend.
+- Am **2077-07-12** ist die Einladung zum Clubabend konkret aktiv (mitkommen/anfeuern am selben Abend); die Schwelle von "vielleicht" zu "jetzt" ist damit ueberschritten.
 - Velvet-Events laufen dort typischerweise kurzfristig (ca. 2-4 Tage Vorlauf); das genaue Datum ist bewusst offen.
 - Chubby prueft zugleich die soziale Spannungslinie des Trios: Kommen sie wirklich von den "Richis" und was machen sie jetzt bei den Aldecaldos im "Dreckloch"?
 - Seine Kombination aus Lagerpraesenz und Fernstudium in **Musik** und **BWL** macht ihn plausibel als ernsthaften Bandfoerderer mit Szene- und Orga-Blick.
@@ -229,12 +233,21 @@ source: lore_db.md
 - Indirekter oder direkter Andockpunkt an den Weltplot
 
 **Offen**
-- Genauer Termin des naechsten Velvet-Events (kurzfristig 2-4 Tage Vorlauf) und ob aus dem Zuschauen spaeter ein Auftritt/Testlauf wird
+- Der naechste Velvet-Slot ist fuer den aktuellen Abend angelegt; offen bleibt, ob es beim Zuschauen bleibt oder spontan in einen THoC-Testauftritt kippt
 - Genauer Ablauf des Abends
 - Wer genau die rivalisierende reiche/privilegierte Band ist
 - Wie stark Chubby vorher schon mit dem Trio verbunden ist
 - Welche Songs das Trio dort spielt
 - Wie gross die unmittelbaren Folgen des Auftritts sind
+
+### Bluttrinker-Klinge / Valentino-Executor-Legende
+**ARBEITSSTAND - DUNKLER HERITAGE-PLOT**
+- Oggy (Ex-Valentino) markiert Lauris Klinge "Bluttrinker" als historisch aufgeladene Executor-Waffe der Valentinos.
+- In-world-Legende: starke Traegerbindung, Fluchtnarrativ und Bestrafungsauftrag gegen Valentino-Feinde/Verraeter.
+- Das Trio reagiert operativ statt mystisch: Klinge wird zur Spuren-/Forensikabwehr in Saeure behandelt und vergraben.
+- Beim Handling wird eine menschenhautartige Scheidenstruktur festgestellt; dadurch oeffnet sich ein harter Vertrauensbruch-Hook im Enrico-Kontext.
+- Donny recherchiert opsec-fokussiert die Historie; erste Linie fuehrt bis etwa 1940 nach Mexiko und beruehrt Valentino-Gruendungsmythen inkl. Nazi-/Nazigold-Erzaehlungen.
+- Plotfunktion: verbindet Trauma, Fraktionsgeschichte, digitale Aufklaerung und moegliche Gegenspieler, die auf Suchspuren reagieren koennten.
 
 ## 4. Elternreaktion und Eskalationsmatrix (Post-2077-07-10)
 **ARBEITSSTAND - Leitplanken fuer Plotweiterfuehrung**

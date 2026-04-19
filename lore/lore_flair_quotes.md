@@ -187,6 +187,16 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Bitte, nicht dankbar."
 - Wind und aufgehende Sonne als positiver Schlusston
 
+### 11.-12.-Juli Tagfolge: Oggy-Wagen, Bluttrinker, Campsymbol (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Wer Bluttrinker traegt, ist der Executor der Valentinos."
+- "Ich glaube nicht an Geister oder verfluchten Muell."
+- "Keine Geheimnisse."
+- Das Trio-Symbol als frischer Graffiti-Marker auf dem eigenen Zelt.
+- Campton kippt von Beobachtung zu Alltagsakzeptanz ("keine Blicke mehr").
+- "Durch die Innenstadt ist einfach scheisse. Zu viele tote Passanten und Schaulustige jedes Jahr."
+- Chubby-Call als Aktivierung: "Kommt heute Nacht noch vorbei, wir feiern noch."
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

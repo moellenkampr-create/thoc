@@ -399,3 +399,26 @@ source: lore_db.md
       - Es folgt ein starker emotionaler Familienbruchmoment bei Lauri ("so sollte sich Familie anfuehlen"), den George/Ely durch Naehe und Rueckversicherung auffangen.
       - Trio nutzt spaet ein Zelt als Ventilraum und merkt erst danach: Es war Sauls Besprechungszelt; Lala deeskaliert mit pragmatischem Rueckzugshinweis.
       - Trotz Peinlichkeit bleibt der Camprahmen tragfaehig; bei Sonnenaufgang bricht das Trio Richtung Oggy auf.
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Tag bis Nacht)**:
+      - Bei Oggy zeigt sich die Superkarre als Gerippe; fuer unauffaellige Tarnung gegen Standardinspektionen fehlen zentrale Teile (u. a. Reifen/Felgen, Panzerung, Front, Batterien, Waffen, Bordcomputer, Innenraum).
+      - Rennfrage intern gespalten: Lauri gegen sofortigen Einstieg, Ely will fahren, George bleibt unentschlossen.
+      - Oggy erkennt Lauris Klinge "Bluttrinker" aus frueher Valentino-Praxis als Executor-Symbol; in seiner Erzaehlung ist die Klinge verflucht und bindet ihre Traeger.
+      - Das Trio entscheidet gegen False-Flag bei Raffen/Scavs und fuer Schadensbegrenzung: Klinge in Saeure, danach vergraben, um DNA-/Rueckverfolgungsrisiken zu senken.
+      - Beim Handling der Klinge wird eine menschenhautartige Scheidenstruktur entdeckt; fuer Lauri/Ely kippt dadurch der Enrico-Kontext in starke Verunsicherung.
+      - Donny recherchiert auf Bitte des Trios opsec-sicher zur Klingenhistorie; Ergebnis (ARBEITSSTAND): Spur bis ca. 1940 in Mexiko, fruehe Valentino-Linien und Nazi-/Nazigold-Erzaehlstrang.
+      - Zwischenstopps: Annabell (kein passender Ersatz), danach Vik/Misty; dort wird Jacky Wells' Tod erwaehnt und ein moeglicher Mama-Wells-Kondolenzfaden geoeffnet.
+      - Vik hat weiter keine adaptiven Mantel-Loesungen und keine belastbaren Zusatzinfos zu Tim/Nieren-Implantatnetz.
+      - Nach Rueckkehr Richtung H10 wird noch kein weiterer Shop-Loop abgeschlossen; George stoesst stattdessen per Phone bei Coach Fred den Klingenersatz "Gwynbleid" an.
+      - Kurz vor 23 Uhr ruft Chubby ins Camp zur Feier; Aldecaldos begruessen das Trio selbstverstaendlich, stellen alte Instrumente ins Zelt und der Abend endet mit Jam/Feier.
+      - Ely setzt erneut Sleep Inducer; kurzfristig ohne direkte Nebenwirkung, aber mit fortbestehendem Uebernutzungsrisiko.
+
+  - **2077-07-12**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Morgen bis Nacht)**:
+      - Lauri wird morgens durch Spruehgeraeusch am Zelt geweckt, verfolgt zwei Jugendliche kurz und entdeckt danach das Trio-Symbol gross auf der Zeltseite.
+      - Der Marker wirkt wie inoffizielle Dauergast-Aufnahme: Emotionale Campreaktion, keine Fremdblicke mehr, deutlich mehr Alltags- und Backstagezugang.
+      - Das Trio erlebt erstmals die ungeschoente Clanseite im Detail (Koerper-/Haushaltsalltag, Familienstreit, Routinearbeit) statt nur Event-/Abenteueroberflaeche.
+      - Tattoo-Stand: Ely fertig gestochen, Lauri begonnen.
+      - Mitch bietet konkrete Reifen-/Felgenoptionen und aktive Mithilfe fuer die restliche Teilebeschaffung des Wagens.
+      - Rennentscheidung konkretisiert: City-Vorrunde wird wegen erwartbarer Zivilopfer ausgelassen; Badlands-Vorrunde in der Folgewoche bleibt als Ziel gesetzt.
+      - Chubby-Plot wechselt in aktiven Modus (Clubabend zum Mitkommen/Anfeuern am selben Abend).
+      - Tagesabschluss erneut mit Musik und Aldecaldo-Rahmen; Ausblick auf Freitag, den 13.

@@ -39,6 +39,7 @@ source: lore_db.md
 - Oggy/Familie <-> Lauri/Ely: nach 2077-07-10 explizit als **Family** anerkannt
 - Aldecaldos <-> Trio: als sehr enge, verlaessliche Freunde mit hoher interner Vertrauensstufe eingestuft
 - Aldecaldos <-> Trio (Rahmen): Freundschaft mit Vertrauenszugang, aber keine formale Nomadenaufnahme; soziale Campregeln und Stolz gelten trotzdem als praktischer Verhaltensrahmen.
+- Aldecaldos <-> Trio (2077-07-12): inoffizieller Dauergast-/Zeltmarker und sichtbarer Wechsel von Beobachtung zu Campalltagsakzeptanz, weiterhin ohne formale Jacken-Aufnahme.
 
 ## 4. Bindungsmarker und spaetere Entwicklungen
 **ARBEITSSTAND**

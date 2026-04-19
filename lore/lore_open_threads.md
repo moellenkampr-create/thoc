@@ -70,3 +70,11 @@ source: lore_db.md
 - 2077-07-10 Trio-Grenzgespraech nach Bar-Konflikt - Wie stabil bleibt die neue Offenheitsregel bei eifersuchts-/adrenalingetriebenen Situationen?
 - 2077-07-11 Saul-Besprechungszelt-Zwischenfall - Welche sozialen Nachwirkungen im Camp bleiben nach der peinlichen Ueberkreuzung?
 - 2077-07-11 Lauris Zugehoerigkeitskonflikt - Derzeit: totale Begeisterung fuer Nomadenleben und Aldecaldo-Kultur. Lauri hat bisher nur die sonnige Seite gesehen. Wie sie reagiert, wenn Schattenseiten sichtbar werden, ist offen. Der innere Abwehrimpuls ("gehoere nicht hierher") liegt unter der Begeisterung vergraben, nicht aufgeloest.
+- 2077-07-11 Oggy-Militech-Rebuild - Welche Beschaffungsroute deckt die noch fehlenden Tarn-/Leistungsteile fuer den Wagen ab (inkl. Risiko, Zeitdruck, Geldfluss)?
+- 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)?
+- 2077-07-11 Enrico-Bluttrinker-Motiv - Warum gab Enrico die Klinge weiter; Schutzhandlung, Manipulation oder dritter Zweck?
+- 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
+- 2077-07-11 Tim als Netz statt Einzelfall - Gibt es weitere Opfer/Kunden oder einen groesseren Verteiler hinter Tims Nieren-/Cyberwaregeschaeft?
+- 2077-07-12 Aldecaldo-Dauergaststatus - Bleibt der inoffizielle Zelt-/Campstatus stabil oder fuehrt er spaeter in formale Clanaufnahmekonflikte?
+- 2077-07-12 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde in der Folgewoche auf Build-Tempo und Risiko aus?
+- 2077-07-12 Chubby-Clubabend - Bleibt es beim Anfeuern oder kippt der Abend in einen spontanen ersten THoC-Buehnenmoment?
