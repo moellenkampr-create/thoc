@@ -241,9 +241,10 @@ source: lore_db.md
     - Ely beschreibt die Nachphase als "Nebel" und verhindert aktiv Leerlauf, um Gedankenkarussell zu vermeiden.
     - Nach Georges Drive-by-Ansage und Com-Abbruch informiert Ely Saul sofort ueber den erwarteten Ruecklauf mit Kuehlwagen.
     - In der Werkstatt baut Ely mit Mitch farbiges Feuerwerk; die technische Arbeit dient als akute Selbstregulation gegen Hoehlen-Nachbilder.
-    - Bei Georges Rueckkehr markiert Ely klar Grenze und Schutzimpuls ("Du hast Drive Bye Verbot!"); Trefferfolgen bleiben als blaue Flecke sichtbar.
+    - Bei Georges Rueckkehr markiert Ely klar Grenze und Schutzimpuls ("Du hast Driveby Verbot!"); Trefferfolgen bleiben als blaue Flecke sichtbar.
     - Beim Drei-Schlangen-Tattoo bleibt Ely vorerst beim Nein wegen Nadel-/Schmerzangst.
     - Das Triogespraech im Zelt endet in einer einstimmigen Richtungsentscheidung gegen Rueckzug in die alte Konzernkomfortzone.
+    - Ely setzt dabei eine klare Werte-Abgrenzung zur alten Konzernoberflaeche ("echte Probleme statt Nagellack/Lipgloss").
   - Ely und Lauri helfen bei Abschiedsgeschenken fuer die Toten; das wird von den Aldecaldos sehr positiv aufgenommen.
   - George spielt bei der Totenfeier mit geliehener Gitarre zusammen mit anderen Aldecaldos traurige Lieder.
   - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
@@ -409,23 +410,34 @@ source: lore_db.md
     - **Lauri-Einzelsicht (ARBEITSSTAND, Tag bis Nacht)**:
       - Bei Oggy zeigt sich die Superkarre als Gerippe; fuer unauffaellige Tarnung gegen Standardinspektionen fehlen zentrale Teile (u. a. Reifen/Felgen, Panzerung, Front, Batterien, Waffen, Bordcomputer, Innenraum).
       - Rennfrage intern gespalten: Lauri gegen sofortigen Einstieg, Ely will fahren, George bleibt unentschlossen.
+      - Camp-/Familiennachlauf bleibt emotional hoch: Nachricht "Jake hat ueberlebt" wirkt als positiver Kippmoment; Oggy setzt Lauri im Familienframe ("Tante Lauri").
+      - Rueckkehr ins Camp ist als ruhige Integrationsszene markiert (keine Showaufnahme, sondern selbstverstaendliche Zugehoerigkeit; auch Saul prostet zu).
       - Oggy erkennt Lauris Klinge "Bluttrinker" aus frueher Valentino-Praxis als Executor-Symbol; in seiner Erzaehlung ist die Klinge verflucht und bindet ihre Traeger.
       - Das Trio entscheidet gegen False-Flag bei Raffen/Scavs und fuer Schadensbegrenzung: Klinge in Saeure, danach vergraben, um DNA-/Rueckverfolgungsrisiken zu senken.
       - Beim Handling der Klinge wird eine menschenhautartige Scheidenstruktur entdeckt; fuer Lauri/Ely kippt dadurch der Enrico-Kontext in starke Verunsicherung.
+      - Lauri erinnert Enricos letzten Moment als bewusstes Loslassen bei klarem Blick; Deutung als moeglicher Verrats-/Manipulationshinweis bleibt explizit ARBEITSSTAND.
       - Donny recherchiert auf Bitte des Trios opsec-sicher zur Klingenhistorie; Ergebnis (ARBEITSSTAND): Spur bis ca. 1940 in Mexiko, fruehe Valentino-Linien und Nazi-/Nazigold-Erzaehlstrang.
       - Zwischenstopps: Annabell (kein passender Ersatz), danach Vik/Misty; dort wird Jacky Wells' Tod erwaehnt und ein moeglicher Mama-Wells-Kondolenzfaden geoeffnet.
+      - Misty stuft Lauris Zustand als akut belastet ein ("schwere Aura") und empfiehlt Folgesitzungen als Stabilisierungspfad.
       - Vik hat weiter keine adaptiven Mantel-Loesungen und keine belastbaren Zusatzinfos zu Tim/Nieren-Implantatnetz.
       - Nach Rueckkehr Richtung H10 wird noch kein weiterer Shop-Loop abgeschlossen; George stoesst stattdessen per Phone bei Coach Fred den Klingenersatz "Gwynbleid" an.
-      - Kurz vor 23 Uhr ruft Chubby ins Camp zur Feier; Aldecaldos begruessen das Trio selbstverstaendlich, stellen alte Instrumente ins Zelt und der Abend endet mit Jam/Feier.
+      - Kurz vor 23 Uhr ruft Chubby ins Camp zur Feier; Anlassrahmen ist als Ueberraschung um Jakes Stabilisierung markiert. Aldecaldos begruessen das Trio selbstverstaendlich, stellen alte Instrumente ins Zelt und der Abend endet mit Jam/Feier.
+      - Nachtmarker: Das Trio schlaeft nach dem Jam erschoepft ein; Sleepy wird in dieser Nacht nicht aktiv gesetzt.
       - Ely setzt erneut Sleep Inducer; kurzfristig ohne direkte Nebenwirkung, aber mit fortbestehendem Uebernutzungsrisiko.
 
   - **2077-07-12**:
     - **Lauri-Einzelsicht (ARBEITSSTAND, Morgen bis Nacht)**:
       - Lauri wird morgens durch Spruehgeraeusch am Zelt geweckt, verfolgt zwei Jugendliche kurz und entdeckt danach das Trio-Symbol gross auf der Zeltseite.
+      - Urheberhinweis im Campkontext: Der Marker am Zelt wird als "Nolans Idee" gerahmt (ARBEITSSTAND).
       - Der Marker wirkt wie inoffizielle Dauergast-Aufnahme: Emotionale Campreaktion, keine Fremdblicke mehr, deutlich mehr Alltags- und Backstagezugang.
       - Das Trio erlebt erstmals die ungeschoente Clanseite im Detail (Koerper-/Haushaltsalltag, Familienstreit, Routinearbeit) statt nur Event-/Abenteueroberflaeche.
+      - Integrationsmarker im Alltag: Lauri beschreibt Aufgabenhilfe im Camp als selbstverstaendlicher (kein Fremdpartikel-Gefuehl mehr).
+      - Ely setzt fuer ihre neue Waffe den Namen "Georgina" als ARBEITSSTAND-Marker.
       - Tattoo-Stand: Ely fertig gestochen, Lauri begonnen.
+      - Tattoo-Detailmarker: Schambereich wird explizit ausgelassen; Lauri verzichtet auf Schmerzmittel. Reihenfolge bleibt Ely zuerst, George/Lauri als naechste.
       - Mitch bietet konkrete Reifen-/Felgenoptionen und aktive Mithilfe fuer die restliche Teilebeschaffung des Wagens.
       - Rennentscheidung konkretisiert: City-Vorrunde wird wegen erwartbarer Zivilopfer ausgelassen; Badlands-Vorrunde in der Folgewoche bleibt als Ziel gesetzt.
-      - Chubby-Plot wechselt in aktiven Modus (Clubabend zum Mitkommen/Anfeuern am selben Abend).
+      - Chubby-Plot bleibt aktiv; fuer den Abend ist vorerst nur Mitkommen/Anfeuern gesetzt, kein Trio-Auftritt.
+      - George fuehrt spaeter ein Solo-Lauf-/Auspowernfenster; Ely/Lauri pausieren wegen frischer Tattoos.
+      - Offener Privatmarker: George haelt ein "Geheimnis bis Sonntag".
       - Tagesabschluss erneut mit Musik und Aldecaldo-Rahmen; Ausblick auf Freitag, den 13.

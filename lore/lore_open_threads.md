@@ -73,8 +73,10 @@ source: lore_db.md
 - 2077-07-11 Oggy-Militech-Rebuild - Welche Beschaffungsroute deckt die noch fehlenden Tarn-/Leistungsteile fuer den Wagen ab (inkl. Risiko, Zeitdruck, Geldfluss)?
 - 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)?
 - 2077-07-11 Enrico-Bluttrinker-Motiv - Warum gab Enrico die Klinge weiter; Schutzhandlung, Manipulation oder dritter Zweck?
+- 2077-07-11 Enrico-Letzter-Moment (Lauri-Recall) - ARBEITSSTAND-Hypothese: Enrico liess beim Sturz bewusst los und wirkte in diesem Moment klar. Einordnung offen (Fehlwahrnehmung, Trauma-Rekonstruktion oder absichtlicher Akt).
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
 - 2077-07-11 Tim als Netz statt Einzelfall - Gibt es weitere Opfer/Kunden oder einen groesseren Verteiler hinter Tims Nieren-/Cyberwaregeschaeft?
 - 2077-07-12 Aldecaldo-Dauergaststatus - Bleibt der inoffizielle Zelt-/Campstatus stabil oder fuehrt er spaeter in formale Clanaufnahmekonflikte?
 - 2077-07-12 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde in der Folgewoche auf Build-Tempo und Risiko aus?
-- 2077-07-12 Chubby-Clubabend - Bleibt es beim Anfeuern oder kippt der Abend in einen spontanen ersten THoC-Buehnenmoment?
+- 2077-07-12 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
+- 2077-07-12 George-Geheimnis bis Sonntag - Was ist der Inhalt des angekuendigten Geheimnisses und wie stark beeinflusst es Trio-/Plotentscheidungen ab Sonntag?

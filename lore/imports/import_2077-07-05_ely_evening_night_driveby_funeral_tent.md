@@ -19,7 +19,7 @@
 
 ## Rueckkehr George / Koerpermarker
 - George kehrt mit Scorpion/Kuehlwagen zurueck und steigt unsicher von der ARCH.
-- Ely erkennt Treffer-/Aufprallfolgen (Loecher in der Kluft, blaue Flecke), setzt direkt Grenze: "Du hast Drive Bye Verbot!"
+- Ely erkennt Treffer-/Aufprallfolgen (Loecher in der Kluft, blaue Flecke), setzt direkt Grenze: "Du hast Driveby Verbot!"
 
 ## Totenfeier / Campdynamik
 - Lauri praesentiert das Drei-Schlangen-Tattoo als Trio-Symbol; George will mitziehen, Ely bleibt wegen Nadel-/Schmerzangst vorerst beim Nein.
@@ -30,6 +30,7 @@
 ## Ethik-Entscheid der Nacht
 - Im Zelt folgt gemeinsame Aufarbeitung: Toetung, Todesnaehe und Leichenkonfrontation werden explizit benannt.
 - Das Trio trifft eine einstimmige Richtungsentscheidung gegen Rueckzug in die alte Konzernkomfortzone.
+- Ely rahmt die Entscheidung als harte Abgrenzung gegen Konzernoberflaeche ("echte Probleme statt Nagellack/Lipgloss").
 - Ue18-Anteil bleibt als Bindungs-/Entlastungsmarker gefuehrt, ohne explizite Chronikdetails.
 
 ## Konsolidierungshinweise

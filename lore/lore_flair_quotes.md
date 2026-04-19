@@ -89,14 +89,16 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Donny?" / "Spaeter!"
 - "Das haettet ihr auch einfacher haben koennen. Ich bin Mitch von den Aldecaldos"
 - "Einmal ist keinmal, zweimal ein Zufall, aber dreimal ein Muster."
+- Mitch-Hintergrundmarker: "Panzerboy in einem anderen Leben"
 
 ### 5.-Juli Abend/Nacht: Drive-by-Nachlauf, Feuerwerk, Totenfeier (Ely-Sicht)
 **ARBEITSSTAND**
 - "Ich gehe wie durch Nebel."
 - "Wenn ich nichts tue, startet das Gedankenkarussell."
-- "Du hast Drive Bye Verbot!"
+- "Du hast Driveby Verbot!"
 - "Wollen wir auf diesem Weg weitergehen oder zurueck in die heile Welt?"
 - "FUCK NEIN." (einstimmige Triolinie)
+- "Hier geht es um echte Probleme und nicht, ob dein Nagellack zu deinem Lipgloss passt."
 - Feuerwerk als aktiver Trauer-/Integrationsmarker im Aldecaldo-Lager.
 
 ### 5.-Juli Wraith-/Raffen-Versteck (Lauri-Sicht)
@@ -111,6 +113,7 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Ich wollte doch nur, dass er die Pistole loslaesst. Es tut mir leid."
 - "Du hast alles richtig gemacht. Alles absolut richtig."
 - "SCHALT UNS NICHT AB. Bitte."
+- "Ich wollte sie nicht toeten. Es tut mir leid."
 - "Drei Schlaege spaeter fetzt der Boxsack auseinander."
 - "Wir werden mit einem Kuehlwagen zurueckkommen... Es sind viele."
 
@@ -169,11 +172,12 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 **ARBEITSSTAND**
 - "Fuer so was haben wir Dakota, wir verlassen uns auf Familie."
 - "Panam-Scheiss"
+- "Macht keinen Panamscheiss"
 - "IHR SEID SO UNFAIR!"
 - "Ich versuche hier zu ruehren! Ihr seid gemein!"
 - "Der Aerger findet sie.. oder sie ihn."
 - George-Bandbruchlinie: Football -> Uni -> Militaer -> Politik
-- "es geht um das Leben von Jack"
+- "es geht um das Leben von Jake"
 - 10k-Nachforderung kurz vor Uebergabe
 - identisches OS-Muster wie bei Jenny
 - "Er versucht die Cops anzurufen, George unterbricht das."
@@ -191,6 +195,9 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Du gehoerst nicht hierher."
 - "Ich muss meinen Koerper fertig machen, sonst drehe ich durch."
 - "Ich kenne sowas nicht. Das fuehlt sich so an, wie ich immer dachte, dass sich Familie anfuehlen soll."
+- "Tante Lauri."
+- "WEIL ICH NUNMAL GERNE KINDER GLUECKLICH MACHE."
+- "ICH HEULE IMMER, WENN ES MIR GUT GEHT. ARGHS"
 - "Ihr wisst schon, dass das Zelt von Saul ist..."
 - "Sorry.. Ventil.."
 - "Bitte, nicht dankbar."
@@ -201,6 +208,18 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Wer Bluttrinker traegt, ist der Executor der Valentinos."
 - "Ich glaube nicht an Geister oder verfluchten Muell."
 - "Keine Geheimnisse."
+- "Ich BIN KEIN KILLER!"
+- "Warum hat er mir die Scheiss Waffe geschenkt?!"
+- "Du hast ne scheiss Aura! Setz dich dahin."
+- "NEIN ICH SCHWITZE.. aus den Augen."
+- "Georgina, ich nenne sie Georgina!"
+- "Ich mache das fuer meine neue Waffe, damit ich sie tragen kann."
+- "Sie beobachten uns nichtmehr. Ich fuehle mich nicht mehr so beobachtet."
+- "War nolans Idee."
+- "Komm, SO bloed sind wir auch ned."
+- "Siehste, Ely, du darfst nicht fahren, Lauri nicht auftreten.. nur ich darf alles."
+- "Ich fuehle mich, als waeren mir Fluegel gewachsen, als waere ich komplett frei."
+- "Vielleicht sind die Schlangen am Zelt, damit sie naechstesmal wissen, welches Zelt weit weg von den anderen stehen sollte."
 - Das Trio-Symbol als frischer Graffiti-Marker auf dem eigenen Zelt.
 - Campton kippt von Beobachtung zu Alltagsakzeptanz ("keine Blicke mehr").
 - "Durch die Innenstadt ist einfach scheisse. Zu viele tote Passanten und Schaulustige jedes Jahr."
