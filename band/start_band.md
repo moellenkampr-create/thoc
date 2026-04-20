@@ -55,6 +55,8 @@ Der Band‑Chat:
 - `band/lyrics/`  
 - `band/compositions/`  
 - `band/production_notes.md`  
+- `band/suno_prompting.md`  
+- `band/voice_profiles.md`  
 
 ---
 
@@ -95,6 +97,13 @@ Standard: **INTERPRETATION**
 - Stilkern: emotional
 - Wiedererkennungswert ueber 80s-Metal-DNA, klare Stimmenrollen und wiederkehrende Motivik
 - Produktionsdetails und Suno-Defaults in `band/production_notes.md`
+- detaillierte Suno-Regeln in `band/suno_prompting.md`
+- feste Stimmrollen in `band/voice_profiles.md`
+
+## 10.1 Ladehinweis fuer neue Band-Chats
+- zuerst `band/start_band.md` laden
+- danach `band/production_notes.md`
+- fuer Suno-Arbeit zusaetzlich `band/suno_prompting.md` und `band/voice_profiles.md` laden
 
 ## 11. Versionierung
 Änderungen erfolgen nach musikalischer Prüfung.
