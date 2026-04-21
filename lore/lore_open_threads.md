@@ -80,3 +80,19 @@ source: lore_db.md
 - 2077-07-12 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde in der Folgewoche auf Build-Tempo und Risiko aus?
 - 2077-07-12 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
 - 2077-07-12 George-Geheimnis bis Sonntag - Was ist der Inhalt des angekuendigten Geheimnisses und wie stark beeinflusst es Trio-/Plotentscheidungen ab Sonntag?
+- 2077-07-12 Global-News-Trigger (China) - Wie schnell schlagen die News in NC auf konkrete Fluchtbewegungen durch, und welche Geruechte sind echt vs. Propaganda?
+- 2077-07-12 Schleuserdruck in NC - Bleibt es bei lokalen Zellen oder zeigt sich frueh ein groesseres Netzwerk mit Auftraggebern?
+- 2077-07-12 Nomadenrolle - Wie offen/verdeckt helfen Aldecaldos bei Fluchtkorridoren, und wo liegen ihre roten Linien?
+- 2077-07-12 Trio-Entscheidungspfad im Sideplot - Schutzkorridor, Taeterjagd oder Beweis-/Leak-Strategie als Primaerroute?
+- 2077-07-12 Sorcoress-Rueckkehr - Wann taucht Sorcoress erstmals aktiv in NC auf, und bleibt der Einstieg zunaechst bei Milky Way statt Kitty Cat?
+- 2077-07-12 Sorcoress vs. Rogue - Entwickelt sich die Beziehung zu Konkurrenz, Co-Existenz oder zweckgebundener Kooperation?
+- 2077-07-12 Doppelauftrag-Hook - Nimmt das Trio parallel Jobs von Sorcoress und Rogue an, und welche Loyalitaetskosten entstehen daraus?
+- 2077-07-12 Maria-Ueberwachungsmodell - Wurde Maria frueher ueber ein billiges Implantat getrackt, und wann genau wurde es entfernt?
+- 2077-07-12 Maria-Reaktivierung - Wie schnell findet Lauris Vater Maria nach Wiederaufnahme der Suche (alte Adresse/nahe Linien), und weiss Maria, dass sie wieder im Blick ist?
+- 2077-07-12 Drohnen-Schattenlauf nach Maria-Kontakt - Entdeckt George die Micro-Drohne rechtzeitig und kann das Trio den Follow brechen, ohne Maria direkt zu gefaehrden?
+- 2077-07-12 Kurz-Direktkanal Vater->Lauri - Kommt es nach dem Maria-Kontakt zu einer kurzen Warn-/Druckansage, und was ist der unmittelbare Preis bei Ignorieren?
+- 2077-07-14 Elias-Rueckkehr nach NC - Bleibt Elias trotz Rueckkehr zunaechst im Quiet-Containment, solange George keinen direkten Reputationsschaden ausloest?
+- 2077-07-14 Vorrennen-/Gewaltbilder als Machthebel - Nutzt Elias das Stadt-Vorrennen gezielt fuer Narrativsteuerung und Deal-Druck?
+- 2077-07-14 Praesidentinnen-Hook - Elias weiss von einem Plan in/fuer NC, aber nicht vom Inhalt: welche Gegenabsicherung faehrt er vorab?
+- 2077-07-14 Mutter-Undercover-Ankunft - Kommt Georges Mutter in den Folgetagen verdeckt nach NC, und welchen sicheren Erstkontakt waehlt sie?
+- 2077-07-14 Mutter-Finanzspur ueber Ely - Kann die Mutter Elys Vermoegens-/Deckmuster lesen, ohne das Trio fuer Elias sichtbar zu machen?

@@ -249,6 +249,56 @@ source: lore_db.md
 - Donny recherchiert opsec-fokussiert die Historie; erste Linie fuehrt bis etwa 1940 nach Mexiko und beruehrt Valentino-Gruendungsmythen inkl. Nazi-/Nazigold-Erzaehlungen.
 - Plotfunktion: verbindet Trauma, Fraktionsgeschichte, digitale Aufklaerung und moegliche Gegenspieler, die auf Suchspuren reagieren koennten.
 
+### Fluchtkorridor-/Schleuserdruck (China-News-Trigger)
+**ARBEITSSTAND - SIDEPLOT / HUMANITAERER DRUCKPLOT**
+- Ausloeser ist eine verdichtete globale Newslage (Krisenversorgungsgesetze, staatliche Jubelnarrative, Migrationsdruck).
+- Erwartete lokale Folge in Night City: mehr irregulaere Einreisen ueber Pazifik-/Hafenknoten, steigende Ausbeutung durch Schleuser.
+- Nomaden (inkl. Aldecaldo-Umfeld) werden als diskrete Transport- und Schutzknoten angefragt, offiziell oft ohne klare Position.
+- Kernkonflikt: Hilfe, OpSec und Gewaltspirale laufen gleichzeitig.
+
+**Dramaturgische Leitlinie**
+- Kein "Retterplot" im Autopilot: Fokus auf Dilemmata (wen zuerst retten, wem trauen, wann Gewalt legitim ist).
+- Gewalt gegen Taeter bleibt moeglich, aber Informationsgewinn (Listen, Schuldkonten, Beweisketten) ist gleichwertig.
+- Der Plot darf lokal klein starten (1 Zelle), aber in ein Netzwerk skalieren.
+
+**Einstieg in 4 Stufen (empfohlen)**
+- Stufe 1: News-/Rumor-Atmosphaere, erste verschwundene Personen, gestohlene Dokumente.
+- Stufe 2: Einzelfall mit konkreter Bitte um Hilfe (Passagenbetrug / Schuldknechtschaft).
+- Stufe 3: Knotenangriff (Safehouse oder Datadepot der Schleuser) mit Opfer-/Beweis-Sicherung.
+- Stufe 4: Richtungsentscheid des Trios: Schutzkorridor stabilisieren oder Schleusernetz offensiv zerschlagen.
+
+**Direkte Anschlussoptionen ans bestehende Gefuege**
+- Aldecaldo-Linie: Transport-/Safehousehilfe gegen interne Risiko-/Stolzkonflikte.
+- Tim-/Schwarzmarktlinie: gefaelschte IDs, Implantatverschiebung, medizinische Erpressung.
+- Race-/Machtlinie: Wohlhabende Auftraggeber koennen Schleuser als Wegwerf-Infrastruktur missbrauchen.
+
+**Sofort ausspielbarer Newsblock**
+- Siehe Import: lore/imports/import_2077-07-12_global_news_china_refugee_hook.md
+
+### Sorcoress-Rueckkehr: Milky Way -> Kitty Cat
+**ARBEITSSTAND - SIDEPLOT / CLUB-MACHTPLOT**
+- Historischer Hook: 2020 betrieb Sorcoress den Club **Kitty Cat**, verdiente dort erhebliches Kapital und verschwand spaeter auf Weltreise.
+- Koerper-/Lebensstatus im Hook: Sorcoress wird als Gehirn im Longlivity-Modul mit Full-Body-Conversion gefuehrt; lange Inaktivphase/Tiefschlaf (ca. 40 Jahre) als Legendenkern.
+- Wiedereinstieg in 2077 soll klein beginnen: zuerst Wiederaufbau der Milchbar **Milky Way**, danach moeglicher Re-Launch von **Kitty Cat**.
+
+**Konfliktachse (offen, bewusst nicht festgelegt)**
+- Sorcoress und Rogue sind in derselben Oekosphare potenzielle Wettbewerberinnen.
+- Beziehung bleibt absichtlich offen zwischen: kalte Geschaeftskoexistenz, taktische Kooperation oder verdeckter Konflikt.
+
+**Trio-Einsatzlogik (Kernidee)**
+- Beide Seiten koennen das Trio fuer Jobs anheuern, teils mit widerspruechlichen Zielen.
+- Fokus liegt auf Informationsasymmetrie, Loyalitaetskosten und Langzeitfolgen statt auf einfacher Fraktionswahl.
+
+**Missionsrahmen (frueh spielbar)**
+- Auftragsdoppelung: zwei Auftraggeberinnen, ein Zielobjekt, unterschiedliche Endbedingungen.
+- Schutz-/Einschuechterungsjobs im Clubumfeld (Personal, Lieferketten, Erpressungsdruck).
+- Datensicherung/Schmutzdaten gegen Club- und Routenmacht.
+
+**Andockpunkte ans bestehende Gefuege**
+- Band-/Velvet-Static-Linie: Auftritts-, Booking- und Reputationshebel.
+- Fluchtkorridor-/Schleuserdruck: Club-/Barstrukturen als Kontakt- oder Ausbeutungsknoten.
+- Elias-/Machtlinien: Moegliche Instrumentalisierung von Clubgeruechten, Leaks oder Personal.
+
 ## 4. Elternreaktion und Eskalationsmatrix (Post-2077-07-10)
 **ARBEITSSTAND - Leitplanken fuer Plotweiterfuehrung**
 
@@ -265,10 +315,13 @@ source: lore_db.md
 - Lauri sucht aktiv nach Maria (altes Kindermaedchen / Koechin, Schlangen-Vorfall, spaeteres Verschwinden).
 - Lauris Vater kennt diese Verbindung und kann Maria als verdeckten Suchknoten nutzen.
 - Plausibles Vorgehen:
-  - Maria durch externe Dritte aufspueren
-  - zunaechst nur beobachten, nicht direkt greifen
+  - Fruehphase vermutlich low-cost: statt neuer Identitaet eher Einschuechterung, ggf. kleine Abfindung, Verlagerung in unauffaelliges Umfeld
+  - Fruehphase-Ueberwachung plausibel ueber billiges Implantat/Telemetrie statt dauerhafter Spotter
+  - spaeterer Bruch: Maria laesst das Implantat entfernen und faellt aus dem Raster
+  - Reaktivierung in 2077: erneute Suche ueber alte Adresse/soziale Linien; lokale Micro-Drohne an externer Stromquelle als guenstige Beobachtung
   - ueber Marias Kontaktketten Rueckschluesse auf Lauris Bewegungen gewinnen
 - Zusatzrisiko: moeglicher Druck auf Maria als Schutzfigur, wenn der Suchfaden heisser wird.
+- Eskalationsoption im Kontaktfenster: Drohne folgt dem Trio nach Erstkontakt; George entdeckt den Schattenlauf frueh, danach ist ein kurzer Direktkanal vom Vater zu Lauri moeglich.
 
 ### 4.3 Elternrollen - wer findet was wie
 - Lauris Vater:
@@ -293,6 +346,9 @@ source: lore_db.md
 - Nach der Saburo-Nachphase sind nachgelagerte Reibungen deutlich wahrscheinlicher und koennen verzoegert, aber haerter einschlagen.
 
 ### 4.5 Elias-Entscheidungsmatrix (Rueckkehrphase)
+- **Fixpunkt (ARBEITSSTAND):** Elias kehrt am **2077-07-14** nach Night City zurueck.
+- Operative Prioritaet bei Rueckkehr: Race-/Geschaeftsfenster und politische Grosslagen gehen vor unmittelbarer George-Jagd.
+- Zwischenstand George: Solange George keine direkt schaedigenden Schritte gegen Elias setzt, bleibt er eher "kontrollrelevanter Ausreisser" als Akutziel.
 - **Pfad A - Quiet Containment (derzeit wahrscheinlichster Pfad)**
   - Ziel: Zeit gewinnen, politische Exposition minimieren
   - Mittel: juristische Vorfeldarbeit, Narrativkontrolle, keine offene Grosseskalation
@@ -310,3 +366,11 @@ source: lore_db.md
 - Trigger 1: neue belastbare Spur zu Maria -> Suchdruck auf Lauri-Linie steigt
 - Trigger 2: erstes glaubwuerdiges Leak zur Vaterschaftsfrage -> Elias wechselt von A nach B
 - Trigger 3: oeffentliche Vorrennen-Spannung plus Trump-Konflikte -> externe Ausnutzung der Familienkrise
+
+### 4.8 Mutterlinie (Covert-Rueckkehr / Finanzspur)
+**ARBEITSSTAND**
+- Georges Mutter hat den Bruch zu Elias in Distanzphasen teilweise verarbeitet und kann wieder handlungsfaehiger agieren, bleibt aber hoch vorsichtig.
+- Plausibler Zugriffspfad: Sie findet George nicht direkt, sondern ueber Finanz-/Vermoegensmuster, die sie ihm frueher selbst beigebracht hat.
+- Realistischer Kontaktknoten: Ely als operative Finanzverwalterin des Trios wird zur indirekten Suchoberflaeche.
+- Zeitfenster: moegliche Ankunft der Mutter in NC in den naechsten Tagen nach Elias-Rueckkehr, bewusst under cover.
+- Grundton der Mutterlinie: verdeckte Schutzhilfe statt offener Konfrontation mit Elias.
