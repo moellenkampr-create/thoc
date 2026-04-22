@@ -68,7 +68,7 @@
 - Tattoo-Fortschritt wird praezisiert: Schambereich explizit ausgeschlossen, Lauri ohne Schmerzmittel; Reihenfolge bleibt Ely zuerst, George/Lauri danach.
 - Sylvia-Linie bleibt defensiv: "auf uns zukommen lassen, nicht umgekehrt".
 - Chubby-Clubabend wird konkretisiert: kein Trio-Auftritt an diesem Abend, nur Zuschauen/Anfeuern (ARBEITSSTAND-Bestaetigung).
-- Privat-/Plotmarker: George haelt ein "Geheimnis bis Sonntag"; Lauri setzt dafuer aktiv einen Erinnerungs-/Timeranker.
+- Privat-/Plotmarker (**UNSICHER / ARBEITSSTAND**): "Geheimnis bis Sonntag" ist notiert, aber Sprecherzuordnung und Inhalt sind nicht belastbar bestaetigt.
 - Koerper-/Trainingsmarker: George laeuft spaeter allein; Ely/Lauri pausieren wegen frischer Tattoos.
 - Race-Linie wird erneut bestaetigt: City raus, Badlands bleibt.
 

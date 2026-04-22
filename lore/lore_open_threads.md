@@ -77,9 +77,9 @@ source: lore_db.md
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
 - 2077-07-11 Tim als Netz statt Einzelfall - Gibt es weitere Opfer/Kunden oder einen groesseren Verteiler hinter Tims Nieren-/Cyberwaregeschaeft?
 - 2077-07-12 Aldecaldo-Dauergaststatus - Bleibt der inoffizielle Zelt-/Campstatus stabil oder fuehrt er spaeter in formale Clanaufnahmekonflikte?
-- 2077-07-12 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde in der Folgewoche auf Build-Tempo und Risiko aus?
-- 2077-07-12 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
-- 2077-07-12 George-Geheimnis bis Sonntag - Was ist der Inhalt des angekuendigten Geheimnisses und wie stark beeinflusst es Trio-/Plotentscheidungen ab Sonntag?
+- 2077-07-18 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde zum Vorrennen am 18.07 auf Build-Tempo und Risiko aus?
+- 2077-07-16 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
+- 2077-07-12 George-Geheimnis bis Sonntag - **UNSICHER (ARBEITSSTAND):** Marker bleibt vorlaeufig offen; Sprecherzuordnung und Inhalt sind nicht belastbar bestaetigt.
 - 2077-07-12 Global-News-Trigger (China) - Wie schnell schlagen die News in NC auf konkrete Fluchtbewegungen durch, und welche Geruechte sind echt vs. Propaganda?
 - 2077-07-12 Schleuserdruck in NC - Bleibt es bei lokalen Zellen oder zeigt sich frueh ein groesseres Netzwerk mit Auftraggebern?
 - 2077-07-12 Nomadenrolle - Wie offen/verdeckt helfen Aldecaldos bei Fluchtkorridoren, und wo liegen ihre roten Linien?
@@ -91,8 +91,8 @@ source: lore_db.md
 - 2077-07-12 Maria-Reaktivierung - Wie schnell findet Lauris Vater Maria nach Wiederaufnahme der Suche (alte Adresse/nahe Linien), und weiss Maria, dass sie wieder im Blick ist?
 - 2077-07-12 Drohnen-Schattenlauf nach Maria-Kontakt - Entdeckt George die Micro-Drohne rechtzeitig und kann das Trio den Follow brechen, ohne Maria direkt zu gefaehrden?
 - 2077-07-12 Kurz-Direktkanal Vater->Lauri - Kommt es nach dem Maria-Kontakt zu einer kurzen Warn-/Druckansage, und was ist der unmittelbare Preis bei Ignorieren?
-- 2077-07-14 Elias-Rueckkehr nach NC - Bleibt Elias trotz Rueckkehr zunaechst im Quiet-Containment, solange George keinen direkten Reputationsschaden ausloest?
-- 2077-07-14 Vorrennen-/Gewaltbilder als Machthebel - Nutzt Elias das Stadt-Vorrennen gezielt fuer Narrativsteuerung und Deal-Druck?
-- 2077-07-14 Praesidentinnen-Hook - Elias weiss von einem Plan in/fuer NC, aber nicht vom Inhalt: welche Gegenabsicherung faehrt er vorab?
-- 2077-07-14 Mutter-Undercover-Ankunft - Kommt Georges Mutter in den Folgetagen verdeckt nach NC, und welchen sicheren Erstkontakt waehlt sie?
-- 2077-07-14 Mutter-Finanzspur ueber Ely - Kann die Mutter Elys Vermoegens-/Deckmuster lesen, ohne das Trio fuer Elias sichtbar zu machen?
+- 2077-07-16 Elias-Rueckkehr nach NC - Bleibt Elias trotz Rueckkehr zunaechst im Quiet-Containment, solange George keinen direkten Reputationsschaden ausloest?
+- 2077-07-18 Vorrennen-/Gewaltbilder als Machthebel - Nutzt Elias das Stadt-Vorrennen gezielt fuer Narrativsteuerung und Deal-Druck?
+- 2077-07-16 Praesidentinnen-Hook - Elias weiss von einem Plan in/fuer NC, aber nicht vom Inhalt: welche Gegenabsicherung faehrt er vorab?
+- 2077-07-16 Mutter-Undercover-Ankunft - Kommt Georges Mutter in den Folgetagen verdeckt nach NC, und welchen sicheren Erstkontakt waehlt sie?
+- 2077-07-16 Mutter-Finanzspur ueber Ely - Kann die Mutter Elys Vermoegens-/Deckmuster lesen, ohne das Trio fuer Elias sichtbar zu machen?

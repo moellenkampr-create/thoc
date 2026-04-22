@@ -439,5 +439,5 @@ source: lore_db.md
       - Rennentscheidung konkretisiert: City-Vorrunde wird wegen erwartbarer Zivilopfer ausgelassen; Badlands-Vorrunde in der Folgewoche bleibt als Ziel gesetzt.
       - Chubby-Plot bleibt aktiv; fuer den Abend ist vorerst nur Mitkommen/Anfeuern gesetzt, kein Trio-Auftritt.
       - George fuehrt spaeter ein Solo-Lauf-/Auspowernfenster; Ely/Lauri pausieren wegen frischer Tattoos.
-      - Offener Privatmarker: George haelt ein "Geheimnis bis Sonntag".
-      - Tagesabschluss erneut mit Musik und Aldecaldo-Rahmen; Ausblick auf Freitag, den 13.
+      - **UNSICHERER MARKER (ARBEITSSTAND):** "Geheimnis bis Sonntag" ist als Notiz erfasst, aber Sprecherzuordnung und Inhalt sind derzeit nicht belastbar bestaetigt.
+      - Tagesabschluss erneut mit Musik und Aldecaldo-Rahmen; Ausblick auf Freitag, den 16.
