@@ -156,6 +156,7 @@ source: lore_db.md
 - Ob George, Ely und Lauri selbst aktiv in Qualifikation oder Hauptrennen einsteigen, bleibt offen und spielerabhaengig.
 - Qualifikationsrennen werden nur dann ausfuehrlich relevant, wenn die Protagonisten selbst teilnehmen; sonst bleiben sie Hintergrund, Beobachtung oder Kulisse.
 - **Neuer Zwischenstand (2077-07-12, Lauri-Sicht):** City-Vorrunde wurde aus Zivilopfer-/Ethikgruenden vorerst verworfen; Badlands-Vorrunde in der Folgewoche ist aktuell favorisiert.
+- **Fixpunkt (ARBEITSSTAND):** Das erste relevante Vorrennen fuer die aktuelle Runde ist auf **2077-07-18** gesetzt.
 - Hauptrennen-Teilnahme bleibt offen, da Teilelage und Tarnumbau der Superkarre noch nicht gesichert sind.
 
 ## 2. Paralleler CP2077-Weltplot / Seitenlage
@@ -211,7 +212,7 @@ source: lore_db.md
 - Am **2077-07-09** wird der Plot erstmals konkret ausgespielt: Chubby jammt mit dem Trio am Feuer, stellt Instrumente / Improvisationsdrums und bestaetigt ernsthaft ihr musikalisches Potential.
 - Chubby laedt das Trio aktiv ins **Velvet Static** ein; vorerst als **Zuschauer/Mitkommende**, nicht als fix gebuchter Act.
 - Am **2077-07-11 spaet** ruft Chubby das Trio wieder ins Camp; Aldecaldos stellen alte Instrumente in ihr Zelt. Das wirkt als Integrationssignal und als Musik-Setup vor dem Clubabend.
-- Am **2077-07-12** ist die Einladung zum Clubabend konkret aktiv (mitkommen/anfeuern am selben Abend); die Schwelle von "vielleicht" zu "jetzt" ist damit ueberschritten.
+- Am **2077-07-16 (Freitag)** ist die Einladung zum Clubabend konkret aktiv (mitkommen/anfeuern am selben Abend); die Schwelle von "vielleicht" zu "jetzt" ist damit ueberschritten.
 - Velvet-Events laufen dort typischerweise kurzfristig (ca. 2-4 Tage Vorlauf); das genaue Datum ist bewusst offen.
 - Chubby prueft zugleich die soziale Spannungslinie des Trios: Kommen sie wirklich von den "Richis" und was machen sie jetzt bei den Aldecaldos im "Dreckloch"?
 - Seine Kombination aus Lagerpraesenz und Fernstudium in **Musik** und **BWL** macht ihn plausibel als ernsthaften Bandfoerderer mit Szene- und Orga-Blick.
@@ -233,7 +234,7 @@ source: lore_db.md
 - Indirekter oder direkter Andockpunkt an den Weltplot
 
 **Offen**
-- Der naechste Velvet-Slot ist fuer den aktuellen Abend angelegt; offen bleibt, ob es beim Zuschauen bleibt oder spontan in einen THoC-Testauftritt kippt
+- Der naechste Velvet-Slot ist fuer **Freitag, 2077-07-16** angelegt; offen bleibt, ob es beim Zuschauen bleibt oder spontan in einen THoC-Testauftritt kippt
 - Genauer Ablauf des Abends
 - Wer genau die rivalisierende reiche/privilegierte Band ist
 - Wie stark Chubby vorher schon mit dem Trio verbunden ist
@@ -346,7 +347,7 @@ source: lore_db.md
 - Nach der Saburo-Nachphase sind nachgelagerte Reibungen deutlich wahrscheinlicher und koennen verzoegert, aber haerter einschlagen.
 
 ### 4.5 Elias-Entscheidungsmatrix (Rueckkehrphase)
-- **Fixpunkt (ARBEITSSTAND):** Elias kehrt am **2077-07-14** nach Night City zurueck.
+- **Fixpunkt (ARBEITSSTAND):** Elias kehrt am **2077-07-16 (Freitag)** nach Night City zurueck.
 - Operative Prioritaet bei Rueckkehr: Race-/Geschaeftsfenster und politische Grosslagen gehen vor unmittelbarer George-Jagd.
 - Zwischenstand George: Solange George keine direkt schaedigenden Schritte gegen Elias setzt, bleibt er eher "kontrollrelevanter Ausreisser" als Akutziel.
 - **Pfad A - Quiet Containment (derzeit wahrscheinlichster Pfad)**
@@ -374,3 +375,69 @@ source: lore_db.md
 - Realistischer Kontaktknoten: Ely als operative Finanzverwalterin des Trios wird zur indirekten Suchoberflaeche.
 - Zeitfenster: moegliche Ankunft der Mutter in NC in den naechsten Tagen nach Elias-Rueckkehr, bewusst under cover.
 - Grundton der Mutterlinie: verdeckte Schutzhilfe statt offener Konfrontation mit Elias.
+
+## 5. Plot-Branch-Board (Pilot)
+**ARBEITSSTAND - SPIELLEITUNGSWERKZEUG**
+
+### Hybrid-Tick-Regel (kein Zwangs-Autopilot)
+- **GESCHOBEN**: Plot ist bewusst geparkt. Kein Auto-Fortschritt. Tick nur per SL-Entscheidung.
+- **BEREIT**: Naechster Tick ist vorbereitet, wird aber nur bei Trigger oder Zeitfenster ausgeloest.
+- **LAUFEND**: Leichter Fortschritt ohne grosse Vorbereitung moeglich; Tick kann per Zeitablauf erfolgen.
+- Standard fuer diesen Pilot: nur die **naechsten 1-2 Ticks** pro Branch pflegen, nicht den ganzen Plotbaum.
+
+### Hauptlinie (aktuell bespielt)
+- **MAIN: Chubby-/Band-Plot (Velvet Static)**
+  - Status: **AKTIV**
+  - Aktive Spielfrage: bleibt es beim Mitkommen/Anfeuern oder kippt es in einen ersten THoC-Buehnenmoment?
+
+### Nebenbranches (mit naechsten Ticks)
+
+#### Branch A - Sorcoress-Rueckkehr (Milky Way -> Kitty Cat)
+- Status: **BEREIT**
+- Tick A1: interner Umbaufortschritt Milky Way wird in Street-Gespraechen erstmals als Geruecht greifbar.
+  - Ausloeser: Zeitfenster 2-4 Tage ODER SL setzt bewusst einen Hook.
+  - Sichtbares Signal: Bar-/Fixer-Talk ueber "neue Milchbar mit echten Milchprodukten".
+- Tick A2: kleiner Infojob taucht auf (Lieferkette/Personal/Schutz), ohne Sorcoress direkt auf die Buehne zu holen.
+  - Ausloeser: Trio sucht aktiv Club-/Fixer-Kontakte ODER Chubby-Abend erzeugt Anschlusskontakt.
+  - Kontakt zur Mainline: Clubszene/Bandumfeld.
+
+#### Branch B - Fluchtkorridor-/Schleuserdruck (China-News-Trigger)
+- Status: **LAUFEND**
+- Tick B1: News und Rumors verdichten sich; erste widerspruechliche Meldungen (humanitaer vs. propaganda).
+  - Ausloeser: reiner Zeitfortschritt (1-2 Tage) moeglich.
+  - Sichtbares Signal: News-Scroller, Funkfetzen, Geruechte im Markt-/Hafenumfeld.
+- Tick B2: Einzelfall-Hook (Person verschwunden / Schuldkonto / Passagenbetrug) wird konkret.
+  - Ausloeser: SL-Entscheidung oder aktiver Kontakt des Trios zu Aldecaldos/Fixern.
+  - Kontakt zur Mainline: kann als kurzer Zwischenimpuls vor/nach Chubby-Szenen eingestreut werden.
+
+#### Branch C - Elias Rueckkehr / Quiet-Containment
+- Status: **BEREIT**
+- Tick C1: Elias ist ab 2077-07-16 (Freitag) wieder in NC und bleibt zunaechst low-profile (Pfad A).
+  - Ausloeser: Ingame-Datum erreicht 2077-07-16.
+  - Sichtbares Signal: indirekte Sicherheits-/Narrativbewegung statt offener Schlag.
+- Tick C2: erste weiche Reputations- oder Kontrollmassnahme gegen George.
+  - Ausloeser: Trigger bei belastbarem Leak oder bei sichtbarer Trio-Exposition.
+  - Kontakt zur Mainline: Nachhall auf Club-/Social-Layer (Geruechte, Blickwechsel, vorsichtige Warnungen).
+
+#### Branch D - Maria-Hook (Suchknoten Vater -> Lauri)
+- Status: **BEREIT**
+- Tick D1: Maria-Linie wird reaktiviert (alte Adresse/nahe soziale Kanten), ohne sofortigen Zugriff.
+  - Ausloeser: SL-Entscheidung, wenn Suchdruck steigen soll.
+  - Sichtbares Signal: leise Hinweise, dass jemand alte Spuren wieder anfasst.
+- Tick D2: Micro-Drohnen-Schattenlauf nach Kontaktfenster.
+  - Ausloeser: nur wenn Maria-Kontakt real ausgespielt wurde.
+  - Kontakt zur Mainline: kann direkt nach Chubby-Abend als kalter Realitaetsbruch gesetzt werden.
+
+#### Branch E - Mutterlinie (Covert-Rueckkehr / Finanzspur)
+- Status: **GESCHOBEN**
+- Tick E1: verdeckte Ankunft in NC.
+  - Ausloeser: bewusst nur per SL-Entscheidung (nicht automatisch am Datum).
+  - Sichtbares Signal: zunaechst keins fuer das Trio; nur minimale Vorzeichen im Finanz-/Kontaktmuster.
+- Tick E2: erster indirekter Ping ueber Elys Muster, ohne Elias zu alarmieren.
+  - Ausloeser: erst nach gesetztem E1 und wenn dramaturgisch gewollt.
+  - Kontakt zur Mainline: spaeterer emotionaler Einschlag, nicht als Sofort-Interrupt.
+
+### Einsatzregel fuer die Runde
+- Pro Spieltag maximal 1 Mainline-Fortschritt plus 0-2 Nebenbranch-Ticks.
+- Wenn ein Nebenbranch die Szene dominiert, kann er temporaer Mainline werden; die alte Mainline wird dann BEREIT oder GESCHOBEN.
+- Ziel: spuerbare Weltbewegung ohne Vorbereitungszwang.
