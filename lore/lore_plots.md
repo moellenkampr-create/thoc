@@ -257,6 +257,11 @@ source: lore_db.md
 - Nomaden (inkl. Aldecaldo-Umfeld) werden als diskrete Transport- und Schutzknoten angefragt, offiziell oft ohne klare Position.
 - Kernkonflikt: Hilfe, OpSec und Gewaltspirale laufen gleichzeitig.
 
+**Signalquellen-Standard (fuer Spielleitung und Kalender)**
+- **OFFIZIELL / NEWSCAST**: on-air Nachrichtensendung, oeffentlich zitierbar (kann direkt vorgelesen oder als Kalender-Note freigegeben werden).
+- **STRASSE / RUMOR**: inoffizielle Geruechte, Bar-/Fixer-/Hafenfunk, widerspruechlich und nicht verifiziert.
+- **EINZELFALL / HOOK**: konkrete Person oder konkrete Bitte, die direkt ans Trio herangetragen wird.
+
 **Dramaturgische Leitlinie**
 - Kein "Retterplot" im Autopilot: Fokus auf Dilemmata (wen zuerst retten, wem trauen, wann Gewalt legitim ist).
 - Gewalt gegen Taeter bleibt moeglich, aber Informationsgewinn (Listen, Schuldkonten, Beweisketten) ist gleichwertig.
@@ -405,9 +410,10 @@ source: lore_db.md
 - Status: **LAUFEND**
 - Tick B1: News und Rumors verdichten sich; erste widerspruechliche Meldungen (humanitaer vs. propaganda).
   - Ausloeser: reiner Zeitfortschritt (1-2 Tage) moeglich.
-  - Sichtbares Signal: News-Scroller, Funkfetzen, Geruechte im Markt-/Hafenumfeld.
+  - Sichtbares Signal: **OFFIZIELL / NEWSCAST** plus **STRASSE / RUMOR** im Markt-/Hafenumfeld.
 - Tick B2: Einzelfall-Hook (Person verschwunden / Schuldkonto / Passagenbetrug) wird konkret.
   - Ausloeser: SL-Entscheidung oder aktiver Kontakt des Trios zu Aldecaldos/Fixern.
+  - Signaltyp: **EINZELFALL / HOOK** (konkret und direkt spielbar).
   - Kontakt zur Mainline: kann als kurzer Zwischenimpuls vor/nach Chubby-Szenen eingestreut werden.
 
 #### Branch C - Elias Rueckkehr / Quiet-Containment
