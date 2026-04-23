@@ -31,11 +31,15 @@ source: lore_db.md
 #### Cyberware / Technik
 - Kyroshi Cyberoptics MK IV, modifiziert
 - Dual-OS-Logik:
-  - Dynalar OS
-  - Raven Microcyber MK IV Beta
+  - **Dynalar OS**: kontrolliertes System von Elias (bis Aug/Sept 2076)
+  - **Raven Microcyber MK IV Beta**: von Viktor Vektor installiert (Aug/Sept 2076), befreit George von Elias-Kontrolle
 - Techhair vorhanden
 - Noch **keine** Cybertattoos
 - George traegt dieselbe hochwertige Augenklasse wie Ely und Lauri; die aktuelle Ware ist qualitativ deutlich besser als fruehere Systeme.
+- **Befreiungsweg (Aug/Sept 2076)**:
+  - Viktor Vektor flashte das Raven Microcyber MK IV Beta OS und entfernte das Dynalar OS.
+  - Parallel dazu speiste Donny seit Sept 2075 systematisch falsche Daten ins System ein, um Elias' Ueberwachung zu verwirren.
+  - Nach der Befreiung zeigte sich Georges volles genetisches Intelligenz-Potenzial (Prodigy-Vorteil) deutlich.
 - 2077-07-09 (ARBEITSSTAND): George baut eine stabile Optik-Hub-Funktion fuer Trio-Feeds (Weiterleitung, virtuelle Monitor-Skalierung/Positionierung, Replay bis 5 Minuten); nicht alle Features sind fuer Ely/Lauri bereits transparent.
 
 #### Cyberware-Hintergrund
@@ -66,9 +70,9 @@ source: lore_db.md
 - `Street Mode`: Motorrad-/Edgerunner-/Trainingsleben, deutlich naeher am echten Selbst
 
 #### Kernkonflikte
-- elterliche Kontrolle durch Elias
-- Fake-Feed / Ueberwachung / Verhaltenssteuerung
-- Fussballumfeld als Druck- und Gewaltfeld
+- **elterliche Kontrolle durch Elias**: teilweise befreit seit Aug/Sept 2076 (Cyberware-Befreiung durch Vik); jedoch weiterhin aktive Ueberwachung, Drohungen und emotionale Manipulation durch Elias
+- Fake-Feed-Reste: Donny speist seit Sept 2075 Falschinformationen ein, aber vollstaendige Sicherung unklar
+- Fussballumfeld als Druck- und Gewaltfeld (von Elias instrumentalisiert)
 - Freiheitswunsch durch Bindung an Ely und Lauri
 - fruehe Bandlinie in New York (12/13) wurde von Elias vor erstem Gig aktiv zerschlagen; wirkt als anhaltender Musik-/Loyalitaetstraumaanker
 
@@ -160,8 +164,16 @@ source: lore_db.md
 ### Viktor Vektor
 **KANON**
 - Ripperdoc / medizinischer Kontakt / Vertrauensperson des Trios
-- biologischer Vater von George
-- behandelte mehrfach Wunden und half bei der Entdeckung bzw. Teilfreisetzung der Kontrollmechanismen
+- **biologischer Vater von George**
+- **Erstes Treffen mit George (Aug/Sept 2076)**:
+  - Georges Mutter hinterliess Hinweise, die George zu Vik fuertten (vermutlich absichtlich).
+  - Bei erstem Treffen wurde schnell klar, dass Vik sein biologischer Vater ist.
+  - Vik wird Vertrauensperson fuer Cyberware-Befreiung.
+- **Befreiung von Elias-Kontrolle (Aug/Sept 2076)**:
+  - Vik installierte das **Raven Microcyber MK IV Beta OS** in George.
+  - Entfernte das kontrollierte **Dynalar OS**.
+  - Nach der Befreiung zeigte sich Georges volle genetische Intelligenz (Prodigy-Vorteil) deutlich.
+- behandelte mehrfach Wunden von Trio und half bei der Entdeckung bzw. Teilfreisetzung der Kontrollmechanismen (insbesondere bei Ely und Lauri am 2077-06-07)
 
 ### Oggy
 **KANON**

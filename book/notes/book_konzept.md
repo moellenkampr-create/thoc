@@ -123,7 +123,20 @@ Eine erwachsene, immersive, charaktergetriebene Geschichte, die:
 
 ---
 
-## 9. Ressourcen-Übersicht
+## 9. Kapitel-Arbeitsweise (verbindlich)
+
+Vor jedem neuen Kapitel gilt folgende Reihenfolge:
+
+1. **Ressourcen ankündigen** — ich nenne, welche Manga-Pages, Bilder oder sonstigen Quellen ich mir ansehe; der User kann sofort korrigieren
+2. **Ressourcen sichten** — Manga-Pages, Bodyshots, Environments, Props, relevante Lore-Einträge
+3. **Stichpunkt-Übersicht** — Szenenstruktur in Bullet Points, ohne Prosatext; Feedback des Users einholen
+4. **Volltext schreiben** — erst nach Freigabe der Übersicht
+
+Kein Kapitel wird ohne diesen Durchlauf direkt als Volltext geschrieben.
+
+---
+
+## 10. Ressourcen-Übersicht
 
 | Pfad | Inhalt | Nutzung |
 |---|---|---|

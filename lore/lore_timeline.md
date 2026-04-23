@@ -34,6 +34,21 @@ source: lore_db.md
   - Training bei den Valentinos
   - Lauri bricht einem Belaestiger den Arm
   - Chemie-Manipulation an einem Professor zur Notenkorrektur
+  - George beginnt ebenfalls NCU; traegt sich anfangs mit dem Clean-Mode-Traum vom Footballstar und Senatorensohn.
+
+- **Sept 2075**: Donny-Falschinformation gegen Elias etabliert.
+  - George ist zu diesem Zeitpunkt bereits auf der Uni und mit Donny vertraut.
+  - Donny beginnt, falsche Daten ins System einzuspeisen, um Elias' Ueberwachung und Kontrolle durch irreführende Signale zu erschweren.
+  - Diese laufende Massnahme laeuft parallel zu Georges Suche nach einer Loesung seiner Cyberware-Kontrolle.
+
+- **Aug/Sept 2076**: George lernt Viktor Vektor kennen.
+  - Seine Mutter hinterlässt Hinweise (vermutlich absichtlich), die George zu Vik fuehren.
+  - Bei erstem Treffen wird schnell klar, dass Vik sein biologischer Vater ist.
+  - Vik wird George's Vertrauensperson fuer Cyberware-Befreiung.
+  - Vik installiert das **Raven Microcyber MK IV Beta OS** und entfernt das kontrollierte **Dynalar OS**.
+  - Nach der Befreiung zeigt sich Georges volle genetische Intelligenz (Prodigy-Vorteil) deutlich.
+  - Die Befreiung durch Vik und die Donny-Falschinformation bilden zusammen das Fundament von Georges Unabhaengigkeit von Elias.
+
 - **Winter 2076**: Enrico-Phase und Enrico-Tragoedie.
   - Ely und Lauri werden ueber Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **Cojote Cojo**.
   - Zwischen Ely, Lauri und Enrico entsteht eine echte intime Phase ohne die ueblichen gesellschaftlichen Masken.
@@ -82,7 +97,8 @@ source: lore_db.md
 ## 3. Fruehe 2077-Hauptlinie
 **KANON**
 - **2077-06-01**:
-  - Drittes Unijahr startet.
+  - Ely und Lauri starten ihr **drittes Unijahr**.
+  - George ist bereits im **vierten Unijahr** und traegt weiterhin den Clean-Mode-Fassade nach aussen.
   - Ely freut sich besonders auf Chemie; in diesem Semester geht es um Explosivstoffe.
   - Ely und Lauri treten an der Uni offen als Paar auf.
   - Lauri verabschiedet Ely mit einem innigen Kuss am Spind; Ely reagiert sichtbar verlegen, ihre Cybertattoos schlagen in Schmetterlingsmustern an.
