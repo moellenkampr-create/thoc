@@ -181,6 +181,13 @@ source: lore_db.md
 - wichtiger Anker in Red Peaks
 - fuer George familiaenaehnliche Bezugsperson
 - kaufte das spaetere Kurierbike von Patrick, ohne zu tief nachzufragen
+- **Familie**:
+  - Ehefrau: **Jennifer** (Alias: **Jenny**); ihr Gesundheitszustand ist instabil
+  - Jennifer traegt eine **Cyberniere mit kontrollierter Firmware** (von aussen nicht frei aenderbar)
+  - Kinder: **Colan** (ca. 10) und **Emily "Emmy"** (ca. 9)
+  - Die Kinder nennen George **"Onkel George"**
+  - Jennifer nennt George beim Vornamen und behandelt ihn wie einen Neffen
+  - Nach 2077-07-10: Oggy/Familie werden vom Trio explizit als **Family** anerkannt
 
 ### Gerard
 **KANON**
@@ -331,6 +338,14 @@ source: lore_db.md
 ### Tim
 **ARBEITSSTAND**
 - Zwischenhaendler / Dealer im Jake-Nierenpfad
+- **Nieren-Firmware-Scam (WICHTIG)**:
+  - Tim behauptet, ein Konzern stecke hinter der Nieren-Firmware-Kontrolle.
+  - **FAKTEN**: Es gibt KEINEN ausnutzenden Konzern. Tim IS der operative Taeter.
+  - Die Nierende von Zetatech (Hersteller), wurde von Tim mit kontrollierter Firmware versehen.
+  - Tim nutzt die gleiche Kontrolllogik wie Biotechnica (Leasing-Abhaengigkeit), aber ILLEGAL und mit doppeltem Zweck: finanzielle Kontrolle + spaetere Erpressung.
+  - Biotechnica macht das LEGAL; Tims Scam ist glaubwuerdig genau WEIL Biotechnicas Modell bekannt ist.
+  - Jennifer (Oggys Frau) und Jake (Aldecaldo-Junge) haben beide identische OS-Muster in ihren Nierende --> beides Tim-Opfer.
+  - **George's Erkenntnis (2077-07-10)**: Scannt Jakes Niere, erkennt Muster als identisch mit Jennys --> zeigt, dass Tim systematisch vorgeht.
 - fordert kurz vor Uebergabe zusaetzliche 10k
 - gibt unter Druck Niere und spaeter Originalsoftware heraus
 - versucht waehrend der Eskalation Polizei-Intervention zu triggern
