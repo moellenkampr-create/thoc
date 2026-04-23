@@ -232,6 +232,13 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - Songursprung: "Drei Herzen aus Chrom"
 - Superfahrzeug: "Superkarre"
 
+### Fruehe Juni-Marker (Ely-Tagebuch, ARBEITSSTAND)
+- Uni-Spind/Outing: "ich war knalle rot ... meine Cybertattoos ... ueberall Schmetterlinge"
+- Brueckenszene/Nachlauf: "Traegt er auch eine Maske wie wir?"
+- Spieltag/Elias-Druck: "Konzernhuren, guter Ruf"
+- Geschenkmarker: Halsketten aus alter Fahrradkette mit rotem Blutharz-Stein (self-made statt Luxusgeschenk)
+- Sleep-Inducer-Marker: "1 Stunde wie 8" bei begrenzter Wochenfrequenz
+
 ## 7. Arbeitsregel fuer spaetere Pflege
 **KANON**
 - Wenn eine Formulierung beim Wiederlesen sofort Figur, Szene oder Beziehungsdynamik traegt, gehoert sie hierher, auch wenn sie bereits in einer Strukturdatei inhaltlich enthalten ist.

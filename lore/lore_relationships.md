@@ -28,6 +28,7 @@ source: lore_db.md
 - `Public Open Together` - das Trio bleibt offen zusammen
 - `Only Together / No Separate Access` - Ely und Lauri geben George von Beginn an nur gemeinsamen romantisch-sexuellen Zugang; keine Einzellinie gegeneinander
 - `George Only / No Other Men` - Ely und Lauri setzen frueh, dass romantisch-sexuell nur George als Mann infrage kommt
+- `No Expensive Gifts / Self-made Preferred` - keine teuren Geschenke innerhalb des Trios; selbstgemachte bzw. persoenliche Handarbeit gilt als akzeptierter Ausdruck
 
 ## 3. Wichtige Einzelfaeden
 **KANON**

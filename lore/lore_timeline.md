@@ -59,14 +59,17 @@ source: lore_db.md
 
 - **Ende Mai 2077**:
   - Vor dem neuen Uni-Semester erhalten Ely und Lauri eine Einladung zur Trauerfeier fuer Enrico im **Cojote Cojo** von **Mama Wells**.
+  - Ely und Lauri bringen ein Enrico-Gericht zur Feier mit; Erinnerungsaltar und Erzaehlrunde werden als zentraler Ritualrahmen beschrieben.
   - Die Feier macht deutlich, dass die Valentinos bzw. das Umfeld mit der Zeremonie bewusst auf Ely und Lauri gewartet haben, damit beide teilnehmen koennen.
+  - Ely hoert dazu im Umfeld explizit die Markierung als "Enricos Chicas" (inkl. Verweis auf Lauris vorherige Krankenhausphase).
   - Die Bedeutung dieser Geste ist Ely und Lauri zunaechst nicht voll bewusst.
   - Auf der Feier zeigen beide offen echte Trauer und echte Gefuehle; das beeindruckt und freut das Umfeld.
   - Danach gelten sie bei **Padre**, **Mama Wells** und im Valentinos-Umfeld als **Freunde**.
   - **2 Tage nach der Totenfeier** bittet **Padre** die beiden um einen ersten echten Informationsjob gegen die **5. Kolonne** in Haywood.
-  - Donny unterstuetzt den Einbruch technisch; Ely und Lauri fuehren die Mission erfolgreich durch.
+  - Donny unterstuetzt den Einbruch technisch (u. a. ueber Bauplaene und kurzes Kamera-/Cyberware-Fenster); Ely und Lauri fuehren die Mission erfolgreich durch.
   - Der Erfolg, das Adrenalin und die Rueckkehr von Handlungsfaehigkeit markieren einen fruehen operativen Wendepunkt.
   - In derselben Nacht wie der Padre-Job tanzen Ely und Lauri im Club der Plaza Apartments die Nacht durch und entscheiden, ihre Beziehung nicht laenger verstecken zu wollen.
+  - Ely markiert in dieser Phase zudem einen Stilkontrast: Lauri mit neuen klassischen Tattoos, Ely selbst klar pro Tec-Tattoos.
   - Diese Entscheidung ist noch kein harter Sofort-fuer-immer-Schalter, sondern Teil einer weiterhin instabilen Such- und Uebergangsphase.
 
 ## 3. Fruehe 2077-Hauptlinie
@@ -93,12 +96,18 @@ source: lore_db.md
 - **2077-06-05**:
   - George gibt Ely und Lauri VIP-Tickets fuer sein Footballspiel.
   - Auf der Fahrt bezeichnet Elias Ely und Lauri als **"Konzernhuren"**.
+  - Elys Wahrnehmung auf dem Spieltag: Der Auftritt von Elias und das Siegerinterview wirken stark kuratiert/inszeniert.
   - Elias hat das Spiel teilweise gekauft bzw. manipuliert, damit George besonders gut herauskommt, um damit jemanden zu beeindrucken.
   - Direkt nach dem Spiel nimmt Elias George sofort mit, damit er nicht mit Ely und Lauri gesehen wird.
+  - In der Nacht wird die fruehe Trioregel explizit geschaerft: exklusiv als Trio, keine anderen Maenner, keine teuren Geschenke (self-made als akzeptierte Ausnahme).
 - **2077-06-06**:
+  - Fruehmarker im Apartment: Lauris Verlustangst triggert stark, als George kurzzeitig nicht sichtbar ist; Rueckkehr mit Fruehstueck deeskaliert die Lage.
+  - George uebergibt Ely und Lauri je eine Halskette aus seiner alten Fahrradkette mit rotem Stein (Blut in Kunstharz); der Moment wird als Bindungsmarker gesetzt.
   - George nimmt Ely und Lauri mit zu **Vik** und offenbart ihnen, dass Viktor Vektor sein biologischer Vater ist.
+  - Vor Vik-Kontakt erklaert George den Sleep Inducer konkreter: 1 Stunde kann wie etwa 8 Stunden Erholung wirken; Nutzung soll auf ca. 2-3 Anwendungen pro Woche begrenzt bleiben.
   - **Wakako** ruft an.
   - Vik scannt Ely und Lauri, deaktiviert die Ueberwachungssoftware und informiert sie ueber die Kontrolle ihrer Fruchtbarkeit.
+  - Die Nordfahrt zur Beschaffung verankert ein hartes Sozialbild (bewaffnete Kinder in Seitengassen) und steigert Elys Milieuschock vor dem Vik-Knoten.
   - Fruehe exklusive Trioregel schaerft sich: Ely und Lauri oeffnen George den romantisch-sexuellen Zugang nur gemeinsam; weitere Maenner sind ausgeschlossen.
 - **2077-06-07**:
   - Die Eltern von Ely und Lauri kommen ins Plaza Apartment.
