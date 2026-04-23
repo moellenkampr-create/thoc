@@ -69,6 +69,9 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Bad-Boy-/Macho-Maske, war in intimeren Momenten aber deutlich echter"
 - "gemeinschaftlicher Toten- und Erinnerungskontext der Valentinos"
 - "die Valentinos bzw. das Umfeld [haben] mit der Zeremonie bewusst auf Ely und Lauri gewartet"
+- "Keiner trennt Ely und mich."
+- "Niemals ihm seine Dominanz nehmen, wenn andere zusehen."
+- "Drogen? Wenn, dann nur freiwillig, ohne, dass sie uns jemand ungefragt in den Mund schiebt."
 
 ### Aldecaldo- und Bandflair
 - Motto: "Love, Sadness, Fear"
