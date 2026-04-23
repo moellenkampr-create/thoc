@@ -142,6 +142,7 @@ source: lore_db.md
 #### Persona-Prinzip
 - `Clean Mode`: zurueckhaltend, schuechterner, NCU-/Corporate-kompatibel
 - `Street Mode`: deutlich veraenderte, selbstbestimmtere und visuell drastischere Strassenpersona
+- `Street Mode` (Look): traegt im Alltag mit Techhair **meistens rot**.
 
 #### Kernkonflikte
 - Kontrollsystem der Eltern / emotionale Daempfung / Fremdsteuerung
