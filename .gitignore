@@ -1,0 +1,5 @@
+# Ignore all local/legacy media assets
+/Ressourcen/**
+
+# Optional placeholder to keep directory structure in git if needed
+!/Ressourcen/.gitkeep
