@@ -96,9 +96,10 @@ Lauri hat gelernt: wenn etwas zu gut wird, rechnet das Universum ab. Das ist ein
 - Musik als echter Ausdruck (Gitarre, Songschreiben) vs. Football als Pflicht
 
 ### Wissensstand Anfang Buch 1
-- Kennt Ely und Lauri noch nicht
-- Lebt unter Elias' Kontrolle und Überwachung (Fake-Feed, Verhaltenssteuerung)
-- Weiß über Viktor Vektor als biologischen Vater: **noch nicht in Buch 1** — das kommt erst am 6. Juni 2077
+- Kennt Ely und Lauri noch nicht persönlich — beobachtet sie seit letztem Semester aus der Distanz als das nicht-geoutete Pärchen (Biotechnica / Arasaka)
+- **Weiß seit Aug/Sept 2076**, dass Viktor Vektor sein biologischer Vater ist (erste Begegnung; Georges Mutter hinterließ absichtlich Hinweise)
+- Ist seit Aug/Sept 2076 von Elias' Cyberware-Kontrolle befreit (Dynalar OS entfernt, Raven Microcyber MK IV Beta installiert durch Vik)
+- Elias' Überwachung, Drohungen und emotionale Manipulation bestehen weiter — nur ohne direkten Cyberware-Zugriff
 - Football-Umfeld: Druck, Gewalt durch Teamkollegen (auf Elias' Veranlassung), öffentliche Erfolgsmaske
 
 ### Auftritte in Buch 1
