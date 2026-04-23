@@ -11,6 +11,7 @@ Dieses Repository organisiert THoC in mehrere Chat-Instanzen mit eigenen Startda
 - `manga/start_manga.md` – Manga Startdatei
 - `band/start_band.md` – Band Startdatei
 - `urop/start_urop.md` – URoP Startdatei
+- `book/start_book.md` – Book Startdatei
 
 > Hinweis: Neue Startdateien und relevante Chat-Dateien werden hier ergänzt, sobald sie ins Repository aufgenommen werden.
 
@@ -23,3 +24,4 @@ Dieses Repository organisiert THoC in mehrere Chat-Instanzen mit eigenen Startda
 - `manga/`
 - `band/`
 - `urop/`
+- `book/`

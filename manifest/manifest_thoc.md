@@ -115,6 +115,13 @@ Wenn die KI erkennt, dass eine wiederkehrende Arbeitsweise sinnvoll als Regel fo
 - Beispiele  
 - Regeltexte  
 
+### 4.8 Book
+- Buchstruktur  
+- Kapitel  
+- Szenische Ausarbeitung  
+- Erzaehlperspektive  
+- Stilkonsistenz  
+
 ---
 
 ## 5. Startdateien
@@ -126,5 +133,6 @@ Wenn die KI erkennt, dass eine wiederkehrende Arbeitsweise sinnvoll als Regel fo
 - `manga/start_manga.md`  
 - `band/start_band.md`  
 - `urop/start_urop.md`  
+- `book/start_book.md`  
 
 Diese Startdateien bilden die zentrale Basis für die jeweilige Chat-Instanz und strukturieren ThoC in klare Zuständigkeiten.
