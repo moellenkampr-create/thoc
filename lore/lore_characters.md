@@ -242,6 +242,12 @@ source: lore_db.md
 - Die vorgetaeuschte Schwangerschaft, die gestoerte fruehe Bindung zu Lauri, spaetere Verdachtsmomente und Walters fortgesetzte Kontrolle deformieren sie ueber Jahre.
 - Walter haelt Elisa mit Aerzten, Medikamenten, sozialem Druck und in den letzten Jahren wohl auch gezielteren Eingriffen in Wahrnehmung und Erinnerung klein.
 - Elisa sieht in Lauri zugleich ihre Tochter, Walters Luege, die eigene Ohnmacht und einen echten Menschen, den sie nie sauber schuetzen konnte.
+- **Nach Enricos Unfall — Stille Gegenkraft (ARBEITSSTAND, Kap05):**
+  - Elisa koennte nicht offen gegen Walters Kontaktverbot-Forderung antreten; sie ist zu kontrolliert.
+  - Stattdessen engagierte sie **Dr. Redmond**, um das Verbot medizinisch zu blockieren: ein Gutachten, das Walters Entscheidung illegitim macht, ohne dass Walters Name direkt widersprochen wird.
+  - Diese subtile, indirekte Gegenkraft ist Elisas Weg, sich langsam von Walter loszulösen, ohne direkte Konfrontation zu riskieren.
+  - Das ist auch eine Schutzgeste gegenüber Lauri: "Ich werde dich nicht verlieren, auch wenn ich nicht laut schreien kann."
+  - Elisa als stille Kraft bleibt dem Trio voellig verborgen (ARBEITSSTAND).
 
 ### Bertram von Eichner
 - Kam ueber die **NCU** frueh mit Walter zusammen; anfangs wirkte Walter auf ihn wie ein verlaesslicher, harter, nuetzlicher Freund.
@@ -365,12 +371,14 @@ source: lore_db.md
 - ruft kurz vor Uebergabe weinend an wegen Tims 10k-Nachforderung
 
 ### Dr. Redmond
-**ARBEITSSTAND**
+**ARBEITSSTAND (Kap05)**
 - Arzt / Gutachter; tritt nie persoenlich in Erscheinung
+- **Auftraggeber:** **Elisa Fredderic-Henshaw** (Elisas subtile Gegenkraft gegen Walters Kontrollabsichten)
 - Blockierte Walters Versuch, dauerhaften Kontaktabbruch zwischen Ely und Lauri durchzusetzen (Krankenhausphase Maerz–Mai 2077)
-- Verfasste oder beauftragte Gutachten: dauerhafte Trennung von *"Bezugsperson H."* (= Lauri Henshaw) als *kontraindiziert*; irreversible psychische Langzeitfolgen bei Kontaktabbruch nicht auszuschliessen
+- Verfasste Gutachten: dauerhafte Trennung von *"Bezugsperson H."* (= Lauri Henshaw) als *kontraindiziert*; irreversible psychische Langzeitfolgen bei Kontaktabbruch nicht auszuschliessen
 - Empfahl Koordination mit Dr. Vilkoff in der Redwood-Klinik
-- **OFFEN:** Wer steht hinter Dr. Redmond? Handelte er aus echtem medizinischem Interesse, auf externen Auftrag, oder als Teil eines unbekannten Machtzugs?
+- Elisas Auftrag war vermutlich diskret/halbverborgen; Dr. Redmond handelte medizinisch legitim (das Gutachten ist sachlich korrekt), wusste aber, dass er damit Walters Agenda blockiert.
+- **OFFEN:** Hat Elisa Dr. Redmond direkt kontaktiert, oder lief das ueber Biotechnica-/Corporate-Kontakte? Wie sicher war die Kommunikation?
 
 ### Dr. Vilkoff
 **ARBEITSSTAND**
