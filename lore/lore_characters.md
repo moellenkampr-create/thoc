@@ -33,15 +33,21 @@ source: lore_db.md
 #### Cyberware / Technik
 - Kyroshi Cyberoptics MK IV, modifiziert
 - Dual-OS-Logik:
-  - **Dynalar OS**: kontrolliertes System von Elias (bis Aug/Sept 2076)
-  - **Raven Microcyber MK IV Beta**: von Viktor Vektor installiert (Aug/Sept 2076), befreit George von Elias-Kontrolle
+  - **Dynalar OS**: Sandevistan-aehnliches System, optimiert fuer Football (kurze Verlangsamung der Umgebungswahrnehmung, verbessertes Werfen, Reaktionspraezision); urspruenglich mit Elias-Fernkontrolle; Aug/Sept 2076: Vik saeubert Firmware, Elias-Kontrolle entfernt, OS selbst bleibt aktiv
+  - **Raven Microcyber MK IV Beta**: von Viktor Vektor installiert **Feb/Maerz 2077** zusammen mit Wechselmodul
+  - **Wechselmodul**: erlaubt Umschalten zwischen Dynalar und Raven; moeglich, aber schmerzhaft/unangenehm
 - Techhair vorhanden
 - Noch **keine** Cybertattoos
 - George traegt dieselbe hochwertige Augenklasse wie Ely und Lauri; die aktuelle Ware ist qualitativ deutlich besser als fruehere Systeme.
-- **Befreiungsweg (Aug/Sept 2076)**:
-  - Viktor Vektor flashte das Raven Microcyber MK IV Beta OS und entfernte das Dynalar OS.
+- **Befreiung Stufe 1 (Aug/Sept 2076)**:
+  - Vik saeubert das Dynalar OS (Firmware-only): Elias-Fernkontrolle entfernt, OS bleibt aktiv.
   - Parallel dazu speiste Donny seit Sept 2075 systematisch falsche Daten ins System ein, um Elias' Ueberwachung zu verwirren.
-  - Nach der Befreiung zeigte sich Georges volles genetisches Intelligenz-Potenzial (Prodigy-Vorteil) deutlich.
+  - Georges Intelligenzpotenzial zeigt sich etwas klarer; Prodigy-Vorteil bleibt noch dormant.
+- **Befreiung Stufe 2 / OS-Upgrade (Feb/Maerz 2077)**:
+  - Vik installiert das **Raven Microcyber MK IV Beta OS** plus **Wechselmodul** (Zahlung fuer einen Runner, dem Vik das Leben gerettet hatte).
+  - Das neue OS loest eine massive neurologische Reaktion aus: alle bisher dormanten genetischen Verbesserungen werden gleichzeitig aktiviert.
+  - Reaktion aeussert sich als stundenlanger unkontrollierbarer "Anfall"; **Misty Olszewski** betreut George in der Klinik bis zur Stabilisierung.
+  - **Prodigy-Vorteil (vollstaendig aktiv ab Feb/Maerz 2077)**: Intelligenz auf menschliches Maximum; Signalverarbeitungsgeschwindigkeit im Gehirn erheblich optimiert; Lernfaehigkeit und Drohnenkontrolle profitieren direkt.
 - 2077-07-09 (ARBEITSSTAND): George baut eine stabile Optik-Hub-Funktion fuer Trio-Feeds (Weiterleitung, virtuelle Monitor-Skalierung/Positionierung, Replay bis 5 Minuten); nicht alle Features sind fuer Ely/Lauri bereits transparent.
 
 #### Cyberware-Hintergrund
@@ -173,10 +179,13 @@ source: lore_db.md
   - Georges Mutter hinterliess Hinweise, die George zu Vik fuertten (vermutlich absichtlich).
   - Bei erstem Treffen wurde schnell klar, dass Vik sein biologischer Vater ist.
   - Vik wird Vertrauensperson fuer Cyberware-Befreiung.
-- **Befreiung von Elias-Kontrolle (Aug/Sept 2076)**:
-  - Vik installierte das **Raven Microcyber MK IV Beta OS** in George.
-  - Entfernte das kontrollierte **Dynalar OS**.
-  - Nach der Befreiung zeigte sich Georges volle genetische Intelligenz (Prodigy-Vorteil) deutlich.
+- **Befreiung Stufe 1 (Aug/Sept 2076)**:
+  - Vik saeubert das Dynalar OS (Firmware-only): Elias-Fernkontrolle entfernt, OS bleibt aktiv.
+  - Georges Intelligenzpotenzial zeigt sich etwas klarer; Prodigy-Vorteil bleibt noch dormant.
+- **Befreiung Stufe 2 / OS-Upgrade (Feb/Maerz 2077)**:
+  - Vik installiert das **Raven Microcyber MK IV Beta OS** plus **Wechselmodul**.
+  - Massive neurologische Reaktion bei Installation; **Misty Olszewski** betreut George bis zur Stabilisierung.
+  - **Prodigy-Vorteil** vollstaendig aktiv ab Feb/Maerz 2077.
 - behandelte mehrfach Wunden von Trio und half bei der Entdeckung bzw. Teilfreisetzung der Kontrollmechanismen (insbesondere bei Ely und Lauri am 2077-06-07)
 
 ### Oggy

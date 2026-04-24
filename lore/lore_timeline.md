@@ -45,9 +45,16 @@ source: lore_db.md
   - Seine Mutter hinterlässt Hinweise (vermutlich absichtlich), die George zu Vik fuehren.
   - Bei erstem Treffen wird schnell klar, dass Vik sein biologischer Vater ist.
   - Vik wird George's Vertrauensperson fuer Cyberware-Befreiung.
-  - Vik installiert das **Raven Microcyber MK IV Beta OS** und entfernt das kontrollierte **Dynalar OS**.
-  - Nach der Befreiung zeigt sich Georges volle genetische Intelligenz (Prodigy-Vorteil) deutlich.
-  - Die Befreiung durch Vik und die Donny-Falschinformation bilden zusammen das Fundament von Georges Unabhaengigkeit von Elias.
+  - **Befreiung Stufe 1**: Vik saeubert das Dynalar OS (Firmware-only) — Elias-Fernkontrolle entfernt, OS selbst bleibt aktiv. Das Dynalar ist ein Sandevistan-aehnliches System fuer Football (Reaktionspraezision, Wurfverbesserung).
+  - Georges Intelligenzpotenzial zeigt sich etwas klarer; Prodigy-Vorteil bleibt noch dormant.
+  - Die Dynalar-Saeuberung und die Donny-Falschinformation bilden zusammen das Fundament von Georges beginnender Unabhaengigkeit von Elias.
+
+- **Feb/Maerz 2077**: Georges OS-Upgrade und vollstaendige Befreiung.
+  - **Befreiung Stufe 2**: Vik installiert das **Raven Microcyber MK IV Beta OS** zusammen mit einem **Wechselmodul** (Zahlung fuer einen Runner, dem Vik das Leben gerettet hatte).
+  - Das Wechselmodul erlaubt Umschalten zwischen Dynalar und Raven; moeglich, aber schmerzhaft/unangenehm.
+  - Das neue OS loest eine massive neurologische Reaktion aus: alle bisher dormanten genetischen Verbesserungen werden gleichzeitig aktiviert.
+  - Reaktion aeussert sich als stundenlanger unkontrollierbarer "Anfall"; **Misty Olszewski** betreut George in der Klinik bis zur Stabilisierung.
+  - **Prodigy-Vorteil vollstaendig aktiv ab Feb/Maerz 2077**: Intelligenz auf menschliches Maximum; Signalverarbeitungsgeschwindigkeit erheblich optimiert; Lernfaehigkeit und Drohnenkontrolle profitieren direkt.
 
 - **Winter 2076**: Enrico-Phase und Enrico-Tragoedie.
   - Ely und Lauri werden ueber Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **Cojote Cojo**.
