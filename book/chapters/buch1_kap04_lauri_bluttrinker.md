@@ -176,7 +176,7 @@ Er drehte sich um. Das Lächeln war weg. Darunter war etwas anderes — Augen zu
 
 Er startete den Motor. Das Ding röhrte unter ihm, und ich sah, wie seine Hände auf dem Lenker nicht ganz ruhig waren, und etwas in mir wurde kalt.
 
-Ich wollte nach seinem Arm greifen. Er gab Gas — nicht viel, nur die Drohung davon.
+Ich griff nach seinem Arm. Er gab Gas — nicht viel, nur die Drohung davon.
 
 Ely war hinter mir. Ihre Hand an meinem Arm, fest.
 
