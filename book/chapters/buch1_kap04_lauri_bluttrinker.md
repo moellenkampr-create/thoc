@@ -276,4 +276,4 @@ Ich kannte das Muster.
 
 Ich hatte es trotzdem nicht kommen sehen.
 
-Und das Einzige, was ich dachte — das Einzige, das blieb, als alles andere Lärm wurde — war, dass ich mich nie verabschiedet hatte.
+Und das Einzige, neben Ely, was ich dachte — das Einzige, das blieb, als alles andere Lärm wurde — war, dass ich mich nie verabschiedet hatte.

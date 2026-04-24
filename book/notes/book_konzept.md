@@ -14,7 +14,7 @@ created: 2026-04-23
 Ein erwachsener, emotional intensiver Cyberpunk-Roman im Jahr **2077**, der die Geschichte des Trios **Three Hearts of Chrome** erzählt.
 
 - **Zeitanker Buch 1:** Ende Februar 2077, ungewöhnlich warm
-- Ely und Lauri im **2. Uni-Jahr**, George im **3. Jahr**
+- Ely und Lauri im **2. Uni-Jahr**, George im **3. Jahr** (**bewusste kuenstlerische Freiheit** fuer Buch 1; Lore-KANON im aktuellen Setting 2077-07-15: Ely/Lauri 3. Jahr, George 4. Jahr)
 - Enrico lebt noch; der Unfall liegt kurz voraus
 - Startpunkt ist der Manga-Beginn: NCU-Campus, Ende Februar 2077
 

@@ -17,6 +17,8 @@ source: lore_db.md
 **KANON**
 - Geboren: **2055-08-01**
 - Alter 2077: **21**
+- Uni-Status (aktuelles Setting, **2077-07-15**): **4. Unijahr**
+- Kennt Ely und Lauri seit deren **1. Uni-Semester** (zunaechst nur lose/aus Distanz)
 - Herkunft: **New York**
 - Rolle: Allrounder, Gitarrist, Edgerunner
 - Groesse: **1,95 m**
