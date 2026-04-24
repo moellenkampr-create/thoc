@@ -188,6 +188,17 @@ source: lore_db.md
   - **Prodigy-Vorteil** vollstaendig aktiv ab Feb/Maerz 2077.
 - behandelte mehrfach Wunden von Trio und half bei der Entdeckung bzw. Teilfreisetzung der Kontrollmechanismen (insbesondere bei Ely und Lauri am 2077-06-07)
 
+### Misty Olszewski
+**KANON**
+- Geboren: **2051-04-30**, Heywood, Night City
+- Alter 2077: **26**
+- New-Age-Spiritualistin; Tarot, Aetherisches, Aura-Readings
+- Besitzerin von **Misty's Esoterica**, Urmland Street, Little China, Watson
+- **Verhaeltnis zu Vik**: vermietet den Keller unter ihrem Laden an Viktor Vektor als Klinik; enge Freundschaft; uebernimmt bei Bedarf pflegerische Aufgaben fast auf Niveau einer Krankenschwester
+- **Verhaeltnis zu Jackie Welles**: Freundschaft seit Kindheit (beide aus Heywood); seit 2076 Beziehung
+- George kennt Misty von seinen Besuchen bei Vik; sie betreute ihn nach der OS-Installations-Reaktion (Feb/Maerz 2077)
+- Ton gegenueber George: warm, nicht aufdringlich, spirituell ohne Druck — behandelt ihn wie jemanden, der Vik vertraut, also auch ihr
+
 ### Oggy
 **KANON**
 - Schrotthaendler / Ex-Valentino
