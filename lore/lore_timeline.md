@@ -55,6 +55,8 @@ source: lore_db.md
   - Das neue OS loest eine massive neurologische Reaktion aus: alle bisher dormanten genetischen Verbesserungen werden gleichzeitig aktiviert.
   - Reaktion aeussert sich als stundenlanger unkontrollierbarer "Anfall"; **Misty Olszewski** betreut George in der Klinik bis zur Stabilisierung.
   - **Prodigy-Vorteil vollstaendig aktiv ab Feb/Maerz 2077**: Intelligenz auf menschliches Maximum; Signalverarbeitungsgeschwindigkeit erheblich optimiert; Lernfaehigkeit und Drohnenkontrolle profitieren direkt.
+  - **Gleiches Datum — Gespraech mit Vik ueber "Lucky Lucy"**: George erfaehrt aus dem Gespraech mehr ueber seine Mutter; er beginnt zu begreifen, dass ihre Hinweise zu Vik kein Zufall waren, sondern ein gezielter letzter Schritt ihrerseits.
+  - **Gleiches Datum, Abend — Donnys Meldung**: Donny meldet George, dass zwei NCU-Studentinnen (Henshaw / von Eichner) in einen schweren Unfall verwickelt waren. Georges erster Kontaktpunkt mit dem Trio.
 
 - **Winter 2076**: Enrico-Phase und Enrico-Tragoedie.
   - Ely und Lauri werden ueber Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **Cojote Cojo**.
