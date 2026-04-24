@@ -15,6 +15,7 @@ source: lore_db.md
 **ARBEITSSTAND**
 - Aldecaldos als variable wiederkehrende Fraktionsanbindung mit moeglichem medizinischem Hook weiter ausarbeiten
 - Eskalationspunkt von Elias bei George-Fake-Feed / Ueberwachung
+- **Jemand in Elias' Umfeld kannte offenbar die Verbindung Vik/Lucky Lucy** — wer? Wann hat das Elias (wenn ueberhaupt) erreicht, und welchen Einfluss hatte das auf seine Entscheidungen gegenueber George und der Mutter?
 - Langfristige Folgen der Day-6/7-Arc und der NCU-Rueckkehr als offenes Trio
 - George-Konflikt mit Football-Umfeld
 - Maria-Suchfaden bei Lauri

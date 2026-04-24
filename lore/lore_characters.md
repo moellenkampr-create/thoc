@@ -28,7 +28,7 @@ source: lore_db.md
 #### Familienstruktur
 - Oeffentlicher / legaler Vater: **Elias Morgan Smith** (NUSA-Senator)
 - Biologischer Vater: **Viktor Vektor**
-- Mutter: **Elisabeth Lucile Weinberg-Smith**
+- Mutter: **Elisabeth Lucile Weinberg-Smith** (Vik-Spitzname: **"Lucky Lucy"** — von Vik gepraegt, von ihr zunaechst gehasst, dann behalten)
 
 #### Cyberware / Technik
 - Kyroshi Cyberoptics MK IV, modifiziert
@@ -80,7 +80,7 @@ source: lore_db.md
   - Die Mutter zieht sich innerlich von Elias zurueck, konzentriert sich auf George und ihren Spendenfonds, bringt George frueh bei, mit Geld, Vermoegensschutz und schwer nachverfolgbaren Konten umzugehen.
   - Elias sorgt im Hintergrund dafuer, dass George und seine Mutter sich zunehmend voneinander entfernden — eine stille Strafe und Kontrolle zugleich.
   - George waechst mit dem Eindruck auf, seiner Mutter nicht wirklich sicher sein zu koennen und sich mit dieser Distanz abfinden zu muessen, obwohl sie in Wahrheit getan hatte, was ihr moeglich war, um ihn zu schuetzen.
-  - Die Hinweise, die sie George spaeter zu Vik hinterlaesst (gefunden Aug/Sept 2076), sind ihr letzter Schutzakt — wissend, dass Vik Georges echter Vater ist.
+  - Die Hinweise, die sie George zu Vik hinterlaesst, sind ihr letzter Schutzakt — wissend, dass Vik Georges echter Vater ist: ein **Smartrahmen in einem Schrank** mit Viks Namen und Adresse (Watson, Little China), nicht verschluesselt — so offen, dass nur jemand, dem sie den Weg gewiesen hatte, ihn finden wuerde.
 
 #### Persona-Prinzip
 - `Clean Mode`: Senatorensohn / Footballstar / Vorzeigestudent / Frauenheld-Maske
@@ -184,8 +184,12 @@ source: lore_db.md
 **KANON**
 - Ripperdoc / medizinischer Kontakt / Vertrauensperson des Trios
 - **biologischer Vater von George**
+- Hatte eine enge (romantische) Verbindung zu **Lucky Lucy** (Elisabeth Lucile Weinberg-Smith); Vik pragte ihr den Spitznamen, sie hasste ihn zunachst, behielt ihn dann. "Sie war die klugste Person in jedem Raum, in dem sie war. Auch in den Raeumen, in denen sie nicht sichtbar war."
+- Erfuhr erst als George ungefaehr **6 Jahre alt** war von Georges Existenz — "Da war alles laengst entschieden."
+- Bewahrte ein **Foto (Smartrahmen)** von Lucky Lucy im Klinikregal auf (halb verdeckt von einem Kabelstrang).
+- **Elias-Umfeld-Wissen (ARBEITSSTAND)**: Vik glaubt, dass es "jemanden in Elias' Umfeld" gab, der von der Beziehung gewusst haben koennte — nicht Elias direkt. Wie viel davon zu Elias gelangte, hat Vik nie herausgefunden.
 - **Erstes Treffen mit George (Aug/Sept 2076)**:
-  - Georges Mutter hinterliess Hinweise, die George zu Vik fuertten (vermutlich absichtlich).
+  - Georges Mutter hinterliess einen Smartrahmen mit Viks Adresse (bewusst platziert, nicht verschluesselt) — George folgte dem Hinweis.
   - Bei erstem Treffen wurde schnell klar, dass Vik sein biologischer Vater ist.
   - Vik wird Vertrauensperson fuer Cyberware-Befreiung.
 - **Befreiung Stufe 1 (Aug/Sept 2076)**:
