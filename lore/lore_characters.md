@@ -55,23 +55,32 @@ source: lore_db.md
 - Er verkaufte und verpfaendete daher viel, obwohl er nicht wirklich "arm" war.
 
 #### Genetik / fruehe Eingriffe
+**ARBEITSSTAND**
 - Elias liess George bereits in frueher Kindheit medizinisch-technologisch formen, offiziell als fruehe Optimierung und bessere koerperliche Anpassung.
-- George erhielt schon sehr frueh **Techhair** und einfache / basale **Cyberaugen**; Elias verkaufte dies gegenueber der Mutter mit der Logik, dass der Koerper fruehe Eingriffe besser verkrafte.
-- Als George ungefaehr **6 Jahre alt** war, veranlasste Elias heimlich eine erste **Gentherapie**, nach aussen als Verbesserung, verdeckt aber auch, um genetische Abstammungsmarker gezielt zu verfaelschen und spaetere Vaterschaftstests zu erschweren.
-- Nach dieser ersten Gentherapie war George etwa **6 bis 8 Wochen** deutlich krank bzw. ausser Gefecht.
-- Die fruehe Gentherapie war unvollstaendig / instabil und hinterliess erkennbare manipulierte Marker.
-- Als George ungefaehr **10 Jahre alt** war, wurde durch eine Erkrankung und neuere medizinische Moeglichkeiten sichtbar, dass er zuvor einer Gentherapie unterzogen worden war.
-- Georges Mutter erfuhr erst in diesem Zusammenhang, was Elias ohne ihr Wissen veranlasst hatte, und begann ihn seitdem verborgen zu hassen.
-- Sie investierte heimlich erhebliche Mittel in eine zweite, verbesserte Gentherapie, die die frueheren Luecken schliessen und Georges langfristiges Ueberleben sichern sollte.
-- Nach dieser zweiten Behandlung war George etwa **3 Wochen** ausser Gefecht; sie fiel in eine Zeit, in der Elias im **Wahlkampf** gebunden war.
-- Georges heutige genetische Naehe zu einer fast gezuechteten Perfektion ist kein Ausdruck eines sauberen Ideals, sondern das Ergebnis einer erst schaedigenden, dann rettenden Folge von Eingriffen.
-- Unklar bleibt, ob Elias Georges gesundheitliche Instabilitaet billigend in Kauf nahm oder absichtlich riskierte; die Mutter tendiert klar zur Deutung, dass es Absicht war und Elias von Georges fruehem Tod politisch, finanziell und narrativ profitiert haette.
-- Die Mutter zog sich daraufhin innerlich von Elias zurueck, konzentrierte sich staerker auf George und ihren Spendenfonds und brachte George frueh bei, mit Geld, Vermoegensschutz und schwer nachverfolgbaren Konten umzugehen.
-- Als George ungefaehr **13 Jahre alt** war, bemerkte Elias, dass dessen koerperliche Entwicklung deutlich besser verlief, als es nach seiner urspruenglichen Manipulation zu erwarten gewesen waere; George war agiler, sportlicher und stabiler als vorgesehen.
-- Elias schloss daraus, dass Georges Mutter weitere genetische Eingriffe hatte vornehmen lassen, und es kam zu einem internen Eklat, in dem er sie beschuldigte, ihn zu hintergehen.
-- Sie verteidigte sich teilweise mit Georges damaliger Krankheit; Elias glaubte ihr gerade genug, um wegen seiner oeffentlichen Position und moeglicher Skandale nach aussen weiter die perfekte Familie zu spielen.
-- Im Hintergrund sorgte Elias jedoch dafuer, dass George und seine Mutter sich zunehmend voneinander entfernten.
-- George wuchs dadurch mit dem Eindruck auf, seiner Mutter nicht wirklich sicher sein zu koennen und sich mit dieser Distanz abfinden zu muessen, obwohl sie in Wahrheit getan hatte, was ihr moeglich war, um ihn zu retten und vor Elias zu schuetzen.
+- George erhielt schon sehr frueh **Techhair** und einfache / basale **Cyberaugen**; Elias verkaufte dies gegenueber der Mutter als normale fruehe Optimierung.
+
+- **Gentherapie #1 — Georges Mutter (George ca. 6 Jahre)**:
+  - Georges Mutter weiss von Anfang an, wer Georges biologischer Vater ist (Viktor Vektor).
+  - Sie veranlasst heimlich eine erste Gentherapie, um Georges genetisches Potenzial (den spaeter als "Prodigy" bekannten Vorteil) zu sichern und zu aktivieren.
+  - Die Therapie ist technisch zu frueh und bleibt unvollstaendig: der Prodigy-Vorteil wird nicht ausgeloest, bleibt dormant. Erkennbare manipulierte Marker verbleiben.
+  - Nach der Therapie ist George etwa **6 bis 8 Wochen** deutlich krank bzw. ausser Gefecht.
+  - Elias bemerkt, dass etwas nicht stimmt — sieht die Marker, zieht Schluesse — kann aber nichts mit Sicherheit sagen. Kein offener Konflikt zu diesem Zeitpunkt.
+
+- **Gentherapie #2 — Elias (George ca. 10 Jahre)**:
+  - Durch eine Erkrankung und neuere medizinische Moeglichkeiten werden die Spuren von Gentherapie #1 deutlicher sichtbar.
+  - Elias zieht nun den Schluss, dass George nicht sein biologischer Sohn ist — die Marker passen nicht zu ihm.
+  - Er veranlasst heimlich eine zweite Gentherapie: offiziell Stabilisierung, verdeckt mit dem Ziel, genetische Abstammungsmarker zu verfaelschen und spaetere Vaterschaftstests zu erschweren.
+  - Nebeneffekt: Therapie #2 ueberlagert und daempft das in Therapie #1 angelegte Prodigy-Potenzial weiter — erklaert, warum der Vorteil erst 2077 durch das Raven-OS ausgeloest wird.
+  - Nach dieser Therapie ist George etwa **3 Wochen** ausser Gefecht; sie faellt in eine Zeit, in der Elias im **Wahlkampf** gebunden ist.
+  - Es kommt zu einem internen Eklat: Elias konfrontiert die Mutter indirekt. Sie spielt es herunter, verteidigt sich mit Georges Krankheit. Elias glaubt ihr gerade genug — oder tut so, als ob — wegen seiner oeffentlichen Position und moeglicher Skandale.
+  - Beide wissen jetzt, was der andere weiss. Kein offenes Gestaendnis von keiner Seite. Die Fassade bleibt.
+
+- **Folgen des Doppel-Eingriffs**:
+  - Georges heutige genetische Struktur ist das Ergebnis zweier sich ueberlagernder Eingriffe mit gegenlaeuefigen Motiven: Schutz und Vertuschung.
+  - Die Mutter zieht sich innerlich von Elias zurueck, konzentriert sich auf George und ihren Spendenfonds, bringt George frueh bei, mit Geld, Vermoegensschutz und schwer nachverfolgbaren Konten umzugehen.
+  - Elias sorgt im Hintergrund dafuer, dass George und seine Mutter sich zunehmend voneinander entfernden — eine stille Strafe und Kontrolle zugleich.
+  - George waechst mit dem Eindruck auf, seiner Mutter nicht wirklich sicher sein zu koennen und sich mit dieser Distanz abfinden zu muessen, obwohl sie in Wahrheit getan hatte, was ihr moeglich war, um ihn zu schuetzen.
+  - Die Hinweise, die sie George spaeter zu Vik hinterlaesst (gefunden Aug/Sept 2076), sind ihr letzter Schutzakt — wissend, dass Vik Georges echter Vater ist.
 
 #### Persona-Prinzip
 - `Clean Mode`: Senatorensohn / Footballstar / Vorzeigestudent / Frauenheld-Maske
