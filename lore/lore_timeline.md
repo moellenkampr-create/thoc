@@ -66,17 +66,55 @@ source: lore_db.md
   - Enrico stuerzt in den Tod; Lauri ueberlebt schwer verletzt.
 
 ## 2. Fruehjahr 2077
-**KANON**
-- Krankenhaus- und Nachsorgephase nach Enricos Tod.
-- Lauri bleibt bis ungefaehr **2 Wochen vor Semesterbeginn** im Krankenhaus.
+**KANON / ARBEITSSTAND (Kap05)**
+- Krankenhaus- und Nachsorgephase nach Enricos Tod. Zeitraum: Maerz bis Mitte Mai 2077.
+- Lauri bleibt bis ungefaehr **Mitte Mai 2077** (ca. **2 Wochen vor Semesterbeginn**) in der Klinik.
 - Koerperlich wird Lauri dank teurer Naniten- und Medikamentenbehandlung relativ schnell wieder mobil; die psychische Behandlung dauert deutlich laenger.
-- Lauris echte Tattoos werden in dieser Phase entfernt.
-- Ely bleibt, sobald sie kann, an Lauris Bett; das Ansprechen mit **"Meredith"** ist bereits hier als Erdungs- und Beruhigungswort belegt.
-- Walter Henshaw blockiert zeitweise Besuche bei Lauri; Ely vermutet dahinter auch den Versuch, Lauris sichtbare Schaeden und Tattoos kontrolliert "bereinigen" zu lassen.
-- Lauri wird psychologisch und vermutlich auch medikamentoes bzw. drogenunterstuetzt behandelt, um sie wieder auf den "rechten Pfad" zu bringen.
-- Ely kommt frueher aus der Klinik heraus und wird zuhause psychologisch betreut.
-- Ely wird ebenfalls zum Psychodoc geschickt, steht medikamentoes unter Aufsicht und erlebt eine dumpfe, kontrollierte Nachsorgephase.
-- Der Unfall und die Nachsorge loeschen gefuehlt ganze Monate aus Elys Leben.
+- **Erste Nacht nach dem Unfall (Ely-Sicht, ARBEITSSTAND):**
+  - Lauri wacht kurz vor Morgen auf; erster echter Dialog: Lauri: *"Er ist wirklich weg, oder?"* — Ely bestaetigt es.
+  - Lauri: *"Jetzt haben wir nur noch uns."* — Kein Aufschrei, keine Traenen; ein Satz, der Verlust und Bindung gleichzeitig enthaelt.
+  - Ansprechen mit **"Meredith"** als Erdungs- und Beruhigungswort ist bereits hier belegt.
+- **Eltern-Ankunft (Folgetage, ARBEITSSTAND):**
+  - Judith von Eichner: erste Umarmung; echter Schmerz, aber falsche Einordnung der Lage.
+  - Bertram von Eichner: telefoniert im Flur.
+  - Walter Henshaw: setzt sich direkt zu Lauri; spricht kein einziges Mal direkt mit Ely.
+- **Flurgespraech Walter / Bertram (Ely hoert zufaellig mit, ARBEITSSTAND):**
+  - Walter macht Ely explizit fuer Lauris Exposure zu den Valentinos und zu Enrico verantwortlich.
+  - Verwendet abwertende Sprache gegenueber Ely und der Verbindung zu den Valentinos.
+  - Fordert vollstaendigen und dauerhaften Kontaktabbruch zwischen Ely und Lauri.
+  - **Blockade durch Dr. Redmond:** Walter kann sich nicht durchsetzen, weil *Dr. Redmond* medizinisch dagegen einsteht. Wer Dr. Redmond ist und wer hinter ihm steht, bleibt unklar.
+  - Bertram sieht Ely im Korridor und fuehrt sie weg; sagt nichts Substanzielles.
+  - Ely behalt alles fuer sich; sagt Lauri nichts davon.
+- **Lauris echte Tattoos und Cybertattoos werden in dieser Phase entfernt (ARBEITSSTAND):**
+  - Echte Tattoos: Naniten-/Laserbehandlung.
+  - **Cybertattoos vollstaendig deaktiviert/entfernt** — bei der Zusammenfuehrung ca. 6 Wochen nach dem Unfall sind sie komplett weg (*"nicht gedimmt, nicht zurueckgezogen — einfach weg"*). Ely nimmt das als nonverbalen Schmerzsignal bei Lauri wahr.
+  - Wiederherstellung der Cybertattoos vermutlich durch Vik bei der Cyberware-Erneuerung am 2077-06-07.
+- **Ely in separate Klinik verlegt (ARBEITSSTAND):**
+  - Wenige Tage nach Eltern-Ankunft: Ely in die **Redwood-Klinik (Heywood)** verlegt.
+  - Eltern erklaeren es als *"spezialisierte Nachsorge"*; Bertram glaubt das selbst nicht vollstaendig.
+  - Therapeut dort: **Dr. Vilkoff** (ruhige Stimme, lange Pausen nach Antworten).
+  - Ely navigiert die Gespraeche strategisch; gibt nichts Echtes preis; haelt das geheime Tagebuch streng aus der Klinikumgebung heraus.
+- **Gedankenverlangsamung / Medikamentenverdacht (Ely-Sicht, ARBEITSSTAND):**
+  - Ely bemerkt, dass ihre Gedanken langsamer kommen als sie es kennt — nicht allein durch Trauer erklaerbar.
+  - Interner Schluss: Medikamente wahrscheinlich ursaechlich. Kein schriftlicher Beleg, kein Gestaendnis.
+  - Beobachtet bei Lauri spaeter starke Energie-Pendelungen (aktiv / leer / aktiv) als moegliches Parallel-Phaenomen.
+- **Terminal-Fund (Ely liest zufaellig offen stehenden Screen, ARBEITSSTAND):**
+  - Klinikinternes Dokument: dauerhafte Trennung von *"Bezugsperson H."* (= Lauri Henshaw) als *kontraindiziert* eingestuft.
+  - Kernaussage: irreversible psychische Langzeitfolgen bei vollstaendigem Kontaktabbruch nicht auszuschliessen.
+  - Empfehlung: schnellstmoegliche Koordination **Dr. Redmond / Dr. Vilkoff**.
+  - Ely schliesst: jemand hat Walters Kontaktverbot mit einem Gutachten gestoppt. Motiv und Auftraggeber hinter Dr. Redmond unbekannt.
+- **Zusammenfuehrung ca. 6 Wochen nach dem Unfall (ARBEITSSTAND):**
+  - Gemeinsames Sitzungszimmer; beide Vaeter, beide Aerzte, ein schweigender Versicherungsmann.
+  - Erster Anblick von Lauri: Afrozöpfe (Hospitalstyle, *"gehoert ihr nicht"*); keine Cybertattoos; dunkle einfache Kleidung.
+  - Walter spricht waehrend des gesamten Termins kein einziges Mal mit Ely.
+  - Kommunikation zwischen Ely und Lauri beschraenkt auf *"Hey" / "Hey"* und Handdrucken — Beobachtung bekannt, kein echtes Gespraech moeglich.
+- Lauri wird psychologisch und medikamentoes behandelt; Klinikrahmen als Kontrollinstrument genutzt.
+- **Gemeinsame Woche vor Entlassung (ARBEITSSTAND):**
+  - Zusammen im Zimmer, Mahlzeiten, Garten — Alltag; keine echten Gespraeche, weil Beobachtung durch Kameras und Pfleger bewusst ist.
+  - Naechts, allein: Lauri sagt nur *"Meredith"* — kein Satz, kein Kontext. Ely: *"Ich bin hier."*
+- **Entlassung Mitte Mai 2077:**
+  - Auflagen fuer Ely: woechentliche Gespraeche (zuhause), Familiendinner am Wochenende (Judith/Bertram), Medikamente in Tablettenform.
+  - Beide erhalten **Ueberwachungsarmband** (als *"Fitness-Tracking"* deklariert; sendet automatisch Herzrate/Schlaf/Schrittdaten an Klinik; Ely durchschaut den Ueberwachungszweck sofort).
 - Lauris innere Phase bleibt instabil, ueberlagert und nicht sauber linear erinnerbar; Trauer, Kontrolle von aussen, Medikamente und Identitaetssuche treffen gleichzeitig aufeinander.
 
 - **Ende Mai 2077**:

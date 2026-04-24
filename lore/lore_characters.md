@@ -103,6 +103,7 @@ source: lore_db.md
 
 #### Cyberware-Hintergrund
 - Vor dem Shutdown trug Lauri andere, schwaechere und elterlich kontrollierbare Systeme.
+- **Krankenhausphase (Maerz–Mai 2077, ARBEITSSTAND):** Echte Tattoos und Cybertattoos wurden in dieser Phase vollstaendig entfernt/deaktiviert. Cybertattoos vermutlich bei Viks Cyberware-Erneuerung (2077-06-07) wiederhergestellt.
 - Nach dem Vorfall wurden ihre Augen vollstaendig durch hochwertige Kyroshi-Sondermodelle ersetzt.
 - Auch das Operating System wurde auf einen besseren, nicht elterlich kontrollierten Stand umgestellt.
 
@@ -234,6 +235,7 @@ source: lore_db.md
 - Saburo Arasaka gilt ihm nicht nur als Konzernchef, sondern als Ordnungsprinzip; **Yorinobu** ist fuer ihn als Nachfolger untragbar, **Hanako** hoechstens stuetzende Dynastietraegerin.
 - Sieht **Elias Smith** als bestechlichen politischen Gegner und als Gefahr fuer Night City, weil Elias eine staerkere NUSA-Anbindung vorantreibt.
 - Verliert sich mit den Jahren immer staerker in Hierarchie-, Opfer- und Kontrolllogik; rechtfertigt schmutzige Entscheidungen als notwendige Verteidigung von Arasaka und Ordnung.
+- **Nach Enricos Unfall (ARBEITSSTAND):** Macht Ely gegenueber Bertram explizit verantwortlich fuer Lauris Verbindung zu den Valentinos. Fordert vollstaendigen und dauerhaften Kontaktabbruch zwischen Ely und Lauri. Scheitert daran, weil **Dr. Redmond** sich medizinisch dagegen stellt. Spricht in der gesamten Klinik-Nachsorgephase nie direkt mit Ely.
 
 ### Elisa Fredderic-Henshaw
 - War frueher deutlich waermer, hoffnungsvoller und familienorientierter; die heutige Kaelte ist **nicht Ursprung**, sondern Ergebnis von Taeuschung, Ohnmacht und Langzeitkontrolle.
@@ -361,3 +363,19 @@ source: lore_db.md
 - Mutter von Jake (im Bericht 2077-07-10)
 - sammelt trotz Camp-/Saul-Linie verzweifelt Geld von sich und Bob fuer Jakes Rettung
 - ruft kurz vor Uebergabe weinend an wegen Tims 10k-Nachforderung
+
+### Dr. Redmond
+**ARBEITSSTAND**
+- Arzt / Gutachter; tritt nie persoenlich in Erscheinung
+- Blockierte Walters Versuch, dauerhaften Kontaktabbruch zwischen Ely und Lauri durchzusetzen (Krankenhausphase Maerz–Mai 2077)
+- Verfasste oder beauftragte Gutachten: dauerhafte Trennung von *"Bezugsperson H."* (= Lauri Henshaw) als *kontraindiziert*; irreversible psychische Langzeitfolgen bei Kontaktabbruch nicht auszuschliessen
+- Empfahl Koordination mit Dr. Vilkoff in der Redwood-Klinik
+- **OFFEN:** Wer steht hinter Dr. Redmond? Handelte er aus echtem medizinischem Interesse, auf externen Auftrag, oder als Teil eines unbekannten Machtzugs?
+
+### Dr. Vilkoff
+**ARBEITSSTAND**
+- Therapeut in der **Redwood-Klinik (Heywood)** — Elys Klinik in der Nachsorgephase (Maerz–Mai 2077)
+- Kleiner Mann, ruhige Stimme; setzt lange Pausen nach Antworten — Ely empfindet das als gezielte Technik
+- Stellt die richtigen Fragen auf die *falsche Art*; er und Ely operieren auf verschiedenen Landkarten
+- Koordiniert mit Dr. Redmond; keine erkennbare Eigeninitiative
+- Kein eigener Plothook; Werkzeug eines anderen Spiels
