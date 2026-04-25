@@ -46,6 +46,20 @@ Die Erzählstimme ist direkt, roh und spricht den Leser fast an — nicht distan
 - Trennlinien (---) sparsam einsetzen, nicht als Ersatz für fehlende Übergänge
 - Körperlichkeit und Erotik gehören in den Erzählfluss, nicht als separate Beobachtungsblöcke
 
+### George-POV Stilprinzipien (verbindlich ab Kap 2 v2, April 2026)
+**Referenztext: `buch1_kap02_george_red_peaks.md` (Neuschrieb)**
+
+Georges Stimme ist die der Maske, die sich selbst beschreibt — er analysiert sein eigenes Verhalten mit kühler Präzision, während er es ausführt. Die Wärme zeigt sich nie direkt, nur in Handlungen.
+
+**Regeln:**
+- **Maskendenken als Erzählstruktur** — George benennt seine eigenen sozialen Performances technisch und distanziert: „Die Campus-Version. Die Senatorensohn-Version." Er beschreibt die Maske von innen
+- **Kontrolle als Reflex** — er erklärt das *Wie*, selten das *Warum* — das Warum käme ihm zu nah
+- **Kurze Parenthesen als innere Risse** — kurze Einschübe zeigen, was hinter der Kontrolle liegt: *„Fuck. Ich wusste nicht, was es war."* — sparsam, aber gezielt
+- **Körperlichkeit als Befreiung** — Bike, Kampftraining, Oggys Hof sind Momente, wo die Maske fällt; das muss spürbar sein
+- **Schweigen als Sprache** — in echten emotionalen Momenten handelt George, sagt nichts (Emmy-Magnet, Jenny-Wunde)
+- **Beobachtung vor Reaktion** — er catalogisiert Menschen wie Information, aber die Emotion sickert durch
+- **Wärme zeigt sich indirekt** — nie ausgesprochen, immer gehandelt; der Leser sieht es, George sagt es nicht
+
 ---
 
 ## 3. POV-Struktur
