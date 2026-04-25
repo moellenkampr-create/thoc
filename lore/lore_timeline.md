@@ -343,7 +343,7 @@ source: lore_db.md
   - Das Trio plant den Rueckweg nach Night City; zusaetzlich bitten die Aldecaldos sie, bei Gelegenheit Besorgungen aus der Stadt mitzubringen.
   - **Ely-Sicht (ARBEITSSTAND, Morgenszene)**:
     - **Mitch** bringt dem Trio Fruehstueck.
-    - Waehrend sie auf Mitchs Einkaufsliste warten, fuehrt Ely ein offenes Finanzgespraech mit George: **"All in!"** — sie legt ihr gesamtes Portfolio offen. Stand: ca. **1 Mio. Credits** (inkl. Goldbarren des Scheichs); ca. **250k davon gehoeren Gerhardt**. George erwidert ebenfalls mit "All in" — sein Gesamtvermoegen liegt ca. beim **Zehnfachen**, aber groesstenteils in Festanlagen (Immobilien); sein **fluessiges Kapital ist begrenzt**. Entscheidung: George bekommt Verfuegungsgewalt ueber Ely/Lauris Konten.
+      - Waehrend sie auf Mitchs Einkaufsliste warten, fuehrt Ely ein offenes Finanzgespraech mit George: **"All in!"** — sie legt ihr gesamtes Portfolio offen. Stand: ca. **1 Mio. Credits** (inkl. Goldbarren des Scheichs aus dem Pferdejob 06-09); ca. **250k davon gehoeren Gerard** (aus einer bestehenden Vereinbarung mit ihm). George erwidert ebenfalls mit "All in" — sein Gesamtvermoegen liegt ca. beim **Zehnfachen**, aber groesstenteils in Festanlagen (Immobilien); sein **fluessiges Kapital ist begrenzt**. Entscheidung: George bekommt Verfuegungsgewalt ueber Ely/Lauris Konten.
     - **Bob** (Aldecaldo, Vater von Jake) kommt mit Lauri und einer Medikamentenliste: Meds fuer seinen Sohn. **George verfinstert sich**: "Das sind dieselben Medikamente, die auch Oggys Frau Jenny braucht." Er nickt Bob zu — erste erkennbare Verbindung zwischen Jakes und Jennys Zustand (gleiche Meds, gleicher Lieferpfad, vermutlich gleicher Akteur; haertere Bestaetigung folgt 2077-07-10 ueber OS-Scan).
     - Aldecaldos stellen dem Trio einen **Transporter** fuer die Besorgungsfahrt zur Verfuegung (Liste ist sehr umfangreich).
 - **2077-07-06 spaeter Vormittag**:
@@ -542,10 +542,10 @@ source: lore_db.md
       - Lauri wacht auf mit Enrico-Klarheit: Er wollte sie sterben sehen. Er wollte sie von Ely trennen. Kein Weinen — Bewegung: Schattentanz vor dem Zelt (sieht ohne Gegner wie echtes Tanzen aus).
       - Ely beobachtet durchs Zelt; Lauri beendet den Tanz mit gezielten Bewegungen, "die Ely an den Rand des Wahnsinns treiben". George wird herausgekuschelt und beginnt Liegestuetze. Trio-Morgenroutine mit Kuss-Handstand-Szene; unterbrochen durch Lalas Fruehstuecksruf.
       - **China-Nachricht im Radio** stoerte Lauri kurz beim Schattentanz (Menschenfleisch als Nahrungsmittel zugelassen); Lala macht Fleisch-Scherz beim Fruehstueck, loest kurze Schockwelle aus. Koch hat das Fleisch nicht aus China. Bestaetigt: China-Newslage ist 07-13 in Lauris Alltag angekommen.
-      - **Pepe und Mirabell** (Aldecaldos) sprechen das Trio an: Beide fahren beim Rennen mit. **Mirabell** = "die mit den Waffen"; Ely und Mirabell ziehen sofort zu Schiessuebungen ab. George faehrt zu Vik, Tattoo fertigstellen.
+      - **Pepe und Mirabell** (Aldecaldos, ein Paar) sprechen das Trio an: Beide fahren beim Badlands-Vorrennen mit. **Mirabell** = Begleitschutz von Pepe; **Pepe** = Fahrer. Ely und Mirabell ziehen sofort zu Schiessuebungen ab. George faehrt zum **Aldecaldo-Ripperdoc**, um das Trio-Tattoo auf seiner Brust fertigstellen zu lassen.
       - **Bike-Tuning mit Pepe**: Lauri bleibt; gemeinsames Tauschen und Bauen. Deal: "Solange das Bike schneller wird und im Notfall drei Leute drauf gehen, kannst du den Firlefanz haben." Pepe: "Drei? Wo willst du den dritten unterbringen?" Lauri zeigt auf den Bereich zwischen Lenker und Sitz.
       - Innerer Ankermoment: Lauri sieht Ely und George abfahren. Keine Angst. Nur Stille und Zufriedenheit, "die mir keiner nehmen kann."
-      - **18-Tage-Marker**: Lauri wird ploetzlich bewusst: nur noch 18 Tage bis zum Rennen.
+      - **18-Tage-Marker**: Lauri wird ploetzlich bewusst: nur noch 18 Tage. Gemeint ist **Georges Geburtstag (01.08.)**, nicht das grosse Rennen.
       - **Oggy-Unsicherheit**: Lauri weiss nicht, ob Oggy sie noch in H10 haben will; George sagt: "Einfach ausprobieren."
       - Lauri faehrt in die Stadt; Ely faehrt mit Cassady.
       - **Mantel-Laden (Zara Energy)**:

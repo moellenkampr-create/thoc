@@ -328,15 +328,15 @@ source: lore_db.md
 
 ### Pepe
 **ARBEITSSTAND (2077-07-13)**
-- Aldecaldo-Mechhaniker / Fahrer
-- faehrt beim Rennen mit
+- Aldecaldo-Fahrer; faehrt im **Badlands-Vorrennen**
+- **Paar mit Mirabell** (sie ist sein Begleitschutz)
 - arbeitet am 2077-07-13 gemeinsam mit Lauri am Bike
 - Bike-Deal: Lauri will drei Personen-Kapazitaet und mehr Speed; Pepe bekommt freie Hand beim Rest
 
 ### Mirabell
 **ARBEITSSTAND (2077-07-13)**
-- Aldecaldo-Kaempferin; "die mit den Waffen"
-- faehrt beim Rennen mit
+- Aldecaldo-Kaempferin; Begleitschutz von Pepe, **Paar mit Pepe**
+- faehrt im **Badlands-Vorrennen** (als Begleitschutz)
 - zieht am 2077-07-13 sofort mit Ely zu Schiessuebungen ab
 
 ### Zara Energy
