@@ -536,3 +536,24 @@ source: lore_db.md
       - George fuehrt spaeter ein Solo-Lauf-/Auspowernfenster; Ely/Lauri pausieren wegen frischer Tattoos.
       - **UNSICHERER MARKER (ARBEITSSTAND):** "Geheimnis bis Sonntag" ist als Notiz erfasst, aber Sprecherzuordnung und Inhalt sind derzeit nicht belastbar bestaetigt.
       - Tagesabschluss erneut mit Musik und Aldecaldo-Rahmen; Ausblick auf Freitag, den 16.
+
+  - **2077-07-13**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND)**:
+      - Lauri wacht auf mit Enrico-Klarheit: Er wollte sie sterben sehen. Er wollte sie von Ely trennen. Kein Weinen — Bewegung: Schattentanz vor dem Zelt (sieht ohne Gegner wie echtes Tanzen aus).
+      - Ely beobachtet durchs Zelt; Lauri beendet den Tanz mit gezielten Bewegungen, "die Ely an den Rand des Wahnsinns treiben". George wird herausgekuschelt und beginnt Liegestuetze. Trio-Morgenroutine mit Kuss-Handstand-Szene; unterbrochen durch Lalas Fruehstuecksruf.
+      - **China-Nachricht im Radio** stoerte Lauri kurz beim Schattentanz (Menschenfleisch als Nahrungsmittel zugelassen); Lala macht Fleisch-Scherz beim Fruehstueck, loest kurze Schockwelle aus. Koch hat das Fleisch nicht aus China. Bestaetigt: China-Newslage ist 07-13 in Lauris Alltag angekommen.
+      - **Pepe und Mirabell** (Aldecaldos) sprechen das Trio an: Beide fahren beim Rennen mit. **Mirabell** = "die mit den Waffen"; Ely und Mirabell ziehen sofort zu Schiessuebungen ab. George faehrt zu Vik, Tattoo fertigstellen.
+      - **Bike-Tuning mit Pepe**: Lauri bleibt; gemeinsames Tauschen und Bauen. Deal: "Solange das Bike schneller wird und im Notfall drei Leute drauf gehen, kannst du den Firlefanz haben." Pepe: "Drei? Wo willst du den dritten unterbringen?" Lauri zeigt auf den Bereich zwischen Lenker und Sitz.
+      - Innerer Ankermoment: Lauri sieht Ely und George abfahren. Keine Angst. Nur Stille und Zufriedenheit, "die mir keiner nehmen kann."
+      - **18-Tage-Marker**: Lauri wird ploetzlich bewusst: nur noch 18 Tage bis zum Rennen.
+      - **Oggy-Unsicherheit**: Lauri weiss nicht, ob Oggy sie noch in H10 haben will; George sagt: "Einfach ausprobieren."
+      - Lauri faehrt in die Stadt; Ely faehrt mit Cassady.
+      - **Mantel-Laden (Zara Energy)**:
+        - Lauri findet einen Laden, den sie nicht kannte; will gehen, Verkaeuferin haelt sie zurueck — Foto in einem Mantel.
+        - Lauri bestellt **vollgepanzerte Maentel** (Lieferzeit 3 Stunden); laesst ihre **handgefertigten Stickereien** anbringen.
+        - Die Verkaeuferin (spaeter: **Zara**) ist von den Stickereien sichtbar bewegt: "Das ist nicht maschinell, oder? Das ist unglaublich."
+        - Lauri kann nicht bezahlen — Notanruf bei Ely: "Du hast gesagt, wir sind verdammt reich. Aber ich kann nicht bezahlen!" Ely: "Kaufst du uns gerade eine Wohnung?" Lauri: "Kein Haus... auch keine Wohnung." Ely schiebt Geld drauf.
+        - Inoffizielle Geschaeftsanbahnung mit Zara: 3-4k ED pro handgefertigtem Stueck; Lauri gibt Kontaktadresse `sticken@pornhub.free`; Zara nennt sich "Zara Energy". Beide tun so, als haetten sie sich nie gesehen.
+        - **Lore-Note**: Lauri als handwerkliche Kuenstlerin (Stickerei) erstmals als potenzielle Einnahmequelle verankert.
+      - **Nolans Block und Stifte** (fast leer) nachgekauft beim Kuenstlerbedarf.
+      - Cliffhanger: Ely ruft an als Lauri im H10-Aufzug ist.

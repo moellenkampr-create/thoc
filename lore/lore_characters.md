@@ -326,7 +326,27 @@ source: lore_db.md
 **KANON**
 - entwirft fuer Lauri als Ablenkung ein Tattoo-Motiv mit **drei Schlangen**
 
-### Claire Russell
+### Pepe
+**ARBEITSSTAND (2077-07-13)**
+- Aldecaldo-Mechhaniker / Fahrer
+- faehrt beim Rennen mit
+- arbeitet am 2077-07-13 gemeinsam mit Lauri am Bike
+- Bike-Deal: Lauri will drei Personen-Kapazitaet und mehr Speed; Pepe bekommt freie Hand beim Rest
+
+### Mirabell
+**ARBEITSSTAND (2077-07-13)**
+- Aldecaldo-Kaempferin; "die mit den Waffen"
+- faehrt beim Rennen mit
+- zieht am 2077-07-13 sofort mit Ely zu Schiessuebungen ab
+
+### Zara Energy
+**ARBEITSSTAND (2077-07-13)**
+- Verkaeuferin/Kontakt in einem Night-City-Modebetrieb (ungenannter Laden)
+- besorgt dem Trio vollgepanzerte Maentel; laesst Lauris handgefertigte Stickereien anbringen
+- erkennt die Handarbeit als aussergewoehnlich; emotionale Reaktion bei erstem Anblick
+- inoffizielle Geschaeftsbeziehung mit Lauri: vermittelt Stickerei-Auftraege, 3-4k ED pro Stueck; nichts Offizielles, kein Name, keine Spur
+- Kontakt: `sticken@pornhub.free` (Lauri); Zara nennt sich nur "Zara... du weisst schon, wie die Blume. Zara Energy."
+- Beide tun so, als haetten sie sich nie getroffen
 **ARBEITSSTAND**
 - sucht noch einen Fahrer fuer **Beast**, damit sie selbst als Beifahrerin auf Peter Sampson schiessen kann
 

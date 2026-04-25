@@ -82,6 +82,9 @@ source: lore_db.md
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
 - 2077-07-11 Tim als Netz statt Einzelfall - Gibt es weitere Opfer/Kunden oder einen groesseren Verteiler hinter Tims Nieren-/Cyberwaregeschaeft?
 - 2077-07-12 Aldecaldo-Dauergaststatus - Bleibt der inoffizielle Zelt-/Campstatus stabil oder fuehrt er spaeter in formale Clanaufnahmekonflikte?
+- **2077-07-13 Zara-Energy-Stickereigeschaeft** — Inoffizielle Auftragsvermittlung laeuft an; wie viel Volumen nimmt das an, bleibt es diskret, und wer sind die Kunden mit dem Aufpreis? Risiko bei Enttarnung?
+- **2077-07-13 Mantelkosten / Finanzlage** — Lauri realisiert, dass Ausgaben und Einnahmen besser koordiniert werden muessen; Trio will sich "zusammensetzen und Finanzen ordnen".
+- **2077-07-13 Oggy / H10** — Lauri weiss nicht, ob Oggy sie noch in H10 haben will (nach allem, was passiert ist). Erster echter Test des Verhaeltnisses nach den letzten Ereignissen.
 - 2077-07-18 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde zum Vorrennen am 18.07 auf Build-Tempo und Risiko aus?
 - 2077-07-16 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
 - 2077-07-12 George-Geheimnis bis Sonntag - **UNSICHER (ARBEITSSTAND):** Marker bleibt vorlaeufig offen; Sprecherzuordnung und Inhalt sind nicht belastbar bestaetigt.
