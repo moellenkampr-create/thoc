@@ -537,6 +537,16 @@ source: lore_db.md
       - **UNSICHERER MARKER (ARBEITSSTAND):** "Geheimnis bis Sonntag" ist als Notiz erfasst, aber Sprecherzuordnung und Inhalt sind derzeit nicht belastbar bestaetigt.
       - Tagesabschluss erneut mit Musik und Aldecaldo-Rahmen; Ausblick auf Freitag, den 16.
 
+- **Ende Februar 2077 — NCU Campus + Red Peaks (Kap02)**:
+  - **George-Perspektive / Campus-Szene**: George in \"Clean Mode\" (Senatorensohn-Maske) mit Lindsay; bemerkt erstmals bewusst Ely und Lauri als Paar im Innenhof (\"ein Paar, das jeden Atemzug der anderen kannte\") — bestaetigt: George kennt sie damals schon \"lose aus Distanz\"
+  - George nutzt private Tote-Winkel-Routen und Donny's Netzwerk-Hilfe, um vom Campus weg zu seiner **Arc** (Motorrad, dunkelgelb) zu fahren
+  - Fahrt nach **Red Peaks** zu Oggy
+  - **Kampftraining**: George trainiert bewusst ohne Schmerzdaempfung gegen Kampfbot Stufe 12 (erstes Mal auf dieser Schwierigkeit); akzeptiert Schmerz als Teil der \"Freiheit\" nach Elias-Entkopplung (Aug/Sept 2076)
+  - **Oggy-Haendler-Kontext**: Oggy und George haben ca. 3 Jahre Freundschaft, bauten den Bot zusammen; dieser Raum ist fuer George emotionaler Anker
+  - **Jenny's Cyberniere**: Update-Status 2077-02/03 = damals In-Progress, naechstes Update in 2 Monaten geplant
+  - **Emmy's Zeichnung**: Emmy zeichnet George \"in der Mitte der Familie\" (Magnetwand-Moment) — emotionaler Meilenstein der Zugehörigkeit
+  - **Rueckkehr**: George faehrt nachts aus Red Peaks zurück zur Stadt; Bewusstsein von Elias' Netz (Ueberwachung, Kontrolle) bleibt praesent, aber bei Oggy war es \"nicht gewesen\"
+
   - **2077-07-13**:
     - **Lauri-Einzelsicht (ARBEITSSTAND)**:
       - Lauri wacht auf mit Enrico-Klarheit: Er wollte sie sterben sehen. Er wollte sie von Ely trennen. Kein Weinen — Bewegung: Schattentanz vor dem Zelt (sieht ohne Gegner wie echtes Tanzen aus).

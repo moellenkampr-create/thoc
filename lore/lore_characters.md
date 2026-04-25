@@ -25,6 +25,9 @@ source: lore_db.md
 - Koerperbau: **gross, athletisch-muskuloes, kraftvoll und definiert, aber nicht bodybuilderhaft**
 - Charakter: loyal, driven, people pleaser, kontrolliert nach aussen, verletzlich unter der Oberflaeche
 
+#### Transportmittel
+- **Arc**: einfaches Motorrad, dunkelgelb/golden-ish, mit Dynalar-OS-Beschleunigung nutzbar; geparkt in toten Winkeln am Campus (Sicherheitsmassnahme vor Elias-Verfolgung); gebaut/gepflegt zusammen mit Oggy
+
 #### Familienstruktur
 - Oeffentlicher / legaler Vater: **Elias Morgan Smith** (NUSA-Senator)
 - Biologischer Vater: **Viktor Vektor**
@@ -217,10 +220,11 @@ source: lore_db.md
 - Schrotthaendler / Ex-Valentino
 - wichtiger Anker in Red Peaks
 - fuer George familiaenaehnliche Bezugsperson
-- kaufte das spaetere Kurierbike von Patrick, ohne zu tief nachzufragen
+- **Freundschaft mit George**: ca. 3 Jahre (seit ~2074); George half Oggy mit Papieren/Vertraegen gegen Schutzgeld-Erpresser, danach wurde die Beziehung enger
+- **Kampfbot**: Oggy und George haben einen Trainingssimulator zusammen gebaut; George trainiert dort regelmaessig ohne Schmerzdaempfung
+- kaufte das spaetere Kurierbike von Patrick, ohne zu tief nachzufragen; das Bike wird spaeter als **Arc** (George's persoenliches Transportmittel) bekannt
 - **Familie**:
-  - Ehefrau: **Jennifer** (Alias: **Jenny**); ihr Gesundheitszustand ist instabil
-  - Jennifer traegt eine **Cyberniere mit kontrollierter Firmware** (von aussen nicht frei aenderbar)
+  - Ehefrau: **Jennifer** (Alias: **Jenny**); traegt eine **Cyberniere mit kontrollierter Firmware** (von aussen nicht frei aenderbar); Update-Status: abgeschlossen (Stand 2077-02/03)
   - Kinder: **Colan** (ca. 10) und **Emily "Emmy"** (ca. 9)
   - Die Kinder nennen George **"Onkel George"**
   - Jennifer nennt George beim Vornamen und behandelt ihn wie einen Neffen
