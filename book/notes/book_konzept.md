@@ -60,6 +60,20 @@ Georges Stimme ist die der Maske, die sich selbst beschreibt — er analysiert s
 - **Beobachtung vor Reaktion** — er catalogisiert Menschen wie Information, aber die Emotion sickert durch
 - **Wärme zeigt sich indirekt** — nie ausgesprochen, immer gehandelt; der Leser sieht es, George sagt es nicht
 
+### Ely-POV Stilprinzipien (verbindlich ab Kap 3 v2, April 2026)
+**Referenztext: `buch1_kap03_ely_valentino.md` (Neuschrieb)**
+
+Elys Stimme ist die der präzisen Beobachterin — sie sieht alles, benennt es klar, aber die Emotion kommt immer eine Schicht hinter der Analyse. Sie denkt in Gleichgewichten, nicht in Impulsen.
+
+**Regeln:**
+- **Beobachtung der Beobachtung** — Ely beobachtet, wer wen wie anschaut; Meta-Ebene ist ihr natürliches Terrain: „Ich beobachtete Lauri, die Enrico beobachtete"
+- **Präzision ohne Kälte** — sie benennt Dinge genau, aber nicht distanziert; die Genauigkeit *ist* ihre Intimität
+- **Innere Gedanken fließen in den Text** — kein Kursiv für innere Monologe außer im Tagebuch-Modus (eigene Passage, bewusster Stilbruch)
+- **Tagebuch als Schleuse** — wenn Ely nachts nicht schlafen kann, kommen die Sätze trotzdem; Tagebuch ist der Ort wo sie sich erlaubt, unfertig zu sein
+- **Verzögerung vor Gefühl** — sie denkt zuerst, fühlt nach; das „Ich wusste nicht, was es war" kommt immer etwas zu spät, mit Absicht
+- **Gleichgewichtsdenken** — alles hat ein Gleichgewicht; etwas, das zu sehr zieht, hält sie wach; das ist ihr internes Warnsystem
+- **„Ich war Lauris Ely für ihn"** — Ely kennt ihre Rollen in Beziehungen und benennt sie; das ist keine Klage, nur Bestandsaufnahme
+
 ---
 
 ## 3. POV-Struktur
