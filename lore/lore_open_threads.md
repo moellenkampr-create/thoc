@@ -16,6 +16,9 @@ source: lore_db.md
 - Aldecaldos als variable wiederkehrende Fraktionsanbindung mit moeglichem medizinischem Hook weiter ausarbeiten
 - Eskalationspunkt von Elias bei George-Fake-Feed / Ueberwachung
 - **Jemand in Elias' Umfeld kannte offenbar die Verbindung Vik/Lucky Lucy** — wer? Wann hat das Elias (wenn ueberhaupt) erreicht, und welchen Einfluss hatte das auf seine Entscheidungen gegenueber George und der Mutter?
+- **Gerhardt (250k)** — ca. 250k von Elys Vermoegen stehen Gerhardt zu; wer ist das, welche Schuld/Vereinbarung liegt zugrunde?
+- **Scheich (Goldbarren)** — Goldbarren eines Scheichs sind in Elys ~1-Mio.-Portfolio eingerechnet; Herkunft und eventuelle Rueckforderungsrisiken ungeklaert.
+- **Saburo Arasakas Ermordung (2077-07-06) und Walter Henshaw** — Walter gilt Saburo als Ordnungsprinzip; Yorinobu als Nachfolger ist fuer ihn untragbar. Wie reagiert Walter auf die Nachricht, und welche Folgen hat das fuer seine Dynamik mit Elias / NC-Politik?
 - Langfristige Folgen der Day-6/7-Arc und der NCU-Rueckkehr als offenes Trio
 - George-Konflikt mit Football-Umfeld
 - Maria-Suchfaden bei Lauri

@@ -260,7 +260,13 @@ source: lore_db.md
 - frueher fixer-/geistlicher Kontakt aus dem Haywood-/Valentinos-Umfeld
 - gab Ely und Lauri nach Enricos Trauerfeier einen fruehen echten Informationsjob gegen die 5. Kolonne
 
-## 3. Familienkomplex Henshaw / von Eichner
+### Takamura
+**ARBEITSSTAND (2077-07-06)**
+- Tritt am 2077-07-06 in Viks Klinik auf: bewaffnet (gezogenes Schwert), aufgewuehlter Zustand.
+- Vik beruhigt ihn; Name am Rande mitbekommen: **Takamura**.
+- Verbindung zur Ermordung von **Saburo Arasaka** (CEO Arasaka, gleicher Tag) wahrscheinlich; Vik ist durch Takamura vermutlich bereits in die Weltplot-Ereignisse hineingezogen.
+- Vik warnt das Trio: "Wenn Misty sagt ihr koennt nicht rein — dann hoert ihr auf sie."
+- Weltplot-Note: Die Saburo-Ermordung und Takamuras Praesenz bei Vik laufen parallel zu den THoC-Ereignissen; aktive Einbindung des Trios in diesen Strang ist bisher nicht vorgesehen.
 **ARBEITSSTAND**
 
 ### Walter Frederick Henshaw

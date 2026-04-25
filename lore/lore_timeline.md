@@ -341,6 +341,11 @@ source: lore_db.md
     - Aldecaldo-Einkaufslisten enthalten neben praktischen Bedarfen auch halb-ernste Party-/Scherzartikel.
     - Ein Musiker aus dem Camp fragt aktiv nach erneutem gemeinsamen Jammen bei Rueckkehr.
   - Das Trio plant den Rueckweg nach Night City; zusaetzlich bitten die Aldecaldos sie, bei Gelegenheit Besorgungen aus der Stadt mitzubringen.
+  - **Ely-Sicht (ARBEITSSTAND, Morgenszene)**:
+    - **Mitch** bringt dem Trio Fruehstueck.
+    - Waehrend sie auf Mitchs Einkaufsliste warten, fuehrt Ely ein offenes Finanzgespraech mit George: **"All in!"** — sie legt ihr gesamtes Portfolio offen. Stand: ca. **1 Mio. Credits** (inkl. Goldbarren des Scheichs); ca. **250k davon gehoeren Gerhardt**. George erwidert ebenfalls mit "All in" — sein Gesamtvermoegen liegt ca. beim **Zehnfachen**, aber groesstenteils in Festanlagen (Immobilien); sein **fluessiges Kapital ist begrenzt**. Entscheidung: George bekommt Verfuegungsgewalt ueber Ely/Lauris Konten.
+    - **Bob** (Aldecaldo, Vater von Jake) kommt mit Lauri und einer Medikamentenliste: Meds fuer seinen Sohn. **George verfinstert sich**: "Das sind dieselben Medikamente, die auch Oggys Frau Jenny braucht." Er nickt Bob zu — erste erkennbare Verbindung zwischen Jakes und Jennys Zustand (gleiche Meds, gleicher Lieferpfad, vermutlich gleicher Akteur; haertere Bestaetigung folgt 2077-07-10 ueber OS-Scan).
+    - Aldecaldos stellen dem Trio einen **Transporter** fuer die Besorgungsfahrt zur Verfuegung (Liste ist sehr umfangreich).
 - **2077-07-06 spaeter Vormittag**:
   - Vor dem Aufbruch besteht Lauri noch auf einem Tattoo-Termin; der Doppelsinn von Elys Formulierung loest im Lager Gelaechter aus.
   - Das Trio faehrt danach Richtung Stadt und trifft Donny am Campus.
@@ -348,13 +353,24 @@ source: lore_db.md
   - Das Trio laesst Donny den Datentraeger / Stick aus dem Kurierbike pruefen; er will nach der Uni weiter daran arbeiten und sich spaeter melden.
   - Das Trio entscheidet, Donny staerker einzuweihen und ihm bei verwertbarem Inhalt einen Anteil zu geben.
   - Zu diesem Zeitpunkt vermutet das Trio weiterhin vor allem Blackmail-Material gegen Trump; vom Superwagen und der vollen Race-Verschwoerung wissen sie noch nichts.
+  - **Ely-Sicht (ARBEITSSTAND, Fahrt in die Stadt)**:
+    - Donny liefert ein Foto: **Anzug-Typ, der an der NCU persoenlich und in Persona nach dem Trio fragt**. George vermutet: Handlanger des Senators (Elias). Ely hofft, dass das nicht stimmt.
+    - **Lauri schlaegt vor**, die Raffen-Hoehle zu sprengen; berechnet kurz die noetige Sprengladung. **Ely redet sie davon ab** (Argumentation ueberzeugt sie schliesslich).
+    - **Elys interne Tattoo-Entscheidung**: Waehrend George faehrt und Lauri ihn ablenkt, kreist in Ely der Gedanke **"ALL IN"** — das Trio-Tattoo, das Lauri und George wollen. Die Angst ist noch da, aber das Gewicht kippt. Entscheidung faellt still, ohne Ankuendigung, waehrend sie scheinbar Besorgungen im Netz ordert.
 - **2077-07-06 tagsueber**:
   - Ely beginnt Einkaeufe und Besorgungslisten fuer die Aldecaldos zu sammeln; einige Wuensche wirken wie halb ernste Veraeppelung, werden aber mitgenommen.
   - Wegen Medis, Erste-Hilfe-Ausruestung und Nachsorge fuer George / das Trio wird ein Besuch bei Vik als dringend markiert.
+  - **Ely-Sicht (ARBEITSSTAND, Vik-Besuch)**:
+    - **Misty** blockiert den Eingang; George lenkt sie ab, Ely schleicht sich in die Klinik.
+    - Vik schlaeft im Untersuchungsstuhl; ueberall Blut — aber **nicht Viks Blut**.
+    - Ein Japaner mit gezogenem Schwert tritt auf Ely zu; Vik wacht auf, beruhigt ihn. Name: **Takamura**.
+    - Vik gibt dem Trio danach eine **Standpauke**: Wenn Misty sagt, ihr koennt nicht rein — dann hoert ihr auf sie.
+    - Vik warnt George: Er solle **vorsichtig sein**, da der Patient, den er gerade zusammengeflickt habe, George **sehr aehnlich sehe**. Alles sehr vage gehalten.
+    - **George erwaehnt beilaenfig die Ermordung von Saburo Arasaka** (CEO Arasaka); Ely wird flaues: das koennte einen neuen Konzernkrieg ausloesen. Moeglicherweise ist Vik durch Takamura bereits in die Weltplot-Ereignisse hineingezogen.
   - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
     - Vor Viks Klinik wird das Trio durch eine Frau abgefangen; der Zugang wird verweigert, explizit besonders fuer George.
     - Beim spaeteren Hineinsehen sitzt Vik schlafend/verletzt in blutiger Umgebung.
-    - Kurz darauf erscheint ein bewaffneter, japanisch wirkender Mann; das Trio zieht sich vorlaeufig zurueck.
+    - Kurz darauf erscheint ein bewaffneter, japanisch wirkender Mann (**Takamura**); das Trio zieht sich vorlaeufig zurueck.
     - Die Nachphase wird emotional durch Stressabfuhr und engen Bindungston getragen (Ue18 nur als Szenenmarker gefuehrt).
   - **Lauri-Sicht (ARBEITSSTAND, Folgeblock Einkaufstour)**:
     - In einem Sexshop folgt eine intime Triosequenz in enger Kabine (ohne explizite Chronikdetails).
