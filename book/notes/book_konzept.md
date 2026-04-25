@@ -32,6 +32,20 @@ Ein erwachsener, emotional intensiver Cyberpunk-Roman im Jahr **2077**, der die 
 - subtile und direkte Erotik (Blicke, Nähe, Hitze, Körpersprache)
 - realistische Gewalt (Tunnelblick, Adrenalin, Konsequenzen)
 
+### Ich-POV Stilprinzipien (verbindlich ab Kap 1 v2, April 2026)
+**Referenztext: `buch1_kap01_lauri_campus_masks.md` (Neuschrieb)**
+
+Die Erzählstimme ist direkt, roh und spricht den Leser fast an — nicht distanziert-literarisch, sondern nah, wie jemand, der erzählt während er erlebt.
+
+**Regeln:**
+- Fließende Prosa als Standard — keine Stakkato-Fragmente als Dauermodus
+- Kurze Einzelsätze / Fragmente nur in echten Extremsituationen (Schock, Kampf, Einschlag)
+- Innere Monologe gehören zur Erzählung, nicht in *Kursiv*-Inseln — sie fließen in den Text
+- Sarkasmus, Witz und Direktheit als Charaktermerkmal zeigen (z.B. „verdammter Schnösel", Kirschblüten-Einleitung)
+- Übergänge zwischen Szenen dürfen knapp sein, aber nicht unmotiviert — der emotionale Grund muss spürbar sein
+- Trennlinien (---) sparsam einsetzen, nicht als Ersatz für fehlende Übergänge
+- Körperlichkeit und Erotik gehören in den Erzählfluss, nicht als separate Beobachtungsblöcke
+
 ---
 
 ## 3. POV-Struktur
