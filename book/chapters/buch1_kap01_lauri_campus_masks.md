@@ -22,11 +22,11 @@ Die Hitze war falsch. Es war Februar verdammt. Es sollte nach nassem Asphalt rie
 
 Verdammter Clean Mode. Perfekt. Kontrolliert. Erstickt. Ein Glück stand Ely neben mir. So dicht, wie es der Campus zuließ — und der Campus ließ nicht viel zu. Ihre Schulter berührte meine fast, fast nicht. Der Abstand war exakt: unauffällig und gleichzeitig der falsche Abstand. Zu weit für das, was wir waren. Nah genug, dass ich jeden Atemzug von ihr hörte. Es gibt Dinge, die ich sehr viel lieber täte, aber so ist nunmal das Leben einer Henshaw auf der besten Universität in Night City.
 
-Ely tat so, als würde sie ihr Holo lesen. Die Finger spielten an der Kante ihrer Uniformjacke, das fast unsichtbare hin und her ihrer Augen, das hinter ihrer falschen Brille zeigte, dass sie etwas las. Ihre langen, braven glatten Haare, die gerade keine Lust hatten brav über ihren Rücken zu fallen. 
+Ely spielte mit ihren Fingern an der Kante ihrer Uniformjacke, das fast unsichtbare hin und her ihrer Augen, das sich hinter ihrer falschen Brille abspielte, zeigte, dass sie etwas las. Ihre langen, braven glatten Haare, die hatten gerade keine Lust brav über ihren Rücken zu fallen. 
 
-*Wir durften nichts zeigen.* Nicht hier. Nicht vor all diesen Augen. Ich musste mich aktiv davon abhalten mir die untere Lippe zu kauen. Ihre Bluse spannte schon fast über ihren Brüsten und der kurze Rock ihrer NCU Uniform verdeckte zu viel und zu wenig von ihren Beinen. 
+*Wir dürfen nichts zeigen.* Nicht hier. Nicht vor all diesen Augen. Ich musste mich aktiv davon abhalten mir die untere Lippe zu kauen. Ihre Bluse spannte schon fast über ihren Brüsten und der kurze Rock ihrer NCU Uniform verdeckte zu viel und zu wenig von ihren Beinen. 
 
-Das Raunen begann als Welle, von hinten nach vorne. Ich musste nicht hinschauen. George Willbur Smith III betrat den Innenhof. 
+Ein Raunen begann als Welle, von hinten nach vorne. Ich musste nicht hinschauen. George Willbur Smith III betrat den Innenhof. 
 
 Perfekte Uniform. Perfektes Lächeln. Perfekte Haltung — nicht die Haltung von jemandem, dem man sie beigebracht hatte, sondern die Art, die aus dem Körper kommt, wenn er nie gelernt hat, klein zu sein. 1,95 Meter, breit genug, dass die Menge instinktiv Platz machte. Der Quarterback. Der Sohn eines Senators. Der Typ, um den sich alles organisierte, ohne dass er etwas dafür tun musste. Ein möchtegern Weichei, da war ich mir sicher.
 
@@ -45,7 +45,7 @@ Ely kicherte. Dieses kleine, warme Geräusch, das sie nur macht, wenn sie sich u
 
 Ich sah es. Ich spürte es. Ich ließ es los.
 
-Dann — ein tiefes Motorengeräusch, das durch den Innenhof vibrierte, bevor ich die Quelle fand. Bevor es ausging, wurde noch einmal kurz der Gashahn hochgedreht. 
+Dann — ein tiefes Motorengeräusch, das durch den Innenhof vibrierte, bevor ich die Quelle fand. Er drehte noch einmal kurz den Gashahn hoch, um auf sich aufmerksam zu machen. 
 
 Ich wusste, wer das war.
 
@@ -55,7 +55,7 @@ Er sah zu uns herüber. Kurz. Aber mit der Art Kürze, die alles sagte. Gashahn 
 
 Mein Herz zog einen Schlag schneller. Ich ließ mir nichts anmerken.
 
-Wir standen da, Ely und ich, zwei brave Studentinnen mit Holos und Uniformen und dem richtigen Abstand zueinander. Ich belohnte ihn, indem ich einen imaginären Stift vom Boden aufhob und sehr bewusst meinen Hintern mit ausgestreckten Beinen in seine Richtung streckte. Ich wusste, dass er meinen Körper sah. Ich wusste, dass er darauf reagierte. Ich genoss es auf eine Art, die ich hier nicht zugeben konnte.
+Wir standen da, Ely und ich, zwei brave Studentinnen mit Holos und Uniformen und dem richtigen Abstand zueinander. Ich belohnte ihn, indem ich einen imaginären Stift vom Boden aufhob und sehr bewusst meinen Hintern mit ausgestreckten Beinen in seine Richtung präsentierte. Ich wusste, dass er meinen Körper sah. Ich wusste, dass er darauf reagierte. Ich genoss es auf eine Art, die ich hier nicht zugeben konnte.
 
 Ely hatte ihn auch bemerkt. Sie ordnete ihr Haar. Drehte sich schnell genug, dass ihr Schlüpfer unter ihrem Rock vorblitzte und dann erstarrte sie. Hatte es selbst gemerkt, was sie gemacht hatte. Ihre Wangen wurden rot, bevor sie es verbergen konnte. 
 
