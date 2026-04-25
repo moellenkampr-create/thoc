@@ -60,6 +60,11 @@ Lauri hat gelernt: wenn etwas zu gut wird, rechnet das Universum ab. Das ist ein
 - emotionale Ausbrüche sind selten und daher umso stärker
 - Cybertattoos als emotionaler Indikator (Schmetterlinge bei Aufregung, etc.)
 
+### Clean Mode — äußere Merkmale
+- Trägt im Clean Mode eine **Brille** über den Cyberoptics (Manga-Kanon)
+- Haare lang, glatt, dunkel — kein Techhair aktiv
+- Cybertattoos deaktiviert
+
 ### Wissensstand Anfang Buch 1 (Ende Feb 2077)
 - **Weiß nicht**, dass ihre Cyberware (inkl. Sandevistan-Vorgänger) unter elterlicher Kontrolle steht
 - **Weiß nicht**, dass ihre Fruchtbarkeit kontrolliert wird
