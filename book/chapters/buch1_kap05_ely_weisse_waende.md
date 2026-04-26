@@ -204,7 +204,7 @@ Ich war zum Arztgespräch drei Minuten zu früh — der Flur war kürzer gewesen
 
 Ich las schnell. Das konnte ich immer: einen Text erfassen, bevor der Kontext entschied, ob er für mich war.
 
-*... Bewertung abgeschlossen. Vorliegender Befund bestätigt: dauerhafte Trennung der Probandin von Bezugsperson H. kontraindiziert. Erwartete Folgen bei vollständigem Kontaktabbruch: irreversible psychische Folgen im Langzeitverlauf nicht auszuschließen. Empfehlung: zeitnahe Koordination Dr. Redmond / Dr. Vilkoff. Weiteres Vorgehen bitte schnellstmöglich einleiten.*
+*... Bewertung abgeschlossen. Vorliegender Befund bestätigt: dauerhafte Trennung der Probandin von Bezugsperson H. kontraindiziert. Erwartete Folgen bei vollständigem Kontaktabbruch: irreversible psychische Folgen im Langzeitverlauf nicht auszuschließen. Empfehlung: zeitnahe Koordination Dr. Redmond / Dr. Vilkoff. Laufendes Pharmaprotokoll: extern spezifiziert, bitte unverändert beibehalten. Weiteres Vorgehen bitte schnellstmöglich einleiten.*
 
 Dann kam die Assistentin zurück.
 
@@ -219,6 +219,12 @@ Dr. Redmond.
 Irgendwo da draußen hatte jemand Druck gemacht — und dieser Druck hatte einen Namen, und hinter diesem Namen stand jemand, der ihn in Bewegung gesetzt hatte. Jemand, der Walter Henshaw kannte. Jemand, der wusste, wo er den Hebel ansetzen musste, damit es zählte.
 
 Ich wusste nicht, wer das war. Ich hatte noch zu wenig. Aber eines war klar: es war kein Zufall. Und es war keine Freundlichkeit — nicht in diesem Umfeld, nicht in diesen Strukturen. Es war ein Zug auf einem Brett, das ich noch nicht vollständig sehen konnte.
+
+Und das Pharmaprotokoll — *extern spezifiziert*, hatte da gestanden. Nicht von Dr. Vilkoff. Nicht von der Klinik. Jemand hatte nicht nur Druck auf die Kontaktfrage gemacht, sondern auch dafür gesorgt, dass wir ein bestimmtes Protokoll bekamen. Jemand mit den richtigen Zugängen. Jemand, der wusste, wie man Kanäle benutzt, die keine Spuren hinterlassen.
+
+*Das*, dachte ich, *würde die langsamen Gedanken erklären.*
+
+Vielleicht.
 
 Das Ergebnis war dasselbe: die Trennung würde nicht permanent werden.
 
@@ -301,6 +307,10 @@ Am Tag der Entlassung gab es ein Gespräch mit beiden Vätern, beiden Ärzten, u
 Dr. Vilkoff erläuterte die *angepassten Auflagen zur Stabilisierung der Nachsorgephase.* Lauri und ich saßen nebeneinander und hörten zu. Ich hielt das Gesicht neutral. Das war einfach.
 
 Für mich: wöchentliche Gespräche. Familiendinner am Wochenende — freitags oder samstags, Judith und Bertram. *Um den Familienkontakt zu stärken.* Uni wie geplant ab dem neuen Semester. Medikamentöse Nachsorge in Tablettenform, nichts Invasives.
+
+Ich ließ das sacken. *Nichts Invasives.* Als wäre das die Unterscheidung, die zählte. Als wäre das der Rahmen, in dem es galt — nicht *ob*, nur *wie*.
+
+Ich dachte an das Dokument. An *extern spezifiziert*. Wer auch immer dahinterstand, hatte nicht nur die Kontaktfrage geregelt. Er hatte auch das hier geregelt — schon vorher, leise, über Kanäle, die keine Spur hinterließen.
 
 Walter sprach kein einziges Mal direkt mit mir.
 
