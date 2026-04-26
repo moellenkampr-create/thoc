@@ -367,8 +367,7 @@ source: lore_db.md
     - Die Kassiererin gibt Lauri ein Tuch mit den Worten: *"Hinterher alles abwischen!"*
     - George murmelt, das hier sei **einer seiner feuchten Traeume von seiner Bucket List**. Hinten gibt es einen engen Raum; die Enge hat praktische Vorteile.
     - **Rosa Luftballons** werden gekauft — ein **Haken auf Elys Liste**, nicht nur Lauris.
-    - Danach: Ely sieht **Takamura** Viks Klinik verlassen. Timing genutzt — Trio geht rein.
-    - **Vik-Besuch (Ely-Ergaenzung)**: Viktor macht dem Trio einen guten Preis fuer **Erste-Hilfe-Ausruestung** und die **Medikamente fuer Bobs kranken Sohn Jake**. Das wird Bob freuen.
+    - Danach: Ely sieht **Takamura** Viks Klinik verlassen. Timing genutzt — Trio geht rein. (Szenendetails s. u.: Ely-Sicht Vik-Besuch)
     - H10: Ely braucht eine heisse Dusche.
     - **Donny am H10-Eingang** (steht mit einem Typen, der eine **echte Schildkroete** auf dem Arm streichelt).
     - Donny hat den **Datenstick** ausgelesen: Er fand **nur Koordinaten in den Badlands** — der Rest des Inhalts ist verloren (er hat es "verkackt"). Ely bohrt nach, bis er es zugibt. Er konnte nur die Koordinaten retten.
@@ -387,6 +386,7 @@ source: lore_db.md
     - Vik gibt dem Trio danach eine **Standpauke**: Wenn Misty sagt, ihr koennt nicht rein — dann hoert ihr auf sie.
     - Vik warnt George: Er solle **vorsichtig sein**, da der Patient, den er gerade zusammengeflickt habe, George **sehr aehnlich sehe**. Alles sehr vage gehalten.
     - **George erwaehnt beilaenfig die Ermordung von Saburo Arasaka** (CEO Arasaka); Ely wird flaues: das koennte einen neuen Konzernkrieg ausloesen. Moeglicherweise ist Vik durch Takamura bereits in die Weltplot-Ereignisse hineingezogen.
+    - Praktischer Abschluss des Besuchs (Ely-Tagebuch): Viktor berechnet guenstigen Preis fuer Erste-Hilfe-Ausruestung und Medikamente fuer Bobs kranken Sohn Jake. Das wird Bob freuen.
   - **Lauri-Sicht (ARBEITSSTAND, Detailergaenzung)**:
     - Vor Viks Klinik wird das Trio durch eine Frau abgefangen; der Zugang wird verweigert, explizit besonders fuer George.
     - Beim spaeteren Hineinsehen sitzt Vik schlafend/verletzt in blutiger Umgebung.
@@ -407,6 +407,7 @@ source: lore_db.md
      - Das Trio flieht im Aldecaldo-Auto; der Agent kennt jetzt das Fahrzeug und kann zukuenftig verfolgen.
      - George spricht allein mit dem Agenten; Uebertragung bricht ab (Bedarf fuer unstoerbare Kommunikation identifiziert).
      - Agent berichtet von erzwungener Vermaehlung Georges mit Jemandem "aus Uebersee".
+  - **Konsolidiert (mehrere Sichten, ARBEITSSTAND)** — noch keiner Einzelsicht zugeordnet:
    - Donny hat Bild und Koordinaten fuer das Trio; er organisiert gleichzeitig 3-Wochen-Krankschreibung fuer alle drei bei der NCU.
    - Ely hat weitergeschriebenes Tagebuch (lose Blaetter im Shakespeare-Buch versteckt); Trio liest unterwegs (Ely vor, George faehrt, Lauri stickt).
    - George erzaehlt Lauri, dass er mit Gerard laenger zusammen gewesen waere, "waere sein Vater nicht" => Lauri wird eifersuechtigung, stickt intensiv.
