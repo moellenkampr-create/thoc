@@ -202,6 +202,8 @@ Ungebeten. Automatisch.
 
 Ich würde mich daran gewöhnen.
 
+Irgendwann stellte ich den leeren Becher auf den Tresen. Misty nahm ihn, ohne hinzuschauen.
+
 ---
 
 Das Bike stand wo es immer stand, zwei Hausnummern weiter, unter dem Dach des Parkhauses.
@@ -216,7 +218,7 @@ An den Schrank, die Bitte, den Smartrahmen. Die offene Adresse in den Daten — 
 
 Sie hatte mir gesagt, wo ich hinschauen sollte.
 
-Ich wusste nicht, ob ich ihr dafür danken oder böse sein sollte. Ich beschloss, dass beides gleichzeitig möglich war.
+Ich hielt das eine Weile.
 
 Im Kyroshi-Feed öffnete sich ein Signal. Donny. Kurze Nachricht, kein Schnickschnack, so wie Donny immer schrieb — direkt ins Sichtfeld, da wo er wusste, dass ich es sah.
 
@@ -252,7 +254,7 @@ Ich schrieb Donny: *Halte mich auf dem Laufenden.*
 
 Dann lehnte ich mich zurück und schaute in den Regen.
 
-Die Stadt leuchtete. Mein Kopf ordnete, zählte, verarbeitete — Abstand, Frequenz, Regenintensität, die Neonfrequenz der Werbetafel gegenüber, alles gleichzeitig, alles ohne Anstrengung.
+Die Stadt leuchtete. Mein Kopf ordnete, zählte, verarbeitete — Abstand, Frequenz, Regenintensität, die Neonfrequenz der Werbetafel gegenüber, alles gleichzeitig.
 
 Neu.
 
