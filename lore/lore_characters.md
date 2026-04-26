@@ -254,6 +254,32 @@ source: lore_db.md
 - starb im Winter 2076 beim Brueckenunfall
 - bleibt zentrale Traumafigur fuer Lauri und wichtiger Erinnerungspunkt fuer Ely
 
+#### Bluttrinker-Motiv und letzter Tag (ARBEITSSTAND)
+- Enrico hat innerlich bereits entschieden, Bluttrinker nicht mehr als Executor zu fuehren, bevor er die Klinge an Lauri weitergibt.
+- Er gibt sie ihr **nicht** als Krönung oder Weiterfuehrung des Zyklus, sondern weil er glaubt, sie werde die Klinge **nicht annehmen** — verstecken, neutralisieren, begraben. Er haelt Lauri fuer jemanden, der die Klinge bricht, nicht weitertraegt.
+- **Tragischer Irrtum**: Er kennt Lauris ganze Vorgeschichte nicht. Er irrt sich. Lauri nutzt Bluttrinker spaeter real und brutal. Enricos Handlung ist nicht sinnlos, aber tragisch falsch kalibriert — er wollte den Zyklus beenden und hat ihn ungewollt nur verschoben.
+- Die Kluenge gibt er ihr am letzten Tag; er bricht die Erklaerung mitten im Satz ab.
+- **Kreuz**: Enrico war am selben Tag bei seiner Schwester. Das Kreuz bleibt dort — er merkt es erst spaeter und ruft bei Lauri/Ely an, weil er es dort vermutet.
+- **Drogen**: Er nimmt erst **nach dem Verlassen des Apartments** Substanzen, ausgeloest durch externen Druck (Bluttrinker-Fanatiker, s. u.) und sein eigenes Nicht-klarkommen mit der Entscheidung — nicht durch die Szene im Apartment selbst.
+- **Bluttrinker-Fanatiker-Druck**: Ein kleiner Kern aus Kult-/Legacy-Glaeubigen setzt Enrico am Abend unter Druck, die Rolle des Vollstreckers nicht zu "verraten". Dieses Gespraech ist ein zentraler Trigger fuer seinen Drogenkonsum nach dem Verlassen des Apartments. Die Fanatiker steuern nicht jede Handlung, erhoehen aber den psychischen Druck massiv.
+- **Letzter Moment (Lauri-Recall, ARBEITSSTAND):** Er wirkt im letzten Moment wieder klar und laesst dann bewusst los. Einordnung bleibt offen.
+
+### Enricos Schwester
+**ARBEITSSTAND**
+- Enrico verbrachte seinen letzten Tag (vor dem Unfall) bei ihr; dabei blieb sein Kreuz dort zurueck
+- Nach Enricos Tod findet sie das Kreuz bei sich und behaelt es als letztes Stueck ihres Bruders
+- Kennt Lauri und Ely aus Enricos Erzaehlungen; weiss genug ueber Bluttrinker, um die Symbolik zu verstehen
+- Platziert spaeter Kreuz + Klinge unter Lauris Bett (Kreuz an der Kordel): als Schutz- und Abschiedszeichen — Enrico soll nicht ganz aus der Klinge verschwinden, aber die Klinge soll auch nicht frei im Raum liegen
+- Name und spaetere Relevanz: offen
+
+### Bluttrinker-Fanatiker
+**ARBEITSSTAND**
+- Kleiner Kern aus Kult-/Legacy-Glaeubigen, die Bluttrinker als Pflichtobjekt des Vollstreckers betrachten
+- Setzen Enrico am Abend seines Todes unter Druck, die Executor-Rolle nicht zu "verraten"
+- Dieses Druckgespraech ist zentraler Trigger fuer Enricos spaeten Drogenkonsum nach Verlassen des Apartments
+- Steuern keine Einzelhandlungen, erhoehen aber psychischen Druck massiv
+- Bleiben als spaetere Bedrohungslinie aktiv (sie wissen, dass Lauri die Klinge hat)
+
 ### Mama Wells
 **KANON**
 - lud Ely und Lauri zur Trauerfeier fuer Enrico im Cojote Cojo ein

@@ -62,11 +62,12 @@ source: lore_db.md
   - Ely und Lauri werden ueber Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **Cojote Cojo**.
   - Zwischen Ely, Lauri und Enrico entsteht eine echte intime Phase ohne die ueblichen gesellschaftlichen Masken.
   - Kurz vor dem Unfall verschenkt Enrico seine Machete an Lauri (spaeterer Bluttrinker-Kontext) und bricht eine Erklaerung dazu mitten im Satz ab.
-  - In der Vorphase eskaliert Enrico sichtbar am Verlust seines Kreuzes; Pupillenbild und Verhalten deuten in Lauris Wahrnehmung auf Substanzeinfluss.
+  - In der Vorphase eskaliert Enrico sichtbar am Verlust seines Kreuzes; Pupillenbild und Verhalten deuten in Lauris Wahrnehmung auf Substanzeinfluss. **Korrekturnote (ARBEITSSTAND):** Das Kreuz war bei Enricos Schwester geblieben, wo er es am selben Tag vergessen hatte; er ruft spaeter bei Lauri/Ely an, weil er es dort vermutet.
   - Coyote-/Aussenbild als ARBEITSSTAND: Ely und Lauri werden in Teilen des Umfelds als "seine Chickas" gelesen; intern laufen bereits harte Grenzverhandlungen.
   - Lauri ist stark verliebt; in dieser Zeit beginnt sie, sich auch echte Tattoos stechen zu lassen.
   - Fruehe Regelspannung (ARBEITSSTAND): Enrico pocht auf Dominanzwahrung vor Publikum, waehrend Ely/Lauri Zwang und Trennungsversuche klar als rote Linie markieren.
   - Kritischer Vorfall vor der Unfallnacht (ARBEITSSTAND): mutmasslich ungefragte orale Substanzgabe im Coyote; Ely und Lauri lehnen das klar ab.
+  - **Letzter Tag (ARBEITSSTAND)**: Enrico gibt Lauri die Klinge in dem Glauben, sie werde sie neutralisieren — nicht weiterfuehren. Bricht die Erklaerung mitten im Satz ab. Drogen nimmt er erst **nach** dem Verlassen des Apartments, ausgeloest durch Druck von Bluttrinker-Fanatikern und innere Ambivalenz ueber seine Entscheidung.
   - Beim spaeteren Unfall traegt Enrico neues, verunreinigtes Zeug im System; Ely wollte die Substanz eigentlich erst an der Uni analysieren.
   - Bei Regen und schlechter Sicht verliert Enrico auf dem Bike an einer Bruecke die Kontrolle.
   - Kurz vor dem Crash liegt ein offener Streit um Fahrfaehigkeit unter Einfluss vor; Ely warnt, Enrico setzt sich darueber hinweg.

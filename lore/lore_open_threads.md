@@ -74,8 +74,9 @@ source: lore_db.md
 - 2077-07-11 Saul-Besprechungszelt-Zwischenfall - Welche sozialen Nachwirkungen im Camp bleiben nach der peinlichen Ueberkreuzung?
 - 2077-07-11 Lauris Zugehoerigkeitskonflikt - Derzeit: totale Begeisterung fuer Nomadenleben und Aldecaldo-Kultur. Lauri hat bisher nur die sonnige Seite gesehen. Wie sie reagiert, wenn Schattenseiten sichtbar werden, ist offen. Der innere Abwehrimpuls ("gehoere nicht hierher") liegt unter der Begeisterung vergraben, nicht aufgeloest.
 - 2077-07-11 Oggy-Militech-Rebuild - Welche Beschaffungsroute deckt die noch fehlenden Tarn-/Leistungsteile fuer den Wagen ab (inkl. Risiko, Zeitdruck, Geldfluss)?
-- 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)?
-- 2077-07-11 Enrico-Bluttrinker-Motiv - Warum gab Enrico die Klinge weiter; Schutzhandlung, Manipulation oder dritter Zweck?
+- 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)? **Teilaufgeloest (ARBEITSSTAND):** Bluttrinker seit 1940er Mexiko; Scheide aus Menschenhaut; Traegerlogik bekannt. Verborgener Teil (nur Insidern bekannt): Zyklus brechbar durch bewusste Lossagung ohne Machtgier.
+- 2077-07-11 Enrico-Bluttrinker-Motiv - **AUFGELOEST (ARBEITSSTAND):** Enrico gab die Klinge weiter, weil er den Zyklus beenden wollte und Lauri falsch einschaetzte (haelt sie fuer jemanden, der sie neutralisiert, nicht weitertraegt). Tragischer Irrtum.
+- **Bluttrinker-Fanatiker als Bedrohungslinie** — Sie wissen, dass Lauri die Klinge hat. Wann treten sie aktiv in Erscheinung? Wer fuehrt den Kern an? Kennen sie bereits den Schwester-/Kreuz-Pfad?
 - 2077-07-11 Enrico-Letzter-Moment (Lauri-Recall) - ARBEITSSTAND-Hypothese: Enrico liess beim Sturz bewusst los und wirkte in diesem Moment klar. Einordnung offen (Fehlwahrnehmung, Trauma-Rekonstruktion oder absichtlicher Akt).
 - Winter 2076 Coyote-Drogenvorfall (ARBEITSSTAND) - Wurde Ely/Lauri vor der Unfallnacht ungefragt eine Substanz oral zugespielt, und falls ja: von wem, mit welcher Absicht, und wie haengt das mit Enricos Zustand zusammen?
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
