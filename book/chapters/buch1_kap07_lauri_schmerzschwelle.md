@@ -1,11 +1,12 @@
 ---
 title: Buch 1 – Kapitel 7 – Schmerzschwelle
-version: 1.0.0
+version: 2.0.0
 project: thoc
 file: buch1_kap07_lauri_schmerzschwelle.md
 type: chapter
 tags: [book, buch1, kapitel, lauri, pov, thoc]
 created: 2026-04-24
+updated: 2026-04-26
 story_date: 2077-05
 pov: Lauri
 status: ARBEITSSTAND
@@ -20,195 +21,131 @@ status: ARBEITSSTAND
 
 Der Aufzug roch noch genauso.
 
-Stahl und irgendwas Blumiges, das seit einem halben Jahr im Polster saß und sich nicht entschied aufzuhören. Die Kabine summte. Kurz vor dem Zwölften: die bekannte kleine Vibration, die immer kam.
+Stahl und irgendwas Blumiges, das seit einem halben Jahr im Polster saß und sich nicht entschied aufzuhören. Die Kabine summte. Kurz vor dem Zwölften die bekannte kleine Vibration, die immer kam. Sie bedeutete, dass wir gleich da waren. Alles genau gleich. Als wäre nichts gewesen. Ich ließ die Schultern eine Sekunde hängen und wartete, bis die Tür aufging.
 
-Alles genau gleich.
+Im Schlafzimmer hockte ich mich direkt vor das Bett.
 
-Ich ließ die Schultern eine Sekunde hängen. Die Tür hielt auf, und wir gingen raus.
+Er lag da — flach, gerade, unter dem Batt. Niemand hatte gewusst, dass er da war. Aber ich griff trotzdem mit beiden Händen danach, zog ihn hervor, spürte das Gewicht. Das Leder am Griff. Die Balance.
 
----
+Ich drehte ihn einmal um, und da war es.
 
-Die Tür. Der Flur. Die Küche rechts.
+Eine dünne Kordel, dunkel, einmal um das Leder gewickelt. Ich hätte es nicht gesehen, wenn ich nicht genau hingeschaut hätte. Ich zog sie heraus — kurz, eng, und an ihrem Ende hing ein Kreuz. Schlicht, klein, Silber, etwas abgegriffen.
 
-Ich ging direkt ins Schlafzimmer.
+Ich kniete da und schaute es an, und mein Kopf brauchte eine Sekunde.
 
-Hockte mich vor das Bett.
+Den Tag vor der Brücke. Die Stimme am Holo, fast normal, nur die Pause davor: *„Habt ihr mein Kreuz gesehen? Ich glaube, ich hab's bei euch liegen lassen."* Wir hatten gesucht. Hatten nichts gefunden.
 
-Er lag da — flach, gerade, Klinge zur Wand, genau so, wie ich ihn gelassen hatte. Niemand hatte ihn bewegt. Natürlich nicht, niemand hatte gewusst, dass er da war. Aber ich griff trotzdem mit beiden Händen danach, zog ihn hervor, spürte das Gewicht.
+Es war am Griff gewesen. Die ganze Zeit. Eingewickelt, klein, unsichtbar für jeden, der nicht wusste, wo er hinschauen musste.
 
-Bluttrinker.
+Ich schloss die Hand um das Kreuz und wartete auf irgendetwas — Tränen, Wut, irgendetwas, das passen würde. Nichts kam. Nur das Gewicht in der Faust, das Leder darunter, und das Wissen, das sich nicht wegdenken ließ: jemand hatte das dort hingelegt. Jemand hatte gewusst, wo Bluttrinker lag. Und er hatte dort hingehört.
 
-Ich drehte ihn einmal um.
+Ich legte das Kreuz auf die Nachtkonsole, vorsichtig, flach, dass es nicht vom Rand rollte. Dann schob ich Bluttrinker wieder unter das Bett.
 
-Da.
-
-An der Seite des Griffs — eine dünne Kordel, dunkel, einmal um das Leder gewickelt. Ich hätte es nicht gesehen, wenn ich nicht genau hingeschaut hätte. Ich zog sie heraus. Die Kordel war kurz, und an ihrem Ende hing ein Kreuz.
-
-Schlicht. Klein. Silber, etwas abgegriffen.
-
-Ich kniete da und schaute es an, und mein Kopf brauchte eine Sekunde, um das richtig einzusortieren.
-
-Den Tag vor der Brücke. Die Stimme am Holo, fast normal, nur die Pause davor: *„Habt ihr mein Kreuz gesehen? Ich glaube, ich hab's bei euch liegen lassen."*
-
-Wir hatten gesucht. Hatten nichts gefunden.
-
-Es war am Griff gewesen. Die ganze Zeit. Eingewickelt, klein, unsichtbar wenn man nicht wusste, wo man schauen musste.
-
-Ich schloss die Hand um das Kreuz. Wartete auf irgendetwas — Tränen, Wut, irgendetwas, das passen würde.
-
-Nichts kam.
-
-Ich legte das Kreuz auf die Nachtkonsole. Vorsichtig, flach, dass es nicht vom Rand rollte. Dann schob ich Bluttrinker wieder unter das Bett.
-
-Er hatte es mir gegeben. Er hatte gewusst, dass er es mir gegeben hatte, und das Kreuz daran — ich wollte diesen Gedanken nicht zu Ende denken.
-
-Ich ließ ihn stehen.
+Er hatte es mir gegeben. Er hatte gewusst, dass er es mir gegeben hatte — und... war das Kreuz daran? Ich wollte diesen Gedanken nicht zu Ende denken. Ich ließ ihn stehen.
 
 ---
 
 Das Badezimmer war der Fehler.
 
-Ich bin einfach reingegangen, ohne nachzudenken. Wasser, dachte ich. Normal.
+Ich ging rein, ohne nachzudenken. Wasser. Normal. Und dann der Spiegel.
 
-Der Spiegel.
+Das Gesicht, das zurückschaute, war meines — Knochen, Winkel, Augen. Der Rest stimmte nicht. Die Haare: Afrozöpfe, eng anliegend, gebändigt auf eine Art, die mir nicht gehörte. Jemand hatte entschieden, dass das pflegeleichter war. Als ob das je der Punkt gewesen wäre.
 
-Das Gesicht, das zurückschaute, war meines — Knochen, Winkel, Augen. Der Rest stimmte nicht.
+Ich hob eine Hand. Die Techhair, die normalerweise auf die leichteste Geste reagierte — nichts. Irgendwann abgeklemmt, ohne Erklärung, ohne Fragen.
 
-Die Haare: Afrozöpfe, eng anliegend, gebändigt auf eine Art, die mir nicht gehörte. Jemand hatte entschieden, dass das pflegeleichter war. Als ob das der Punkt gewesen wäre.
+Meine Arme.
 
-Ich hob eine Hand. Die Techhair, die normalerweise auf die leichteste Geste reagierte — nichts. Inaktiv. Irgendwann abgeklemmt, ohne Erklärung, ohne Fragen an mich.
+Die linke Seite: leer. Kein Muster. Die Haut glatt, sauber, als wäre nie etwas gewesen.
 
-Meine Arme: leer. Kein Muster auf der linken Seite. Nichts. Die Haut glatt, sauber, als wäre nie etwas gewesen.
-
-Ich zählte durch, was weg war.
-
-Die Valentino-Ranke. Das Kreuz, das ich mir hatte stechen lassen. Der Fisch, den Ely gehasst hatte, und ich hatte ihn trotzdem behalten. Drei kleine Sterne an der Hüfte, ohne Grund außer, dass ich sie wollte.
+Ich zählte durch, was weg war. Die Valentino-Ranke. Das Kreuz, das ich mir hatte stechen lassen. Der Fisch, den Ely gehasst hatte, den ich trotzdem behalten hatte. Die drei kleinen Sterne an der Hüfte, ohne Grund außer, dass ich sie wollte.
 
 Alles weg.
 
-Ich hatte nicht mal geweint, als sie es gemacht haben. Das war das, was mich noch immer wütend machte. Ich hatte auf die Decke geschaut und die Minuten gezählt — wie lange, wie viele Sitzungen, wann fertig — und die Naniten hatten gearbeitet und ich hatte keinen Schmerz gespürt. Saubere Arbeit. Als ob meine Haut ein Schreibtisch gewesen wäre und sie nur den Kaffee weggewischt hätten.
+Ich hatte nicht mal geweint, als sie es gemacht haben. Das war der Teil, der mich noch immer wütend machte — nicht der Verlust, sondern das es nicht geschmerzt hat. Ich hatte auf die Decke geschaut und die Minuten gezählt, wie lange, wie viele Sitzungen, wann fertig. Die Naniten hatten gearbeitet,  saubere Arbeit. Als hätten sie mir einen Gefallen getan. Als wäre meine Haut ein Schreibtisch gewesen und sie hätten nur den Kaffee weggewischt.
 
 Ich drehte den Wasserhahn auf. Kalt.
 
 ---
 
-Ely stand in der Küchentür, als ich rauskam.
-
-Sie sah mein Gesicht. Ich machte nichts dagegen.
+Ely stand in der Küchentür, als ich rauskam. Sie sah mein Gesicht und machte nichts daraus — weder Fragen noch das Umgehungsgeräusch, das Menschen manchmal machten, wenn sie nicht wussten, wie sie anfangen sollten.
 
 „Wir müssen reden", sagte ich.
 
-„Ich weiß." Sie hielt ihr Armband in der Hand, hatte es kurz abgenommen, drehte es. „Erst das hier."
+„Ich weiß." Sie hielt ihr Armband in der Hand, hatte es abgenommen, drehte es zwischen den Fingern. „Erst das hier."
 
----
-
-Die Armbänder sendeten. Standort, Schlaf, Herzrate. Klinikserver, wahrscheinlich Eltern-Kopie, möglicherweise mehr.
-
-Donny konnte das.
-
-Und für die Zeit dazwischen: jemand, dessen Bewegungsprofil normal aussah, ohne unseres zu sein.
+Die Armbänder sendeten — Standort, Schlaf, Herzrate, wahrscheinlich Elternkopie, möglicherweise mehr. Das war klar. Was wir brauchten, war jemand, der bestimmte, was sie sendeten. Und für die Lücken dazwischen jemand, dessen Bewegungsprofil normal aussah, ohne unseres zu sein.
 
 „Yara", sagte ich.
 
 Ely nickte.
 
----
+Yara war die Tochter des Hausmeisters, im Untersten Stockwerk, sechzehn und mit dem neutralen Blick ausgestattet, den alle in Night City irgendwann lernten. Sie öffnete mit Kopfhörern um den Hals, sah mich an, dann Ely, dann wieder mich. Ich erklärte es: Kreditkarte, unser Budget, ihr Name, Einkaufsrunde morgen früh, zwei Stunden, Quittungen aufheben.
 
-Yara öffnete mit Kopfhörern um den Hals und dem neutralen Blick, den alle in Night City mit vierzehn hatten oder lernten.
-
-„Wir haben eine Aufgabe", sagte ich. „Bezahlt. Kreditkarte, unser Budget, dein Name. Einkaufsrunde, zwei Stunden, Quittungen aufheben."
-
-Sie sah Ely an, dann mich. „Was kaufe ich?"
+„Was kaufe ich?"
 
 „Was du willst."
 
-Kurze Pause. Kaugummi. Dann: „Wann?"
+Kurze Pause. Kaugummi. „Okay."
 
-„Morgen früh."
+Donny war das andere. Er wohnte noch in der Uni, auch in den Semesterferien — er hatte das einmal mit dem Kommentar erklärt, dass es keinen Sinn machte, etwas Eigenes zu suchen, solange das Studentenwlan gratis war, und seitdem nicht mehr darüber gesprochen. Sein Zimmer: Kabel, drei Monitore, der Lötkolben auf der Werkbank, den er seit Wochen löten wollte und nie löten würde.
 
-„Okay."
-
----
-
-Donny wohnte noch in der Uni, auch in den Semesterferien. Zu faul, sich was Eigenes zu suchen — er hatte das einmal so gesagt und seitdem nicht mehr erwähnt, weil er fand, dass das die Sache hinreichend beschrieb. Sein Zimmer: Kabel, drei Monitore gleichzeitig aktiv, der Lötkolben, den er seit Wochen löten wollte und nie löten würde.
-
-Er sah uns rein. Sah die Armbänder.
-
-„Die senden."
+Er sah die Armbänder, bevor wir etwas sagten. „Die senden."
 
 „Wir wissen."
 
-Er brummte, nickte Richtung Station. „Setzt euch."
-
-Zwanzig Minuten. Wenig Worte. Dann: „Okay. Die senden noch — aber was sie senden, bestimme ich jetzt. Schlaf vorbildlich, Schritte okay, Herzrate entspannt." Er lehnte sich zurück. „Faktenmaschinen."
+Er brummte, nickte Richtung Hocker. Zwanzig Minuten, wenige Worte. Am Ende: „Okay. Die senden noch — aber was sie senden, bestimme ich jetzt. Schlaf vorbildlich, Schritte okay, Herzrate entspannt." Er lehnte sich zurück. „Faktenmaschinen."
 
 „Danke", sagte Ely.
 
-„Achthundert", sagte Donny.
+„Achthundert." erwiederte Donny.
 
-Ely zahlte, ohne mit der Wimper zu zucken.
-
-„Noch was", sagte ich. Er sah mich an. Ich zeigte auf meinen Arm — die leere linke Seite — und auf mein Haar. „Techhair. Cybertattoos. Klinik hat das abgeklemmt."
-
-Er schaute kurz hin, nickte langsam, mit dem Nicken von jemandem, der das schon gesehen hatte. „Firmware-seitig gesperrt. Kann ich lösen. Heute noch, wenn ihr wollt." Kurze Pause. „Nicht umsonst."
+Ely zahlte, ohne mit der Wimper zu zucken. Ich zeigte auf meinen linken Arm und dann auf mein Haar. Er schaute kurz hin, nickte mit dem langsamen Nicken von jemandem, der das Muster kannte. Firmware-seitig gesperrt, sagte er. Er könne es lösen, heute noch, nicht umsonst.
 
 „Natürlich nicht", sagte ich.
 
 ---
 
-Auf der Treppe vor seinem Zimmergang.
+Auf der Treppe vor seinem Zimmergang saßen wir. Ely eine Stufe tiefer, drehte sich halb um. Irgendwo hinten im Gang lief Musik aus einer halboffenen Tür, und ich fing an zu reden, nicht weil ich geplant hatte, es hier zu tun, sondern weil der Körper das manchmal selbst entschied.
 
-Ely eine Stufe unter mir, drehte sich um.
+„Die Tattoos haben nicht wehgetan", sagte ich. „Naniten. Keine Schmerzen. Einfach: weg. Als hätten sie mir einen Gefallen getan."
 
-Ich fing an zu reden.
+Ely sagte nichts. Das war das Richtige.
 
-Ich hatte nicht geplant, es hier zu tun — auf einer Treppe in einem Unistudienheim, Semesterferien, der Gang halb leer, irgendwo weiter hinten lief Musik aus einer Tür. Aber der Körper entscheidet das manchmal selbst.
-
-„Die Tattoos haben nicht wehgetan", sagte ich. „Das ist der Teil, der mich noch immer wütend macht. Naniten. Keine Schmerzen. Einfach: weg. Als hätten sie mir einen Gefallen getan."
-
-Ely sagte nichts.
-
-„Er hat mich gefragt, wie ich die Beziehung mit Enrico beschreiben würde. Redmond. *Wie würden Sie die Beziehung beschreiben.* Als ob das eine Frage wäre, die irgendwas hilft." Die Stimme wurde eine Schicht flacher. „Ich hab gesagt: intensiv, aber nicht gesund. Hab es einfach gesagt. Weil ich wusste, was er hören wollte."
+„Redmond hat mich gefragt, wie ich die Beziehung mit Enrico beschreiben würde. Als ob das eine Frage wäre, die irgendwas hilft." Die Stimme wurde eine Schicht flacher. „Ich hab gesagt: intensiv, aber nicht gesund. Hab es einfach gesagt, weil ich wusste, was er hören wollte."
 
 Das war das Schlimmste von diesem Teil. Wie gut ich es konnte.
 
-„Und Walter." Kurze Pause. „Er hat mir einmal die Hand gehalten. Drei Sekunden. Dann wieder auf den Stuhl. Als ob er einen Test gemacht hätte."
+„Und Walter hat mir einmal die Hand gehalten. Drei Sekunden. Dann wieder auf den Stuhl. Als ob er einen Test gemacht hätte."
 
-Stille.
+Stille. Die Musik hinten im Gang.
 
-„Ich wusste, warum du nicht kommst", sagte ich. „Ich hab das gewusst, jeden Tag. Trotzdem gab es jeden Tag dieselbe Sekunde, wo ich kurz gedacht hab: vielleicht heute."
+„Ich wusste, warum du nicht kommst", sagte ich. „Jeden Tag. Trotzdem gab es jeden Tag dieselbe eine Sekunde, wo ich kurz gedacht hab: vielleicht heute."
 
-Ely setzte sich auf die Treppenstufe, dicht neben mich. Sie machte eine kurze Pause, die Art, die sagte, dass sie jetzt auch etwas hatte.
+Ely setzte sich auf die Stufe neben mich. Eine kurze Pause, die Art, die sagte, dass sie jetzt auch etwas hatte.
 
-„Ich hab dir was nicht gesagt." Ihre Stimme: vorsichtig, sachlich. „Kurz nach dem Unfall. Flur. Dein Vater und meiner." Sie machte es kurz, ohne Drama — das Gespräch, was Walter gesagt hatte, was er von ihr wollte, die Worte, die er benutzt hatte. Alles, was sie bisher für sich behalten hatte.
+„Ich hab dir was nicht gesagt." Ihre Stimme: sachlich, vorsichtig. „Kurz nach dem Unfall. Flur. Dein Vater und meiner." Sie machte es kurz, ohne Drama — was Walter gesagt hatte, welche Worte er benutzt hatte, was er vorhatte. Alles, was sie die ganze Zeit für sich behalten hatte.
 
 Ich hörte zu. Sagte nichts.
 
-„Er wollte uns dauerhaft trennen", sagte sie. „Jemand hat das medizinisch blockiert. Ich weiß nicht, wer. Aber das war kein Zufall."
+„Er wollte uns dauerhaft trennen", sagte sie. „Jemand hat das medizinisch blockiert. Ich weiß nicht, wer. Aber es war kein Zufall."
 
 Ich ließ das sacken. Dann: „Und du hast das die ganze Zeit gewusst."
 
 „Ja."
 
-Ich nickte einmal. Nicht wütend auf Ely — ich war nicht wütend auf Ely. Ich war einfach froh, dass ich es jetzt wusste.
+Ich nickte. Nicht wütend auf Ely — das war ich nicht. Ich war froh, dass ich es jetzt wusste. Das war alles.
 
 „Und die Haare", sagte ich dann.
 
-Ely machte das kleine Geräusch — nicht Lachen, nicht Seufzen, irgendwo in der Mitte.
+Ely machte das kleine Geräusch. Nicht Lachen, nicht Seufzen, irgendwo dazwischen.
 
-„Ich weiß, dass es Haare sind. Ich weiß, dass das nicht das Wichtigste auf der Liste ist. Aber sie haben mir erklärt, dass die *pflegeleichter* sind. Immer wieder. Als ob das jemals der Punkt gewesen wäre."
+„Ich weiß, dass es Haare sind. Dass das nicht das Wichtigste auf der Liste ist. Aber sie haben mir erklärt, die sind *pflegeleichter*. Immer wieder. Als ob das jemals der Punkt gewesen wäre."
 
-„Du hattest wunderschöne Haare."
-
-„Ich hatte meine Haare." Ich lehnte kurz den Kopf an ihre Schulter. „Das ist derselbe Satz."
-
-Wir saßen da eine Weile.
-
-Die Flashbacks kamen nicht als Bilder — eher als Körpererinnerungen. Die gleichmäßige Beleuchtung des Tattoozimmers. Meine Finger auf dem Laken. Der Schmerz, auf den ich mich vorbereitet hatte — und dann keiner. Das Sitzungszimmer später, ihre Hand auf meiner. *Hey. Hey.*
+Wir saßen da eine Weile. Die Erinnerungen kamen nicht als Bilder — eher als Körpererinnerungen. Das gleichmäßige Licht im Behandlungszimmer. Meine Finger auf dem Laken. Der Schmerz, auf den ich mich vorbereitet hatte, und dann keiner. Gedankenspünge.
 
 Und das Kreuz auf der Nachtkonsole.
 
-„Ich hab das Kreuz gefunden", sagte ich irgendwann. „An Bluttrinker. Am Griff, die ganze Zeit."
+„Ich hab das Kreuz gefunden", sagte ich irgendwann. „An Bluttrinker. Am Griff. Die ganze Zeit."
 
 Stille.
 
@@ -220,123 +157,77 @@ Mehr sagten wir nicht dazu.
 
 ---
 
-Die Cybertattoos kamen nicht vollständig zurück — noch nicht. Manche Muster brauchten Kalibrierung, manche Farben blieben flacher als ich sie kannte. Aber das Feld auf der linken Seite war da. Und die Techhair reagierte wieder, wenn ich die Finger bewegte.
+Donnys Firmware-Fix ließ die Cybertattoos nicht vollständig zurückkommen — manche Muster brauchten Kalibrierung, manche Farben blieben flacher als ich sie kannte. Aber das Feld auf der linken Seite war da. Die Techhair reagierten, wenn ich den Befehl dazu gab.
 
 Ich stand kurz da und ließ das ankommen.
 
-Nicht vollständig, nicht heute. Aber vorhanden.
+Nicht vollständig. Aber vorhanden.
 
----
+Wir gingen danach noch in ein Tattoostudio in Japantown — nicht zum Valentino-Studio, nicht heute, das war ein anderer Kontext. Der Typ hinter dem Tresen nannte sich Chen und fragte nicht, wie wir hießen. Er schaute auf meinen Unterarme, dann auf mich. 
 
-Wir hätten zum Valentino-Studio gehen können.
-
-Ich entschied mich dagegen. Nicht heute. Das war ein anderer Kontext, und ich wollte das nicht mit diesem hier vermischen.
-
-Wir gingen in ein Studio in Japantown. Neutral, sauber, der Typ hinter dem Tresen nannte sich Chen und fragte nicht, wie wir hießen.
-
-Er schaute auf meinen Unterarm. Dann auf mich.
-
-„Zu frisch. Naniten-Nachbehandlung — vier bis sechs Wochen mindestens, bevor Farbe wieder hält. Eher zwei Monate."
-
-Ich sagte nichts.
+Er prüfte etwas mit einem Gerät. „Zu frisch. Naniten-Nachbehandlung — vier bis sechs Wochen mindestens, bevor Farbe wieder hält. Eher zwei Monate."
 
 Er zuckte die Schultern, nicht unfreundlich. „Ihr Körper hat gute Arbeit geleistet. Das ist das Problem."
 
 Ich bedankte mich. Wir gingen.
 
----
+Auf dem Weg zurück, in einer Querstraße zwischen Japantown und dem Gewirr dahinter, trat jemand in den Weg.
 
-Auf dem Weg dorthin war es passiert.
+Junger Typ, Messer halb raus, noch unsicher, ob er wollte, dass man ihn sah. Dann entschied er sich — und das Messer richtete sich auf Ely.
 
-Eine Querstraße zwischen Japantown und dem Gewirr dahinter. Jemand trat uns in den Weg — junger Typ, Messer halb raus, noch unsicher ob er wollte, dass man ihn sah. Er entschied sich — und das Messer richtete sich auf Ely.
-
-Ich war dazwischen, bevor ich es beschlossen hatte.
-
-Griff sein Handgelenk, schlug das Messer weg — es klatschte auf den Asphalt. Der Typ: Überraschung, dann Wut, dann versuchte er sich loszureißen.
+Ich war dazwischen, bevor ich es beschlossen hatte. Handgelenk, Messer weg, Asphalt. Der Typ versuchte sich loszureißen.
 
 Ich ließ nicht los.
 
-Ich schlug ihn.
-
-Einmal, zweimal, nicht kontrolliert — das war nicht das Kontrollierte, das ich kannte, das war das andere, das unter allem war. Der Körper, der schon wusste, was er wollte, bevor der Kopf entschieden hatte. Die Fäuste fanden sein Gesicht, immer wieder, und er machte Geräusche und versuchte etwas, und ich hörte nicht auf.
+Ich schlug ihn. Einmal, zweimal — nicht das Kontrollierte, das ich kannte, sondern das andere, das unter allem war, das schon wusste was es wollte bevor der Kopf fertig war. Die Fäuste fanden sein Gesicht, immer wieder, und er machte Geräusche und versuchte irgendetwas, und ich hörte nicht auf.
 
 „*Meredith.*"
 
-Elys Stimme. Ruhig, das ruhig, das Energie kostet.
+Elys Stimme. Ruhig — das Ruhig, das Energie kostet.
 
 Ich hörte auf.
 
-Der Typ lag. Lebte, atmete, hielt das Gesicht. Ich stand über ihm und mein Atem kam zu schnell und meine Knöchel brannten.
+Der Typ lag. Lebte, atmete, hielt das Gesicht. Ich stand über ihm, Atem zu schnell, Knöchel brannten. Ely legte eine Hand auf mein Handgelenk. Kein Druck. Nur da.
 
-Ely legte eine Hand auf mein Handgelenk. Kein Druck, nur da.
+Ich trat zurück. Wir gingen weiter.
 
-Ich trat zurück.
+Auf dem Rückweg, andere Straße, ein Typ vor einem Laden, der anfing laut zu werden als wir vorbeikamen. Schulterrempler, zu absichtlich. Die Stimme hinter uns, die wartete, dass jemand sich umdrehte.
 
-Wir gingen weiter.
-
----
-
-Auf dem Rückweg, andere Straße — jemand vor einem Laden, der anfing laut zu werden, als wir vorbeikamen. Schulterrempler, zu absichtlich. Die Stimme hinter uns, die wartete, dass jemand sich umdrehte.
-
-Ich drehte mich nicht um.
-
-Ich ging weiter.
-
-Die Energie von vorhin: nicht mehr da. Leer, flach, wie alle Schalter gleichzeitig auf null.
-
-Ely sagte nichts. Sie bemerkte beides — ich sah es an ihr. Aber sie ließ es stehen.
-
-Das war das Richtige.
+Ich drehte mich nicht um. Die Energie von vorhin: nicht mehr da. Leer, flach, wie alle Schalter gleichzeitig auf null. Ely sagte nichts. Sie bemerkte beides — ich sah es an ihr — und ließ es stehen. Das war das Richtige.
 
 ---
 
-Das Holo summte am Abend.
-
-Henshaw-Haushalt, über eine Weiterleitung. Kein Walter direkt.
+Das Holo summte am Abend. Henshaw-Haushalt, Weiterleitung, kein Walter direkt.
 
 „Fräulein Henshaw. Im Auftrag Ihres Vaters — er erkundigt sich nach Ihrem Wohlbefinden."
 
-Clean Mode, automatisch. „Mir geht es gut. Bitte richten Sie ihm aus, dass ich gut angekommen bin."
+Clean Mode, automatisch: „Mir geht es gut. Bitte richten Sie ihm aus, dass ich gut angekommen bin."
 
 „Sehr schön. Er lässt ausrichten, er freue sich auf Ihren Besuch am Wochenende."
 
-Nicht vereinbart. Eine Information.
+Nicht vereinbart. Nur mitgeteilt.
 
 „Ich werde da sein."
 
-„Schönen Abend, Fräulein Henshaw."
+Ich legte auf und sah Ely an. „Wochenende zu Hause. Er freut sich." Eine kurze Pause. „Ich glaube, er wäre der Letzte, bei dem ich ein Wochenende verbringen würde."
 
-Ich legte auf. Sah Ely an.
+Ely legte kurz die Hand auf meine, einmal, dann ließ sie los. Das reichte.
 
-„Wochenende zu Hause", sagte ich. „Er lässt ausrichten, er freut sich." Kurze Pause. „Ich glaube, er wäre der Letzte, bei dem ich ein Wochenende verbringen würde."
-
-Ely legte kurz die Hand auf meine, einmal, dann ließ sie los.
-
-Das reichte.
-
----
-
-Das Holo summte nochmal, kurz danach.
-
-Eine Nummer, die ich erkannte.
+Das Holo summte nochmal. Eine Nummer, die ich erkannte.
 
 Padre.
 
 Ich nahm ab.
 
-„Lauri." Seine Stimme: ruhig, mit dem Gewicht dahinter, das immer da war, egal wie das Gespräch anfing. „*Dios te bendiga*, mija. Ich habe gehört, dass ihr wieder draußen seid."
+„Lauri." Seine Stimme hatte immer dieses Gewicht dahinter, egal wie ein Gespräch anfing. „*Dios te bendiga*, mija. Ich habe gehört, dass ihr wieder draußen seid."
 
 „Padre."
 
-Eine kurze Pause, nicht leer. „Ich habe für euch gebetet, für beide. Und für Enrico." Er sprach langsam, wie jemand, der mit Worten umgeht, weil er weiß, wie schwer sie sind. „Dass der Herr ihn sanft aufgenommen hat. Das verstehen wir nicht immer. Das ist auch nicht verlangt von uns."
+Eine kurze Pause, nicht leer. „Ich habe für euch gebetet, für beide. Und für Enrico." Er sprach wie jemand, dem bewusst war, wie schwer Worte waren und der sie trotzdem benutzte. „Dass der Herr ihn sanft aufgenommen hat. Das verstehen wir nicht immer. Das ist auch nicht verlangt von uns."
 
 Mein Hals wurde eng.
 
-„Wir machen eine Totenfeier für ihn. Im Cojo. Freitag nächste Woche." Ruhig, wie es sein musste. „Für seine Seele. Damit die, die ihn liebten, sich verabschieden können, wie es sich gehört."
-
-Stille auf der Leitung.
-
-„Ihr seid erwartet. Habt ihr mich verstanden?"
+„Wir halten eine Totenfeier, für die Lebenden. Im Cojo. Freitag nächste Woche." Ruhig, fest. „Für seine Seele. Damit die, die ihn liebten, sich verabschieden können, wie es sich gehört. Ihr seid erwartet. Habt ihr mich verstanden?"
 
 „Ja", sagte ich. „Wir kommen."
 
@@ -344,13 +235,9 @@ Stille auf der Leitung.
 
 Er legte auf.
 
-Ich saß da, Holo in der Hand. Ely war hereingetreten, legte die Hand auf meine Schulter.
+Ich saß da, Holo in der Hand. Ely war hereingekommen und legte die Hand auf meine Schulter. Cojo. Nächste Woche. Enrico.
 
-Cojo. Nächste Woche. Enrico.
-
-Ich dachte an das Lächeln an der Brücke. Einmal, kurz. Leise. Nicht spöttisch. Ich würde nie herausfinden, warum er gelacht hatte.
-
-Das war das, was blieb.
+Ich dachte an das Lächeln. An der Brücke, einmal, kurz, leise, nicht spöttisch. Ich würde nie herausfinden, warum er gelacht hatte. Das war das, was blieb.
 
 Das Kreuz lag auf der Nachtkonsole.
 
@@ -358,23 +245,17 @@ Das Kreuz lag auf der Nachtkonsole.
 
 Später, im Dunkeln.
 
-Das Armband am Handgelenk. Das Display zeigte Donnys Daten — Herzrate vorbildlich, Schlaf solide. Alles in Ordnung.
+Das Armband am Handgelenk. Das Display zeigte Donnys Daten — Herzrate vorbildlich, Schlaf solide. Alles in Ordnung. Ich drehte es einmal, Sensor nach unten, ließ die Hand auf die Decke fallen.
 
-Ich drehte es einmal.
+Ely neben mir, Atem gleichmäßig. Draußen Night City, gleichgültig wie immer.
 
-Sensor nach unten.
+Das Tattoo würde warten müssen. Zwei Monate. Das Wochenende würde ich durchstehen. Alles machbar.
 
-Ließ die Hand auf die Decke fallen. Ely neben mir, Atem gleichmäßig. Draußen Night City, gleichgültig wie immer.
-
-Das Tattoo würde warten müssen. Zwei Monate, hatte Chen gesagt. Ich würde warten. Das Wochenende würde ich durchstehen. Alles machbar.
-
-*Das Armband sendet noch*, dachte ich. *Nur Donnys Daten.* Die Wahrheit: meine Knöchel brannten noch. Mein Schlaf würde nicht vorbildlich sein. Und auf dem Rückweg heute hatte ich bei einer Drohung reagiert wie ein Schalter, der durchgebrannt war — und bei der anderen gar nicht.
+*Das Armband sendet noch*, dachte ich. *Nur Donnys Daten.* Die Wahrheit: meine Knöchel brannten noch. Mein Schlaf würde nicht vorbildlich sein. Und auf dem Rückweg heute hatte ich bei einer Drohung reagiert wie ein Schalter, der durchgebrannt war — und bei der nächsten gar nicht.
 
 Das war das Muster. Ich kannte es noch nicht. Ich hatte nur gemerkt, dass es da war.
 
-Aber das hier wussten sie nicht.
-
-Das hier war meins.
+Aber das hier wussten sie nicht. Ely, Ich. Das hier war meins.
 
 ---
 
