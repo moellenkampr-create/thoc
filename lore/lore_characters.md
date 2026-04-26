@@ -93,6 +93,7 @@ source: lore_db.md
 - **elterliche Kontrolle durch Elias**: teilweise befreit seit Aug/Sept 2076 (Cyberware-Befreiung durch Vik); jedoch weiterhin aktive Ueberwachung, Drohungen und emotionale Manipulation durch Elias
 - Fake-Feed-Reste: Donny speist seit Sept 2075 Falschinformationen ein, aber vollstaendige Sicherung unklar
 - Fussballumfeld als Druck- und Gewaltfeld (von Elias instrumentalisiert)
+- **Super-Bowl-Zwangsverlobung (07-06, ARBEITSSTAND)**: Elias fordert ueber persoenlichen Emissaer, dass George beim naechsten Super Bowl (a) sich auf dem Footballfeld praesentiert und (b) seine Verlobung mit einer "blaubuetigen Europaerin" bekanntgibt. George reagiert mit unverhohlenem Ekel. Ely bemerkt: ein Tropfen europaisches Blaublut ist moeglicherweise auch in ihrer eigenen Herkunft verankert (Vaters Kommentare).
 - Freiheitswunsch durch Bindung an Ely und Lauri
 - fruehe Bandlinie in New York (12/13) wurde von Elias vor erstem Gig aktiv zerschlagen; wirkt als anhaltender Musik-/Loyalitaetstraumaanker
 

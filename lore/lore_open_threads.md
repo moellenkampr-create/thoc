@@ -103,6 +103,8 @@ source: lore_db.md
 - 2077-07-12 Drohnen-Schattenlauf nach Maria-Kontakt - Entdeckt George die Micro-Drohne rechtzeitig und kann das Trio den Follow brechen, ohne Maria direkt zu gefaehrden?
 - 2077-07-12 Kurz-Direktkanal Vater->Lauri - Kommt es nach dem Maria-Kontakt zu einer kurzen Warn-/Druckansage, und was ist der unmittelbare Preis bei Ignorieren?
 - 2077-07-16 Elias-Rueckkehr nach NC - Bleibt Elias trotz Rueckkehr zunaechst im Quiet-Containment, solange George keinen direkten Reputationsschaden ausloest?
+- **2077-07-06 Super-Bowl-Zwangsverlobung** — Elias fordert Super-Bowl-Praesentation auf dem Footballfeld + Bekanntgabe der Verlobung mit einer blaubuetigen Europaerin. George lehnt ab. Wann und wie eskaliert Elias die Forderung weiter? Wer ist die Frau / Familie?
+- **2077-07-06 Datenstick-Koordinaten (Badlands)** — Donny rettete nur die Koordinaten; der Rest des Stick-Inhalts ist verloren (Fehler beim Auslesen). Was lag an den Koordinaten, und wer weiss noch davon?
 - 2077-07-18 Vorrennen-/Gewaltbilder als Machthebel - Nutzt Elias das Stadt-Vorrennen gezielt fuer Narrativsteuerung und Deal-Druck?
 - 2077-07-16 Praesidentinnen-Hook - Elias weiss von einem Plan in/fuer NC, aber nicht vom Inhalt: welche Gegenabsicherung faehrt er vorab?
 - 2077-07-16 Mutter-Undercover-Ankunft - Kommt Georges Mutter in den Folgetagen verdeckt nach NC, und welchen sicheren Erstkontakt waehlt sie?

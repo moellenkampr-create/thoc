@@ -361,6 +361,25 @@ source: lore_db.md
 - **2077-07-06 tagsueber**:
   - Ely beginnt Einkaeufe und Besorgungslisten fuer die Aldecaldos zu sammeln; einige Wuensche wirken wie halb ernste Veraeppelung, werden aber mitgenommen.
   - Wegen Medis, Erste-Hilfe-Ausruestung und Nachsorge fuer George / das Trio wird ein Besuch bei Vik als dringend markiert.
+  - **Ely-Sicht (ARBEITSSTAND, gegen Mittag — Sexshop, Vik, Donny, Uni)**:
+    - **Chronologische Note**: In Elys Bericht liegt der Sexshop-Besuch **vor** dem Vik-Besuch (Lauri-Block hat umgekehrte Reihenfolge; die genaue Sequenz bleibt ARBEITSSTAND, Kerndetails sind in beiden Berichten deckungsgleich).
+    - George schiebt das Trio zu einem Laden **gegenueber Mistys Esoterica** — Ely erkennt erst zu spaet, dass es ein **Sexshop** ist. George fluestert Lauri etwas ins Ohr; auch sie wird sichtbar roeter.
+    - Die Kassiererin gibt Lauri ein Tuch mit den Worten: *"Hinterher alles abwischen!"*
+    - George murmelt, das hier sei **einer seiner feuchten Traeume von seiner Bucket List**. Hinten gibt es einen engen Raum; die Enge hat praktische Vorteile.
+    - **Rosa Luftballons** werden gekauft — ein **Haken auf Elys Liste**, nicht nur Lauris.
+    - Danach: Ely sieht **Takamura** Viks Klinik verlassen. Timing genutzt — Trio geht rein.
+    - **Vik-Besuch (Ely-Ergaenzung)**: Viktor macht dem Trio einen guten Preis fuer **Erste-Hilfe-Ausruestung** und die **Medikamente fuer Bobs kranken Sohn Jake**. Das wird Bob freuen.
+    - H10: Ely braucht eine heisse Dusche.
+    - **Donny am H10-Eingang** (steht mit einem Typen, der eine **echte Schildkroete** auf dem Arm streichelt).
+    - Donny hat den **Datenstick** ausgelesen: Er fand **nur Koordinaten in den Badlands** — der Rest des Inhalts ist verloren (er hat es "verkackt"). Ely bohrt nach, bis er es zugibt. Er konnte nur die Koordinaten retten.
+    - Donny meldet alle drei fuer **drei Wochen** an der NCU krank und besorgt den Lernstoff. Warnt nochmals vor dem Typen, der an der Uni herumschleicht.
+    - **NCU-Bibliothek**: Ely hatte ueber die Jahre **mehrere grosse Buecher in der Bibliothek versteckt** (ausgehoehlt, Notizen in Handschrift eingelegt). Sie holt sie mit mehreren grossen Taschen ab.
+      - **Shakespeare: Gesammelte Werke** (Originalaltenglisch mit Uebersetzung) — ausgehoehlt, gefuellt mit Elys jahrelangen handschriftlichen Aufzeichnungen.
+      - **Steuergesetze der USA von 2000** (vollstaendig) — ebenso ausgehoehlt.
+    - Der Elias-Emissaer spricht Ely direkt an, stellt sich dann vor das Auto und besteht darauf, mit George zu reden. George steigt aus — Lauri sagt, er soll die Verbindung offen lassen. Die Verbindung bricht unmittelbar nach den Begruessung ab. Das Trio versucht, die Koerpersprache zu lesen.
+    - George kehrt mit einem **Gesicht zum Kinderschrecken** zurueck. Berichtet: Elias fordert, George solle beim naechsten **Super Bowl** seine Verlobung mit einer **blaubuetigen Europaerin** bekanntgeben — und sich dabei auf dem Footballfeld praesentieren. George macht ein wuergendes Geraeusch.
+    - Ely denkt still: Ein Tropfen europaisches Blaublut ist wohl auch in ihren Adern — Vaters Kommentare lassen grueuessen.
+    - **ALL IN — Tagebuchvorlesung**: Im Auto entdecken Lauri und George die ausgehoehlten Buecher. Lauri: *"Du hast tatsaechlich all die Jahre weitergeschrieben?"* Ely nickt: *"Ihr koennt es lesen. All in."* Da George faehrt und Lauri fuer Nolan stickt, liest Ely vor. Sie wird an manchen Stellen rot — aber die liebevollen Blicke von George und Lauri festigen die Entscheidung.
   - **Ely-Sicht (ARBEITSSTAND, Vik-Besuch)**:
     - **Misty** blockiert den Eingang; George lenkt sie ab, Ely schleicht sich in die Klinik.
     - Vik schlaeft im Untersuchungsstuhl; ueberall Blut — aber **nicht Viks Blut**.
