@@ -77,6 +77,9 @@ source: lore_db.md
 - 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)? **Teilaufgeloest (ARBEITSSTAND):** Bluttrinker seit 1940er Mexiko; Scheide aus Menschenhaut; Traegerlogik bekannt. Verborgener Teil (nur Insidern bekannt): Zyklus brechbar durch bewusste Lossagung ohne Machtgier.
 - 2077-07-11 Enrico-Bluttrinker-Motiv - **AUFGELOEST (ARBEITSSTAND):** Enrico gab die Klinge weiter, weil er den Zyklus beenden wollte und Lauri falsch einschaetzte (haelt sie fuer jemanden, der sie neutralisiert, nicht weitertraegt). Tragischer Irrtum.
 - **Bluttrinker-Fanatiker als Bedrohungslinie** — Sie wissen, dass Lauri die Klinge hat. Wann treten sie aktiv in Erscheinung? Wer fuehrt den Kern an? Kennen sie bereits den Schwester-/Kreuz-Pfad?
+  - Reveal-Stufe 1 (ausstehend): Klingen-Kreuzknoten-Tag im Valentino-Umfeld (Cojo/Mama Wells); beilaeufige Erwaehnung von "zu sauber" nach alten Kontakten fragenden Unbekannten.
+  - Reveal-Stufe 2 (ausstehend): Erste Begegnung mit Enricos Schwester — bestaetigt Kreuz/Klinge-Kontext, Schutzintention, Enricos letzten Tag.
+  - Reveal-Stufe 3 (ausstehend): Kult-Schatten hinter der Schwester; Druckgespraeich am Abend des Unfalls als belegter Ausloeser; Lauri zwischen Schwester-Vermaechtnis und Kult-Anspruch.
 - 2077-07-11 Enrico-Letzter-Moment (Lauri-Recall) - ARBEITSSTAND-Hypothese: Enrico liess beim Sturz bewusst los und wirkte in diesem Moment klar. Einordnung offen (Fehlwahrnehmung, Trauma-Rekonstruktion oder absichtlicher Akt).
 - Winter 2076 Coyote-Drogenvorfall (ARBEITSSTAND) - Wurde Ely/Lauri vor der Unfallnacht ungefragt eine Substanz oral zugespielt, und falls ja: von wem, mit welcher Absicht, und wie haengt das mit Enricos Zustand zusammen?
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?

@@ -250,6 +250,40 @@ source: lore_db.md
 - Donny recherchiert opsec-fokussiert die Historie; erste Linie fuehrt bis etwa 1940 nach Mexiko und beruehrt Valentino-Gruendungsmythen inkl. Nazi-/Nazigold-Erzaehlungen.
 - Plotfunktion: verbindet Trauma, Fraktionsgeschichte, digitale Aufklaerung und moegliche Gegenspieler, die auf Suchspuren reagieren koennten.
 
+#### Reveal-Plan: Drei-Stufen-Dramaturgie
+**Stufe 1 — Fruehzeitige Stoerung (unauffaellig, vor grossem Reveal)**
+- Atmo-Signal: Lauri sieht bei Mama Wells oder im Cojo ein Valentino-Graffiti/Tag, das nicht zu ueblichen Gangzeichen passt — stilisierte Klinge mit kleinem Kreuzknoten. Kein bekannter Ursprung.
+  - Szenenanker: *"Das Zeichen ueber der Hintertuer sah aus wie ein Messergriff mit Knoten darunter. Kein Valentino-Tag, den ich kannte."*
+- Beilaeufige Erwaehnung durch Oggy oder Donny: Nach Enricos Tod hat jemand "zu sauber" nach alten Kontakten gefragt, ohne Namen zu nennen.
+- Randbemerkung: Enrico war am letzten Tag noch "bei Familie", aber niemand weiss genau, wie lange.
+- Wirkung: Hinter Bluttrinker liegt mehr als persoenliches Trauma — aber der Plot ist noch nicht greifbar.
+
+**Stufe 2 — Mid-Reveal (Schwester erscheint)**
+- Begegnung: Lauri und Ely treffen Enricos Schwester — nicht als dramatischer Boss-Entrance, sondern kontrolliert und vorsichtig.
+- Sie bestaetigt:
+  - Enrico war am Tag des Unfalls bei ihr.
+  - Das Kreuz blieb zurueck — er merkte es erst spaeter.
+  - Er war unruhig, fahrig, "als wuerde er schon in der naechsten Katastrophe stehen".
+- Sie gibt indirekt zu, danach in Lauris/Elys Wohnung gewesen zu sein.
+- Sie stellt klar: Das Kreuz an Bluttrinker war Schutz, nicht Besitzmarke.
+- Kernaussage: *"Er hat die Klinge nicht weitergegeben, weil er stolz war. Er hat sie weitergegeben, weil er Angst hatte, was er sonst wieder mit ihr tun wuerde."*
+- Wirkung: Enrico wird tragisch menschlich — nicht nur toxisch oder heroisch; Lauri traegt das Vermaechtnis seiner Entscheidung.
+
+**Stufe 3 — Harter Twist (Kult wird real)**
+- Verdichtung: Die Schwester hat nicht allein gehandelt — sie wurde entweder beobachtet oder jemand hat ihr Zugang/Timing "ermoeglicht".
+- Signale der Bluttrinker-Zelle verdichten sich:
+  - Alte Signaturzeichen (vgl. Stufe-1-Graffiti)
+  - Gezielte Fragen nach der Klinge
+  - Uebergriff oder Warnung, sobald das Trio tiefer graebt
+- Reveal-Punch:
+  - Der Abend, an dem Enrico Drogen nahm, folgte auf direkten Druck durch einen Kultnahen.
+  - Enrico war nicht nur selbstzerstoererisch, sondern unter ideologischem Zwang.
+  - Szenenanker (aus Schwestermund): *"Du glaubst, ich war allein in eurer Wohnung? Nein. Ich hatte einen Schatten hinter mir, und der hat nicht auf mich aufgepasst."*
+- Letzte Klammer:
+  - Schwester wollte den Fluch daempfen.
+  - Kult wollte den Zyklus sichern.
+  - Lauri steckt genau zwischen beiden Vermaechtnis-Linien.
+
 ### Fluchtkorridor-/Schleuserdruck (China-News-Trigger)
 **ARBEITSSTAND - SIDEPLOT / HUMANITAERER DRUCKPLOT**
 - Ausloeser ist eine verdichtete globale Newslage (Krisenversorgungsgesetze, staatliche Jubelnarrative, Migrationsdruck).
