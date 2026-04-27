@@ -82,15 +82,18 @@ source: lore_db.md
   - Reveal-Stufe 3 (ausstehend): Kult-Schatten hinter der Schwester; Druckgespraeich am Abend des Unfalls als belegter Ausloeser; Lauri zwischen Schwester-Vermaechtnis und Kult-Anspruch.
 - 2077-07-11 Enrico-Letzter-Moment (Lauri-Recall) - ARBEITSSTAND-Hypothese: Enrico liess beim Sturz bewusst los und wirkte in diesem Moment klar. Einordnung offen (Fehlwahrnehmung, Trauma-Rekonstruktion oder absichtlicher Akt).
 - Winter 2076 Coyote-Drogenvorfall (ARBEITSSTAND) - Wurde Ely/Lauri vor der Unfallnacht ungefragt eine Substanz oral zugespielt, und falls ja: von wem, mit welcher Absicht, und wie haengt das mit Enricos Zustand zusammen?
+- 2077-07-14 Lauris Enrico-Deutungssprung - Lauri deutet Enricos Bluttrinker-Uebergabe nun als moegliche Sterbe-Setzung gegen sie ("er wollte, dass ich sterbe"). Konflikt zu bestehender ARBEITSSTAND-Aufloesung (tragischer Fehlkalkulationsversuch statt gezielte Toetungsintention) explizit offen halten, bis weitere Sichten/Belege vorliegen.
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
 - 2077-07-11 Tim als Netz statt Einzelfall - Gibt es weitere Opfer/Kunden oder einen groesseren Verteiler hinter Tims Nieren-/Cyberwaregeschaeft?
 - 2077-07-12 Aldecaldo-Dauergaststatus - Bleibt der inoffizielle Zelt-/Campstatus stabil oder fuehrt er spaeter in formale Clanaufnahmekonflikte?
 - **2077-07-13 Zara-Energy-Stickereigeschaeft** — Inoffizielle Auftragsvermittlung laeuft an; wie viel Volumen nimmt das an, bleibt es diskret, und wer sind die Kunden mit dem Aufpreis? Risiko bei Enttarnung?
 - **2077-07-13 Mantelkosten / Finanzlage** — Lauri realisiert, dass Ausgaben und Einnahmen besser koordiniert werden muessen; Trio will sich "zusammensetzen und Finanzen ordnen".
 - **2077-07-13 Oggy / H10** — Lauri weiss nicht, ob Oggy sie noch in H10 haben will (nach allem, was passiert ist). Erster echter Test des Verhaeltnisses nach den letzten Ereignissen.
+- **2077-07-13 George bei Coach Fred** — Lauri/Ely sehen George in sichtbar niedergeschlagenem Zustand. Kontext des Gespraechs offen: nur Sport-/Vaterdruck, Geschenkorganisation oder zusaetzlicher externer Druck?
+- **2077-07-13 Schwertgeschenk an Lauri** — George uebergibt Lauri in H10 ein Schwert aus laenglichem schwarzem Paket (emotionaler Marker gesetzt). Technische Spezifikation, Herkunftsweg und spaetere Einsatzrolle offen.
 - 2077-07-18 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde zum Vorrennen am 18.07 auf Build-Tempo und Risiko aus?
 - 2077-07-16 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
-- 2077-07-12 George-Geheimnis bis Sonntag - **UNSICHER (ARBEITSSTAND):** Marker bleibt vorlaeufig offen; Sprecherzuordnung und Inhalt sind nicht belastbar bestaetigt.
+- 2077-07-12 George-Geheimnis bis Sonntag - **TEILAUFGELOEST (ARBEITSSTAND):** Lauri-Bericht 07-13 bestaetigt: George wollte mit einem Geschenkmarker (Schwert fuer Lauri) bis Sonntag warten, wurde aber vorzeitig "erwischt". Offen bleibt, was genau noch bis Sonntag geplant war.
 - 2077-07-12 Global-News-Trigger (China) - Wie schnell schlagen die News in NC auf konkrete Fluchtbewegungen durch, und welche Geruechte sind echt vs. Propaganda?
 - 2077-07-12 Schleuserdruck in NC - Bleibt es bei lokalen Zellen oder zeigt sich frueh ein groesseres Netzwerk mit Auftraggebern?
 - 2077-07-12 Nomadenrolle - Wie offen/verdeckt helfen Aldecaldos bei Fluchtkorridoren, und wo liegen ihre roten Linien?

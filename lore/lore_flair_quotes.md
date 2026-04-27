@@ -228,6 +228,21 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Durch die Innenstadt ist einfach scheisse. Zu viele tote Passanten und Schaulustige jedes Jahr."
 - Chubby-Call als Aktivierung: "Kommt heute Nacht noch vorbei, wir feiern noch."
 
+### 13.-14.-Juli: Aufzug, Wilson, H10-Geschenk, Enrico-Nachtnachlauf (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Dann kommt noch in den Aufzug!"
+- "Bei Wilson verlangt sie Chaos und Zerstoerung."
+- "Ich bin eifersuechtig auf zwei... WAFFEN?!"
+- "Dann versuchs nochmal." (Wilson-Trigger, danach klar besseres Schiessen)
+- "Wir wollen ihn nicht warten lassen."
+- "Ich wollte bis Sonntag warten, aber jetzt habt ihr mich erwischt."
+- "Ein wahnsinnig wunderbares Schwert."
+- Ue18-Folgephase bleibt als Beziehungsmarker gefuehrt (ohne pornografische Chronikdetails).
+- "Enrico. Wollte. Dass. Ich. Sterbe."
+- "Das Gewicht dieses Verrates ist schmerzhafter, als es sein sollte."
+- "Ich dachte, ein Stueck, wenigstens ein kleines, war wahr."
+- Schwerttraining am fruehen Morgen als Selbstregulations- und Sicherheitsmarker.
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

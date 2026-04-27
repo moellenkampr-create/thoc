@@ -588,3 +588,22 @@ source: lore_db.md
         - **Lore-Note**: Lauri als handwerkliche Kuenstlerin (Stickerei) erstmals als potenzielle Einnahmequelle verankert.
       - **Nolans Block und Stifte** (fast leer) nachgekauft beim Kuenstlerbedarf.
       - Cliffhanger: Ely ruft an als Lauri im H10-Aufzug ist.
+      - **Fortsetzung ab Aufzug (Lauri-Einzelsicht, ARBEITSSTAND):**
+        - Ely und Cassady steigen zu Lauri in den Aufzug; intensive Wiedersehensnahe, waehrend Lauri zugleich nervoes auf ein vorbereitetes Geschenk reagiert ("zu viel?" / "zaehlt das als gekauft?").
+        - Vor geplanter Rueckkehr in die Wohnung will Lauri eigentlich zuerst zum Nahkampfhaendler; Ely will zu Wilson. Lauri reguliert sich ueber Koerpernaehe zu Ely.
+        - Auf dem Weg sehen Ely und Lauri George bei **Coach Fred**; George wirkt sichtbar niedergeschlagen. Lauri versucht, ihm Raum zu lassen, fuehlt sich aber schuldig und waere rueckblickend lieber ausgewichen.
+        - Bei **Wilson** will Ely zwei neue, handlichere Waffen (kleiner als "Georgina"); Lauri reagiert stark eifersuechtig auf Elys Waffenfokus, erkennt den Impuls und faengt sich wieder.
+        - Wilson greift den Marker vom letzten Schiesstermin auf (Motivation ueber Trio-Naehe); nach kurzer Paar-Interaktion schiesst Ely erneut deutlich besser.
+        - Lauri fragt nach Schalldaempfer / Nahkampfoptionen; eigenes Nahkampfprofil bleibt mit bestehender Klinge gesetzt.
+        - Rueckruf von George: Ely und Lauri sollen nach Hause kommen.
+        - In H10 oeffnet George verzoegert; er hat Essen vorbereitet und wirkt zuerst nur mit Kochschuerze bekleidet.
+        - Beim Essen erklaert George, er wollte mit etwas "bis Sonntag" warten, sei nun aber vorzeitig entdeckt worden.
+        - George uebergibt Lauri ein laengliches schwarzes Paket: ein Schwert (als emotionales Geschenkmarker-Event, ohne technische Spezifikation).
+        - Danach folgt Ue18-Naehephase nur als Beziehungsmarker; anschliessend Rueckfahrt ins Camp und erschoepftes Einschlafen.
+        - Nachtnachlauf: Lauri geraet in schwere Enrico-Spirale (Verrats-/Sterbedeutung), wacht mit Traenen auf.
+
+  - **2077-07-14**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND, frueher Morgen)**:
+      - Lauri wacht nach kaum Schlaf mit starkem Verratsgefuehl gegenueber Enrico auf; Deutung: Enrico habe mit Bluttrinker ihren Tod einkalkuliert, um Ely ohne Lauri zu behalten.
+      - Sie versucht nach aussen Stabilitaet gegenueber Ely und George zu halten (Laecheln, beruhigter Ton), geht dann allein aus dem Zelt.
+      - Fruehes Schwerttraining ausserhalb des Zeltbereichs als Selbstregulation und Sicherheitsmassnahme (niemanden im Camp gefaehrden).
