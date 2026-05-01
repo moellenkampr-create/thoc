@@ -573,6 +573,7 @@ source: lore_db.md
   - **Rueckkehr**: George faehrt nachts aus Red Peaks zurück zur Stadt; Bewusstsein von Elias' Netz (Ueberwachung, Kontrolle) bleibt praesent, aber bei Oggy war es \"nicht gewesen\"
 
   - **2077-07-13**:
+    - **Straßennamen beschlossen (KANON)**: Das Trio einigt sich auf Straßennamen — Lauri: **Heat**, Ely: **Red**, George: **Riff**.
     - **Lauri-Einzelsicht (ARBEITSSTAND)**:
       - Lauri wacht auf mit Enrico-Klarheit: Er wollte sie sterben sehen. Er wollte sie von Ely trennen. Kein Weinen — Bewegung: Schattentanz vor dem Zelt (sieht ohne Gegner wie echtes Tanzen aus).
       - Ely beobachtet durchs Zelt; Lauri beendet den Tanz mit gezielten Bewegungen, "die Ely an den Rand des Wahnsinns treiben". George wird herausgekuschelt und beginnt Liegestuetze. Trio-Morgenroutine mit Kuss-Handstand-Szene; unterbrochen durch Lalas Fruehstuecksruf.

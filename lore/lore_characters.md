@@ -21,6 +21,7 @@ source: lore_db.md
 - Kennt Ely und Lauri seit deren **1. Uni-Semester** (zunaechst nur lose/aus Distanz)
 - Herkunft: **New York**
 - Rolle: Allrounder, Gitarrist, Edgerunner
+- Strassenname: **Riff**
 - Groesse: **1,95 m**
 - Koerperbau: **gross, athletisch-muskuloes, kraftvoll und definiert, aber nicht bodybuilderhaft**
 - Charakter: loyal, driven, people pleaser, kontrolliert nach aussen, verletzlich unter der Oberflaeche
@@ -103,6 +104,7 @@ source: lore_db.md
 - Alter 2077: **22**
 - Herkunft: **Night City**
 - Rolle: Streetsamurai, Drummerin, Edgerunner
+- Strassenname: **Heat**
 - Groesse: **1,75 m**
 - Koerperbau: athletisch, definiert, schlank
 
@@ -142,6 +144,7 @@ source: lore_db.md
 - Alter 2077: **22**
 - Herkunft: **Night City**
 - Rolle: Scharfschuetzin, Chemie-Expertin, Bassistin, Edgerunnerin
+- Strassenname: **Red**
 - Groesse: **1,65 m**
 - Koerperbau: feminin-kurvig, weiches/runderes Gesicht, prominenter Busen
 
