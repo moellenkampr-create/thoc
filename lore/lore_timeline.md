@@ -413,6 +413,10 @@ source: lore_db.md
    - George erzaehlt Lauri, dass er mit Gerard laenger zusammen gewesen waere, "waere sein Vater nicht" => Lauri wird eifersuechtigung, stickt intensiv.
    - Nolan-Jacke wird als "verlorenes" Objekt im Lager hinterlegt (Strategie: keine Beschaemung, nur Freude); Aldecaldos bestaetigen spaeter: "War richtig. Der schlaeft drauf."
    - Im Lager: Trio jammt am Feuer; Ely ist "absolutes Naturtalent"; Aldecaldos sind begeistert; Trio singt ihr Lied "Drei Herzen aus Chrom".
+    - Ely-Sicht 07-06 Abend (ARBEITSSTAND, Detailergaenzung): Rueckkehr ins Lager mit Mitch-Begruessung; die rosa Penis-Luftballons werden als Camp-Scherzmarker direkt uebergeben, Campreaktion deutlich geloest/waermer.
+    - Ely-Sicht 07-06 Abend (ARBEITSSTAND, Detailergaenzung): Bob nimmt Medis erleichtert an; Nierenlage seines 12-jaehrigen Sohnes bleibt akut. Ely hoert zusaetzlich den Druck, den Stamm nicht belasten zu wollen.
+    - Ely-Sicht 07-06 Abend (ARBEITSSTAND, Detailergaenzung): Ein junger Aldecaldo namens Boris gibt Ely Bass-Handbuch und Bass; frueher praktischer Einstieg in Elys Bassspiel vor den spaeteren Chubby-Sessions.
+    - Ely-Sicht 07-06 Abend (ARBEITSSTAND, Detailergaenzung): Nach dem Feuerblock sucht Ely mit Lalas Hilfe den Camp-Doc und klaert ihr Trio-Tattoo (Maschine vs. Handnadel); Nolan-Motiv wird als Vorlage geprueft, Vortest auf Schweinehaut, Rueckmeldung am Folgetag.
    - George wird speziell zum Singen hergeholt, verschwindet danach wieder.
    - Ely fragt nach Nolans Bild; Lauri gibt es ihr.
    - Im Zelt: Lauri traegt Outfit an, das sie im Pornoladen kaufte; George wird erregt, merkt dann aber: "es ist ein Zelt, den Schatten sieht man draussen" (Licht aus).

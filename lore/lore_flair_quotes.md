@@ -156,6 +156,16 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Die Aldecaldos sind begeistert." (erste Session)
 - "Gluecklich, als ein ungeordnetes Knubbel, schlafen wir ein." (Sleepy-Verzicht)
 
+### 6.-Juli Abend: Camp, Bass, Bob und Tattoo-Entschluss (Ely-Sicht)
+**ARBEITSSTAND**
+- "Na alles bekommen?"
+- "Ich mag Listen die ich ab arbeiten kann."
+- "Warum spielst du nicht mit?"
+- "Ohne neue Niere oder Cyberniere hat er nicht mehr lange."
+- "All in ist jetzt."
+- "Du hast echt Mut, das per Hand stechen zu lassen."
+- "Ich teste es mal an einer Schweinehaut. Komm morgen wieder."
+
 ### 9.-Juli Abend/Nacht: Chubby, Velvet Static und Sleep-Inducer (Lauri-Sicht)
 **ARBEITSSTAND**
 - "echtes Potential"

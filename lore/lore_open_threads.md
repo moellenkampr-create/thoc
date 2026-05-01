@@ -44,8 +44,8 @@ source: lore_db.md
 - Wer suchte das Trio am 2077-07-06 an der NCU, mit welchem Auftrag und fuer wen?
 - Kontext am 2077-07-06 bei Vik offen: Rolle der abfangenden Frau, Identitaet/Motivation des bewaffneten japanisch wirkenden Mannes, Einordnung der Blutspuren.
 - 2077-07-06 Elias-Agent-Sichtung (NCU-Bibliothek) - KRITISCH: Agent hat George erkannt, kennt Aldecaldo-Auto-Typ; Verfolgungs-/Observationslinie aktiviert.
-- 2077-07-06 Elias-vermittelte Vermaehlung for George "mit Jemandem aus Uebersee" - wer ist die Zielperson? Wer organisiert das?
-- 2077-07-06 Donny-"Verkackung" - Donny hat Verschluesseling nicht vollstaendig geknackt; grossteil der Daten geloescht. Er bekam nur Ahnungen, dass es um "einen Ort" ging.
+- 2077-07-06 Elias-vermittelte Vermaehlung fuer George "mit Jemandem aus Uebersee" - **GESTRICHEN (Spielleitung):** Super-Bowl-/Zwangsverlobungsfaden wird nicht weitergefuehrt.
+- 2077-07-06 Donny-"Verkackung" - **ABGESCHLOSSEN:** Datenstick als operativer Faden erledigt; die Helden haben die Koordinaten gefunden.
 - 2077-07-06 Donny-Bild (verschwommen, moeglichweise Wagen) - Koennte Beweis fuer Trump sein. Genauere Analyse erforderlich.
 - 2077-07-06 Donny-Koordinaten (Wueste) - KRITISCH: Liegen dort, wo vor ca. 6 Jahren Henshaw-/von-Eichner-Black-Project-Entsorgung stattfand. Trio kennt diese Verbindung noch NICHT.
 - 2077-07-06 Ely-Tagebuch weiterschreiben - Wer weiss darueber? Walters/Bertrams Sicht? Spaetere Nutzung/Entdeckung?
@@ -106,8 +106,6 @@ source: lore_db.md
 - 2077-07-12 Drohnen-Schattenlauf nach Maria-Kontakt - Entdeckt George die Micro-Drohne rechtzeitig und kann das Trio den Follow brechen, ohne Maria direkt zu gefaehrden?
 - 2077-07-12 Kurz-Direktkanal Vater->Lauri - Kommt es nach dem Maria-Kontakt zu einer kurzen Warn-/Druckansage, und was ist der unmittelbare Preis bei Ignorieren?
 - 2077-07-16 Elias-Rueckkehr nach NC - Bleibt Elias trotz Rueckkehr zunaechst im Quiet-Containment, solange George keinen direkten Reputationsschaden ausloest?
-- **2077-07-06 Super-Bowl-Zwangsverlobung** — Elias fordert Super-Bowl-Praesentation auf dem Footballfeld + Bekanntgabe der Verlobung mit einer blaubuetigen Europaerin. George lehnt ab. Wann und wie eskaliert Elias die Forderung weiter? Wer ist die Frau / Familie?
-- **2077-07-06 Datenstick-Koordinaten (Badlands)** — Donny rettete nur die Koordinaten; der Rest des Stick-Inhalts ist verloren (Fehler beim Auslesen). Was lag an den Koordinaten, und wer weiss noch davon?
 - 2077-07-18 Vorrennen-/Gewaltbilder als Machthebel - Nutzt Elias das Stadt-Vorrennen gezielt fuer Narrativsteuerung und Deal-Druck?
 - 2077-07-16 Praesidentinnen-Hook - Elias weiss von einem Plan in/fuer NC, aber nicht vom Inhalt: welche Gegenabsicherung faehrt er vorab?
 - 2077-07-16 Mutter-Undercover-Ankunft - Kommt Georges Mutter in den Folgetagen verdeckt nach NC, und welchen sicheren Erstkontakt waehlt sie?
