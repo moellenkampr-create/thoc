@@ -177,6 +177,17 @@ async function updateActorEmbedded(actor, items, effects) {
 async function importEntry(entry, mode, matchMode, dateMode, results) {
   const data = stripMetaRecursive(entry.data);
   applyDateModeTransforms(data, dateMode);
+
+  // Simple Calendar Reborn notes must stay in their target Journal folder
+  // to remain visible across restarts.
+  const isSimpleCalendarJournalNote =
+    entry.documentType === "JournalEntry" &&
+    !!data?.flags?.["foundryvtt-simple-calendar-reborn"]?.noteData;
+  const sourceFolder = entry.data?.folder;
+  if (isSimpleCalendarJournalNote && sourceFolder) {
+    data.folder = sourceFolder;
+  }
+
   const existing = await resolveExistingWorldDoc(entry, matchMode);
 
   if (existing && mode === "create") {

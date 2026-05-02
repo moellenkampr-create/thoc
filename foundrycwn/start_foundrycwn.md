@@ -78,6 +78,7 @@ Standard: **ARBEITSANNAHME**
 - technisch klar  
 - exportfähig  
 - konkrete Felder & Strukturen  
+- Simple Calendar Reborn Notes immer mit gültigem `folder` (Notes-Unterordner) importieren, sonst können sie nach Neustart aus der Ansicht fallen  
 
 ---
 
@@ -89,3 +90,107 @@ Standard: **ARBEITSANNAHME**
 
 ## 10. Versionierung
 Änderungen erfolgen nach technischer Prüfung.
+
+---
+
+## 11. Copybox-Standard (Simple Calendar Reborn)
+
+Import-Format: vollstaendiger Foundry-Asset-Export mit `documents`-Array.
+
+**Bekannte Limitation:** Foundry ignoriert beim Import via Makro die `folder`-Felder (werden auf null gesetzt). Nach dem Import muessen SC-Notes manuell in den richtigen Unterordner ("Simple Calendar Notes" o.ae.) gezogen werden, damit sie nach Neustart erhalten bleiben.
+
+`month` und `day` sind Simple Calendar Reborn raw-Werte (0-basiert). Juli = month 6; Tag 15 = day 14.
+
+```json
+{
+	"exportType": "foundry-asset-export",
+	"worldId": "cwn-cyberpunk",
+	"systemId": "swnr",
+	"documents": [
+		{
+			"documentType": "JournalEntry",
+			"name": "[NEWS] TITEL",
+			"folder": "_simple_calendar_notes_directory",
+			"data": {
+				"name": "[NEWS] TITEL",
+				"pages": [
+					{
+						"name": "News",
+						"type": "text",
+						"text": {
+							"content": "<p>Inhalt...</p>",
+							"format": 1
+						}
+					}
+				],
+				"flags": {
+					"foundryvtt-simple-calendar-reborn": {
+						"noteData": {
+							"startDate": {
+								"year": 2077,
+								"month": 6,
+								"day": 14
+							},
+							"endDate": {
+								"year": 2077,
+								"month": 6,
+								"day": 14
+							},
+							"allDay": true
+						}
+					}
+				},
+				"folder": "R8oWhQpyHdjHlXLk"
+			}
+		}
+	]
+}
+```
+
+### Beispiel 2077-07-15 (News)
+
+```json
+{
+	"exportType": "foundry-asset-export",
+	"worldId": "cwn-cyberpunk",
+	"systemId": "swnr",
+	"documents": [
+		{
+			"documentType": "JournalEntry",
+			"name": "[NEWS] Arasaka Security Division verstaerkt Praesenz in Night City",
+			"folder": "_simple_calendar_notes_directory",
+			"data": {
+				"name": "[NEWS] Arasaka Security Division verstaerkt Praesenz in Night City",
+				"pages": [
+					{
+						"name": "News",
+						"type": "text",
+						"text": {
+							"content": "<p><strong>Night City News, 15.07.2077:</strong> Arasakas Security Division verstaerkt ihre Praesenz in Night City und begruendet dies mit Stabilisierungsmassnahmen.</p><p>Yorinobu Arasaka verteidigt die Entscheidung oeffentlich gegen Kritik aus NUSA- und Militech-nahen Kreisen und wirft beiden vor, die Stabilitaet in Night City zu gefaehrden.</p>",
+							"format": 1
+						}
+					}
+				],
+				"flags": {
+					"foundryvtt-simple-calendar-reborn": {
+						"noteData": {
+							"startDate": {
+								"year": 2077,
+								"month": 6,
+								"day": 14
+							},
+							"endDate": {
+								"year": 2077,
+								"month": 6,
+								"day": 14
+							},
+							"allDay": true
+						}
+					}
+				},
+				"folder": "R8oWhQpyHdjHlXLk"
+			}
+		}
+	]
+}
+```
