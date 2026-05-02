@@ -82,6 +82,7 @@ source: lore_db.md
   - der Chip-Kurier ist verschwunden oder abgetaucht
   - der Wagen ist derzeit nicht trackbar
   - Militech weiss vom Diebstahl, sucht den Wagen aber zu diesem Zeitpunkt nicht in Night City
+  - die Spur auf den Wagen ist aktuell kalt; Tarn-/Ablenkbewegungen halten Militech auf falscher Faerte
   - eine seiner Suchlinien fuehrte ueber einen Sekretaer zu Oggy
 - **Trumps Fahrerteam** weiss:
   - es soll sich mit dem Zweitwagen qualifizieren
@@ -150,6 +151,7 @@ source: lore_db.md
 - Das Trio KENNT diese 6-Jahre-alte Verbindung noch NICHT; sie koennen die Koordinaten-Bedeutung noch nicht dekodieren.
 - Spaetere Eskalation moeglich: Falls Trio diese Verbindung begreift (durch Archive, Gespraeche, weitere Recherche), oeffnet sich ein direkter Zugang zu den Henshaw-/von-Eichner-Altlasten und Black-Project-Spuren.
 - **Weltplot-Anker**: Verbindung zwischen Race-Plot (Stick), Kontrolllinie (Henshaw-Verfolgung) und Black-Project-Weltplot (Badlands-Dump).
+- **Ablenklage (ARBEITSSTAND):** Wraith verlagern Raketenwerfer intern zu anderer Wraith-Stelle; Aldecaldos bewegen Teile aus Night City heraus und lassen sie extern verkaufen, um Militech weiter auf falscher Spur zu halten.
 
 ### Offene Race-Entscheidung
 **ARBEITSSTAND**

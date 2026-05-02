@@ -253,6 +253,29 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - "Ich dachte, ein Stueck, wenigstens ein kleines, war wahr."
 - Schwerttraining am fruehen Morgen als Selbstregulations- und Sicherheitsmarker.
 
+### 07.-Juli: Kalter Morgen, Hoehle, KITT (Ely-Sicht)
+**ARBEITSSTAND**
+- "Die Duschen hier sind meine persoenlichen Gegner, sie sind arschkalt."
+- "He Doc Hutch, das sieht ja schon ganz super aus, wann koennen sie bei uns dreien anfangen?"
+- "Fuck! Raus hier!"
+- "Selbstverteidigungsmodus aktiviert!"
+- "Das muessen wir haben, auch wenn Militec draufsteht."
+- "Nimm meins." (Ely gibt ihr Bike als Relais fuer den Hack frei)
+- Fundmarker: Leiche + Stick + bewaffneter Militec-Wagen als Badlands-Knoten.
+- Tarnmarker: MILITEC-Branding wird vor Abfahrt uebersprueht.
+- KITT-Drive-Marker: Off-Road/Street-Umschaltprofil und Beutefieber als Tageston.
+
+### 07.-Juli: Clan-Satz, Schloss, H10-Zweifel (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Wir haben unseren Clan."
+- "SCHON WIEDER EINE FUCKING VERDAMMTE HOELLE!"
+- "Entweder ein Bike, oder ich..."
+- "Lauuurrriii bittteeee."
+- "Lasst uns heimfahren ... wir gehoeren nicht dazu."
+- Fundmarker: Hoehlenfoto fuer spaetere Identifizierung.
+- Technikmarker: KITT-Schloss wird geknackt; Zentralverriegelung bleibt als Detailfrage offen.
+- Sozialmarker: H10 statt Camp als Abendentscheidung aus Zugehoerigkeitszweifel.
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

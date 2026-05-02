@@ -46,6 +46,11 @@ source: lore_db.md
 - 2077-07-06 Elias-Agent-Sichtung (NCU-Bibliothek) - KRITISCH: Agent hat George erkannt, kennt Aldecaldo-Auto-Typ; Verfolgungs-/Observationslinie aktiviert.
 - 2077-07-06 Elias-vermittelte Vermaehlung fuer George "mit Jemandem aus Uebersee" - **GESTRICHEN (Spielleitung):** Super-Bowl-/Zwangsverlobungsfaden wird nicht weitergefuehrt.
 - 2077-07-06 Donny-"Verkackung" - **ABGESCHLOSSEN:** Datenstick als operativer Faden erledigt; die Helden haben die Koordinaten gefunden.
+- 2077-07-07 KITT-Systemstatus - **ABGESCHLOSSEN (ARBEITSSTAND):** KITT ist aktuell als gut programmiertes Expertensystem gesetzt (kein KI-/VI-Upgrade gesetzt).
+- 2077-07-07 Hoehlen-Stick - **ABGESCHLOSSEN (ARBEITSSTAND):** Fund ist ein Militech-Authorization-Key fuer KITT; derzeit kein aktives Telemetrie-Risiko.
+- 2077-07-07 Perspektivregel - **BESTAETIGT (ARBEITSSTAND):** George schreibt ueblicherweise keine eigene Einzelsicht; Konsolidierung laeuft primaer ueber Ely-/Lauri-/SL-Abgleich.
+- 2077-07-07 Lauri-Followup liegt vor (Hoehlenfoto/Schloss/H10-Nachtentscheidung); Feinschliff der Mikro-Reihenfolge mit Ely-Sicht bleibt offen.
+- 2077-07-07 Camp-Zugehoerigkeitskonflikt (Lauri) - Bleibt es bei punktueller Unsicherheit oder wird daraus ein wiederkehrender Sozialfaden (Camp vs. H10)?
 - 2077-07-06 Donny-Bild (verschwommen, moeglichweise Wagen) - Koennte Beweis fuer Trump sein. Genauere Analyse erforderlich.
 - 2077-07-06 Donny-Koordinaten (Wueste) - KRITISCH: Liegen dort, wo vor ca. 6 Jahren Henshaw-/von-Eichner-Black-Project-Entsorgung stattfand. Trio kennt diese Verbindung noch NICHT.
 - 2077-07-06 Ely-Tagebuch weiterschreiben - Wer weiss darueber? Walters/Bertrams Sicht? Spaetere Nutzung/Entdeckung?
@@ -73,7 +78,7 @@ source: lore_db.md
 - 2077-07-10 Trio-Grenzgespraech nach Bar-Konflikt - Wie stabil bleibt die neue Offenheitsregel bei eifersuchts-/adrenalingetriebenen Situationen?
 - 2077-07-11 Saul-Besprechungszelt-Zwischenfall - Welche sozialen Nachwirkungen im Camp bleiben nach der peinlichen Ueberkreuzung?
 - 2077-07-11 Lauris Zugehoerigkeitskonflikt - Derzeit: totale Begeisterung fuer Nomadenleben und Aldecaldo-Kultur. Lauri hat bisher nur die sonnige Seite gesehen. Wie sie reagiert, wenn Schattenseiten sichtbar werden, ist offen. Der innere Abwehrimpuls ("gehoere nicht hierher") liegt unter der Begeisterung vergraben, nicht aufgeloest.
-- 2077-07-11 Oggy-Militech-Rebuild - Welche Beschaffungsroute deckt die noch fehlenden Tarn-/Leistungsteile fuer den Wagen ab (inkl. Risiko, Zeitdruck, Geldfluss)?
+- 2077-07-11 Oggy-Militech-Rebuild - **TEILAUFGELOEST (ARBEITSSTAND):** Wraith verlagern Raketenwerfer zu einer anderen Wraith-Stelle; Aldecaldos transportieren weitere Teile aus NC und lassen sie extern verkaufen, um Militech auf falscher Spur zu halten (Spur aktuell kalt). Offen bleiben Restteile, Zeitdruck und Gegenreaktion bei Spurwiederaufnahme.
 - 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)? **Teilaufgeloest (ARBEITSSTAND):** Bluttrinker seit 1940er Mexiko; Scheide aus Menschenhaut; Traegerlogik bekannt. Verborgener Teil (nur Insidern bekannt): Zyklus brechbar durch bewusste Lossagung ohne Machtgier.
 - 2077-07-11 Enrico-Bluttrinker-Motiv - **AUFGELOEST (ARBEITSSTAND):** Enrico gab die Klinge weiter, weil er den Zyklus beenden wollte und Lauri falsch einschaetzte (haelt sie fuer jemanden, der sie neutralisiert, nicht weitertraegt). Tragischer Irrtum.
 - **Bluttrinker-Fanatiker als Bedrohungslinie** — Sie wissen, dass Lauri die Klinge hat. Wann treten sie aktiv in Erscheinung? Wer fuehrt den Kern an? Kennen sie bereits den Schwester-/Kreuz-Pfad?

@@ -423,10 +423,28 @@ source: lore_db.md
    - Trio schlaeft erstmals ohne "Sleepy" (George: "Sonst beisst es uns irgendwann in den Arsch"); spielerische Kuschelphase, schlafen als "ungeordnetes Knubbel" ein.
    - **Ue18-Note**: Sexshop-Kaeufe und Zelt-Szenen werden nur als Beziehungs-/Szenenmarker gefuehrt, ohne pornografische Details.  - Paralleler CP2077-Weltplot laeuft in Night City sichtbar im Hintergrund.
 
-- **2077-07-07 (Uebergangstag)**:
-  - **Sammelstand (ARBEITSSTAND)**:
-    - Kein eigener voll ausgeschriebener Tagesblock in den bisherigen Auszuegen.
-    - Tag liegt in der H10-/NCU-/Nachsorge-Uebergangsphase zwischen 06.07. und 08.07.
+- **2077-07-07**:
+  - **Ely-Einzelsicht (ARBEITSSTAND, voller Tagesblock)**:
+    - Camp-Morgen startet mit Kaltwasserfrust, ungeniessbarem "Porridge" und Trainingsunlust bei Ely; George isst doppelt, Saul setzt das Trio stattdessen auf koerperliche Camp-Arbeit an.
+    - Tattoo-Faden konkretisiert: Ely fuehrt Lauri und George zu Doc Hutch; Entwurf liegt auf Schweinehaut vor, Start fuer alle drei voraussichtlich am Folgetag nach Farbverfuegbarkeit.
+    - Donny-Koordinaten werden noch am selben Tag angefahren; Mitch und Scorpion begleiten nur ein Teilstueck.
+    - In einer Badlands-Hoehle greift ein Rudel aus vier mutierten Hunden an; alle vier Tiere werden getoetet.
+    - Verletzungsmarker: George erleidet eine schwere Wade-Bisswunde, Lauri eine Bisswunde am Arm; Erstversorgung erfolgt vor Ort.
+    - Im Hoehleninneren folgen Fundmarker: Leiche mit Kopfschuss, zerschossene Kadaver, aktives automatisches Verteidigungssystem mit Sprachausgabe ("Selbstverteidigungsmodus aktiviert").
+    - Zielobjekt ist ein bewaffneter Militec-Wagen; George hackt ueber Elys Bike als Relaisstation, der Verteidigungsmodus wird deaktiviert.
+    - Ely findet bei der Leiche einen Militech-Authorization-Key; ueber Reboot wird das Fahrzeug startbar und akzeptiert den Namen **KITT**.
+    - KITT wird im aktuellen Stand als gut programmiertes Expertensystem gefuehrt; der Key gilt als Militech-Herkunft ohne aktives Telemetrie-Risiko.
+    - Tarnmassnahme: MILITEC-Markierung wird vor Abfahrt uebersprueht; Fahrprofil zeigt Off-Road-/Street-Umschaltmodus mit integrierter Bewaffnung.
+    - Rueckkehr zu Oggy: Risikoansage wegen Militec-Herkunft, gleichzeitig Zusage fuer Umbauhilfe.
+    - Ablenkspur gegen Rueckverfolgung: Wraith verlagern Raketenwerfer zu anderer Wraith-Stelle; Aldecaldos bringen weitere Teile aus NC heraus und lassen sie extern verkaufen, um Militech auf falscher Spur zu halten (Spur aktuell kalt).
+    - Tagesabschluss in H10; Wilson-Wettschiessen ist fuer den Folgetag gesetzt.
+  - **Lauri-Einzelsicht (ARBEITSSTAND, Followup-Detailblock)**:
+    - Camp-Morgen wird zusaetzlich als sozialer Reibungsmarker gefuehrt ("Pueppchen"-Ton, dann gemeinsames Anpacken statt Joggen).
+    - Tattoo-Moment wird als bewusste Ely-Entscheidung fuer Handnadel statt Maschine gespiegelt; Lauri liest das als mutigen All-in-Schritt.
+    - Hoehlenblock bestaetigt Kernfakten und setzt Zusatzmarker: Foto zur spaeteren Identifizierung der Fundlage, Strahlen-/Mutationssorge, starkes Nachadrenalin.
+    - Schlossphase: Lauri knackt das KITT-Schloss; unklar bleibt, ob danach Zentralverriegelung loest oder eine Tuer bereits offen war.
+    - Nachlauf bei Oggy/H10: KITT-Behalteentscheidung verfestigt sich; Lauri priorisiert gleichzeitig Bike-Robustheit/-Tempo fuer kommende Badlands-Fahrten.
+    - Sozialmarker Tagesende: Trio schlaeft in H10 statt Camp; Lauri benennt explizit Zugehoerigkeitskonflikt (Sehnsucht nach Lagerfeuer/Leuten vs. "wir gehoeren nicht dazu").
 
 - **2077-07-08**:
   - **Sammelstand (ARBEITSSTAND)**:
