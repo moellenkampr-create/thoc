@@ -294,7 +294,25 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - Tonmarker: Lauri fuehlt sich beim Job-Reveal "in die Enge getrieben, kein Entkommen" — seltene Vulnerabilitaet ohne direkten Feind.
 - Beziehungsmarker: AllInn-Erklarung spontan auf Anhieb verstanden ("nur Uns, nicht mehr er und wir").
 
-## 6. Plotmarker mit Tonwert
+### 15.-Juli: Sticken, Western-Abend, Blitz-Fragmente (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Ich koenne nicht muesssen. Es gibt nichts, was mich dazu zwingen koennte." (Gedankenexperiment: fuer wen wuerde sie sich entscheiden)
+- "Kunst, Kunst verkaufen wir." (Hutchs Wort, von Lauri adaptiert als Plan)
+- "Solange ich es hier sticke, ist keine Silbe davon gelogen."
+- "Ich habe Kunst von hier verkauft. Das Geld gehoert also ihnen."
+- "Jeder gibt, was er kann." (Aldecaldo-Leitsatz, bei Lauri verankert)
+- "Wir sind vor einer Klippe und gehen weiter." (Aldecaldo-Leitsatz, bei Lauri verankert)
+- "Willkommen... WILLKOMMEN... Fuck." (Gedankenblitz, Inhalt offen)
+- "Weniger sexy, mehr Kraft." (Flying Pole am Kran, vollbekleidet)
+- "Ich stabilisiere mich. Wie immer. Es wird. Ich werde wieder OK sein."
+- Tonmarker: erster ruhiger Schlaf seit fast einer Woche.
+- **Blitz-Fragmente (kritisch, Halbschlaf)**:
+  - "Das Kreuz! Wie kam es auf die Waffe?"
+  - "Die Waffe, als ich ging, stand sie an der Tuer."
+  - "Als wir kamen, lag sie versteckt unter der Matrazze."
+  - "Haben wir nun mich getoetet?"
+
+
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"
 - Elys Waffe: "Pinky"

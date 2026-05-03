@@ -649,9 +649,30 @@ source: lore_db.md
       - **Aldecaldo-Spitznamen fuer das Trio** (Hutch): Quietschie, Unersaettlich, Rammler. Lauri lacht. Hutch: "Heat" hat zweideutige Bedeutung. Lauri: "Na und? Stimmt ja auch."
       - Nolan: Lauri bemerkt, dass sein Notizbuch fast leer ist (drei Seiten). Will neues diskret in seine Kiste legen.
       - Zwei kleine Jobs per Email (~1.000 Credits gesamt). Alleinfahrt: Zara (Pakete zu gross fuer Bike → Lieferung zu Mysti). Mysti: Raeucherstaeabchen, Velvet-Einladung am Freitag (Mysti: unsicheres Ja).
-      - **Mutter Welles-Kontakt**: kalt, unpraezise. Bestattungsfeier fuer Enrico noch nicht terminiert. Lauri antwortet: freue mich zu kommen, kann im Moment nicht ins Coyote.
+      - **Mutter Welles-Kontakt**: kalt, unpraezise. Meldet sich wegen Jackies Bestattungsfeier (Enrico ist bereits bestattet). Feier noch nicht terminiert. Lauri antwortet: freue mich zu kommen, kann im Moment nicht ins Coyote.
       - **Emotionaler Zusammenbruch allein auf dem Bike**: Lauri schreit. Zitat: "WIR HATTEN IHN NIEMALS GEBETEN UNS WAS VORZUSPIELEN! ES HAETTE AUCH SEX BLEIBEN KOENNEN! WARUM!" May beruhigt. Halt bei Mandys — Velvet liegt direkt daneben.
       - Faehrt zu Oggy, Essen fuer zehn Menschen. Abendtraining; spuert Unausgeglichenheit. Plan: Morgenmeditation.
       - **Job-Reveal-Desaster**: Lauri verplaudert sich mit einem Job. George sucht in den Finanzen nach → Lauri erstarrt, beisst sich die Lippe blutig. George flippt aus. Lauri fast am Weinen; Ueberraschung fuer sie vernichtet. Fuehlt sich in die Enge getrieben.
       - **AllInn-Gespraech Finanzen**: Ely und George erkennen Lauris Zustand; Einigung: Lauri wird kuenftig einbezogen. George erinnert an Regel (alles gemeinsam); Lauri erklaert AllInn-Logik ("nur Uns, nicht mehr er und wir") — wird sofort verstanden.
       - Heim, Kuscheln (Lauri draengt sich zwischen die beiden). Kurz geborgen. Ely will Geschenk sofort. Lauri: "ist eh verbrannt, hole es morgen." Braucht neue Geburtstag-Idee. Koerper holt sich Schlaf.
+
+  - **2077-07-15**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND)**:
+      - Lauri schlaeft laenger als die Vortage. Morgenmeditation. Kurze Stadtfahrt; ab Dakota-Bereich Taxi.
+      - Ely arbeitet an KITT. Lauri froh ueber den Raum; ist "bei weitem nicht OK". Enrico-Gedankenkreisen: versteht seinen Entschluss (Ely zu behalten), koennte ihn nachvollziehen — haette selbst Ely gewaehlt. Gedankenexperiment: wuerde sich selbst fuer niemanden entscheiden koennen, koennte nicht geswungen werden.
+      - Holt Sachen (Jacken/Maentel) bei Mysti. Faehrt mit Flitzer zu den Aldecaldos, haengt die Sachen im Zelt auf.
+      - **Trainingsverbot** (frisches Tattoo, Ely und George). Lauri meditiert und **stickt den ganzen Tag**.
+      - **Kunstverkaufsplan**: Stickerei aus dem Aldecaldo-Lager verkaufen; Einnahmen gehen komplett in Sauls Kiste. Begruendung: "Ich habe Kunst von hier verkauft, das Geld gehoert ihnen." Bezug auf Hutchs Spruch: "Kunst, Kunst verkaufen wir." Aldecaldo-Leitsprueche bei ihr verankert: "Jeder gibt, was er kann." / "Wir sind vor einer Klippe und gehen weiter."
+      - Lauri laesst Flitzer-Schluessel stecken — Aldecaldos sollen ihn benutzen, wenn sie wollen.
+      - Lasertag mit Aldecaldo-Kids bei Oggy (Ely und Lauri vs. Kids). Gewinnen lassen, nur knapp (ein Punkt Unterschied). Kinder begeistert. George kocht mit Jenny.
+      - Reflexion: Ely wird wohl nie ganz bei den Aldecaldos bleiben wollen (nach allem, was ihnen passiert ist). Lauri: solange willkommen, ist es ok.
+      - "Willkommen... WILLKOMMEN... Fuck." — Gedankenblitz durch das Wort ausgeloest; Inhalt nicht expliziert (OFFEN).
+      - Rueckkehr nach Hause: Ely und George finden ihre **Jacken/Maentel** (das Ueberraschungsgeschenk von Lauri — doch noch uebergeben).
+      - George holt drei **Stetsons**. Ely bekommt **Sechsschuss von Cassady** geliehen.
+      - Western-Abend: Chubby singt altes Westernlied. Lauri klettert auf Kran, **Flying Pole am Tuch** (vollbekleidet, Kraftversion statt sexy). Danach Jammen, Singen, Lachen.
+      - **Erster ruhiger Schlaf seit fast einer Woche.** Lauri: "Ich stabilisiere mich. Wie immer. Es wird."
+      - Will trotzdem Vic wegen Untergrundkaempfen anrufen: "Ich muss echt kaempfen. Menschen sind immer was anderes."
+      - **Blitz-Gedankenfragmente im Halbschlaf (KRITISCH, nur Lauris Deutung)**:
+        1. Enricos Kreuz — "Wie kam es auf die Waffe? Hat er es beim Gehen dorthin gepackt?"
+        2. Waffenposition veraendert: beim Weggehen an der Tuer, bei Rueckkehr unter der Matratze versteckt — jemand hat sie umpositioniert.
+        3. Schluss: "Haben wir nun mich getoetet?" — "Wir" und Referenzzeitraum unklar; Bezug auf Bluttrinker-Vorfall oder Coyote-Periode vermutet. Bewusst offen.
