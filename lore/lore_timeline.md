@@ -666,13 +666,13 @@ source: lore_db.md
       - Lauri laesst Flitzer-Schluessel stecken — Aldecaldos sollen ihn benutzen, wenn sie wollen.
       - Lasertag mit Aldecaldo-Kids bei Oggy (Ely und Lauri vs. Kids). Gewinnen lassen, nur knapp (ein Punkt Unterschied). Kinder begeistert. George kocht mit Jenny.
       - Reflexion: Ely wird wohl nie ganz bei den Aldecaldos bleiben wollen (nach allem, was ihnen passiert ist). Lauri: solange willkommen, ist es ok.
-      - "Willkommen... WILLKOMMEN... Fuck." — Gedankenblitz durch das Wort ausgeloest; Inhalt nicht expliziert (OFFEN).
+      - "Willkommen... WILLKOMMEN... Fuck." — Gedankenblitz durch das Wort ausgeloest. **AUFGELOEST:** Lauri realisiert, dass sie sich bei den Aldecaldos wirklich willkommen fuehlt — ein fuer sie seltenes Gefuehl (Normalzustand: Ablehnung, Kaelte, vorgeschobene Freundlichkeit). Unglaeubigeige, freudig-hoffnungsvolle Reaktion.
       - Rueckkehr nach Hause: Ely und George finden ihre **Jacken/Maentel** (das Ueberraschungsgeschenk von Lauri — doch noch uebergeben).
       - George holt drei **Stetsons**. Ely bekommt **Sechsschuss von Cassady** geliehen.
       - Western-Abend: Chubby singt altes Westernlied. Lauri klettert auf Kran, **Flying Pole am Tuch** (vollbekleidet, Kraftversion statt sexy). Danach Jammen, Singen, Lachen.
       - **Erster ruhiger Schlaf seit fast einer Woche.** Lauri: "Ich stabilisiere mich. Wie immer. Es wird."
       - Will trotzdem Vic wegen Untergrundkaempfen anrufen: "Ich muss echt kaempfen. Menschen sind immer was anderes."
       - **Blitz-Gedankenfragmente im Halbschlaf (KRITISCH, nur Lauris Deutung)**:
-        1. Enricos Kreuz — "Wie kam es auf die Waffe? Hat er es beim Gehen dorthin gepackt?"
-        2. Waffenposition veraendert: beim Weggehen an der Tuer, bei Rueckkehr unter der Matratze versteckt — jemand hat sie umpositioniert.
-        3. Schluss: "Haben wir nun mich getoetet?" — "Wir" und Referenzzeitraum unklar; Bezug auf Bluttrinker-Vorfall oder Coyote-Periode vermutet. Bewusst offen.
+        1. **Enricos Kreuz haengt an Bluttrinker** — das Kreuz war seit Winter 2076 verschwunden (Enrico hatte deswegen angerufen). Lauri realisiert: die Waffe ist **Bluttrinker**, die Enrico ihr vor dem Unfall uebergeben hatte. Sie hatte Bluttrinker an die Wand neben der Tuer gestellt.
+        2. Waffenposition veraendert: beim Weggehen an der Tuer, bei Rueckkehr unter der Matratze — das Trio hat sie versteckt und DNA entfernt.
+        3. Rhetorik-Schluss: "Haben wir nun mich getoetet?" — **Rhetorisch:** Lauri fragt sich selbst, ob das Trio durch die Versteck-/DNA-Aktion ihren eigenen Tod verursacht hat (Bluttrinker-Traegerlogik). Sie kennt die vollstaendige Legende noch nicht. ARBEITSSTAND, kein verifizierter Kanon.
