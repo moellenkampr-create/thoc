@@ -630,3 +630,28 @@ source: lore_db.md
       - Lauri wacht nach kaum Schlaf mit starkem Verratsgefuehl gegenueber Enrico auf; Deutung: Enrico habe mit Bluttrinker ihren Tod einkalkuliert, um Ely ohne Lauri zu behalten.
       - Sie versucht nach aussen Stabilitaet gegenueber Ely und George zu halten (Laecheln, beruhigter Ton), geht dann allein aus dem Zelt.
       - Fruehes Schwerttraining ausserhalb des Zeltbereichs als Selbstregulation und Sicherheitsmassnahme (niemanden im Camp gefaehrden).
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Morgen bis Abend)**:
+      - Ely und George beobachten Lauri beim Training beim Fruehstueck; George reicht ihr Wasser, bevor sie Ely kuesst.
+      - Lauri spricht die Tandem-Idee aus: Ely soll schiessen koennen, waehrend Lauri faehrt. Plan: Pepe fuer Ergonomie-Modifikationen ansprechen.
+      - Gemeinsame Schiessübung: Ely trifft alles (blinzelt nur einmal), George schwindelig vom Visier, Lauri adaptiert die Drehschwindel-Reaktion aus dem Aerialtraining.
+      - **Trust-Namengebung**: Lauri nennt Georges Schwert "Trust" — kommt als vorsichtiges Fluestern statt selbstbewusst heraus. Ely und George reagieren positiv.
+      - Lauri gibt beiden spontan Zugang zu Trust frei (dachte, sie seien schon freigegeben).
+      - **Georges Vertrauenstest**: George laeuft mit Trust auf Lauri zu, stoesst zu — Lauri haelt alle Instinkte bewusst in Schach, bewegt sich nicht. Georges Reaktion: voellige Fassungslosigkeit, Ueberraschung, Liebe, Erkenntnis. Zitat: "Du... bist wirklich AllInn."
+      - Adrenalinsausch → Eskalation → intime Szene (Geheimversteck, Aerialtuch, alle drei). Lala unterbricht zweimal an der Tuer. Lala-Zitat: "Seit die Drei da sind, bist du unersaettlich. Mann!" Abschluss-Kuesse vor der Tuer.
+      - Tandem-Fahrt: Ely vor Lauri aufs Bike. Simuliertes Schiessen waehrend der Fahrt ohne Waffe. Plan: Paintballkugeln via Mitch fuer echte Uebungen.
+      - Halt bei Pepe: zeigt Tandemposition live. Pepe: "Nicht schlecht." Blickt auf May — hat bereits Modifikationsideen.
+      - Mitch-Treffen: Lauri schickt Videos (Raffens machen Tandemschiessen oefter) → Mitch beruhigt.
+      - **Tattoo bei Hutch (Doc)**: Lauri laesst sich ein Tattoo stechen. Waehrend des Stechens: Idee fuer **Pyrogewehrlauf an Elys Bass** als Ueberraschung fuer ersten Konzertauftritt. Chubby bestaetigt Machbarkeit. Hutch kennt Strassennamen des Trios, findet sie passend.
+      - **Ely erscheint mit Veilchen**: hat Scorpion geknixt (Mitch-Anweisung "Knie hoch, dann renn" — wie Lauri ihr es beigebracht hat). Scorpion hat zurueckgeschlagen. Lauri geht in Schutzmodus. Ely glaubt es verdient zu haben. Lauri versteht die Logik, stimmt nicht zu. Ely geht mit zwei Kuehlpacks zu Scorpion. Lauri verspricht, Mitch nicht zu schlagen (aber nicht, ihn nicht zu bedrohen — Zustimmung zu schnell gegeben).
+      - Lauri gesteht Hutch mehr als geplant: "Ich bin nicht OK." Erzaehlt von Betaeubungs-/Zusammenbruchsmuster; Schmerz als Lebensnachweis. Hutch: "Haben es die Konzerner auch nicht immer leicht." Lauri: "Die nicht, die nicht so tanzen wollen, wie ihnen gesagt wird." Hutch bietet offenes Gespraechsangebot an.
+      - Aldecaldo-Zeltsymbol-Bedeutung: jederzeit willkommen, ob ganz mitreisen oder nicht, bei ihnen.
+      - Lauri wuerde mitreisen — muss Drittel fragen; Bedenken: Ely koennte beim kalten Wasser streiken.
+      - **Aldecaldo-Spitznamen fuer das Trio** (Hutch): Quietschie, Unersaettlich, Rammler. Lauri lacht. Hutch: "Heat" hat zweideutige Bedeutung. Lauri: "Na und? Stimmt ja auch."
+      - Nolan: Lauri bemerkt, dass sein Notizbuch fast leer ist (drei Seiten). Will neues diskret in seine Kiste legen.
+      - Zwei kleine Jobs per Email (~1.000 Credits gesamt). Alleinfahrt: Zara (Pakete zu gross fuer Bike → Lieferung zu Mysti). Mysti: Raeucherstaeabchen, Velvet-Einladung am Freitag (Mysti: unsicheres Ja).
+      - **Mutter Welles-Kontakt**: kalt, unpraezise. Bestattungsfeier fuer Enrico noch nicht terminiert. Lauri antwortet: freue mich zu kommen, kann im Moment nicht ins Coyote.
+      - **Emotionaler Zusammenbruch allein auf dem Bike**: Lauri schreit. Zitat: "WIR HATTEN IHN NIEMALS GEBETEN UNS WAS VORZUSPIELEN! ES HAETTE AUCH SEX BLEIBEN KOENNEN! WARUM!" May beruhigt. Halt bei Mandys — Velvet liegt direkt daneben.
+      - Faehrt zu Oggy, Essen fuer zehn Menschen. Abendtraining; spuert Unausgeglichenheit. Plan: Morgenmeditation.
+      - **Job-Reveal-Desaster**: Lauri verplaudert sich mit einem Job. George sucht in den Finanzen nach → Lauri erstarrt, beisst sich die Lippe blutig. George flippt aus. Lauri fast am Weinen; Ueberraschung fuer sie vernichtet. Fuehlt sich in die Enge getrieben.
+      - **AllInn-Gespraech Finanzen**: Ely und George erkennen Lauris Zustand; Einigung: Lauri wird kuenftig einbezogen. George erinnert an Regel (alles gemeinsam); Lauri erklaert AllInn-Logik ("nur Uns, nicht mehr er und wir") — wird sofort verstanden.
+      - Heim, Kuscheln (Lauri draengt sich zwischen die beiden). Kurz geborgen. Ely will Geschenk sofort. Lauri: "ist eh verbrannt, hole es morgen." Braucht neue Geburtstag-Idee. Koerper holt sich Schlaf.

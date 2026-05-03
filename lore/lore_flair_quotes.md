@@ -276,6 +276,24 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - Technikmarker: KITT-Schloss wird geknackt; Zentralverriegelung bleibt als Detailfrage offen.
 - Sozialmarker: H10 statt Camp als Abendentscheidung aus Zugehoerigkeitszweifel.
 
+### 14.-Juli: Trust, Vertrauenstest, Enrico-Zusammenbruch (Lauri-Sicht)
+**ARBEITSSTAND**
+- "Trust." (Namengebung fuer Georges Schwert — vorsichtiges Fluestern statt laut und selbstbewusst)
+- "Hast du gezweifelt?" (nach Georges Vertrauenstest)
+- "Du... bist wirklich AllInn." (George zu Lauri nach dem Vertrauenstest)
+- "Heat. Das habt ihr von meinem neuen Strassennamen." (Lauri, nach dem Adrenalin-Flare)
+- "Seit die Drei da sind, bist du unersaettlich. Mann!" (Lala, an Lauri)
+- "Verschwindet hier." (Lala — klingt wie eine Bitte)
+- "Nicht schlecht." (Pepe, zur Tandemposition)
+- "Haben es die Konzerner auch nicht immer leicht..." (Hutch/Doc, nach Lauris Schmerz-Gestaendnis)
+- "Ach, keine Ahnung, aber auf jeden Fall die nicht, die nicht so tanzen wollen, wie ihnen gesagt wird." (Lauri zu Hutch)
+- "Na und? Stimmt ja auch." (Lauri zu Hutch ueber zweideutiges "Heat")
+- "WIR HATTEN IHN NIEMALS GEBETEN UNS WAS VORZUSPIELEN! ES HAETTE AUCH SEX BLEIBEN KOENNEN! WARUM!" (Lauri, allein auf dem Bike, re. Enrico)
+- Aldecaldo-Spitznamen fuer das Trio: Quietschie, Unersaettlich, Rammler (Zuordnung offen).
+- "Es ist eh verbrannt." (Lauri ueber die Ueberraschung nach dem Job-Reveal-Desaster)
+- Tonmarker: Lauri fuehlt sich beim Job-Reveal "in die Enge getrieben, kein Entkommen" — seltene Vulnerabilitaet ohne direkten Feind.
+- Beziehungsmarker: AllInn-Erklarung spontan auf Anhieb verstanden ("nur Uns, nicht mehr er und wir").
+
 ## 6. Plotmarker mit Tonwert
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"

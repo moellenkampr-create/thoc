@@ -88,6 +88,14 @@ source: lore_db.md
 - 2077-07-11 Enrico-Letzter-Moment (Lauri-Recall) - ARBEITSSTAND-Hypothese: Enrico liess beim Sturz bewusst los und wirkte in diesem Moment klar. Einordnung offen (Fehlwahrnehmung, Trauma-Rekonstruktion oder absichtlicher Akt).
 - Winter 2076 Coyote-Drogenvorfall (ARBEITSSTAND) - Wurde Ely/Lauri vor der Unfallnacht ungefragt eine Substanz oral zugespielt, und falls ja: von wem, mit welcher Absicht, und wie haengt das mit Enricos Zustand zusammen?
 - 2077-07-14 Lauris Enrico-Deutungssprung - Lauri deutet Enricos Bluttrinker-Uebergabe nun als moegliche Sterbe-Setzung gegen sie ("er wollte, dass ich sterbe"). Konflikt zu bestehender ARBEITSSTAND-Aufloesung (tragischer Fehlkalkulationsversuch statt gezielte Toetungsintention) explizit offen halten, bis weitere Sichten/Belege vorliegen.
+- **2077-07-14 Trust-Namengebung** — Georges Schwert heisst jetzt "Trust" (Lauri-Namengebung). Bisher nur Lauri-Sicht; Bestaetigung durch George-/Ely-Sicht steht aus.
+- **2077-07-14 Scorpion-Vorfall / Ely-Veilchen** — Ely hat Scorpion geknixt (Mitch-Anweisung), bekommt Veilchen. Scorpions Reaktion und Konsequenzen fuer Camp-Dynamik noch offen. Lauri hat versprochen, Mitch nicht zu schlagen — aber nicht, ihn nicht zu bedrohen.
+- **2077-07-14 Enrico-Bestattungsfeier** — Mutter Welles hat Kontakt aufgenommen; Feier noch nicht terminiert. Lauri kann im Moment nicht ins Coyote. Wann ist die Feier, und wie kommt Lauri rein?
+- **2077-07-14 Pyrogewehrlauf an Elys Bass** — Lauri plant Ueberraschung fuer ersten Konzertauftritt (Chubby bestaetigt Machbarkeit). Noch kein Termin, kein Ely-Wissen. Wann und wie wird es umgesetzt?
+- **2077-07-14 Aldecaldo-Spitznamen** — Quietschie, Unersaettlich, Rammler fuer das Trio; Zuordnung zu Ely/George/Lauri noch offen.
+- **2077-07-14 Victor / Untergrundkaempfe** — Lauri plant Victor anzurufen wegen Kampfengagements fuer Geld. Noch nicht umgesetzt. Wie reagiert das Trio?
+- **2077-07-14 Velvet am Freitag** — Mysti eingeladen (unsicheres Ja). Planung laeuft; wer ist sonst dabei?
+- **2077-07-14 Lauris Ueberraschungsgeschenk** — durch Job-Reveal-Desaster "verbrannt". Lauri braucht neue Geburtstag-Idee (fuer wen? Ely? George?). Noch offen.
 - 2077-07-11 Donny-Recherche-Bluttrinker - Wie belastbar sind die 1940-/Mexiko-/Nazigold-Linien, und wer merkt die Rechercheversuche?
 - 2077-07-11 Tim als Netz statt Einzelfall - Gibt es weitere Opfer/Kunden oder einen groesseren Verteiler hinter Tims Nieren-/Cyberwaregeschaeft?
 - 2077-07-12 Aldecaldo-Dauergaststatus - Bleibt der inoffizielle Zelt-/Campstatus stabil oder fuehrt er spaeter in formale Clanaufnahmekonflikte?
