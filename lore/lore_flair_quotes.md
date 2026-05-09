@@ -276,6 +276,16 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
 - Technikmarker: KITT-Schloss wird geknackt; Zentralverriegelung bleibt als Detailfrage offen.
 - Sozialmarker: H10 statt Camp als Abendentscheidung aus Zugehoerigkeitszweifel.
 
+### 08.-Juli: KITT-Deal, Missverstaendnis, Dying Light (Ely-Sicht)
+**ARBEITSSTAND**
+- George-Zorn: Das haetten wir so nicht abgemacht, du solltest Lauris Training machen und ich sehe zu!
+- Elys Fitness: ich muss fitter werden, wenn ich auf dem Weg den wir eingeschlagen haben mithalten will.
+- Wettbewerb-Unfair: Klaus cheatet mit Burstfire, Ely verliert aber mein Schlussbild ist besser.
+- Lauri-Zappelig: wirkt zappelig, braucht ein Rennen.
+- Strip-Learning: es knistert foermlich, wir koennen nicht verbergen, dass wir Lust auf andere Dinge haben.
+- Nacht-Ton: Der Rest der Nacht ist suesse Folter und ekstatische Erloesung, bis wir erschoepft einschlafen.
+- Waffen-Marker: Dying Light — schwere Pistole mit Burst-Fire, braucht Waffenlink.
+
 ### 14.-Juli: Trust, Vertrauenstest, Enrico-Zusammenbruch (Lauri-Sicht)
 **ARBEITSSTAND**
 - "Trust." (Namengebung fuer Georges Schwert — vorsichtiges Fluestern statt laut und selbstbewusst)
