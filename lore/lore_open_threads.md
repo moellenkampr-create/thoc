@@ -110,14 +110,14 @@ source: lore_db.md
 - 2077-07-18 Race-Teilnahmepfad - City-Vorrunde ist verworfen; wie wirkt sich die Badlands-Vorrunde zum Vorrennen am 18.07 auf Build-Tempo und Risiko aus?
 - 2077-07-16 Chubby-Clubabend - **BESTAETIGT (ARBEITSSTAND):** Fuer diesen Abend nur Mitkommen/Anfeuern, kein Trio-Auftritt. Offen bleibt, wann der erste THoC-Buehnenmoment folgt.
 - 2077-07-12 George-Geheimnis bis Sonntag - **TEILAUFGELOEST (ARBEITSSTAND):** Lauri-Bericht 07-13 bestaetigt: George wollte mit einem Geschenkmarker (Schwert fuer Lauri) bis Sonntag warten, wurde aber vorzeitig "erwischt". Offen bleibt, was genau noch bis Sonntag geplant war.
-- 2077-07-12 Global-News-Trigger (China) - Wie schnell schlagen die News in NC auf konkrete Fluchtbewegungen durch, und welche Geruechte sind echt vs. Propaganda?
-- 2077-07-12 Schleuserdruck in NC - Bleibt es bei lokalen Zellen oder zeigt sich frueh ein groesseres Netzwerk mit Auftraggebern?
-- 2077-07-12 Nomadenrolle - Wie offen/verdeckt helfen Aldecaldos bei Fluchtkorridoren, und wo liegen ihre roten Linien?
+- **2077-07-08 KITT-Deal: Ely zahlt mit Laufband-Stunde** — Abmachung: 1h extra Laufband (Ely nur Sport-BH) gegen erste Fahrt mit KITT (George soll zusehen). Deal ausgeführt. Offen: Wann findet die Fahrt statt, und wie reagiert KITT auf die Konstellation?
+- **2077-07-08 Dying Light Waffenlink-Frage** — Ely kauft schwere Pistole **Dying Light** (Burst-Fire-fähig), hat aber keinen Abzug. Braucht **Waffenlink** zur Nutzung. George ist begeistert, meint, er will sich auch einen zulegen. **Ely ist unsicher** über die Waffe: "muss darüber schlafen". Wird sie sie behalten? Werden beide sich Waffenlinks kaufen/implantieren?
+- **2077-07-08 Erstes Trio-Missverständnis: KITT-Deal vs. Lauris Training** — **TEILAUFGELOEST (ARBEITSSTAND):** George erwartete, dass Ely **Lauris Training** mit George macht (George schaut zu). Ely verstand KITT-Fahrt-Deal als separate Schuld. George wird zornig, Lauri spannt sich an. Ely wird ernst, klärt sachlich. George merkt Überreaktion, Versöhnung. Deuten sich Possessiv-Züge bei George an, oder war es reines Missverständnis? Teste Muster bei nächster Frustration.
 - 2077-07-12 Trio-Entscheidungspfad im Sideplot - Schutzkorridor, Taeterjagd oder Beweis-/Leak-Strategie als Primaerroute?
 - 2077-07-12 Sorcoress-Rueckkehr - Wann taucht Sorcoress erstmals aktiv in NC auf, und bleibt der Einstieg zunaechst bei Milky Way statt Kitty Cat?
 - 2077-07-12 Sorcoress vs. Rogue - Entwickelt sich die Beziehung zu Konkurrenz, Co-Existenz oder zweckgebundener Kooperation?
-- 2077-07-12 Doppelauftrag-Hook - Nimmt das Trio parallel Jobs von Sorcoress und Rogue an, und welche Loyalitaetskosten entstehen daraus?
-- 2077-07-12 Maria-Ueberwachungsmodell - Wurde Maria frueher ueber ein billiges Implantat getrackt, und wann genau wurde es entfernt?
+- **2077-07-08 Lauri-Zappeligkeit nach Bestattung** — Nach Enricos Bestattung (07-07) wirkt Lauri am 07-08 "zappelig" und "braucht ein Rennen" (körperliche/psychische Entladung). Normal nach Trauma, oder zeigen sich neue Übersteuerungs-Patterns?
+- **2077-07-08 Knappe Uni-Zeit trotz Entschuldigung** — Trio hat etwa 3 Wochen Uni-Entschuldigung, lernt aber weiterhin (aktiv). Wie lange bleibt das nachhaltig, und wann kommt der nächste akademische Druckpunkt?
 - 2077-07-12 Maria-Reaktivierung - Wie schnell findet Lauris Vater Maria nach Wiederaufnahme der Suche (alte Adresse/nahe Linien), und weiss Maria, dass sie wieder im Blick ist?
 - 2077-07-12 Drohnen-Schattenlauf nach Maria-Kontakt - Entdeckt George die Micro-Drohne rechtzeitig und kann das Trio den Follow brechen, ohne Maria direkt zu gefaehrden?
 - 2077-07-12 Kurz-Direktkanal Vater->Lauri - Kommt es nach dem Maria-Kontakt zu einer kurzen Warn-/Druckansage, und was ist der unmittelbare Preis bei Ignorieren?

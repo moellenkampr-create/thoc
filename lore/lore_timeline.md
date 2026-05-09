@@ -447,14 +447,21 @@ source: lore_db.md
     - Sozialmarker Tagesende: Trio schlaeft in H10 statt Camp; Lauri benennt explizit Zugehoerigkeitskonflikt (Sehnsucht nach Lagerfeuer/Leuten vs. "wir gehoeren nicht dazu").
 
 - **2077-07-08**:
-  - **Sammelstand (ARBEITSSTAND)**:
-    - Das Trio wacht im H10 auf, trainiert, stimmt sich ab und verbringt gemeinsame Zeit.
-    - Ely geht vormittags zu Wilson ins 2nd Amendment, klaert Wettschiessen-Regeln und kauft Waffenverbesserungen.
-    - Nachmittags zahlt Ely 100 EB Startgebuehr und nimmt am Wettschiessen teil.
-    - Ely wird Zweite; Klaus bleibt formell Sieger ueber Burst-Fire-Vorteil bei nicht praezise gefassten Regeln.
+  - **Ely-Einzelsicht (ARBEITSSTAND)**:
+    - Wacht im H10 auf; Lauri sitzt halb nackt im Wohnbereich und stickt (Handarbeit, später verstaut). George trainiert bereits.
+    - **KITT-Deal**: Ely macht 1 Stunde **extra Laufband** (nur Sport-BH) als Schuldenbegleichung für **erste KITT-Fahrt** (George sollte zusehen, laut Plan).
+    - **Erstes Missverständnis/Streit**: George erwartet, dass **Ely Lauris Training mit George machen soll**, nicht dass George selbst trainiert. Ely hatte es als separates Thema verstanden. George wird zornig/enttäuscht; Lauri spannt sich an. Ely wird ernst, klärt sachlich. George schluckt Überreaktion, nimmt beide in Arm, Küsse, Spannungsentladung.
+    - Gym (H10-Stockwerk): Ausweichtraining mit Kampfbot (Ely darf nicht schießen, nur ausweichen). Ely reflektiert: erfolgreicher gegen mutierte Hunde, aber vermutlich Glück statt Können.
+    - **Second Amendment**: Ely kauft Zubehör für Brain.
+    - **Wettbewerb (Wilson?)**: Ely vs. Klaus. Klaus cheatet mit Burstfire, Ely schießt Einzelschuss → Ely verliert, aber hat besseres Schlussbild. Ely kauft Klaus die schwere Pistole **Dying Light** ab (Burst-Fire-fähig, kein Abzug → braucht Waffenlink).
+    - George ist begeistert, meint "das wollte er sich eh zu legen" (beide wollen Waffenlink?).
+    - **Ely ist unsicher** über die Pistole: "muss darüber schlafen".
+    - **Lauri wirkt zappelig**, "braucht wieder ein Rennen" (körperliche/psychische Entladungsbedarf nach Bestattung?).
+    - **Strip-Learning**: Ely schlägt vor, für Uni zu lernen. Lauri zappelig, also Strip-Learning als Herausforderung. Je weniger Kleidung, desto stärker Spannung. Lauri & Ely nur noch in Pornoladen-Dessous. Lauri sendet Nachricht: "Strapon holen". Ely wird rot. Lauri erlöst sie. Süße Folter, ekstatische Erlösung bis Erschöpfung.
+  - **Sammelstand (ARBEITSSTAND)** (ältere Zusammenfassung):
+    - Trio trainiert, stimmt sich ab, verbringt gemeinsame Zeit.
     - Ely erhaelt guenstig die ikonische schwere Pistole **Dying Light**.
     - **Dying Light** wird als hochwertige Einzelwaffe mit Burst-Fire-Moeglichkeit und sinnvoller Nutzung ueber Waffenlink gefuehrt.
-    - Rueckkehr ins Apartment; trotz etwa drei Wochen Uni-Entschuldigung wird weiter gelernt.
     - Lernen kippt in intime, spielerische Naehe (inklusive "Strip learning" als Beziehungsmarker).
 
 - **2077-07-09**:
