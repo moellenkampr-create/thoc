@@ -692,3 +692,40 @@ source: lore_db.md
         1. **Enricos Kreuz haengt an Bluttrinker** — das Kreuz war seit Winter 2076 verschwunden (Enrico hatte deswegen angerufen). Lauri realisiert: die Waffe ist **Bluttrinker**, die Enrico ihr vor dem Unfall uebergeben hatte. Sie hatte Bluttrinker an die Wand neben der Tuer gestellt.
         2. Waffenposition veraendert: beim Weggehen an der Tuer, bei Rueckkehr unter der Matratze — das Trio hat sie versteckt und DNA entfernt.
         3. Rhetorik-Schluss: "Haben wir nun mich getoetet?" — **Rhetorisch:** Lauri fragt sich selbst, ob das Trio durch die Versteck-/DNA-Aktion ihren eigenen Tod verursacht hat (Bluttrinker-Traegerlogik). Sie kennt die vollstaendige Legende noch nicht. ARBEITSSTAND, kein verifizierter Kanon.
+
+  - **2077-07-16**:
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Nacht/Morgen)**:
+      - Lauri wacht nassgeschwitzt auf; Ely weckt sie, George ebenfalls wach.
+      - Ely offenbart: Sie habe sich von Enrico weniger beachtet gefuehlt als Lauri. Lauri: verwirrt, nie gemerkt.
+      - George fragt direkt: Fuehlst du dich bei mir zurueckgestellt? Lauri erleichtert: Nein. Wurmt sie aber, dass Ely damals unglucklich war.
+      - Enrico-Machete: Schenkung ergibt keinen Sinn. **"Die Machete war woanders als vorher."** Ely will mit **Cassy** sprechen, wer in der Wohnung war.
+      - **George-Frauen-Backstory**: Baseball-Vokabular als Ablenkungsmethode (erste Base bis Homerun). Homerun vertieft, auf spaeter vertagt; George will erst nochmal Homerun mit Lauri. Dann: zerknirscht — "wohl einige" Frauen. Mehr als beide. Dazu bezahlte Frauen — war der Vater, nicht George selbst.
+      - Lauri stoert es nicht. Reflexion: Haette George jemandem vertrauen koennen, waere einiges anders gelaufen. "Georges Herz ist groesser — deshalb schlaegt es langsamer."
+      - Bisexualitaet / Gerard-Reflexion angedeutet; George sieht Lauri an.
+      - Lauri legt sich besitzergreifend witzelnd ueber die beiden. Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Tag 16.07)**:
+      - **Elys Eltern** haben Mailbox vollgequatscht (erst fordernd, dann besorgt). Trio plant Reaktion.
+      - **Chubby** massiert George; berichtet, alle im Camp seien eifersuechtigt auf ihn.
+      - **Aldecaldo-Wette**: Lauri versteht sie nicht — war wohl zu laut nachts. Grinst. Will wetten, tappt ins Fettnaepfchen.
+      - Lauri: *"Das ist so fucking schwer!"* — Laut gesagt? Egal.
+      - Plan: gemeinsam zum Gig fahren, Chubby spaeter abholen.
+      - Lauri faehrt zu Oggy trainieren; Ely kommt mit, schraubt an KITT. Lauri schaut zu — anders als Bikes, aber faszinierend. Essen mit Oggy; Rueckkehr zu den Aldecaldos.
+      - Chubby aufgeregt; meint, Trio sei "ueberdressed" — gehen ja nicht auf die Buehne. George fehlt beim Aufbruch.
+      - Lauri pingt George → er ruft zurueck: hat Zeit vergessen, trifft sich am Mandy's.
+      - Chubby kennt Mandy's unter anderem Namen. Lauri verraet: Trio hat zwei Liedchen fuer Mandy gemacht.
+      - Essen bei Mandy's (viele da wegen Velvet Static nebenan). Chubby geht vor: *"Sehen uns in einer Stunde."* Ely wollte direkt mit; Trio bleibt noch.
+    - **Lauri-Einzelsicht (ARBEITSSTAND, Nacht 16.07) — KRITISCHER PLOTMARKER: ERSTER THoC-BÜHNENAUFTRITT**:
+      - Als Trio um die Ecke kommt: **Chubby liegt am Boden.** Arm gebrochen, Zaehne locker. Kann weder spielen noch singen.
+      - Verantwortlich: **Kurukase** — die Band der **Tigerclaws** — haben Chubby vor dem Auftritt zusammengeschlagen.
+      - Wut keimt. Lauri: *"Wenn wir nicht so schlecht waeren, wuerd ich ja sagen, wir uebernehmen fuer dich..."*
+      - Chubby: *"Echt?! Das wuerdet ihr machen? Die sollen nicht auch noch gewinnen..."*
+      - Lauri sieht den Ausweg: **Musik als Waffe**. Bettelaugen bei Ely → Ely sagt ja. Lauri kuessst sie. George aufgeregt. Lauri: Gefuehl wie vor einem Kampf. Absolut abgedreht, euphorisch.
+      - **Betreiberin** (Velvet Static) erlaubt den Wechsel (kaum fassend). Zeigt Techniker **Ivan** → Ivan findet es *"richtig richtig Scheisse"* (scheinbar mag Chubby hier jeder). Geht Technik fuer Kurukase machen, wirkt *"zu gut, keiner merkt die Absicht"* — **Sabotage-Verdacht (ARBEITSSTAND)**. Lauri grinst.
+      - Frau passt auf Chubby auf. Lauri: unsicher, vertraut ihr wenn Chubby vertraut.
+      - Ivan bringt Trio zur "Umkleide" (kleine Abtrennung, Balkon). Andere Bands freundlich; Lauri wuenscht allen echtes Glueck — ausser Tigerclaws.
+      - **Ely schminkt das Trio.** Betreiberin: *"Uebrigens, verpruegeln wir hier nicht unsere Mitstreiter. Kurukase darf austrinken, bis zum Ende bleiben, und nie wieder kommen."* → *"Three Hearts of Chrome. Mit 'Und dann singen sie' — so heisst der Song."*
+      - Ely Jacke aus, George nur Hemd. Lauri: *"Es wird eine lange Nacht."*
+      - **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt Tattoo. Lauri sieht Kurukase: unruhig. Fokus auf **Schlagzeug** (Lauris Instrument).
+      - Lauris Kernmarker: *"Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."*
+      - [Gig findet statt; Abschluss offen gelassen]
+      - Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.

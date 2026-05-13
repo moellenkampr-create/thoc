@@ -322,6 +322,16 @@ Diese Datei sammelt Formulierungen, Anreden, Regelphrasen und atmosphaerische Ma
   - "Als wir kamen, lag sie versteckt unter der Matrazze."
   - "Haben wir nun mich getoetet?"
 
+### 16-Juli-Marker (Lauri, ARBEITSSTAND)
+- "Die Machete war woanders als vorher."
+- "Georges Herz ist groesser — deshalb schlaegt es langsamer."
+- "Das ist so fucking schwer!"
+- "Wenn wir nicht so schlecht waeren, wuerd ich ja sagen, wir uebernehmen fuer dich." — "Echt?! Das wuerdet ihr machen? Die sollen nicht auch noch gewinnen."
+- "Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."
+- "Three Hearts of Chrome. Mit 'Und dann singen sie' — so heisst der Song." (Betreiberin Velvet Static)
+- "Es wird eine lange Nacht."
+- Tonmarker: Lauri wird ruhig, wenn der Adrenalin-Peak kommt. Fokus statt Chaos.
+
 
 **KANON / ARBEITSSTAND gemischt**
 - Rennen: "high or fly"
