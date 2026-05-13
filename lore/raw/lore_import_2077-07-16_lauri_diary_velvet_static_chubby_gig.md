@@ -17,7 +17,7 @@ Ich erzaehle, was ich gedacht habe. Ely sagt, sie habe sich von Enrico weniger b
 
 George stellt die Frage: Fuehlst du dich von mir zurueckgestellt? Fuehlst du dich bei mir weniger beachtet als die andere?
 
-Ich bin erleichtert, dass nein. Aber es wurmt mich, dass Ely unglucklich war und es nie gesagt hat. Die Schenkung ergibt keinen Sinn. Macht mir keine Logik. "Die Machete war woanders als vorher." Ely will mit Cassy sprechen, wer in der Wohnung war.
+Ich bin erleichtert, dass nein. Aber es wurmt mich, dass Ely ungluecklich war und es nie gesagt hat. Die Schenkung ergibt keinen Sinn. Macht mir keine Logik. "Die Machete war woanders als vorher." Ely will mit Cassy sprechen, wer in der Wohnung war.
 
 Dann fangen wir an, bei George herumzufuehlen. Wieviel Frauen hatte er eigentlich so? Ich benutze Baseballvokabular als Ablenkung. Erste Base, zweite Base, dritte Base. Homerun. Wir vertiefen "Homerun" erst, verschieben das Zaehlen aber auf spaeter. Als ich nachhake: George will nochmal Homerun mit mir. Danach frage ich trotzdem nach.
 
@@ -67,7 +67,7 @@ Ich sehe den Ausweg. Musik als Waffe. Ich mache Bettelaugen bei Ely. Ely sagt ja
 
 George ist aufgeregt. Ich fuehle mich wie vor einem Kampf. Absolut abgedreht. Euphorisch.
 
-Die Betreiberin des Clubs — sie erlaubt den Wechsel. Kaum fassend. Sie zeigt uns den Techniker: Ivan. Ivan findet das "richtig richtig Scheisze" — offenbar mag hier jeder Chubby.
+Die Betreiberin des Clubs — sie erlaubt den Wechsel. Kaum fassend. Sie zeigt uns den Techniker: Ivan. Ivan findet das "richtig richtig Scheisse" — offenbar mag hier jeder Chubby.
 
 Eine Frau passt auf Chubby auf. Ich bin unsicher, aber wenn Chubby ihr vertraut, vertraue ich ihr auch.
 
