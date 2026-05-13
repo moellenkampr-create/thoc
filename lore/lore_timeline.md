@@ -465,6 +465,15 @@ source: lore_db.md
     - Lernen kippt in intime, spielerische Naehe (inklusive "Strip learning" als Beziehungsmarker).
 
 - **2077-07-09**:
+  - **Ely-Einzelsicht (ARBEITSSTAND)**:
+    - Start im H10 mit deutlichem Muskelkater nach 07-08; KITT-Diskussion bleibt kontrovers (behalten vs. Militech-Risiko).
+    - Oggy zerlegt KITT auf Tarnlogik-Niveau (Tags raus, Chassis entkernt); Trio verabschiedet den "perfekten" Zustand zugunsten von Ueberleben und Spurverwischung.
+    - Auf dem Weg zu den Aldecaldos: "Ei"-Episode im Transporter bestaetigt als intime Trio-Dynamik unter Stress.
+    - Bei Doc Hutch: Waffenlinks fuer Lauri und Ely, George beidhaendig; Ely erlebt den Eingriff als weniger schlimm als befuerchtet.
+    - Jake-Faden praezisiert sich ueber Bronkos DocWagon-Kontakt (20k, naechster Abend) bei gleichzeitigem Logistikproblem (kein Abholer).
+    - Chubby/Boris verfestigt sich als Musik- und Sozialknoten (Velvet-Invite 16.07, Studienwunsch BWL+Musik).
+    - George berichtet explizit vom frueheren Bandbruch durch den Vater.
+    - Nachtmarker: Georges optische Feed-Freigabe bleibt hochintim; Ely setzt den Sleep-Inducer heimlich auf 1h, um einen eigenen Schritt vorzubereiten.
   - **Sammelstand (ARBEITSSTAND)**:
     - Trio wacht im H10 auf; Training mit Anschub fuer Ely.
     - Delamain-Fahrt zu Oggy, gemeinsames Essen mit Oggys Familie.
