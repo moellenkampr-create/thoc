@@ -730,6 +730,21 @@ source: lore_db.md
       - [Gig findet statt; Abschluss offen gelassen]
       - Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
 
+    - **Spielleiter-/Erzaehler-Sicht (ARBEITSSTAND, Sessionzusammenfassung 15.07 -> 16.07)**:
+      - Nachtstart: Trio wacht wegen Lauris Alptraum auf; Bluttrinker-/Macheten-Positionsfrage wird erneut diskutiert.
+      - Elys Vater-Mails kippen tonal von streng zu deeskalierend ("Wir sind fuer dich da" / "Lass uns reden").
+      - Trio setzt Sleep-Inducer fuer eine weitere Stunde, um Schlafdefizit auszugleichen.
+      - Morgenmarker Beziehung: George-Morgen = Training, Ely-Morgen = Kuscheln, Lauri legt ihren Morgen am Vorabend fest.
+      - Rueckblickspur Plaza: Portierstochter meldet unbekannte Person im Apartment (ein Tag nach Enricos Tod, vor Elternankunft): vermutlich Frau, dunkle Haare, ca. 1.60-1.70, moegliche Tattoos mit evtl. Valentino-Farben.
+      - Tagsueber: Lauri/Ely bei Oggy (Training/Fahrzeug), George in NC mit Donny/Hackern plus Footballer-Kontakten.
+      - Ely prueft Corporate-Regelwerk fuer Ausstieg von Ely/Lauri in Richtung NC-Buergerstatus und fasst Schlupfloecher fuer das Trio zusammen.
+      - Abendablauf: Camp -> Umziehen -> Mandys (Treffen mit George) -> Chubby geht vor ins Velvet Static und wird zusammengeschlagen.
+      - Gegnerbezeichnung in SL-Block: **Kurokaze Youth** (abweichend zu Kurukase/Kurokase in anderen Sichten).
+      - Chubby will keine Vergeltungspruegel, sondern dass das Trio fuer ihn auftritt; Songentscheidung: "Und dann singen sie".
+      - Chubby wird von "Miri" behandelt und bleibt im Club.
+      - SL-Session-Ende: Trio steht als letzter Act auf der Buehne und ist auftrittsbereit; Songstart selbst bleibt in dieser Sicht ausserhalb der Session.
+        - **Perspektivkonflikt (ARBEITSSTAND):** Lauri-Sicht markiert den Gig teils als bereits stattgefunden; SL-Sicht endet am Buehnen-Cliffhanger vor Songstart.
+
   - **2077-07-14 bis 2077-07-16 (Paralleler CP2077-Weltplot, Hintergrund ausserhalb Heldenwissen) [ARBEITSSTAND]**:
     - **2077-07-14**: V kehrt ins Apartment im **H10** zurueck und bleibt dort einen weiteren Tag zur Erholung und zur Gewoehnung an neue Medikation.
     - **Ab 2077-07-15**: V wird wieder aktiv.
