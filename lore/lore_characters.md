@@ -234,6 +234,16 @@ source: lore_db.md
   - Jennifer nennt George beim Vornamen und behandelt ihn wie einen Neffen
   - Nach 2077-07-10: Oggy/Familie werden vom Trio explizit als **Family** anerkannt
 
+### Cassandra "Cassy"
+**KANON**
+- Portierstochter im **Plaza Apartment / Penthouse**
+- bereits vor 2077-06-04 bekannte und hilfreiche Kontaktperson fuer Ely und Lauri
+- hilft diskret bei Alltagslogistik und Alibi-Linien, ohne sich in den Vordergrund zu spielen
+- gibt am 2077-07-16 einen wichtigen Rueckblickhinweis: einen Tag nach Enricos Tod war noch vor Elternankunft eine unbekannte Person im Apartment
+- ist fuer Ely die naheliegende Ansprechpartnerin, wenn es darum geht, wer im Apartment war
+- wirkt als kleine, aber belastbare Verbindung in die fruehere Plaza-Lebensphase des Trios
+- **Gelb-offen**: eignet sich als wiederkehrende Nebenfigur und kleiner Zwischenabenteuer-Hook; moeglich sind Hilfegesuche von Cassy selbst oder Probleme/Bedrohungen rund um ihren Vater.
+
 ### Gerard
 **KANON**
 - Stallmeister in einer Nobelstallung in **North Oaks**; verwaltet dort einen von drei relevanten Staellen
