@@ -96,8 +96,7 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
   - Songwahl "Und dann singen sie".
   - Beziehungsregel fuer Morgenroutine gesetzt.
 - Perspektivkonflikte:
-  - 07-16-Nachtabschluss: In Lauri-Sicht teils als gespielter Gig notiert; in SL-Zusammenfassung endet Session auf der Buehne vor Songstart.
--  - Keine Namenskonkurrenz mehr: kanonisch **Kurokaze Youth**, Kurzform **Kurokaze**; andere Varianten waren Typos.
+  - Keine aktiven Perspektivkonflikte mehr in der 07-16-Gigfrage: Der aktuelle Stand ist Sessionende auf der Buehne vor Songstart.
 - Statusentscheidungen:
   - Alles vorlaeufig ARBEITSSTAND bis Abgleich mit Ely-/Lauri-Einzelsichten abgeschlossen ist.
 
@@ -114,5 +113,4 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
 - lore_flair_quotes: optional (Morgen-Regel als Tonmarker)
 
 ## Offene Fragen an Spielleitung
-- Zaehlt der 07-16-Auftritt in der Chronik bereits als gespielt oder als Cliffhanger vor Songstart?
 - Soll die Cassy-/Portierstochter-Spur als eigener kritischer Thread priorisiert werden?

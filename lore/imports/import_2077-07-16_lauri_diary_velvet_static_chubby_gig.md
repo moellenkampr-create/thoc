@@ -10,10 +10,11 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 
 # Strukturierter Import — Lauri Tagebuch 2077-07-16
 
-## Block 1: Nacht/Morgen — Aufwachen, Enrico-Gespraech, George-Frauen-Backstory
+## Block 1: Nacht/Morgen — Einschlafen, Aufwachen, Enrico-Gespraech, George-Frauen-Backstory
 **Datum:** 2077-07-16, Nacht → Morgen (direkte Fortsetzung nach Western-Abend 15.07)
 **Status:** ARBEITSSTAND (Lauri-Einzelsicht)
 
+- Vor dem eigentlichen Nachtgespraech stellen sie die Sleepys. Ely murmelt leise: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert und schlaeft ein.
 - Lauri wacht nassgeschwitzt auf; Ely weckt sie, George ist ebenfalls wach.
 - Lauri erzaehlt ihre Gedankengaenge. Ely offenbart: Sie habe sich von Enrico weniger beachtet gefuehlt als Lauri. Lauri ist verwirrt — hat das nie gemerkt.
 - George fragt direkt: Fuehlt sich eine bei ihm zurueckgestellt? Lauri ist erleichtert: Nein. Es wurmt sie aber, dass Ely damals ungluecklich war und es nie sagte.
@@ -21,7 +22,7 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 - **George-Frauen-Diskussion**: Baseball-Vokabular als Ablenkungsmethode (erste Base bis Homerun). Homerun wird vertieft und auf spaeter vertagt. George will vorher nochmal Homerun mit Lauri; danach nachgehakt: zerknirscht gibt er zu, "wohl einige" Frauen gehabt zu haben. Mehr als Ely und Lauri. Dazu bezahlte Frauen — das war sein Vater, nicht er selbst.
 - Lauri stoert das nicht. Reflexion: Haette George jemanden gehabt, dem er vertrauen konnte, waere einiges anders gelaufen. "Georges Herz ist groesser — deshalb schlaegt es langsamer."
 - **Bisexualitaet / Gerard-Reflexion**: Erwaehnt; George sieht Lauri an.
-- Lauri legt sich besitzergreifend witzelnd ueber beide. Sleepys stellen. Ely murmelt leise: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
+- Lauri legt sich besitzergreifend witzelnd ueber beide.
 
 ---
 
@@ -77,20 +78,12 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 - Ely hat die Jacke ausgezogen, George nur noch im Hemd. Lauri: *"Es wird eine lange Nacht."*
 - **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt ihr Tattoo. Lauri sieht die Kurokaze-Band: unruhig. **Fokus auf Schlagzeug** (Lauri spielt Drums).
 - Lauris innerer Moment: *"Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."*
-- [Gig: gespielt, Schluss offen gelassen]
-
----
-
-## Block 6: Nacht — Einschlafen nach dem Gig
-**Datum:** 2077-07-16, Nacht (Ende)
-**Status:** ARBEITSSTAND (Lauri-Einzelsicht)
-
-- Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schläft ein.
+- Das Trio steht auftrittsbereit auf der Buehne; der eigentliche Songstart ist in dieser Sicht noch nicht abgeschlossen.
 
 ---
 
 ## Schluessel-Lore-Punkte 16.07
-- **ERSTER THoC-BUEHNENAUFTRITT** (spontan/notgedrungen): Velvet Static, Songname *"Und dann singen sie"*, Bandname *"Three Hearts of Chrome"* erstmals oeffentlich genannt
+- **ERSTER THoC-BUEHNENAUFTRITT** (spontan/notgedrungen) ist fuer das Velvet Static gesetzt: Songname *"Und dann singen sie"*, Bandname *"Three Hearts of Chrome"* erstmals oeffentlich genannt; Songstart in dieser Sicht noch nicht ausgespielt
 - **Kurokaze Youth** / **Kurokaze** (Tigerclaws-Band): haben Chubby koerperlich angegriffen; klare Antagonisten-Linie
 - **Ivan** (Techniker): Sabotage-Verdacht an Kurokaze-Technik (ARBEITSSTAND)
 - **Betreiberin** (Velvet Static): steht klar gegen Gewalt; verbannt Kurokaze, ermoeglicht den Wechsel
@@ -100,4 +93,4 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 - **Eltern von Ely**: bombardieren Mailbox (fordernd → besorgt); Trio plant Reaktion
 - **Aldecaldo-Wette**: Trio war "zu laut" nachts, Camp weiss offenbar davon
 - Lauri: *"Musik ist meine Waffe"* — thematischer Kernmarker
-- Sleepys-Einschlafen = Ende der 16.07-Nacht (nach dem Gig)
+- Sleepys-Einschlafen gehoert in die Nacht vor dem Tagblock des 16.07 und nicht hinter den Clubauftritt

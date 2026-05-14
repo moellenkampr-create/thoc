@@ -276,7 +276,7 @@ source: lore_db.md
 - **Kreuz**: Enrico war am selben Tag bei seiner Schwester. Das Kreuz bleibt dort — er merkt es erst spaeter und ruft bei Lauri/Ely an, weil er es dort vermutet.
 - **Drogen**: Er nimmt erst **nach dem Verlassen des Apartments** Substanzen, ausgeloest durch externen Druck (Bluttrinker-Fanatiker, s. u.) und sein eigenes Nicht-klarkommen mit der Entscheidung — nicht durch die Szene im Apartment selbst.
 - **Bluttrinker-Fanatiker-Druck**: Ein kleiner Kern aus Kult-/Legacy-Glaeubigen setzt Enrico am Abend unter Druck, die Rolle des Vollstreckers nicht zu "verraten". Dieses Gespraech ist ein zentraler Trigger fuer seinen Drogenkonsum nach dem Verlassen des Apartments. Die Fanatiker steuern nicht jede Handlung, erhoehen aber den psychischen Druck massiv.
-- **Letzter Moment (Lauri-Recall, ARBEITSSTAND):** Er wirkt im letzten Moment wieder klar und laesst dann bewusst los. Einordnung bleibt offen.
+- **Letzter Moment (ARBEITSSTAND):** Enrico laesst im letzten Moment bewusst los. Unter Drogen, unter Druck durch Bluttrinker-Fanatiker und mit seinem Wissen um Bluttrinker geht er davon aus, dass die Situation fuer ihn auf seinen Tod hinauslaeuft. Er will Lauri nicht mit in den Tod reissen und hofft, den Zyklus so zu beenden. Dieses Motiv bleibt weitgehend in ihm selbst verschlossen; seine Schwester koennte sich den Kern davon spaeter zusammenreimen.
 
 ### Enricos Schwester
 **ARBEITSSTAND**

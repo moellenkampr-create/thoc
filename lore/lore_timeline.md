@@ -695,6 +695,7 @@ source: lore_db.md
 
   - **2077-07-16**:
     - **Lauri-Einzelsicht (ARBEITSSTAND, Nacht/Morgen)**:
+      - Vor dem Aufwachen stellen sie die Sleepys; Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert und schlaeft ein.
       - Lauri wacht nassgeschwitzt auf; Ely weckt sie, George ebenfalls wach.
       - Ely offenbart: Sie habe sich von Enrico weniger beachtet gefuehlt als Lauri. Lauri: verwirrt, nie gemerkt.
       - George fragt direkt: Fuehlst du dich bei mir zurueckgestellt? Lauri erleichtert: Nein. Wurmt sie aber, dass Ely damals ungluecklich war.
@@ -727,7 +728,7 @@ source: lore_db.md
       - Ely Jacke aus, George nur Hemd. Lauri: *"Es wird eine lange Nacht."*
       - **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt Tattoo. Lauri sieht Kurokaze: unruhig. Fokus auf **Schlagzeug** (Lauris Instrument).
       - Lauris Kernmarker: *"Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."*
-      - [Gig findet statt; Abschluss offen gelassen]
+      - Das Trio steht als letzter Act auf der Buehne und ist auftrittsbereit; der Songstart ist noch nicht Teil des ausgespielten Blocks.
       - Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
 
     - **Spielleiter-/Erzaehler-Sicht (ARBEITSSTAND, Sessionzusammenfassung 15.07 -> 16.07)**:
@@ -743,7 +744,6 @@ source: lore_db.md
       - Chubby will keine Vergeltungspruegel, sondern dass das Trio fuer ihn auftritt; Songentscheidung: "Und dann singen sie".
       - Chubby wird von "Miri" behandelt und bleibt im Club.
       - SL-Session-Ende: Trio steht als letzter Act auf der Buehne und ist auftrittsbereit; Songstart selbst bleibt in dieser Sicht ausserhalb der Session.
-        - **Perspektivkonflikt (ARBEITSSTAND):** Lauri-Sicht markiert den Gig teils als bereits stattgefunden; SL-Sicht endet am Buehnen-Cliffhanger vor Songstart.
 
   - **2077-07-14 bis 2077-07-16 (Paralleler CP2077-Weltplot, Hintergrund ausserhalb Heldenwissen) [ARBEITSSTAND]**:
     - **2077-07-14**: V kehrt ins Apartment im **H10** zurueck und bleibt dort einen weiteren Tag zur Erholung und zur Gewoehnung an neue Medikation.
