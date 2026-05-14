@@ -304,6 +304,12 @@ source: lore_db.md
 - frueher fixer-/geistlicher Kontakt aus dem Haywood-/Valentinos-Umfeld
 - gab Ely und Lauri nach Enricos Trauerfeier einen fruehen echten Informationsjob gegen die 5. Kolonne
 
+### Wakako
+**ARBEITSSTAND**
+- Operiert strategisch zwischen Distanz und Naehe: Kooperation mit Feinden ist fuer sie ein Kontrollwerkzeug, kein Loyalitaetszeichen.
+- Haltung gegenueber Arasaka im Klonpferd-Kontext: will aktiv verhindern, dass Arasaka Zugriff auf das Pferd erhaelt.
+- Arbeitsmotto in diesem Kontext: Feinde nahe halten, um ihre Bewegungen besser lenken und manipulieren zu koennen.
+
 ### Takamura
 **ARBEITSSTAND (2077-07-06)**
 - Tritt am 2077-07-06 in Viks Klinik auf: bewaffnet (gezogenes Schwert), aufgewuehlter Zustand.

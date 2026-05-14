@@ -208,7 +208,7 @@ source: lore_db.md
   - Ely hadert vor dem Einsatz erstmals konkret damit, auf echte Menschen zielen zu muessen, auch wenn sie nur **Betaeubungsmunition** dabeihat; ihre Angst richtet sich weniger auf das Treffen als auf die moralische Schwelle selbst.
   - Hintergrund: Ein gestohlenes **Klonpferd** wurde nach der Schiffsankunft von den **Tyger Claws** abgefangen, obwohl es urspruenglich fuer **Trump** vorgesehen war.
   - Die Tyger Claws wollen es **Arasaka** anbieten; Arasaka interessiert sich fuer Reverse Engineering der Klontechnik.
-  - **Wakako** will verhindern, dass Arasaka das Pferd bekommt; ihr genaues Motiv bleibt offen.
+  - **Wakako** will verhindern, dass Arasaka das Pferd bekommt; sie hasst Arasaka trotz punktueller Zusammenarbeit und folgt einer Naehe-als-Kontrolle-Logik ("halte Feinde naeher als Freunde", um sie manipulierbar zu halten).
   - Das Trio selbst weiss nur, dass Arasaka das Pferd will, und entscheidet sich, das Tier zu retten.
   - Zielort ist eine stillgelegte Autowerkstatt; dort sind **7 Tyger Claws** vor Ort.
   - George zieht per Drive-by **4** Claws aus der Position und bittet ausdruecklich um einen moeglichst nichttoedlichen Ablauf.

@@ -49,6 +49,9 @@ Diese Datei definiert, wie Lore im Repo erhalten, ueberfuehrt und spaeter weiter
 - Wenn unklar ist, ob etwas nur Stimmung oder harter Kanon ist, bleibt es zunaechst in Rohschicht plus Flair- und Zitatschicht und wird nicht vorschnell in harte Faktform gepresst.
 - Bei mehrperspektivischen Quellen werden Ely-, Lauri-, George- und Spielleiter-Sicht vor jeder Endkonsolidierung getrennt dokumentiert.
 - Perspektivkonflikte werden nicht still geglaettet, sondern sichtbar als Konfliktpunkt gefuehrt.
+- Nummerierung in `lore/lore_open_threads.md` ist standardmaessig append-only: neue Punkte werden am Ende der jeweiligen Liste angehaengt.
+- Beim Entfernen erledigter Punkte bleiben Nummernluecken bewusst bestehen; keine automatische Voll-Neunummerierung im Tagesbetrieb.
+- Gelegentliche Reorganisation mit Neunummerierung ist erlaubt, aber nur als expliziter Pflege-/Strukturschritt.
 
 ## 4. Mindestfragen bei jedem neuen Import
 - Welche Fakten muessen strukturiert abgelegt werden?
