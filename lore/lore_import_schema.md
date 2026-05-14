@@ -83,10 +83,18 @@ Nach den vier Perspektivbloecken folgt die konsolidierte Ableitung:
   - `lore/lore_open_threads.md`
   - `lore/lore_flair_quotes.md`
 
-## 6. Pflichtregel fuer Flair und Zitate
+## 6. Sichtbarkeit und Relevanz (Pflichtblock)
+Jede Importsicht-Datei fuehrt zusaetzlich einen festen Block fuer Ereignis-Sichtbarkeit und Prioritaet:
+- **OFFEN**: Figuren wissen es bereits (in Szene, Geruecht oder bestaetigtem Wissen)
+- **VERDECKT**: laeuft im Hintergrund, Figuren wissen es noch nicht
+- **HINTERGRUND**: Worldstate ohne direkte Szene, aber mit potenzieller Folge
+- **Trigger fuer Sichtbarwerden**: wodurch/bei wem die Information in die Heldenebene kippt
+- **Relevanz jetzt** und **Relevanz spaeter**: jeweils als `hoch/mittel/niedrig`
+
+## 7. Pflichtregel fuer Flair und Zitate
 Wenn eine Formulierung fuer Figurenton, Beziehungston oder Szenenwucht wichtig ist, wird sie zusaetzlich in `lore/lore_flair_quotes.md` uebernommen.
 
-## 7. Vorlage
+## 8. Vorlage
 
 ```md
 # Import: <import_id>
@@ -124,6 +132,14 @@ Wenn eine Formulierung fuer Figurenton, Beziehungston oder Szenenwucht wichtig i
 - Dramaturgische Absicht:
 - Steuernde Hinweise:
 - Unsicherheiten / offene Hooks:
+
+## Sichtbarkeit und Relevanz
+- OFFEN (Figuren wissen es bereits):
+- VERDECKT (laeuft im Hintergrund, Figuren wissen es noch nicht):
+- HINTERGRUND (Worldstate ohne direkte Szene):
+- Trigger fuer Sichtbarwerden:
+- Relevanzstufe jetzt: <hoch/mittel/niedrig>
+- Relevanzstufe spaeter: <hoch/mittel/niedrig>
 
 ## Konsolidierung
 - Gemeinsame Schnittmenge:

@@ -34,6 +34,14 @@
 - Steuernde Hinweise:
 - Unsicherheiten / offene Hooks:
 
+## Sichtbarkeit und Relevanz
+- OFFEN (Figuren wissen es bereits):
+- VERDECKT (laeuft im Hintergrund, Figuren wissen es noch nicht):
+- HINTERGRUND (Worldstate ohne direkte Szene):
+- Trigger fuer Sichtbarwerden:
+- Relevanzstufe jetzt: <hoch/mittel/niedrig>
+- Relevanzstufe spaeter: <hoch/mittel/niedrig>
+
 ## Konsolidierung
 - Gemeinsame Schnittmenge:
 - Perspektivkonflikte:
