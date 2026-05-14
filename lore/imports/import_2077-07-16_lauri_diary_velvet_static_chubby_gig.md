@@ -17,7 +17,7 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 - Lauri wacht nassgeschwitzt auf; Ely weckt sie, George ist ebenfalls wach.
 - Lauri erzaehlt ihre Gedankengaenge. Ely offenbart: Sie habe sich von Enrico weniger beachtet gefuehlt als Lauri. Lauri ist verwirrt — hat das nie gemerkt.
 - George fragt direkt: Fuehlt sich eine bei ihm zurueckgestellt? Lauri ist erleichtert: Nein. Es wurmt sie aber, dass Ely damals ungluecklich war und es nie sagte.
-- Enrico-Machete: "Die Schenkung ergibt keinen Sinn." Lauri merkt: **"Die Machete war woanders als vorher."** Ely will mit **Cassy** sprechen, wer in der Wohnung war.
+- Enrico-Machete: "Die Schenkung ergibt keinen Sinn." Lauri merkt: **"Die Machete war woanders als vorher."** Ely will mit **Cassandra ("Cassy")**, der Portierstochter, sprechen, wer in der Wohnung war.
 - **George-Frauen-Diskussion**: Baseball-Vokabular als Ablenkungsmethode (erste Base bis Homerun). Homerun wird vertieft und auf spaeter vertagt. George will vorher nochmal Homerun mit Lauri; danach nachgehakt: zerknirscht gibt er zu, "wohl einige" Frauen gehabt zu haben. Mehr als Ely und Lauri. Dazu bezahlte Frauen — das war sein Vater, nicht er selbst.
 - Lauri stoert das nicht. Reflexion: Haette George jemanden gehabt, dem er vertrauen konnte, waere einiges anders gelaufen. "Georges Herz ist groesser — deshalb schlaegt es langsamer."
 - **Bisexualitaet / Gerard-Reflexion**: Erwaehnt; George sieht Lauri an.

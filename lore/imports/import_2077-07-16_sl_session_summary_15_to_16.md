@@ -39,7 +39,7 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
 - Schluesselformulierungen / Zitate:
   - [Sinngemaess] Machete stand nicht mehr dort, wo sie abgelegt wurde.
 - Fakten:
-  - Hinweis der bereits bekannten, in der Vergangenheit hilfreichen Portierstochter: Unbekannte Person war einen Tag nach Enricos Tod im Apartment, vor Elternankunft.
+  - Hinweis von **Cassandra ("Cassy")**, der bereits bekannten und in der Vergangenheit hilfreichen Portierstochter: Unbekannte Person war einen Tag nach Enricos Tod im Apartment, vor Elternankunft.
   - Personenprofil: sehr wahrscheinlich Frau, dunkle Haare, ca. 1.60-1.70, Tattoos moeglich, Farben evtl. Valentino-nah.
 - Unsicherheiten:
   - Identitaet der Person offen.
@@ -115,4 +115,4 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
 
 ## Offene Fragen an Spielleitung
 - Zaehlt der 07-16-Auftritt in der Chronik bereits als gespielt oder als Cliffhanger vor Songstart?
-- Soll die Portierstochter-Spur als eigener kritischer Thread priorisiert werden?
+- Soll die Cassy-/Portierstochter-Spur als eigener kritischer Thread priorisiert werden?

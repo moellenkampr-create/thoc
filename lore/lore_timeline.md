@@ -156,7 +156,7 @@ source: lore_db.md
   - Die beiden fahren die Strecke vorab ab; Ziel ist eine zerstoerte Bruecke in den Badlands.
   - Ely entscheidet, dass sie Waffen braucht, von denen ihre Eltern nichts wissen.
 - **2077-06-04**:
-  - Ely und Lauri bauen sich fuer den Abend ein Alibi ueber die bereits bekannte und zuvor hilfreiche Portierstochter auf.
+  - Ely und Lauri bauen sich fuer den Abend ein Alibi ueber **Cassandra ("Cassy")**, die bereits bekannte und zuvor hilfreiche Portierstochter, auf.
   - Vor dem Rennen kauft Ely unterwegs eine kleine Schnellfeuerpistole mit pinkem Griffstueck, die sie **"Pinky"** nennt.
   - Vor dem Rennen essen beide im **Mandy's**; moegliches Kerry-Eurodyne-Sichtungselement bleibt unsicher.
   - Beim Rennen tritt auch der Football-Quarterback aus dem Uni-Umfeld an; er ist dort bekannt und startet weit vorne auf einem gelben Bike.
@@ -698,7 +698,7 @@ source: lore_db.md
       - Lauri wacht nassgeschwitzt auf; Ely weckt sie, George ebenfalls wach.
       - Ely offenbart: Sie habe sich von Enrico weniger beachtet gefuehlt als Lauri. Lauri: verwirrt, nie gemerkt.
       - George fragt direkt: Fuehlst du dich bei mir zurueckgestellt? Lauri erleichtert: Nein. Wurmt sie aber, dass Ely damals ungluecklich war.
-      - Enrico-Machete: Schenkung ergibt keinen Sinn. **"Die Machete war woanders als vorher."** Ely will mit **Cassy** sprechen, wer in der Wohnung war.
+      - Enrico-Machete: Schenkung ergibt keinen Sinn. **"Die Machete war woanders als vorher."** Ely will mit **Cassandra ("Cassy")**, der Portierstochter, sprechen, wer in der Wohnung war.
       - **George-Frauen-Backstory**: Baseball-Vokabular als Ablenkungsmethode (erste Base bis Homerun). Homerun vertieft, auf spaeter vertagt; George will erst nochmal Homerun mit Lauri. Dann: zerknirscht — "wohl einige" Frauen. Mehr als beide. Dazu bezahlte Frauen — war der Vater, nicht George selbst.
       - Lauri stoert es nicht. Reflexion: Haette George jemandem vertrauen koennen, waere einiges anders gelaufen. "Georges Herz ist groesser — deshalb schlaegt es langsamer."
       - Bisexualitaet / Gerard-Reflexion angedeutet; George sieht Lauri an.
@@ -735,7 +735,7 @@ source: lore_db.md
       - Elys Vater-Mails kippen tonal von streng zu deeskalierend ("Wir sind fuer dich da" / "Lass uns reden").
       - Trio setzt Sleep-Inducer fuer eine weitere Stunde, um Schlafdefizit auszugleichen.
       - Morgenmarker Beziehung: George-Morgen = Training, Ely-Morgen = Kuscheln, Lauri legt ihren Morgen am Vorabend fest.
-      - Rueckblickspur Plaza: die bereits bekannte und zuvor hilfreiche Portierstochter meldet unbekannte Person im Apartment (ein Tag nach Enricos Tod, vor Elternankunft): vermutlich Frau, dunkle Haare, ca. 1.60-1.70, moegliche Tattoos mit evtl. Valentino-Farben.
+      - Rueckblickspur Plaza: **Cassandra ("Cassy")**, die bereits bekannte und zuvor hilfreiche Portierstochter, meldet unbekannte Person im Apartment (ein Tag nach Enricos Tod, vor Elternankunft): vermutlich Frau, dunkle Haare, ca. 1.60-1.70, moegliche Tattoos mit evtl. Valentino-Farben.
       - Tagsueber: Lauri/Ely bei Oggy (Training/Fahrzeug), George in NC mit Donny/Hackern plus Footballer-Kontakten.
       - Ely prueft Corporate-Regelwerk fuer Ausstieg von Ely/Lauri in Richtung NC-Buergerstatus und fasst Schlupfloecher fuer das Trio zusammen.
       - Abendablauf: Camp -> Umziehen -> Mandys (Treffen mit George) -> Chubby geht vor ins Velvet Static und wird zusammengeschlagen.

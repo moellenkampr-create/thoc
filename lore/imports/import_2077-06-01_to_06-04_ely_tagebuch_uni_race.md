@@ -11,7 +11,7 @@
 - Spind-Szene: inniger Abschiedskuss, Ely stark verlegen; Cybertattoo-Reaktion mit Schmetterlingsmuster.
 - 03.06: Einladung zum Badlands-Rennen "high or fly", 4000 Creddits Startgeld, Ely organisiert Finanzierung ueber geheimes Konto.
 - Ely setzt Rennprioritaet defensiv auf Lauris Sicherheit statt Eigengewinn.
-- 04.06: Alibi ueber die bereits bekannte und zuvor hilfreiche Portierstochter, Waffenkauf "Pinky", moegliche Kerry-Eurodyne-Sichtung im Diner (unsicher).
+- 04.06: Alibi ueber **Cassandra ("Cassy")**, die bereits bekannte und zuvor hilfreiche Portierstochter, Waffenkauf "Pinky", moegliche Kerry-Eurodyne-Sichtung im Diner (unsicher).
 - Rennen: Quarterback mit gelbem Bike als Gegenspieler, Bruecken-Trauma-Trigger zu Enrico, Sieg fuer Lauri.
 - Nachlauf: intensiver Trio-Naehemoment bei George; Ely rahmt George als "echter" und emotional praesenter als Enrico-Erinnerungsbild.
 
