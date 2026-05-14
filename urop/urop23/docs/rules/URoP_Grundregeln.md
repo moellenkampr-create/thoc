@@ -27,6 +27,8 @@ URoP arbeitet im Basiskern mit drei Hauptattributen:
 - **Geist** = Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung
 - **Präsenz** = Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung
 
+Kernattribute beschreiben Figuren vor allem wertemaeßig und sind zentral fuer Voraussetzungen, Freischaltungen und Einordnung. Direkte Attributsproben sind moeglich, aber selten; im Regelfall wirken Attribut und Fertigkeit zusammen. Nebenfolgen werden vor allem ueber Risiko, Schaerfe und Zustandsdauer gelesen.
+
 ### 2.2 Attribut-Facetten [TESTSTAND]
 Jedes Attribut ist in vier Facetten unterteilt. Facetten sind keine eigenständigen Attribute, sondern Stellschrauben für Risiko, Auswirkungen und Zustandsdauer in passenden Situationen. Sie können als Vorteil/Nachteil in Stufen 1–3 gehalten werden.
 
@@ -49,10 +51,10 @@ Jedes Attribut ist in vier Facetten unterteilt. Facetten sind keine eigenständi
 - **Resonanz**: Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und übernatürlichen Feldern; die Qualität des eigenen Signals in der Welt
 
 #### Facetten-Wirkung im Spiel (Grundmodul)
-Facetten beeinflussen keine Würfelwürfe direkt, sondern die Verteilung von Nebenfolgen:
+Facetten beeinflussen Wuerfelwuerfe selten direkt, sondern vor allem die Verteilung von Nebenfolgen:
 - **Passende Facette hoch (+2/+3)**: geringeres Risiko, mildere Nebenfolge, kürzere Zustandsdauer
 - **Passende Facette niedrig (-2/-3)**: erhöhtes Risiko, schärfere Nebenfolge, längere Zustandsdauer
-- **Neutrale Facette (0/±1)**: kein Einfluss; Standard greift
+- **Neutrale Facette (0/±1)**: wenig Einfluss; Standard greift
 
 Beispiel Konstitution:
 - Konstitution +2: körpernaher Treffer führt eher zu leichter statt schwerer Konsequenz; Erschöpfung tritt später ein
@@ -90,9 +92,21 @@ Aktuelle Qualitätsbänder:
 - 16–18 = sehr gut
 
 ### 3.4 Führender und unterstützender Wert [ARBEITSSTAND]
-Im Normalfall wirken **Attribut und Fertigkeit** zusammen.
-- Der **führende Wert** trägt den Standard.
-- Der **unterstützende Wert** färbt Stabilität, Tempo, Präzision, Belastbarkeit und Nebenfolgen.
+Im Normalfall ist die passende **Fertigkeit** der fuehrende Wert.
+- **Attribut und Umstaende** (z. B. Ausruestung, Umgebung, Zeitdruck, Gefaehrlichkeit) faerben, wie stabil, praezise und folgenarm das Ergebnis ausfaellt.
+- Reine **Attributsproben** sind moeglich, aber selten (z. B. wenn keine passende Fertigkeit greift oder rohe Koerperkraft gefragt ist).
+
+#### 3.4.1 Spielleitlinie: Bandbreite verschieben
+1. Zuerst den plausiblen Standard setzen (9-12).
+2. Danach nur 1-2 starke Umstaende werten.
+3. Neutrale Lage = enge Bandbreite.
+4. Extreme Lage = breitere Bandbreite.
+5. Spezialisierung wirkt verlaesslich in Richtung stabilerer/hoeherer Wirkung.
+
+#### 3.4.2 Mini-Beispiele Bandbreite
+1. Kampf neutral: schneller Gegner ohne Deckung, Basiswirkung bleibt der Standard.
+2. Kampf vorteilhaft: Spezialisierung + gute Position verbreitern die Wirkung nach oben.
+3. Aktion nachteilig: ohne passende Fertigkeit und unter Druck verbreitert sich die Bandbreite nach unten.
 
 ### 3.5 Grundformen von Proben [GELOCKT / ARBEITSSTAND]
 - **Erfolgsprobe**
@@ -333,8 +347,10 @@ Panzerung wird primär über **Zielwahl** und **Schwachstellenlogik** umgangen, 
 
 ---
 
-## 10. Parallelstand Kampfwirkung [ARBEITSSTAND]
-Es existieren derzeit **zwei dokumentierte Linien**:
+## 10. Kampfwirkung [GELOCKT – Hybrid/Dominanz B per ADR-001]
+Das System nutzt **Hybrid mit Dominanz B** (Waffen-/Rüstungsklassen). Beide Linien bleiben dokumentiert. Die Entscheidung ist getroffen (siehe `archive/ADR-001-Kampfwirkung.md`, nur Referenz).
+
+Zwei Linien wurden abgewogen:
 
 ### Linie A – Größen-/Zielmodell
 - Größenstufen G0–G9
@@ -352,7 +368,7 @@ Es existieren derzeit **zwei dokumentierte Linien**:
   - Schwere Konsequenz
   - Kritische Konsequenz
 
-**Wichtig:** Beide Linien sind dokumentiert. Die Endentscheidung, welche Kernlinie ins finale Gesamtregelwerk geht, ist noch offen.
+**Entschieden (ADR-001):** Das System nutzt Hybrid mit Dominanz B. Linie B liefert die schnelle Grundwirkung; Linie A darf per Fiktions-Override Vorrang bekommen, wenn eine klar erspielte Schwachstelle oder Zielchance vorliegt (Vorwissen, Vorbereitung, Position, gelungenes Setup). Beide Linien nutzen dieselbe Wirkungsleiter.
 
 ### 10.1 Tischregel bei Linienkonflikt [ARBEITSSTAND]
 Wenn beide Linien anwendbar sind, gilt folgende Reihenfolge:
@@ -411,10 +427,11 @@ Leitlinien:
 ## 12. Noch offen
 - exakte Endfassung des Probenkerns
 - endgueltige Stellung von Uhren im Basiskern
-- Entscheidung zwischen den Kampfwirkungs-Linien oder deren Verschmelzung
-- Eskalationskurven fuer Re-Einsatz (mild vs. hart)
+- Eskalationskurven fuer Re-Einsatz (mild vs. hart) – Spieltest
 - Kernschema fuer faehigkeitsspezifisches Lernen ausserhalb der Manoeverfamilien (z. B. Stufe I-III)
 - einheitliche Voraussetzungen (Sammelfertigkeit/Standardfertigkeit/Spezialisierung) pro Faehigkeitskategorie
+
+*(Kampfwirkungsentscheidung ist geklaert; siehe ADR-001.)*
 
 
 ### 9.3 Panzerung umgehen

@@ -1,17 +1,16 @@
 ﻿# URoP Index
-Stand: 2026-04-11
+Stand: 2026-05-14
 
 ## Governance
 - docs/governance/GOVERNANCE.md
 - docs/governance/BACKLOG.md
-- docs/governance/URoP_FOLGECHAT_EXPORT_2026-04-10.md
-- docs/governance/URoP_KONSOLIDIERUNGSPASS_2026-04-11.md
-- docs/governance/URoP_STRUKTUR_AUFRAEUMPLAN_2026-04-11.md
 
 ## Regeln
 - docs/rules/URoP_Grundregeln.md
 - docs/rules/URoP_Charaktererschaffung.md
 - docs/rules/URoP_Module_und_Welten.md
+- docs/rules/URoP_Spielerhandbuch.md
+- docs/rules/URoP_Vorabregelwerk_v07.md  ← konsolidierte Lesefassung (ersetzt Archiv v06)
 
 ## Fuehrende Daten
 - data/URoP_Fertigkeiten.json
@@ -35,15 +34,20 @@ Stand: 2026-04-11
 - docs/data-readable/URoP_Vehicles.md
 
 ## Playtests
-- docs/playtests/URoP_Beispielcharaktere.md
-- docs/playtests/URoP_Beispielcharaktere_Settings.md
-- docs/playtests/URoP_Manoever_Praxistest_2026-04-09.md
-- docs/playtests/URoP_Quickhacks_Praxistest_2026-04-09.md
-- docs/playtests/URoP_Vehicles_Praxistest_2026-04-09.md
-- docs/playtests/URoP_Waffenstrukturpass_2026-04-10.md
+*(leer – alle Inhalte basieren auf veralteten Regelständen und wurden ins Archiv verschoben)*
 
 ## Entscheidungen
-- docs/decisions/ADR-001-Kampfwirkung.md
+*(leer – ADR-Dokumente wurden ins Archiv verschoben; Regelstand ist in den aktiven Regeldateien nachgezogen.)*
 
 ## Archiv
-- archive/URoP_Vorabregelwerk_2026-04-09_v06_konsolidiert.docx
+*(Archivdateien dienen nur als Referenz/Vergleich und sind kein aktiver Teil des Regelwerks.)*
+- archive/ADR-001-Kampfwirkung.md
+- archive/URoP_Beispielcharaktere.md
+- archive/URoP_Beispielcharaktere_Settings.md
+- archive/URoP_Manoever_Praxistest_2026-04-09.md
+- archive/URoP_Quickhacks_Praxistest_2026-04-09.md
+- archive/URoP_Vehicles_Praxistest_2026-04-09.md
+- archive/URoP_Waffenstrukturpass_2026-04-10.md
+- archive/THoC_Testcharakter_Ely*.pdf (v6.1, v7, v8)
+- archive/THoC_Testcharakter_George*.pdf (v6.1, v7, v8)
+- archive/THoC_Testcharakter_Lauri*.pdf (v6.1, v7, v8)

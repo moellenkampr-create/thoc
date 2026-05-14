@@ -1,16 +1,17 @@
 ﻿# URoP Backlog
-Stand: 2026-04-17
+Stand: 2026-05-14
 
 ## Hoch
-1. Kampfwirkungs-Endlinie finalisieren und in ADR-001 entscheiden
+1. ~~Kampfwirkungs-Endlinie finalisieren und in ADR-001 entscheiden~~ → ERLEDIGT (ADR-001 entschieden: Hybrid/Dominanz B; Grundregeln.md und Vorabregelwerk v07 nachgezogen)
 2. Referenzdatenbanken gegen Spielgefuehl testen (Fertigkeiten, Vor-/Nachteile, Manoever, Waffen, Schutz, Items, Cyberware, Quickhacks, Vehicles)
 3. Quickhack-Grundlogik gegen Cyberware, Elektronik, Sicherheitssysteme und Szenenzugriff pruefen
 4. Metadateien bei Merges konsistent halten (Governance, Index, Backlog, Export)
-5. Voraussetzungen-Matrix fuer Faehigkeiten finalisieren (Sammelfertigkeit/Standardfertigkeit/Spezialisierung)
-6. Lernstufen je Faehigkeit ausserhalb der Manoever als Kernschema festlegen (z. B. I-III); Manoever-Ranks sind jetzt als Pilotmodell angelegt
-7. Re-Einsatz-Eskalation (Risiko/Konsequenzen) per Praxistest feinjustieren
-8. Quickhack-Einsatzprofil nach Schaerfung im Spieltest verproben und mit Grundregel 5.x weiter abgleichen (action_cost, usage_window, reuse_escalation_profile, requirements_text, internal_refs)
-9. Sprengstoffe und Spezialmunition im Spieltest pruefen (Granaten-Typen, Raketensysteme, narrative Munitions-Flexibilitaet; Balancing gegen Szenenkippereffekt)
+5. Laufenden Regelwerks-Review einpflegen: Auffaelligkeiten aus Lesedurchgang zeitnah in Regeln und Metadateien nachziehen
+6. Voraussetzungen-Matrix fuer Faehigkeiten finalisieren (Sammelfertigkeit/Standardfertigkeit/Spezialisierung)
+7. Lernstufen je Faehigkeit ausserhalb der Manoever als Kernschema festlegen (z. B. I-III); Manoever-Ranks sind jetzt als Pilotmodell angelegt
+8. Re-Einsatz-Eskalation (Risiko/Konsequenzen) per Praxistest feinjustieren
+9. Quickhack-Einsatzprofil nach Schaerfung im Spieltest verproben und mit Grundregel 5.x weiter abgleichen (action_cost, usage_window, reuse_escalation_profile, requirements_text, internal_refs)
+10. Sprengstoffe und Spezialmunition im Spieltest pruefen (Granaten-Typen, Raketensysteme, narrative Munitions-Flexibilitaet; Balancing gegen Szenenkippereffekt)
 
 ## Mittel
 1. Preisniveaus fuer Items gegen Spielgefuehl pruefen
