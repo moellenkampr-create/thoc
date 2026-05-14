@@ -47,8 +47,9 @@ status: arbeitsstand
 
 **Interpretation:**
 - Erstes echtes Trio-Missverständnis
-- George überreaktion deutet auf: emotionale Erwartungshaltung (nicht nur körperliches Spiel), mögliche Eifersucht oder Besitzanspruch?
-- Lauri spannt sich an → könnte defensive/protective Reaktion sein
+- George ueberreagiert in der Situation, erkennt dies aber direkt nach Klaerung
+- Konfliktkern ist ein klares Sender-Empfaenger-Problem (unterschiedliches Verstaendnis derselben Abmachung), kein belastbarer Besitzanspruchsmarker
+- Lauri spannt sich in der Eskalation kurz an; nach Klaerung sofortige Entschaerfung
 - Ely navigiert aus der Spannung heraus durch Klarheit statt Manipulation
 
 ---
@@ -148,10 +149,9 @@ status: arbeitsstand
 **ARBEITSSTAND:**
 - Elys Unsicherheit über die neue Waffe ("muss darüber schlafen")
 - Lauri wirkt zappelig, "braucht ein Rennen" — physische/psychische Entladungsbedarf?
-- George-Überreaktion (Eifersucht? Besitzanspruch? oder nur Missverständnis?)
+- George-Ueberreaktion in dieser Szene als Missverstaendnis bereits aufgeloest
 - Intimszene mit Strapon: Lauri Initiative, Ely überrascht/rot
 
 **OFFEN:**
 - Waffe mit Waffenlink — wird Ely sie behalten? Wird George sich auch eine kaufen?
 - Lauri-Zappeligkeit — ist das normal nach Bestattung, oder deuten sich neue Bedürfnisse an?
-- George-Reaktionsmuster bei vermeintlicher Benachteiligung — zeigen sich Possessiv-Züge?
