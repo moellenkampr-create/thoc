@@ -13,8 +13,6 @@ source: lore_db.md
 
 ## 1. Offene Lore-Faeden
 **ARBEITSSTAND**
-- Aldecaldos als variable wiederkehrende Fraktionsanbindung mit moeglichem medizinischem Hook weiter ausarbeiten
-- Eskalationspunkt von Elias bei George-Fake-Feed / Ueberwachung
 - **Jemand in Elias' Umfeld kannte offenbar die Verbindung Vik/Lucky Lucy** — wer? Wann hat das Elias (wenn ueberhaupt) erreicht, und welchen Einfluss hatte das auf seine Entscheidungen gegenueber George und der Mutter?
 - **Gerhardt/Scheich-Note (AUFGELOEST)**: "Gerhardt" in Elys Tagebuch = **Gerard** (Georges frueherer Lover/Stallmeister). Die 250k sind eine bestehende Vereinbarung mit ihm. Goldbarren = Scheich-Belohnung aus Pferdejob 06-09; bereits in lore_timeline verankert.
 - **Saburo Arasakas Ermordung (2077-07-06) und Walter Henshaw** — Walter gilt Saburo als Ordnungsprinzip; Yorinobu als Nachfolger ist fuer ihn untragbar. Wie reagiert Walter auf die Nachricht, und welche Folgen hat das fuer seine Dynamik mit Elias / NC-Politik?
