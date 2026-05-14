@@ -59,8 +59,63 @@ Diese Datei definiert, wie Lore im Repo erhalten, ueberfuehrt und spaeter weiter
 - Welche Zitate, Spitznamen oder Regelphrasen muessen wortnah erhalten bleiben?
 - Welche Teile sind `KANON`, welche `ARBEITSSTAND`, welche nur `INTERPRETATION`?
 
-## 5. Empfehlung
+## 5. Fraktions-Dossier Format
+
+### 5.1 Struktur für etablierte Fraktionen (mit offizieller Quelle)
+Wenn eine Fraktion in Cyberpunk-Wiki/Fandom dokumentiert ist:
+
+```
+## [Fraktionsname]
+
+**Status: [KANON / ARBEITSSTAND / gemischt]**
+
+### Offizielle Quelle
+[Link zur Wiki]
+
+### Weltkontext
+[Kurze Beschreibung: Ursprünge, Territorium, Bekannt für, Struktur/Hierarchie]
+
+### THoC-spezifisch
+[Was wissen wir über diese Fraktion aus THoC-Spiellauf? Kontakte, Plotbindungen, operative Erscheinung]
+```
+
+### 5.2 Struktur für Custom/nicht-dokumentierte Fraktionen
+Für Fraktionen ohne offizielle Quelle (z.B. Bluttrinker-Fanatiker):
+
+```
+## [Fraktionsname]
+
+**Status: [KANON / ARBEITSSTAND / INTERPRETATION]**
+
+**Status: Custom Fraktion (kein Wiki-Eintrag)**
+
+### Basisinformation
+[Wer sind sie? Ideologie? Struktur? Territorium? Was definiert sie?]
+[Falls Untergruppe: Bindung zur Muttergruppe explizit machen]
+
+### THoC-spezifisch
+[Spiellauf-Daten, Kontakte, operative Rolle]
+```
+
+### 5.3 Untergruppen-Handling
+- Untergruppen werden **nicht als separate Top-Einträge** erfasst
+- Untergruppen stehen unter ihrer **Muttergruppe** als Subsection
+- Beispiel: `## 4. Raffen Shiv` → `### Untergruppe: Wraiths`
+- Jede Untergruppe erhält: Basisinfo + THoC-spezifisch
+
+### 5.4 Hierarchie-Konventionen
+- **Übergeordnete Struktur**: Name, Ideologie, Territorialität, Organisationsprinzipien
+- **Untergruppe**: Spezialisierung, Unterscheidung zur Muttergruppe, lokale Rolle
+- **Bindung explizit**: Wenn Untergruppe nur in Kontext der Muttergruppe verstehbar ist, in der Muttergruppe-THoC-Section verankern
+
+### 5.5 Wiki-Links
+- Für offizielle Fraktionen: Immer `[Cyberpunk Wiki - NAME](Link)` unter "Offizielle Quelle" eintragen
+- Format: `https://cyberpunk.fandom.com/wiki/[FaktionName]`
+- Nicht verlinken, wenn noch unklar, dass Wiki-Eintrag existiert
+
+## 6. Empfehlung
 - Rohtext nie loeschen, nur ergaenzen.
 - Struktur fuer Arbeit nutzen.
 - Flair- und Zitatebene fuer Charaktertreue und Szenengefuehl aktiv mitfuehren.
 - Importsicht-Dateien als Pflichtschritt zwischen Rohimport und Endablage verwenden.
+- Fraktionen nach Dossier-Schema erfassen, um konsistente Lesbarkeit und Wiki-Brauchbarkeit zu sichern.
