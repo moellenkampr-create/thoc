@@ -166,9 +166,14 @@ source: lore_db.md
 - Nach Saburo Arasakas Tod dominiert die Jagd auf die angeblichen Taeter **V** und **Jackie Wells** die Nachrichtenlage in Night City.
 - Lauri und Ely kennen Jackie Wells aus dem Valentinos-Umfeld; dass Jackie bereits tot ist, wissen nur sehr wenige.
 - **V** ueberlebt den Kopfschuss auf der Muelldeponie; das Relikt aktiviert sich und Johnny Silverhands Engramm beginnt zu greifen.
-- **Takamura** findet V, toetet Dex und will V zurueck nach Night City bringen.
+- **Takamura** findet V, toetet **Dexter DeShawn** bei der Rettung und will V zurueck nach Night City bringen.
 - Auf dem Rueckweg werden Takamura und V von Yorinobus Leuten angegriffen; beide ueberleben knapp.
-- V landet schwer verletzt bei **Vik** und ist dort ungefaehr zwei Wochen ausser Gefecht; Takamura zieht sich frueher in ein Versteck zurueck.
+- V landet schwer verletzt bei **Vik**; Takamura zieht sich frueher in ein Versteck zurueck.
+- **2077-07-14**: V kehrt ins Apartment im **H10** zurueck, bleibt dort einen weiteren Tag zur Erholung und zur Gewoehnung an die neue Medikation.
+- **Ab 2077-07-15**: V wird wieder aktiv.
+- **Ab 2077-07-15**: V meldet sich bei **Mama Wells**; die Totenfeier fuer **Jackie Wells** wird auf **2077-07-24** geplant.
+- **2077-07-16 (Abend)**: V ist im **Afterlife**, bekommt aber kein Meeting mit **Rogue**.
+- Rogue weiss, dass V am Arasaka-Heist beteiligt war. Sie weiss auch, dass **Dexter DeShawn** nicht mehr auftaucht und vermutlich tot ist; dass Takamura Dexter getoetet hat, ist ihr zu diesem Zeitpunkt nicht bekannt.
 - V aehnelt George optisch auffaellig; moegliche spaetere Verwicklungen sind als Hook vorhanden, aber nicht festgelegt.
 - Ein moeglicher spaeterer Kontakt zwischen dem Trio und V, auch ueber die Aldecaldos, bleibt reiner Plothook / `ARBEITSSTAND`.
 

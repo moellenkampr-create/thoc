@@ -729,3 +729,11 @@ source: lore_db.md
       - Lauris Kernmarker: *"Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."*
       - [Gig findet statt; Abschluss offen gelassen]
       - Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
+
+  - **2077-07-14 bis 2077-07-16 (Paralleler CP2077-Weltplot, Hintergrund ausserhalb Heldenwissen) [ARBEITSSTAND]**:
+    - **2077-07-14**: V kehrt ins Apartment im **H10** zurueck und bleibt dort einen weiteren Tag zur Erholung und zur Gewoehnung an neue Medikation.
+    - **Ab 2077-07-15**: V wird wieder aktiv.
+    - **Ab 2077-07-15**: V meldet sich bei **Mama Wells**; die Totenfeier fuer **Jackie Wells** wird auf **2077-07-24** geplant.
+    - **2077-07-16 (Abend)**: V ist im **Afterlife**, bekommt jedoch kein Meeting mit **Rogue**.
+    - Rogue ist bekannt, dass V am Arasaka-Heist beteiligt war.
+    - Rogue weiss zudem, dass **Dexter DeShawn** nicht mehr auftaucht und vermutlich tot ist; dass **Takamura** Dexter bei Vs Rettung getoetet hat, ist ihr zu diesem Zeitpunkt nicht bekannt.
