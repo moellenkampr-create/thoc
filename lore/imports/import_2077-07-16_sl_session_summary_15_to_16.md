@@ -39,7 +39,7 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
 - Schluesselformulierungen / Zitate:
   - [Sinngemaess] Machete stand nicht mehr dort, wo sie abgelegt wurde.
 - Fakten:
-  - Portierstochter-Hinweis: Unbekannte Person war einen Tag nach Enricos Tod im Apartment, vor Elternankunft.
+  - Hinweis der bereits bekannten, in der Vergangenheit hilfreichen Portierstochter: Unbekannte Person war einen Tag nach Enricos Tod im Apartment, vor Elternankunft.
   - Personenprofil: sehr wahrscheinlich Frau, dunkle Haare, ca. 1.60-1.70, Tattoos moeglich, Farben evtl. Valentino-nah.
 - Unsicherheiten:
   - Identitaet der Person offen.
@@ -75,7 +75,6 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
   - Apartment-Spur eignet sich als spaeterer Reveal-Knoten.
   - Corporate-Exit-Thema kann langfristig in Rechts-/Identitaetsplot eskalieren.
 - Unsicherheiten / offene Hooks:
-  - Gruppenname/Schreibweise Gegner: Kurokaze Youth vs. Kurokase/Kurukase.
   - Ob der Auftritt bereits als "gespielt" oder nur "angesetzt" gilt, ist perspectivesensitiv.
 
 ## Sichtbarkeit und Relevanz
@@ -98,7 +97,7 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
   - Beziehungsregel fuer Morgenroutine gesetzt.
 - Perspektivkonflikte:
   - 07-16-Nachtabschluss: In Lauri-Sicht teils als gespielter Gig notiert; in SL-Zusammenfassung endet Session auf der Buehne vor Songstart.
-  - Gegnerbezeichnung: Kurukase/Kurokase/Kurokaze Youth.
+-  - Keine Namenskonkurrenz mehr: kanonisch **Kurokaze Youth**, Kurzform **Kurokaze**; andere Varianten waren Typos.
 - Statusentscheidungen:
   - Alles vorlaeufig ARBEITSSTAND bis Abgleich mit Ely-/Lauri-Einzelsichten abgeschlossen ist.
 
@@ -111,9 +110,9 @@ source: raw/lore_import_2077-07-16_sl_session_summary_15_to_16.md
 - lore_locations: Plaza-Apartment (Rueckblick), Mandys, Velvet Static
 - lore_plots: Apartment-Einbruchspur, Corporate-Exit-Plot
 - lore_open_threads: Unbekannte Apartment-Person, Gegner-Namenskonsistenz, Auftrittsstatus
+- lore_open_threads: Unbekannte Apartment-Person, Auftrittsstatus
 - lore_flair_quotes: optional (Morgen-Regel als Tonmarker)
 
 ## Offene Fragen an Spielleitung
-- Soll "Kurokaze Youth" als kanonische Gegnerbezeichnung gesetzt werden?
 - Zaehlt der 07-16-Auftritt in der Chronik bereits als gespielt oder als Cliffhanger vor Songstart?
 - Soll die Portierstochter-Spur als eigener kritischer Thread priorisiert werden?

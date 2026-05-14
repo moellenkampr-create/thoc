@@ -156,7 +156,7 @@ source: lore_db.md
   - Die beiden fahren die Strecke vorab ab; Ziel ist eine zerstoerte Bruecke in den Badlands.
   - Ely entscheidet, dass sie Waffen braucht, von denen ihre Eltern nichts wissen.
 - **2077-06-04**:
-  - Ely und Lauri bauen sich fuer den Abend ein Alibi ueber die Portierstochter auf.
+  - Ely und Lauri bauen sich fuer den Abend ein Alibi ueber die bereits bekannte und zuvor hilfreiche Portierstochter auf.
   - Vor dem Rennen kauft Ely unterwegs eine kleine Schnellfeuerpistole mit pinkem Griffstueck, die sie **"Pinky"** nennt.
   - Vor dem Rennen essen beide im **Mandy's**; moegliches Kerry-Eurodyne-Sichtungselement bleibt unsicher.
   - Beim Rennen tritt auch der Football-Quarterback aus dem Uni-Umfeld an; er ist dort bekannt und startet weit vorne auf einem gelben Bike.
@@ -716,16 +716,16 @@ source: lore_db.md
       - Essen bei Mandy's (viele da wegen Velvet Static nebenan). Chubby geht vor: *"Sehen uns in einer Stunde."* Ely wollte direkt mit; Trio bleibt noch.
     - **Lauri-Einzelsicht (ARBEITSSTAND, Nacht 16.07) — KRITISCHER PLOTMARKER: ERSTER THoC-BUEHNENAUFTRITT**:
       - Als Trio um die Ecke kommt: **Chubby liegt am Boden.** Arm gebrochen, Zaehne locker. Kann weder spielen noch singen.
-      - Verantwortlich: **Kurukase** — die Band der **Tigerclaws** — haben Chubby vor dem Auftritt zusammengeschlagen.
+      - Verantwortlich: **Kurokaze Youth** — Kurzform **Kurokaze** — die Band der **Tigerclaws** — haben Chubby vor dem Auftritt zusammengeschlagen.
       - Wut keimt. Lauri: *"Wenn wir nicht so schlecht waeren, wuerd ich ja sagen, wir uebernehmen fuer dich..."*
       - Chubby: *"Echt?! Das wuerdet ihr machen? Die sollen nicht auch noch gewinnen..."*
       - Lauri sieht den Ausweg: **Musik als Waffe**. Bettelaugen bei Ely → Ely sagt ja. Lauri kuesst sie. George aufgeregt. Lauri: Gefuehl wie vor einem Kampf. Absolut abgedreht, euphorisch.
-      - **Betreiberin** (Velvet Static) erlaubt den Wechsel (kaum fassend). Zeigt Techniker **Ivan** → Ivan findet es *"richtig richtig Scheisse"* (scheinbar mag Chubby hier jeder). Geht Technik fuer Kurukase machen, wirkt *"zu gut, keiner merkt die Absicht"* — **Sabotage-Verdacht (ARBEITSSTAND)**. Lauri grinst.
+      - **Betreiberin** (Velvet Static) erlaubt den Wechsel (kaum fassend). Zeigt Techniker **Ivan** → Ivan findet es *"richtig richtig Scheisse"* (scheinbar mag Chubby hier jeder). Geht Technik fuer Kurokaze machen, wirkt *"zu gut, keiner merkt die Absicht"* — **Sabotage-Verdacht (ARBEITSSTAND)**. Lauri grinst.
       - Frau passt auf Chubby auf. Lauri: unsicher, vertraut ihr wenn Chubby vertraut.
       - Ivan bringt Trio zur "Umkleide" (kleine Abtrennung, Balkon). Andere Bands freundlich; Lauri wuenscht allen echtes Glueck — ausser Tigerclaws.
-      - **Ely schminkt das Trio.** Betreiberin: *"Uebrigens, verpruegeln wir hier nicht unsere Mitstreiter. Kurukase darf austrinken, bis zum Ende bleiben, und nie wieder kommen."* → *"Three Hearts of Chrome. Mit 'Und dann singen sie' — so heisst der Song."*
+      - **Ely schminkt das Trio.** Betreiberin: *"Uebrigens, verpruegeln wir hier nicht unsere Mitstreiter. Kurokaze darf austrinken, bis zum Ende bleiben, und nie wieder kommen."* → *"Three Hearts of Chrome. Mit 'Und dann singen sie' — so heisst der Song."*
       - Ely Jacke aus, George nur Hemd. Lauri: *"Es wird eine lange Nacht."*
-      - **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt Tattoo. Lauri sieht Kurukase: unruhig. Fokus auf **Schlagzeug** (Lauris Instrument).
+      - **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt Tattoo. Lauri sieht Kurokaze: unruhig. Fokus auf **Schlagzeug** (Lauris Instrument).
       - Lauris Kernmarker: *"Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."*
       - [Gig findet statt; Abschluss offen gelassen]
       - Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
@@ -735,11 +735,11 @@ source: lore_db.md
       - Elys Vater-Mails kippen tonal von streng zu deeskalierend ("Wir sind fuer dich da" / "Lass uns reden").
       - Trio setzt Sleep-Inducer fuer eine weitere Stunde, um Schlafdefizit auszugleichen.
       - Morgenmarker Beziehung: George-Morgen = Training, Ely-Morgen = Kuscheln, Lauri legt ihren Morgen am Vorabend fest.
-      - Rueckblickspur Plaza: Portierstochter meldet unbekannte Person im Apartment (ein Tag nach Enricos Tod, vor Elternankunft): vermutlich Frau, dunkle Haare, ca. 1.60-1.70, moegliche Tattoos mit evtl. Valentino-Farben.
+      - Rueckblickspur Plaza: die bereits bekannte und zuvor hilfreiche Portierstochter meldet unbekannte Person im Apartment (ein Tag nach Enricos Tod, vor Elternankunft): vermutlich Frau, dunkle Haare, ca. 1.60-1.70, moegliche Tattoos mit evtl. Valentino-Farben.
       - Tagsueber: Lauri/Ely bei Oggy (Training/Fahrzeug), George in NC mit Donny/Hackern plus Footballer-Kontakten.
       - Ely prueft Corporate-Regelwerk fuer Ausstieg von Ely/Lauri in Richtung NC-Buergerstatus und fasst Schlupfloecher fuer das Trio zusammen.
       - Abendablauf: Camp -> Umziehen -> Mandys (Treffen mit George) -> Chubby geht vor ins Velvet Static und wird zusammengeschlagen.
-      - Gegnerbezeichnung in SL-Block: **Kurokaze Youth** (abweichend zu Kurukase/Kurokase in anderen Sichten).
+      - Gegnerbezeichnung ist gesetzt: **Kurokaze Youth**, Kurzform **Kurokaze**.
       - Chubby will keine Vergeltungspruegel, sondern dass das Trio fuer ihn auftritt; Songentscheidung: "Und dann singen sie".
       - Chubby wird von "Miri" behandelt und bleibt im Club.
       - SL-Session-Ende: Trio steht als letzter Act auf der Buehne und ist auftrittsbereit; Songstart selbst bleibt in dieser Sicht ausserhalb der Session.

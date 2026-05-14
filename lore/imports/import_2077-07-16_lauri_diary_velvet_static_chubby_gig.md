@@ -3,7 +3,7 @@ title: "Import 2077-07-16 — Lauri Tagebuch: Nacht/Morgen, Tag, Velvet Static G
 date: 2077-07-16
 pov: Lauri
 type: structured-import
-tags: [lauri, 07-16, velvet-static, chubby, kurukase, first-gig, george-frauen, enrico-machete, ely-eltern, three-hearts-of-chrome]
+tags: [lauri, 07-16, velvet-static, chubby, kurokaze, first-gig, george-frauen, enrico-machete, ely-eltern, three-hearts-of-chrome]
 status: ARBEITSSTAND
 source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 ---
@@ -48,7 +48,7 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 
 ---
 
-## Block 4: Abend — Mandy's, Chubby wird angegriffen, Kurukase
+## Block 4: Abend — Mandy's, Chubby wird angegriffen, Kurokaze Youth
 **Datum:** 2077-07-16, Abend
 **Status:** ARBEITSSTAND (Lauri-Einzelsicht)
 
@@ -56,7 +56,7 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 - Essen bei Mandy's; viele Gaeste wegen **Velvet Static** nebenan.
 - Chubby geht vor: *"Sehen uns in einer Stunde."* Lauri bemerkt: er ist aufgeregt. Ely wollte direkt mitkommen.
 - Als das Trio um die Ecke kommt: **Chubby liegt am Boden.** Arm gebrochen, Zaehne locker. Kann weder spielen noch singen.
-- Verantwortlich: **Kurukase** — die Band der **Tigerclaws** — haben Chubby zusammengeschlagen, bevor er auftreten konnte.
+- Verantwortlich: **Kurokaze Youth** — Kurzform **Kurokaze** — die Band der **Tigerclaws** — haben Chubby zusammengeschlagen, bevor er auftreten konnte.
 - Wut keimt. Lauri: *"Wenn wir nicht so schlecht waeren, wuerd ich ja sagen, wir uebernehmen fuer dich..."*
 - Chubby: *"Echt?! Das wuerdet ihr machen? Die sollen nicht auch noch gewinnen..."*
 
@@ -69,13 +69,13 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 - Lauri sieht den Ausweg: **Musik als Waffe**. Bettelaugen bei Ely → Ely sagt ja. Lauri kuesst sie.
 - George ist aufgeregt. Lauri: *"Gefuehl wie vor einem Kampf. Absolut abgedreht. Euphorisch."*
 - **Betreiberin** des Clubs erlaubt den Wechsel (kaum fassend). Zeigt ihnen Techniker **Ivan**.
-- Ivan: findet es *"richtig richtig Scheisse"* — offenbar mag ihn hier jeder Chubby. Geht Technik fuer Kurukase machen; wirkt *"zu gut, keiner merkt die Absicht."* Lauri grinst. (**Sabotage-Verdacht, ARBEITSSTAND**)
+- Ivan: findet es *"richtig richtig Scheisse"* — offenbar mag ihn hier jeder Chubby. Geht Technik fuer Kurokaze machen; wirkt *"zu gut, keiner merkt die Absicht."* Lauri grinst. (**Sabotage-Verdacht, ARBEITSSTAND**)
 - Eine Frau passt auf Chubby auf. Lauri: unsicher, vertraut ihr, wenn Chubby ihr vertraut.
 - Ivan bringt das Trio zur "Umkleide": kleine Abtrennung, draussen auf dem Balkon.
 - Andere Bands auf dem Balkon sind freundlich. Lauri wuenscht allen echtes Glueck — ausser den Tigerclaws.
-- **Ely schminkt das Trio.** Betreiberin kommt zurueck: *"Uebrigens, verpruegeln wir hier nicht unsere Mitstreiter. Kurukase darf austrinken, bis zum Ende bleiben, und nie wieder kommen."* Dann: *"Three Hearts of Chrome. Mit 'Und dann singen sie' — so heisst der Song."*
+- **Ely schminkt das Trio.** Betreiberin kommt zurueck: *"Uebrigens, verpruegeln wir hier nicht unsere Mitstreiter. Kurokaze darf austrinken, bis zum Ende bleiben, und nie wieder kommen."* Dann: *"Three Hearts of Chrome. Mit 'Und dann singen sie' — so heisst der Song."*
 - Ely hat die Jacke ausgezogen, George nur noch im Hemd. Lauri: *"Es wird eine lange Nacht."*
-- **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt ihr Tattoo. Lauri sieht die Kurukase-Band: unruhig. **Fokus auf Schlagzeug** (Lauri spielt Drums).
+- **Alle Tattoos sichtbar.** Lauris Kleid rutscht, zeigt ihr Tattoo. Lauri sieht die Kurokaze-Band: unruhig. **Fokus auf Schlagzeug** (Lauri spielt Drums).
 - Lauris innerer Moment: *"Musik ist meine Waffe. Heute spielen wir um zu gewinnen, als Waffe gegen Gewalt. Wir tun es fuer Chubby. Ich vergesse jeden hier, ausser uns vieren."*
 - [Gig: gespielt, Schluss offen gelassen]
 
@@ -91,9 +91,9 @@ source: raw/lore_import_2077-07-16_lauri_diary_velvet_static_chubby_gig.md
 
 ## Schluessel-Lore-Punkte 16.07
 - **ERSTER THoC-BUEHNENAUFTRITT** (spontan/notgedrungen): Velvet Static, Songname *"Und dann singen sie"*, Bandname *"Three Hearts of Chrome"* erstmals oeffentlich genannt
-- **Kurukase** (Tigerclaws-Band): haben Chubby koerperlich angegriffen; klare Antagonisten-Linie
-- **Ivan** (Techniker): Sabotage-Verdacht an Kurukase-Technik (ARBEITSSTAND)
-- **Betreiberin** (Velvet Static): steht klar gegen Gewalt; verbannt Kurukase, ermoeglicht den Wechsel
+- **Kurokaze Youth** / **Kurokaze** (Tigerclaws-Band): haben Chubby koerperlich angegriffen; klare Antagonisten-Linie
+- **Ivan** (Techniker): Sabotage-Verdacht an Kurokaze-Technik (ARBEITSSTAND)
+- **Betreiberin** (Velvet Static): steht klar gegen Gewalt; verbannt Kurokaze, ermoeglicht den Wechsel
 - **George-Intimitaets-Backstory**: bezahlte Frauen (Vaters Entscheidung), "wohl einige" Frauen insgesamt, Bisexualitaet angedeutet, Gerard-Reflexion
 - **Enrico-Machete**: "war woanders als vorher" — neuer offener Faden (wer hat sie bewegt?)
 - **Ely-Enrico-Schatten**: Ely fuehlte sich von Enrico weniger beachtet als Lauri (Lauri nie gemerkt)
