@@ -26,18 +26,9 @@ source: lore_db.md
 Hinweis: Nummerierung in Abschnitt 2 ist append-only; erledigte Punkte duerfen Nummernluecken hinterlassen. Reorganisation mit Voll-Neunummerierung nur bei explizitem Pflege-Schritt.
 - 2.1 Ob Trump spaeter gegenueber Elias liefert oder sich verweigert, bleibt offen.
 - 2.2 V/George-Aehnlichkeit und spaetere Verwicklungen bleiben Hook und nicht gesetzter Kanonpfad.
-- 2.21 2077-07-09 Chubby-"Richi"-Frage - Wie viel vom Corporate-/NCU-Hintergrund offenbart das Trio im Aldecaldo-/Clubkontext?
-- 2.22 2077-07-09 Sleep-Inducer-Timerdifferenz - Warum stellen Lauri und Ely nur 1 Stunde statt 3? Folgen fuer Erholung, Rhythmus oder Risikomanagement offen.
-- 2.23 2077-07-09 Georges Optik-Freigabe - Wie sicher ist die Hub-Weiterleitung im Feld (inklusive Replay-Funktion), und wann lernen Ely/Lauri den vollen Funktionsumfang?
-- 2.24 2077-07-10 Nachfolgeplot "Tim, der Dealer" - Tim wird nach Niederlage vorsichtiger (nicht untergetaucht); stellt sich Frage nach Gegenzug, v. a. moeglicher Rache gegen Bronco als Vermittler.
-- 2.25 2077-07-10 Saul-Biotechnica-Dilemma - Wie entscheidet Saul zwischen Clan-Schutz, Biotechnica-Deal und Trio-Naehe?
 - 2.26 2077-07-10 Arasaka-AV-Reaktionszeit - **BESTAETIGT (ARBEITSSTAND):** Direkte Henshaw-Reaktion ueber Barkeeper-Mail. Sicherheitsexperte des Vaters schickte sofort jemanden, um Lauri abzuholen; Einsatz kam zu spaet. Lauri sah das AV auf der Rueckfahrt, wusste nicht, wer darin war; vermutet moeglicherweise ihren Vater. Weitere Eskalation offen.
-- 2.27 2077-07-10 George-New-York-Bandbruch - Folgen fuer heutige Bandidentitaet und Trigger bei kommenden Auftritten offen halten.
-- 2.28 2077-07-10 Sirenen trotz unterbrochenem Tim-Call - **BESTAETIGT:** Automatische Dispatch-Kette ueber Tims Sanitaeter-/Medizinpersonal-Status; Sirenen wurden durch unterbrochenen Call automatisch ausgeloest.
-- 2.29 2077-07-10 Ripperdoc-Hinweis - Als Wertung von aussen verankert: Er hielt die laufende Nierenaktion fuer "irre", ohne zu wissen, dass das Trio dahintersteht.
 - 2.30 2077-07-10 Trio-Grenzgespraech nach Bar-Konflikt - Wie stabil bleibt die neue Offenheitsregel bei eifersuchts-/adrenalingetriebenen Situationen?
 - 2.31 2077-07-11 Saul-Besprechungszelt-Zwischenfall - Welche sozialen Nachwirkungen im Camp bleiben nach der peinlichen Ueberkreuzung?
-- 2.32 2077-07-11 Lauris Zugehoerigkeitskonflikt - Derzeit: totale Begeisterung fuer Nomadenleben und Aldecaldo-Kultur. Lauri hat bisher nur die sonnige Seite gesehen. Wie sie reagiert, wenn Schattenseiten sichtbar werden, ist offen. Der innere Abwehrimpuls ("gehoere nicht hierher") liegt unter der Begeisterung vergraben, nicht aufgeloest.
 - 2.33 2077-07-11 Oggy-Militech-Rebuild - **TEILAUFGELOEST (ARBEITSSTAND):** Wraith verlagern Raketenwerfer zu einer anderen Wraith-Stelle; Aldecaldos transportieren weitere Teile aus NC und lassen sie extern verkaufen, um Militech auf falscher Spur zu halten (Spur aktuell kalt). Offen bleiben Restteile, Zeitdruck und Gegenreaktion bei Spurwiederaufnahme.
 - 2.34 2077-07-11 Bluttrinker-Legende vs. Faktenlage - Was ist Valentino-Mythos, was ist belastbare Historie (inkl. "Executor"-Rolle, Fluchtnarrativ, Traegerfolgen)? **Teilaufgeloest (ARBEITSSTAND):** Bluttrinker seit 1940er Mexiko; Scheide aus Menschenhaut; Traegerlogik bekannt. Verborgener Teil (nur Insidern bekannt): Zyklus brechbar durch bewusste Lossagung ohne Machtgier.
 - 2.35 **Bluttrinker-Fanatiker als Bedrohungslinie** - Sie wissen, dass Lauri die Klinge hat. Wann treten sie aktiv in Erscheinung? Wer fuehrt den Kern an? Kennen sie bereits den Schwester-/Kreuz-Pfad?
