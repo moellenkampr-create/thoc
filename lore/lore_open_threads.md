@@ -26,17 +26,6 @@ source: lore_db.md
 Hinweis: Nummerierung in Abschnitt 2 ist append-only; erledigte Punkte duerfen Nummernluecken hinterlassen. Reorganisation mit Voll-Neunummerierung nur bei explizitem Pflege-Schritt.
 - 2.1 Ob Trump spaeter gegenueber Elias liefert oder sich verweigert, bleibt offen.
 - 2.2 V/George-Aehnlichkeit und spaetere Verwicklungen bleiben Hook und nicht gesetzter Kanonpfad.
-- 2.10 2077-07-07 Lauri-Followup liegt vor (Hoehlenfoto/Schloss/H10-Nachtentscheidung); Feinschliff der Mikro-Reihenfolge mit Ely-Sicht bleibt offen.
-- 2.11 2077-07-07 Camp-Zugehoerigkeitskonflikt (Lauri) - Bleibt es bei punktueller Unsicherheit oder wird daraus ein wiederkehrender Sozialfaden (Camp vs. H10)?
-- 2.12 2077-07-06 Donny-Bild (verschwommen, moeglichweise Wagen) - Koennte Beweis fuer Trump sein. Genauere Analyse erforderlich.
-- 2.13 2077-07-06 Donny-Koordinaten (Wueste) - KRITISCH: Liegen dort, wo vor ca. 6 Jahren Henshaw-/von-Eichner-Black-Project-Entsorgung stattfand. Trio kennt diese Verbindung noch NICHT.
-- 2.14 2077-07-06 Ely-Tagebuch weiterschreiben - Wer weiss darueber? Walters/Bertrams Sicht? Spaetere Nutzung/Entdeckung?
-- 2.15 2077-07-06 Kommunikationssicherheit nach George-Agent-Dialog - Agent stoerte die Verbindung bewusst; Bedarf nach unstoerbarer Trio-Kommunikation ist gesetzt, konkrete Loesung steht aus.
-- 2.16 2077-07-06 Schildkroete-Beobachtung - Echte Schildkroete, aber getragen von NACHBAR (nicht Donny). Kontext/Bedeutung unklar.
-- 2.17 2077-07-06 Nolans Jacke: Wird das geplante Mond-/Wuesten-/Schlangenmotiv spaeter verbindlich gesetzt?
-- 2.18 2077-07-06 Sleepy-Verzicht-Experiment - Sleep Inducer sollte nicht zu oft pro Woche genutzt werden. Uebernutzung fuehrt zu: Halluzinationen, Krankheitsbilder. Zu beobachtende Effekte?
-- 2.19 2077-07-08 und 2077-07-09 sind als Sammelstand neu verankert; Feinschliff ueber Einzelperspektiven steht noch aus.
-- 2.20 2077-07-09 Velvet-Static-Einladung durch Chubby - Kurzfristige Eventplanung (2-4 Tage Vorlauf): Wann ist der naechste Slot, und bleibt das Trio zuerst nur Zuschauer?
 - 2.21 2077-07-09 Chubby-"Richi"-Frage - Wie viel vom Corporate-/NCU-Hintergrund offenbart das Trio im Aldecaldo-/Clubkontext?
 - 2.22 2077-07-09 Sleep-Inducer-Timerdifferenz - Warum stellen Lauri und Ely nur 1 Stunde statt 3? Folgen fuer Erholung, Rhythmus oder Risikomanagement offen.
 - 2.23 2077-07-09 Georges Optik-Freigabe - Wie sicher ist die Hub-Weiterleitung im Feld (inklusive Replay-Funktion), und wann lernen Ely/Lauri den vollen Funktionsumfang?
