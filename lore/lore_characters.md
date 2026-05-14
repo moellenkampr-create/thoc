@@ -244,6 +244,14 @@ source: lore_db.md
 - wirkt als kleine, aber belastbare Verbindung in die fruehere Plaza-Lebensphase des Trios
 - **Gelb-offen**: eignet sich als wiederkehrende Nebenfigur und kleiner Zwischenabenteuer-Hook; moeglich sind Hilfegesuche von Cassy selbst oder Probleme/Bedrohungen rund um ihren Vater.
 
+### Nathan Hale (Shade)
+**ARBEITSSTAND**
+- Langjaehriger Mitarbeiter im Umfeld von **Elias Smith**.
+- Nutzt in operativen Kontakten die Bezeichnung **Shade**; Shade ist als Rollenbezeichnung nicht zwingend an eine einzelne Person gebunden.
+- Konkreter Einsatz am 2077-07-06: NCU-Bibliothekskontakt mit George im Auftrag von Elias.
+- Einsatzauftrag: George lokalisieren, auf Spur bleiben, Vermaehlung mit einer Frau "aus Uebersee" vermitteln/durchsetzen und Gehorsam gegenueber Elias sichern.
+- Reaktion auf Georges Ablehnung: vorerst keine offene Verfolgung, um kein Informationsleck gegen Elias zu provozieren.
+
 ### Gerard
 **KANON**
 - Stallmeister in einer Nobelstallung in **North Oaks**; verwaltet dort einen von drei relevanten Staellen

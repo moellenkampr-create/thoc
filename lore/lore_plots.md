@@ -122,13 +122,14 @@ source: lore_db.md
 - Claire Russell (`ARBEITSSTAND`: sucht noch einen Fahrer fuer **Beast**, damit sie selbst als Beifahrerin auf Peter Sampson schiessen kann)
 - Peter Sampson (`ARBEITSSTAND`: Militech-gesponserter Vorjahressieger und starker Renngegner; ob er vom Superwagen weiss, ist offen)
 
-### Elias-Kontrolllinie / Verfolgtes George-George (Neue Eskalation)
+### Elias-Kontrolllinie / Shade-Kontakt (07-06)
 **ARBEITSSTAND**
-- Am 2077-07-06 wird George in der NCU-Bibliothek von Elias-Agent erkannt und verfolgt.
-- Agent kann George an George erkennen (physiognomisch/visuelle Marker).
-- Agent identifiziert auch das Aldecaldo-Auto; Verfolgung wird zukuenftig trackerbar.
-- Elias hat wohl veranlasst, dass George einer Fernsehheit "aus Uebersee" gegeben werden soll (dynstische/politische Allianz?).
-- George hadert mit Kontrollverlust; Trio diskutiert Bedarf fuer unstoerbare Kommunikation.
+- Am 2077-07-06 wird George in der NCU-Bibliothek von einem Elias-Mitarbeiter erkannt und gestellt.
+- Der Kontakt nutzt die Bezeichnung **Shade**; in dieser Szene ist es **Nathan Hale** (langjaehriger Elias-Mitarbeiter).
+- Auftrag: George lokalisieren, nahe an ihm bleiben, Vermaehlung mit einer Frau "aus Uebersee" durchsetzen und Gehorsamspfad gegenueber Elias erzwingen.
+- George lehnt klar ab und kommuniziert seinen Freiheitsanspruch gegenueber Elias.
+- Ergebnis der Szene: Shade/Nathan stoppt vorerst offene Verfolgung, da weiterer Druck ein Informationsleck gegen Elias ausloesen koennte.
+- Das Aldecaldo-Auto ist als Marker trotzdem bekannt; operative Vorsicht und belastbare Trio-Kommunikation bleiben relevant.
 
 ### Machtblock hinter dem grossen Rennen
 - Das grosse Rennen dient 2077 zusaetzlich als informelle Klaerung von Disputen zwischen reichen und maechtigen Akteuren.

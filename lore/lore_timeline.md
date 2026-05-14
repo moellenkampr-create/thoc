@@ -401,12 +401,13 @@ source: lore_db.md
     - Ely wird als starke Verhandlerin im Einkaufskontext bestaetigt.
     - Lauri beschreibt zunehmende Reizueberlastung durch Menschenmengen; kurz vor Donny-Rueckkontakt steigt das Rueckzugsbeduerfnis.
     - Donny taucht am Ende des Blocks wieder auf; Lauri nimmt eine Schildkroete in seiner Hand wahr.   - **Lauri-Sicht (ARBEITSSTAND, Abend/Nacht-Folgeblock - Kritischer Weltplot-Punkt)**:
-     - In der NCU-Bibliothek wird das Trio von bewaffnetem Agenten verfolgt/erkannt.
-     - George identifiziert den Mann: "Der gehoert zu meinem Vater" (Elias-Agent).
-     - Agent sieht George explizit und sagt: "Ich hab dich gesehen! Ich weiss wer du bist!"
-     - Das Trio flieht im Aldecaldo-Auto; der Agent kennt jetzt das Fahrzeug und kann zukuenftig verfolgen.
-     - George spricht allein mit dem Agenten; Uebertragung bricht ab (Bedarf fuer unstoerbare Kommunikation identifiziert).
-     - Agent berichtet von erzwungener Vermaehlung Georges mit Jemandem "aus Uebersee".
+    - In der NCU-Bibliothek wird das Trio von bewaffnetem Agenten verfolgt/erkannt.
+    - George identifiziert den Mann als Mitarbeiter seines Vaters; der Kontakt tritt unter der Bezeichnung **Shade** auf.
+    - Konkrete Person in dieser Szene: **Nathan Hale** (langjaehriger Elias-Mitarbeiter).
+    - Auftrag von Elias: George finden, auf Spur bleiben und die dynastische Linie durchsetzen (Vermaehlung mit einer Frau "aus Uebersee", Gehorsamspfad gegenueber Elias).
+    - George lehnt den Auftrag klar ab und markiert seinen Freiheitsanspruch gegenueber Elias.
+    - Nach dem Gespraech bewertet Shade/Nathan offene Verfolgung als riskant, weil George bei weiterem Druck potentiell belastende Informationen ueber Elias nach aussen geben koennte.
+    - Das Aldecaldo-Auto ist dennoch als Marker bekannt; Bedarf fuer unstoerbare Kommunikation bleibt gesetzt.
   - **Konsolidiert (mehrere Sichten, ARBEITSSTAND)** — noch keiner Einzelsicht zugeordnet:
    - Donny hat Bild und Koordinaten fuer das Trio; er organisiert gleichzeitig 3-Wochen-Krankschreibung fuer alle drei bei der NCU.
    - Ely hat weitergeschriebenes Tagebuch (lose Blaetter im Shakespeare-Buch versteckt); Trio liest unterwegs (Ely vor, George faehrt, Lauri stickt).

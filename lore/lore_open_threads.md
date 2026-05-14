@@ -26,13 +26,6 @@ source: lore_db.md
 Hinweis: Nummerierung in Abschnitt 2 ist append-only; erledigte Punkte duerfen Nummernluecken hinterlassen. Reorganisation mit Voll-Neunummerierung nur bei explizitem Pflege-Schritt.
 - 2.1 Ob Trump spaeter gegenueber Elias liefert oder sich verweigert, bleibt offen.
 - 2.2 V/George-Aehnlichkeit und spaetere Verwicklungen bleiben Hook und nicht gesetzter Kanonpfad.
-- 2.3 2077-07-04/07-05 Perspektivabgleich-Cluster (Militech-Infiltration, exfiltrierte Daten, Kurierbike-Stick, Wraith-/Raffen-Versteck, Nachphase) - Ely/Lauri liegen vor, Endkonsolidierung mit George-/SL-Sicht und belastbarer Reihenfolge steht aus.
-- 2.4 2077-07-06 Lauri-Detailblock (Camp/Donny/Vik) liegt nun als Einzelsicht vor; Abgleich mit Ely-/George-/SL-Sicht zur Reihenfolge steht aus.
-- 2.5 2077-07-06 Lauri-Shopping-Folgeblock liegt als Einzelsicht vor; Abgleich mit Ely-/George-/SL-Sicht (Reihenfolge und Belastungston) steht aus.
-- 2.6 Wer suchte das Trio am 2077-07-06 an der NCU, mit welchem Auftrag und fuer wen?
-- 2.7 Kontext am 2077-07-06 bei Vik offen: Rolle der abfangenden Frau, Identitaet/Motivation des bewaffneten japanisch wirkenden Mannes, Einordnung der Blutspuren.
-- 2.8 2077-07-06 Elias-Agent-Sichtung (NCU-Bibliothek) - KRITISCH: Agent hat George erkannt, kennt Aldecaldo-Auto-Typ; Verfolgungs-/Observationslinie aktiviert.
-- 2.9 2077-07-07 Perspektivregel - **BESTAETIGT (ARBEITSSTAND):** George schreibt ueblicherweise keine eigene Einzelsicht; Konsolidierung laeuft primaer ueber Ely-/Lauri-/SL-Abgleich.
 - 2.10 2077-07-07 Lauri-Followup liegt vor (Hoehlenfoto/Schloss/H10-Nachtentscheidung); Feinschliff der Mikro-Reihenfolge mit Ely-Sicht bleibt offen.
 - 2.11 2077-07-07 Camp-Zugehoerigkeitskonflikt (Lauri) - Bleibt es bei punktueller Unsicherheit oder wird daraus ein wiederkehrender Sozialfaden (Camp vs. H10)?
 - 2.12 2077-07-06 Donny-Bild (verschwommen, moeglichweise Wagen) - Koennte Beweis fuer Trump sein. Genauere Analyse erforderlich.
