@@ -13,7 +13,7 @@ source: lore_db.md
 
 ## 1. Offene Lore-Faeden
 **ARBEITSSTAND**
-- **Jemand in Elias' Umfeld kannte offenbar die Verbindung Vik/Lucky Lucy** — wer? Wann hat das Elias (wenn ueberhaupt) erreicht, und welchen Einfluss hatte das auf seine Entscheidungen gegenueber George und der Mutter?
+- **Jemand in Elias' Umfeld kannte offenbar die Verbindung Vik/Lucky Lucy** — **ARBEITSSTAND:** Elias hatte wohl keinen harten Beweis, aber genug Verdachtswissen aus einem Umfeldkontakt, um Marker-Manipulation/Vertuschung bei George zu priorisieren. Tendenz: Information wird als stiller Manipulationsanker gebunkert statt frueh gegen Vik offen eingesetzt. **Offen bleibt:** Wer war die Quelle; wann erreichte die Info Elias; wie belastbar war sie. **Umschalt-Trigger zu aktiver Nutzung:** glaubwuerdiger Leak zur Vaterschaft, sichtbare Naehe George<->Vik im oeffentlichen Raum, oder ein externer Skandalimpuls, den Elias auf George umlenken muss.
 - **Gerhardt/Scheich-Note (AUFGELOEST)**: "Gerhardt" in Elys Tagebuch = **Gerard** (Georges frueherer Lover/Stallmeister). Die 250k sind eine bestehende Vereinbarung mit ihm. Goldbarren = Scheich-Belohnung aus Pferdejob 06-09; bereits in lore_timeline verankert.
 - **Saburo Arasakas Ermordung (2077-07-06) und Walter Henshaw** — Walter gilt Saburo als Ordnungsprinzip; Yorinobu als Nachfolger ist fuer ihn untragbar. Wie reagiert Walter auf die Nachricht, und welche Folgen hat das fuer seine Dynamik mit Elias / NC-Politik?
 - Langfristige Folgen der Day-6/7-Arc und der NCU-Rueckkehr als offenes Trio
