@@ -80,17 +80,25 @@ Im Konflikt wird jeder mit dem passenden Attribut geprüft:
 
 Der **Spielleiter sagt an**, welches Attribut in dieser Szene zählt.
 
+Initiativewurf:
+- **3W6 + Initiativanker-Attribut + klare Lage-Modifikatoren**
+
 ### Überraschung
 Wer überraschte Gegner hat, agiert erste Runde zuerst (oder sofort ohne Gegenwehr).
 
 ### Der Kampf-Rhythmus
 1. Schnellere Initiative agiert zuerst
-2. Beide wirken in Rounds von **~6 Sekunden** (oder wie lange ein Manöver dauert)
-3. Jeder hat **1 Hauptaktion** + optional **1 extra Aktion pro Runde** (je nachdem, was das Manöver kostet)
-4. Nach jeder Hauptaktion hat der Gegner **1 Reaktionsfenster** – er kann mit 1 reaktiven Manöver antworten (Konter, Ausweichen, Reaktionsschuss, etc.)
+2. Eine Kampfrunde dauert im Regelfall **~6 Sekunden** (abstrakter Taktgeber)
+3. Jeder hat pro eigenem Zyklus **1 Hauptaktion**
+4. **2+ Aktionen** binden mehrere eigene Zyklen (Aufbau/Vorbereitung)
+5. Hohe Initiative gibt Reihenfolge, aber **keinen automatischen Doppelzug**
 
 ### Reaktionen
-Jede Figur hat **1 Reaktionsfenster pro eigenem Zyklus**. Es wird verbraucht, wenn sie ein reaktives Manöver nutzt (egal ob erfolgreich oder nicht).
+Jede Figur hat **1 Reaktionsfenster pro eigenem Zyklus**. Es wird verbraucht, wenn sie ein reaktives Manöver nutzt (egal ob erfolgreich oder nicht), und mit der nächsten regulären eigenen Handlung wieder frei.
+
+### Tempo durch Cyberware (z. B. Sandevistan)
+- Kein dauerhafter zweiter Zug pro Runde.
+- Stattdessen typischerweise **1 Tempoburst pro Szene** (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz).
 
 ---
 
@@ -268,6 +276,8 @@ Nicht alles ist Erfolg/Scheitern. **Teilerfolg** ist oft spannender:
 | 9–12 | **Standard** | Erfolg. Deine Handlung funktioniert wie geplant. |
 | 13–15 | **Gut** | Erfolg+. Du hast einen Vorteil, Tempo oder kleineren Bonus im nächsten Schritt. |
 | 16–18 | **Sehr gut** | Dominanz. Du prägs die Lage, der Gegner/die Sz ist stark gehemmt. |
+
+**Haken** = Komplikation, Preis oder Anschlussproblem. Ein Haken ist nicht automatisch eine Konsequenz, kann aber je nach Lage einen kurzen Zustand ausloesen oder bei bereits scharfer Szene in eine Konsequenz kippen.
 
 ## Einsatzfenster und Eskalation
 | Fenster | Regel | Wiederholung |

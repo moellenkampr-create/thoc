@@ -125,6 +125,12 @@ Segment-Logik:
 - gut = 2
 - sehr gut = 3 oder 2 + Zusatzvorteil
 
+**Haken** bedeutet: Das Ziel wird nicht sauber oder nicht kostenlos erreicht. Ein Haken ist eine spuerbare Komplikation, ein Preis oder ein Anschlussproblem, aber noch nicht automatisch eine volle Konsequenz.
+- Ein Haken kann Zeit kosten, Aufmerksamkeit ziehen, Position verschlechtern, Material beanspruchen oder Folgehandlungen erschweren.
+- Ein Haken kann in einen **Zustand** kippen, wenn die Lage das plausibel hergibt.
+- Ein Haken wird nur dann direkt zu einer **Konsequenz**, wenn die Szene bereits schaerfer ist oder diese Fallhoehe vorher gesetzt wurde.
+- Die Spielleitung legt die Heftigkeit nach Standard, Umstaenden und Szenendruck fest.
+
 ---
 
 ## 4. Teamwork [GELOCKT]
@@ -136,7 +142,6 @@ Segment-Logik:
 ---
 
 ## 5. Einsatzlogik fuer besondere Faehigkeiten [GELOCKT / TESTSTAND]
-URoP nutzt im Kern **keinen Ausdauer-Counter** mehr.
 Manoever, Zauber, Kraefte und Quickhacks werden ueber Kosten, Einsatzfenster und Konsequenzen begrenzt.
 
 ### 5.1 Aktionskosten [GELOCKT]
@@ -279,43 +284,71 @@ statt denselben leichten Effekt mehrfach zu stapeln.
 
 ---
 
-## 7. Initiative und Überraschung [GELOCKT / ARBEITSSTAND]
-### 7.1 Initiative [GELOCKT]
-Initiative wird in konfliktgeladenen Szenen einmal bestimmt und bleibt grundsätzlich bestehen.
+## 7. Kampfsimulation [GELOCKT / ARBEITSSTAND]
+### 7.1 Kampfrunde und Zyklus [GELOCKT]
+- Eine Kampfrunde bildet im Regelfall etwa **6 Sekunden** ab.
+- Die Runde ist ein abstrakter Taktgeber, keine sekundengenaue Simulation.
+- Jede Figur durchlaeuft pro Runde genau einen eigenen Initiativzyklus.
 
-### 7.2 Initiativanker [GELOCKT]
-Die Szene kann primär getragen sein durch:
-- **Körper**
-- **Geist**
-- **Präsenz**
+### 7.2 Initiative [GELOCKT / ARBEITSSTAND]
+Initiative wird in konfliktgeladenen Szenen einmal bestimmt und bleibt grundsaetzlich bestehen.
 
-### 7.3 Überraschung [GELOCKT]
-Überraschte steigen in der Regel erst nach der ersten gegnerischen Aktion sinnvoll ein.
+Initiativewurf:
+- **3W6 + Initiativanker-Attribut + klare Lage-Modifikatoren**
 
-### 7.4 Gleichstand [GELOCKT]
-Bei Gleichstand zwischen Spielern und gleich starken Gegnern haben Spieler Vorrang.
+Initiativanker je Szenentyp:
+- **Körper** fuer physischen Konflikt
+- **Geist** fuer taktische/technische Konflikte
+- **Präsenz** fuer soziale Konfrontationen
+
+Wirkung:
+- Hohe Initiative bestimmt primaer die Reihenfolge, nicht automatisch zusaetzliche Hauptaktionen.
+
+### 7.3 Überraschung und Gleichstand [GELOCKT]
+- Ueberraschte steigen in der Regel erst nach der ersten gegnerischen Aktion sinnvoll ein.
+- Bei Gleichstand zwischen Spielern und gleich starken Gegnern haben Spieler Vorrang.
+
+### 7.4 Aktionsökonomie [GELOCKT / ARBEITSSTAND]
+- Pro eigenem Initiativzyklus hat jede Figur **eine Hauptaktion**.
+- Kurze, naheliegende Handlungen ohne starke Wirkung koennen frei bleiben.
+- Effekte mit **2+ Aktionen** binden mehrere eigene Zyklen (Aufbau, Kanalisation, Vorbereitung).
+- Initiativehoehe allein erzeugt keinen zweiten regulaeren Zug.
 
 ### 7.5 Reaktionsökonomie [ARBEITSSTAND]
-In konfliktgeladenen Szenen hat jede Figur grundsätzlich **ein Reaktionsfenster pro eigenem Initiativzyklus**.
+In konfliktgeladenen Szenen hat jede Figur grundsaetzlich **ein Reaktionsfenster pro eigenem Initiativzyklus**.
 
 Grundsatz:
 - **ein reaktives Manöver pro eigenem Zyklus**
-- das Reaktionsfenster **erneuert sich mit der nächsten regulären Handlung** der Figur
+- das Reaktionsfenster **erneuert sich mit der naechsten regulaeren Handlung** der Figur
 - ein reaktives Manöver **verbraucht das Reaktionsfenster**, egal ob es gelingt oder scheitert
-- pro Auslöser darf eine Figur **nur eine** reaktive Antwort ansagen
-- ein reaktives Manöver eröffnet **nicht sofort wieder ein neues reaktives Manöver** als Kettenunterbrechung
+- pro Ausloeser darf eine Figur **nur eine** reaktive Antwort ansagen
+- ein reaktives Manöver eroeffnet **nicht sofort wieder ein neues reaktives Manöver** als Kettenunterbrechung
 
 Leitlinie:
-- Diese Reaktionsökonomie gilt für volle reaktive Manöver wie `Konter`, `Reaktionsschuss`, `Sozialer Konter` oder `Alarm verzögern`.
+- Diese Reaktionsoekonomie gilt fuer volle reaktive Manoever wie `Konter`, `Reaktionsschuss`, `Sozialer Konter` oder `Alarm verzoegern`.
 - Normale Gegenwehr, Widerstand oder fiktionale Verteidigung ohne volles Manöver verbrauchen dieses Fenster nicht automatisch.
-- Das Reaktionsfenster ist unabhaengig von Ausdauer und wird ueber Einsatzfenster, Konsequenzen und Lagekosten balanciert.
 - Reaktive Manöver brauchen immer einen **klar lesbaren Auslöser**, nicht nur ein vages Gefühl, dass "jetzt vielleicht etwas kommt".
 
 Typische klare Auslöser:
 - sichtbarer Angriff oder Griffversuch
 - erkennbare Bewegung durch eine gehaltene Linie
 - offene soziale Spitze, Bloßstellung oder Deutungsoffensive
-- ein bereits laufender oder unmittelbar auslösender Alarmweg
+- ein bereits laufender oder unmittelbar ausloesender Alarmweg
+
+### 7.6 Größe, Last, Kräfte und Cyberware [TESTSTAND]
+- Groesse wirkt nur dann als Modifikator, wenn sie in der Szene direkt relevant ist.
+- Last, Verletzung oder starke Lagefaktoren koennen Initiative druecken.
+- Beschleuniger-Cyberware kann Initiative erhoehen, wenn das Profil das explizit vorsieht.
+
+Sandevistan-/Beschleuniger-Pilotregel:
+- Kein dauerhafter Doppelzug.
+- Stattdessen 1x pro Szene ein Tempoburst (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz) gemaess Profil.
+
+### 7.7 Noch offen (Kampfsimulation) [OFFEN]
+- Join-in-Mid-Combat, Hold/Delay, Unterbrechen
+- Exakte Tie-Break-Reihenfolge bei mehreren Gleichstaenden
+- Wann Initiative in langen Szenen neu gewuerfelt wird
+- Feintuning, wie Zustaende/Cyberware das Reaktionsfenster beeinflussen
 
 
 ---

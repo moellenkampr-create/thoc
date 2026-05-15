@@ -94,13 +94,25 @@ Es wird nur gewürfelt, wenn Unsicherheit, Druck, Widerstand, Zeitknappheit oder
 - Für längere Vorgänge können Fortschritts-, Gefahren- und Abbruchuhren genutzt werden.
 - Segmentleitlinie: schlecht = 0 + Haken, schwach = 1 + Haken, Standard = 1, gut = 2, sehr gut = 3 oder 2 + Zusatzvorteil.
 
+**Haken** bedeutet: Das Ziel wird nicht sauber oder nicht kostenlos erreicht. Ein Haken ist eine spuerbare Komplikation, ein Preis oder ein Anschlussproblem, aber noch nicht automatisch eine volle Konsequenz.
+
+- Ein Haken kann Zeit kosten, Aufmerksamkeit ziehen, Position verschlechtern, Material beanspruchen, Folgehandlungen erschweren oder einen kurzen taktischen Nachteil erzeugen.
+- Ein Haken kann in einen **Zustand** kippen, wenn die Lage das plausibel hergibt (z. B. Offen, Instabil, Erschoepft).
+- Ein Haken wird nur dann direkt zu einer **Konsequenz**, wenn die Szene bereits entsprechend schaerfer ist oder genau diese Fallhoehe vorab gesetzt wurde.
+- Die Heftigkeit des Hakens legt die Spielleitung nach bereits gesetztem Standard, Umstaenden und Szenendruck fest.
+
+**Mini-Beispiele fuer Haken:**
+- **Kampf:** Du triffst, aber musst dafuer aus der Deckung treten und bist danach **Offen**.
+- **Aktion:** Das Schloss geht auf, aber das Werkzeug nimmt Schaden oder der Vorgang hat zu lange gedauert.
+- **Sozial:** Das Gespraech klappt, aber du gibst dabei etwas von deiner Absicht preis oder veraergerst einen Dritten.
+
 ### 1.5 Teamwork
 
 Meist gibt es einen Hauptakteur. Unterstützung muss konkret und passend sein; sie verbessert je nach Lage Qualität, Tempo, Sicherheit, Position oder Zugriff, statt einfach einen starren Standardbonus zu geben.
 
 ### 1.6 Einsatzlogik für besondere Fähigkeiten [GELOCKT / TESTSTAND]
 
-URoP nutzt im Kern **keinen Ausdauer-Counter**. Manöver, Kräfte, Zauber und Quickhacks werden über drei Ebenen begrenzt:
+Manöver, Kräfte, Zauber und Quickhacks werden über drei Ebenen begrenzt:
 
 1. **Aktionskosten** – was ein Einsatz in der Szene kostet:
 
@@ -131,7 +143,7 @@ Die **Lernkosten** (EP) für besondere Fähigkeiten folgen dem Tier-Raster:
 | T2 | 30 EP |
 | T3 | 50 EP |
 
-Manöver mit Rank-Familien können davon abweichen (→ Abschnitt 4.3).
+Manöver mit Rank-Familien können davon abweichen (→ Abschnitt 4.4).
 
 ### 1.7 Konsequenzen [GELOCKT]
 
@@ -151,16 +163,11 @@ Zusätzliche leichte Konsequenzen kippen in schwer, zusätzliche schwere in krit
 
 Konsequenzen gehören Domänen an: combat, quickhack, gear, cyberware, vehicle, environment, social, mental. Die vollständige Abhandlungsliste steht in `data/URoP_Konsequenzen.json`.
 
-### 1.8 Initiative, Überraschung und Reaktionsökonomie [GELOCKT / ARBEITSSTAND]
+### 1.8 Kampfsimulation im Überblick [GELOCKT / ARBEITSSTAND]
 
-- Initiative wird in konfliktgeladenen Szenen einmal bestimmt und bleibt grundsätzlich bestehen.
-- Der **Initiativanker** hängt vom Szenentyp ab: körperliche Lagen → Körper, taktische/technische Lagen → Geist, soziale Konfrontationen → Präsenz.
-- Überraschte steigen in der Regel erst nach der ersten gegnerischen Aktion sinnvoll ein.
-- Bei Gleichstand zwischen Spielern und gleich starken Gegnern haben Spieler Vorrang.
-- Jede Figur hat pro eigenem Initiativzyklus **ein Reaktionsfenster** für ein volles reaktives Manöver.
-- Das Reaktionsfenster erneuert sich mit der nächsten regulären Handlung der Figur.
-- Pro Auslöser darf eine Figur nur eine reaktive Antwort ansagen; eine Reaktion löst nicht sofort wieder eine neue aus.
-- Normale Gegenwehr ohne volles Manöver verbraucht das Reaktionsfenster nicht automatisch.
+- Initiative, Aktionsökonomie und Reaktionsökonomie sind in der Kampfsimulation gebündelt (siehe Abschnitt 4.1).
+- Kernidee: Initiative bestimmt Reihenfolge, nicht automatisch die Anzahl der Hauptaktionen.
+- Reaktive Manöver laufen über ein Reaktionsfenster pro eigenem Zyklus.
 
 ### 1.9 Widerstände [GELOCKT]
 
@@ -332,7 +339,34 @@ Spezialisierungsbeispiele: Pistole · Gewehr · Schrotflinte · Boxen · Messer 
 
 ## 4. Kampf, Wirkung und Manöver
 
-### 4.1 Was ein volles Manöver ausmacht
+### 4.1 Kampfsimulation (Initiative, Aktionen, Reaktionen) [GELOCKT / ARBEITSSTAND]
+
+- **Kampfrunde:** Richtwert ist etwa 6 Sekunden. Die Runde bleibt ein abstrakter Taktgeber, keine sekundengenaue Simulation.
+- **Initiativewurf:** 3W6 + Initiativanker-Attribut + klare Lage-Modifikatoren.
+- **Initiativanker:** Körper (physischer Konflikt), Geist (taktisch/technisch), Präsenz (soziale Konfrontation).
+- **Wirkung der Initiative:** Sie bestimmt primär die Reihenfolge. Hohe Initiative gibt nicht automatisch zusätzliche Hauptaktionen.
+- **Hauptaktion pro Zyklus:** Jede Figur hat pro eigenem Initiativzyklus eine Hauptaktion.
+- **Freie Handlungen:** Kurze, naheliegende Tätigkeiten ohne starke Wirkung bleiben frei.
+- **2+ Aktionen:** Solche Effekte binden mehrere eigene Zyklen (Aufbau, Kanalisation, Vorbereitung).
+- **Reaktionsfenster:** Pro eigenem Zyklus ein reaktives Manöver; Refresh mit der nächsten regulären eigenen Handlung.
+- **Keine Reaktionskette:** Eine Reaktion erzeugt nicht sofort wieder eine neue Reaktion.
+
+**Größe, Kräfte, Last und Cyberware in der Initiative:**
+- Größe wirkt nur dann als Modifikator, wenn sie in der Szene direkt relevant ist.
+- Belastung, Verletzung oder harte Lagefaktoren können Initiative drücken.
+- Beschleuniger-Cyberware kann Initiative erhöhen, wenn die Ware das explizit vorsieht.
+
+**Sandevistan-/Beschleuniger-Regel (Pilot, TESTSTAND):**
+- Kein dauerhafter Doppelzug.
+- Stattdessen: 1x pro Szene ein Tempoburst (z. B. vorziehen oder kurze Zusatzhandlung), mit klarem Preis (Risiko/Zustand/Konsequenz) je nach Profil.
+
+**Kampfsimulation – noch offen:**
+- Join-in-Mid-Combat, Hold/Delay, Unterbrechen
+- Exakte Tie-Break-Reihenfolge bei mehreren Gleichständen
+- Wann Initiative in langen Szenen neu gewürfelt wird
+- Feintuning, wie Zustände/Cyberware das Reaktionsfenster beeinflussen
+
+### 4.2 Was ein volles Manöver ausmacht
 
 Manöver sind zugespitzte, besondere Anwendungen vorhandenen Könnens. Sie sind von Basisaktionen abgegrenzt durch:
 - besonderes Einsatzfenster oder klares Limit
@@ -343,7 +377,7 @@ Manöver sind zugespitzte, besondere Anwendungen vorhandenen Könnens. Sie sind 
 
 URoP führt aktuell keine Zwischenebene für Optionen oder Techniken. Was kein volles Manöver braucht, bleibt Basisanwendung.
 
-### 4.2 Manöverachsen
+### 4.3 Manöverachsen
 
 | Achse | Arbeitsstand |
 |-------|-------------|
@@ -351,7 +385,7 @@ URoP führt aktuell keine Zwischenebene für Optionen oder Techniken. Was kein v
 | Timing | aktiv · reaktiv · nachsetzend |
 | Hauptrolle | Druck · Kontrolle · Öffnung · Sicherung · Abbruch/Entzug |
 
-### 4.3 Manöver-Familien (Referenzbestand)
+### 4.4 Manöver-Familien (Referenzbestand)
 
 Manöver werden in Rank-Familien (I–III) gelernt. Höhere Ranks sind sequenziell: wer Rank II erwerben will, muss Rank I besitzen. Höhere Ranks ersetzen niedrigere nicht – alle erlernten Ranks bleiben verfügbar. `learn_cost_ep` ist der **einmalige Erwerbspreis** pro Rank. Die Aktionskosten beschreiben den **Einsatzpreis** im Spiel.
 
