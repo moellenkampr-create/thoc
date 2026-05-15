@@ -344,7 +344,38 @@ Sandevistan-/Beschleuniger-Pilotregel:
 - Kein dauerhafter Doppelzug.
 - Stattdessen 1x pro Szene ein Tempoburst (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz) gemaess Profil.
 
-### 7.7 Noch offen (Kampfsimulation) [OFFEN]
+### 7.7 PvP-Wuerfelzustaendigkeit [GELOCKT / TESTSTAND]
+- Gewuerfelt wird von der Figur, die das unmittelbare Risiko traegt.
+- Angriff gegen einen Spieler: Zielspieler wuerfelt.
+- Sozialer Druck gegen einen Spieler: Zielspieler wuerfelt.
+- Neutrale Wettlaeufe ohne direkte Schaedigungsabsicht: Initiator wuerfelt.
+- Druecken beide Spieler gleichzeitig gegeneinander, gilt Austauschlogik: Impuls setzen, ein Wurf fuer den Austausch, dann kann die Gegenseite den naechsten Impuls setzen.
+
+### 7.8 Kampf-Scherenbremse (Koerperwiderstand) [TESTSTAND]
+- Bei Verteidigungswuerfen gegen koerperliche Treffer kann hoher Koerperwiderstand die negative Spreizung begrenzen.
+- Standard-Spreizung bleibt bis zu +2/-2 Stufen um den gesetzten Standard.
+- Hoher Koerperwiderstand: negative Seite auf +1 begrenzen.
+- Sehr hoher Koerperwiderstand: negative Seite auf +0 begrenzen, ausser bei klarer Ueberlegenheit des Angreifers (Schwachstelle, massive Waffe, deutliche Lagevorteile).
+- Diese Bremse gilt nur fuer koerpernahe Kampffolgen; andere Domaenen bleiben unberuehrt.
+
+Tisch-Entscheidungsregel:
+- **Hoher Koerperwiderstand**: mindestens ein klarer Resilienzfaktor traegt (z. B. hohe Konstitution/Koerper, passender Vorteil, robuste Cyberware, gute Schutzlage).
+- **Sehr hoher Koerperwiderstand**: mindestens zwei klare Resilienzfaktoren tragen gleichzeitig und keine klare Schwachstelle ist offen.
+- Bei Unklarheit konservativ entscheiden: zuerst **hoch**, **sehr hoch** nur bei eindeutigem Mehrwert.
+
+Typische Resilienzfaktoren (6er-Referenz):
+- Hohe Konstitution oder klar ueberdurchschnittlicher Koerperwert.
+- Passender Vorteil wie zaeh/abgebrueht/feldroutine-nah.
+- Robuste Schutzlage (passende Ruestung, Deckung, stabile Position).
+- Belastbare Cyberware (z. B. verstaerkte Struktur, Daempfung, Stabilisierung).
+- Guenstige Lage gegen den Angriff (Winkel, Distanz, Vorbereitung).
+- Keine offene Schwachstelle im aktuell angegriffenen Bereich.
+
+Mini-Beispiele:
+- PvP-Schusswechsel: A greift B an, B wuerfelt als Risikotraeger den Konfliktwurf.
+- Standard leichte Konsequenz, B mit hoher Koerperwiderstandslage: schlechter Wurf kippt nicht auf schwer, sondern bleibt bei leicht plus Haken/Zustand.
+
+### 7.9 Noch offen (Kampfsimulation) [OFFEN]
 - Join-in-Mid-Combat, Hold/Delay, Unterbrechen
 - Exakte Tie-Break-Reihenfolge bei mehreren Gleichstaenden
 - Wann Initiative in langen Szenen neu gewuerfelt wird
@@ -381,7 +412,15 @@ Panzerung wird primär über **Zielwahl** und **Schwachstellenlogik** umgangen, 
 ---
 
 ## 10. Kampfwirkung [GELOCKT – Hybrid/Dominanz B per ADR-001]
-Das System nutzt **Hybrid mit Dominanz B** (Waffen-/Rüstungsklassen). Beide Linien bleiben dokumentiert. Die Entscheidung ist getroffen (siehe `archive/ADR-001-Kampfwirkung.md`, nur Referenz).
+URoP nutzt zwei Lesarten fuer Kampfwirkung, aber im Standardfall wird die schnelle Lesart verwendet.
+
+In Klartext:
+- **Linie B (Standard):** Waffe gegen Schutz liefert die Grundwirkung schnell am Tisch.
+- **Linie A (gezielte Ausnahme):** Groessen-/Zielmodell wird genutzt, wenn eine Schwachstelle oder Zielchance klar erspielt wurde.
+- **Dominanz B** bedeutet: Ohne besondere Vorbereitung wird nach Linie B aufgeloest.
+- Beide Linien nutzen dieselbe Wirkungsleiter (kein zweites Schadenssystem).
+
+Die Entscheidung ist getroffen (siehe `archive/ADR-001-Kampfwirkung.md`, nur Referenz).
 
 Zwei Linien wurden abgewogen:
 
@@ -403,7 +442,15 @@ Zwei Linien wurden abgewogen:
 
 **Entschieden (ADR-001):** Das System nutzt Hybrid mit Dominanz B. Linie B liefert die schnelle Grundwirkung; Linie A darf per Fiktions-Override Vorrang bekommen, wenn eine klar erspielte Schwachstelle oder Zielchance vorliegt (Vorwissen, Vorbereitung, Position, gelungenes Setup). Beide Linien nutzen dieselbe Wirkungsleiter.
 
-### 10.1 Tischregel bei Linienkonflikt [ARBEITSSTAND]
+### 10.1 Druckstufen lesen [GELOCKT / TESTSTAND]
+- **Reduzierter Druck:** kurzer Nachteil ohne volle Folgewirkung (z. B. Position schlechter, Tempo gebremst, naechster Schritt erschwert). Kein automatischer Zustand und keine automatische Konsequenz.
+- **Druck:** spuerbare taktische Belastung (klarer Lageverlust oder kurzer Zustand wie Offen/Instabil). Wenn die Szene bereits scharf ist oder Druck schon besteht, kann auf leichte Konsequenz kippen.
+
+Mini-Beispiele:
+- **Reduzierter Druck:** Trefferlinie knapp verfehlt; Ziel muss Position korrigieren und hat fuer den naechsten Schritt schlechteren Winkel.
+- **Druck:** Treffer bringt das Ziel kurz aus dem Takt (z. B. Offen). In bereits scharfer Lage kann das als leichte Konsequenz gelesen werden.
+
+### 10.2 Tischregel bei Linienkonflikt [ARBEITSSTAND]
 Wenn beide Linien anwendbar sind, gilt folgende Reihenfolge:
 1. **Standard:** Linie B liefert die schnelle Grundwirkung.
 2. **Fiktions-Override:** Linie A darf Vorrang bekommen, wenn eine klare, erspielte Schwachstelle oder Zielchance vorliegt (z. B. Vorwissen, Vorbereitung, Position, gelungenes Setup).

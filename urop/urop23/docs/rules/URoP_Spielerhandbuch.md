@@ -100,6 +100,36 @@ Jede Figur hat **1 Reaktionsfenster pro eigenem Zyklus**. Es wird verbraucht, we
 - Kein dauerhafter zweiter Zug pro Runde.
 - Stattdessen typischerweise **1 Tempoburst pro Szene** (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz).
 
+### PvP und ein Wurf pro Austausch
+- Es würfelt die Figur, die das unmittelbare Risiko trägt.
+- Angriff auf einen Spieler: Zielspieler würfelt.
+- Sozialer Druck auf einen Spieler: Zielspieler würfelt.
+- Neutrale Wettläufe ohne direkte Schädigung: Initiator würfelt.
+- Bei gleichzeitigem Gegendrücken gilt: ein Austausch = ein Wurf; danach kann die Gegenseite den nächsten Impuls setzen.
+
+### Körperwiderstand als Scherenbremse (Kampf)
+- Hoher Körperwiderstand kann die negative Eskalation bei Treffern begrenzen.
+- Standardspreizung bleibt +/-2 um den gesetzten Standard.
+- Hoher Körperwiderstand: negative Seite auf +1 begrenzen.
+- Sehr hoher Körperwiderstand: negative Seite auf +0 begrenzen (außer bei klarer Überlegenheit des Angreifers).
+
+Faustregel am Tisch:
+- **Hoch**: ein klarer Resilienzfaktor trägt.
+- **Sehr hoch**: zwei klare Resilienzfaktoren tragen gleichzeitig und keine offene Schwachstelle liegt vor.
+- Bei Unklarheit erst **hoch** nutzen.
+
+Typische Resilienzfaktoren:
+- Hohe Konstitution/Körper
+- Passender Vorteil (zäh/abgebrüht)
+- Robuste Schutzlage (Rüstung/Deckung)
+- Belastbare Cyberware
+- Günstige Lage (Winkel, Distanz, Vorbereitung)
+- Keine offene Schwachstelle
+
+Mini-Beispiele:
+- A schießt auf B: B würfelt als Risikoträger. Guter Wurf senkt die Wirkung.
+- Standard wäre leichte Konsequenz: Mit hoher Körperwiderstandslage bleibt ein schlechter Wurf bei leicht plus Haken/Zustand statt auf schwer zu kippen.
+
 ---
 
 ## 🎪 Konsequenzen
@@ -301,6 +331,14 @@ Nicht alles ist Erfolg/Scheitern. **Teilerfolg** ist oft spannender:
 | 3 | Leichte Konsequenz | Machete, Sturmgewehr | Leichte bis schwere Konsequenz |
 | 4 | Schwere Konsequenz | Battle Rifle, Granate | Schwere Konsequenz |
 | 5 | Kritisch | Raketenwerfer 7.62 AP | Kritische Konsequenz |
+
+Kurz gelesen:
+- **Reduzierter Druck** = kurzer Nachteil, aber noch keine volle Folgewirkung (z. B. schlechtere Position, weniger Tempo, naechster Schritt schwerer).
+- **Druck** = spuerbare taktische Belastung (klarer Lageverlust oder kurzer Zustand). In bereits scharfer Lage kann das in leichte Konsequenz kippen.
+
+Mini-Beispiele:
+- **Reduzierter Druck:** Du musst Deckung wechseln und verlierst den guten Schusswinkel fuer den naechsten Zug.
+- **Druck:** Du bist kurz **Offen**; wenn die Lage bereits hart ist, wird daraus eine leichte Konsequenz.
 
 ## Facetten und ihr Einfluss
 | Facetten-Wert | Einfluss auf Nebenfolgen | Beispiel |

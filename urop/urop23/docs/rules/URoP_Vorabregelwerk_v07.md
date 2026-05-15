@@ -183,11 +183,13 @@ Basiskern nutzt abstrakte Größenstufen **G0–G9** mit Mensch = G3.
 
 Angriffe können sich richten auf: Gesamtziel · Teilbereich · Subsystem · Schwachstelle.
 
-**Kampfwirkungslinie** [ENTSCHIEDEN per ADR-001]: Das System nutzt **Hybrid mit Dominanz B** (Waffen-/Rüstungsklassen):
-- **Standard:** Linie B (Waffe vs. Schutz) liefert die schnelle Grundwirkung.
-- **Fiktions-Override:** Linie A (Größen-/Zielmodell) darf Vorrang bekommen, wenn eine klar erspielte Schwachstelle oder Zielchance vorliegt (Vorwissen, Vorbereitung, Position, gelungenes Setup).
-- **Preis für Override:** höhere Schwelle, Zusatzrisiko oder Setup-Aufwand; bei Fehlschlag entstehen klare Nachteile.
-- Beide Linien nutzen dieselbe Wirkungsleiter – kein separates Schadenssystem.
+**Kampfwirkung** [ENTSCHIEDEN per ADR-001] in Klartext:
+- URoP nutzt zwei Lesarten, aber im Alltag gilt zuerst die schnelle Lesart.
+- **Linie B (Standard):** Waffe gegen Schutz ergibt die Grundwirkung am schnellsten.
+- **Linie A (gezielte Ausnahmen):** Größen-/Zielmodell greift, wenn eine Schwachstelle oder Zielchance klar erspielt wurde.
+- **Dominanz B** bedeutet: Ohne besondere Vorbereitung wird nach Linie B aufgelöst.
+- Wenn Linie A genutzt wird, kostet das etwas (höhere Hürde, Zusatzrisiko oder Setup-Aufwand).
+- Beide Linien landen auf derselben Wirkungsleiter, es gibt also kein zweites Schadenssystem.
 
 | Wirkungswert | Lesart |
 |-------------|--------|
@@ -196,6 +198,14 @@ Angriffe können sich richten auf: Gesamtziel · Teilbereich · Subsystem · Sch
 | 3 | Leichte Konsequenz |
 | 4 | Schwere Konsequenz |
 | 5 | Kritische Konsequenz |
+
+**Was heißt reduzierter Druck bzw. Druck konkret?**
+- **Reduzierter Druck (1):** kurzer Nachteil ohne volle Folgewirkung. Typisch: Position verschlechtert, Ziel kurz gebremst, nächster Schritt wird schwieriger. Noch kein automatischer Zustand oder Konsequenz.
+- **Druck (2):** spürbare taktische Belastung. Typisch: klarer Lageverlust oder ein kurzer Zustand (z. B. Offen/Instabil). Wenn die Szene schon scharf ist oder Druck bereits besteht, kann auf **leichte Konsequenz** kippen.
+
+**Mini-Beispiele:**
+- **Reduzierter Druck:** Ein Schuss streift knapp vorbei, die Figur muss Deckung wechseln und verliert den sauberen Winkel fuer die naechste Aktion.
+- **Druck:** Ein Treffer drueckt die Figur sichtbar aus dem Rhythmus; sie ist kurz **Offen**. In bereits eskalierter Lage kann derselbe Treffer als **leichte Konsequenz** gelesen werden.
 
 ---
 
@@ -359,6 +369,37 @@ Spezialisierungsbeispiele: Pistole · Gewehr · Schrotflinte · Boxen · Messer 
 **Sandevistan-/Beschleuniger-Regel (Pilot, TESTSTAND):**
 - Kein dauerhafter Doppelzug.
 - Stattdessen: 1x pro Szene ein Tempoburst (z. B. vorziehen oder kurze Zusatzhandlung), mit klarem Preis (Risiko/Zustand/Konsequenz) je nach Profil.
+
+**PvP-Würfelzuständigkeit (GELOCKT / TESTSTAND):**
+- Gewürfelt wird von der Figur, die das unmittelbare Risiko trägt.
+- Angriff gegen einen Spieler: der Zielspieler würfelt (Verteidigung als aktiver Konfliktwurf).
+- Sozialer Druck gegen einen Spieler: der Zielspieler würfelt (z. B. über passenden Widerstand).
+- Neutrale Wettläufe ohne direkte Schädigung: der Initiator würfelt.
+- Wenn beide Spieler gleichzeitig gegeneinander drücken, gilt Austauschlogik: Impuls setzen, ein Wurf für diesen Austausch, danach kann die Gegenseite den nächsten Impuls setzen.
+
+**Kampf-Scherenbremse durch Körperwiderstand (TESTSTAND):**
+- Bei Verteidigungswürfen gegen körperliche Treffer kann hoher Körperwiderstand die negative Spreizung begrenzen.
+- Standard-Spreizung bleibt bis zu +2/-2 Stufen um den gesetzten Standard.
+- Mit hoher Körperwiderstandslage kann die negative Seite auf +1 begrenzt werden.
+- Mit sehr hoher Körperwiderstandslage kann die negative Seite auf +0 begrenzt werden, außer bei klarer Überlegenheit des Angreifers (erspielte Schwachstelle, massive Waffe, deutliche Lagevorteile).
+- Diese Bremse gilt nur für körpernahe Kampffolgen und ändert keine allgemeinen Widerstandsproben in anderen Domänen.
+
+**Tisch-Entscheidungsregel (hoch vs. sehr hoch):**
+- **Hoher Körperwiderstand** liegt vor, wenn mindestens ein klarer Resilienzfaktor trägt (z. B. hohe Konstitution/Körper, passender Vorteil, robuste Cyberware, gute Schutzlage).
+- **Sehr hoher Körperwiderstand** liegt vor, wenn mindestens zwei klare Resilienzfaktoren gleichzeitig tragen und keine klare Schwachstelle offen ist.
+- Bei Unklarheit gilt konservativ: erst **hoch** ansetzen; **sehr hoch** nur bei eindeutigem Mehrwert.
+
+**Typische Resilienzfaktoren (6er-Referenz):**
+- Hohe Konstitution oder klar überdurchschnittlicher Körperwert.
+- Passender Vorteil wie zäh/abgebrüht/feldroutine-nah.
+- Robuste Schutzlage (passende Rüstung, Deckung, stabile Position).
+- Belastbare Cyberware (z. B. verstärkte Struktur, Dämpfung, Stabilisierung).
+- Günstige Lage gegen den Angriff (Winkel, Distanz, Vorbereitung).
+- Keine offene Schwachstelle im aktuell angegriffenen Bereich.
+
+**Mini-Beispiele (PvP + Scherenbremse):**
+1. **Spieler A schießt auf Spieler B:** B trägt das Risiko und würfelt die Verteidigung. Bei gutem Ergebnis sinkt die Wirkung, bei sehr gutem kann sie auf Druck fallen.
+2. **Spieler B mit hoher Körperwiderstandslage:** Standard wäre leichte Konsequenz. Schlechter Wurf würde normalerweise auf schwere Konsequenz steigen; mit Scherenbremse bleibt es bei leichter Konsequenz plus Haken/Zustand.
 
 **Kampfsimulation – noch offen:**
 - Join-in-Mid-Combat, Hold/Delay, Unterbrechen
