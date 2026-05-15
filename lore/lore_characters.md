@@ -327,6 +327,20 @@ source: lore_db.md
 - Weltplot-Note: Die Saburo-Ermordung und Takamuras Praesenz bei Vik laufen parallel zu den THoC-Ereignissen; aktive Einbindung des Trios in diesen Strang ist bisher nicht vorgesehen.
 **ARBEITSSTAND**
 
+### V
+**ARBEITSSTAND**
+- Alter: **28**.
+- Herkunft: Ex-Nomade mit **Bakker**-Hintergrund; nach Uebergang der Bakkers in die **Snake Nation** aus dem Clan-Kontext ausgestiegen und nach Night City gegangen.
+- In Night City trifft V auf **Jackie Wells**; beide arbeiten etwa ein Jahr als enges Duo zusammen.
+- Misty beschreibt Jackie und V als "Seelenverwandte".
+- Duo-Profil V/Jackie: gemeinsame Auftraege, Feiern, Trinken, Selbstverteidigung; bei Bedarf auch harte Gewalt bis hin zu Toetungen.
+- V gilt als sehr ordentlicher Fahrer und als guter Schuetze.
+- V kennt Schmuggelrouten und ist im Umgang grundsaetzlich recht zugaenglich.
+- Verbindungsnetz: **Misty** und **Vik** sind seit etwa derselben Phase im engen Umfeld wie Jackie.
+- Folgelast aus der Bakker-Sache: deutlich reduzierte Bereitschaft, sich auf Nomadenpolitik und Nomadenprobleme einzulassen.
+- Weltplot-Rahmen (parallel, ARBEITSSTAND): Nach dem Arasaka-Heist verwundet bei Vik; Rueckkehr ins H10 am 2077-07-14, ab 2077-07-15 wieder aktiv.
+- Offener Hook bleibt getrennt gefuehrt: V/George-Aehnlichkeit und spaetere Verwicklungen sind kein gesetzter Kanonpfad.
+
 ### Walter Frederick Henshaw
 - Nach aussen disziplinierter, traditionsbewusster Konzernpatriarch; nach innen zunehmend ideologischer **Arasaka-Fundamentalist**.
 - Saburo Arasaka gilt ihm nicht nur als Konzernchef, sondern als Ordnungsprinzip; **Yorinobu** ist fuer ihn als Nachfolger untragbar, **Hanako** hoechstens stuetzende Dynastietraegerin.
