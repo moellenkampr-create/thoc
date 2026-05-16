@@ -80,14 +80,19 @@ Im Konflikt wird jeder mit dem passenden Attribut geprüft:
 
 Der **Spielleiter sagt an**, welches Attribut in dieser Szene zählt.
 
-Initiativewurf:
-- **3W6 + Initiativanker-Attribut + klare Lage-Modifikatoren**
+Inibasis:
+- **Initiativanker-Attribut + feste Modi**
+
+Initiative als Vergleichsprobe:
+- Spieler würfeln eine normale Probe gegen den Vergleichswert (gegnerische Inibasis + Modi).
+- Bei Lagewert 0 ist 9-12 der Standardausgang (normaler Initiativslot).
+- Schlecht/schwach = spaeter, gut/sehr gut = frueher.
 
 ### Überraschung
 Wer überraschte Gegner hat, agiert erste Runde zuerst (oder sofort ohne Gegenwehr).
 
 ### Der Kampf-Rhythmus
-1. Schnellere Initiative agiert zuerst
+1. Fruehere Initiative agiert zuerst (aus der Vergleichsprobe)
 2. Eine Kampfrunde dauert im Regelfall **~6 Sekunden** (abstrakter Taktgeber)
 3. Jeder hat pro eigenem Zyklus **1 Hauptaktion**
 4. **2+ Aktionen** binden mehrere eigene Zyklen (Aufbau/Vorbereitung)
@@ -98,7 +103,7 @@ Jede Figur hat **1 Reaktionsfenster pro eigenem Zyklus**. Es wird verbraucht, we
 
 ### Tempo durch Cyberware (z. B. Sandevistan)
 - Kein dauerhafter zweiter Zug pro Runde.
-- Stattdessen typischerweise **1 Tempoburst pro Szene** (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz).
+- Stattdessen typischerweise **1 Tempoburst pro Kampf** (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz).
 
 ### PvP und ein Wurf pro Austausch
 - Es würfelt die Figur, die das unmittelbare Risiko trägt.

@@ -352,8 +352,11 @@ Spezialisierungsbeispiele: Pistole · Gewehr · Schrotflinte · Boxen · Messer 
 ### 4.1 Kampfsimulation (Initiative, Aktionen, Reaktionen) [GELOCKT / ARBEITSSTAND]
 
 - **Kampfrunde:** Richtwert ist etwa 6 Sekunden. Die Runde bleibt ein abstrakter Taktgeber, keine sekundengenaue Simulation.
-- **Initiativewurf:** 3W6 + Initiativanker-Attribut + klare Lage-Modifikatoren.
+- **Inibasis:** Initiativanker-Attribut + feste Modi aus Lage/Profil.
+- **Initiative als Vergleichsprobe:** Spieler wuerfeln eine normale Probe gegen den Vergleichswert (gegnerische Inibasis + Modi).
 - **Initiativanker:** Körper (physischer Konflikt), Geist (taktisch/technisch), Präsenz (soziale Konfrontation).
+- **Standard bei Lagewert 0:** 9-12 bedeutet normaler Initiativslot (gleichauf).
+- **Schere um den Standard:** schlechte Ergebnisse = spaeter, gute Ergebnisse = frueher; keine automatische Zusatzaktion.
 - **Wirkung der Initiative:** Sie bestimmt primär die Reihenfolge. Hohe Initiative gibt nicht automatisch zusätzliche Hauptaktionen.
 - **Hauptaktion pro Zyklus:** Jede Figur hat pro eigenem Initiativzyklus eine Hauptaktion.
 - **Freie Handlungen:** Kurze, naheliegende Tätigkeiten ohne starke Wirkung bleiben frei.
@@ -368,7 +371,7 @@ Spezialisierungsbeispiele: Pistole · Gewehr · Schrotflinte · Boxen · Messer 
 
 **Sandevistan-/Beschleuniger-Regel (Pilot, TESTSTAND):**
 - Kein dauerhafter Doppelzug.
-- Stattdessen: 1x pro Szene ein Tempoburst (z. B. vorziehen oder kurze Zusatzhandlung), mit klarem Preis (Risiko/Zustand/Konsequenz) je nach Profil.
+- Stattdessen: 1x pro Kampf ein Tempoburst (z. B. vorziehen oder kurze Zusatzhandlung), mit klarem Preis (Risiko/Zustand/Konsequenz) je nach Profil.
 
 **PvP-Würfelzuständigkeit (GELOCKT / TESTSTAND):**
 - Gewürfelt wird von der Figur, die das unmittelbare Risiko trägt.

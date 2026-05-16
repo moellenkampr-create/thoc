@@ -293,8 +293,13 @@ statt denselben leichten Effekt mehrfach zu stapeln.
 ### 7.2 Initiative [GELOCKT / ARBEITSSTAND]
 Initiative wird in konfliktgeladenen Szenen einmal bestimmt und bleibt grundsaetzlich bestehen.
 
-Initiativewurf:
-- **3W6 + Initiativanker-Attribut + klare Lage-Modifikatoren**
+Inibasis:
+- **Initiativanker-Attribut + feste Modi**
+
+Initiative als Vergleichsprobe:
+- Spieler wuerfeln eine normale Probe gegen den Vergleichswert (**gegnerische Inibasis + Modi**).
+- Bei Lagewert 0 gilt 9-12 als Standardausgang (normaler Initiativslot).
+- Die Schere wirkt wie ueblich: schlecht/schwach = spaeter, gut/sehr gut = frueher.
 
 Initiativanker je Szenentyp:
 - **Körper** fuer physischen Konflikt
@@ -342,7 +347,7 @@ Typische klare Auslöser:
 
 Sandevistan-/Beschleuniger-Pilotregel:
 - Kein dauerhafter Doppelzug.
-- Stattdessen 1x pro Szene ein Tempoburst (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz) gemaess Profil.
+- Stattdessen 1x pro Kampf ein Tempoburst (vorziehen oder kurze Zusatzhandlung) mit klarem Preis (Risiko/Zustand/Konsequenz) gemaess Profil.
 
 ### 7.7 PvP-Wuerfelzustaendigkeit [GELOCKT / TESTSTAND]
 - Gewuerfelt wird von der Figur, die das unmittelbare Risiko traegt.
