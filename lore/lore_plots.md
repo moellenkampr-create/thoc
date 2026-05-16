@@ -175,6 +175,9 @@ source: lore_db.md
 - **Ab 2077-07-15**: V meldet sich bei **Mama Wells**; die Totenfeier fuer **Jackie Wells** wird auf **2077-07-24** geplant.
 - **2077-07-16 (Abend)**: V ist im **Afterlife**, bekommt aber kein Meeting mit **Rogue**.
 - Rogue weiss, dass V am Arasaka-Heist beteiligt war. Sie weiss auch, dass **Dexter DeShawn** nicht mehr auftaucht und vermutlich tot ist; dass Takamura Dexter getoetet hat, ist ihr zu diesem Zeitpunkt nicht bekannt.
+- **2077-07-17**: V lernt **Panam** kennen, lehnt aber Zusammenarbeit ab.
+- Vs Motivlage am 17.07: keine Bereitschaft fuer Nomaden-/Clanprobleme nach dem **Bakker**-Bruch; zusaetzlich Ablehnung gegenueber **Silverhand**.
+- Statt Panam-Pfad entscheidet sich V fuer die **Takamura-/Konzernlinie** des Hauptabenteuers.
 - V aehnelt George optisch auffaellig; moegliche spaetere Verwicklungen sind als Hook vorhanden, aber nicht festgelegt.
 - Ein moeglicher spaeterer Kontakt zwischen dem Trio und V, auch ueber die Aldecaldos, bleibt reiner Plothook / `ARBEITSSTAND`.
 
@@ -207,6 +210,41 @@ source: lore_db.md
 - Als direkter Nachfolgeplot bleibt **"Tim, der Dealer"** aktiv, falls das Trio den Faden weiterverfolgt.
 - Der Jenny-/OS-Pfad gilt nach Donnys Duplikation und erfolgreicher Rettung ebenfalls als **abgeschlossen**.
 - Folgekonflikt bleibt primaer personenbezogen bei Tim (vorsichtigeres Agieren, moegliche Bronco-Rache statt offenem Untertauchen).
+
+### Corporate-Exit / Asset-Eskalation
+**ARBEITSSTAND - RECHTS-/IDENTITAETS- UND KONTROLLPLOT**
+- Der abstrakte Konzernstatus von **Lauri** und **Ely** kippt am **2077-07-17** in einen konkreten Besitz-/Asset-Konflikt.
+- Beide pruefen echte Exit-Wege aus **Arasaka** bzw. **Biotechnica** und erhalten erstmals automatisierte Freikaufwerte statt nur theoretischer Regeln.
+- Aktueller Stand:
+  - **Lauri**: 2 Mio, intern als **besonderes Asset** markiert.
+  - **Ely**: 500k.
+  - **NC-Buergerstatus**: prinzipiell fuer 100k pro Person moeglich, aber an weitere Verfahrensschritte gekoppelt.
+- Plotfunktion:
+  - Ausstieg ist nicht mehr reine Zukunftsidee, sondern erzeugt sofortige Konzernsichtbarkeit.
+  - Das Thema verschiebt sich von "Kann man raus?" zu "Welchen Preis, welche Gegenreaktion und welche Form von Besitzanspruch loest der Versuch aus?"
+- Harte Folgelinien:
+  - Lauris Anfrage triggert sofortige interne Aufmerksamkeit bei **Walter**.
+  - Fuer Lauri wird ein kuenftiges **Arasaka-HR-Gespraech** erzwungen.
+  - **Ely/Biotechnica** bleibt formal weniger eskaliert, kann aber ueber **Bertram** oder HR nachziehen.
+- Dramatischer Kern:
+  - Freiheitswunsch gegen Besitzlogik.
+  - Rechtliche Selbstbestimmung gegen familiär-konzernhafte Definitionsmacht.
+  - Risiko, dass Exit-Versuche nicht nur Kosten offenlegen, sondern die Figuren fuer ihre Konzerne erst wieder aktiv sichtbar machen.
+
+### Panam / Wraiths / Rocky Ridge
+**ARBEITSSTAND - GEWALT- UND LOYALITAETSPLOT**
+- Nachdem **V** den Auftragspfad ablehnt, verschiebt sich die praktische Hilfe fuer **Panam** auf das Trio.
+- Panam sucht bei den **Aldecaldos** Unterstuetzung, verwechselt George zunaechst mit V und entlaedt ihre Frustration in einer Ohrfeige; danach kommt es zur Aufklaerung.
+- Ausgangslage:
+  - **Wraiths** haben Panams Wagen und Merchandise.
+  - Der urspruengliche Treffpunkt mit dem eigentlichen Kunden (**6th Street**) soll am **2077-07-19** abends in **Rocky Ridge** stattfinden.
+  - Panam will **6th Street** fernhalten und stattdessen mit dem Trio einen Hinterhalt gegen die Wraiths legen.
+- Plotfunktion:
+  - Das Trio wird in einen harten Nomaden-/Badlands-Konflikt gezogen, obwohl V genau diesen Pfad verweigert.
+  - Der Strang verbindet operative Action mit einer klaren moralischen Schwelle: **Mitch** und **Scorpion** kommunizieren offen, dass toedliche Gewalt sehr wahrscheinlich ist.
+- Figurenrelevanz:
+  - **George** reagiert am staerksten auf die Kill-Ansage und zieht sich zurueck.
+  - Damit wird Rocky Ridge nicht nur Actionkulisse, sondern ein Test fuer Georges Gewaltgrenze und fuer das gemeinsame Handeln des Trios unter Todesdruck.
 
 ### Band-Entstehungsplot / Club- oder Talentshow-Abend
 **ARBEITSSTAND - SUBPLOT / CORE-IDENTITY-PLOT**
@@ -422,6 +460,26 @@ source: lore_db.md
 - Realistischer Kontaktknoten: Ely als operative Finanzverwalterin des Trios wird zur indirekten Suchoberflaeche.
 - Zeitfenster: moegliche Ankunft der Mutter in NC in den naechsten Tagen nach Elias-Rueckkehr, bewusst under cover.
 - Grundton der Mutterlinie: verdeckte Schutzhilfe statt offener Konfrontation mit Elias.
+- **Neuer Stand 2077-07-17:** Es existiert ein funktionierender verdeckter Kontakt ueber einen auf **Oskar Schmidt** registrierten Phonelink, weil Georges Mutter ihre direkten Verbindungen fuer ueberwacht haelt.
+- Sie befindet sich aktuell in **Europa**, warnt George vor **Elias' Rueckkehr nach NC** und oeffnet mit der **Monaco-Einladung in zwei Monaten** einen moeglichen spaeteren Flucht-/Familienkorridor.
+- George meldet ihr die Verlobung mit **Lauri** und **Ely**; die Mutter reagiert warm und will beide bei direkter Gelegenheit kennenlernen.
+
+### 4.9 Corporate-Nachschlag nach Exit-Anfragen
+**ARBEITSSTAND**
+- Fixpunkt: Die Freikaufanfragen vom **2077-07-17** machen aus einem stillen Rechtsproblem eine aktive Konzernspur.
+- Naechste wahrscheinliche Bewegungen:
+  - **Arasaka** reagiert ueber Asset-Management / HR / Walter-Naehe schneller und formeller.
+  - **Biotechnica** koennte indirekter, aber nicht zwingend milder reagieren (z. B. ueber Bertram oder Verwaltungsdruck).
+- Diese Linie soll nicht als sofortige Grosseskalation behandelt werden, sondern als wachsender Verwaltungs-, Besitz- und Loyalitaetsdruck.
+
+### 4.10 Rocky-Ridge-Gewaltschwelle
+**ARBEITSSTAND**
+- Fixpunkt: Fuer den **19.07.** steht mit **Rocky Ridge** ein Hinterhaltsplan gegen die **Wraiths** im Raum.
+- Der Plot ist nicht nur Retrieval-Action, sondern eine klare Schwelle von improvisierter Selbstverteidigung zu bewusst eingeplanter toedlicher Gewalt.
+- Wichtig fuer die Weiterfuehrung:
+  - Wie geschlossen zieht das Trio bei einem Hinterhalt mit?
+  - Wie stark kippt Georges innere Linie, wenn "schiessen, um zu toeten" nicht mehr abstrakt, sondern konkret bevorsteht?
+  - Welche Rolle spielen die Aldecaldos als Absicherung, moralische Rueckendeckung oder spaetere Nachbereitung?
 
 ## 5. Plot-Branch-Board (Pilot)
 **ARBEITSSTAND - SPIELLEITUNGSWERKZEUG**

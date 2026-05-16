@@ -753,3 +753,22 @@ source: lore_db.md
     - **2077-07-16 (Abend)**: V ist im **Afterlife**, bekommt jedoch kein Meeting mit **Rogue**.
     - Rogue ist bekannt, dass V am Arasaka-Heist beteiligt war.
     - Rogue weiss zudem, dass **Dexter DeShawn** nicht mehr auftaucht und vermutlich tot ist; dass **Takamura** Dexter bei Vs Rettung getoetet hat, ist ihr zu diesem Zeitpunkt nicht bekannt.
+
+  - **2077-07-17 (Spielleiter-/Erzaehler-Sicht) [ARBEITSSTAND]**:
+    - Das Trio verbringt den Grossteil des Tages mit **Training**, **KITT-Arbeit** und **Programmierung**.
+    - **George** spricht mit seiner Mutter ueber einen auf **Oskar Schmidt** registrierten Phonelink, weil sie ihre direkten Verbindungen fuer ueberwacht haelt.
+    - Georges Mutter befindet sich aktuell in **Europa**, warnt vor **Elias' Rueckkehr nach NC** und laedt George fuer in zwei Monaten nach **Monaco** ein.
+    - George teilt ihr mit, dass er mit **Lauri** und **Ely** zusammen ist und sich mit ihnen verlobt hat; die Mutter reagiert positiv und moechte beide moeglichst direkt kennenlernen.
+    - **Ely** schickt **Bertram** eine Nachricht, dass es ihr gut geht; Bertram antwortet mit einem Treffwunsch, den Ely bis Sessionende noch nicht gesehen hat.
+    - **Lauri** reagiert stark ablehnend auf Walters Druck und will nicht in den Arasaka-Kontext zurueck.
+    - **Lauri** und **Ely** pruefen konkrete Freikauf-/Exit-Moeglichkeiten aus **Arasaka** und **Biotechnica**, nachdem ihnen klar wird, dass sie nicht nur als Konzernbuergerinnen, sondern auch als **Assets** gefuehrt werden.
+    - Automatisierte Rueckmeldungen: **Lauri = 2 Mio**, **Ely = 500k**; detailierte Aufschluesselungen fehlen.
+    - Buergerstatus in **Night City** waere prinzipiell fuer **100k pro Person** moeglich, plus weitere noetige Verfahrensschritte.
+    - Hintergrundfolge ausserhalb des Figurenwissens: Lauris Anfrage setzt ein internes Flag; **Walter** wird informiert und Lauris Status als **besonderes Asset** zieht ein kuenftiges **Arasaka-HR-Gespraech** nach sich.
+    - **V** hat **Panam** kennengelernt, lehnt aber Zusammenarbeit mit ihr ab; er verweigert einen Nomaden-/Silverhand-Pfad und entscheidet sich fuer die **Takamura-/Konzernlinie**.
+    - **Panam** erscheint stattdessen abends bei den **Aldecaldos**, verwechselt George kurz mit V und schlaegt ihn im Affekt.
+    - Nach Entschuldigung erklaert Panam, dass **Rogue** V zu ihr geschickt hatte, um bei Wagen- und **Wraiths-Merchandise** zu helfen.
+    - Das Trio sagt Panam Hilfe zu.
+    - Planstand fuer **2077-07-19**: Panam will die **Wraiths** nach **Rocky Ridge** locken, die **6th Street** dort fernhalten und mit dem Trio einen Hinterhalt legen.
+    - **Mitch** und **Scorpion** machen dem Trio klar, dass der Einsatz voraussichtlich nicht ohne Tote ablaufen wird und dass toedliche Gewalt erwartet wird.
+    - **George** ist davon am staerksten getroffen und zieht sich frueh ins Zelt zurueck, um ueber die Konsequenzen nachzudenken.
