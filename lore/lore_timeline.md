@@ -732,6 +732,23 @@ source: lore_db.md
       - Das Trio steht als letzter Act auf der Buehne und ist auftrittsbereit; der Songstart ist noch nicht Teil des ausgespielten Blocks.
       - Sleepys stellen. Ely murmelt: *"Ich hoffe wir waren nicht zu laut."* Lauri kichert, schlaeft ein.
 
+    - **Nach dem Auftritt (Lauri-Tagebuch, ARBEITSSTAND)**:
+      - Das Konzert ist ein Erfolg; Publikum tobt.
+      - **Miri** gratuliert dem Trio und **bietet ein Wiederengagement an** (Giggebot noch nicht formell besiegelt).
+      - Zwei Kurokaze-Mitglieder erscheinen zur "Gratulation"; es kommt zu einer spontanen Kampfszene:
+        - Lauri ueberwältigt ihren Gegner, drückt ihn zu Boden, haelt sich aber bewusst zurück ("erinnere mich gerade noch rechtzeitig ihn nicht zu sehr zu reizen").
+        - Ely versucht, ihren Gegner mit ihrem Stiletto zu treffen; George kaempft ebenfalls.
+        - Lauri nutzt ihren Gegner als "Sprungbrett" (wie beim Parkour), kickt den anderen K.O.
+        - Der fliegt durch den Vorhang zum Publikum, wo die Menge ihn anfasst und berührt.
+        - **Miri** zeigt dem anderen, wo sein Kieferknochen ist; einer von Lauri bricht sich Rippen.
+        - **Brick** (Türsteher) begleitet die Kurokaze professionell hinaus.
+      - Lauri und Miri tauschen Kontakte; Gigvereinbarung signalisiert.
+      - Das Trio bringt **Chubby** zu **Vik** (Ripperdoc); Lauri bezahlt vorab, will dort nicht diskutieren.
+      - Chubby lobt Vic und faehrt danach zu den Aldecaldos; Trio faehrt mit Taxi zum H10 (George mit Bike voraus).
+      - **Coach Fred** ist im Hintergrund, trinkt mit Freunden; Lauri ignoriert ihn bewusst.
+      - H10-Nacht ist sehr intim und adrenalingeladen; das Adrenalin bleibt das ganze Nachtprotokoll über präsent.
+      - Nacht wird als "ausgesprochen kurz... oder lang" beschrieben (kaum Schlaf).
+
     - **Spielleiter-/Erzaehler-Sicht (ARBEITSSTAND, Sessionzusammenfassung 15.07 -> 16.07)**:
       - Nachtstart: Trio wacht wegen Lauris Alptraum auf; Bluttrinker-/Macheten-Positionsfrage wird erneut diskutiert.
       - Elys Vater-Mails kippen tonal von streng zu deeskalierend ("Wir sind fuer dich da" / "Lass uns reden").

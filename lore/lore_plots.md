@@ -274,8 +274,18 @@ source: lore_db.md
 - Belegschaft: **Sana Vale**, **Derek "Brick" Moreno**, **Ivo Renn**
 - Club- und Personalinfos sind reine Chatentwicklung; muessen noch per Import in die Hauptlore ueberfuehrt werden.
 
+**Neuer Stand (2077-07-16 post-gig, ARBEITSSTAND)**
+- Erster Buehnenauftritt: massiver Erfolg. Publikumsreaktion extrem positiv.
+- **Miri-Giggebot**: Nach dem Auftritt bietet Miri dem Trio ein Wiederengagement an. Status: noch nicht formell besiegelt, aber Signal ist klar.
+- **Kurokaze-Eskalation**: Zwei Kurokaze-Mitglieder erscheinen post-gig zu einer "Gratulation"; es kommt zu einer Kampfszene, in der das Trio die Gegner deutlich ueberlegen ist. Einer fliegt durch den Vorhang ins Publikum und wird dort von der Menge berührt. Der öffentliche Verlust ist erheblich.
+  - **Offen**: Wie reagiert Kurokaze auf diese öffentliche Niederlage langfristig? Plant der Kern Vergeltung, oder ist der Reputationsverlust zu groß?
+- Ivan (Techniker) hatte weiterhin Kurokaze-Technik gemacht, mit möglicherem Sabotage-Verdacht. Status weiterhin ARBEITSSTAND.
+- Chubby-Versorgung: Vik wird als zuverlässig und schnell eingeschätzt.
+
 **Spaetere Ankopplung (offen)**
 - Medienaufmerksamkeit nach erstem Auftritt moeglich
+- Miri-Giggebot: Wie wird das weiterverfolgt? Wann naechster Slot? Welche Bedingungen?
+- Kurokaze-Nachbeben: Rückmeldungen, mögliche Folgekonkurrenz
 - Einfluss auf NCU-/sozialen Raum
 - Indirekter oder direkter Andockpunkt an den Weltplot
 
