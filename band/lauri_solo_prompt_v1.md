@@ -69,11 +69,14 @@ wieder ich wird
 
 ---
 
-### COPYBOX 2: STYLE
+### COPYBOX 2: STYLE ✅ BESTÄTIGT (2026-05-19)
 
 ```
-German 80s heavy metal, BPM 120-130, rough female contralto lead named Lauri, aggressive and intimate vocals. Dark, dangerously controlled voice over heavy distorted electric guitar, steady electric bass, and pounding drums. Minimal synthesizers. Close-mic'd production with sharp vocal attack and dark reverb. Burning passion, coiled aggression.
+German 80s heavy metal, BPM 90-95, smokey female low contralto lead named Lauri, aggressive and intimate vocals, controlled voice over heavy distorted electric guitar, steady electric bass, and pounding drums, Minimal synthesizers, Close-mic'd production with sharp vocal attack and dark reverb, Burning passion.
 ```
+
+**Zeichenzahl**: ~295 Zeichen (Suno-Limit: 1000) ✅  
+**Status**: FINAL – empirisch getestet und bestätigt ✅
 
 ---
 
@@ -147,22 +150,28 @@ German 80s heavy metal, BPM 120-130, rough female contralto lead named Lauri, po
 Falls erfolgreich (Gesamt ≥ 4):
 
 ```
-[LAURI-VOICE-REFERENCE-V2]
+[LAURI-VOICE-REFERENCE-FINAL]
 Song: Bleibt bei mir
-Prompt-Kern: "German 80s heavy metal, BPM 120-130, rough female contralto lead named Lauri"
-Characteristics: Close-mic'd rough contralto, sharp attack, dark reverb, aggressive-intimate tone
-Generation-Erfolg: ✅ (Stimme passend, Trio-Balance gut, Synthesizer minimal)
-Reuse für George/Ely: Struktur kopiert, Stimm-Namen/BPM angepasst
+Prompt-Kern: "German 80s heavy metal, BPM 90-95, smokey female low contralto lead named Lauri"
+Characteristics: Smokey low contralto, close-mic'd, sharp attack, dark reverb, aggressive-intimate tone, controlled
+Key-Learnings:
+  - BPM 90-95 (nicht 120-130!) = richtige Stimmqualität für Lauri
+  - "smokey" + "low contralto" trifft Timbre besser als "rough contralto"
+  - "controlled" statt "dark, dangerously controlled" = weniger Rauhheit-Overload
+Generation-Erfolg: ✅ BESTÄTIGT (2026-05-19)
+Reuse für Multi-Voice: "smokey female low contralto named Lauri, BPM 90-95" als Stimm-Ankerpunkt
 ```
 
 ---
 
 ## V2 Merkmale (Kompression für Suno)
 
-### ✅ BESTÄTIGT (V1 Test)
-1. **Voice Naming funktioniert**: "Lauri" im Style = stimme war passend ✅
-2. **BPM essentiell**: Ohne BPM zu viel Variabilität. V2 hält BPM 120-130 ✅
-3. **Instrument-Klarheit reduziert Synth**: V1 Synth-Überfluss → V2 limitiert auf "minimal" ✅
+### ✅ BESTÄTIGT (Final – 2026-05-19)
+1. **Voice Naming funktioniert**: "Lauri" im Style = stimme passend ✅
+2. **BPM 90-95 statt 120-130**: Niedrigeres BPM = bessere Stimmqualität für Lauri ✅
+3. **"smokey low contralto"**: Trifft Lauri-Timbre besser als "rough contralto" ✅
+4. **"controlled" statt "dangerously controlled"**: Reduziert Rauhheit-Overload ✅
+5. **Instrument-Klarheit reduziert Synth**: "minimal synthesizers" + Trio = kein Synth-Overload ✅
 
 ### V2 Kompression (Suno 1000-Zeichen-Limit)
 - **V1 Style-Länge**: ~850 Zeichen (zu lang, zu viele Absätze)
@@ -184,4 +193,4 @@ Reuse für George/Ely: Struktur kopiert, Stimm-Namen/BPM angepasst
 
 ---
 
-**Status**: V2 KOMPRIMIERT – Ready für Suno, optimiert für 1000-Zeichen-Limit und Multi-Voice Skalierbarkeit.
+**Status**: ✅ FINAL – Lauri-Stimmprofil bestätigt. BPM 90-95 + smokey low contralto ist der funktionerende Ankerpunkt für alle zukünftigen Lauri-Songs.

@@ -301,4 +301,20 @@ with core trio. Guitars, bass, drums dominate.
 
 ---
 
+## Neue Erkenntnis aus Live-Tests (2026-05-17)
+
+- **Session Carryover beobachtet**: Trotz Verschieben von Songs in den Trash wirkten vorherige Songs auf Stimmcharakter/Vibrato nach.
+- **Empirischer Hinweis**: Ely-Session beeinflusste danach Lauri-Take (Vibrato klang Ely-ähnlicher).
+- **Arbeitsregel für Tests**: Vor jedem neuen Solo-Test `Logout -> Login` durchführen, um Voice-Übertrag zwischen Läufen zu reduzieren.
+- **Hinweis**: Nicht offiziell dokumentiert; aktuell als praxisbasierte THoC-Testregel behandeln.
+
+## Neue Erkenntnis aus Live-Tests (2026-05-19) – Lauri Final
+
+- **BPM und Stimmcharakter hängen zusammen**: BPM 120-130 erzeugte falsche Stimmqualität bei Lauri. BPM 90-95 traf den Charakter. Für tiefe/raue Stimmen = niedrigeres BPM testen.
+- **Timbre-Adjektive sind entscheidend**: "smokey" und "low contralto" lieferte besseres Ergebnis als "rough contralto". Präzisere Timbre-Wörter > generische Adjektive.
+- **"controlled" statt "dangerously controlled"**: Reduziert Rauhheit-Overload ohne Power zu verlieren.
+- **Lauri-Ankerpunkt final bestätigt**: `BPM 90-95, smokey female low contralto named Lauri` ist das stabile Stimmprofil für alle zukünftigen Lauri-Songs.
+
+---
+
 **Status**: EXPERIMENTIEREND – wird durch THoC Test-Ergebnisse aktualisiert.
