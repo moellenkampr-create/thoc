@@ -789,3 +789,15 @@ source: lore_db.md
     - Planstand fuer **2077-07-19**: Panam will die **Wraiths** nach **Rocky Ridge** locken, die **6th Street** dort fernhalten und mit dem Trio einen Hinterhalt legen.
     - **Mitch** und **Scorpion** machen dem Trio klar, dass der Einsatz voraussichtlich nicht ohne Tote ablaufen wird und dass toedliche Gewalt erwartet wird.
     - **George** ist davon am staerksten getroffen und zieht sich frueh ins Zelt zurueck, um ueber die Konsequenzen nachzudenken.
+
+  - **2077-07-17 (Lauri-Sicht, Tagebucheintrag) [ARBEITSSTAND]**:
+    - Tagesstart in enger Trio-Naehe; Ue18-Anteile bleiben Beziehungsmarker und werden nicht als Detailchronik gefuehrt.
+    - Lauris Mailbox bringt massiven Druck durch Walter-Linie: Befehls-/Ultimatumton, Freiheits- und Beziehungsdrohung; Lauri setzt den Marker **"Ich bin out"** und teilt die Dateien mit Ely/George.
+    - Kosten-/Exit-Wahrnehmung verdichtet sich in Lauris Sicht auf einen Freiheitsblock von rund **3 Mio** (Freikauf + NC-Neustatus + Sicherheits-/Folgekosten, noch unscharf).
+    - Lauri erinnert eine alte Szene Walter/Elisa (possessiver Ton "sie gehoert mir"); Zuverlaessigkeit bleibt als Kindheitserinnerung offen.
+    - Ely sendet den Eltern eine neutrale Nachricht (ohne provozierendes Foto); George sendet mit Einverstaendnis ein Verlobungsfoto des Trios an seine Mutter.
+    - Alltagsachse: Einkauf -> Oggy/Jenny/Kids -> Aldecaldo-Umfeld -> Panam-Treffen.
+    - Panam-Lage laut Lauri: Gegenseite als **Raffen Shivs** benannt, Fahrzeug **Warhorse** + Merchandise fuer **6th Street**.
+    - Mitch/Scorpion benoetigen fuer den Einsatz den Kill-Marker (zuerst schiessen, toeten); George reagiert stark belastet.
+    - Lauri denkt als Gegenimpuls ueber **Betaeubungsgeschosse** nach.
+    - Tagebuchverfassungsmarker: wiederholtes Loeschen/Wiederherstellen und Auto-Speichern als Stressindikator.

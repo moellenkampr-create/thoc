@@ -226,6 +226,13 @@ source: lore_db.md
   - Lauris Anfrage triggert sofortige interne Aufmerksamkeit bei **Walter**.
   - Fuer Lauri wird ein kuenftiges **Arasaka-HR-Gespraech** erzwungen.
   - **Ely/Biotechnica** bleibt formal weniger eskaliert, kann aber ueber **Bertram** oder HR nachziehen.
+- Lauris Einzelsicht verschaerft den Druck:
+  - Walters Mailboxton wird als Ultimatum mit Freiheits-/Beziehungsdrohung erlebt.
+  - Lauri setzt intern den klaren Exit-Marker: "Ich bin out".
+  - Historische Walter/Elisa-Erinnerung (possessiver Kontrollton) taucht wieder auf, bleibt aber in Zuverlaessigkeit offen.
+- Finanzrealismus (Trio-Sicht):
+  - Neben 2.0 Mio (Lauri) + 0.5 Mio (Ely) + NC-Neustatuskosten wird bereits mit Reserve/Folgekosten gerechnet; dadurch zirkuliert im Spielgespraech die grobe Marke "rund 3 Mio".
+  - Gleichzeitig zeichnet sich ein spaeterer Freiheits-/Sicherheitsbedarf fuer George ab.
 - Dramatischer Kern:
   - Freiheitswunsch gegen Besitzlogik.
   - Rechtliche Selbstbestimmung gegen familiär-konzernhafte Definitionsmacht.
@@ -236,9 +243,12 @@ source: lore_db.md
 - Nachdem **V** den Auftragspfad ablehnt, verschiebt sich die praktische Hilfe fuer **Panam** auf das Trio.
 - Panam sucht bei den **Aldecaldos** Unterstuetzung, verwechselt George zunaechst mit V und entlaedt ihre Frustration in einer Ohrfeige; danach kommt es zur Aufklaerung.
 - Ausgangslage:
-  - **Wraiths** haben Panams Wagen und Merchandise.
+  - Bezeichnung ist lokal vereinheitlicht: **Wraiths** = gangstrukturierter Zusammenschluss clanloser Nomaden in NC; **Raffen/Raffen Shivs** = Ober-/Milieubezeichnung fuer clanlose Nomaden. Fuer diesen Plot werden beide Labels als dieselbe Gegenseite gefuehrt.
+  - Zielobjekte bleiben identisch: Panams Wagen + Merchandise.
   - Der urspruengliche Treffpunkt mit dem eigentlichen Kunden (**6th Street**) soll am **2077-07-19** abends in **Rocky Ridge** stattfinden.
   - Panam will **6th Street** fernhalten und stattdessen mit dem Trio einen Hinterhalt gegen die Wraiths legen.
+  - Handlungsziel im Sideplot: Panams Assets zurueckholen und Merchandise wieder in einen 6th-Street-Deal ueberfuehren.
+  - Zusatz aus Lauri-Sicht: Hilfe soll moeglichst ohne Sichtbarkeit fuer **Saul** laufen; im Gespraech wird eine **50/50-Logik** fuer den Merchandise-Deal verhandelt, waehrend das Fahrzeug an Panam geht.
 - Plotfunktion:
   - Das Trio wird in einen harten Nomaden-/Badlands-Konflikt gezogen, obwohl V genau diesen Pfad verweigert.
   - Der Strang verbindet operative Action mit einer klaren moralischen Schwelle: **Mitch** und **Scorpion** kommunizieren offen, dass toedliche Gewalt sehr wahrscheinlich ist.
