@@ -1,0 +1,50 @@
+{
+  "id": "urop",
+  "title": "URoP",
+  "description": "URoP System fuer Foundry VTT v14 (unterstuetzende Automatisierung)",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "THoC Team"
+    }
+  ],
+  "esmodules": [
+    "scripts/urop.mjs"
+  ],
+  "styles": [
+    "styles/urop.css"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "documentTypes": {
+    "Actor": {
+      "character": {}
+    },
+    "Item": {
+      "gear": {},
+      "weapon": {},
+      "armor": {},
+      "maneuver": {}
+    }
+  },
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "resources.health"
+}

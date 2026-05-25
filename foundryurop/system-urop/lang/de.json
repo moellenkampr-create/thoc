@@ -1,0 +1,46 @@
+{
+  "URoP": {
+    "CharacterSheet": "URoP Charakterblatt",
+    "ItemSheet": "URoP Itemblatt",
+    "Character": {
+      "Name": "Charaktername"
+    },
+    "Item": {
+      "Name": "Itemname"
+    },
+    "Roll": {
+      "Button3d6": "3W6 Probe",
+      "Generic": "URoP Probe",
+      "InitiativeComparison": "Initiative Vergleichsprobe"
+    },
+    "Tab": {
+      "Overview": "Uebersicht",
+      "Attributes": "Attribute",
+      "Skills": "Fertigkeiten",
+      "Consequences": "Konsequenzen",
+      "Items": "Items",
+      "Maneuvers": "Manoever",
+      "Notes": "Notizen",
+      "Advanced": "Erweitert",
+      "Details": "Details",
+      "Effects": "Effekte"
+    },
+    "Section": {
+      "Initiative": "Initiative",
+      "Resources": "Ressourcen",
+      "Advanced": "Erweiterte Einstellungen"
+    },
+    "Field": {
+      "Anchor": "Initiativanker",
+      "BaseMod": "Inibasis Mod",
+      "Target": "Vergleichswert",
+      "Situational": "Situationsmod"
+    },
+    "ItemType": {
+      "gear": "Ausruestung",
+      "weapon": "Waffe",
+      "armor": "Ruestung",
+      "maneuver": "Manoever"
+    }
+  }
+}

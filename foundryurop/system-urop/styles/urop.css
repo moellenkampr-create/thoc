@@ -1,0 +1,132 @@
+:root {
+  --urop-bg: #11151d;
+  --urop-surface: #1b2230;
+  --urop-surface-2: #253043;
+  --urop-border: #40506b;
+  --urop-accent: #56b3ff;
+  --urop-text: #dce8f8;
+  --urop-muted: #98acc5;
+}
+
+.urop-sheet {
+  color: var(--urop-text);
+  background: radial-gradient(circle at top right, #1f2f45, #0f131b 65%);
+}
+
+.urop-sheet .sheet-header {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 12px;
+  padding: 12px;
+  border-bottom: 1px solid var(--urop-border);
+}
+
+.urop-sheet .profile-img {
+  border-radius: 10px;
+  border: 1px solid var(--urop-border);
+  background: #0a0f16;
+}
+
+.urop-sheet .header-main input[name="name"] {
+  width: 100%;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.urop-sheet .quick-rolls {
+  display: flex;
+  gap: 8px;
+}
+
+.urop-sheet .sheet-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--urop-border);
+}
+
+.urop-sheet .sheet-tabs .item {
+  background: var(--urop-surface);
+  color: var(--urop-text);
+  border: 1px solid var(--urop-border);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.urop-sheet .sheet-tabs .item.active {
+  background: var(--urop-accent);
+  color: #06111f;
+  border-color: #8ed1ff;
+}
+
+.urop-sheet .sheet-body {
+  padding: 12px;
+  overflow: auto;
+  height: calc(100% - 170px);
+}
+
+.urop-sheet .grid {
+  display: grid;
+  gap: 12px;
+}
+
+.urop-sheet .grid.one-col { grid-template-columns: 1fr; }
+.urop-sheet .grid.two-col { grid-template-columns: 1fr 1fr; }
+.urop-sheet .grid.three-col { grid-template-columns: 1fr 1fr 1fr; }
+
+.urop-sheet .card {
+  background: linear-gradient(180deg, var(--urop-surface), var(--urop-surface-2));
+  border: 1px solid var(--urop-border);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.urop-sheet .card h3 {
+  margin: 0 0 8px 0;
+  color: #b8d8ff;
+}
+
+.urop-sheet label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--urop-muted);
+  margin-top: 6px;
+}
+
+.urop-sheet input,
+.urop-sheet select,
+.urop-sheet textarea,
+.urop-sheet button {
+  width: 100%;
+  background: #0e1520;
+  color: var(--urop-text);
+  border: 1px solid var(--urop-border);
+  border-radius: 7px;
+  padding: 6px 8px;
+}
+
+.urop-sheet textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.urop-sheet textarea.large {
+  min-height: 180px;
+}
+
+.urop-sheet .item-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.urop-sheet .type-chip {
+  display: inline-block;
+  width: auto;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--urop-border);
+  background: #0e1d2d;
+  color: #b9dbff;
+}

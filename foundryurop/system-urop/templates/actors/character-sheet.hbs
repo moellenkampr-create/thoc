@@ -1,0 +1,178 @@
+<form class="urop-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="96" width="96"/>
+    <div class="header-main">
+      <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'URoP.Character.Name'}}"/>
+      <div class="quick-rolls">
+        <button type="button" data-action="roll-3d6" data-formula="3d6" data-label="{{localize 'URoP.Roll.Generic'}}">{{localize "URoP.Roll.Button3d6"}}</button>
+        <button type="button" data-action="roll-initiative">{{localize "URoP.Roll.InitiativeComparison"}}</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="overview">{{localize "URoP.Tab.Overview"}}</a>
+    <a class="item" data-tab="attributes">{{localize "URoP.Tab.Attributes"}}</a>
+    <a class="item" data-tab="skills">{{localize "URoP.Tab.Skills"}}</a>
+    <a class="item" data-tab="consequences">{{localize "URoP.Tab.Consequences"}}</a>
+    <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
+    <a class="item" data-tab="maneuvers">{{localize "URoP.Tab.Maneuvers"}}</a>
+    <a class="item" data-tab="notes">{{localize "URoP.Tab.Notes"}}</a>
+    <a class="item" data-tab="advanced">{{localize "URoP.Tab.Advanced"}}</a>
+  </nav>
+
+  <section class="sheet-body">
+    <div class="tab" data-group="primary" data-tab="overview">
+      <div class="grid two-col">
+        <div class="card">
+          <h3>{{localize "URoP.Section.Initiative"}}</h3>
+          <label>{{localize "URoP.Field.Anchor"}}</label>
+          <select name="system.initiative.anchor">
+            <option value="koerper" {{#if (uropEq actor.system.initiative.anchor "koerper")}}selected{{/if}}>Koerper</option>
+            <option value="geist" {{#if (uropEq actor.system.initiative.anchor "geist")}}selected{{/if}}>Geist</option>
+            <option value="praesenz" {{#if (uropEq actor.system.initiative.anchor "praesenz")}}selected{{/if}}>Praesenz</option>
+          </select>
+          <label>{{localize "URoP.Field.BaseMod"}}</label>
+          <input type="number" name="system.initiative.baseMod" value="{{actor.system.initiative.baseMod}}"/>
+          <label>{{localize "URoP.Field.Target"}}</label>
+          <input type="number" name="system.initiative.target" value="{{actor.system.initiative.target}}"/>
+          <label>{{localize "URoP.Field.Situational"}}</label>
+          <input type="number" name="system.initiative.situational" value="{{actor.system.initiative.situational}}"/>
+        </div>
+
+        <div class="card">
+          <h3>{{localize "URoP.Section.Resources"}}</h3>
+          <label>EP gesamt</label>
+          <input type="number" name="system.resources.epTotal" value="{{actor.system.resources.epTotal}}"/>
+          <label>EP ausgegeben</label>
+          <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
+          <label>Druckstatus</label>
+          <select name="system.pressure.state">
+            <option value="none" {{#if (uropEq actor.system.pressure.state "none")}}selected{{/if}}>Kein Druck</option>
+            <option value="reduced" {{#if (uropEq actor.system.pressure.state "reduced")}}selected{{/if}}>Reduzierter Druck</option>
+            <option value="pressure" {{#if (uropEq actor.system.pressure.state "pressure")}}selected{{/if}}>Druck</option>
+          </select>
+          <label>Notiz</label>
+          <textarea name="system.pressure.notes">{{actor.system.pressure.notes}}</textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="attributes">
+      <div class="grid three-col">
+        <div class="card">
+          <h3>Attribute</h3>
+          <label>Koerper</label><input type="number" name="system.attributes.koerper.value" value="{{actor.system.attributes.koerper.value}}"/>
+          <label>Geist</label><input type="number" name="system.attributes.geist.value" value="{{actor.system.attributes.geist.value}}"/>
+          <label>Praesenz</label><input type="number" name="system.attributes.praesenz.value" value="{{actor.system.attributes.praesenz.value}}"/>
+        </div>
+
+        <div class="card">
+          <h3>Facetten I</h3>
+          <label>Staerke</label><input type="number" name="system.facets.staerke" value="{{actor.system.facets.staerke}}"/>
+          <label>Grobmotorik</label><input type="number" name="system.facets.grobmotorik" value="{{actor.system.facets.grobmotorik}}"/>
+          <label>Feinmotorik</label><input type="number" name="system.facets.feinmotorik" value="{{actor.system.facets.feinmotorik}}"/>
+          <label>Konstitution</label><input type="number" name="system.facets.konstitution" value="{{actor.system.facets.konstitution}}"/>
+          <label>Analyse</label><input type="number" name="system.facets.analyse" value="{{actor.system.facets.analyse}}"/>
+          <label>Willenskraft</label><input type="number" name="system.facets.willenskraft" value="{{actor.system.facets.willenskraft}}"/>
+        </div>
+
+        <div class="card">
+          <h3>Facetten II</h3>
+          <label>Aufmerksamkeit</label><input type="number" name="system.facets.aufmerksamkeit" value="{{actor.system.facets.aufmerksamkeit}}"/>
+          <label>Intuition</label><input type="number" name="system.facets.intuition" value="{{actor.system.facets.intuition}}"/>
+          <label>Ausdruck</label><input type="number" name="system.facets.ausdruck" value="{{actor.system.facets.ausdruck}}"/>
+          <label>Empathie</label><input type="number" name="system.facets.empathie" value="{{actor.system.facets.empathie}}"/>
+          <label>Dominanz</label><input type="number" name="system.facets.dominanz" value="{{actor.system.facets.dominanz}}"/>
+          <label>Resonanz</label><input type="number" name="system.facets.resonanz" value="{{actor.system.facets.resonanz}}"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="skills">
+      <div class="grid two-col">
+        <div class="card">
+          <h3>Skills</h3>
+          <label>Athletik</label><input type="number" name="system.skills.athletik" value="{{actor.system.skills.athletik}}"/>
+          <label>Nahkampf</label><input type="number" name="system.skills.nahkampf" value="{{actor.system.skills.nahkampf}}"/>
+          <label>Fernkampf</label><input type="number" name="system.skills.fernkampf" value="{{actor.system.skills.fernkampf}}"/>
+          <label>Heimlichkeit</label><input type="number" name="system.skills.heimlichkeit" value="{{actor.system.skills.heimlichkeit}}"/>
+          <label>Wahrnehmung</label><input type="number" name="system.skills.wahrnehmung" value="{{actor.system.skills.wahrnehmung}}"/>
+          <label>Einfluss</label><input type="number" name="system.skills.einfluss" value="{{actor.system.skills.einfluss}}"/>
+        </div>
+        <div class="card">
+          <h3>Skills (Fortsetzung)</h3>
+          <label>Technik</label><input type="number" name="system.skills.technik" value="{{actor.system.skills.technik}}"/>
+          <label>Medizin</label><input type="number" name="system.skills.medizin" value="{{actor.system.skills.medizin}}"/>
+          <label>Ueberleben</label><input type="number" name="system.skills.ueberleben" value="{{actor.system.skills.ueberleben}}"/>
+          <label>Wissen</label><input type="number" name="system.skills.wissen" value="{{actor.system.skills.wissen}}"/>
+          <label>Fahrzeuge</label><input type="number" name="system.skills.fahrzeuge" value="{{actor.system.skills.fahrzeuge}}"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="consequences">
+      <div class="grid three-col">
+        <div class="card">
+          <h3>Leichte Konsequenzen</h3>
+          <input type="text" name="system.consequences.light.0" value="{{actor.system.consequences.light.[0]}}"/>
+          <input type="text" name="system.consequences.light.1" value="{{actor.system.consequences.light.[1]}}"/>
+          <input type="text" name="system.consequences.light.2" value="{{actor.system.consequences.light.[2]}}"/>
+        </div>
+        <div class="card">
+          <h3>Schwere Konsequenzen</h3>
+          <input type="text" name="system.consequences.heavy.0" value="{{actor.system.consequences.heavy.[0]}}"/>
+          <input type="text" name="system.consequences.heavy.1" value="{{actor.system.consequences.heavy.[1]}}"/>
+        </div>
+        <div class="card">
+          <h3>Kritische Konsequenz</h3>
+          <input type="text" name="system.consequences.critical.0" value="{{actor.system.consequences.critical.[0]}}"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="items">
+      <div class="grid two-col">
+        <div class="card">
+          <h3>Waffen</h3>
+          <ul class="item-list">{{#each itemGroups.weapon as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
+          <h3>Ruestung</h3>
+          <ul class="item-list">{{#each itemGroups.armor as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
+        </div>
+        <div class="card">
+          <h3>Ausruestung</h3>
+          <ul class="item-list">{{#each itemGroups.gear as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="maneuvers">
+      <div class="card">
+        <h3>Manoever</h3>
+        <ul class="item-list">{{#each itemGroups.maneuver as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="notes">
+      <div class="grid one-col">
+        <div class="card">
+          <h3>Zusammenfassung</h3>
+          <textarea name="system.notes.summary">{{actor.system.notes.summary}}</textarea>
+          <h3>Backstory</h3>
+          <textarea class="large" name="system.notes.backstory">{{actor.system.notes.backstory}}</textarea>
+          <h3>SL-Notizen</h3>
+          <textarea name="system.notes.gm">{{actor.system.notes.gm}}</textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="advanced">
+      <div class="card">
+        <h3>{{localize "URoP.Section.Advanced"}}</h3>
+        <p>Vorbereitung fuer spaetere Rechteverwaltung auf Feldebene.</p>
+        <label>Feldsperre aktiv</label>
+        <input type="checkbox" name="system.meta.locking.enabled" {{#if actor.system.meta.locking.enabled}}checked{{/if}}/>
+      </div>
+    </div>
+  </section>
+</form>

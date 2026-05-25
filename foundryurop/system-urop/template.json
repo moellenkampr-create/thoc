@@ -1,0 +1,109 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "character": {
+      "meta": {
+        "locking": {
+          "enabled": false,
+          "fields": {}
+        }
+      },
+      "attributes": {
+        "koerper": { "value": 2 },
+        "geist": { "value": 2 },
+        "praesenz": { "value": 2 }
+      },
+      "facets": {
+        "staerke": 0,
+        "grobmotorik": 0,
+        "feinmotorik": 0,
+        "konstitution": 0,
+        "analyse": 0,
+        "willenskraft": 0,
+        "aufmerksamkeit": 0,
+        "intuition": 0,
+        "ausdruck": 0,
+        "empathie": 0,
+        "dominanz": 0,
+        "resonanz": 0
+      },
+      "skills": {
+        "athletik": 0,
+        "nahkampf": 0,
+        "fernkampf": 0,
+        "heimlichkeit": 0,
+        "wahrnehmung": 0,
+        "einfluss": 0,
+        "technik": 0,
+        "medizin": 0,
+        "ueberleben": 0,
+        "wissen": 0,
+        "fahrzeuge": 0
+      },
+      "initiative": {
+        "anchor": "koerper",
+        "baseMod": 0,
+        "target": 0,
+        "situational": 0,
+        "notes": ""
+      },
+      "pressure": {
+        "state": "none",
+        "notes": ""
+      },
+      "consequences": {
+        "light": ["", "", ""],
+        "heavy": ["", ""],
+        "critical": [""]
+      },
+      "resources": {
+        "epSpent": 0,
+        "epTotal": 600,
+        "health": {
+          "value": 1,
+          "max": 1
+        }
+      },
+      "notes": {
+        "summary": "",
+        "backstory": "",
+        "gm": ""
+      }
+    }
+  },
+  "Item": {
+    "types": ["gear", "weapon", "armor", "maneuver"],
+    "gear": {
+      "tier": "T0",
+      "price": 0,
+      "rulesShort": "",
+      "description": "",
+      "notes": ""
+    },
+    "weapon": {
+      "damageBaseline": 2,
+      "quality": "standard",
+      "range": "",
+      "rulesShort": "",
+      "description": "",
+      "notes": ""
+    },
+    "armor": {
+      "protectionValue": 0,
+      "quality": "standard",
+      "rulesShort": "",
+      "description": "",
+      "notes": ""
+    },
+    "maneuver": {
+      "tier": "T1",
+      "learnCostEp": 15,
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalation": "none",
+      "rulesShort": "",
+      "description": "",
+      "notes": ""
+    }
+  }
+}

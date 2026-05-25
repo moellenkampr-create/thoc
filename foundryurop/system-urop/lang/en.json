@@ -1,0 +1,46 @@
+{
+  "URoP": {
+    "CharacterSheet": "URoP Character Sheet",
+    "ItemSheet": "URoP Item Sheet",
+    "Character": {
+      "Name": "Character Name"
+    },
+    "Item": {
+      "Name": "Item Name"
+    },
+    "Roll": {
+      "Button3d6": "3d6 Check",
+      "Generic": "URoP Check",
+      "InitiativeComparison": "Initiative Comparison Check"
+    },
+    "Tab": {
+      "Overview": "Overview",
+      "Attributes": "Attributes",
+      "Skills": "Skills",
+      "Consequences": "Consequences",
+      "Items": "Items",
+      "Maneuvers": "Maneuvers",
+      "Notes": "Notes",
+      "Advanced": "Advanced",
+      "Details": "Details",
+      "Effects": "Effects"
+    },
+    "Section": {
+      "Initiative": "Initiative",
+      "Resources": "Resources",
+      "Advanced": "Advanced Settings"
+    },
+    "Field": {
+      "Anchor": "Initiative Anchor",
+      "BaseMod": "Base Mod",
+      "Target": "Target Value",
+      "Situational": "Situational Mod"
+    },
+    "ItemType": {
+      "gear": "Gear",
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "maneuver": "Maneuver"
+    }
+  }
+}
