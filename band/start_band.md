@@ -91,6 +91,7 @@ Standard: **INTERPRETATION**
 
 ## 10. Persistente Banddefaults
 - Lyrics standardmaessig auf Deutsch, Englisch nur auf Anforderung
+- Bei deutschen Lyrics Umlaute (ae/oe/ue vermeiden, wenn moeglich) und ss/ß korrekt schreiben, damit Suno die Aussprache und Betonung zuverlaessig interpretiert
 - THoC = Three Hearts of Chrome
 - Kernbesetzung: George, Ely, Lauri
 - Suno-Ausgaben in drei getrennten Teilen: Lyrics, Style, Avoided Styles
