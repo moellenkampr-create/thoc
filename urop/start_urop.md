@@ -98,3 +98,7 @@ Der URoP‑Chat:
 
 Bei ändernden Feldstrukturen (template/sheets/scripts) Migration mitdenken und im
 Migrations-Skelett pflegen: `foundryurop/system-urop/scripts/urop.mjs`.
+
+## 12. Offene Prüfaufgaben (Foundry-Sheet)
+
+- **EP-Neuberechnung prüfen**: Nach Abschluss der Sheet-Überarbeitung (Fertigkeiten, Items, Manöver) sicherstellen, dass der „EP aktualisieren"-Button auf der Übersichtsseite korrekt nach URoP-Regeln rechnet (Attribute + Facetten + Fertigkeiten + Manöverkosten).

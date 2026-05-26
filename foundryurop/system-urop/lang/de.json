@@ -66,6 +66,25 @@
     "Notification": {
       "EPSpentUpdated": "EP ausgegeben aktualisiert: {value}"
     },
+    "Attr": {
+      "KoerperHelp": "Körper – Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung",
+      "GeistHelp": "Geist – Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung",
+      "PraesenzHelp": "Präsenz – Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung"
+    },
+    "Facet": {
+      "StaerkeHelp": "Stärke – rohe Kraft, Hebeln, Tragen, Wucht",
+      "GrobmotorikHelp": "Grobmotorik – große Bewegungskoordination, Sprint, Sprung, Nahkampf-Flow",
+      "FeinmotorikHelp": "Feinmotorik – Präzision, Fingerarbeit, ruhige Hand, feine Werkzeugführung",
+      "KonstitutionHelp": "Konstitution – Belastbarkeit, Erschöpfungsresistenz, Schmerz- und Toxintoleranz",
+      "AnalyseHelp": "Analyse – Muster erkennen, Logik, taktische Bewertung, Schlussfolgerung",
+      "WillenskraftHelp": "Willenskraft – mentale Standfestigkeit, Selbstkontrolle, Stressresistenz, innerer Gegendruck",
+      "AufmerksamkeitHelp": "Aufmerksamkeit – Wahrnehmung, Fokus halten, Reizfilter, situatives Lesen",
+      "IntuitionHelp": "Intuition – schnelle Urteile, Bauchentscheidungen, Lagegefühl, Sinnesintegration",
+      "AusdruckHelp": "Ausdruck – Absicht und Wirkung nach außen tragen, klar kommunizieren, auftreten",
+      "EmpathieHelp": "Empathie – Stimmungen und Motive lesen, soziales Feingehör, resonantes Verstehen",
+      "DominanzHelp": "Dominanz – Macht projizieren, Grenzen setzen, eigenen Willen gegen Widerstand behaupten",
+      "ResonanzHelp": "Resonanz – Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und übernatürlichen Feldern"
+    },
     "ItemType": {
       "gear": "Ausrüstung",
       "weapon": "Waffe",

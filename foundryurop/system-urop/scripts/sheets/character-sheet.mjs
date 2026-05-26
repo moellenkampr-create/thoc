@@ -36,6 +36,18 @@ export class UropCharacterSheet extends ActorSheet {
     html.find('[data-action="roll-urop"]').on("click", this._onRollUrop.bind(this));
     html.find('[data-action="roll-initiative"]').on("click", this._onRollInitiative.bind(this));
     html.find('[data-action="recalc-ep"]').on("click", this._onRecalculateEp.bind(this));
+
+    // Stepper buttons
+    html.find('[data-action="attr-increment"]').on("click", (ev) => this._onStepValue(ev, 1));
+    html.find('[data-action="attr-decrement"]').on("click", (ev) => this._onStepValue(ev, -1));
+    html.find('[data-action="facet-increment"]').on("click", (ev) => this._onStepValue(ev, 1));
+    html.find('[data-action="facet-decrement"]').on("click", (ev) => this._onStepValue(ev, -1));
+
+    // Lock toggle
+    html.find('[data-action="toggle-lock"]').on("click", this._onToggleLock.bind(this));
+
+    // Apply initial lock visual state
+    this._applyLockState(html);
   }
 
   async _onRollUrop(event) {
@@ -120,6 +132,60 @@ export class UropCharacterSheet extends ActorSheet {
     await this.actor.update({ "system.resources.epSpent": epSpent });
 
     ui.notifications.info(game.i18n.format("URoP.Notification.EPSpentUpdated", { value: epSpent }));
+  }
+
+  _applyLockState(html) {
+    html.find('[data-action="toggle-lock"]').each((_, btn) => {
+      const path = btn.dataset.target;
+      const input = html.find(`[name="${path}"]`);
+      const isLocked = input.data("locked") !== false;
+      const steppers = input.closest(".attr-header, .facet-row").find(".stepper-btn");
+
+      if (isLocked) {
+        input.prop("readonly", true);
+        $(btn).removeClass("unlocked").text("🔒");
+        steppers.prop("disabled", true);
+      } else {
+        input.prop("readonly", false);
+        $(btn).addClass("unlocked").text("🔓");
+        steppers.prop("disabled", false);
+      }
+    });
+  }
+
+  _onToggleLock(event) {
+    event.preventDefault();
+    const btn = event.currentTarget;
+    const path = btn.dataset.target;
+    const html = $(this.element);
+    const input = html.find(`[name="${path}"]`);
+    const isCurrentlyLocked = input.prop("readonly");
+    const steppers = input.closest(".attr-header, .facet-row").find(".stepper-btn");
+
+    if (isCurrentlyLocked) {
+      input.prop("readonly", false).data("locked", false);
+      $(btn).addClass("unlocked").text("🔓");
+      steppers.prop("disabled", false);
+    } else {
+      input.prop("readonly", true).data("locked", true);
+      $(btn).removeClass("unlocked").text("🔒");
+      steppers.prop("disabled", true);
+    }
+  }
+
+  async _onStepValue(event, delta) {
+    event.preventDefault();
+    const btn = event.currentTarget;
+    const path = btn.dataset.path;
+    const html = $(this.element);
+    const input = html.find(`[name="${path}"]`);
+
+    if (input.prop("readonly")) return;
+
+    const current = Number(input.val()) || 0;
+    const next = current + delta;
+    input.val(next);
+    await this.actor.update({ [path]: next });
   }
 
   async _onRollInitiative(event) {

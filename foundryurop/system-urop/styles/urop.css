@@ -187,3 +187,147 @@
   background: #0e1d2d;
   color: #b9dbff;
 }
+
+/* ── Attribut-Karte ── */
+.urop-sheet .attr-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.urop-sheet .attr-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.urop-sheet .attr-label {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--urop-accent);
+  cursor: help;
+}
+
+.urop-sheet .attr-divider {
+  border: none;
+  border-top: 1px solid var(--urop-border);
+  margin: 4px 0 6px 0;
+}
+
+/* ── Facetten-Zeile ── */
+.urop-sheet .facet-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.urop-sheet .facet-label {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--urop-muted);
+  cursor: help;
+  white-space: nowrap;
+}
+
+/* ── Stepper (Attribut + Facette) ── */
+.urop-sheet .attr-stepper,
+.urop-sheet .facet-stepper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.urop-sheet .stepper-btn {
+  width: 22px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 5px;
+  border: 1px solid var(--urop-border);
+  background: #0e1520;
+  color: var(--urop-text);
+  cursor: pointer;
+}
+
+.urop-sheet .stepper-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.urop-sheet .attr-value {
+  width: 42px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--urop-accent);
+}
+
+.urop-sheet .facet-value {
+  width: 38px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.urop-sheet .attr-value[readonly],
+.urop-sheet .facet-value[readonly] {
+  opacity: 0.85;
+  border-color: transparent;
+  background: transparent;
+}
+
+/* ── Lock-Button ── */
+.urop-sheet .lock-btn {
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0;
+  font-size: 0.85rem;
+  line-height: 1;
+  border-radius: 5px;
+  border: 1px solid var(--urop-border);
+  background: #0e1520;
+  cursor: pointer;
+}
+
+.urop-sheet .lock-btn.unlocked {
+  border-color: var(--urop-accent);
+  background: #0e2030;
+}
+
+/* ── Hover-Tooltip (für attr-label und facet-label) ── */
+.urop-sheet .hover-help {
+  position: relative;
+}
+
+.urop-sheet .hover-help::after {
+  content: attr(data-help);
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+  width: 240px;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-3px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition-delay: 0.45s;
+  background: #0d1724;
+  border: 1px solid var(--urop-border);
+  border-radius: 7px;
+  padding: 7px 9px;
+  color: var(--urop-text);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  font-weight: normal;
+  white-space: normal;
+}
+
+.urop-sheet .hover-help:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}

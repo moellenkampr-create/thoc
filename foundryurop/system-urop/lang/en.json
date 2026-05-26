@@ -66,6 +66,25 @@
     "Notification": {
       "EPSpentUpdated": "XP spent updated: {value}"
     },
+    "Attr": {
+      "KoerperHelp": "Body – Physique, endurance, movement, close-range assertion",
+      "GeistHelp": "Mind – Analysis, knowledge, tech, planning, controlled processing",
+      "PraesenzHelp": "Presence – Impact, expression, influence, social and metaphysical assertion"
+    },
+    "Facet": {
+      "StaerkeHelp": "Strength – raw force, prying, carrying, impact",
+      "GrobmotorikHelp": "Gross Motor – large movement coordination, sprint, jump, melee flow",
+      "FeinmotorikHelp": "Fine Motor – precision, finger work, steady hand, delicate tool use",
+      "KonstitutionHelp": "Constitution – resilience, fatigue resistance, pain and toxin tolerance",
+      "AnalyseHelp": "Analysis – pattern recognition, logic, tactical assessment, inference",
+      "WillenskraftHelp": "Willpower – mental steadfastness, self-control, stress resistance, inner counter-pressure",
+      "AufmerksamkeitHelp": "Attention – perception, sustaining focus, stimulus filtering, situational reading",
+      "IntuitionHelp": "Intuition – quick judgements, gut decisions, situational feel, sensory integration",
+      "AusdruckHelp": "Expression – projecting intent and effect outward, clear communication, presence",
+      "EmpathieHelp": "Empathy – reading moods and motives, social fine-tuning, resonant understanding",
+      "DominanzHelp": "Dominance – projecting power, setting limits, asserting own will against resistance",
+      "ResonanzHelp": "Resonance – aura, metaphysical radiance, contact with spirits and supernatural fields"
+    },
     "ItemType": {
       "gear": "Gear",
       "weapon": "Weapon",
