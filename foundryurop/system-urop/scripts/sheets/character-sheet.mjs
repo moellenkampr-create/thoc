@@ -33,21 +33,93 @@ export class UropCharacterSheet extends ActorSheet {
   activateListeners(html) {
     super.activateListeners(html);
 
-    html.find('[data-action="roll-3d6"]').on("click", this._onRoll3d6.bind(this));
+    html.find('[data-action="roll-urop"]').on("click", this._onRollUrop.bind(this));
     html.find('[data-action="roll-initiative"]').on("click", this._onRollInitiative.bind(this));
+    html.find('[data-action="recalc-ep"]').on("click", this._onRecalculateEp.bind(this));
   }
 
-  async _onRoll3d6(event) {
+  async _onRollUrop(event) {
     event.preventDefault();
 
-    const formula = event.currentTarget.dataset.formula || "3d6";
     const label = event.currentTarget.dataset.label || game.i18n.localize("URoP.Roll.Generic");
+    const roll = await new Roll("3d6", {}).evaluate();
+    const outcome = this._getProbeOutcome(roll.total);
 
-    const roll = await new Roll(formula, {}).evaluate();
-    await roll.toMessage({
+    await ChatMessage.create({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-      flavor: `${label} (${formula})`
+      content: `<div class="urop-roll-text"><h3>${label}</h3><p><strong>${outcome.title}</strong></p><p>${outcome.text}</p></div>`
     });
+  }
+
+  _getProbeOutcome(total) {
+    if (total <= 5) {
+      return {
+        title: game.i18n.localize("URoP.Roll.Outcome.CritSuccessTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.CritSuccessText")
+      };
+    }
+
+    if (total <= 8) {
+      return {
+        title: game.i18n.localize("URoP.Roll.Outcome.StrongSuccessTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.StrongSuccessText")
+      };
+    }
+
+    if (total <= 11) {
+      return {
+        title: game.i18n.localize("URoP.Roll.Outcome.SuccessTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.SuccessText")
+      };
+    }
+
+    if (total <= 14) {
+      return {
+        title: game.i18n.localize("URoP.Roll.Outcome.MixedTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.MixedText")
+      };
+    }
+
+    if (total <= 17) {
+      return {
+        title: game.i18n.localize("URoP.Roll.Outcome.FailureTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.FailureText")
+      };
+    }
+
+    return {
+      title: game.i18n.localize("URoP.Roll.Outcome.CritFailureTitle"),
+      text: game.i18n.localize("URoP.Roll.Outcome.CritFailureText")
+    };
+  }
+
+  _calculateSpentEp() {
+    const attributes = Object.values(this.actor.system.attributes || {}).reduce(
+      (sum, entry) => sum + Number(entry?.value || 0),
+      0
+    );
+    const facets = Object.values(this.actor.system.facets || {}).reduce(
+      (sum, value) => sum + Number(value || 0),
+      0
+    );
+    const skills = Object.values(this.actor.system.skills || {}).reduce(
+      (sum, value) => sum + Number(value || 0),
+      0
+    );
+    const maneuverEp = Array.from(this.actor.items.values())
+      .filter((item) => item.type === "maneuver")
+      .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
+
+    return Math.max(0, attributes + facets + skills + maneuverEp);
+  }
+
+  async _onRecalculateEp(event) {
+    event.preventDefault();
+
+    const epSpent = this._calculateSpentEp();
+    await this.actor.update({ "system.resources.epSpent": epSpent });
+
+    ui.notifications.info(game.i18n.format("URoP.Notification.EPSpentUpdated", { value: epSpent }));
   }
 
   async _onRollInitiative(event) {

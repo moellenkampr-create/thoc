@@ -80,6 +80,7 @@ Der URoP‑Chat:
 ## 9. Hinweise für die KI
 - keine Lore‑Erfindungen  
 - keine stillen Annahmen  
+- deutsche Begriffe in UI- und Regeltexten immer mit korrekten Umlauten/ß schreiben (ä, ö, ü, Ä, Ö, Ü, ß), keine Umschreibungen mit ae/oe/ue/ss in sichtbaren Texten
 
 ---
 
@@ -92,8 +93,8 @@ Der URoP‑Chat:
 - Foundry-Systempfad: `foundryurop/system-urop/`
 - Update-Workflow und Release-Checkliste: `foundryurop/system-urop/README.md`
 - Laufende Release-Dokumentation: `foundryurop/system-urop/RELEASE_NOTES.md`
-- Manifest-URL fuer Updates in Foundry:
+- Manifest-URL für Updates in Foundry:
 	`https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/system.json`
 
-Bei aendernden Feldstrukturen (template/sheets/scripts) Migration mitdenken und im
+Bei ändernden Feldstrukturen (template/sheets/scripts) Migration mitdenken und im
 Migrations-Skelett pflegen: `foundryurop/system-urop/scripts/urop.mjs`.

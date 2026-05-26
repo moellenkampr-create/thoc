@@ -4,7 +4,7 @@
     <div class="header-main">
       <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'URoP.Character.Name'}}"/>
       <div class="quick-rolls">
-        <button type="button" data-action="roll-3d6" data-formula="3d6" data-label="{{localize 'URoP.Roll.Generic'}}">{{localize "URoP.Roll.Button3d6"}}</button>
+        <button type="button" data-action="roll-urop" data-label="{{localize 'URoP.Roll.Generic'}}">{{localize "URoP.Roll.ButtonUrop"}}</button>
         <button type="button" data-action="roll-initiative">{{localize "URoP.Roll.InitiativeComparison"}}</button>
       </div>
     </div>
@@ -17,7 +17,6 @@
     <a class="item" data-tab="consequences">{{localize "URoP.Tab.Consequences"}}</a>
     <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
     <a class="item" data-tab="maneuvers">{{localize "URoP.Tab.Maneuvers"}}</a>
-    <a class="item" data-tab="notes">{{localize "URoP.Tab.Notes"}}</a>
     <a class="item" data-tab="advanced">{{localize "URoP.Tab.Advanced"}}</a>
   </nav>
 
@@ -25,35 +24,25 @@
     <div class="tab" data-group="primary" data-tab="overview">
       <div class="grid two-col">
         <div class="card">
-          <h3>{{localize "URoP.Section.Initiative"}}</h3>
-          <label>{{localize "URoP.Field.Anchor"}}</label>
-          <select name="system.initiative.anchor">
-            <option value="koerper" {{#if (uropEq actor.system.initiative.anchor "koerper")}}selected{{/if}}>Koerper</option>
-            <option value="geist" {{#if (uropEq actor.system.initiative.anchor "geist")}}selected{{/if}}>Geist</option>
-            <option value="praesenz" {{#if (uropEq actor.system.initiative.anchor "praesenz")}}selected{{/if}}>Praesenz</option>
-          </select>
-          <label>{{localize "URoP.Field.BaseMod"}}</label>
-          <input type="number" name="system.initiative.baseMod" value="{{actor.system.initiative.baseMod}}"/>
-          <label>{{localize "URoP.Field.Target"}}</label>
-          <input type="number" name="system.initiative.target" value="{{actor.system.initiative.target}}"/>
-          <label>{{localize "URoP.Field.Situational"}}</label>
-          <input type="number" name="system.initiative.situational" value="{{actor.system.initiative.situational}}"/>
+          <h3>{{localize "URoP.Section.Resources"}}</h3>
+          <label>{{localize "URoP.Field.EPTotal"}}</label>
+          <input type="number" name="system.resources.epTotal" value="{{actor.system.resources.epTotal}}"/>
+          <div class="field-header">
+            <label>{{localize "URoP.Field.EPSpent"}}</label>
+            <span class="hover-help" data-help="{{localize 'URoP.Help.EPSpentRecalc'}}">?</span>
+          </div>
+          <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
+          <button type="button" data-action="recalc-ep" class="secondary-action">{{localize "URoP.Field.RecalculateEP"}}</button>
+          <label>{{localize "URoP.Field.Note"}}</label>
+          <textarea name="system.pressure.notes">{{actor.system.pressure.notes}}</textarea>
         </div>
 
         <div class="card">
-          <h3>{{localize "URoP.Section.Resources"}}</h3>
-          <label>EP gesamt</label>
-          <input type="number" name="system.resources.epTotal" value="{{actor.system.resources.epTotal}}"/>
-          <label>EP ausgegeben</label>
-          <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
-          <label>Druckstatus</label>
-          <select name="system.pressure.state">
-            <option value="none" {{#if (uropEq actor.system.pressure.state "none")}}selected{{/if}}>Kein Druck</option>
-            <option value="reduced" {{#if (uropEq actor.system.pressure.state "reduced")}}selected{{/if}}>Reduzierter Druck</option>
-            <option value="pressure" {{#if (uropEq actor.system.pressure.state "pressure")}}selected{{/if}}>Druck</option>
-          </select>
-          <label>Notiz</label>
-          <textarea name="system.pressure.notes">{{actor.system.pressure.notes}}</textarea>
+          <h3>{{localize "URoP.Section.OverviewNotes"}}</h3>
+          <label>{{localize "URoP.Field.Appearance"}}</label>
+          <textarea name="system.notes.summary">{{actor.system.notes.summary}}</textarea>
+          <label>{{localize "URoP.Field.Backstory"}}</label>
+          <textarea class="large" name="system.notes.backstory">{{actor.system.notes.backstory}}</textarea>
         </div>
       </div>
     </div>
@@ -62,14 +51,14 @@
       <div class="grid three-col">
         <div class="card">
           <h3>Attribute</h3>
-          <label>Koerper</label><input type="number" name="system.attributes.koerper.value" value="{{actor.system.attributes.koerper.value}}"/>
+          <label>Körper</label><input type="number" name="system.attributes.koerper.value" value="{{actor.system.attributes.koerper.value}}"/>
           <label>Geist</label><input type="number" name="system.attributes.geist.value" value="{{actor.system.attributes.geist.value}}"/>
-          <label>Praesenz</label><input type="number" name="system.attributes.praesenz.value" value="{{actor.system.attributes.praesenz.value}}"/>
+          <label>Präsenz</label><input type="number" name="system.attributes.praesenz.value" value="{{actor.system.attributes.praesenz.value}}"/>
         </div>
 
         <div class="card">
           <h3>Facetten I</h3>
-          <label>Staerke</label><input type="number" name="system.facets.staerke" value="{{actor.system.facets.staerke}}"/>
+          <label>Stärke</label><input type="number" name="system.facets.staerke" value="{{actor.system.facets.staerke}}"/>
           <label>Grobmotorik</label><input type="number" name="system.facets.grobmotorik" value="{{actor.system.facets.grobmotorik}}"/>
           <label>Feinmotorik</label><input type="number" name="system.facets.feinmotorik" value="{{actor.system.facets.feinmotorik}}"/>
           <label>Konstitution</label><input type="number" name="system.facets.konstitution" value="{{actor.system.facets.konstitution}}"/>
@@ -104,7 +93,7 @@
           <h3>Skills (Fortsetzung)</h3>
           <label>Technik</label><input type="number" name="system.skills.technik" value="{{actor.system.skills.technik}}"/>
           <label>Medizin</label><input type="number" name="system.skills.medizin" value="{{actor.system.skills.medizin}}"/>
-          <label>Ueberleben</label><input type="number" name="system.skills.ueberleben" value="{{actor.system.skills.ueberleben}}"/>
+          <label>Überleben</label><input type="number" name="system.skills.ueberleben" value="{{actor.system.skills.ueberleben}}"/>
           <label>Wissen</label><input type="number" name="system.skills.wissen" value="{{actor.system.skills.wissen}}"/>
           <label>Fahrzeuge</label><input type="number" name="system.skills.fahrzeuge" value="{{actor.system.skills.fahrzeuge}}"/>
         </div>
@@ -136,11 +125,11 @@
         <div class="card">
           <h3>Waffen</h3>
           <ul class="item-list">{{#each itemGroups.weapon as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
-          <h3>Ruestung</h3>
+          <h3>Rüstung</h3>
           <ul class="item-list">{{#each itemGroups.armor as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
         </div>
         <div class="card">
-          <h3>Ausruestung</h3>
+          <h3>Ausrüstung</h3>
           <ul class="item-list">{{#each itemGroups.gear as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
         </div>
       </div>
@@ -148,30 +137,42 @@
 
     <div class="tab" data-group="primary" data-tab="maneuvers">
       <div class="card">
-        <h3>Manoever</h3>
+        <h3>Manöver</h3>
         <ul class="item-list">{{#each itemGroups.maneuver as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
       </div>
     </div>
 
-    <div class="tab" data-group="primary" data-tab="notes">
-      <div class="grid one-col">
-        <div class="card">
-          <h3>Zusammenfassung</h3>
-          <textarea name="system.notes.summary">{{actor.system.notes.summary}}</textarea>
-          <h3>Backstory</h3>
-          <textarea class="large" name="system.notes.backstory">{{actor.system.notes.backstory}}</textarea>
-          <h3>SL-Notizen</h3>
-          <textarea name="system.notes.gm">{{actor.system.notes.gm}}</textarea>
-        </div>
-      </div>
-    </div>
-
     <div class="tab" data-group="primary" data-tab="advanced">
-      <div class="card">
-        <h3>{{localize "URoP.Section.Advanced"}}</h3>
-        <p>Vorbereitung fuer spaetere Rechteverwaltung auf Feldebene.</p>
-        <label>Feldsperre aktiv</label>
-        <input type="checkbox" name="system.meta.locking.enabled" {{#if actor.system.meta.locking.enabled}}checked{{/if}}/>
+      <div class="grid two-col">
+        <div class="card">
+          <h3>{{localize "URoP.Section.Initiative"}}</h3>
+          <label>{{localize "URoP.Field.Anchor"}}</label>
+          <select name="system.initiative.anchor">
+            <option value="koerper" {{#if (uropEq actor.system.initiative.anchor "koerper")}}selected{{/if}}>Körper</option>
+            <option value="geist" {{#if (uropEq actor.system.initiative.anchor "geist")}}selected{{/if}}>Geist</option>
+            <option value="praesenz" {{#if (uropEq actor.system.initiative.anchor "praesenz")}}selected{{/if}}>Präsenz</option>
+          </select>
+          <label>{{localize "URoP.Field.BaseMod"}}</label>
+          <input type="number" name="system.initiative.baseMod" value="{{actor.system.initiative.baseMod}}"/>
+          <label>{{localize "URoP.Field.Target"}}</label>
+          <input type="number" name="system.initiative.target" value="{{actor.system.initiative.target}}"/>
+          <label>{{localize "URoP.Field.Situational"}}</label>
+          <input type="number" name="system.initiative.situational" value="{{actor.system.initiative.situational}}"/>
+        </div>
+
+        <div class="card">
+          <h3>{{localize "URoP.Section.Temp"}}</h3>
+          <label>{{localize "URoP.Field.PressureState"}}</label>
+          <select name="system.pressure.state">
+            <option value="none" {{#if (uropEq actor.system.pressure.state "none")}}selected{{/if}}>Kein Druck</option>
+            <option value="reduced" {{#if (uropEq actor.system.pressure.state "reduced")}}selected{{/if}}>Reduzierter Druck</option>
+            <option value="pressure" {{#if (uropEq actor.system.pressure.state "pressure")}}selected{{/if}}>Druck</option>
+          </select>
+          <p>{{localize "URoP.Help.TempTab"}}</p>
+
+          <label>{{localize "URoP.Field.LockingEnabled"}}</label>
+          <input type="checkbox" name="system.meta.locking.enabled" {{#if actor.system.meta.locking.enabled}}checked{{/if}}/>
+        </div>
       </div>
     </div>
   </section>

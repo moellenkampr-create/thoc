@@ -95,6 +95,59 @@
   margin-top: 6px;
 }
 
+.urop-sheet .field-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.urop-sheet .field-header label {
+  margin-top: 6px;
+}
+
+.urop-sheet .hover-help {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid var(--urop-border);
+  background: #0e1d2d;
+  color: #b9dbff;
+  font-size: 0.75rem;
+  cursor: help;
+  margin-top: 6px;
+}
+
+.urop-sheet .hover-help::after {
+  content: attr(data-help);
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  width: 260px;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition-delay: 0.45s;
+  background: #0d1724;
+  border: 1px solid var(--urop-border);
+  border-radius: 7px;
+  padding: 8px;
+  color: var(--urop-text);
+  font-size: 0.8rem;
+  line-height: 1.25;
+}
+
+.urop-sheet .hover-help:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .urop-sheet input,
 .urop-sheet select,
 .urop-sheet textarea,
@@ -119,6 +172,10 @@
 .urop-sheet .item-list {
   margin: 0;
   padding-left: 18px;
+}
+
+.urop-sheet button.secondary-action {
+  margin-top: 8px;
 }
 
 .urop-sheet .type-chip {

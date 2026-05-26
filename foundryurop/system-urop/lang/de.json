@@ -9,38 +9,68 @@
       "Name": "Itemname"
     },
     "Roll": {
-      "Button3d6": "3W6 Probe",
+      "ButtonUrop": "URoP Probe",
       "Generic": "URoP Probe",
-      "InitiativeComparison": "Initiative Vergleichsprobe"
+      "InitiativeComparison": "Initiative Vergleichsprobe",
+      "Outcome": {
+        "CritSuccessTitle": "Kritischer Erfolg",
+        "CritSuccessText": "Du erreichst dein Ziel souverän und setzt einen starken Vorteil.",
+        "StrongSuccessTitle": "Klarer Erfolg",
+        "StrongSuccessText": "Deine Absicht gelingt deutlich und ohne nennenswerten Preis.",
+        "SuccessTitle": "Erfolg",
+        "SuccessText": "Deine Absicht gelingt wie beschrieben.",
+        "MixedTitle": "Erfolg mit Haken",
+        "MixedText": "Die Absicht gelingt, aber es entsteht ein Haken oder eine Komplikation.",
+        "FailureTitle": "Misserfolg",
+        "FailureText": "Die Absicht scheitert; die Szene kippt zu deinem Nachteil.",
+        "CritFailureTitle": "Kritischer Misserfolg",
+        "CritFailureText": "Die Absicht scheitert deutlich und verschlechtert die Lage spürbar."
+      }
     },
     "Tab": {
-      "Overview": "Uebersicht",
+      "Overview": "Übersicht",
       "Attributes": "Attribute",
       "Skills": "Fertigkeiten",
       "Consequences": "Konsequenzen",
       "Items": "Items",
-      "Maneuvers": "Manoever",
-      "Notes": "Notizen",
-      "Advanced": "Erweitert",
+      "Maneuvers": "Manöver",
+      "Advanced": "Temp",
       "Details": "Details",
       "Effects": "Effekte"
     },
     "Section": {
       "Initiative": "Initiative",
       "Resources": "Ressourcen",
-      "Advanced": "Erweiterte Einstellungen"
+      "Advanced": "Erweiterte Einstellungen",
+      "OverviewNotes": "Notizen",
+      "Temp": "Temporäre Felder"
     },
     "Field": {
       "Anchor": "Initiativanker",
       "BaseMod": "Inibasis Mod",
       "Target": "Vergleichswert",
-      "Situational": "Situationsmod"
+      "Situational": "Situationsmod",
+      "EPTotal": "EP gesamt",
+      "EPSpent": "EP ausgegeben",
+      "RecalculateEP": "EP aktualisieren",
+      "Note": "Notiz",
+      "Appearance": "Aussehen",
+      "Backstory": "Backstory",
+      "PressureState": "Druckstatus",
+      "LockingEnabled": "Feldsperre aktiv"
+    },
+    "Help": {
+      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Facetten, Fertigkeiten und Manöverkosten.",
+      "TempTab": "Temp-Reiter für ausgelagerte Felder während der Iteration."
+    },
+    "Notification": {
+      "EPSpentUpdated": "EP ausgegeben aktualisiert: {value}"
     },
     "ItemType": {
-      "gear": "Ausruestung",
+      "gear": "Ausrüstung",
       "weapon": "Waffe",
-      "armor": "Ruestung",
-      "maneuver": "Manoever"
+      "armor": "Rüstung",
+      "maneuver": "Manöver"
     }
   }
 }

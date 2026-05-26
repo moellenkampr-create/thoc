@@ -9,9 +9,23 @@
       "Name": "Item Name"
     },
     "Roll": {
-      "Button3d6": "3d6 Check",
+      "ButtonUrop": "URoP Check",
       "Generic": "URoP Check",
-      "InitiativeComparison": "Initiative Comparison Check"
+      "InitiativeComparison": "Initiative Comparison Check",
+      "Outcome": {
+        "CritSuccessTitle": "Critical Success",
+        "CritSuccessText": "You achieve your goal cleanly and gain a strong edge.",
+        "StrongSuccessTitle": "Strong Success",
+        "StrongSuccessText": "Your intent succeeds clearly without a notable cost.",
+        "SuccessTitle": "Success",
+        "SuccessText": "Your intent succeeds as stated.",
+        "MixedTitle": "Success with Hook",
+        "MixedText": "Your intent succeeds, but a hook or complication appears.",
+        "FailureTitle": "Failure",
+        "FailureText": "Your intent fails and the scene turns against you.",
+        "CritFailureTitle": "Critical Failure",
+        "CritFailureText": "Your intent fails hard and the situation worsens significantly."
+      }
     },
     "Tab": {
       "Overview": "Overview",
@@ -20,21 +34,37 @@
       "Consequences": "Consequences",
       "Items": "Items",
       "Maneuvers": "Maneuvers",
-      "Notes": "Notes",
-      "Advanced": "Advanced",
+      "Advanced": "Temp",
       "Details": "Details",
       "Effects": "Effects"
     },
     "Section": {
       "Initiative": "Initiative",
       "Resources": "Resources",
-      "Advanced": "Advanced Settings"
+      "Advanced": "Advanced Settings",
+      "OverviewNotes": "Notes",
+      "Temp": "Temporary Fields"
     },
     "Field": {
       "Anchor": "Initiative Anchor",
       "BaseMod": "Base Mod",
       "Target": "Target Value",
-      "Situational": "Situational Mod"
+      "Situational": "Situational Mod",
+      "EPTotal": "Total XP",
+      "EPSpent": "XP Spent",
+      "RecalculateEP": "Refresh XP Spent",
+      "Note": "Note",
+      "Appearance": "Appearance",
+      "Backstory": "Backstory",
+      "PressureState": "Pressure State",
+      "LockingEnabled": "Field Lock Enabled"
+    },
+    "Help": {
+      "EPSpentRecalc": "Recalculates XP spent from attributes, facets, skills, and maneuver costs.",
+      "TempTab": "Temporary tab for fields moved out during iteration."
+    },
+    "Notification": {
+      "EPSpentUpdated": "XP spent updated: {value}"
     },
     "ItemType": {
       "gear": "Gear",
