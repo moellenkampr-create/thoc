@@ -85,3 +85,15 @@ Der URoP‑Chat:
 
 ## 10. Versionierung
 Änderungen erfolgen nach Regelprüfung.
+
+---
+
+## 11. Foundry-Systempflege (URoP)
+- Foundry-Systempfad: `foundryurop/system-urop/`
+- Update-Workflow und Release-Checkliste: `foundryurop/system-urop/README.md`
+- Laufende Release-Dokumentation: `foundryurop/system-urop/RELEASE_NOTES.md`
+- Manifest-URL fuer Updates in Foundry:
+	`https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/system.json`
+
+Bei aendernden Feldstrukturen (template/sheets/scripts) Migration mitdenken und im
+Migrations-Skelett pflegen: `foundryurop/system-urop/scripts/urop.mjs`.
