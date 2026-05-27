@@ -72,17 +72,17 @@ mein eigenes Licht
 ### COPYBOX 2: STYLE
 
 ```
-Band: Three Hearts of Chrome. German 80s heavy metal hard rock, 80s German metal, BPM 125-130, driving mood. Vocals: Ely, young female high soprano, crystalline luminous opera-trained voice. Instrumentation: electric guitar, strong electric bass, driving heavy drums. Confident, precise phrasing, focused reverb.
+German 80s heavy metal, BPM 125-135, bright soprano lead named Ely, powerful and crystalline vocals. Clear, luminous voice over heavy distorted electric guitar, steady electric bass, and pounding drums. Minimal synthesizers. Precision and operatic clarity in every line, sharp vocal definition, focused reverb. Burning self-assurance, uncompromising authenticity.
 ```
 
-**Zeichenzahl**: ~340 Zeichen (Suno-Limit: 1000) ✅
+**Zeichenzahl**: ~300 Zeichen (Suno-Limit: 1000) ✅
 
 ---
 
 ### COPYBOX 3: AVOID
 
 ```
-indie rock, modern pop, folk, death metal, black metal, country, lo-fi production, heavy synthesizer leads, synth-dominated sound, electronic dance
+dark brooding vocals, male vocals, mature aged tone, polished pop production, melancholic melody, whispered vocals, backing vocals competing with lead, lo-fi production, heavy synthesizer leads, synth-dominated sound, slick auto-tune, smooth singing, rough vibrato, raunchy tone, ballad pacing, orchestral softness, breathy delivery, slow BPM
 ```
 
 ---

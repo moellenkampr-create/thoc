@@ -108,17 +108,17 @@ Ist es das, was wirklich zählt
 ### COPYBOX 2: STYLE
 
 ```
-German 80s heavy metal hard rock, BPM 95 driving, energetic. Band: Three Hearts of Chrome. Young powerful male metal tenor named George, bright and cutting timbre, strong vibrato, heroic tone. Electric guitar, steady electric bass, driving heavy drums. Structure: verse-verse-pre-chorus-chorus-verse-verse-pre-chorus-chorus-bridge-final chorus.
+German 80s heavy metal, BPM 95, building, young warm male tenor lead named George, powerful and controlled vocals. Clear energetic tenor over heavy distorted electric guitar, steady electric bass, pounding drums. Minimal synthesizers. Crisp definition, focused reverb, confident phrasing. Structure: verse-verse-pre-chorus-chorus-verse-verse-pre-chorus-chorus-bridge-final chorus.
 ```
 
-**Zeichenzahl**: ~345 Zeichen (Suno-Limit: 1000) ✅
+**Zeichenzahl**: ~350 Zeichen (Suno-Limit: 1000) ✅
 
 ---
 
 ### COPYBOX 3: AVOID
 
 ```
-indie rock, modern pop, folk, death metal, black metal, country, lo-fi production, heavy synthesizer leads, synth-dominated sound, electronic dance, bright soprano vocals, rough dark contralto vocals, aged male tone, gravelly old-man timbre, polished pop production, whispered vocals, ballad pacing, orchestral softness, slow BPM
+bright soprano vocals, rough dark contralto vocals, aged male tone, gravelly old-man timbre, heavy wobbling vibrato, polished pop production, whispered vocals, backing vocals competing with lead, lo-fi production, heavy synthesizer leads, synth-dominated sound, slick auto-tune, breathy delivery, ballad pacing, orchestral softness, slow BPM
 ```
 
 ---
