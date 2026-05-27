@@ -1,0 +1,202 @@
+[
+  {
+    "name": "[EVENT] Corporate-Exit eskaliert (Lauri/Ely)",
+    "flags": {
+      "core": {
+        "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+      },
+      "foundryvtt-simple-calendar-reborn": {
+        "noteData": {
+          "calendarId": "default",
+          "startDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 16,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "endDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 16,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "allDay": true,
+          "repeats": 0,
+          "order": 0,
+          "categories": ["EVENT"],
+          "remindUsers": [],
+          "macro": "none",
+          "fromPredefined": false
+        }
+      }
+    },
+    "pages": [
+      {
+        "name": "Inhalt",
+        "type": "text",
+        "text": {
+          "content": "<p><strong>EINZELFALL / HOOK:</strong> Ely und Lauri stellen Freikaufanfragen. Rueckmeldungen: Ely 500k, Lauri 2 Mio. Lauris Anfrage triggert Asset-Flag und ein kuenftiges Arasaka-HR-Gespraech.</p>",
+          "format": 1
+        },
+        "title": {
+          "show": true,
+          "level": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "[BACKGROUND] George-Mutter-Kanal / Monaco",
+    "flags": {
+      "core": {
+        "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+      },
+      "foundryvtt-simple-calendar-reborn": {
+        "noteData": {
+          "calendarId": "default",
+          "startDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 16,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "endDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 16,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "allDay": true,
+          "repeats": 0,
+          "order": 0,
+          "categories": ["BACKGROUND"],
+          "remindUsers": [],
+          "macro": "none",
+          "fromPredefined": false
+        }
+      }
+    },
+    "pages": [
+      {
+        "name": "Inhalt",
+        "type": "text",
+        "text": {
+          "content": "<p><strong>HINTERGRUND:</strong> Georges Mutter meldet sich ueber einen sicheren Umwegkanal, warnt vor Elias' Rueckkehr nach NC und laedt George in zwei Monaten nach Monaco ein.</p>",
+          "format": 1
+        },
+        "title": {
+          "show": true,
+          "level": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "[EVENT] Panam-Deal und Rocky-Ridge-Plan",
+    "flags": {
+      "core": {
+        "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+      },
+      "foundryvtt-simple-calendar-reborn": {
+        "noteData": {
+          "calendarId": "default",
+          "startDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 16,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "endDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 16,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "allDay": true,
+          "repeats": 0,
+          "order": 0,
+          "categories": ["EVENT"],
+          "remindUsers": [],
+          "macro": "none",
+          "fromPredefined": false
+        }
+      }
+    },
+    "pages": [
+      {
+        "name": "Inhalt",
+        "type": "text",
+        "text": {
+          "content": "<p><strong>EINZELFALL / HOOK:</strong> Panam bindet das Trio fuer Wagen- und Merchandise-Rueckholung ein. Planstand: Rocky Ridge am 19.07.; Mitch/Scorpion warnen vor wahrscheinlicher toedlicher Gewalt.</p>",
+          "format": 1
+        },
+        "title": {
+          "show": true,
+          "level": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "[EVENT] Rocky Ridge Hinterhalt (geplant)",
+    "flags": {
+      "core": {
+        "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+      },
+      "foundryvtt-simple-calendar-reborn": {
+        "noteData": {
+          "calendarId": "default",
+          "startDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 18,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "endDate": {
+            "year": 2077,
+            "month": 6,
+            "day": 18,
+            "hour": 0,
+            "minute": 0,
+            "seconds": 0
+          },
+          "allDay": true,
+          "repeats": 0,
+          "order": 0,
+          "categories": ["EVENT"],
+          "remindUsers": [],
+          "macro": "none",
+          "fromPredefined": false
+        }
+      }
+    },
+    "pages": [
+      {
+        "name": "Inhalt",
+        "type": "text",
+        "text": {
+          "content": "<p><strong>EINZELFALL / HOOK:</strong> Geplanter Abend-Ansatz in Rocky Ridge gegen die Wraiths. 6th Street soll fernbleiben; Ambush mit Trio/Panam. Offener Kernkonflikt: Gewaltgrenze des Trios.</p>",
+          "format": 1
+        },
+        "title": {
+          "show": true,
+          "level": 1
+        }
+      }
+    ]
+  }
+]
