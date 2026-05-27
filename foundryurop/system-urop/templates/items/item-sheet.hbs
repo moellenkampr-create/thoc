@@ -17,26 +17,87 @@
     <div class="tab" data-group="primary" data-tab="details">
       <div class="grid two-col">
         <div class="card">
+          {{#if isGear}}
           <label>Tier</label>
           <input type="text" name="system.tier" value="{{item.system.tier}}"/>
           <label>Preis</label>
           <input type="number" name="system.price" value="{{item.system.price}}"/>
+          {{/if}}
+
+          {{#if isConsumable}}
+          <label>Tier</label>
+          <input type="text" name="system.tier" value="{{item.system.tier}}"/>
+          <label>Preis</label>
+          <input type="number" name="system.price" value="{{item.system.price}}"/>
+          <label>Menge</label>
+          <input type="number" name="system.quantity" value="{{item.system.quantity}}"/>
+          <label>Einsätze</label>
+          <input type="number" name="system.uses" value="{{item.system.uses}}"/>
+          {{/if}}
+
+          {{#if isManeuver}}
+          <label>Tier</label>
+          <input type="text" name="system.tier" value="{{item.system.tier}}"/>
           <label>Lernkosten EP</label>
           <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
           <label>Action Cost</label>
           <input type="text" name="system.actionCost" value="{{item.system.actionCost}}"/>
           <label>Usage Window</label>
           <input type="text" name="system.usageWindow" value="{{item.system.usageWindow}}"/>
+          <label>Reuse Escalation</label>
+          <input type="text" name="system.reuseEscalation" value="{{item.system.reuseEscalation}}"/>
+          {{/if}}
+
+          {{#if isSkill}}
+          <label>Stufe</label>
+          <input type="number" name="system.level" value="{{item.system.level}}"/>
+          <label>Fertigkeitsebene</label>
+          <select name="system.type">
+            <option value="broad" {{#if (uropEq item.system.type "broad")}}selected{{/if}}>Sammelfertigkeit</option>
+            <option value="standard" {{#if (uropEq item.system.type "standard")}}selected{{/if}}>Standardfertigkeit</option>
+            <option value="specialization" {{#if (uropEq item.system.type "specialization")}}selected{{/if}}>Spezialisierung</option>
+          </select>
+          <label>Anwendungsklasse</label>
+          <select name="system.applicationClass">
+            <option value="combat" {{#if (uropEq item.system.applicationClass "combat")}}selected{{/if}}>Kampffertigkeit</option>
+            <option value="action" {{#if (uropEq item.system.applicationClass "action")}}selected{{/if}}>Aktionsfertigkeit</option>
+            <option value="fluff" {{#if (uropEq item.system.applicationClass "fluff")}}selected{{/if}}>Flufffertigkeit</option>
+          </select>
+          <label>Lernkosten EP</label>
+          <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
+          <label>Konsequenzdomäne</label>
+          <input type="text" name="system.skillDomain" value="{{item.system.skillDomain}}"/>
+          {{/if}}
         </div>
         <div class="card">
+          {{#if isWeapon}}
           <label>Damage Baseline</label>
           <input type="number" name="system.damageBaseline" value="{{item.system.damageBaseline}}"/>
+          <label>Reichweite</label>
+          <input type="text" name="system.range" value="{{item.system.range}}"/>
+          <label>Quality</label>
+          <input type="text" name="system.quality" value="{{item.system.quality}}"/>
+          {{/if}}
+
+          {{#if isArmor}}
           <label>Protection Value</label>
           <input type="number" name="system.protectionValue" value="{{item.system.protectionValue}}"/>
           <label>Quality</label>
           <input type="text" name="system.quality" value="{{item.system.quality}}"/>
-          <label>Reuse Escalation</label>
-          <input type="text" name="system.reuseEscalation" value="{{item.system.reuseEscalation}}"/>
+          {{/if}}
+
+          {{#if isSkill}}
+          <label>Attributanker</label>
+          <input type="text" name="system.attributeAnchor" value="{{item.system.attributeAnchor}}"/>
+          <label>Regelanker 1</label>
+          <input type="text" name="system.ruleAnchors.0" value="{{item.system.ruleAnchors.[0]}}"/>
+          <label>Regelanker 2</label>
+          <input type="text" name="system.ruleAnchors.1" value="{{item.system.ruleAnchors.[1]}}"/>
+          <label>Regelanker 3</label>
+          <input type="text" name="system.ruleAnchors.2" value="{{item.system.ruleAnchors.[2]}}"/>
+          <label>Voraussetzungen (Freitext)</label>
+          <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
+          {{/if}}
         </div>
       </div>
     </div>

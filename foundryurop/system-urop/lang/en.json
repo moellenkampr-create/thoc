@@ -32,7 +32,7 @@
       "Attributes": "Attributes",
       "Skills": "Skills",
       "Consequences": "Consequences",
-      "Items": "Items",
+      "Items": "Equipment",
       "Maneuvers": "Maneuvers",
       "Advanced": "Temp",
       "Details": "Details",
@@ -94,9 +94,11 @@
     },
     "ItemType": {
       "gear": "Gear",
+      "consumable": "Consumable",
       "weapon": "Weapon",
       "armor": "Armor",
-      "maneuver": "Maneuver"
+      "maneuver": "Maneuver",
+      "skill": "Skill"
     }
   }
 }

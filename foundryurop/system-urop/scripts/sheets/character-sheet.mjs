@@ -40,9 +40,11 @@ export class UropCharacterSheet extends ActorSheet {
 
     data.itemGroups = {
       gear: allItems.filter((i) => i.type === "gear"),
+      consumable: allItems.filter((i) => i.type === "consumable"),
       weapon: allItems.filter((i) => i.type === "weapon"),
       armor: allItems.filter((i) => i.type === "armor"),
-      maneuver: allItems.filter((i) => i.type === "maneuver")
+      maneuver: allItems.filter((i) => i.type === "maneuver"),
+      skill: allItems.filter((i) => i.type === "skill")
     };
 
     data.facetTotals = this._buildFacetTotals(attributes, facets);
@@ -71,6 +73,8 @@ export class UropCharacterSheet extends ActorSheet {
     html.find('[data-action="toggle-lock"]').on("click", this._onToggleLock.bind(this));
     html.find('[data-action="toggle-focus-attribute"]').on("change", this._onToggleFocusAttribute.bind(this));
     html.find('[data-action="toggle-focus-lock"]').on("click", this._onToggleFocusLock.bind(this));
+    html.find('[data-action="open-item"]').on("click", this._onOpenItem.bind(this));
+    html.find('[data-action="create-item"]').on("click", this._onCreateItem.bind(this));
 
     // Apply initial lock visual state
     this._applyLockState(html);
@@ -145,6 +149,10 @@ export class UropCharacterSheet extends ActorSheet {
       0
     );
 
+    const skillItems = Array.from(this.actor.items.values())
+      .filter((item) => item.type === "skill")
+      .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
+
     const maneuverEp = Array.from(this.actor.items.values())
       .filter((item) => item.type === "maneuver")
       .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
@@ -153,8 +161,9 @@ export class UropCharacterSheet extends ActorSheet {
       attributes,
       facets,
       skills,
+      skillItems,
       maneuverEp,
-      total: Math.max(0, attributes + facets + skills + maneuverEp)
+      total: Math.max(0, attributes + facets + skills + skillItems + maneuverEp)
     };
   }
 
@@ -324,6 +333,27 @@ export class UropCharacterSheet extends ActorSheet {
     event.preventDefault();
     const isFocusLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
     await this.actor.update({ "system.meta.focus.selectionLocked": !isFocusLocked });
+  }
+
+  async _onCreateItem(event) {
+    event.preventDefault();
+    const type = event.currentTarget.dataset.type;
+    if (!type) return;
+
+    const name = game.i18n.localize(`URoP.ItemType.${type}`);
+    await this.actor.createEmbeddedDocuments("Item", [{
+      type,
+      name
+    }]);
+  }
+
+  _onOpenItem(event) {
+    event.preventDefault();
+    const itemId = event.currentTarget.dataset.itemId;
+    if (!itemId) return;
+
+    const item = this.actor.items.get(itemId);
+    if (item) item.sheet.render(true);
   }
 
   async _onRollInitiative(event) {

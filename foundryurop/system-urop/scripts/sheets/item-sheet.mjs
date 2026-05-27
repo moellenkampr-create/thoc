@@ -18,6 +18,12 @@ export class UropItemSheet extends ItemSheet {
   getData(options) {
     const data = super.getData(options);
     data.itemTypeLabel = game.i18n.localize(`URoP.ItemType.${this.item.type}`);
+    data.isGear = this.item.type === "gear";
+    data.isConsumable = this.item.type === "consumable";
+    data.isWeapon = this.item.type === "weapon";
+    data.isArmor = this.item.type === "armor";
+    data.isManeuver = this.item.type === "maneuver";
+    data.isSkill = this.item.type === "skill";
     return data;
   }
 }

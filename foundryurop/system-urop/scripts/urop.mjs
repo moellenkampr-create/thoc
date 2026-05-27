@@ -35,7 +35,7 @@ Hooks.once("init", () => {
 
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("urop", UropItemSheet, {
-    types: ["gear", "weapon", "armor", "maneuver"],
+    types: ["gear", "consumable", "weapon", "armor", "maneuver", "skill"],
     makeDefault: true,
     label: "URoP.ItemSheet"
   });

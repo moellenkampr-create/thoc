@@ -246,24 +246,19 @@
     </div>
 
     <div class="tab" data-group="primary" data-tab="skills">
-      <div class="grid two-col">
-        <div class="card">
-          <h3>Skills</h3>
-          <label>Athletik</label><input type="number" name="system.skills.athletik" value="{{actor.system.skills.athletik}}"/>
-          <label>Nahkampf</label><input type="number" name="system.skills.nahkampf" value="{{actor.system.skills.nahkampf}}"/>
-          <label>Fernkampf</label><input type="number" name="system.skills.fernkampf" value="{{actor.system.skills.fernkampf}}"/>
-          <label>Heimlichkeit</label><input type="number" name="system.skills.heimlichkeit" value="{{actor.system.skills.heimlichkeit}}"/>
-          <label>Wahrnehmung</label><input type="number" name="system.skills.wahrnehmung" value="{{actor.system.skills.wahrnehmung}}"/>
-          <label>Einfluss</label><input type="number" name="system.skills.einfluss" value="{{actor.system.skills.einfluss}}"/>
+      <div class="card">
+        <div class="list-header">
+          <h3>Fertigkeiten</h3>
+          <button type="button" class="secondary-action" data-action="create-item" data-type="skill">+ Fertigkeit</button>
         </div>
-        <div class="card">
-          <h3>Skills (Fortsetzung)</h3>
-          <label>Technik</label><input type="number" name="system.skills.technik" value="{{actor.system.skills.technik}}"/>
-          <label>Medizin</label><input type="number" name="system.skills.medizin" value="{{actor.system.skills.medizin}}"/>
-          <label>Überleben</label><input type="number" name="system.skills.ueberleben" value="{{actor.system.skills.ueberleben}}"/>
-          <label>Wissen</label><input type="number" name="system.skills.wissen" value="{{actor.system.skills.wissen}}"/>
-          <label>Fahrzeuge</label><input type="number" name="system.skills.fahrzeuge" value="{{actor.system.skills.fahrzeuge}}"/>
-        </div>
+        <ul class="item-list interactive-list">
+          {{#each itemGroups.skill as |item|}}
+          <li>
+            <a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a>
+            <span class="item-meta">{{item.system.learnCostEp}} EP</span>
+          </li>
+          {{/each}}
+        </ul>
       </div>
     </div>
 
@@ -290,14 +285,47 @@
     <div class="tab" data-group="primary" data-tab="items">
       <div class="grid two-col">
         <div class="card">
-          <h3>Waffen</h3>
-          <ul class="item-list">{{#each itemGroups.weapon as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
-          <h3>Rüstung</h3>
-          <ul class="item-list">{{#each itemGroups.armor as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
+          <div class="list-header">
+            <h3>Ausrüstung</h3>
+            <button type="button" class="secondary-action" data-action="create-item" data-type="gear">+ Ausrüstung</button>
+          </div>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.gear as |item|}}
+            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            {{/each}}
+          </ul>
+
+          <div class="list-header">
+            <h3>Verbrauchsgegenstände</h3>
+            <button type="button" class="secondary-action" data-action="create-item" data-type="consumable">+ Verbrauch</button>
+          </div>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.consumable as |item|}}
+            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            {{/each}}
+          </ul>
         </div>
+
         <div class="card">
-          <h3>Ausrüstung</h3>
-          <ul class="item-list">{{#each itemGroups.gear as |item|}}<li>{{item.name}}</li>{{/each}}</ul>
+          <div class="list-header">
+            <h3>Waffen</h3>
+            <button type="button" class="secondary-action" data-action="create-item" data-type="weapon">+ Waffe</button>
+          </div>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.weapon as |item|}}
+            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            {{/each}}
+          </ul>
+
+          <div class="list-header">
+            <h3>Rüstung</h3>
+            <button type="button" class="secondary-action" data-action="create-item" data-type="armor">+ Rüstung</button>
+          </div>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.armor as |item|}}
+            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            {{/each}}
+          </ul>
         </div>
       </div>
     </div>

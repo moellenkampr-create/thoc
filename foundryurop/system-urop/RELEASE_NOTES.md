@@ -19,6 +19,30 @@
 
 ---
 
+## [0.1.7] - 2026-05-27
+
+### Added
+- Neuer Item-Typ `skill` mit eigener Feldmaske (u. a. Name, Beschreibung, Anwendungsklasse, Regelanker, Voraussetzungen, Lernkosten)
+- Neuer Item-Typ `consumable` fuer Verbrauchsgegenstaende
+- Charakterblatt: Fertigkeiten als klickbare Item-Liste mit Hover-Beschreibung und direktem Oeffnen der Skill-Maske
+- Charakterblatt: Erstellen-Buttons je Bereich fuer Fertigkeiten, Ausruestung, Verbrauch, Waffen und Ruestung
+
+### Changed
+- Item-Sheet zeigt jetzt typabhaengige Feldmasken statt einer gemischten Universalmaske
+- Ausruestungsdarstellung aufgeteilt in Ausruestung, Verbrauchsgegenstaende, Waffen und Ruestung
+- Lokalisierung: Tab `Items` als `Ausrüstung/Equipment` umbenannt
+
+### Fixed
+- Itemtyp-Registrierung auf neue Typen erweitert (`consumable`, `skill`)
+
+### Migration Required
+- no
+
+### Migration Notes
+- Bestehende Welten koennen alte numerische Charakter-Skills weiter enthalten; neuer Skill-Workflow laeuft ueber Item-Typ `skill`.
+
+---
+
 ## [0.1.6] - 2026-05-27
 
 ### Changed
