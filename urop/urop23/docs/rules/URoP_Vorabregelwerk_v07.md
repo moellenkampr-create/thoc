@@ -265,6 +265,18 @@ Aktueller Testwert: **600 Entwicklungspunkte (EP)**
 | 5 | 120 EP | 80 EP |
 | 6 | 170 EP | 110 EP |
 
+Anwendungsklassen-Matrix auf Basiskosten:
+- Kampffertigkeit: +30 %
+- Aktionsfertigkeit: +0 %
+- Flufffertigkeit: -60 %
+
+Fokus ueber Regelanker:
+- passt mindestens ein Regelanker zum Hauptattribut oder zu dessen Facetten, greift der Fokusrabatt
+- der Fokusmodifikator wird pro Fertigkeit nur einmal angewandt
+- Rundung immer zugunsten des Spielers (abrunden)
+
+Bei unklarer Einordnung zwischen Aktions- und Flufffertigkeit entscheidet die Spielleitung entlang der Definitionskriterien; es gibt keine starre Prioritaetsregel.
+
 Überhang: bis Attribut = normal · +1 über Attribut = +30 · +2 über Attribut = +90 · mehr = Ausnahme.
 
 ### 2.5 Spezialattribute / Sondernatur [GELOCKT]
@@ -282,6 +294,37 @@ Ein Start-SC sollte vier Bereiche abdecken: Kernkompetenz · Selbstbehauptung / 
 ### 3.1 Fertigkeitslogik
 
 URoP kennt bis zu vier Ebenen: Attribut → Sammelfertigkeit → Standardfertigkeit → Spezialisierung. Standardfertigkeiten und Spezialisierungen sind optional; Spezialisierungen dürfen direkt an eine Sammelfertigkeit angeschlossen werden. Mehrfachzuordnung ist erlaubt, wenn mehrere klare Kompetenzräume sinnvoll sind.
+
+### 3.1.1 Verbindliche Einteilungen [GELOCKT]
+Fertigkeiten werden im Regelkern ueber vier getrennte Einteilungen beschrieben:
+
+1. **Fertigkeitsebene**
+- Sammelfertigkeit, Standardfertigkeit, Spezialisierung
+- beschreibt die Position im Fertigkeitenbaum
+
+2. **Anwendungsklasse**
+- Kampffertigkeit, Aktionsfertigkeit, Flufffertigkeit
+- beschreibt Einsatzzweck und Kostenklasse
+
+Definitionskriterien:
+- **Kampffertigkeit**: primaer fuer unmittelbaren Konfliktdruck, Kampfkontrolle, direkte Bedrohung oder Ueberlebenssicherung in Konflikten.
+- **Aktionsfertigkeit**: primaer fuer handlungsrelevante Problemlosung unter Zeitdruck, Risiko oder Widerstand ausserhalb direkter Kampfwirkung.
+- **Flufffertigkeit**: primaer fuer langfristige, vorbereitende, alltagsnahe oder charakterprofilierende Wirkung mit geringer unmittelbarer Eskalationswirkung.
+
+3. **Regelanker**
+- Attribut- und optional Facettenanker
+- beschreibt Voraussetzungen, Ueberhangbezug und regeltechnische Andockpunkte
+
+4. **Konsequenzdomaene**
+- beschreibt den primaeren Abwicklungspfad fuer Nebenfolgen
+- trennt Konsequenzzuordnung von Kosten- und Ebenenlogik
+
+Leitlinie Kostenklassen:
+- Kampffertigkeiten sind die teuerste Klasse
+- Aktionsfertigkeiten liegen darunter
+- Flufffertigkeiten sind sehr guenstig bis kostenfrei
+
+Diese vier Einteilungen gelten parallel und ersetzen einander nicht.
 
 ### 3.2 Breite Sammelfertigkeiten (Referenzbestand)
 

@@ -17,6 +17,38 @@ URoP kennt bis zu vier Ebenen:
 - Standardfertigkeit / Stammbereich
 - Spezialisierung
 
+### 2.1 Nomenklatur der vier Einteilungen [GELOCKT]
+Fertigkeiten werden in URoP ueber vier voneinander getrennte Einteilungen gelesen:
+
+1. **Fertigkeitsebene**
+- beschreibt die strukturelle Tiefe im Fertigkeitenbaum
+- Werte: Sammelfertigkeit, Standardfertigkeit, Spezialisierung
+
+2. **Anwendungsklasse**
+- beschreibt die regeltechnische Einsatzschaerfe und Kostenklasse
+- Werte: Kampffertigkeit, Aktionsfertigkeit, Flufffertigkeit
+- Leitlinie Kosten: Kampf am teuersten, Aktion darunter, Fluff sehr guenstig bis kostenfrei
+
+Definitionskriterien:
+- **Kampffertigkeit**: fuer unmittelbaren Konfliktdruck, Kampfkontrolle, direkte Bedrohung oder Ueberlebenssicherung in Konflikten.
+- **Aktionsfertigkeit**: fuer handlungsrelevante Problemlosung unter Zeitdruck, Risiko oder Widerstand ausserhalb direkter Kampfwirkung.
+- **Flufffertigkeit**: fuer langfristige, vorbereitende, alltagsnahe oder charakterprofilierende Wirkung mit geringer unmittelbarer Eskalationswirkung.
+
+3. **Regelanker**
+- beschreibt, an welche Attribute/Facetten eine Fertigkeit fuer Voraussetzungen und Regelpruefung andockt
+- mindestens ein Attributanker; Facettenanker optional gemaess Regelstand
+
+4. **Konsequenzdomaene**
+- beschreibt, in welche Domaenen Nebenfolgen dieser Fertigkeit primaer abgewickelt werden
+- dient der Konsequenzzuordnung, nicht der Fertigkeitsebene
+
+Diese vier Einteilungen sind **parallel** und ersetzen einander nicht.
+Eine Fertigkeit hat damit mindestens:
+- eine Fertigkeitsebene
+- eine Anwendungsklasse
+- einen Regelanker
+- eine Konsequenzdomaene
+
 ### Grundprinzipien [GELOCKT]
 - Überhang wird nur gegen das **zugehörige Attribut** geprüft.
 - Standardfertigkeiten sind **optional**.
@@ -49,17 +81,31 @@ Pflichtfelder je Eintrag:
 - `id`
 - `name`
 - `type`
+- `application_class`
 - `attribute_anchor`
+- `rule_anchors`
 - `skill_domain`
+- `learn_cost_ep`
+- `prerequisites_text`
 - `parent_ids`
 - `rules_short`
 - `description`
 
 ### Bedeutungslogik
 - `type` = `broad`, `standard` oder `specialization`
+- `application_class` = `combat`, `action`, `fluff`
 - `attribute_anchor` = typischer Attributanker, kein harter Zwang
+- `rule_anchors` = bis zu drei optionale Attribut-/Facetten-Anker als Auswahlliste
 - `skill_domain` = Obergruppe für Sortierung und Filterung
+- `learn_cost_ep` = gefuehrter Lernkostenwert des konkreten Eintrags
+- `prerequisites_text` = Freitextfeld fuer Voraussetzungen; keine automatische Pruefung noetig
 - `parent_ids` = übergeordnete Knoten; mehrere Eltern sind erlaubt
+
+Erweiterte Leselogik fuer die vier Einteilungen:
+- `type` = Fertigkeitsebene
+- `skill_domain` = Konsequenzdomaene (Ordnung/Abwicklung)
+- `application_class` = Anwendungsklasse
+- `rule_anchors` = Regelanker
 
 ---
 
@@ -119,7 +165,11 @@ Er enthält:
 ---
 
 ## 8. Fertigkeitskosten [TESTSTAND]
-### Sammelfertigkeit
+Kosten werden pro Fertigkeitseintrag direkt im Feld `learn_cost_ep` gefuehrt.
+Die folgenden Regeln liefern den Standardwert fuer diesen Eintrag.
+
+### 8.1 Basiskosten nach Fertigkeitsebene
+Sammelfertigkeit:
 - 1 = 15
 - 2 = 30
 - 3 = 50
@@ -127,7 +177,7 @@ Er enthält:
 - 5 = 120
 - 6 = 170
 
-### Standardfertigkeit / Spezialisierung
+Standardfertigkeit / Spezialisierung:
 - 1 = 10
 - 2 = 20
 - 3 = 35
@@ -135,7 +185,30 @@ Er enthält:
 - 5 = 80
 - 6 = 110
 
-### Überhang [TESTSTAND]
+### 8.2 Anwendungsklassen-Matrix
+- Kampffertigkeit: **+30 %** auf Basiskosten
+- Aktionsfertigkeit: **+0 %** auf Basiskosten
+- Flufffertigkeit: **-60 %** auf Basiskosten
+
+Rundung erfolgt immer **zugunsten des Spielers** (abrunden).
+
+### 8.3 Regelanker und Hauptattribut-Fokus
+Wenn mindestens ein gesetzter Regelanker zum gewaehlten Hauptattribut passt
+oder eine Facette dieses Hauptattributs ist, greift der Fokusmodifikator.
+
+Der Fokusmodifikator greift **einmal pro Fertigkeit**, nicht pro Ankerfeld.
+
+Fokuslogik:
+- 1 Hauptattribut: passend -20 %, nicht passend +10 %
+- 2 Hauptattribute: passend -10 %, nicht passend +20 %
+- kein Fokus: 0 %
+
+### 8.4 Unklare Einordnung (Aktion vs. Fluff)
+Es gibt keine starre Prioritaetsregel.
+Bei unklarer Zuordnung entscheidet die Spielleitung entlang der Definitionen
+und der erwartbaren Szenenwirkung.
+
+### 8.5 Überhang [TESTSTAND]
 - bis Attribut = normal
 - +1 über Attribut = +30
 - +2 über Attribut = +90
