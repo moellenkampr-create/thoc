@@ -14,6 +14,18 @@ export class UropCharacterSheet extends ActorSheet {
     resonanz: "praesenz"
   };
 
+  static APPLICATION_CLASS_ORDER = {
+    combat: 0,
+    action: 1,
+    fluff: 2
+  };
+
+  static SKILL_TYPE_ORDER = {
+    broad: 0,
+    standard: 1,
+    specialization: 2
+  };
+
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["urop", "sheet", "actor", "character"],
@@ -44,7 +56,19 @@ export class UropCharacterSheet extends ActorSheet {
       weapon: allItems.filter((i) => i.type === "weapon"),
       armor: allItems.filter((i) => i.type === "armor"),
       maneuver: allItems.filter((i) => i.type === "maneuver"),
-      skill: allItems.filter((i) => i.type === "skill")
+      skill: allItems
+        .filter((i) => i.type === "skill")
+        .sort((a, b) => {
+          const classOrderA = UropCharacterSheet.APPLICATION_CLASS_ORDER[a.system?.applicationClass] ?? 99;
+          const classOrderB = UropCharacterSheet.APPLICATION_CLASS_ORDER[b.system?.applicationClass] ?? 99;
+          if (classOrderA !== classOrderB) return classOrderA - classOrderB;
+
+          const typeOrderA = UropCharacterSheet.SKILL_TYPE_ORDER[a.system?.type] ?? 99;
+          const typeOrderB = UropCharacterSheet.SKILL_TYPE_ORDER[b.system?.type] ?? 99;
+          if (typeOrderA !== typeOrderB) return typeOrderA - typeOrderB;
+
+          return String(a.name || "").localeCompare(String(b.name || ""), "de", { sensitivity: "base" });
+        })
     };
 
     data.facetTotals = this._buildFacetTotals(attributes, facets);
@@ -74,7 +98,6 @@ export class UropCharacterSheet extends ActorSheet {
     html.find('[data-action="toggle-focus-attribute"]').on("change", this._onToggleFocusAttribute.bind(this));
     html.find('[data-action="toggle-focus-lock"]').on("click", this._onToggleFocusLock.bind(this));
     html.find('[data-action="open-item"]').on("click", this._onOpenItem.bind(this));
-    html.find('[data-action="create-item"]').on("click", this._onCreateItem.bind(this));
 
     // Apply initial lock visual state
     this._applyLockState(html);
@@ -130,6 +153,44 @@ export class UropCharacterSheet extends ActorSheet {
     return Math.floor(result);
   }
 
+  _isSkillAnchorMatchingFocus(anchorValue) {
+    if (!anchorValue) return false;
+
+    const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
+    if (focus.length === 0) return false;
+
+    if (focus.includes(anchorValue)) return true;
+
+    const mappedAttribute = UropCharacterSheet.FACET_TO_ATTRIBUTE[anchorValue];
+    if (mappedAttribute && focus.includes(mappedAttribute)) return true;
+
+    return false;
+  }
+
+  _skillFocusModifier(item) {
+    const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
+    if (focus.length === 0) return 0;
+
+    const anchors = [];
+    const ruleAnchors = item.system?.ruleAnchors || [];
+    for (const anchor of ruleAnchors) {
+      if (anchor) anchors.push(anchor);
+    }
+    if (item.system?.attributeAnchor) anchors.push(item.system.attributeAnchor);
+
+    const hasMatchingAnchor = anchors.some((anchor) => this._isSkillAnchorMatchingFocus(anchor));
+
+    if (focus.length === 1) {
+      return hasMatchingAnchor ? -0.2 : 0.1;
+    }
+
+    if (focus.length === 2) {
+      return hasMatchingAnchor ? -0.1 : 0.2;
+    }
+
+    return 0;
+  }
+
   _calculateSpentEpBreakdown() {
     const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
       const baseCost = this._attributeCost(entry?.value || 0);
@@ -151,7 +212,11 @@ export class UropCharacterSheet extends ActorSheet {
 
     const skillItems = Array.from(this.actor.items.values())
       .filter((item) => item.type === "skill")
-      .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
+      .reduce((sum, item) => {
+        const baseCost = Number(item.system?.learnCostEp || 0);
+        const modifier = this._skillFocusModifier(item);
+        return sum + this._applyFocusModifier(baseCost, modifier);
+      }, 0);
 
     const maneuverEp = Array.from(this.actor.items.values())
       .filter((item) => item.type === "maneuver")
@@ -333,18 +398,6 @@ export class UropCharacterSheet extends ActorSheet {
     event.preventDefault();
     const isFocusLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
     await this.actor.update({ "system.meta.focus.selectionLocked": !isFocusLocked });
-  }
-
-  async _onCreateItem(event) {
-    event.preventDefault();
-    const type = event.currentTarget.dataset.type;
-    if (!type) return;
-
-    const name = game.i18n.localize(`URoP.ItemType.${type}`);
-    await this.actor.createEmbeddedDocuments("Item", [{
-      type,
-      name
-    }]);
   }
 
   _onOpenItem(event) {

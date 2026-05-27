@@ -156,13 +156,6 @@
   margin-bottom: 6px;
 }
 
-.urop-sheet .list-header .secondary-action {
-  width: auto;
-  margin-top: 0;
-  padding: 4px 8px;
-  font-size: 0.78rem;
-}
-
 .urop-sheet .interactive-list {
   list-style: none;
   padding-left: 0;
@@ -178,9 +171,15 @@
 }
 
 .urop-sheet .item-open {
+  width: auto;
+  background: transparent;
+  border: none;
+  padding: 0;
   color: var(--urop-text);
+  text-align: left;
   text-decoration: none;
   border-bottom: 1px dashed transparent;
+  cursor: pointer;
 }
 
 .urop-sheet .item-open:hover {

@@ -36,7 +36,8 @@
       "Maneuvers": "Manöver",
       "Advanced": "Temp",
       "Details": "Details",
-      "Effects": "Effekte"
+      "Effects": "Effekte",
+      "Notes": "Notizen"
     },
     "Section": {
       "Initiative": "Initiative",
@@ -98,7 +99,7 @@
       "weapon": "Waffe",
       "armor": "Rüstung",
       "maneuver": "Manöver",
-      "skill": "Fertigkeit"
+      "skill": "Neue Fertigkeit"
     }
   }
 }

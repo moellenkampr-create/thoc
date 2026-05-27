@@ -40,11 +40,11 @@
           <input type="text" name="system.tier" value="{{item.system.tier}}"/>
           <label>Lernkosten EP</label>
           <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
-          <label>Action Cost</label>
+          <label>Aktionskosten</label>
           <input type="text" name="system.actionCost" value="{{item.system.actionCost}}"/>
-          <label>Usage Window</label>
+          <label>Einsatzfenster</label>
           <input type="text" name="system.usageWindow" value="{{item.system.usageWindow}}"/>
-          <label>Reuse Escalation</label>
+          <label>Wiederholungs-Eskalation</label>
           <input type="text" name="system.reuseEscalation" value="{{item.system.reuseEscalation}}"/>
           {{/if}}
 
@@ -87,14 +87,62 @@
           {{/if}}
 
           {{#if isSkill}}
-          <label>Attributanker</label>
-          <input type="text" name="system.attributeAnchor" value="{{item.system.attributeAnchor}}"/>
           <label>Regelanker 1</label>
-          <input type="text" name="system.ruleAnchors.0" value="{{item.system.ruleAnchors.[0]}}"/>
+          <select name="system.ruleAnchors.0" required>
+            <option value="koerper" {{#if (uropEq item.system.ruleAnchors.[0] "koerper")}}selected{{/if}}>Körper</option>
+            <option value="geist" {{#if (uropEq item.system.ruleAnchors.[0] "geist")}}selected{{/if}}>Geist</option>
+            <option value="praesenz" {{#if (uropEq item.system.ruleAnchors.[0] "praesenz")}}selected{{/if}}>Präsenz</option>
+            <option value="staerke" {{#if (uropEq item.system.ruleAnchors.[0] "staerke")}}selected{{/if}}>Stärke</option>
+            <option value="grobmotorik" {{#if (uropEq item.system.ruleAnchors.[0] "grobmotorik")}}selected{{/if}}>Grobmotorik</option>
+            <option value="feinmotorik" {{#if (uropEq item.system.ruleAnchors.[0] "feinmotorik")}}selected{{/if}}>Feinmotorik</option>
+            <option value="konstitution" {{#if (uropEq item.system.ruleAnchors.[0] "konstitution")}}selected{{/if}}>Konstitution</option>
+            <option value="analyse" {{#if (uropEq item.system.ruleAnchors.[0] "analyse")}}selected{{/if}}>Analyse</option>
+            <option value="willenskraft" {{#if (uropEq item.system.ruleAnchors.[0] "willenskraft")}}selected{{/if}}>Willenskraft</option>
+            <option value="aufmerksamkeit" {{#if (uropEq item.system.ruleAnchors.[0] "aufmerksamkeit")}}selected{{/if}}>Aufmerksamkeit</option>
+            <option value="intuition" {{#if (uropEq item.system.ruleAnchors.[0] "intuition")}}selected{{/if}}>Intuition</option>
+            <option value="ausdruck" {{#if (uropEq item.system.ruleAnchors.[0] "ausdruck")}}selected{{/if}}>Ausdruck</option>
+            <option value="empathie" {{#if (uropEq item.system.ruleAnchors.[0] "empathie")}}selected{{/if}}>Empathie</option>
+            <option value="dominanz" {{#if (uropEq item.system.ruleAnchors.[0] "dominanz")}}selected{{/if}}>Dominanz</option>
+            <option value="resonanz" {{#if (uropEq item.system.ruleAnchors.[0] "resonanz")}}selected{{/if}}>Resonanz</option>
+          </select>
           <label>Regelanker 2</label>
-          <input type="text" name="system.ruleAnchors.1" value="{{item.system.ruleAnchors.[1]}}"/>
+          <select name="system.ruleAnchors.1">
+            <option value="" {{#if (uropEq item.system.ruleAnchors.[1] "")}}selected{{/if}}>-</option>
+            <option value="koerper" {{#if (uropEq item.system.ruleAnchors.[1] "koerper")}}selected{{/if}}>Körper</option>
+            <option value="geist" {{#if (uropEq item.system.ruleAnchors.[1] "geist")}}selected{{/if}}>Geist</option>
+            <option value="praesenz" {{#if (uropEq item.system.ruleAnchors.[1] "praesenz")}}selected{{/if}}>Präsenz</option>
+            <option value="staerke" {{#if (uropEq item.system.ruleAnchors.[1] "staerke")}}selected{{/if}}>Stärke</option>
+            <option value="grobmotorik" {{#if (uropEq item.system.ruleAnchors.[1] "grobmotorik")}}selected{{/if}}>Grobmotorik</option>
+            <option value="feinmotorik" {{#if (uropEq item.system.ruleAnchors.[1] "feinmotorik")}}selected{{/if}}>Feinmotorik</option>
+            <option value="konstitution" {{#if (uropEq item.system.ruleAnchors.[1] "konstitution")}}selected{{/if}}>Konstitution</option>
+            <option value="analyse" {{#if (uropEq item.system.ruleAnchors.[1] "analyse")}}selected{{/if}}>Analyse</option>
+            <option value="willenskraft" {{#if (uropEq item.system.ruleAnchors.[1] "willenskraft")}}selected{{/if}}>Willenskraft</option>
+            <option value="aufmerksamkeit" {{#if (uropEq item.system.ruleAnchors.[1] "aufmerksamkeit")}}selected{{/if}}>Aufmerksamkeit</option>
+            <option value="intuition" {{#if (uropEq item.system.ruleAnchors.[1] "intuition")}}selected{{/if}}>Intuition</option>
+            <option value="ausdruck" {{#if (uropEq item.system.ruleAnchors.[1] "ausdruck")}}selected{{/if}}>Ausdruck</option>
+            <option value="empathie" {{#if (uropEq item.system.ruleAnchors.[1] "empathie")}}selected{{/if}}>Empathie</option>
+            <option value="dominanz" {{#if (uropEq item.system.ruleAnchors.[1] "dominanz")}}selected{{/if}}>Dominanz</option>
+            <option value="resonanz" {{#if (uropEq item.system.ruleAnchors.[1] "resonanz")}}selected{{/if}}>Resonanz</option>
+          </select>
           <label>Regelanker 3</label>
-          <input type="text" name="system.ruleAnchors.2" value="{{item.system.ruleAnchors.[2]}}"/>
+          <select name="system.ruleAnchors.2">
+            <option value="" {{#if (uropEq item.system.ruleAnchors.[2] "")}}selected{{/if}}>-</option>
+            <option value="koerper" {{#if (uropEq item.system.ruleAnchors.[2] "koerper")}}selected{{/if}}>Körper</option>
+            <option value="geist" {{#if (uropEq item.system.ruleAnchors.[2] "geist")}}selected{{/if}}>Geist</option>
+            <option value="praesenz" {{#if (uropEq item.system.ruleAnchors.[2] "praesenz")}}selected{{/if}}>Präsenz</option>
+            <option value="staerke" {{#if (uropEq item.system.ruleAnchors.[2] "staerke")}}selected{{/if}}>Stärke</option>
+            <option value="grobmotorik" {{#if (uropEq item.system.ruleAnchors.[2] "grobmotorik")}}selected{{/if}}>Grobmotorik</option>
+            <option value="feinmotorik" {{#if (uropEq item.system.ruleAnchors.[2] "feinmotorik")}}selected{{/if}}>Feinmotorik</option>
+            <option value="konstitution" {{#if (uropEq item.system.ruleAnchors.[2] "konstitution")}}selected{{/if}}>Konstitution</option>
+            <option value="analyse" {{#if (uropEq item.system.ruleAnchors.[2] "analyse")}}selected{{/if}}>Analyse</option>
+            <option value="willenskraft" {{#if (uropEq item.system.ruleAnchors.[2] "willenskraft")}}selected{{/if}}>Willenskraft</option>
+            <option value="aufmerksamkeit" {{#if (uropEq item.system.ruleAnchors.[2] "aufmerksamkeit")}}selected{{/if}}>Aufmerksamkeit</option>
+            <option value="intuition" {{#if (uropEq item.system.ruleAnchors.[2] "intuition")}}selected{{/if}}>Intuition</option>
+            <option value="ausdruck" {{#if (uropEq item.system.ruleAnchors.[2] "ausdruck")}}selected{{/if}}>Ausdruck</option>
+            <option value="empathie" {{#if (uropEq item.system.ruleAnchors.[2] "empathie")}}selected{{/if}}>Empathie</option>
+            <option value="dominanz" {{#if (uropEq item.system.ruleAnchors.[2] "dominanz")}}selected{{/if}}>Dominanz</option>
+            <option value="resonanz" {{#if (uropEq item.system.ruleAnchors.[2] "resonanz")}}selected{{/if}}>Resonanz</option>
+          </select>
           <label>Voraussetzungen (Freitext)</label>
           <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
           {{/if}}
@@ -104,9 +152,9 @@
 
     <div class="tab" data-group="primary" data-tab="effects">
       <div class="card">
-        <label>Rules Short</label>
+        <label>Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
-        <label>Description</label>
+        <label>Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
     </div>

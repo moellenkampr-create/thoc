@@ -249,13 +249,12 @@
       <div class="card">
         <div class="list-header">
           <h3>Fertigkeiten</h3>
-          <button type="button" class="secondary-action" data-action="create-item" data-type="skill">+ Fertigkeit</button>
         </div>
         <ul class="item-list interactive-list">
           {{#each itemGroups.skill as |item|}}
           <li>
-            <a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a>
-            <span class="item-meta">{{item.system.learnCostEp}} EP</span>
+            <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
+            <span class="item-meta">{{item.system.ruleAnchors.[0]}} | {{item.system.ruleAnchors.[1]}} | {{item.system.ruleAnchors.[2]}} | Stufe {{item.system.level}}</span>
           </li>
           {{/each}}
         </ul>
@@ -287,21 +286,19 @@
         <div class="card">
           <div class="list-header">
             <h3>Ausrüstung</h3>
-            <button type="button" class="secondary-action" data-action="create-item" data-type="gear">+ Ausrüstung</button>
           </div>
           <ul class="item-list interactive-list">
             {{#each itemGroups.gear as |item|}}
-            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
             {{/each}}
           </ul>
 
           <div class="list-header">
             <h3>Verbrauchsgegenstände</h3>
-            <button type="button" class="secondary-action" data-action="create-item" data-type="consumable">+ Verbrauch</button>
           </div>
           <ul class="item-list interactive-list">
             {{#each itemGroups.consumable as |item|}}
-            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
             {{/each}}
           </ul>
         </div>
@@ -309,21 +306,19 @@
         <div class="card">
           <div class="list-header">
             <h3>Waffen</h3>
-            <button type="button" class="secondary-action" data-action="create-item" data-type="weapon">+ Waffe</button>
           </div>
           <ul class="item-list interactive-list">
             {{#each itemGroups.weapon as |item|}}
-            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
             {{/each}}
           </ul>
 
           <div class="list-header">
             <h3>Rüstung</h3>
-            <button type="button" class="secondary-action" data-action="create-item" data-type="armor">+ Rüstung</button>
           </div>
           <ul class="item-list interactive-list">
             {{#each itemGroups.armor as |item|}}
-            <li><a href="#" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{item.system.description}}">{{item.name}}</a></li>
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
             {{/each}}
           </ul>
         </div>

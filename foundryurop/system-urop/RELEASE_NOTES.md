@@ -19,6 +19,28 @@
 
 ---
 
+## [0.1.8] - 2026-05-27
+
+### Changed
+- EP-Gesamtrechnung fuer Skill-Items nutzt jetzt `learn_cost_ep` aus dem Charakter-Skill und wendet Fokusmodifikator ueber passende Regelanker an
+- Skills-Liste auf dem Charakter zeigt Name, drei Regelanker und Stufe statt EP-Wert
+- Skill-Sortierung verbessert: Anwendungsklasse -> Fertigkeitsebene -> Name
+- Skill-Maske: drei Regelanker als Auswahllisten (Regelanker 1 Pflicht, Regelanker 2/3 optional mit `-`)
+- Plus-Buttons fuer Skill/Waffe/Ausruestung/Verbrauch entfernt; Workflow jetzt per Drag-and-Drop aus Sidebar
+
+### Fixed
+- Klick auf Listeneintraege nutzt jetzt Button-Interaktion statt Linknavigation (kein unerwuenschtes Browserfenster)
+- Item-Sheet-Feldlabels und Kurztext/Beschreibung in deutscher UI konsistent benannt
+- Fehlender Lokalisierungseintrag fuer `URoP.Tab.Notes` ergaenzt
+
+### Migration Required
+- no
+
+### Migration Notes
+- Fuer bestehende Skill-Items ohne Regelanker 1 sollte ein passender erster Regelanker manuell gesetzt werden.
+
+---
+
 ## [0.1.7] - 2026-05-27
 
 ### Added
