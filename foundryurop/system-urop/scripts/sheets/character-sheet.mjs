@@ -287,17 +287,10 @@ export class UropCharacterSheet extends ActorSheet {
       };
     }
 
-    if (total <= 17) {
+    return {
       title: game.i18n.localize("URoP.Roll.Outcome.BetterTitle"),
       text: game.i18n.localize("URoP.Roll.Outcome.BetterText"),
       toneClass: "outcome-better"
-        text: game.i18n.localize("URoP.Roll.Outcome.FailureText")
-      };
-    }
-
-    return {
-      title: game.i18n.localize("URoP.Roll.Outcome.CritFailureTitle"),
-      text: game.i18n.localize("URoP.Roll.Outcome.CritFailureText")
     };
   }
 

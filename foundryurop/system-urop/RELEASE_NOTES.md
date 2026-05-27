@@ -19,6 +19,20 @@
 
 ---
 
+## [0.1.11] - 2026-05-27
+
+### Fixed
+- Syntaxfehler in der URoP-Probenauswertung bereinigt, der das Laden des Systemmoduls blockierte
+- Custom Actor-/Item-Sheets werden dadurch wieder korrekt registriert statt auf Foundry-Default zurückzufallen
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.10] - 2026-05-27
 
 ### Added
