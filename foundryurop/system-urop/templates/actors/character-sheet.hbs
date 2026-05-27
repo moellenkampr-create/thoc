@@ -29,7 +29,7 @@
           <input type="number" name="system.resources.epTotal" value="{{actor.system.resources.epTotal}}"/>
           <div class="field-header">
             <label>{{localize "URoP.Field.EPSpent"}}</label>
-            <span class="hover-help" data-help="{{localize 'URoP.Help.EPSpentRecalc'}}">?</span>
+            <span class="hover-help help-icon" data-help="{{localize 'URoP.Help.EPSpentRecalc'}}">?</span>
           </div>
           <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
           <button type="button" data-action="recalc-ep" class="secondary-action">{{localize "URoP.Field.RecalculateEP"}}</button>
@@ -51,7 +51,7 @@
       <div class="card focus-card">
         <div class="field-header">
           <label>{{localize "URoP.Field.FocusAttributes"}}</label>
-          <span class="hover-help" data-help="{{localize 'URoP.Help.FocusAttributes'}}">?</span>
+          <span class="hover-help help-icon" data-help="{{localize 'URoP.Help.FocusAttributes'}}">?</span>
         </div>
         <div class="focus-row">
           <label><input type="checkbox" data-action="toggle-focus-attribute" data-attribute="koerper" {{#if isKoerperFocus}}checked{{/if}}/> Körper</label>

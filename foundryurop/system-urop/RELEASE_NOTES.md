@@ -19,6 +19,24 @@
 
 ---
 
+## [0.1.6] - 2026-05-27
+
+### Changed
+- Tooltip-Icon-Styling von allgemeinen Hover-Tooltips getrennt, damit Labeltexte nicht mehr als runde Icon-Elemente gerendert werden
+- Facetten-Grid für Kopf- und Wertzeilen vereinheitlicht, damit "Abw." und "Gesamt" direkt über den zugehörigen Spalten stehen
+- Gesamtwerte in der Facettenspalte mittig ausgerichtet
+
+### Fixed
+- Facettenbezeichnungen laufen nicht mehr sichtbar aus der Box, lange Begriffe umbrechen jetzt kontrolliert
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.5] - 2026-05-27
 
 ### Added

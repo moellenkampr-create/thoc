@@ -106,7 +106,7 @@
   margin-top: 6px;
 }
 
-.urop-sheet .hover-help {
+.urop-sheet .help-icon {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -120,32 +120,6 @@
   font-size: 0.75rem;
   cursor: help;
   margin-top: 6px;
-}
-
-.urop-sheet .hover-help::after {
-  content: attr(data-help);
-  position: absolute;
-  right: 0;
-  top: calc(100% + 6px);
-  width: 260px;
-  z-index: 2;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(-4px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  transition-delay: 0.45s;
-  background: #0d1724;
-  border: 1px solid var(--urop-border);
-  border-radius: 7px;
-  padding: 8px;
-  color: var(--urop-text);
-  font-size: 0.8rem;
-  line-height: 1.25;
-}
-
-.urop-sheet .hover-help:hover::after {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .urop-sheet input,
@@ -237,7 +211,7 @@
 /* ── Facetten-Zeile ── */
 .urop-sheet .facet-row {
   display: grid;
-  grid-template-columns: 1fr 100px 54px 24px;
+  grid-template-columns: minmax(120px, 1fr) 100px 56px 24px;
   align-items: center;
   column-gap: 6px;
   padding: 2px 0;
@@ -245,7 +219,7 @@
 
 .urop-sheet .facet-head {
   display: grid;
-  grid-template-columns: 1fr 100px 54px 24px;
+  grid-template-columns: minmax(120px, 1fr) 100px 56px 24px;
   gap: 6px;
   align-items: center;
   margin-bottom: 2px;
@@ -258,19 +232,20 @@
 }
 
 .urop-sheet .facet-label {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--urop-muted);
   cursor: help;
   white-space: normal;
   line-height: 1.1;
+  overflow-wrap: anywhere;
   min-width: 0;
 }
 
 .urop-sheet .facet-total {
   font-size: 0.82rem;
   color: var(--urop-muted);
-  min-width: 54px;
-  text-align: right;
+  min-width: 56px;
+  text-align: center;
 }
 
 /* ── Stepper (Attribut + Facette) ── */
