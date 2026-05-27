@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Arasaka-HR Erstgespraech (Lauri Asset-Flag)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 18,
+          "hour": 11,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 18,
+          "hour": 12,
+          "minute": 0,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Erstkontakt auf Verwaltungsebene wegen Lauris Asset-Flag.</p><p><strong>Vermutliche Stichpunkte:</strong></p><ul><li>Asset-Status / Compliance / Berichtspfad</li><li>Freikaufanfrage und formaler Prozess</li><li>Risikoprofil und Kontaktkanal</li><li>Rueckkehrkonditionen und Fristlogik</li></ul><p><strong>Terminvereinbarung:</strong> Folgetermin im Arasaka Tower in 14+ Tagen (vorlaeufig: 03.08.2077, 10:00).</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

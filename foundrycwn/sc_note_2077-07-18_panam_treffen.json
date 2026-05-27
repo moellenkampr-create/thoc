@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Treffen mit Panam (Briefing)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 17,
+          "hour": 18,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 17,
+          "hour": 19,
+          "minute": 30,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Panam-Briefing mit Trio.</p><ul><li>Zielobjekte: Warhorse + Merchandise</li><li>Route/Koeder/OPSEC, moeglichst ohne Saul-Sichtbarkeit</li><li>Dealrahmen: Fahrzeug an Panam, Merchandise-Interesse Richtung 6th Street</li></ul><p><strong>Hinweis:</strong> Wraiths und Raffen Shivs werden im lokalen Setting als zusammenhaengender Gegnerkomplex gefuehrt.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

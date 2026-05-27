@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Elias-Kontaktfenster (Rennsonntag)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 17,
+          "hour": 14,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 17,
+          "hour": 16,
+          "minute": 0,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Elias ist wieder in NC und versucht fruehen Kontakt zum Trio (sichtbar direkt oder ueber Rennbild/Feed).</p><p><strong>Gesprächsrahmen:</strong> NC/NUSA-Projekt, Arasaka-Lage, Georges Zukunftsfrage und Verhandlungsangebot ohne sofortige Frontaleskalation.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

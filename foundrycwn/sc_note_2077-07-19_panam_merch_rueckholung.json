@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Panam-Operation: Merchandise-Rueckholung",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 18,
+          "hour": 20,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 18,
+          "hour": 23,
+          "minute": 30,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Abendoperation mit Panam zur Rueckholung von Warhorse + Merchandise.</p><ul><li>Anschlussziel: Merchandise wieder in 6th-Street-Deal ueberfuehren</li><li>Risiko: bewaffnete Gegenwehr und hohe Eskalationswahrscheinlichkeit</li><li>Mitch/Scorpion-Marker: toedliche Gewalt wahrscheinlich</li></ul>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}
