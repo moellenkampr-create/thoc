@@ -33,8 +33,6 @@
           </div>
           <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
           <button type="button" data-action="recalc-ep" class="secondary-action">{{localize "URoP.Field.RecalculateEP"}}</button>
-          <label>{{localize "URoP.Field.Note"}}</label>
-          <textarea name="system.pressure.notes">{{actor.system.pressure.notes}}</textarea>
         </div>
 
         <div class="card">
@@ -271,8 +269,6 @@
             <option value="reduced" {{#if (uropEq actor.system.pressure.state "reduced")}}selected{{/if}}>Reduzierter Druck</option>
             <option value="pressure" {{#if (uropEq actor.system.pressure.state "pressure")}}selected{{/if}}>Druck</option>
           </select>
-          <label>{{localize "URoP.Field.Note"}}</label>
-          <textarea name="system.pressure.notes">{{actor.system.pressure.notes}}</textarea>
           <label>{{localize "URoP.Field.Boosts"}}</label>
           <textarea name="system.combat.boostNotes">{{actor.system.combat.boostNotes}}</textarea>
         </div>
@@ -395,12 +391,6 @@
 
         <div class="card">
           <h3>{{localize "URoP.Section.Temp"}}</h3>
-          <label>{{localize "URoP.Field.PressureState"}}</label>
-          <select name="system.pressure.state">
-            <option value="none" {{#if (uropEq actor.system.pressure.state "none")}}selected{{/if}}>Kein Druck</option>
-            <option value="reduced" {{#if (uropEq actor.system.pressure.state "reduced")}}selected{{/if}}>Reduzierter Druck</option>
-            <option value="pressure" {{#if (uropEq actor.system.pressure.state "pressure")}}selected{{/if}}>Druck</option>
-          </select>
           <p>{{localize "URoP.Help.TempTab"}}</p>
 
           <label>{{localize "URoP.Field.LockingEnabled"}}</label>

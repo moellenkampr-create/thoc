@@ -19,6 +19,26 @@
 
 ---
 
+## [0.1.12] - 2026-05-27
+
+### Changed
+- Character-Sheet bereinigt: Druckstatus nur noch einmal gebunden (Kampfseite), konflikttraechtige Doppelbindung entfernt
+- Uebersichts-Notizfeld mit Druckbindung entfernt; Kampfseite nutzt fuer positive Effekte nur noch `Boosts`
+- Roll-Outcome-Code aufgeraeumt und kurz dokumentiert (Banding relativ zum Standardoutcome)
+
+### Fixed
+- Komma-Ketten in Feldern durch doppelte Formularpfade behoben
+- Druckstatus wird nicht mehr durch zweite Auswahl im Temp-Reiter ueberschrieben
+- Unnoetige/dead Lokalisierungskeys und ungenutzte Hilfsmethode aus dem Code entfernt
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.11] - 2026-05-27
 
 ### Fixed

@@ -239,12 +239,17 @@ Ausrichtung soll formen, nicht verbieten. Rundungen erfolgen zugunsten des Spiel
 
 Aktueller Testwert: **600 Entwicklungspunkte (EP)**
 
-| Attribut (ab Basis 2) | Kosten |
-|-----------------------|--------|
+| Attributswert | Kosten |
+|--------------|--------|
+| 0 | -90 EP |
+| 1 | -40 EP |
+| 2 | 0 EP |
 | 3 | 40 EP |
 | 4 | 90 EP |
 | 5 | 160 EP |
 | 6 | 260 EP |
+
+Hinweis: Attributwerte unter 0 sind kein regulärer Build-Zielwert. Kurzfristige Zustände/Konsequenzen koennen Werte temporaer beeinflussen, ohne die Entwicklungskosten neu zu berechnen.
 
 | Lebensphase | Empfohlener Anteil |
 |-------------|-------------------|

@@ -255,6 +255,8 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _getProbeOutcome(total) {
+    // Banding maps directly to URoP's 3W6 reading (schlecht/schwach/Standard/gut/sehr gut),
+    // but labels are phrased relative to the scene's predefined standard outcome.
     if (total <= 5) {
       return {
         title: game.i18n.localize("URoP.Roll.Outcome.WorseTitle"),
@@ -292,10 +294,6 @@ export class UropCharacterSheet extends ActorSheet {
       text: game.i18n.localize("URoP.Roll.Outcome.BetterText"),
       toneClass: "outcome-better"
     };
-  }
-
-  _calculateSpentEp() {
-    return this._calculateSpentEpBreakdown().total;
   }
 
   async _onRecalculateEp(event) {
