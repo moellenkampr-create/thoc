@@ -1,4 +1,19 @@
 export class UropCharacterSheet extends ActorSheet {
+  static FACET_TO_ATTRIBUTE = {
+    staerke: "koerper",
+    grobmotorik: "koerper",
+    feinmotorik: "koerper",
+    konstitution: "koerper",
+    analyse: "geist",
+    willenskraft: "geist",
+    aufmerksamkeit: "geist",
+    intuition: "geist",
+    ausdruck: "praesenz",
+    empathie: "praesenz",
+    dominanz: "praesenz",
+    resonanz: "praesenz"
+  };
+
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["urop", "sheet", "actor", "character"],
@@ -19,6 +34,9 @@ export class UropCharacterSheet extends ActorSheet {
   getData(options) {
     const data = super.getData(options);
     const allItems = Array.from(this.actor.items.values()).map((i) => i.toObject());
+    const attributes = this.actor.system.attributes || {};
+    const facets = this.actor.system.facets || {};
+    const focusAttributes = this.actor.system.meta?.focus?.attributes || [];
 
     data.itemGroups = {
       gear: allItems.filter((i) => i.type === "gear"),
@@ -26,6 +44,12 @@ export class UropCharacterSheet extends ActorSheet {
       armor: allItems.filter((i) => i.type === "armor"),
       maneuver: allItems.filter((i) => i.type === "maneuver")
     };
+
+    data.facetTotals = this._buildFacetTotals(attributes, facets);
+    data.isKoerperFocus = focusAttributes.includes("koerper");
+    data.isGeistFocus = focusAttributes.includes("geist");
+    data.isPraesenzFocus = focusAttributes.includes("praesenz");
+    data.isFocusSelectionLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
 
     return data;
   }
@@ -45,9 +69,41 @@ export class UropCharacterSheet extends ActorSheet {
 
     // Lock toggle
     html.find('[data-action="toggle-lock"]').on("click", this._onToggleLock.bind(this));
+    html.find('[data-action="toggle-focus-attribute"]').on("change", this._onToggleFocusAttribute.bind(this));
+    html.find('[data-action="toggle-focus-lock"]').on("click", this._onToggleFocusLock.bind(this));
 
     // Apply initial lock visual state
     this._applyLockState(html);
+  }
+
+  _buildFacetTotals(attributes, facets) {
+    const totals = {};
+
+    for (const [facetKey, attrKey] of Object.entries(UropCharacterSheet.FACET_TO_ATTRIBUTE)) {
+      const attrValue = Number(attributes?.[attrKey]?.value || 0);
+      const facetDelta = Number(facets?.[facetKey] || 0);
+      totals[facetKey] = attrValue + facetDelta;
+    }
+
+    return totals;
+  }
+
+  _attributeCost(value) {
+    const numeric = Number(value || 0);
+
+    if (numeric <= 2) return 0;
+
+    const table = {
+      3: 40,
+      4: 90,
+      5: 160,
+      6: 260
+    };
+
+    if (table[numeric] !== undefined) return table[numeric];
+    if (numeric > 6) return table[6] + (numeric - 6) * 100;
+
+    return 0;
   }
 
   async _onRollUrop(event) {
@@ -106,12 +162,11 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _calculateSpentEp() {
-    const attributes = Object.values(this.actor.system.attributes || {}).reduce(
-      (sum, entry) => sum + Number(entry?.value || 0),
-      0
-    );
+    const attributes = Object.values(this.actor.system.attributes || {}).reduce((sum, entry) => {
+      return sum + this._attributeCost(entry?.value || 0);
+    }, 0);
     const facets = Object.values(this.actor.system.facets || {}).reduce(
-      (sum, value) => sum + Number(value || 0),
+      (sum, value) => sum + Number(value || 0) * 40,
       0
     );
     const skills = Object.values(this.actor.system.skills || {}).reduce(
@@ -151,6 +206,16 @@ export class UropCharacterSheet extends ActorSheet {
         steppers.prop("disabled", false);
       }
     });
+
+    const isFocusLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
+    html.find('[data-action="toggle-focus-attribute"]').prop("disabled", isFocusLocked);
+
+    const focusLockBtn = html.find('[data-action="toggle-focus-lock"]');
+    if (isFocusLocked) {
+      focusLockBtn.removeClass("unlocked").text("🔒");
+    } else {
+      focusLockBtn.addClass("unlocked").text("🔓");
+    }
   }
 
   _onToggleLock(event) {
@@ -186,6 +251,35 @@ export class UropCharacterSheet extends ActorSheet {
     const next = current + delta;
     input.val(next);
     await this.actor.update({ [path]: next });
+  }
+
+  async _onToggleFocusAttribute(event) {
+    const checkbox = event.currentTarget;
+    const attrKey = checkbox.dataset.attribute;
+    const isFocusLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
+
+    if (isFocusLocked) {
+      checkbox.checked = !checkbox.checked;
+      return;
+    }
+
+    const current = Array.from(this.actor.system.meta?.focus?.attributes || []);
+    const has = current.includes(attrKey);
+    const next = has ? current.filter((key) => key !== attrKey) : [...current, attrKey];
+
+    if (next.length > 2) {
+      checkbox.checked = false;
+      ui.notifications.warn(game.i18n.localize("URoP.Notification.FocusMaxTwo"));
+      return;
+    }
+
+    await this.actor.update({ "system.meta.focus.attributes": next });
+  }
+
+  async _onToggleFocusLock(event) {
+    event.preventDefault();
+    const isFocusLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
+    await this.actor.update({ "system.meta.focus.selectionLocked": !isFocusLocked });
   }
 
   async _onRollInitiative(event) {

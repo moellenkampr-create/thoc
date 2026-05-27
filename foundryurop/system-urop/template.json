@@ -6,6 +6,10 @@
         "locking": {
           "enabled": false,
           "fields": {}
+        },
+        "focus": {
+          "attributes": [],
+          "selectionLocked": true
         }
       },
       "attributes": {

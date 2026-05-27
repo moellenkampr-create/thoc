@@ -19,6 +19,27 @@
 
 ---
 
+## [0.1.3] - 2026-05-27
+
+### Added
+- Hauptattribut-Auswahl (Körper/Geist/Präsenz) im Attribute-Reiter mit eigener Sperre
+- Anzeige von Facetten-Abweichung und automatisch berechnetem Facetten-Gesamtwert je Facette
+
+### Changed
+- EP-Neuberechnung für Attribute auf progressive Kosten (ab Basis 2): 3=40, 4=90, 5=160, 6=260
+- EP-Neuberechnung für Facetten auf lineare Kosten: +40/-40 pro Stufe Abweichung
+
+### Fixed
+- Begrenzung der Hauptattribut-Auswahl auf maximal zwei Einträge mit Hinweis bei dritter Auswahl
+
+### Migration Required
+- no
+
+### Migration Notes
+- Bestehende Charaktere erhalten Fokus-Felder automatisch mit Standardwerten beim ersten Speichern.
+
+---
+
 ## [0.1.1] - 2026-05-26
 
 ### Added

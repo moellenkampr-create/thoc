@@ -50,6 +50,10 @@
       "BaseMod": "Base Mod",
       "Target": "Target Value",
       "Situational": "Situational Mod",
+      "FocusAttributes": "Primary Attributes",
+      "FocusLock": "Lock Primary Attributes",
+      "FacetDelta": "Delta",
+      "FacetTotal": "Total",
       "EPTotal": "Total XP",
       "EPSpent": "XP Spent",
       "RecalculateEP": "Refresh XP Spent",
@@ -61,10 +65,12 @@
     },
     "Help": {
       "EPSpentRecalc": "Recalculates XP spent from attributes, facets, skills, and maneuver costs.",
+      "FocusAttributes": "Pick up to two primary attributes. Selecting a third one resets that change.",
       "TempTab": "Temporary tab for fields moved out during iteration."
     },
     "Notification": {
-      "EPSpentUpdated": "XP spent updated: {value}"
+      "EPSpentUpdated": "XP spent updated: {value}",
+      "FocusMaxTwo": "A maximum of two primary attributes is allowed."
     },
     "Attr": {
       "KoerperHelp": "Body – Physique, endurance, movement, close-range assertion",

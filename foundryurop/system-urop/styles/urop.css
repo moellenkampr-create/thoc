@@ -195,6 +195,24 @@
   gap: 4px;
 }
 
+.urop-sheet .focus-card {
+  margin-bottom: 8px;
+}
+
+.urop-sheet .focus-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.urop-sheet .focus-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--urop-muted);
+}
+
 .urop-sheet .attr-header {
   display: flex;
   align-items: center;
@@ -230,6 +248,13 @@
   color: var(--urop-muted);
   cursor: help;
   white-space: nowrap;
+}
+
+.urop-sheet .facet-total {
+  font-size: 0.72rem;
+  color: var(--urop-muted);
+  min-width: 120px;
+  text-align: right;
 }
 
 /* ── Stepper (Attribut + Facette) ── */

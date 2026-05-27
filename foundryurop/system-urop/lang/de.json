@@ -50,6 +50,10 @@
       "BaseMod": "Inibasis Mod",
       "Target": "Vergleichswert",
       "Situational": "Situationsmod",
+      "FocusAttributes": "Hauptattribute",
+      "FocusLock": "Hauptattribute sperren",
+      "FacetDelta": "Abw.",
+      "FacetTotal": "Gesamt",
       "EPTotal": "EP gesamt",
       "EPSpent": "EP ausgegeben",
       "RecalculateEP": "EP aktualisieren",
@@ -61,10 +65,12 @@
     },
     "Help": {
       "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Facetten, Fertigkeiten und Manöverkosten.",
+      "FocusAttributes": "Wähle bis zu zwei Hauptattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
       "TempTab": "Temp-Reiter für ausgelagerte Felder während der Iteration."
     },
     "Notification": {
-      "EPSpentUpdated": "EP ausgegeben aktualisiert: {value}"
+      "EPSpentUpdated": "EP ausgegeben aktualisiert: {value}",
+      "FocusMaxTwo": "Es sind maximal zwei Hauptattribute erlaubt."
     },
     "Attr": {
       "KoerperHelp": "Körper – Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung",
