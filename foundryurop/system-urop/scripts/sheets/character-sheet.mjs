@@ -116,9 +116,12 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _attributeCost(value) {
-    const numeric = Number(value || 0);
+    const rawNumeric = Number(value || 0);
+    const numeric = Math.max(0, rawNumeric);
 
-    if (numeric <= 2) return 0;
+    if (numeric === 2) return 0;
+    if (numeric === 1) return -40;
+    if (numeric === 0) return -90;
 
     const table = {
       3: 40,

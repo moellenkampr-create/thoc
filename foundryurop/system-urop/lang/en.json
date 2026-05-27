@@ -37,7 +37,8 @@
       "Advanced": "Temp",
       "Details": "Details",
       "Effects": "Effects",
-      "Notes": "Notes"
+      "Notes": "Notes",
+      "Internal": "Internal"
     },
     "Section": {
       "Initiative": "Initiative",
@@ -62,7 +63,8 @@
       "Appearance": "Appearance",
       "Backstory": "Backstory",
       "PressureState": "Pressure State",
-      "LockingEnabled": "Field Lock Enabled"
+      "LockingEnabled": "Field Lock Enabled",
+      "InternalNote": "Internal Note"
     },
     "Help": {
       "EPSpentRecalc": "Recalculates XP spent from attributes, facets, skills, and maneuver costs.",

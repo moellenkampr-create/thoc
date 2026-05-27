@@ -37,7 +37,8 @@
       "Advanced": "Temp",
       "Details": "Details",
       "Effects": "Effekte",
-      "Notes": "Notizen"
+      "Notes": "Notizen",
+      "Internal": "Intern"
     },
     "Section": {
       "Initiative": "Initiative",
@@ -62,7 +63,8 @@
       "Appearance": "Aussehen",
       "Backstory": "Backstory",
       "PressureState": "Druckstatus",
-      "LockingEnabled": "Feldsperre aktiv"
+      "LockingEnabled": "Feldsperre aktiv",
+      "InternalNote": "Interne Notiz"
     },
     "Help": {
       "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Facetten, Fertigkeiten und Manöverkosten.",
@@ -99,7 +101,7 @@
       "weapon": "Waffe",
       "armor": "Rüstung",
       "maneuver": "Manöver",
-      "skill": "Neue Fertigkeit"
+      "skill": "Fertigkeit"
     }
   }
 }
