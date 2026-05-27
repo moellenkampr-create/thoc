@@ -19,6 +19,27 @@
 
 ---
 
+## [0.1.5] - 2026-05-27
+
+### Added
+- Automatische EP-Aktualisierung bei Fokuswechsel und Stepper-Änderungen im Attribute-Reiter
+
+### Changed
+- Facettenlayout auf konsistentes Grid umgestellt, damit Spaltenüberschriften und Werte sauber ausgerichtet sind
+- Facettenlabels dürfen umbrechen, damit Texte nicht mehr aus den Boxen laufen
+
+### Fixed
+- "Abw." steht jetzt über dem Abweichungswertbereich statt über dem Minus-Button
+- EP-Anzeige bleibt nach Fokus-/Wertänderungen nicht mehr auf veralteten Werten stehen
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.4] - 2026-05-27
 
 ### Added

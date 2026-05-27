@@ -236,9 +236,10 @@
 
 /* ── Facetten-Zeile ── */
 .urop-sheet .facet-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 100px 54px 24px;
   align-items: center;
-  gap: 6px;
+  column-gap: 6px;
   padding: 2px 0;
 }
 
@@ -257,11 +258,12 @@
 }
 
 .urop-sheet .facet-label {
-  flex: 1;
   font-size: 0.85rem;
   color: var(--urop-muted);
   cursor: help;
-  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.1;
+  min-width: 0;
 }
 
 .urop-sheet .facet-total {
@@ -276,7 +278,12 @@
 .urop-sheet .facet-stepper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2px;
+}
+
+.urop-sheet .facet-stepper {
+  width: 100px;
 }
 
 .urop-sheet .stepper-btn {

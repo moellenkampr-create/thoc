@@ -126,6 +126,43 @@ export class UropCharacterSheet extends ActorSheet {
     return Math.floor(result);
   }
 
+  _calculateSpentEpBreakdown() {
+    const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
+      const baseCost = this._attributeCost(entry?.value || 0);
+      const modifier = this._focusModifierForAttribute(attrKey);
+      return sum + this._applyFocusModifier(baseCost, modifier);
+    }, 0);
+
+    const facets = Object.entries(this.actor.system.facets || {}).reduce((sum, [facetKey, value]) => {
+      const attrKey = UropCharacterSheet.FACET_TO_ATTRIBUTE[facetKey];
+      const baseCost = Number(value || 0) * 40;
+      const modifier = this._focusModifierForAttribute(attrKey);
+      return sum + this._applyFocusModifier(baseCost, modifier);
+    }, 0);
+
+    const skills = Object.values(this.actor.system.skills || {}).reduce(
+      (sum, value) => sum + Number(value || 0),
+      0
+    );
+
+    const maneuverEp = Array.from(this.actor.items.values())
+      .filter((item) => item.type === "maneuver")
+      .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
+
+    return {
+      attributes,
+      facets,
+      skills,
+      maneuverEp,
+      total: Math.max(0, attributes + facets + skills + maneuverEp)
+    };
+  }
+
+  async _refreshEpSpent() {
+    const breakdown = this._calculateSpentEpBreakdown();
+    await this.actor.update({ "system.resources.epSpent": breakdown.total });
+  }
+
   async _onRollUrop(event) {
     event.preventDefault();
 
@@ -182,36 +219,16 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _calculateSpentEp() {
-    const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
-      const baseCost = this._attributeCost(entry?.value || 0);
-      const modifier = this._focusModifierForAttribute(attrKey);
-      return sum + this._applyFocusModifier(baseCost, modifier);
-    }, 0);
-
-    const facets = Object.entries(this.actor.system.facets || {}).reduce((sum, [facetKey, value]) => {
-      const attrKey = UropCharacterSheet.FACET_TO_ATTRIBUTE[facetKey];
-      const baseCost = Number(value || 0) * 40;
-      const modifier = this._focusModifierForAttribute(attrKey);
-      return sum + this._applyFocusModifier(baseCost, modifier);
-    }, 0);
-    const skills = Object.values(this.actor.system.skills || {}).reduce(
-      (sum, value) => sum + Number(value || 0),
-      0
-    );
-    const maneuverEp = Array.from(this.actor.items.values())
-      .filter((item) => item.type === "maneuver")
-      .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
-
-    return Math.max(0, attributes + facets + skills + maneuverEp);
+    return this._calculateSpentEpBreakdown().total;
   }
 
   async _onRecalculateEp(event) {
     event.preventDefault();
 
-    const epSpent = this._calculateSpentEp();
-    await this.actor.update({ "system.resources.epSpent": epSpent });
+    const breakdown = this._calculateSpentEpBreakdown();
+    await this.actor.update({ "system.resources.epSpent": breakdown.total });
 
-    ui.notifications.info(game.i18n.format("URoP.Notification.EPSpentUpdated", { value: epSpent }));
+    ui.notifications.info(game.i18n.format("URoP.Notification.EPSpentUpdated", { value: breakdown.total }));
   }
 
   _applyLockState(html) {
@@ -276,6 +293,7 @@ export class UropCharacterSheet extends ActorSheet {
     const next = current + delta;
     input.val(next);
     await this.actor.update({ [path]: next });
+    await this._refreshEpSpent();
   }
 
   async _onToggleFocusAttribute(event) {
@@ -299,6 +317,7 @@ export class UropCharacterSheet extends ActorSheet {
     }
 
     await this.actor.update({ "system.meta.focus.attributes": next });
+    await this._refreshEpSpent();
   }
 
   async _onToggleFocusLock(event) {
