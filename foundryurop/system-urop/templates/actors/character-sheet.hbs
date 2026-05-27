@@ -74,6 +74,12 @@
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.koerper.value" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <hr class="attr-divider"/>
+          <div class="facet-head">
+            <span></span>
+            <span class="facet-col-head hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.FacetTotal"}}</span>
+            <span></span>
+          </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.StaerkeHelp'}}">Stärke</span>
             <div class="facet-stepper">
@@ -81,7 +87,7 @@
               <input type="number" class="facet-value" name="system.facets.staerke" value="{{actor.system.facets.staerke}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.staerke">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.staerke}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.staerke}}</span>
+            <span class="facet-total">{{facetTotals.staerke}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.staerke" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -91,7 +97,7 @@
               <input type="number" class="facet-value" name="system.facets.grobmotorik" value="{{actor.system.facets.grobmotorik}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.grobmotorik">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.grobmotorik}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.grobmotorik}}</span>
+            <span class="facet-total">{{facetTotals.grobmotorik}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.grobmotorik" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -101,7 +107,7 @@
               <input type="number" class="facet-value" name="system.facets.feinmotorik" value="{{actor.system.facets.feinmotorik}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.feinmotorik">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.feinmotorik}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.feinmotorik}}</span>
+            <span class="facet-total">{{facetTotals.feinmotorik}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.feinmotorik" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -111,7 +117,7 @@
               <input type="number" class="facet-value" name="system.facets.konstitution" value="{{actor.system.facets.konstitution}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.konstitution">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.konstitution}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.konstitution}}</span>
+            <span class="facet-total">{{facetTotals.konstitution}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.konstitution" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
         </div>
@@ -128,6 +134,12 @@
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.geist.value" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <hr class="attr-divider"/>
+          <div class="facet-head">
+            <span></span>
+            <span class="facet-col-head hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.FacetTotal"}}</span>
+            <span></span>
+          </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.AnalyseHelp'}}">Analyse</span>
             <div class="facet-stepper">
@@ -135,7 +147,7 @@
               <input type="number" class="facet-value" name="system.facets.analyse" value="{{actor.system.facets.analyse}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.analyse">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.analyse}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.analyse}}</span>
+            <span class="facet-total">{{facetTotals.analyse}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.analyse" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -145,7 +157,7 @@
               <input type="number" class="facet-value" name="system.facets.willenskraft" value="{{actor.system.facets.willenskraft}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.willenskraft">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.willenskraft}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.willenskraft}}</span>
+            <span class="facet-total">{{facetTotals.willenskraft}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.willenskraft" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -155,7 +167,7 @@
               <input type="number" class="facet-value" name="system.facets.aufmerksamkeit" value="{{actor.system.facets.aufmerksamkeit}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.aufmerksamkeit">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.aufmerksamkeit}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.aufmerksamkeit}}</span>
+            <span class="facet-total">{{facetTotals.aufmerksamkeit}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.aufmerksamkeit" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -165,7 +177,7 @@
               <input type="number" class="facet-value" name="system.facets.intuition" value="{{actor.system.facets.intuition}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.intuition">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.intuition}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.intuition}}</span>
+            <span class="facet-total">{{facetTotals.intuition}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.intuition" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
         </div>
@@ -182,6 +194,12 @@
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.praesenz.value" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <hr class="attr-divider"/>
+          <div class="facet-head">
+            <span></span>
+            <span class="facet-col-head hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.FacetTotal"}}</span>
+            <span></span>
+          </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.AusdruckHelp'}}">Ausdruck</span>
             <div class="facet-stepper">
@@ -189,7 +207,7 @@
               <input type="number" class="facet-value" name="system.facets.ausdruck" value="{{actor.system.facets.ausdruck}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.ausdruck">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.ausdruck}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.ausdruck}}</span>
+            <span class="facet-total">{{facetTotals.ausdruck}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.ausdruck" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -199,7 +217,7 @@
               <input type="number" class="facet-value" name="system.facets.empathie" value="{{actor.system.facets.empathie}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.empathie">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.empathie}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.empathie}}</span>
+            <span class="facet-total">{{facetTotals.empathie}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.empathie" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -209,7 +227,7 @@
               <input type="number" class="facet-value" name="system.facets.dominanz" value="{{actor.system.facets.dominanz}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.dominanz">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.dominanz}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.dominanz}}</span>
+            <span class="facet-total">{{facetTotals.dominanz}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.dominanz" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
@@ -219,7 +237,7 @@
               <input type="number" class="facet-value" name="system.facets.resonanz" value="{{actor.system.facets.resonanz}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.facets.resonanz">+</button>
             </div>
-            <span class="facet-total">{{localize "URoP.Field.FacetDelta"}} {{actor.system.facets.resonanz}} · {{localize "URoP.Field.FacetTotal"}} {{facetTotals.resonanz}}</span>
+            <span class="facet-total">{{facetTotals.resonanz}}</span>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.facets.resonanz" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
         </div>

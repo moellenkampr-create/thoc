@@ -19,6 +19,27 @@
 
 ---
 
+## [0.1.4] - 2026-05-27
+
+### Added
+- Facetten-Kopfzeile mit "Abw." (inkl. Hover-Erläuterung) und "Gesamt" für kompaktere Darstellung
+
+### Changed
+- Facettenzeilen zeigen in der Zusatzspalte nur noch den Gesamtwert statt wiederholter Textlabels
+
+### Fixed
+- EP-Neuberechnung berücksichtigt jetzt Hauptattribut-Modifikatoren auf Attributkosten
+- EP-Neuberechnung berücksichtigt jetzt Hauptattribut-Modifikatoren auf Facettenkosten
+- Rundung der modifizierten Kosten erfolgt zugunsten des Spielers
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.3] - 2026-05-27
 
 ### Added

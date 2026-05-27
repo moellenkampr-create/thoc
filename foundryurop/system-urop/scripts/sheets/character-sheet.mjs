@@ -106,6 +106,26 @@ export class UropCharacterSheet extends ActorSheet {
     return 0;
   }
 
+  _focusModifierForAttribute(attributeKey) {
+    const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
+
+    if (focus.length === 1) {
+      return focus.includes(attributeKey) ? -0.2 : 0.1;
+    }
+
+    if (focus.length === 2) {
+      return focus.includes(attributeKey) ? -0.1 : 0.2;
+    }
+
+    return 0;
+  }
+
+  _applyFocusModifier(cost, modifier) {
+    const result = Number(cost || 0) * (1 + Number(modifier || 0));
+    // Rundung zugunsten des Spielers.
+    return Math.floor(result);
+  }
+
   async _onRollUrop(event) {
     event.preventDefault();
 
@@ -162,13 +182,18 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _calculateSpentEp() {
-    const attributes = Object.values(this.actor.system.attributes || {}).reduce((sum, entry) => {
-      return sum + this._attributeCost(entry?.value || 0);
+    const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
+      const baseCost = this._attributeCost(entry?.value || 0);
+      const modifier = this._focusModifierForAttribute(attrKey);
+      return sum + this._applyFocusModifier(baseCost, modifier);
     }, 0);
-    const facets = Object.values(this.actor.system.facets || {}).reduce(
-      (sum, value) => sum + Number(value || 0) * 40,
-      0
-    );
+
+    const facets = Object.entries(this.actor.system.facets || {}).reduce((sum, [facetKey, value]) => {
+      const attrKey = UropCharacterSheet.FACET_TO_ATTRIBUTE[facetKey];
+      const baseCost = Number(value || 0) * 40;
+      const modifier = this._focusModifierForAttribute(attrKey);
+      return sum + this._applyFocusModifier(baseCost, modifier);
+    }, 0);
     const skills = Object.values(this.actor.system.skills || {}).reduce(
       (sum, value) => sum + Number(value || 0),
       0
