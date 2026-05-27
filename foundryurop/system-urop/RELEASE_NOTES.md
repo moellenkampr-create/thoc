@@ -19,6 +19,19 @@
 
 ---
 
+## [0.1.13] - 2026-05-27
+
+### Fixed
+- Lesbarkeit der farbigen URoP-Probenanzeige im Chat verbessert (explizite Kontrastfarben fuer Titel, Text und Hervorhebungen)
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.12] - 2026-05-27
 
 ### Changed

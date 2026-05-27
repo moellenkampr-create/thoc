@@ -403,15 +403,22 @@
   border-radius: 8px;
   background: #121a25;
   padding: 8px 10px;
+  color: #edf5ff;
 }
 
 .urop-roll-text h3 {
   margin: 0 0 4px 0;
   font-size: 0.95rem;
+  color: #f5f9ff;
 }
 
 .urop-roll-text p {
   margin: 2px 0;
+  color: #edf5ff;
+}
+
+.urop-roll-text strong {
+  color: #ffffff;
 }
 
 .urop-roll-text.outcome-worse {
