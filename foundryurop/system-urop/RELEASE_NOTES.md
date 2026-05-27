@@ -19,6 +19,25 @@
 
 ---
 
+## [0.1.9] - 2026-05-27
+
+### Changed
+- Item-Typ-Label in deutscher UI von `Neue Fertigkeit` auf `Fertigkeit` angepasst
+- Item-Sheet-Tab fuer interne Inhalte klar als `Intern` bezeichnet
+
+### Fixed
+- Attributkosten geben bei niedrigen Werten EP zurueck (Wert 1 = -40, Wert 0 = -90)
+- Kostenberechnung klemmt Attributwerte unter 0 auf 0 (nur fuer EP-Berechnung)
+- Label im internen Item-Notizbereich auf `Interne Notiz` vereinheitlicht
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.8] - 2026-05-27
 
 ### Changed
