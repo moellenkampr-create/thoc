@@ -60,6 +60,9 @@
         "heavy": ["", ""],
         "critical": [""]
       },
+      "combat": {
+        "boostNotes": ""
+      },
       "resources": {
         "epSpent": 0,
         "epTotal": 600,

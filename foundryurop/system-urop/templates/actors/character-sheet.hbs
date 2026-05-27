@@ -14,7 +14,7 @@
     <a class="item" data-tab="overview">{{localize "URoP.Tab.Overview"}}</a>
     <a class="item" data-tab="attributes">{{localize "URoP.Tab.Attributes"}}</a>
     <a class="item" data-tab="skills">{{localize "URoP.Tab.Skills"}}</a>
-    <a class="item" data-tab="consequences">{{localize "URoP.Tab.Consequences"}}</a>
+    <a class="item" data-tab="combat">{{localize "URoP.Tab.Combat"}}</a>
     <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
     <a class="item" data-tab="maneuvers">{{localize "URoP.Tab.Maneuvers"}}</a>
     <a class="item" data-tab="advanced">{{localize "URoP.Tab.Advanced"}}</a>
@@ -261,7 +261,50 @@
       </div>
     </div>
 
-    <div class="tab" data-group="primary" data-tab="consequences">
+    <div class="tab" data-group="primary" data-tab="combat">
+      <div class="grid two-col">
+        <div class="card">
+          <h3>{{localize "URoP.Tab.Combat"}}</h3>
+          <label>{{localize "URoP.Field.PressureState"}}</label>
+          <select name="system.pressure.state">
+            <option value="none" {{#if (uropEq actor.system.pressure.state "none")}}selected{{/if}}>Kein Druck</option>
+            <option value="reduced" {{#if (uropEq actor.system.pressure.state "reduced")}}selected{{/if}}>Reduzierter Druck</option>
+            <option value="pressure" {{#if (uropEq actor.system.pressure.state "pressure")}}selected{{/if}}>Druck</option>
+          </select>
+          <label>{{localize "URoP.Field.Note"}}</label>
+          <textarea name="system.pressure.notes">{{actor.system.pressure.notes}}</textarea>
+          <label>{{localize "URoP.Field.Boosts"}}</label>
+          <textarea name="system.combat.boostNotes">{{actor.system.combat.boostNotes}}</textarea>
+        </div>
+
+        <div class="card">
+          <h3>Kampfuebersicht</h3>
+          <label>Kampffertigkeiten</label>
+          <ul class="item-list interactive-list">
+            {{#each combatSkills as |item|}}
+            <li>
+              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button>
+              <span class="item-meta">Stufe {{item.system.level}}</span>
+            </li>
+            {{/each}}
+          </ul>
+
+          <label>Waffen</label>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.weapon as |item|}}
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>
+            {{/each}}
+          </ul>
+
+          <label>Ruestung</label>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.armor as |item|}}
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+
       <div class="grid three-col">
         <div class="card">
           <h3>Leichte Konsequenzen</h3>

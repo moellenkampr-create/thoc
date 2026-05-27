@@ -396,3 +396,45 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+.urop-roll-text {
+  border: 1px solid #5c6f88;
+  border-left-width: 6px;
+  border-radius: 8px;
+  background: #121a25;
+  padding: 8px 10px;
+}
+
+.urop-roll-text h3 {
+  margin: 0 0 4px 0;
+  font-size: 0.95rem;
+}
+
+.urop-roll-text p {
+  margin: 2px 0;
+}
+
+.urop-roll-text.outcome-worse {
+  border-left-color: #e58c2f;
+  background: #2a1b11;
+}
+
+.urop-roll-text.outcome-below-standard {
+  border-left-color: #e6bf3b;
+  background: #2d2612;
+}
+
+.urop-roll-text.outcome-standard {
+  border-left-color: #9be27c;
+  background: #182516;
+}
+
+.urop-roll-text.outcome-above-standard {
+  border-left-color: #4faa45;
+  background: #152313;
+}
+
+.urop-roll-text.outcome-better {
+  border-left-color: #2f7f2a;
+  background: #11200f;
+}

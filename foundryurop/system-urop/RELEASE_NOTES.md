@@ -19,6 +19,28 @@
 
 ---
 
+## [0.1.10] - 2026-05-27
+
+### Added
+- Neues Actor-Feld `system.combat.boostNotes` fuer freie Boost-Notizen auf der Kampfseite
+- Chat-Farbcodierung fuer URoP-Probenausgabe (schlechter, unter Standard, Standard, ueber Standard, besser)
+
+### Changed
+- Reiter `Konsequenzen` in `Kampf` umbenannt und um Kampfuebersicht (Kampffertigkeiten, Waffen, Ruestung) erweitert
+- URoP-Probenauswertung auf standardorientierte Begriffe umgestellt: `Schlechter`, `Unter Standard`, `Standard`, `Ueber Standard`, `Besser`
+- Probenanzeige zeigt den gewuerfelten 3W6-Wert direkt im Chat an
+
+### Fixed
+- Outcome-Baender auf 3W6-Leitwerte abgestimmt (3-5, 6-8, 9-12, 13-15, 16-18)
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.9] - 2026-05-27
 
 ### Changed

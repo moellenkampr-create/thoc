@@ -70,6 +70,7 @@ export class UropCharacterSheet extends ActorSheet {
           return String(a.name || "").localeCompare(String(b.name || ""), "de", { sensitivity: "base" });
         })
     };
+    data.combatSkills = data.itemGroups.skill.filter((i) => i.system?.applicationClass === "combat");
 
     data.facetTotals = this._buildFacetTotals(attributes, facets);
     data.isKoerperFocus = focusAttributes.includes("koerper");
@@ -249,42 +250,47 @@ export class UropCharacterSheet extends ActorSheet {
 
     await ChatMessage.create({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-      content: `<div class="urop-roll-text"><h3>${label}</h3><p><strong>${outcome.title}</strong></p><p>${outcome.text}</p></div>`
+      content: `<div class="urop-roll-text ${outcome.toneClass}"><h3>${label}</h3><p><strong>${outcome.title}</strong> (${roll.total})</p><p>${outcome.text}</p></div>`
     });
   }
 
   _getProbeOutcome(total) {
     if (total <= 5) {
       return {
-        title: game.i18n.localize("URoP.Roll.Outcome.CritSuccessTitle"),
-        text: game.i18n.localize("URoP.Roll.Outcome.CritSuccessText")
+        title: game.i18n.localize("URoP.Roll.Outcome.WorseTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.WorseText"),
+        toneClass: "outcome-worse"
       };
     }
 
     if (total <= 8) {
       return {
-        title: game.i18n.localize("URoP.Roll.Outcome.StrongSuccessTitle"),
-        text: game.i18n.localize("URoP.Roll.Outcome.StrongSuccessText")
+        title: game.i18n.localize("URoP.Roll.Outcome.BelowStandardTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.BelowStandardText"),
+        toneClass: "outcome-below-standard"
       };
     }
 
-    if (total <= 11) {
+    if (total <= 12) {
       return {
-        title: game.i18n.localize("URoP.Roll.Outcome.SuccessTitle"),
-        text: game.i18n.localize("URoP.Roll.Outcome.SuccessText")
+        title: game.i18n.localize("URoP.Roll.Outcome.StandardTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.StandardText"),
+        toneClass: "outcome-standard"
       };
     }
 
-    if (total <= 14) {
+    if (total <= 15) {
       return {
-        title: game.i18n.localize("URoP.Roll.Outcome.MixedTitle"),
-        text: game.i18n.localize("URoP.Roll.Outcome.MixedText")
+        title: game.i18n.localize("URoP.Roll.Outcome.AboveStandardTitle"),
+        text: game.i18n.localize("URoP.Roll.Outcome.AboveStandardText"),
+        toneClass: "outcome-above-standard"
       };
     }
 
     if (total <= 17) {
-      return {
-        title: game.i18n.localize("URoP.Roll.Outcome.FailureTitle"),
+      title: game.i18n.localize("URoP.Roll.Outcome.BetterTitle"),
+      text: game.i18n.localize("URoP.Roll.Outcome.BetterText"),
+      toneClass: "outcome-better"
         text: game.i18n.localize("URoP.Roll.Outcome.FailureText")
       };
     }
