@@ -161,6 +161,10 @@ source: lore_db.md
 - **Neuer Zwischenstand (2077-07-12, Lauri-Sicht):** City-Vorrunde wurde aus Zivilopfer-/Ethikgruenden vorerst verworfen; Badlands-Vorrunde in der Folgewoche ist aktuell favorisiert.
 - **Fixpunkt (ARBEITSSTAND):** Das erste relevante Vorrennen fuer die aktuelle Runde ist auf **2077-07-18** gesetzt.
 - Hauptrennen-Teilnahme bleibt offen, da Teilelage und Tarnumbau der Superkarre noch nicht gesichert sind.
+- **Neuer Zwischenstand (2077-07-18, Spielleiterhinweis):** KITT ist wieder fahrfaehig, aber derzeit nur im Offroad-Setup belastbar.
+- Bereits vorhanden: Panzerung + drei Geheimfaecher (Waffen/Kleinkram).
+- Restbaustellen vor vollem Race-/Combat-Setup: Sitzbezuege, Lackierung, Waffensysteme, finale Reifenmodelle.
+- VI-Status: George hat grosse Teile implementiert, benoetigt fuer vollstaendiges Einklinken jedoch noch fehlende Module.
 
 ## 2. Paralleler CP2077-Weltplot / Seitenlage
 **KANON / ARBEITSSTAND gemischt**

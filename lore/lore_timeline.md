@@ -801,3 +801,19 @@ source: lore_db.md
     - Mitch/Scorpion benoetigen fuer den Einsatz den Kill-Marker (zuerst schiessen, toeten); George reagiert stark belastet.
     - Lauri denkt als Gegenimpuls ueber **Betaeubungsgeschosse** nach.
     - Tagebuchverfassungsmarker: wiederholtes Loeschen/Wiederherstellen und Auto-Speichern als Stressindikator.
+
+  - **2077-07-18 (Spielleiterhinweis, Oggy/KITT) [ARBEITSSTAND]**:
+    - Oggy hat fuer das Trio eine Ueberraschung: **KITT ist wieder fahrtuechtig**.
+    - Aktueller Fahrmodus: vorerst nur **Offroad-Einstellung**.
+    - Bereits fertig:
+      - Panzerung ist montiert.
+      - Drei Geheimfaecher fuer Waffen/Kleinkram sind verbaut.
+    - Noch offen:
+      - Sitze neu beziehen.
+      - Vollstaendige Lackierung.
+      - Waffensysteme.
+      - Finale Reifenmodelle.
+    - Softwarestand:
+      - George programmiert weiter an der VI.
+      - Fuer vollstaendiges Einklinken fehlen noch mehrere Module.
+      - Ein grosser Teil ist bereits implementiert.
