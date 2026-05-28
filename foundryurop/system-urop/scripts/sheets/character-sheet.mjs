@@ -195,6 +195,42 @@ export class UropCharacterSheet extends ActorSheet {
     return 0;
   }
 
+  _resolveAnchorAttribute(anchorValue) {
+    if (!anchorValue) return null;
+
+    if (this.actor.system.attributes?.[anchorValue]) return anchorValue;
+
+    const mappedAttribute = UropCharacterSheet.FACET_TO_ATTRIBUTE[anchorValue];
+    if (mappedAttribute) return mappedAttribute;
+
+    return null;
+  }
+
+  _resolveSkillPrimaryAttribute(item) {
+    const ruleAnchors = item.system?.ruleAnchors || [];
+    for (const anchor of ruleAnchors) {
+      const attrKey = this._resolveAnchorAttribute(anchor);
+      if (attrKey) return attrKey;
+    }
+
+    return this._resolveAnchorAttribute(item.system?.attributeAnchor);
+  }
+
+  _skillOverhangCost(item) {
+    const level = Number(item.system?.level || 0);
+    const attrKey = this._resolveSkillPrimaryAttribute(item);
+    if (!attrKey) return 0;
+
+    const attrValue = Number(this.actor.system.attributes?.[attrKey]?.value || 0);
+    const overhang = level - attrValue;
+
+    if (overhang <= 0) return 0;
+    if (overhang === 1) return 30;
+
+    // +2 and above is exception area in rules; EP logic currently applies the highest defined surcharge.
+    return 90;
+  }
+
   _calculateSpentEpBreakdown() {
     const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
       const baseCost = this._attributeCost(entry?.value || 0);
@@ -219,7 +255,8 @@ export class UropCharacterSheet extends ActorSheet {
       .reduce((sum, item) => {
         const baseCost = Number(item.system?.learnCostEp || 0);
         const modifier = this._skillFocusModifier(item);
-        return sum + this._applyFocusModifier(baseCost, modifier);
+        const overhangCost = this._skillOverhangCost(item);
+        return sum + this._applyFocusModifier(baseCost, modifier) + overhangCost;
       }, 0);
 
     const maneuverEp = Array.from(this.actor.items.values())
@@ -247,10 +284,11 @@ export class UropCharacterSheet extends ActorSheet {
     const label = event.currentTarget.dataset.label || game.i18n.localize("URoP.Roll.Generic");
     const roll = await new Roll("3d6", {}).evaluate();
     const outcome = this._getProbeOutcome(roll.total);
+    const extremeClass = roll.total === 3 ? "outcome-extreme-low" : roll.total === 18 ? "outcome-extreme-high" : "";
 
     await ChatMessage.create({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-      content: `<div class="urop-roll-text ${outcome.toneClass}"><h3>${label}</h3><p><strong>${outcome.title}</strong> (${roll.total})</p><p>${outcome.text}</p></div>`
+      content: `<div class="urop-roll-text ${outcome.toneClass} ${extremeClass}"><h3>${label}</h3><p><strong>${outcome.title}</strong> (${roll.total})</p><p>${outcome.text}</p></div>`
     });
   }
 

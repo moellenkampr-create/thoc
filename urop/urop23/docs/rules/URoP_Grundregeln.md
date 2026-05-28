@@ -64,6 +64,19 @@ Beispiel Konstitution:
 - aktueller Arbeitsbereich: **0 bis 6**
 - Referenz: **2 = Durchschnitt**
 
+### 2.4 Charakterkosten-Referenz [TESTSTAND]
+- Attributkosten: 0=-90, 1=-40, 2=0, 3=40, 4=90, 5=160, 6=260
+- Facettenkosten: **lineare Abweichungskosten** mit **±40 EP pro Stufe**
+
+Beispiel Facettenkosten:
+- Facette -2 = -80 EP
+- Facette +1 = +40 EP
+- Facette +3 = +120 EP
+
+Fokusmodifikator:
+- Fokusmodifikatoren werden auf Attribut- und Facettenkosten angewandt.
+- Rundung erfolgt zugunsten des Spielers (abrunden).
+
 ---
 
 ## 3. Probenkern [ARBEITSSTAND]

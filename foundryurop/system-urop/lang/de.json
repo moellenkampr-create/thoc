@@ -61,11 +61,12 @@
       "Backstory": "Backstory",
       "PressureState": "Druckstatus",
       "Boosts": "Boosts",
+      "SizeClass": "Größenstufe",
       "LockingEnabled": "Feldsperre aktiv",
       "InternalNote": "Interne Notiz"
     },
     "Help": {
-      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Facetten, Fertigkeiten und Manöverkosten.",
+      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Facetten, Fertigkeiten (inkl. Überhang) und Manöverkosten.",
       "FocusAttributes": "Wähle bis zu zwei Hauptattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
       "FacetDelta": "Abweichung zur Basis des Hauptattributs. Jede Stufe verändert den Facetten-Gesamtwert entsprechend.",
       "TempTab": "Temp-Reiter für ausgelagerte Felder während der Iteration."

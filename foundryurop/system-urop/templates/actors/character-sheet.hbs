@@ -263,6 +263,19 @@
       <div class="grid two-col">
         <div class="card">
           <h3>{{localize "URoP.Tab.Combat"}}</h3>
+          <label>{{localize "URoP.Field.SizeClass"}}</label>
+          <select name="system.sizeClass">
+            <option value="G0" {{#if (uropEq actor.system.sizeClass "G0")}}selected{{/if}}>G0</option>
+            <option value="G1" {{#if (uropEq actor.system.sizeClass "G1")}}selected{{/if}}>G1</option>
+            <option value="G2" {{#if (uropEq actor.system.sizeClass "G2")}}selected{{/if}}>G2</option>
+            <option value="G3" {{#if (uropEq actor.system.sizeClass "G3")}}selected{{/if}}>G3</option>
+            <option value="G4" {{#if (uropEq actor.system.sizeClass "G4")}}selected{{/if}}>G4</option>
+            <option value="G5" {{#if (uropEq actor.system.sizeClass "G5")}}selected{{/if}}>G5</option>
+            <option value="G6" {{#if (uropEq actor.system.sizeClass "G6")}}selected{{/if}}>G6</option>
+            <option value="G7" {{#if (uropEq actor.system.sizeClass "G7")}}selected{{/if}}>G7</option>
+            <option value="G8" {{#if (uropEq actor.system.sizeClass "G8")}}selected{{/if}}>G8</option>
+            <option value="G9" {{#if (uropEq actor.system.sizeClass "G9")}}selected{{/if}}>G9</option>
+          </select>
           <label>{{localize "URoP.Field.PressureState"}}</label>
           <select name="system.pressure.state">
             <option value="none" {{#if (uropEq actor.system.pressure.state "none")}}selected{{/if}}>Kein Druck</option>
@@ -288,14 +301,20 @@
           <label>Waffen</label>
           <ul class="item-list interactive-list">
             {{#each itemGroups.weapon as |item|}}
-            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>
+            <li>
+              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button>
+              <span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span>
+            </li>
             {{/each}}
           </ul>
 
           <label>Ruestung</label>
           <ul class="item-list interactive-list">
             {{#each itemGroups.armor as |item|}}
-            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>
+            <li>
+              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button>
+              <span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span>
+            </li>
             {{/each}}
           </ul>
         </div>
@@ -348,7 +367,10 @@
           </div>
           <ul class="item-list interactive-list">
             {{#each itemGroups.weapon as |item|}}
-            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
+            <li>
+              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
+              <span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span>
+            </li>
             {{/each}}
           </ul>
 
@@ -357,7 +379,10 @@
           </div>
           <ul class="item-list interactive-list">
             {{#each itemGroups.armor as |item|}}
-            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
+            <li>
+              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
+              <span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span>
+            </li>
             {{/each}}
           </ul>
         </div>

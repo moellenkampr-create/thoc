@@ -251,6 +251,25 @@ Aktueller Testwert: **600 Entwicklungspunkte (EP)**
 
 Hinweis: Attributwerte unter 0 sind kein regulärer Build-Zielwert. Kurzfristige Zustände/Konsequenzen koennen Werte temporaer beeinflussen, ohne die Entwicklungskosten neu zu berechnen.
 
+### 2.3.1 Facettenkosten [TESTSTAND]
+
+Facetten werden als Abweichung vom Attribut-Basiswert geführt.
+
+| Facetten-Abweichung | Kosten |
+|---------------------|--------|
+| -3 | -120 EP |
+| -2 | -80 EP |
+| -1 | -40 EP |
+| 0 | 0 EP |
+| +1 | +40 EP |
+| +2 | +80 EP |
+| +3 | +120 EP |
+
+Regellogik:
+- lineare Kosten: **±40 EP pro Abweichungsstufe**
+- Fokusmodifikator wird auf Facettenkosten angewandt (wie bei Attributkosten)
+- Rundung immer zugunsten des Spielers (abrunden)
+
 | Lebensphase | Empfohlener Anteil |
 |-------------|-------------------|
 | Kindheit / Herkunft | 10–15 % |

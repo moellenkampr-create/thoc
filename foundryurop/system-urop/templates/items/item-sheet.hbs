@@ -71,18 +71,64 @@
         </div>
         <div class="card">
           {{#if isWeapon}}
-          <label>Damage Baseline</label>
+          <label>Wirkungsbasis</label>
           <input type="number" name="system.damageBaseline" value="{{item.system.damageBaseline}}"/>
-          <label>Reichweite</label>
-          <input type="text" name="system.range" value="{{item.system.range}}"/>
-          <label>Quality</label>
+          <label>Gebaut für Größenstufe</label>
+          <select name="system.designedForSizeClass">
+            <option value="G0" {{#if (uropEq item.system.designedForSizeClass "G0")}}selected{{/if}}>G0</option>
+            <option value="G1" {{#if (uropEq item.system.designedForSizeClass "G1")}}selected{{/if}}>G1</option>
+            <option value="G2" {{#if (uropEq item.system.designedForSizeClass "G2")}}selected{{/if}}>G2</option>
+            <option value="G3" {{#if (uropEq item.system.designedForSizeClass "G3")}}selected{{/if}}>G3</option>
+            <option value="G4" {{#if (uropEq item.system.designedForSizeClass "G4")}}selected{{/if}}>G4</option>
+            <option value="G5" {{#if (uropEq item.system.designedForSizeClass "G5")}}selected{{/if}}>G5</option>
+            <option value="G6" {{#if (uropEq item.system.designedForSizeClass "G6")}}selected{{/if}}>G6</option>
+            <option value="G7" {{#if (uropEq item.system.designedForSizeClass "G7")}}selected{{/if}}>G7</option>
+            <option value="G8" {{#if (uropEq item.system.designedForSizeClass "G8")}}selected{{/if}}>G8</option>
+            <option value="G9" {{#if (uropEq item.system.designedForSizeClass "G9")}}selected{{/if}}>G9</option>
+          </select>
+          <label>Wirksam gegen Größenstufe</label>
+          <select name="system.effectiveAgainstClass">
+            <option value="G0" {{#if (uropEq item.system.effectiveAgainstClass "G0")}}selected{{/if}}>G0</option>
+            <option value="G1" {{#if (uropEq item.system.effectiveAgainstClass "G1")}}selected{{/if}}>G1</option>
+            <option value="G2" {{#if (uropEq item.system.effectiveAgainstClass "G2")}}selected{{/if}}>G2</option>
+            <option value="G3" {{#if (uropEq item.system.effectiveAgainstClass "G3")}}selected{{/if}}>G3</option>
+            <option value="G4" {{#if (uropEq item.system.effectiveAgainstClass "G4")}}selected{{/if}}>G4</option>
+            <option value="G5" {{#if (uropEq item.system.effectiveAgainstClass "G5")}}selected{{/if}}>G5</option>
+            <option value="G6" {{#if (uropEq item.system.effectiveAgainstClass "G6")}}selected{{/if}}>G6</option>
+            <option value="G7" {{#if (uropEq item.system.effectiveAgainstClass "G7")}}selected{{/if}}>G7</option>
+            <option value="G8" {{#if (uropEq item.system.effectiveAgainstClass "G8")}}selected{{/if}}>G8</option>
+            <option value="G9" {{#if (uropEq item.system.effectiveAgainstClass "G9")}}selected{{/if}}>G9</option>
+            <option value="vehicle" {{#if (uropEq item.system.effectiveAgainstClass "vehicle")}}selected{{/if}}>vehicle</option>
+          </select>
+          <label>Reichweite Nah (m)</label>
+          <input type="number" name="system.rangeBands.nah" value="{{item.system.rangeBands.nah}}" step="1"/>
+          <label>Reichweite Mittel (m)</label>
+          <input type="number" name="system.rangeBands.mittel" value="{{item.system.rangeBands.mittel}}" step="1"/>
+          <label>Reichweite Weit (m)</label>
+          <input type="number" name="system.rangeBands.weit" value="{{item.system.rangeBands.weit}}" step="1"/>
+          <label>Reichweite Extrem (m)</label>
+          <input type="number" name="system.rangeBands.extrem" value="{{item.system.rangeBands.extrem}}" step="1"/>
+          <label>Qualität</label>
           <input type="text" name="system.quality" value="{{item.system.quality}}"/>
           {{/if}}
 
           {{#if isArmor}}
-          <label>Protection Value</label>
+          <label>Schutzwert</label>
           <input type="number" name="system.protectionValue" value="{{item.system.protectionValue}}"/>
-          <label>Quality</label>
+          <label>Nominale Nutzergröße</label>
+          <select name="system.userSizeNominal">
+            <option value="G0" {{#if (uropEq item.system.userSizeNominal "G0")}}selected{{/if}}>G0</option>
+            <option value="G1" {{#if (uropEq item.system.userSizeNominal "G1")}}selected{{/if}}>G1</option>
+            <option value="G2" {{#if (uropEq item.system.userSizeNominal "G2")}}selected{{/if}}>G2</option>
+            <option value="G3" {{#if (uropEq item.system.userSizeNominal "G3")}}selected{{/if}}>G3</option>
+            <option value="G4" {{#if (uropEq item.system.userSizeNominal "G4")}}selected{{/if}}>G4</option>
+            <option value="G5" {{#if (uropEq item.system.userSizeNominal "G5")}}selected{{/if}}>G5</option>
+            <option value="G6" {{#if (uropEq item.system.userSizeNominal "G6")}}selected{{/if}}>G6</option>
+            <option value="G7" {{#if (uropEq item.system.userSizeNominal "G7")}}selected{{/if}}>G7</option>
+            <option value="G8" {{#if (uropEq item.system.userSizeNominal "G8")}}selected{{/if}}>G8</option>
+            <option value="G9" {{#if (uropEq item.system.userSizeNominal "G9")}}selected{{/if}}>G9</option>
+          </select>
+          <label>Qualität</label>
           <input type="text" name="system.quality" value="{{item.system.quality}}"/>
           {{/if}}
 

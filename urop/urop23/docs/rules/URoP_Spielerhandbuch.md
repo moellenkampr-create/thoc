@@ -38,6 +38,15 @@ Jedes Attribut hat 4 Facetten. Sie beeinflussen **nicht** den Standard einer Pro
 **Geist-Facetten:** Analyse · Willenskraft · Aufmerksamkeit · Intuition  
 **Präsenz-Facetten:** Ausdruck · Empathie · Dominanz · Resonanz
 
+### Build-Kosten (Kurzreferenz)
+- **Attributkosten:** 0=-90, 1=-40, 2=0, 3=40, 4=90, 5=160, 6=260
+- **Facettenkosten:** lineare Abweichung mit **±40 EP pro Stufe**
+
+Beispiele:
+- Facette -1 = -40 EP
+- Facette +2 = +80 EP
+- Facette +3 = +120 EP
+
 ---
 
 ## 🎯 Proben und Würfeln

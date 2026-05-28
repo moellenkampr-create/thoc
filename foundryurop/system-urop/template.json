@@ -17,6 +17,7 @@
         "geist": { "value": 2 },
         "praesenz": { "value": 2 }
       },
+      "sizeClass": "G3",
       "facets": {
         "staerke": 0,
         "grobmotorik": 0,
@@ -99,6 +100,14 @@
     "weapon": {
       "damageBaseline": 2,
       "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
       "range": "",
       "rulesShort": "",
       "description": "",
@@ -107,6 +116,7 @@
     "armor": {
       "protectionValue": 0,
       "quality": "standard",
+      "userSizeNominal": "G3",
       "rulesShort": "",
       "description": "",
       "notes": ""

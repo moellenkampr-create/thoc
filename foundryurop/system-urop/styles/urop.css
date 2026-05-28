@@ -445,3 +445,13 @@
   border-left-color: #2f7f2a;
   background: #11200f;
 }
+
+.urop-roll-text.outcome-extreme-low {
+  border-left-color: #d7263d;
+  background: #2b1015;
+}
+
+.urop-roll-text.outcome-extreme-high {
+  border-left-color: #1f7ae0;
+  background: #101c30;
+}

@@ -61,11 +61,12 @@
       "Backstory": "Backstory",
       "PressureState": "Pressure State",
       "Boosts": "Boosts",
+      "SizeClass": "Size Class",
       "LockingEnabled": "Field Lock Enabled",
       "InternalNote": "Internal Note"
     },
     "Help": {
-      "EPSpentRecalc": "Recalculates XP spent from attributes, facets, skills, and maneuver costs.",
+      "EPSpentRecalc": "Recalculates XP spent from attributes, facets, skills (including overcap), and maneuver costs.",
       "FocusAttributes": "Pick up to two primary attributes. Selecting a third one resets that change.",
       "FacetDelta": "Deviation from the primary attribute baseline. Each step changes the facet total accordingly.",
       "TempTab": "Temporary tab for fields moved out during iteration."

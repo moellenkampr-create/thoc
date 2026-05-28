@@ -4,8 +4,64 @@ import { UropItemSheet } from "./sheets/item-sheet.mjs";
 async function runSystemMigrations(fromVersion, toVersion) {
   console.log(`URoP | Migration gestartet: ${fromVersion} -> ${toVersion}`);
 
-  // Hier spaeter konkrete Migrationsschritte eintragen (Actor/Item Datenpfade etc.).
-  const steps = [];
+  const migrateSizeAndRangeFields = async () => {
+    for (const actor of game.actors) {
+      if (actor.type !== "character") continue;
+
+      const actorUpdates = {};
+      if (!foundry.utils.hasProperty(actor, "system.sizeClass")) {
+        actorUpdates["system.sizeClass"] = "G3";
+      }
+
+      if (Object.keys(actorUpdates).length > 0) {
+        await actor.update(actorUpdates);
+      }
+
+      for (const item of actor.items) {
+        const itemUpdates = {};
+
+        if (item.type === "weapon") {
+          if (!foundry.utils.hasProperty(item, "system.designedForSizeClass")) itemUpdates["system.designedForSizeClass"] = "G3";
+          if (!foundry.utils.hasProperty(item, "system.effectiveAgainstClass")) itemUpdates["system.effectiveAgainstClass"] = "G3";
+          if (!foundry.utils.hasProperty(item, "system.rangeBands.nah")) itemUpdates["system.rangeBands.nah"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.rangeBands.mittel")) itemUpdates["system.rangeBands.mittel"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.rangeBands.weit")) itemUpdates["system.rangeBands.weit"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.rangeBands.extrem")) itemUpdates["system.rangeBands.extrem"] = 0;
+        }
+
+        if (item.type === "armor") {
+          if (!foundry.utils.hasProperty(item, "system.userSizeNominal")) itemUpdates["system.userSizeNominal"] = "G3";
+        }
+
+        if (Object.keys(itemUpdates).length > 0) {
+          await item.update(itemUpdates);
+        }
+      }
+    }
+
+    for (const item of game.items) {
+      const itemUpdates = {};
+
+      if (item.type === "weapon") {
+        if (!foundry.utils.hasProperty(item, "system.designedForSizeClass")) itemUpdates["system.designedForSizeClass"] = "G3";
+        if (!foundry.utils.hasProperty(item, "system.effectiveAgainstClass")) itemUpdates["system.effectiveAgainstClass"] = "G3";
+        if (!foundry.utils.hasProperty(item, "system.rangeBands.nah")) itemUpdates["system.rangeBands.nah"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.rangeBands.mittel")) itemUpdates["system.rangeBands.mittel"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.rangeBands.weit")) itemUpdates["system.rangeBands.weit"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.rangeBands.extrem")) itemUpdates["system.rangeBands.extrem"] = 0;
+      }
+
+      if (item.type === "armor") {
+        if (!foundry.utils.hasProperty(item, "system.userSizeNominal")) itemUpdates["system.userSizeNominal"] = "G3";
+      }
+
+      if (Object.keys(itemUpdates).length > 0) {
+        await item.update(itemUpdates);
+      }
+    }
+  };
+
+  const steps = [migrateSizeAndRangeFields];
 
   for (const step of steps) {
     await step();
