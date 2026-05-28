@@ -116,6 +116,39 @@ export class UropCharacterSheet extends ActorSheet {
     return totals;
   }
 
+  _toFiniteNumber(value, fallback = 0) {
+    const numeric = Number(value);
+    return Number.isFinite(numeric) ? numeric : fallback;
+  }
+
+  _readLearnCostEp(item) {
+    return this._toFiniteNumber(item?.system?.learnCostEp ?? item?.system?.learn_cost_ep ?? 0);
+  }
+
+  _readSkillLevel(item) {
+    return this._toFiniteNumber(item?.system?.level ?? item?.system?.rank ?? 0);
+  }
+
+  _readSkillRuleAnchors(item) {
+    const fromRuleAnchors = item?.system?.ruleAnchors;
+    const fromRuleAnchorsSnake = item?.system?.rule_anchors;
+
+    const rawAnchors = Array.isArray(fromRuleAnchors)
+      ? fromRuleAnchors
+      : Array.isArray(fromRuleAnchorsSnake)
+        ? fromRuleAnchorsSnake
+        : [];
+
+    const anchors = rawAnchors.filter((anchor) => typeof anchor === "string" && anchor.trim().length > 0);
+
+    const attributeAnchor = item?.system?.attributeAnchor ?? item?.system?.attribute_anchor;
+    if (typeof attributeAnchor === "string" && attributeAnchor.trim().length > 0) {
+      anchors.push(attributeAnchor);
+    }
+
+    return anchors;
+  }
+
   _attributeCost(value) {
     const rawNumeric = Number(value || 0);
     const numeric = Math.max(0, rawNumeric);
@@ -175,12 +208,7 @@ export class UropCharacterSheet extends ActorSheet {
     const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
     if (focus.length === 0) return 0;
 
-    const anchors = [];
-    const ruleAnchors = item.system?.ruleAnchors || [];
-    for (const anchor of ruleAnchors) {
-      if (anchor) anchors.push(anchor);
-    }
-    if (item.system?.attributeAnchor) anchors.push(item.system.attributeAnchor);
+    const anchors = this._readSkillRuleAnchors(item);
 
     const hasMatchingAnchor = anchors.some((anchor) => this._isSkillAnchorMatchingFocus(anchor));
 
@@ -207,21 +235,21 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _resolveSkillPrimaryAttribute(item) {
-    const ruleAnchors = item.system?.ruleAnchors || [];
+    const ruleAnchors = this._readSkillRuleAnchors(item);
     for (const anchor of ruleAnchors) {
       const attrKey = this._resolveAnchorAttribute(anchor);
       if (attrKey) return attrKey;
     }
 
-    return this._resolveAnchorAttribute(item.system?.attributeAnchor);
+    return this._resolveAnchorAttribute(item.system?.attributeAnchor ?? item.system?.attribute_anchor);
   }
 
   _skillOverhangCost(item) {
-    const level = Number(item.system?.level || 0);
+    const level = this._readSkillLevel(item);
     const attrKey = this._resolveSkillPrimaryAttribute(item);
     if (!attrKey) return 0;
 
-    const attrValue = Number(this.actor.system.attributes?.[attrKey]?.value || 0);
+    const attrValue = this._toFiniteNumber(this.actor.system.attributes?.[attrKey]?.value || 0);
     const overhang = level - attrValue;
 
     if (overhang <= 0) return 0;
@@ -235,33 +263,33 @@ export class UropCharacterSheet extends ActorSheet {
     const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
       const baseCost = this._attributeCost(entry?.value || 0);
       const modifier = this._focusModifierForAttribute(attrKey);
-      return sum + this._applyFocusModifier(baseCost, modifier);
+      return sum + this._toFiniteNumber(this._applyFocusModifier(baseCost, modifier));
     }, 0);
 
     const facets = Object.entries(this.actor.system.facets || {}).reduce((sum, [facetKey, value]) => {
       const attrKey = UropCharacterSheet.FACET_TO_ATTRIBUTE[facetKey];
-      const baseCost = Number(value || 0) * 40;
+      const baseCost = this._toFiniteNumber(value || 0) * 40;
       const modifier = this._focusModifierForAttribute(attrKey);
-      return sum + this._applyFocusModifier(baseCost, modifier);
+      return sum + this._toFiniteNumber(this._applyFocusModifier(baseCost, modifier));
     }, 0);
 
     const skills = Object.values(this.actor.system.skills || {}).reduce(
-      (sum, value) => sum + Number(value || 0),
+      (sum, value) => sum + this._toFiniteNumber(value || 0),
       0
     );
 
     const skillItems = Array.from(this.actor.items.values())
       .filter((item) => item.type === "skill")
       .reduce((sum, item) => {
-        const baseCost = Number(item.system?.learnCostEp || 0);
+        const baseCost = this._readLearnCostEp(item);
         const modifier = this._skillFocusModifier(item);
         const overhangCost = this._skillOverhangCost(item);
-        return sum + this._applyFocusModifier(baseCost, modifier) + overhangCost;
+        return sum + this._toFiniteNumber(this._applyFocusModifier(baseCost, modifier)) + this._toFiniteNumber(overhangCost);
       }, 0);
 
     const maneuverEp = Array.from(this.actor.items.values())
       .filter((item) => item.type === "maneuver")
-      .reduce((sum, item) => sum + Number(item.system?.learnCostEp || 0), 0);
+      .reduce((sum, item) => sum + this._readLearnCostEp(item), 0);
 
     return {
       attributes,
@@ -269,7 +297,7 @@ export class UropCharacterSheet extends ActorSheet {
       skills,
       skillItems,
       maneuverEp,
-      total: Math.max(0, attributes + facets + skills + skillItems + maneuverEp)
+      total: Math.max(0, this._toFiniteNumber(attributes + facets + skills + skillItems + maneuverEp))
     };
   }
 

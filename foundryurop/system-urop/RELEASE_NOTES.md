@@ -19,6 +19,20 @@
 
 ---
 
+## [0.1.15] - 2026-05-28
+
+### Fixed
+- EP-Neuberechnung ist jetzt robust gegen gemischte Import-Feldnamen (CamelCase und snake_case), damit importierte Skill-/Manoeverkosten wieder korrekt eingerechnet werden.
+- EP-Summierung wurde NaN-sicher gemacht, damit einzelne ungueltige Importwerte die Gesamtsumme nicht mehr auf 0 oder ungueltig ziehen.
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.14] - 2026-05-28
 
 ### Added
