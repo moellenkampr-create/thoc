@@ -19,6 +19,29 @@
 
 ---
 
+## [0.1.14] - 2026-05-28
+
+### Added
+- Charakter-Feld `system.sizeClass` (Größenstufe, Default G3)
+- Waffenfelder: `system.designedForSizeClass`, `system.effectiveAgainstClass`, `system.rangeBands` (Nah/Mittel/Weit/Extrem)
+- Rüstungsfeld: `system.userSizeNominal`
+- Migration ergänzt: füllt neue Größen-/Reichweitenfelder in bestehenden Welten mit Standardwerten
+
+### Changed
+- Waffen-/Rüstungsinfos im Charakterblatt erweitert (Größenbezug, Schutzwert, Distanzbänder)
+- EP-Neuberechnung berücksichtigt jetzt Überhangkosten bei Fertigkeiten (+1 über Attribut = +30 EP, +2 und mehr = +90 EP)
+
+### Fixed
+- Regelstand und Ruleset bei Facettenkosten harmonisiert (lineare Abweichungskosten ±40 EP pro Stufe)
+
+### Migration Required
+- yes (automatisch beim ersten Start nach Update)
+
+### Migration Notes
+- Neue Felder werden bei Charakteren, Waffen und Rüstungen automatisch ergänzt.
+
+---
+
 ## [0.1.13] - 2026-05-27
 
 ### Fixed
