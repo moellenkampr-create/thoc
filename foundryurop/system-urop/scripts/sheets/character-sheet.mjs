@@ -2,6 +2,7 @@ import {
   ATTRIBUTE_TO_LEAD_ATTRIBUTE,
   applyFocusModifier,
   buildDerivedLeadAttributes,
+  buildLeadAttributeValues,
   buildInitiativeValues,
   buildResistanceValues,
   calculateAttributeCost,
@@ -19,6 +20,9 @@ import {
 
 export class UropCharacterSheet extends ActorSheet {
   static ATTRIBUTE_TO_LEAD_ATTRIBUTE = ATTRIBUTE_TO_LEAD_ATTRIBUTE;
+  static ATTRIBUTE_KEYS = Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE);
+  static LEAD_ATTRIBUTE_KEYS = ["koerper", "geist", "praesenz"];
+  static MAX_MONEY_STORES = 10;
 
   static APPLICATION_CLASS_ORDER = {
     combat: 0,
@@ -53,6 +57,9 @@ export class UropCharacterSheet extends ActorSheet {
     const data = super.getData(options);
     const allItems = Array.from(this.actor.items.values()).map((i) => i.toObject());
     const attributes = this.actor.system.attributes || {};
+    const attributeModifiers = this._normalizeAttributeModifiers(this.actor.system.attributeModifiers || {});
+    const leadAttributeModifiers = this._normalizeLeadAttributeModifiers(this.actor.system.leadAttributeModifiers || {});
+    const moneyStores = this._normalizeMoneyStores(this.actor.system.resources?.moneyStores || []);
     const focusLeadAttributes = this.actor.system.meta?.focus?.leadAttributes || [];
 
     data.itemGroups = {
@@ -77,16 +84,85 @@ export class UropCharacterSheet extends ActorSheet {
     };
     data.combatSkills = data.itemGroups.skill.filter((i) => i.system?.applicationClass === "combat");
 
-    data.leadAttributeDerived = buildDerivedLeadAttributes(attributes);
-    this.leadAttributeDerived = data.leadAttributeDerived;
-    data.resistanceValues = buildResistanceValues(data.leadAttributeDerived);
-    data.initiativeValues = buildInitiativeValues(data.leadAttributeDerived);
+    data.attributeModifiers = attributeModifiers;
+    data.leadAttributeModifiers = leadAttributeModifiers;
+    data.attributeTotals = this._buildAttributeTotals(attributes, attributeModifiers);
+    data.leadAttributeDerived = buildDerivedLeadAttributes(attributes, attributeModifiers);
+    data.leadAttributeValues = buildLeadAttributeValues(data.leadAttributeDerived, leadAttributeModifiers);
+    this.leadAttributeValues = data.leadAttributeValues;
+    data.resistanceValues = buildResistanceValues(data.leadAttributeValues);
+    data.initiativeValues = buildInitiativeValues(data.leadAttributeValues);
     data.isKoerperFocus = focusLeadAttributes.includes("koerper");
     data.isGeistFocus = focusLeadAttributes.includes("geist");
     data.isPraesenzFocus = focusLeadAttributes.includes("praesenz");
     data.isFocusSelectionLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
+    data.moneyStores = moneyStores;
+    data.canAddMoneyStore = moneyStores.length < UropCharacterSheet.MAX_MONEY_STORES;
+    data.canRemoveMoneyStore = moneyStores.length > 1;
 
     return data;
+  }
+
+  _normalizeAttributeModifiers(attributeModifiers = {}) {
+    const normalized = {};
+
+    for (const key of UropCharacterSheet.ATTRIBUTE_KEYS) {
+      normalized[key] = {
+        bonus: this._toFiniteNumber(attributeModifiers?.[key]?.bonus, 0),
+        malus: this._toFiniteNumber(attributeModifiers?.[key]?.malus, 0)
+      };
+    }
+
+    return normalized;
+  }
+
+  _normalizeLeadAttributeModifiers(leadAttributeModifiers = {}) {
+    const normalized = {};
+
+    for (const key of UropCharacterSheet.LEAD_ATTRIBUTE_KEYS) {
+      normalized[key] = {
+        bonus: this._toFiniteNumber(leadAttributeModifiers?.[key]?.bonus, 0),
+        malus: this._toFiniteNumber(leadAttributeModifiers?.[key]?.malus, 0)
+      };
+    }
+
+    return normalized;
+  }
+
+  _buildAttributeTotals(attributes = {}, attributeModifiers = {}) {
+    const totals = {};
+
+    for (const key of UropCharacterSheet.ATTRIBUTE_KEYS) {
+      const baseValue = this._toFiniteNumber(attributes?.[key], 0);
+      const bonus = this._toFiniteNumber(attributeModifiers?.[key]?.bonus, 0);
+      const malus = this._toFiniteNumber(attributeModifiers?.[key]?.malus, 0);
+      totals[key] = baseValue + bonus - malus;
+    }
+
+    return totals;
+  }
+
+  _createEmptyMoneyStore() {
+    return {
+      label: "",
+      contents: "",
+      amount: 0
+    };
+  }
+
+  _normalizeMoneyStores(moneyStores = []) {
+    const list = Array.isArray(moneyStores) ? moneyStores : [];
+    const normalized = list
+      .map((entry) => ({
+        label: String(entry?.label ?? "").trim(),
+        contents: String(entry?.contents ?? "").trim(),
+        amount: this._toFiniteNumber(entry?.amount, 0)
+      }))
+      .slice(0, UropCharacterSheet.MAX_MONEY_STORES);
+
+    if (normalized.length === 0) normalized.push(this._createEmptyMoneyStore());
+
+    return normalized;
   }
 
   activateListeners(html) {
@@ -107,6 +183,8 @@ export class UropCharacterSheet extends ActorSheet {
     html.find('[data-action="toggle-focus-attribute"]').on("change", this._onToggleFocusAttribute.bind(this));
     html.find('[data-action="toggle-focus-lock"]').on("click", this._onToggleFocusLock.bind(this));
     html.find('[data-action="open-item"]').on("click", this._onOpenItem.bind(this));
+    html.find('[data-action="add-money-store"]').on("click", this._onAddMoneyStore.bind(this));
+    html.find('[data-action="remove-money-store"]').on("click", this._onRemoveMoneyStore.bind(this));
 
     // Apply initial lock visual state
     this._applyLockState(html);
@@ -214,6 +292,8 @@ export class UropCharacterSheet extends ActorSheet {
   _calculateSpentEpBreakdown() {
     return calculateSpentEpBreakdown({
       attributes: this.actor.system.attributes || {},
+      attributeModifiers: this.actor.system.attributeModifiers || {},
+      leadAttributeModifiers: this.actor.system.leadAttributeModifiers || {},
       skills: this.actor.system.skills || {},
       skillItems: Array.from(this.actor.items.values()).filter((item) => item.type === "skill"),
       maneuverItems: Array.from(this.actor.items.values()).filter((item) => item.type === "maneuver"),
@@ -396,13 +476,38 @@ export class UropCharacterSheet extends ActorSheet {
     if (item) item.sheet.render(true);
   }
 
+  async _onAddMoneyStore(event) {
+    event.preventDefault();
+
+    const current = this._normalizeMoneyStores(this.actor.system.resources?.moneyStores || []);
+    if (current.length >= UropCharacterSheet.MAX_MONEY_STORES) return;
+
+    current.push(this._createEmptyMoneyStore());
+    await this.actor.update({ "system.resources.moneyStores": current });
+  }
+
+  async _onRemoveMoneyStore(event) {
+    event.preventDefault();
+
+    const index = Number(event.currentTarget.dataset.index);
+    if (!Number.isInteger(index)) return;
+
+    const current = this._normalizeMoneyStores(this.actor.system.resources?.moneyStores || []);
+    if (current.length <= 1) return;
+
+    current.splice(index, 1);
+    await this.actor.update({ "system.resources.moneyStores": current });
+  }
+
   async _onRollInitiative(event) {
     event.preventDefault();
 
     const init = this.actor.system.initiative;
     const base = calculateInitiativeBase({
       initiative: init,
-      attributeValues: this.actor.system.attributes || {}
+      attributeValues: this.actor.system.attributes || {},
+      attributeModifiers: this.actor.system.attributeModifiers || {},
+      leadAttributeModifiers: this.actor.system.leadAttributeModifiers || {}
     });
     const target = Number(init.target || 0);
     const situational = Number(init.situational || 0);

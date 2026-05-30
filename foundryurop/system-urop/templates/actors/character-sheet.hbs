@@ -33,6 +33,27 @@
           </div>
           <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
           <button type="button" data-action="recalc-ep" class="secondary-action">{{localize "URoP.Field.RecalculateEP"}}</button>
+
+          <div class="money-section">
+            <div class="field-header money-header">
+              <label>{{localize "URoP.Field.MoneyStores"}}</label>
+              <button type="button" class="money-add-btn" data-action="add-money-store" {{#unless canAddMoneyStore}}disabled{{/unless}}>{{localize "URoP.Field.AddMoneyStore"}}</button>
+            </div>
+            <div class="money-head-row">
+              <span>{{localize "URoP.Field.MoneyLabel"}}</span>
+              <span>{{localize "URoP.Field.MoneyContents"}}</span>
+              <span>{{localize "URoP.Field.MoneyAmount"}}</span>
+              <span></span>
+            </div>
+            {{#each moneyStores as |store index|}}
+            <div class="money-row">
+              <input type="text" name="system.resources.moneyStores.{{index}}.label" value="{{store.label}}"/>
+              <input type="text" name="system.resources.moneyStores.{{index}}.contents" value="{{store.contents}}"/>
+              <input type="number" step="0.01" name="system.resources.moneyStores.{{index}}.amount" value="{{store.amount}}"/>
+              <button type="button" class="lock-btn" data-action="remove-money-store" data-index="{{index}}" {{#unless ../canRemoveMoneyStore}}disabled{{/unless}}>{{localize "URoP.Field.RemoveMoneyStore"}}</button>
+            </div>
+            {{/each}}
+          </div>
         </div>
 
         <div class="card">
@@ -64,58 +85,85 @@
         <div class="card attr-card">
           <div class="attr-header">
             <span class="attr-label hover-help" data-help="{{localize 'URoP.Attr.KoerperHelp'}}">Körper</span>
-            <div class="attr-stepper">
-              <button type="button" class="stepper-btn" data-action="attr-decrement" data-path="system.attributes.staerke">−</button>
-              <input type="number" class="attr-value" name="system.attributes.staerke" value="{{actor.system.attributes.staerke}}" data-locked="true" readonly/>
-              <button type="button" class="stepper-btn" data-action="attr-increment" data-path="system.attributes.staerke">+</button>
+            <div class="modifier-controls lead-modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.leadAttributeModifiers.koerper.bonus" value="{{leadAttributeModifiers.koerper.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.leadAttributeModifiers.koerper.malus" value="{{leadAttributeModifiers.koerper.malus}}"/>
+              <input type="number" class="lead-derived-value" value="{{leadAttributeDerived.koerper}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/>
+              <input type="number" class="lead-attribute-value" value="{{leadAttributeValues.koerper}}" readonly/>
             </div>
-            <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.staerke" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <hr class="attr-divider"/>
           <div class="facet-head">
             <span></span>
+            <span class="facet-col-head">{{localize "URoP.Field.Modifiers"}}</span>
             <span class="facet-col-head facet-col-delta hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
-            <span class="facet-col-head">{{localize "URoP.Field.FacetTotal"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.Total"}}</span>
             <span></span>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.StaerkeHelp'}}">Stärke</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.staerke.bonus" value="{{attributeModifiers.staerke.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.staerke.malus" value="{{attributeModifiers.staerke.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.staerke">−</button>
               <input type="number" class="facet-value" name="system.attributes.staerke" value="{{actor.system.attributes.staerke}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.staerke">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.koerper}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.staerke}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.staerke" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.GrobmotorikHelp'}}">Grobmotorik</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.grobmotorik.bonus" value="{{attributeModifiers.grobmotorik.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.grobmotorik.malus" value="{{attributeModifiers.grobmotorik.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.grobmotorik">−</button>
               <input type="number" class="facet-value" name="system.attributes.grobmotorik" value="{{actor.system.attributes.grobmotorik}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.grobmotorik">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.koerper}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.grobmotorik}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.grobmotorik" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.FeinmotorikHelp'}}">Feinmotorik</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.feinmotorik.bonus" value="{{attributeModifiers.feinmotorik.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.feinmotorik.malus" value="{{attributeModifiers.feinmotorik.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.feinmotorik">−</button>
               <input type="number" class="facet-value" name="system.attributes.feinmotorik" value="{{actor.system.attributes.feinmotorik}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.feinmotorik">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.koerper}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.feinmotorik}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.feinmotorik" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.KonstitutionHelp'}}">Konstitution</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.konstitution.bonus" value="{{attributeModifiers.konstitution.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.konstitution.malus" value="{{attributeModifiers.konstitution.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.konstitution">−</button>
               <input type="number" class="facet-value" name="system.attributes.konstitution" value="{{actor.system.attributes.konstitution}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.konstitution">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.koerper}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.konstitution}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.konstitution" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
         </div>
@@ -124,58 +172,85 @@
         <div class="card attr-card">
           <div class="attr-header">
             <span class="attr-label hover-help" data-help="{{localize 'URoP.Attr.GeistHelp'}}">Geist</span>
-            <div class="attr-stepper">
-              <button type="button" class="stepper-btn" data-action="attr-decrement" data-path="system.attributes.analyse">−</button>
-              <input type="number" class="attr-value" name="system.attributes.analyse" value="{{actor.system.attributes.analyse}}" data-locked="true" readonly/>
-              <button type="button" class="stepper-btn" data-action="attr-increment" data-path="system.attributes.analyse">+</button>
+            <div class="modifier-controls lead-modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.leadAttributeModifiers.geist.bonus" value="{{leadAttributeModifiers.geist.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.leadAttributeModifiers.geist.malus" value="{{leadAttributeModifiers.geist.malus}}"/>
+              <input type="number" class="lead-derived-value" value="{{leadAttributeDerived.geist}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/>
+              <input type="number" class="lead-attribute-value" value="{{leadAttributeValues.geist}}" readonly/>
             </div>
-            <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.analyse" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <hr class="attr-divider"/>
           <div class="facet-head">
             <span></span>
+            <span class="facet-col-head">{{localize "URoP.Field.Modifiers"}}</span>
             <span class="facet-col-head facet-col-delta hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
-            <span class="facet-col-head">{{localize "URoP.Field.FacetTotal"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.Total"}}</span>
             <span></span>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.AnalyseHelp'}}">Analyse</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.analyse.bonus" value="{{attributeModifiers.analyse.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.analyse.malus" value="{{attributeModifiers.analyse.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.analyse">−</button>
               <input type="number" class="facet-value" name="system.attributes.analyse" value="{{actor.system.attributes.analyse}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.analyse">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.geist}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.analyse}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.analyse" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.WillenskraftHelp'}}">Willenskraft</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.willenskraft.bonus" value="{{attributeModifiers.willenskraft.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.willenskraft.malus" value="{{attributeModifiers.willenskraft.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.willenskraft">−</button>
               <input type="number" class="facet-value" name="system.attributes.willenskraft" value="{{actor.system.attributes.willenskraft}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.willenskraft">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.geist}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.willenskraft}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.willenskraft" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.AufmerksamkeitHelp'}}">Aufmerksamkeit</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.aufmerksamkeit.bonus" value="{{attributeModifiers.aufmerksamkeit.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.aufmerksamkeit.malus" value="{{attributeModifiers.aufmerksamkeit.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.aufmerksamkeit">−</button>
               <input type="number" class="facet-value" name="system.attributes.aufmerksamkeit" value="{{actor.system.attributes.aufmerksamkeit}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.aufmerksamkeit">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.geist}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.aufmerksamkeit}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.aufmerksamkeit" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.IntuitionHelp'}}">Intuition</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.intuition.bonus" value="{{attributeModifiers.intuition.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.intuition.malus" value="{{attributeModifiers.intuition.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.intuition">−</button>
               <input type="number" class="facet-value" name="system.attributes.intuition" value="{{actor.system.attributes.intuition}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.intuition">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.geist}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.intuition}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.intuition" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
         </div>
@@ -184,58 +259,85 @@
         <div class="card attr-card">
           <div class="attr-header">
             <span class="attr-label hover-help" data-help="{{localize 'URoP.Attr.PraesenzHelp'}}">Präsenz</span>
-            <div class="attr-stepper">
-              <button type="button" class="stepper-btn" data-action="attr-decrement" data-path="system.attributes.ausdruck">−</button>
-              <input type="number" class="attr-value" name="system.attributes.ausdruck" value="{{actor.system.attributes.ausdruck}}" data-locked="true" readonly/>
-              <button type="button" class="stepper-btn" data-action="attr-increment" data-path="system.attributes.ausdruck">+</button>
+            <div class="modifier-controls lead-modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.leadAttributeModifiers.praesenz.bonus" value="{{leadAttributeModifiers.praesenz.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.leadAttributeModifiers.praesenz.malus" value="{{leadAttributeModifiers.praesenz.malus}}"/>
+              <input type="number" class="lead-derived-value" value="{{leadAttributeDerived.praesenz}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/>
+              <input type="number" class="lead-attribute-value" value="{{leadAttributeValues.praesenz}}" readonly/>
             </div>
-            <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.ausdruck" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <hr class="attr-divider"/>
           <div class="facet-head">
             <span></span>
+            <span class="facet-col-head">{{localize "URoP.Field.Modifiers"}}</span>
             <span class="facet-col-head facet-col-delta hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
-            <span class="facet-col-head">{{localize "URoP.Field.FacetTotal"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.Total"}}</span>
             <span></span>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.AusdruckHelp'}}">Ausdruck</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.ausdruck.bonus" value="{{attributeModifiers.ausdruck.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.ausdruck.malus" value="{{attributeModifiers.ausdruck.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.ausdruck">−</button>
               <input type="number" class="facet-value" name="system.attributes.ausdruck" value="{{actor.system.attributes.ausdruck}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.ausdruck">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.praesenz}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.ausdruck}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.ausdruck" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.EmpathieHelp'}}">Empathie</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.empathie.bonus" value="{{attributeModifiers.empathie.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.empathie.malus" value="{{attributeModifiers.empathie.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.empathie">−</button>
               <input type="number" class="facet-value" name="system.attributes.empathie" value="{{actor.system.attributes.empathie}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.empathie">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.praesenz}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.empathie}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.empathie" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.DominanzHelp'}}">Dominanz</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.dominanz.bonus" value="{{attributeModifiers.dominanz.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.dominanz.malus" value="{{attributeModifiers.dominanz.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.dominanz">−</button>
               <input type="number" class="facet-value" name="system.attributes.dominanz" value="{{actor.system.attributes.dominanz}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.dominanz">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.praesenz}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.dominanz}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.dominanz" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
           <div class="facet-row">
             <span class="facet-label hover-help" data-help="{{localize 'URoP.Facet.ResonanzHelp'}}">Resonanz</span>
+            <div class="modifier-controls">
+              <span class="modifier-symbol">+</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.resonanz.bonus" value="{{attributeModifiers.resonanz.bonus}}"/>
+              <span class="modifier-symbol">-</span>
+              <input type="number" class="modifier-input" name="system.attributeModifiers.resonanz.malus" value="{{attributeModifiers.resonanz.malus}}"/>
+            </div>
             <div class="facet-stepper">
               <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.resonanz">−</button>
               <input type="number" class="facet-value" name="system.attributes.resonanz" value="{{actor.system.attributes.resonanz}}" data-locked="true" readonly/>
               <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.resonanz">+</button>
             </div>
-            <span class="facet-total">{{leadAttributeDerived.praesenz}}</span>
+            <input type="number" class="facet-total-input" value="{{attributeTotals.resonanz}}" readonly/>
             <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.resonanz" title="Bearbeiten sperren/entsperren">🔒</button>
           </div>
         </div>
@@ -423,11 +525,11 @@
 
           <h3>Abgeleitete Werte</h3>
           <label>Körperwert</label>
-          <input type="number" value="{{leadAttributeDerived.koerper}}" readonly/>
+          <input type="number" value="{{leadAttributeValues.koerper}}" readonly/>
           <label>Geistwert</label>
-          <input type="number" value="{{leadAttributeDerived.geist}}" readonly/>
+          <input type="number" value="{{leadAttributeValues.geist}}" readonly/>
           <label>Präsenzwert</label>
-          <input type="number" value="{{leadAttributeDerived.praesenz}}" readonly/>
+          <input type="number" value="{{leadAttributeValues.praesenz}}" readonly/>
 
           <label>Körperwiderstand</label>
           <input type="number" value="{{resistanceValues.koerper}}" readonly/>

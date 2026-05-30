@@ -26,6 +26,25 @@
         "dominanz": 2,
         "resonanz": 2
       },
+      "attributeModifiers": {
+        "staerke": { "bonus": 0, "malus": 0 },
+        "grobmotorik": { "bonus": 0, "malus": 0 },
+        "feinmotorik": { "bonus": 0, "malus": 0 },
+        "konstitution": { "bonus": 0, "malus": 0 },
+        "analyse": { "bonus": 0, "malus": 0 },
+        "willenskraft": { "bonus": 0, "malus": 0 },
+        "aufmerksamkeit": { "bonus": 0, "malus": 0 },
+        "intuition": { "bonus": 0, "malus": 0 },
+        "ausdruck": { "bonus": 0, "malus": 0 },
+        "empathie": { "bonus": 0, "malus": 0 },
+        "dominanz": { "bonus": 0, "malus": 0 },
+        "resonanz": { "bonus": 0, "malus": 0 }
+      },
+      "leadAttributeModifiers": {
+        "koerper": { "bonus": 0, "malus": 0 },
+        "geist": { "bonus": 0, "malus": 0 },
+        "praesenz": { "bonus": 0, "malus": 0 }
+      },
       "sizeClass": "G3",
       "skills": {
         "athletik": 0,
@@ -62,6 +81,13 @@
       "resources": {
         "epSpent": 0,
         "epTotal": 600,
+        "moneyStores": [
+          {
+            "label": "Geldbeutel",
+            "contents": "EuroDollar",
+            "amount": 0
+          }
+        ],
         "health": {
           "value": 1,
           "max": 1

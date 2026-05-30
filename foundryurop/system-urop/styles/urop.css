@@ -196,6 +196,42 @@
   margin-top: 8px;
 }
 
+.urop-sheet .money-section {
+  margin-top: 10px;
+  border-top: 1px solid var(--urop-border);
+  padding-top: 8px;
+}
+
+.urop-sheet .money-header {
+  margin-bottom: 6px;
+}
+
+.urop-sheet .money-add-btn {
+  width: auto;
+  padding: 4px 8px;
+}
+
+.urop-sheet .money-head-row,
+.urop-sheet .money-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr) 100px auto;
+  gap: 6px;
+  align-items: center;
+}
+
+.urop-sheet .money-head-row {
+  margin-bottom: 4px;
+}
+
+.urop-sheet .money-head-row span {
+  font-size: 0.72rem;
+  color: var(--urop-muted);
+}
+
+.urop-sheet .money-row {
+  margin-bottom: 6px;
+}
+
 .urop-sheet .type-chip {
   display: inline-block;
   width: auto;
@@ -235,6 +271,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
+  justify-content: space-between;
   margin-bottom: 4px;
 }
 
@@ -255,7 +292,7 @@
 /* ── Facetten-Zeile ── */
 .urop-sheet .facet-row {
   display: grid;
-  grid-template-columns: minmax(120px, 1fr) 100px 56px 24px;
+  grid-template-columns: minmax(120px, 1fr) 120px 100px 64px 24px;
   align-items: center;
   column-gap: 6px;
   padding: 2px 0;
@@ -263,7 +300,7 @@
 
 .urop-sheet .facet-head {
   display: grid;
-  grid-template-columns: minmax(120px, 1fr) 100px 56px 24px;
+  grid-template-columns: minmax(120px, 1fr) 120px 100px 64px 24px;
   gap: 6px;
   align-items: center;
   margin-bottom: 2px;
@@ -285,10 +322,45 @@
   min-width: 0;
 }
 
-.urop-sheet .facet-total {
-  font-size: 0.82rem;
+.urop-sheet .modifier-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  width: 120px;
+}
+
+.urop-sheet .lead-modifier-controls {
+  width: auto;
+}
+
+.urop-sheet .modifier-symbol {
   color: var(--urop-muted);
-  min-width: 56px;
+  font-size: 0.8rem;
+}
+
+.urop-sheet .modifier-input {
+  width: 36px;
+  min-width: 36px;
+  padding: 4px 3px;
+  text-align: center;
+}
+
+.urop-sheet .lead-attribute-value {
+  width: 64px;
+  min-width: 64px;
+  text-align: center;
+}
+
+.urop-sheet .lead-derived-value {
+  width: 64px;
+  min-width: 64px;
+  text-align: center;
+}
+
+.urop-sheet .facet-total-input {
+  width: 64px;
+  min-width: 64px;
   text-align: center;
 }
 

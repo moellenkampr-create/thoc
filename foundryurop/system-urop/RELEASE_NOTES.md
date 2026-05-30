@@ -3,22 +3,41 @@
 ## [Unreleased]
 
 ### Added
-- Neue Unit-Tests fuer Kernberechnungen (Rundung, Leitattribut-Ableitung, Fokusmodifikator, EP-Berechnung, Initiativbasis).
-- Reine Berechnungshelfer in `scripts/urop-calculations.mjs` zur testbaren Trennung von Foundry-UI/Shell.
+- n/a
 
 ### Changed
-- Datenmodell der Charaktere auf die neue Struktur umgestellt: 12 Feinattribute werden direkt gespeichert, Leitattribute werden daraus abgeleitet.
-- Charakterblatt bindet jetzt an `system.attributes.*` und zeigt abgeleitete Leitattribute, Widerstand und Initiative an.
-- Update-Workflow im README um verbindliche Testschritte vor Commit erweitert.
+- n/a
 
 ### Fixed
-- Kaufmännische Rundung fuer abgeleitete Werte und Fokusmodifikatoren vereinheitlicht.
+- n/a
 
 ### Migration Required
-- yes (neue Charakterdatenstruktur; bestehende Charaktere werden nicht automatisch migriert)
+- no
 
 ### Migration Notes
-- Neue Charaktere nutzen direkt die 12 Attributwerte unter `system.attributes`. Alte Charaktere koennen entfernt oder manuell neu aufgebaut werden.
+- n/a
+
+---
+
+## [0.1.18] - 2026-05-30
+
+### Added
+- Ressourcenbereich im Charakterblatt um Geldbestaende mit dynamischen Speicherorten erweitert (`system.resources.moneyStores`).
+- Pro Geldspeicherort Felder fuer Aufbewahrungsort, Inhalt/Waehrung und Bestand eingebracht.
+
+### Changed
+- Attribut-Ansicht zeigt jetzt explizit Boni/Mali, Wert und Gesamt fuer alle 12 Attribute.
+- Leitattribute zeigen in der Kopfzeile jetzt Wert (abgeleitet) und Gesamt (inkl. Lead-Boni/Mali) getrennt an.
+- EP-/Initiative-Berechnungen nutzen konsistent die aktualisierte Modifier-Struktur.
+
+### Fixed
+- EP-Kostenberechnung bleibt bei Basisattributen stabil und wird nicht durch temporaere Boni/Mali verfremdet.
+
+### Migration Required
+- no
+
+### Migration Notes
+- Bestehende Charaktere ohne `system.resources.moneyStores` erhalten im Sheet automatisch einen initialen Eintrag; keine manuelle Migration notwendig.
 
 ---
 

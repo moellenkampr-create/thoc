@@ -26,19 +26,48 @@ export function getLeadAttributeGroups() {
   };
 }
 
-export function buildDerivedLeadAttributes(attributeValues = {}) {
+export function readAttributeBaseValue(attributeValues = {}, attributeKey) {
+  const raw = attributeValues?.[attributeKey];
+  if (raw && typeof raw === "object") {
+    return toFiniteNumber(raw.value);
+  }
+
+  return toFiniteNumber(raw);
+}
+
+export function readModifierValue(modifierEntry = {}, key) {
+  return toFiniteNumber(modifierEntry?.[key]);
+}
+
+export function applyModifierPair(value, modifierEntry = {}) {
+  return toFiniteNumber(value) + readModifierValue(modifierEntry, "bonus") - readModifierValue(modifierEntry, "malus");
+}
+
+export function buildDerivedLeadAttributes(attributeValues = {}, attributeModifiers = {}) {
   const derived = {};
   const groups = getLeadAttributeGroups();
 
   for (const [leadAttributeKey, attributeKeys] of Object.entries(groups)) {
     const sum = attributeKeys.reduce(
-      (total, attributeKey) => total + toFiniteNumber(attributeValues?.[attributeKey]),
+      (total, attributeKey) => {
+        const baseValue = readAttributeBaseValue(attributeValues, attributeKey);
+        const modifiedValue = applyModifierPair(baseValue, attributeModifiers?.[attributeKey]);
+        return total + modifiedValue;
+      },
       0
     );
     derived[leadAttributeKey] = sum / attributeKeys.length;
   }
 
   return derived;
+}
+
+export function buildLeadAttributeValues(derivedLeadAttributes = {}, leadAttributeModifiers = {}) {
+  return {
+    koerper: applyModifierPair(toFiniteNumber(derivedLeadAttributes?.koerper), leadAttributeModifiers?.koerper),
+    geist: applyModifierPair(toFiniteNumber(derivedLeadAttributes?.geist), leadAttributeModifiers?.geist),
+    praesenz: applyModifierPair(toFiniteNumber(derivedLeadAttributes?.praesenz), leadAttributeModifiers?.praesenz)
+  };
 }
 
 export function roundCommercial(value) {
@@ -185,26 +214,30 @@ export function skillOverhangCost(item, derivedLeadAttributes = {}) {
 
 export function calculateSpentEpBreakdown({
   attributes = {},
+  attributeModifiers = {},
+  leadAttributeModifiers = {},
   skills = {},
   skillItems = [],
   maneuverItems = [],
   focusLeadAttributes = [],
   readLearnCostEp = (item) => toFiniteNumber(item?.system?.learnCostEp ?? 0)
 } = {}) {
-  const attributeTotal = Object.entries(attributes).reduce((sum, [attrKey, value]) => {
-    const baseCost = calculateAttributeCost(value || 0);
+  const attributeTotal = Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).reduce((sum, attrKey) => {
+    const baseValue = readAttributeBaseValue(attributes, attrKey);
+    const baseCost = calculateAttributeCost(baseValue);
     const modifier = focusModifierForAttribute(attrKey, focusLeadAttributes);
     return sum + applyFocusModifier(baseCost, modifier);
   }, 0);
 
-  const derivedLeadAttributes = buildDerivedLeadAttributes(attributes);
+  const derivedLeadAttributes = buildDerivedLeadAttributes(attributes, attributeModifiers);
+  const leadAttributeValues = buildLeadAttributeValues(derivedLeadAttributes, leadAttributeModifiers);
 
   const skillTotal = Object.values(skills).reduce((sum, value) => sum + toFiniteNumber(value || 0), 0);
 
   const skillItemTotal = skillItems.reduce((sum, item) => {
     const baseCost = readLearnCostEp(item);
     const modifier = skillFocusModifier(item, focusLeadAttributes);
-    const overhangCost = skillOverhangCost(item, derivedLeadAttributes);
+    const overhangCost = skillOverhangCost(item, leadAttributeValues);
     return sum + applyFocusModifier(baseCost, modifier) + toFiniteNumber(overhangCost);
   }, 0);
 
@@ -219,8 +252,14 @@ export function calculateSpentEpBreakdown({
   };
 }
 
-export function calculateInitiativeBase({ initiative = {}, attributeValues = {} } = {}) {
-  const derivedLeadAttributes = buildDerivedLeadAttributes(attributeValues);
-  const leadAttributeKey = initiative.leadAttribute ?? initiative.leadAttribute;
-  return Number(initiative.baseMod || 0) + roundCommercial(toFiniteNumber(derivedLeadAttributes?.[leadAttributeKey] || 0));
+export function calculateInitiativeBase({
+  initiative = {},
+  attributeValues = {},
+  attributeModifiers = {},
+  leadAttributeModifiers = {}
+} = {}) {
+  const derivedLeadAttributes = buildDerivedLeadAttributes(attributeValues, attributeModifiers);
+  const leadAttributeValues = buildLeadAttributeValues(derivedLeadAttributes, leadAttributeModifiers);
+  const leadAttributeKey = initiative.leadAttribute;
+  return Number(initiative.baseMod || 0) + roundCommercial(toFiniteNumber(leadAttributeValues?.[leadAttributeKey] || 0));
 }

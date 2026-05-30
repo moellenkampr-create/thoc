@@ -5,6 +5,7 @@ import {
   ATTRIBUTE_TO_LEAD_ATTRIBUTE,
   buildDerivedLeadAttributes,
   buildInitiativeValues,
+  buildLeadAttributeValues,
   buildResistanceValues,
   calculateAttributeCost,
   calculateInitiativeBase,
@@ -49,6 +50,39 @@ test("derived lead values round consistently for resistance and initiative", () 
 
   assert.deepEqual(buildResistanceValues(derived), { koerper: 2, geist: 3, praesenz: 3 });
   assert.deepEqual(buildInitiativeValues(derived), { koerper: 2, geist: 3, praesenz: 3 });
+});
+
+test("attribute and lead modifiers are applied to effective lead values", () => {
+  const derived = buildDerivedLeadAttributes(
+    {
+      staerke: 2,
+      grobmotorik: 2,
+      feinmotorik: 2,
+      konstitution: 2,
+      analyse: 2,
+      willenskraft: 2,
+      aufmerksamkeit: 2,
+      intuition: 2,
+      ausdruck: 2,
+      empathie: 2,
+      dominanz: 2,
+      resonanz: 2
+    },
+    {
+      staerke: { bonus: 2, malus: 0 },
+      aufmerksamkeit: { bonus: 0, malus: 1 }
+    }
+  );
+
+  const leadValues = buildLeadAttributeValues(derived, {
+    koerper: { bonus: 1, malus: 0 },
+    geist: { bonus: 0, malus: 1 }
+  });
+
+  assert.equal(derived.koerper, 2.5);
+  assert.equal(derived.geist, 1.75);
+  assert.equal(leadValues.koerper, 3.5);
+  assert.equal(leadValues.geist, 0.75);
 });
 
 test("focus modifiers follow the selected lead attributes", () => {
@@ -101,6 +135,24 @@ test("spent EP breakdown combines attributes, skills, items, and maneuvers", () 
   assert.equal(breakdown.skillItems, 8);
   assert.equal(breakdown.maneuverEp, 4);
   assert.equal(breakdown.total, 135);
+});
+
+test("spent EP uses base attribute values, not temporary bonuses or penalties", () => {
+  const attributes = Object.fromEntries(Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).map((key) => [key, 2]));
+  attributes.staerke = 3;
+
+  const breakdown = calculateSpentEpBreakdown({
+    attributes,
+    attributeModifiers: {
+      staerke: { bonus: 3, malus: 0 },
+      konstitution: { bonus: 0, malus: 2 }
+    },
+    leadAttributeModifiers: {
+      koerper: { bonus: 2, malus: 1 }
+    }
+  });
+
+  assert.equal(breakdown.attributes, 40);
 });
 
 test("initiative uses the rounded derived lead attribute", () => {
