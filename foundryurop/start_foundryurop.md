@@ -88,6 +88,8 @@ Der FoundryURoP‑Chat:
 
 - Bei jedem Commit mit Aenderungen unter `foundryurop/system-urop/` muss die Version in `foundryurop/system-urop/system.json` erhoeht werden.
 - Der zugehoerige Eintrag in `foundryurop/system-urop/RELEASE_NOTES.md` ist im selben Commit zu aktualisieren.
+- Bei jeder neuen Ruleset-Version muss `foundryurop/system-urop/urop-system.zip` neu gebaut werden.
+- Vor Push ist zu verifizieren, dass die Version in `urop-system.zip` (Datei `system.json` im ZIP) exakt der Version in `foundryurop/system-urop/system.json` entspricht.
 
 ---
 
