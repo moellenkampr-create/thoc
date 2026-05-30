@@ -87,10 +87,15 @@ Der URoP‑Chat:
 ## 10. Versionierung
 Änderungen erfolgen nach Regelprüfung.
 
-- Bei jedem Commit mit Aenderungen am Foundry-Ruleset (`foundryurop/system-urop/`) ist die Versionsnummer in `foundryurop/system-urop/system.json` zu erhoehen.
-- Gleichzeitig ist der passende Eintrag in `foundryurop/system-urop/RELEASE_NOTES.md` zu pflegen.
-- Bei jeder neuen Foundry-Ruleset-Version ist `foundryurop/system-urop/urop-system.zip` neu zu bauen.
-- Vor Push ist zu pruefen, dass die Version in der ZIP-internen `system.json` mit `foundryurop/system-urop/system.json` identisch ist.
+**Pflicht-Checkliste vor jedem Push mit Foundry-Änderungen:**
+
+1. Version in `foundryurop/system-urop/system.json` erhöhen
+2. Eintrag in `foundryurop/system-urop/RELEASE_NOTES.md` anlegen
+3. ZIP neu bauen: altes ZIP löschen, `Compress-Archive -Path ".\*" -DestinationPath "urop-system.zip"` aus `foundryurop/system-urop/`
+4. ZIP-Version prüfen (muss mit `system.json` übereinstimmen)
+5. Alle drei Dateien (`system.json`, `RELEASE_NOTES.md`, `urop-system.zip`) zusammen committen
+
+**Wichtig:** Schritt 3–4 nicht vergessen – die ZIP wird von Foundry als Download genutzt und muss immer die aktuelle Version enthalten.
 
 ---
 
