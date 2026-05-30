@@ -136,8 +136,11 @@ Leitlinien:
 ### 6.1 Aktionskosten
 Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
 - **Frei** (nur kleine, nicht kampfentscheidende Effekte)
+- **Kleine Aktion** (kurze Zusatzhandlung, kleiner taktischer Eingriff)
 - **Aktion**
-- **2+ Aktionen** (Setup, Aufbau, Finisher-Vorbereitung)
+- **2 Aktionen**
+- **3 Aktionen**
+- **4 Aktionen**
 
 ### 6.1.1 Erwerbskosten (EP)
 Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft.
@@ -158,6 +161,7 @@ Diese Information wird jetzt in der JSON je Eintrag ueber `usageWindow` gefuehrt
 - **beliebig** (nur bei kleinen Effekten)
 - **1x pro Kampf**
 - **1x pro Szene**
+- **vorbereitet** (kein Spam-Fenster, sondern ein klar setup- oder oeffnungsgebundenes Abschlussfenster; typisch fuer Finisher)
 
 ### 6.3 Re-Einsatz
 Wird ein limitiertes Manoever in derselben Szene erneut genutzt,

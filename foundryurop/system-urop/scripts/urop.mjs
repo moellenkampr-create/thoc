@@ -66,7 +66,26 @@ async function runSystemMigrations(fromVersion, toVersion) {
     }
   };
 
-  const steps = [migrateSizeAndRangeFields];
+  const migratePreparedFinisherWindow = async () => {
+    const migrateItem = async (item) => {
+      if (item.type !== "maneuver") return;
+      if (item.system?.usageWindow !== "once_per_scene") return;
+      if (!/^Finisher/i.test(item.name ?? "")) return;
+      await item.update({ "system.usageWindow": "prepared" });
+    };
+
+    for (const actor of game.actors) {
+      for (const item of actor.items) {
+        await migrateItem(item);
+      }
+    }
+
+    for (const item of game.items) {
+      await migrateItem(item);
+    }
+  };
+
+  const steps = [migrateSizeAndRangeFields, migratePreparedFinisherWindow];
 
   for (const step of steps) {
     await step();

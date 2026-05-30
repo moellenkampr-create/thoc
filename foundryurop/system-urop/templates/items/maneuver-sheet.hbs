@@ -18,13 +18,30 @@
     <div class="tab" data-group="primary" data-tab="details">
       <div class="card">
         <label>Tier</label>
-        <input type="text" name="system.tier" value="{{item.system.tier}}"/>
+        <select name="system.tier">
+          <option value="T0" {{#if (uropEq item.system.tier "T0")}}selected{{/if}}>T0 - Grundmanöver</option>
+          <option value="T1" {{#if (uropEq item.system.tier "T1")}}selected{{/if}}>T1 - Kernmanöver</option>
+          <option value="T2" {{#if (uropEq item.system.tier "T2")}}selected{{/if}}>T2 - Fortgeschrittenes Manöver</option>
+          <option value="T3" {{#if (uropEq item.system.tier "T3")}}selected{{/if}}>T3 - Meistermanöver</option>
+        </select>
         <label>Lernkosten EP</label>
         <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
         <label>Aktionskosten</label>
-        <input type="text" name="system.actionCost" value="{{item.system.actionCost}}"/>
+        <select name="system.actionCost">
+          <option value="free" {{#if (uropEq item.system.actionCost "free")}}selected{{/if}}>Frei</option>
+          <option value="small_action" {{#if (uropEq item.system.actionCost "small_action")}}selected{{/if}}>Kleine Aktion</option>
+          <option value="action" {{#if (uropEq item.system.actionCost "action")}}selected{{/if}}>Aktion</option>
+          <option value="two_actions" {{#if (uropEq item.system.actionCost "two_actions")}}selected{{/if}}>2 Aktionen</option>
+          <option value="three_actions" {{#if (uropEq item.system.actionCost "three_actions")}}selected{{/if}}>3 Aktionen</option>
+          <option value="four_actions" {{#if (uropEq item.system.actionCost "four_actions")}}selected{{/if}}>4 Aktionen</option>
+        </select>
         <label>Einsatzfenster</label>
-        <input type="text" name="system.usageWindow" value="{{item.system.usageWindow}}"/>
+        <select name="system.usageWindow">
+          <option value="unlimited" {{#if (uropEq item.system.usageWindow "unlimited")}}selected{{/if}}>Beliebig</option>
+          <option value="once_per_conflict" {{#if (uropEq item.system.usageWindow "once_per_conflict")}}selected{{/if}}>1x pro Kampf</option>
+          <option value="once_per_scene" {{#if (uropEq item.system.usageWindow "once_per_scene")}}selected{{/if}}>1x pro Szene</option>
+          <option value="prepared" {{#if (uropEq item.system.usageWindow "prepared")}}selected{{/if}}>Vorbereitet</option>
+        </select>
         <label>Wiederholungs-Eskalation</label>
         <input type="text" name="system.reuseEscalation" value="{{item.system.reuseEscalation}}"/>
       </div>

@@ -1,5 +1,17 @@
 # URoP Foundry Release Notes
 
+## [0.1.22] - 2026-05-30
+
+### Changed
+- Manöver-Sheet: `tier`, `actionCost` und `usageWindow` als Auswahlboxen statt Freitext
+- Manöver-Sheet: Tier-Auswahl zeigt Key plus Lesetext (`T0 - Grundmanöver` etc.)
+- Shared-Regellogik erweitert: `small_action`, `four_actions` und `prepared`
+- Finisher-Referenzdaten auf das neue Einsatzfenster `prepared` umgestellt
+
+### Migration Required
+- yes
+- Bestehende Finisher-Manöver mit `usageWindow = once_per_scene` werden bei Weltenstart auf `prepared` migriert
+
 ## [0.1.21] - 2026-05-30
 
 ### Changed

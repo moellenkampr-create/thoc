@@ -193,8 +193,11 @@ Jedes ManÃ¶ver kostet fest:
 | Kosten | Dauer | Beispiele |
 |--------|-------|----------|
 | **Frei** | sofort | Ausweichen (dabei), "Hold!", Schnellziehen (vorbereitend) |
+| **Kleine Aktion** | kurzer Einschub | kurzer Setup-Schritt, kleiner taktischer Impuls |
 | **1 Aktion** | einen Kampf-Round | Schuss, Angriff, Hacking, Ãœberzeugung |
-| **2+ Aktionen** | mehrere Rounds | PrÃ¤zisionsschuss, Zauberei, komplexes Hacking |
+| **2 Aktionen** | zwei zusammenhaengende Handlungssegmente | aufwendige Kampf- oder Hackaktion |
+| **3 Aktionen** | langer Aufbau | harter Setup- oder Zauberei-/Technikimpuls |
+| **4 Aktionen** | sehr langer Aufbau | schwere Vorbereitung, ritualisierte oder komplexe Abfolge |
 
 ### Einsatzfenster
 Wie oft kann ein ManÃ¶ver genutzt werden?
@@ -204,6 +207,7 @@ Wie oft kann ein ManÃ¶ver genutzt werden?
 | **Unbegrenzt** | Jede Szene, so oft du willst (meist schwache Effekte) |
 | **1x pro Kampf** | Einmal im Konflikt; Wiederholung kostet Konsequenz |
 | **1x pro Szene** | Einmal pro groÃŸem Szenen-Abschnitt; Re-Einsatz eskaliert |
+| **Vorbereitet** | Nur nach klarer Vorbereitung, Oeffnung oder Setup; typisch fuer Finisher und aehnliche Abschlussmanoever |
 
 ### Re-Einsatz und Eskalation
 Wenn du ein ManÃ¶ver **zweimal in derselben Szene** einsetzt (und das Fenster war 1x/Kampf oder 1x/Szene):

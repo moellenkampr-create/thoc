@@ -35,14 +35,17 @@
     ],
     "actionCost": [
       "free",
+      "small_action",
       "action",
       "two_actions",
-      "three_actions"
+      "three_actions",
+      "four_actions"
     ],
     "usageWindow": [
       "unlimited",
       "once_per_conflict",
-      "once_per_scene"
+      "once_per_scene",
+      "prepared"
     ],
     "reuseEscalationProfile": [
       "none",
@@ -81,10 +84,10 @@
     "previousRankId": "Vorheriger Rank derselben Familie; null bei Rank I. Hoehere Ranks duerfen nicht uebersprungen werden.",
     "tier": "Gewicht oder Stufe des Manoevers innerhalb der aktuellen Tierlogik.",
     "learnCostEp": "Zusatzkosten in Entwicklungspunkten fuer genau diesen Rank.",
-    "actionCost": "Aktionskosten des Einsatzes: free, action, two_actions oder three_actions.",
+    "actionCost": "Aktionskosten des Einsatzes: free, small_action, action, two_actions, three_actions oder four_actions.",
     "usesReactionWindow": "True, wenn der Einsatz das gemeinsame Reaktionsfenster des Initiativzyklus verbraucht.",
     "activationNotes": "Kurze lesbare Zusatzinfo zu Risiken, Anschlussnachteilen, Munitions- oder Setupfragen des Einsatzes.",
-    "usageWindow": "Einsatzhaeufigkeit: unlimited, once_per_conflict oder once_per_scene.",
+    "usageWindow": "Einsatzhaeufigkeit oder Vorbereitungsbindung: unlimited, once_per_conflict, once_per_scene oder prepared.",
     "reuseEscalationProfile": "Eskalationsprofil bei Re-Einsatz in derselben Szene.",
     "rulesShort": "Kurze spielnahe Regellesart fuer schnellen Zugriff am Tisch.",
     "description": "Vollstaendige Lesefassung des Manoevers mit Einsatzlage, Wirkung, Risiko und typischer Gegenlage im Fliesstext.",
@@ -395,7 +398,7 @@
       "actionCost": "two_actions",
       "usesReactionWindow": false,
       "activationNotes": "Commitment-Aktion mit klarer Selbstoeffnung bei Fehlansage oder Fehlschlag.",
-      "usageWindow": "once_per_scene",
+      "usageWindow": "prepared",
       "reuseEscalationProfile": "strict_scene",
       "rulesShort": "Abschlussmanoever nach bereits geschaffener Oeffnung oder massiver Kontrolle.",
       "description": "Seltene Abschlussaktion, die nicht aus dem Nichts kommt, sondern auf deutlicher Vorarbeit aufsetzt. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist bereits klar geoeffnet, aus der Szene genommen oder hart unter Kontrolle. Typische Gegenlage: Wer den Finisher zu frueh ansagt, kann Stellung verlieren und der Gegenseite ein letztes Gegenfenster geben. Bei Gelingen: Der Kampf kippt massiv: Ausschalten, Aufgabe erzwingen oder letzte tragende Option des Gegners brechen. Bei Teilerfolg: Kein Vollabschluss, aber maximaler Druck und eine fuer den Gegner sehr schlechte Anschlusslage. Risiko: Finisher I ist noch hart gebunden und laesst den Nutzer bei Fehlansage sichtbar offen. Designhinweis: Rank I ist bewusst selten und verlangt klare Kettenbindung.",
@@ -422,7 +425,7 @@
       "actionCost": "two_actions",
       "usesReactionWindow": false,
       "activationNotes": "Die Abschlusslage bleibt eng, aber die Fehlansage frisst weniger hart die eigene Linie.",
-      "usageWindow": "once_per_scene",
+      "usageWindow": "prepared",
       "reuseEscalationProfile": "strict_scene",
       "rulesShort": "Sichererer oder etwas flexiblerer Finisher nach klarer Oeffnung.",
       "description": "Fortgeschrittener Finisher-Rank fuer Figuren, die Abschlusslagen nicht nur erkennen, sondern kontrollierter ausspielen. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist deutlich angeschlagen, in gebrochener Linie oder unter stabiler Kontrolle. Typische Gegenlage: Zu frueher Einsatz bleibt riskant, aber Rank II erlaubt bereits feinere Lesart der Lage. Bei Gelingen: Der Abschluss sitzt verlaesslicher oder kippt die Szene noch deutlicher. Bei Teilerfolg: Hoher Druck bleibt erhalten, ohne dass die eigene Figur so hart offen im Leeren endet wie bei Rank I. Designhinweis: Rank II ist als Wahlverbesserung gedacht und entfernt nicht automatisch alle Nachteile.",
@@ -453,7 +456,7 @@
       "actionCost": "action",
       "usesReactionWindow": false,
       "activationNotes": "Meisterabschluss; bleibt selten, aber der Abschluss frisst nicht mehr automatisch eine volle Zweischrittbindung.",
-      "usageWindow": "once_per_scene",
+      "usageWindow": "prepared",
       "reuseEscalationProfile": "standard_conflict",
       "rulesShort": "Meisterlicher Abschluss, der aus einer starken Oeffnung schneller und kontrollierter gelesen werden darf.",
       "description": "Meisterrank fuer Finisher. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Noch immer kein Standardabschluss, aber die Figur kann starke Oeffnungen sicherer in harten Schlusspunkt umsetzen. Typische Gegenlage: Wer die Lage falsch liest, geht weiter Risiko ein; Rank III nimmt aber nicht die Notwendigkeit von Vorarbeit aus dem System. Bei Gelingen: Der Abschluss kippt den Konflikt mit hoher Verbindlichkeit. Bei Teilerfolg: Selbst ohne Vollabschluss bleibt die gegnerische Lage massiv beschaedigt. Designhinweis: Der Rank belohnt Spezialisierung, ohne Finisher zu einem spammbaren Alltagswerkzeug zu machen.",

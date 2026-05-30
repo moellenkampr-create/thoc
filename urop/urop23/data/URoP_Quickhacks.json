@@ -59,14 +59,17 @@
     ],
     "actionCost": [
       "free",
+      "small_action",
       "action",
       "two_actions",
-      "three_actions"
+      "three_actions",
+      "four_actions"
     ],
     "usageWindow": [
       "unlimited",
       "once_per_conflict",
-      "once_per_scene"
+      "once_per_scene",
+      "prepared"
     ],
     "reuseEscalationProfile": [
       "none",
@@ -194,12 +197,12 @@
     "actionCost": {
       "required": false,
       "type": "string",
-      "description": "Aktionskosten des Einsatzes: free, action, two_actions oder three_actions."
+      "description": "Aktionskosten des Einsatzes: free, small_action, action, two_actions, three_actions oder four_actions."
     },
     "usageWindow": {
       "required": false,
       "type": "string",
-      "description": "Einsatzhaeufigkeit: unlimited, once_per_conflict oder once_per_scene."
+      "description": "Einsatzhaeufigkeit oder Vorbereitungsbindung: unlimited, once_per_conflict, once_per_scene oder prepared."
     },
     "reuseEscalationProfile": {
       "required": false,

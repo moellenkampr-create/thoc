@@ -506,8 +506,8 @@ ManÃ¶ver werden in Rank-Familien (Iâ€“III) gelernt. HÃ¶here Ranks sind 
 | Festsetzen | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
 | Festsetzen | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
 | Konter | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
-| Finisher | I | T2 | 30 | 2 Aktionen | nein | 1Ã— pro Szene |
-| Finisher | II | T3 | 20 | 2 Aktionen | nein | 1Ã— pro Szene |
+| Finisher | I | T2 | 30 | 2 Aktionen | nein | vorbereitet |
+| Finisher | II | T3 | 20 | 2 Aktionen | nein | vorbereitet |
 | PrÃ¤zisionsschuss | I | T1 | 15 | Aktion | nein | unbegrenzt |
 | PrÃ¤zisionsschuss | II | T2 | 15 | Aktion | nein | unbegrenzt |
 | PrÃ¤zisionsschuss | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
@@ -523,6 +523,9 @@ ManÃ¶ver werden in Rank-Familien (Iâ€“III) gelernt. HÃ¶here Ranks sind 
 | Bypass | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
 | Alarm verzÃ¶gern | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
 | Alarm verzÃ¶gern | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
+
+Aktionskosten-Referenz: frei, kleine Aktion, Aktion, 2 Aktionen, 3 Aktionen, 4 Aktionen.
+Fenster-Referenz: unbegrenzt, 1x pro Kampf, 1x pro Szene, vorbereitet.
 
 Kurzrollen fÃ¼r die wichtigsten EinzelmanÃ¶ver:
 - **Befreien aus Griff:** LÃ¶st oder lockert einen bestehenden Griff.

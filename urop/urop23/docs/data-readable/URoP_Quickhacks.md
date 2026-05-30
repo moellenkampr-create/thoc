@@ -279,6 +279,10 @@ Ziel dieser Struktur:
 - Quickhacks und Manoever sollen dieselbe Grundsprache fuer Aktionskosten, Einsatzfenster und Re-Einsatz teilen.
 - Voraussetzungen bleiben bewusst als Lesetext statt als starre Pflichtmatrix modelliert.
 
+Aktuelle gemeinsame Enum-Leitlinie:
+- `actionCost`: `free`, `small_action`, `action`, `two_actions`, `three_actions`, `four_actions`
+- `usageWindow`: `unlimited`, `once_per_conflict`, `once_per_scene`, `prepared`
+
 Aktuell ist dieses Profil fuer den ganzen Referenzsatz gepflegt.
 
 Grobe Lesart im Bestand:
