@@ -43,14 +43,14 @@
               <span>{{localize "URoP.Field.MoneyLabel"}}</span>
               <span>{{localize "URoP.Field.MoneyContents"}}</span>
               <span>{{localize "URoP.Field.MoneyAmount"}}</span>
-              <span></span>
+              <span class="money-remove-head">X</span>
             </div>
             {{#each moneyStores as |store index|}}
             <div class="money-row">
               <input type="text" name="system.resources.moneyStores.{{index}}.label" value="{{store.label}}"/>
               <input type="text" name="system.resources.moneyStores.{{index}}.contents" value="{{store.contents}}"/>
               <input type="number" step="0.01" name="system.resources.moneyStores.{{index}}.amount" value="{{store.amount}}"/>
-              <button type="button" class="lock-btn" data-action="remove-money-store" data-index="{{index}}" {{#unless ../canRemoveMoneyStore}}disabled{{/unless}}>{{localize "URoP.Field.RemoveMoneyStore"}}</button>
+              <button type="button" class="money-remove-btn" data-action="remove-money-store" data-index="{{index}}" title="{{localize 'URoP.Field.RemoveMoneyStore'}}" aria-label="{{localize 'URoP.Field.RemoveMoneyStore'}}" {{#unless ../canRemoveMoneyStore}}disabled{{/unless}}>{{localize "URoP.Field.RemoveMoneyStoreShort"}}</button>
             </div>
             {{/each}}
           </div>

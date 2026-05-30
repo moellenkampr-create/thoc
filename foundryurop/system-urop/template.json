@@ -83,8 +83,8 @@
         "epTotal": 600,
         "moneyStores": [
           {
-            "label": "Geldbeutel",
-            "contents": "EuroDollar",
+            "label": "",
+            "contents": "",
             "amount": 0
           }
         ],

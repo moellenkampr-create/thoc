@@ -152,7 +152,7 @@ export class UropCharacterSheet extends ActorSheet {
 
   _normalizeMoneyStores(moneyStores = []) {
     const list = Array.isArray(moneyStores) ? moneyStores : [];
-    const normalized = list
+    let normalized = list
       .map((entry) => ({
         label: String(entry?.label ?? "").trim(),
         contents: String(entry?.contents ?? "").trim(),
@@ -160,9 +160,44 @@ export class UropCharacterSheet extends ActorSheet {
       }))
       .slice(0, UropCharacterSheet.MAX_MONEY_STORES);
 
+    if (
+      normalized.length === 1
+      && normalized[0].label === "Geldbeutel"
+      && normalized[0].contents === "EuroDollar"
+      && normalized[0].amount === 0
+    ) {
+      normalized = [this._createEmptyMoneyStore()];
+    }
+
     if (normalized.length === 0) normalized.push(this._createEmptyMoneyStore());
 
     return normalized;
+  }
+
+  _collectMoneyStoresFromFormData(formData = {}) {
+    const buckets = new Map();
+
+    for (const [path, rawValue] of Object.entries(formData)) {
+      const match = /^system\.resources\.moneyStores\.(\d+)\.(label|contents|amount)$/.exec(path);
+      if (!match) continue;
+
+      const index = Number(match[1]);
+      const field = match[2];
+      if (!buckets.has(index)) buckets.set(index, this._createEmptyMoneyStore());
+
+      const row = buckets.get(index);
+      if (field === "amount") {
+        row.amount = this._toFiniteNumber(rawValue, 0);
+      } else {
+        row[field] = String(rawValue ?? "");
+      }
+    }
+
+    const rows = Array.from(buckets.entries())
+      .sort((a, b) => a[0] - b[0])
+      .map(([, row]) => row);
+
+    return this._normalizeMoneyStores(rows);
   }
 
   activateListeners(html) {
@@ -495,8 +530,28 @@ export class UropCharacterSheet extends ActorSheet {
     const current = this._normalizeMoneyStores(this.actor.system.resources?.moneyStores || []);
     if (current.length <= 1) return;
 
+    const confirmed = await Dialog.confirm({
+      title: game.i18n.localize("URoP.Field.ConfirmRemoveMoneyStoreTitle"),
+      content: `<p>${game.i18n.localize("URoP.Field.ConfirmRemoveMoneyStorePrompt")}</p>`
+    });
+    if (!confirmed) return;
+
     current.splice(index, 1);
     await this.actor.update({ "system.resources.moneyStores": current });
+  }
+
+  async _updateObject(event, formData) {
+    const updateData = { ...formData };
+
+    for (const key of Object.keys(updateData)) {
+      if (key.startsWith("system.resources.moneyStores.")) {
+        delete updateData[key];
+      }
+    }
+
+    updateData["system.resources.moneyStores"] = this._collectMoneyStoresFromFormData(formData);
+
+    await this.actor.update(updateData);
   }
 
   async _onRollInitiative(event) {

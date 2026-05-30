@@ -74,7 +74,11 @@
 
 .urop-sheet .grid.one-col { grid-template-columns: 1fr; }
 .urop-sheet .grid.two-col { grid-template-columns: 1fr 1fr; }
-.urop-sheet .grid.three-col { grid-template-columns: 1fr 1fr 1fr; }
+.urop-sheet .grid.three-col { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+.urop-sheet .tab[data-tab="attributes"] .grid.three-col {
+  gap: 8px;
+}
 
 .urop-sheet .card {
   background: linear-gradient(180deg, var(--urop-surface), var(--urop-surface-2));
@@ -214,7 +218,7 @@
 .urop-sheet .money-head-row,
 .urop-sheet .money-row {
   display: grid;
-  grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr) 100px auto;
+  grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr) 100px 32px;
   gap: 6px;
   align-items: center;
 }
@@ -228,8 +232,20 @@
   color: var(--urop-muted);
 }
 
+.urop-sheet .money-remove-head {
+  text-align: center;
+}
+
 .urop-sheet .money-row {
   margin-bottom: 6px;
+}
+
+.urop-sheet .money-remove-btn {
+  width: 32px;
+  min-width: 32px;
+  height: 30px;
+  padding: 0;
+  text-align: center;
 }
 
 .urop-sheet .type-chip {
@@ -292,16 +308,16 @@
 /* ── Facetten-Zeile ── */
 .urop-sheet .facet-row {
   display: grid;
-  grid-template-columns: minmax(120px, 1fr) 120px 100px 64px 24px;
+  grid-template-columns: minmax(72px, 1fr) 104px 86px 58px 22px;
   align-items: center;
-  column-gap: 6px;
+  column-gap: 4px;
   padding: 2px 0;
 }
 
 .urop-sheet .facet-head {
   display: grid;
-  grid-template-columns: minmax(120px, 1fr) 120px 100px 64px 24px;
-  gap: 6px;
+  grid-template-columns: minmax(72px, 1fr) 104px 86px 58px 22px;
+  gap: 4px;
   align-items: center;
   margin-bottom: 2px;
 }
@@ -326,8 +342,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3px;
-  width: 120px;
+  gap: 2px;
+  width: 104px;
 }
 
 .urop-sheet .lead-modifier-controls {
@@ -340,27 +356,27 @@
 }
 
 .urop-sheet .modifier-input {
-  width: 36px;
-  min-width: 36px;
+  width: 30px;
+  min-width: 30px;
   padding: 4px 3px;
   text-align: center;
 }
 
 .urop-sheet .lead-attribute-value {
-  width: 64px;
-  min-width: 64px;
+  width: 52px;
+  min-width: 52px;
   text-align: center;
 }
 
 .urop-sheet .lead-derived-value {
-  width: 64px;
-  min-width: 64px;
+  width: 52px;
+  min-width: 52px;
   text-align: center;
 }
 
 .urop-sheet .facet-total-input {
-  width: 64px;
-  min-width: 64px;
+  width: 58px;
+  min-width: 58px;
   text-align: center;
 }
 
@@ -374,13 +390,13 @@
 }
 
 .urop-sheet .facet-stepper {
-  width: 100px;
+  width: 86px;
 }
 
 .urop-sheet .stepper-btn {
-  width: 22px;
-  min-width: 22px;
-  height: 22px;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
   padding: 0;
   font-size: 1rem;
   line-height: 1;
@@ -405,7 +421,7 @@
 }
 
 .urop-sheet .facet-value {
-  width: 38px;
+  width: 32px;
   text-align: center;
   font-size: 0.9rem;
 }
@@ -419,9 +435,9 @@
 
 /* ── Lock-Button ── */
 .urop-sheet .lock-btn {
-  width: 24px;
-  min-width: 24px;
-  height: 24px;
+  width: 22px;
+  min-width: 22px;
+  height: 22px;
   padding: 0;
   font-size: 0.85rem;
   line-height: 1;
@@ -506,6 +522,12 @@
 .urop-roll-text.outcome-standard {
   border-left-color: #9be27c;
   background: #182516;
+}
+
+@media (max-width: 1200px) {
+  .urop-sheet .tab[data-tab="attributes"] .grid.three-col {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .urop-roll-text.outcome-above-standard {

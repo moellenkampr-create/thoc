@@ -19,6 +19,27 @@
 
 ---
 
+## [0.1.19] - 2026-05-30
+
+### Added
+- Bestaetigungsdialog beim Loeschen von Geldspeicherorten im Charakterblatt eingebaut.
+
+### Changed
+- Geldspeicherort-Entfernen auf kompakten X-Button umgestellt und Listenlayout verdichtet.
+- Attribut-Layout (Kartenbreite/Spaltenbreiten) komprimiert; bei schmaleren Breiten responsiver 2-Spalten-Fallback ohne horizontales Seitenscrollen.
+
+### Fixed
+- Initiale Vorbelegung von Geldspeicherorten auf leere Erstzeile (Ort/Waehrung leer, Bestand 0) korrigiert.
+- Speichern der Geldspeicherorte stabilisiert, sodass Zeilen beim Eingeben/Tabben nicht mehr verschwinden oder geleert werden.
+
+### Migration Required
+- no
+
+### Migration Notes
+- n/a
+
+---
+
 ## [0.1.18] - 2026-05-30
 
 ### Added
