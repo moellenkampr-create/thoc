@@ -1,25 +1,25 @@
 {
-  "schema_version": "2026-04-17_v4",
+  "schemaVersion": "2026-04-17_v4",
   "type": "maneuver_database",
-  "authoritative_note": "Fuehrende Datenquelle fuer volle Manoever im schlanken Kern. Lernkosten, Einsatzkosten und Rank-Familien werden getrennt gefuehrt; harte Balancing-Felder bleiben strukturiert, Voraussetzungen und Entwicklungsdetails bleiben bewusst weitgehend lesbar als Text.",
-  "design_notes": [
+  "authoritativeNote": "Fuehrende Datenquelle fuer volle Manoever im schlanken Kern. Lernkosten, Einsatzkosten und Rank-Familien werden getrennt gefuehrt; harte Balancing-Felder bleiben strukturiert, Voraussetzungen und Entwicklungsdetails bleiben bewusst weitgehend lesbar als Text.",
+  "designNotes": [
     "URoP fuehrt aktuell nur Basisanwendung und volles Manoever; eine eigene Zwischenebene fuer Optionen / Techniken ist vorerst nicht aktiv.",
     "Reaktive Manoever teilen sich eine gemeinsame knappe Reaktionsressource pro eigenem Initiativzyklus.",
     "Fensterklassen und Gegenfensterklassen bleiben bewusst klein, damit Gegenreaktionen ueber robuste Klassen statt ueber eine riesige Eins-zu-eins-Matrix lesbar bleiben.",
     "Rank-Familien werden nur dort genutzt, wo Balancing oder Lernentscheidung wirklich gewinnen; nicht jedes Manoever braucht mehrere Ranks.",
     "Diese v4 fuehrt die aktiven vollen Manoever fuer Kampf, Sozial und Technik mit Rank-Familien fuer Schnellziehen, Praezisionsschuss, Finisher, Entwaffnen, Festsetzen, Bypass, Alarm verzoegern, Unterdrueckungsfeuer, Gespraechsschock, Reaktionsschuss und Sozialer Konter."
   ],
-  "tier_cost_reference": {
+  "tierCostReference": {
     "T0": 0,
     "T1": 15,
     "T2": 30,
     "T3": 50
   },
-  "rank_learning_rules": {
-    "sequential_only": true,
-    "higher_rank_keeps_lower_rank_available": true,
-    "learn_cost_ep_is_incremental": true,
-    "tier_cost_reference_role": "Orientierungswert fuer neue Manoeverfamilien, Rank-I-Einstiege und Manoever ohne weitere Ranks; Folgeraenge duerfen davon abweichen, wenn das Balancing es braucht."
+  "rankLearningRules": {
+    "sequentialOnly": true,
+    "higherRankKeepsLowerRankAvailable": true,
+    "learnCostEpIsIncremental": true,
+    "tierCostReferenceRole": "Orientierungswert fuer neue Manoeverfamilien, Rank-I-Einstiege und Manoever ohne weitere Ranks; Folgeraenge duerfen davon abweichen, wenn das Balancing es braucht."
   },
   "enums": {
     "tier": [
@@ -33,1334 +33,1334 @@
       "II",
       "III"
     ],
-    "action_cost": [
+    "actionCost": [
       "free",
       "action",
       "two_actions",
       "three_actions"
     ],
-    "usage_window": [
+    "usageWindow": [
       "unlimited",
       "once_per_conflict",
       "once_per_scene"
     ],
-    "reuse_escalation_profile": [
+    "reuseEscalationProfile": [
       "none",
       "standard_conflict",
       "strict_scene"
     ],
-    "advancement_mode": [
+    "advancementMode": [
       "none",
       "fixed",
       "choice"
     ]
   },
-  "reuse_escalation_profiles": {
+  "reuseEscalationProfiles": {
     "none": {
       "summary": "Kein eigener Eskalationspfad aus Re-Einsatz; nur normale Risiko- und Lagedynamik."
     },
-    "standard_conflict": {
+    "standardConflict": {
       "summary": "Standardleiter fuer limitierte Manoever mit 1x pro Kampf/Conflict.",
-      "second_use": "leichte Konsequenz",
-      "third_use": "mittlere bzw. schwere Konsequenz plus optional erhoehtes Risiko",
-      "fourth_use": "schwere Konsequenz oder Sperre bis Szenenende"
+      "secondUse": "leichte Konsequenz",
+      "thirdUse": "mittlere bzw. schwere Konsequenz plus optional erhoehtes Risiko",
+      "fourthUse": "schwere Konsequenz oder Sperre bis Szenenende"
     },
-    "strict_scene": {
+    "strictScene": {
       "summary": "Strenger Eskalationspfad fuer 1x pro Szene-Manoever.",
-      "second_use": "leichte Konsequenz und klarer Lagepreis",
-      "third_use": "schwere Konsequenz mit erhoehtem Risiko",
-      "fourth_use": "Sperre bis Szenenende oder kritische Konsequenz nach Lage"
+      "secondUse": "leichte Konsequenz und klarer Lagepreis",
+      "thirdUse": "schwere Konsequenz mit erhoehtem Risiko",
+      "fourthUse": "Sperre bis Szenenende oder kritische Konsequenz nach Lage"
     }
   },
-  "field_schema": {
+  "fieldSchema": {
     "id": "Stabile eindeutige Kennung des Rank-Eintrags.",
-    "family_id": "Stabile Kennung der Manoeverfamilie; mehrere Ranks derselben Familie teilen sich dieselbe family_id.",
-    "family_name": "Lesbarer Familienname ohne Rank-Zusatz.",
+    "familyId": "Stabile Kennung der Manoeverfamilie; mehrere Ranks derselben Familie teilen sich dieselbe familyId.",
+    "familyName": "Lesbarer Familienname ohne Rank-Zusatz.",
     "name": "Anzeigename des Manoevers oder Rank-Eintrags.",
     "rank": "Rank innerhalb der Familie; aktuell I bis III.",
-    "previous_rank_id": "Vorheriger Rank derselben Familie; null bei Rank I. Hoehere Ranks duerfen nicht uebersprungen werden.",
+    "previousRankId": "Vorheriger Rank derselben Familie; null bei Rank I. Hoehere Ranks duerfen nicht uebersprungen werden.",
     "tier": "Gewicht oder Stufe des Manoevers innerhalb der aktuellen Tierlogik.",
-    "learn_cost_ep": "Zusatzkosten in Entwicklungspunkten fuer genau diesen Rank.",
-    "action_cost": "Aktionskosten des Einsatzes: free, action, two_actions oder three_actions.",
-    "uses_reaction_window": "True, wenn der Einsatz das gemeinsame Reaktionsfenster des Initiativzyklus verbraucht.",
-    "activation_notes": "Kurze lesbare Zusatzinfo zu Risiken, Anschlussnachteilen, Munitions- oder Setupfragen des Einsatzes.",
-    "usage_window": "Einsatzhaeufigkeit: unlimited, once_per_conflict oder once_per_scene.",
-    "reuse_escalation_profile": "Eskalationsprofil bei Re-Einsatz in derselben Szene.",
-    "rules_short": "Kurze spielnahe Regellesart fuer schnellen Zugriff am Tisch.",
+    "learnCostEp": "Zusatzkosten in Entwicklungspunkten fuer genau diesen Rank.",
+    "actionCost": "Aktionskosten des Einsatzes: free, action, two_actions oder three_actions.",
+    "usesReactionWindow": "True, wenn der Einsatz das gemeinsame Reaktionsfenster des Initiativzyklus verbraucht.",
+    "activationNotes": "Kurze lesbare Zusatzinfo zu Risiken, Anschlussnachteilen, Munitions- oder Setupfragen des Einsatzes.",
+    "usageWindow": "Einsatzhaeufigkeit: unlimited, once_per_conflict oder once_per_scene.",
+    "reuseEscalationProfile": "Eskalationsprofil bei Re-Einsatz in derselben Szene.",
+    "rulesShort": "Kurze spielnahe Regellesart fuer schnellen Zugriff am Tisch.",
     "description": "Vollstaendige Lesefassung des Manoevers mit Einsatzlage, Wirkung, Risiko und typischer Gegenlage im Fliesstext.",
-    "requirements_text": "Voraussetzungen des Manoevers als bewusst lesbarer Klartext statt als Pflichtmatrix.",
-    "advancement_mode": "none, fixed oder choice; beschreibt, ob der Rank keine weitere Entwicklung, einen festen Fortschritt oder eine Wahlverbesserung repraesentiert.",
-    "advancement_text": "Kurze lesbare Beschreibung des Fortschritts gegenueber dem vorherigen Rank oder der waehlbaren Verbesserungen beim Erwerb dieses Rangs.",
-    "internal_refs": "Maschinenlesbare Cross-Referenzen fuer interne Konsistenzpruefung und Datenerstellung; nicht fuer Drucklisten oder Regelbuch-Lesefassungen gedacht."
+    "requirementsText": "Voraussetzungen des Manoevers als bewusst lesbarer Klartext statt als Pflichtmatrix.",
+    "advancementMode": "none, fixed oder choice; beschreibt, ob der Rank keine weitere Entwicklung, einen festen Fortschritt oder eine Wahlverbesserung repraesentiert.",
+    "advancementText": "Kurze lesbare Beschreibung des Fortschritts gegenueber dem vorherigen Rank oder der waehlbaren Verbesserungen beim Erwerb dieses Rangs.",
+    "internalRefs": "Maschinenlesbare Cross-Referenzen fuer interne Konsistenzpruefung und Datenerstellung; nicht fuer Drucklisten oder Regelbuch-Lesefassungen gedacht."
   },
   "entries": [
     {
       "id": "man_befreien_aus_griff",
-      "family_id": "man_befreien_aus_griff",
-      "family_name": "Befreien aus Griff",
+      "familyId": "man_befreien_aus_griff",
+      "familyName": "Befreien aus Griff",
       "name": "Befreien aus Griff",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T0",
-      "learn_cost_ep": 0,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Defensives Sofortmanoever; verbraucht das Reaktionsfenster, wenn es als unmittelbare Antwort gelesen wird.",
-      "usage_window": "unlimited",
-      "reuse_escalation_profile": "none",
-      "rules_short": "Loest oder lockert einen bestehenden Griff, damit wieder Bewegung oder Distanznahme moeglich wird.",
+      "learnCostEp": 0,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Defensives Sofortmanoever; verbraucht das Reaktionsfenster, wenn es als unmittelbare Antwort gelesen wird.",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "rulesShort": "Loest oder lockert einen bestehenden Griff, damit wieder Bewegung oder Distanznahme moeglich wird.",
       "description": "Defensives Grundmanoever gegen unmittelbare koerperliche Kontrolle im Nahkampf. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Die Figur steht bereits unter Griff, Halt oder direkter koerperlicher Kontrolle. Typische Gegenlage: Bei Fehlschlag bleibt der Griff bestehen und der Gegner kann Druck, Hebel oder Nachsetzen aufbauen. Typische Antwortart: entziehen. Bei Gelingen: Der gegnerische Griff wird geloest oder soweit gebrochen, dass wieder normale Bewegung, Distanznahme oder Anschlussaktion moeglich wird. Bei Teilerfolg: Die Kontrolle lockert sich, aber der Gegner bleibt in Reichweite oder eroeffnet direktes Nachsetzen. Risiko: Scheitert der Versuch klar, bleibt die Figur gebunden und oeffnet sich fuer unmittelbaren Gegendruck. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Wichtig, damit Nahkampfkontrolle stark, aber nie absolut bleibt; teilt sich das Reaktionsfenster mit anderen Antworten.",
-      "requirements_text": "Die Figur ist bereits gepackt, gehalten oder direkt in ihrer Bewegungsfreiheit eingeschraenkt.; Athletik, Nahkampf oder Waffenlos muessen die Befreiung plausibel tragen koennen.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein, wenn die Befreiung als unmittelbare Reaktion gelesen wird.",
-      "advancement_mode": "none",
-      "advancement_text": "Aktuell keine weitere Rank-Familie geplant.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Die Figur ist bereits gepackt, gehalten oder direkt in ihrer Bewegungsfreiheit eingeschraenkt.; Athletik, Nahkampf oder Waffenlos muessen die Befreiung plausibel tragen koennen.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein, wenn die Befreiung als unmittelbare Reaktion gelesen wird.",
+      "advancementMode": "none",
+      "advancementText": "Aktuell keine weitere Rank-Familie geplant.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_entwaffnen",
-      "family_id": "man_entwaffnen",
-      "family_name": "Entwaffnen",
+      "familyId": "man_entwaffnen",
+      "familyName": "Entwaffnen",
       "name": "Entwaffnen I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T1",
-      "learn_cost_ep": 15,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Klassisches aktives Kernmanoever ohne Zusatzfeldlogik jenseits von Lage und Risiko.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Drueckt eine Waffe aus der Linie, aus der Hand oder macht sie akut unbrauchbar.",
+      "learnCostEp": 15,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Klassisches aktives Kernmanoever ohne Zusatzfeldlogik jenseits von Lage und Risiko.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Drueckt eine Waffe aus der Linie, aus der Hand oder macht sie akut unbrauchbar.",
       "description": "Kernmanoever, das nicht den Gegner selbst, sondern seine tragende Waffenfuehrung angreift. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Der Gegner fuehrt eine Waffe offen, ist im Austausch gebunden oder verliert kurz Kontrolle ueber seine Waffenfuehrung. Typische Gegenlage: Ein misslungenes Entwaffnen kann zu Gegenangriff, Distanzgewinn oder Konter gegen die offene eigene Linie fuehren. Bei Gelingen: Die Waffe wird verloren, aus der Linie gedraengt, zu Boden gebracht oder zumindest akut unbrauchbar gemacht. Bei Teilerfolg: Die Waffe bleibt beim Gegner, aber seine Linie bricht auf und Folgeaktionen gegen Haltung, Distanz oder Kontrolle werden leichter. Risiko: Wer zu tief in die gegnerische Linie geht, kann sich sichtbar fuer Gegenstoss oder Konter oeffnen. Designhinweis: Kernwerkzeug gegen bewaffnete Ziele, aber keine sichere Universalantwort.",
-      "requirements_text": "Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen plausiblen Zugriff auf Hand oder Waffenlinie erlauben.; Nahkontakt oder eine offen lesbare Waffenlinie ist noetig.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II stabilisiert den Zugriff auf die Waffenlinie und reduziert das Eigenrisiko bei knappem Teilerfolg.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen plausiblen Zugriff auf Hand oder Waffenlinie erlauben.; Nahkontakt oder eine offen lesbare Waffenlinie ist noetig.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II stabilisiert den Zugriff auf die Waffenlinie und reduziert das Eigenrisiko bei knappem Teilerfolg.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_entwaffnen_ii",
-      "family_id": "man_entwaffnen",
-      "family_name": "Entwaffnen",
+      "familyId": "man_entwaffnen",
+      "familyName": "Entwaffnen",
       "name": "Entwaffnen II",
       "rank": "II",
-      "previous_rank_id": "man_entwaffnen",
+      "previousRankId": "man_entwaffnen",
       "tier": "T2",
-      "learn_cost_ep": 15,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Der Zugriff auf Hand und Linie bleibt sauberer; Teilerfolge brechen verlaesslicher die gegnerische Waffenfuehrung.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Fortgeschrittenes Entwaffnen mit verlaesslicherem Linienbruch und geringerem Eigenrisiko.",
+      "learnCostEp": 15,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Der Zugriff auf Hand und Linie bleibt sauberer; Teilerfolge brechen verlaesslicher die gegnerische Waffenfuehrung.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Fortgeschrittenes Entwaffnen mit verlaesslicherem Linienbruch und geringerem Eigenrisiko.",
       "description": "Fortgeschrittener Rank fuer Entwaffnen. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Der Gegner fuehrt sichtbar Waffe und Linie, aber die handelnde Figur kann den Zugriff technisch kontrollierter setzen als bei Rank I. Bei Gelingen: Entwaffnung oder klare Waffenstoerung tritt verlaesslicher ein. Bei Teilerfolg: Die gegnerische Linie bleibt selten voll stabil; Anschlussaktionen auf Distanz, Haltung oder Kontrolle werden besser vorbereitbar. Risiko: Fehleinschaetzungen bleiben gefaehrlich, aber die eigene Linie kippt weniger schnell komplett auf.",
-      "requirements_text": "Entwaffnen I muss bereits gelernt sein.; Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen den kontrollierten Zugriff tragen.; Nahkontakt oder klar lesbare Waffenlinie bleibt noetig.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III erhoeht den Abschlussgrad gegen bewaffnete Gegner und erlaubt bei sauberem Fenster auch harte Waffenkontrolle statt nur kurzem Stoeren.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Entwaffnen I muss bereits gelernt sein.; Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen den kontrollierten Zugriff tragen.; Nahkontakt oder klar lesbare Waffenlinie bleibt noetig.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III erhoeht den Abschlussgrad gegen bewaffnete Gegner und erlaubt bei sauberem Fenster auch harte Waffenkontrolle statt nur kurzem Stoeren.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_entwaffnen"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_entwaffnen_iii",
-      "family_id": "man_entwaffnen",
-      "family_name": "Entwaffnen",
+      "familyId": "man_entwaffnen",
+      "familyName": "Entwaffnen",
       "name": "Entwaffnen III",
       "rank": "III",
-      "previous_rank_id": "man_entwaffnen_ii",
+      "previousRankId": "man_entwaffnen_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Meisterlicher Zugriff auf Waffenlinie; bei guter Lage wird aus Stoerung oft nachhaltige Entwaffnung.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Meisterliches Entwaffnen fuer harte Kontrolle ueber Waffenlinie und Anschlusslage.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Meisterlicher Zugriff auf Waffenlinie; bei guter Lage wird aus Stoerung oft nachhaltige Entwaffnung.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Meisterliches Entwaffnen fuer harte Kontrolle ueber Waffenlinie und Anschlusslage.",
       "description": "Meisterrank fuer Entwaffnen. Einordnung: Kampf, aktiv, Oeffnung/Kontrolle. Typisches Einsatzfenster: Die Figur liest Waffenlinie, Abstand und Hebel sehr praezise und setzt den Zugriff in einem engen, aber klaren Moment. Bei Gelingen: Waffenkontrolle kippt stark zugunsten der handelnden Figur; Entwaffnung oder nachhaltige Unbrauchbarkeit wird wahrscheinlicher. Bei Teilerfolg: Der Gegner behaelt eventuell die Waffe, aber unter deutlich schlechterer Linie und mit klarer Anschlussgefahr. Risiko: Bleibt ein tiefes Linienmanoever und ist nicht als Spamwerkzeug gedacht.",
-      "requirements_text": "Entwaffnen II muss bereits gelernt sein.; Passende Waffe oder Technik fuer praezisen Linienzugriff ist Pflicht.; Das Fenster muss klar lesbar sein, nicht aus blindem Raten heraus.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Entwaffnen II muss bereits gelernt sein.; Passende Waffe oder Technik fuer praezisen Linienzugriff ist Pflicht.; Das Fenster muss klar lesbar sein, nicht aus blindem Raten heraus.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_entwaffnen_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_umreissen_niederwerfen",
-      "family_id": "man_umreissen_niederwerfen",
-      "family_name": "Umreissen / Niederwerfen",
+      "familyId": "man_umreissen_niederwerfen",
+      "familyName": "Umreissen / Niederwerfen",
       "name": "Umreissen / Niederwerfen",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T1",
-      "learn_cost_ep": 15,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Aktiver Kontrollimpuls gegen Stand und Schwerpunkt.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Bricht Stand, Schwerpunkt oder Laufkontrolle, um ein Ziel aus stabiler Position zu holen.",
+      "learnCostEp": 15,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Aktiver Kontrollimpuls gegen Stand und Schwerpunkt.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Bricht Stand, Schwerpunkt oder Laufkontrolle, um ein Ziel aus stabiler Position zu holen.",
       "description": "Kontrollmanoever gegen Haltung und Stand statt gegen rohe Trefferwirkung. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Der Gegner steht unguenstig, wird gedraengt, ist in Bewegung oder verliert kurz seine stabile Linie. Typische Gegenlage: Misslingt das Manoever, kann der Gegner Griff, Clinch oder Vorstoss gegen die tiefe Linie der angreifenden Figur setzen. Bei Gelingen: Der Gegner geht zu Boden, verliert stabilen Stand oder muss zuerst seine Haltung wiederfinden. Bei Teilerfolg: Das Ziel bleibt stehen, verliert aber Position, Tempo oder eine saubere Folgehandlung. Risiko: Scheitert das Manoever offen, steht die handelnde Figur oft tief in der Linie und laedt zu Gegengriff oder Gegenstoss ein. Designhinweis: Gute Kontrolltechnik ohne Abschlusscharakter.",
-      "requirements_text": "Athletik, Nahkampf oder Waffenlos muessen den Hebel auf Stand oder Schwerpunkt plausibel tragen.; Nahdistanz, Koerperkontakt oder eine offene Bewegungslinie des Gegners.",
-      "advancement_mode": "none",
-      "advancement_text": "Aktuell keine weitere Rank-Familie geplant.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Athletik, Nahkampf oder Waffenlos muessen den Hebel auf Stand oder Schwerpunkt plausibel tragen.; Nahdistanz, Koerperkontakt oder eine offene Bewegungslinie des Gegners.",
+      "advancementMode": "none",
+      "advancementText": "Aktuell keine weitere Rank-Familie geplant.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_festsetzen",
-      "family_id": "man_festsetzen",
-      "family_name": "Festsetzen",
+      "familyId": "man_festsetzen",
+      "familyName": "Festsetzen",
       "name": "Festsetzen I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Bindet die eigene Figur mit in die Lage; stark, aber selten ohne Vorarbeit sauber.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Erzwingt klare Bindung und schraenkt Bewegung, Flucht oder freies Waffenspiel stark ein.",
+      "learnCostEp": 30,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Bindet die eigene Figur mit in die Lage; stark, aber selten ohne Vorarbeit sauber.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Erzwingt klare Bindung und schraenkt Bewegung, Flucht oder freies Waffenspiel stark ein.",
       "description": "Fortgeschrittenes Kontrollmanoever, das auf vorherige Oeffnung oder deutlichen Positionsvorteil baut. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Der Gegner ist bereits schlecht gebunden, am Boden, an einer Kante, in engem Raum oder aus einer Voraktion heraus offen. Typische Gegenlage: Befreiungsversuche, Werkzeugnaehe, Nahwaffen oder Eingriffe von Verbuendeten koennen die Bindung brechen. Bei Gelingen: Der Gegner wird in Bewegung oder Handlungsfreiheit klar eingeschraenkt; Flucht, freies Manoevrieren und sauberes Waffenspiel werden stark erschwert. Bei Teilerfolg: Nur kurzer Halt oder blockierte Linie, aber immerhin genug, um Tempo und Optionen des Gegners zu beschneiden. Risiko: Festsetzen bindet auch die eigene Figur und macht sie anfaelliger fuer Eingriffe von aussen. Designhinweis: Starke Kontrolle und deshalb fast nie ohne Lage- oder Kettenbindung.",
-      "requirements_text": "Koerperliche Kontrolle durch Athletik, Nahkampf oder Waffenlos muss plausibel tragbar sein.; Nahkontakt und ein bereits schlechter Stand des Gegners sind fast immer noetig.; Vorherige Oeffnung, Bodensituation, enge Umgebung oder klarer Positionsvorteil sind typisch.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II verbessert die Haltbarkeit der Kontrolle und reduziert die eigene Ueberbindung in unklarer Lage.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Koerperliche Kontrolle durch Athletik, Nahkampf oder Waffenlos muss plausibel tragbar sein.; Nahkontakt und ein bereits schlechter Stand des Gegners sind fast immer noetig.; Vorherige Oeffnung, Bodensituation, enge Umgebung oder klarer Positionsvorteil sind typisch.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II verbessert die Haltbarkeit der Kontrolle und reduziert die eigene Ueberbindung in unklarer Lage.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_festsetzen_ii",
-      "family_id": "man_festsetzen",
-      "family_name": "Festsetzen",
+      "familyId": "man_festsetzen",
+      "familyName": "Festsetzen",
       "name": "Festsetzen II",
       "rank": "II",
-      "previous_rank_id": "man_festsetzen",
+      "previousRankId": "man_festsetzen",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Die eigene Bindung bleibt spuerbar, aber kontrollierter; kurze Gegenimpulse loesen die Lage seltener sofort wieder auf.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Fortgeschrittenes Festsetzen mit stabilerer Gegnerbindung bei weiterhin klarem Lagepreis.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Die eigene Bindung bleibt spuerbar, aber kontrollierter; kurze Gegenimpulse loesen die Lage seltener sofort wieder auf.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Fortgeschrittenes Festsetzen mit stabilerer Gegnerbindung bei weiterhin klarem Lagepreis.",
       "description": "Fortgeschrittener Rank fuer Festsetzen. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Der Gegner ist geoeffnet oder bereits gebrochen, und die Figur kann die Bindung technisch sauber nachziehen. Bei Gelingen: Bewegung und freies Waffenspiel des Gegners werden verlaesslicher unterbunden. Bei Teilerfolg: Die Kontrolle bleibt zumindest lang genug, um Anschlussdruck zu setzen. Risiko: Die handelnde Figur bleibt gebunden, aber die eigene Linie wird nicht mehr so leicht von jeder Stoerung zerlegt wie bei Rank I.",
-      "requirements_text": "Festsetzen I muss bereits gelernt sein.; Nahkontakt und bestehende Oeffnung oder schlechte Gegnerhaltung bleiben Pflicht.; Die Figur braucht ausreichend eigene Stabilitaet, um Kontrolle nicht sofort wieder zu verlieren.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III verbessert den Abschlussgrad der Kontrolle deutlich und erlaubt staerkere Lagehoheit ohne das Szenenlimit aufzuheben.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Festsetzen I muss bereits gelernt sein.; Nahkontakt und bestehende Oeffnung oder schlechte Gegnerhaltung bleiben Pflicht.; Die Figur braucht ausreichend eigene Stabilitaet, um Kontrolle nicht sofort wieder zu verlieren.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III verbessert den Abschlussgrad der Kontrolle deutlich und erlaubt staerkere Lagehoheit ohne das Szenenlimit aufzuheben.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_festsetzen"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_festsetzen_iii",
-      "family_id": "man_festsetzen",
-      "family_name": "Festsetzen",
+      "familyId": "man_festsetzen",
+      "familyName": "Festsetzen",
       "name": "Festsetzen III",
       "rank": "III",
-      "previous_rank_id": "man_festsetzen_ii",
+      "previousRankId": "man_festsetzen_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Meisterkontrolle: Die Bindung sitzt schneller und zwingt den Gegner deutlicher in schlechte Anschlussoptionen.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Meisterliches Festsetzen mit hoher Lagehoheit gegen Flucht, Bewegung und freie Linie.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Meisterkontrolle: Die Bindung sitzt schneller und zwingt den Gegner deutlicher in schlechte Anschlussoptionen.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Meisterliches Festsetzen mit hoher Lagehoheit gegen Flucht, Bewegung und freie Linie.",
       "description": "Meisterrank fuer Festsetzen. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Die Figur hat eine klare Oeffnung und kann den Gegner sofort in eine harte Bindung ziehen. Bei Gelingen: Gegnerische Bewegungs- und Fluchtoptionen brechen fast vollstaendig ein. Bei Teilerfolg: Auch ohne Vollbindung bleibt eine schlechte Gegnerlage mit gutem Anschluss fuer Verbundene. Risiko: Bleibt ein commitment-lastiges Kontrollmanoever und braucht weiterhin klare Vorarbeit.",
-      "requirements_text": "Festsetzen II muss bereits gelernt sein.; Eine klare Kettenbindung oder sehr schlechte Gegnerlage bleibt noetig.; Die Figur muss Nahkontrolle glaubhaft halten koennen.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Festsetzen II muss bereits gelernt sein.; Eine klare Kettenbindung oder sehr schlechte Gegnerlage bleibt noetig.; Die Figur muss Nahkontrolle glaubhaft halten koennen.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_festsetzen_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_konter",
-      "family_id": "man_konter",
-      "family_name": "Konter",
+      "familyId": "man_konter",
+      "familyName": "Konter",
       "name": "Konter",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Reaktives Zeitfenstermanoever; verbraucht das Reaktionsfenster unabhaengig vom Ergebnis.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Faengt eine erkennbare Aktion nicht nur ab, sondern kippt sie in Nachteil oder Oeffnung fuer den Gegner.",
+      "learnCostEp": 30,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Reaktives Zeitfenstermanoever; verbraucht das Reaktionsfenster unabhaengig vom Ergebnis.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Faengt eine erkennbare Aktion nicht nur ab, sondern kippt sie in Nachteil oder Oeffnung fuer den Gegner.",
       "description": "Timingkritisches Reaktionsmanoever fuer Kampfsituationen mit lesbarer gegnerischer Aktion. Einordnung: Kampf, reaktiv, Umkehren. Typisches Einsatzfenster: Ein Gegner oeffnet sich mit einem klar lesbaren Angriff, Griffversuch, Entwaffnen, Clinch oder anderen deutlich sichtbaren Kampfmanoever. Typische Gegenlage: Ein verfruehter oder falscher Konter verpufft und laesst die reagierende Figur in offener Stellung zurueck. Typische Antwortart: umkehren. Bei Gelingen: Die gegnerische Aktion kippt in Nachteil, Kontrollverlust oder direkte Anschlussoeffnung fuer die reagierende Figur. Bei Teilerfolg: Die gegnerische Aktion wird wenigstens abgebremst, fehlgeleitet oder zu schwaecherer Wirkung gezwungen. Risiko: Falsches Lesen oder falsches Timing verbrennt das Reaktionsfenster und kann die eigene Lage verschlechtern. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Soll stark sein, aber nie als kostenlose Universalparade funktionieren; konkurriert direkt mit anderen Reaktionen.",
-      "requirements_text": "Passendes Kampfkoennen fuer Reichweite, Linie oder Griffarbeit muss vorhanden sein.; Eine erkennbare gegnerische Aktion und das passende Timingfenster sind zwingend.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein; es wird durch den Konter verbraucht.",
-      "advancement_mode": "none",
-      "advancement_text": "Aktuell keine weitere Rank-Familie geplant.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Passendes Kampfkoennen fuer Reichweite, Linie oder Griffarbeit muss vorhanden sein.; Eine erkennbare gegnerische Aktion und das passende Timingfenster sind zwingend.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein; es wird durch den Konter verbraucht.",
+      "advancementMode": "none",
+      "advancementText": "Aktuell keine weitere Rank-Familie geplant.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_finisher",
-      "family_id": "man_finisher",
-      "family_name": "Finisher",
+      "familyId": "man_finisher",
+      "familyName": "Finisher",
       "name": "Finisher I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "two_actions",
-      "uses_reaction_window": false,
-      "activation_notes": "Commitment-Aktion mit klarer Selbstoeffnung bei Fehlansage oder Fehlschlag.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Abschlussmanoever nach bereits geschaffener Oeffnung oder massiver Kontrolle.",
+      "learnCostEp": 30,
+      "actionCost": "two_actions",
+      "usesReactionWindow": false,
+      "activationNotes": "Commitment-Aktion mit klarer Selbstoeffnung bei Fehlansage oder Fehlschlag.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Abschlussmanoever nach bereits geschaffener Oeffnung oder massiver Kontrolle.",
       "description": "Seltene Abschlussaktion, die nicht aus dem Nichts kommt, sondern auf deutlicher Vorarbeit aufsetzt. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist bereits klar geoeffnet, aus der Szene genommen oder hart unter Kontrolle. Typische Gegenlage: Wer den Finisher zu frueh ansagt, kann Stellung verlieren und der Gegenseite ein letztes Gegenfenster geben. Bei Gelingen: Der Kampf kippt massiv: Ausschalten, Aufgabe erzwingen oder letzte tragende Option des Gegners brechen. Bei Teilerfolg: Kein Vollabschluss, aber maximaler Druck und eine fuer den Gegner sehr schlechte Anschlusslage. Risiko: Finisher I ist noch hart gebunden und laesst den Nutzer bei Fehlansage sichtbar offen. Designhinweis: Rank I ist bewusst selten und verlangt klare Kettenbindung.",
-      "requirements_text": "Passendes Kampfkoennen fuer die konkrete Abschlussform muss plausibel sein.; Der Gegner muss bereits klar geoeffnet, gebrochen oder hart kontrolliert sein.; Die handelnde Figur braucht genug Handlungsfreiheit fuer eine zweischrittige Abschlussaktion.",
-      "advancement_mode": "choice",
-      "advancement_text": "Beim Erwerb von Finisher II waehle 1 Schwerpunkt: eine harte Vorkonstellation leicht lockern; die Selbstoeffnung bei Fehlansage verringern; den Re-Einsatz etwas milder lesen.",
-      "internal_refs": {
-        "required_skill_ids": [],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+      "requirementsText": "Passendes Kampfkoennen fuer die konkrete Abschlussform muss plausibel sein.; Der Gegner muss bereits klar geoeffnet, gebrochen oder hart kontrolliert sein.; Die handelnde Figur braucht genug Handlungsfreiheit fuer eine zweischrittige Abschlussaktion.",
+      "advancementMode": "choice",
+      "advancementText": "Beim Erwerb von Finisher II waehle 1 Schwerpunkt: eine harte Vorkonstellation leicht lockern; die Selbstoeffnung bei Fehlansage verringern; den Re-Einsatz etwas milder lesen.",
+      "internalRefs": {
+        "requiredSkillIds": [],
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_finisher_ii",
-      "family_id": "man_finisher",
-      "family_name": "Finisher",
+      "familyId": "man_finisher",
+      "familyName": "Finisher",
       "name": "Finisher II",
       "rank": "II",
-      "previous_rank_id": "man_finisher",
+      "previousRankId": "man_finisher",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "two_actions",
-      "uses_reaction_window": false,
-      "activation_notes": "Die Abschlusslage bleibt eng, aber die Fehlansage frisst weniger hart die eigene Linie.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Sichererer oder etwas flexiblerer Finisher nach klarer Oeffnung.",
+      "learnCostEp": 20,
+      "actionCost": "two_actions",
+      "usesReactionWindow": false,
+      "activationNotes": "Die Abschlusslage bleibt eng, aber die Fehlansage frisst weniger hart die eigene Linie.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Sichererer oder etwas flexiblerer Finisher nach klarer Oeffnung.",
       "description": "Fortgeschrittener Finisher-Rank fuer Figuren, die Abschlusslagen nicht nur erkennen, sondern kontrollierter ausspielen. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist deutlich angeschlagen, in gebrochener Linie oder unter stabiler Kontrolle. Typische Gegenlage: Zu frueher Einsatz bleibt riskant, aber Rank II erlaubt bereits feinere Lesart der Lage. Bei Gelingen: Der Abschluss sitzt verlaesslicher oder kippt die Szene noch deutlicher. Bei Teilerfolg: Hoher Druck bleibt erhalten, ohne dass die eigene Figur so hart offen im Leeren endet wie bei Rank I. Designhinweis: Rank II ist als Wahlverbesserung gedacht und entfernt nicht automatisch alle Nachteile.",
-      "requirements_text": "Finisher I muss bereits gelernt sein.; Eine starke Vorbedingung bleibt noetig, aber die konkrete Abschlusslage darf etwas breiter gelesen werden als bei Rank I.; Passende Waffe, Technik oder koerperliche Ueberlegenheit muessen zur Abschlussform passen.",
-      "advancement_mode": "choice",
-      "advancement_text": "Beim Erwerb von Finisher III waehle 1 weiteren Schwerpunkt: zweite Vorkonstellation lockern; Aktionsdruck etwas senken; den Re-Einsatz erneut etwas milder lesen oder den Teilerfolg schaerfer machen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Finisher I muss bereits gelernt sein.; Eine starke Vorbedingung bleibt noetig, aber die konkrete Abschlusslage darf etwas breiter gelesen werden als bei Rank I.; Passende Waffe, Technik oder koerperliche Ueberlegenheit muessen zur Abschlussform passen.",
+      "advancementMode": "choice",
+      "advancementText": "Beim Erwerb von Finisher III waehle 1 weiteren Schwerpunkt: zweite Vorkonstellation lockern; Aktionsdruck etwas senken; den Re-Einsatz erneut etwas milder lesen oder den Teilerfolg schaerfer machen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_finisher"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_finisher_iii",
-      "family_id": "man_finisher",
-      "family_name": "Finisher",
+      "familyId": "man_finisher",
+      "familyName": "Finisher",
       "name": "Finisher III",
       "rank": "III",
-      "previous_rank_id": "man_finisher_ii",
+      "previousRankId": "man_finisher_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Meisterabschluss; bleibt selten, aber der Abschluss frisst nicht mehr automatisch eine volle Zweischrittbindung.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Meisterlicher Abschluss, der aus einer starken Oeffnung schneller und kontrollierter gelesen werden darf.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Meisterabschluss; bleibt selten, aber der Abschluss frisst nicht mehr automatisch eine volle Zweischrittbindung.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Meisterlicher Abschluss, der aus einer starken Oeffnung schneller und kontrollierter gelesen werden darf.",
       "description": "Meisterrank fuer Finisher. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Noch immer kein Standardabschluss, aber die Figur kann starke Oeffnungen sicherer in harten Schlusspunkt umsetzen. Typische Gegenlage: Wer die Lage falsch liest, geht weiter Risiko ein; Rank III nimmt aber nicht die Notwendigkeit von Vorarbeit aus dem System. Bei Gelingen: Der Abschluss kippt den Konflikt mit hoher Verbindlichkeit. Bei Teilerfolg: Selbst ohne Vollabschluss bleibt die gegnerische Lage massiv beschaedigt. Designhinweis: Der Rank belohnt Spezialisierung, ohne Finisher zu einem spammbaren Alltagswerkzeug zu machen.",
-      "requirements_text": "Finisher II muss bereits gelernt sein.; Eine klar erspielte Oeffnung oder sehr starke Kontrolle des Gegners bleibt Pflicht.; Die konkrete Abschlussform muss weiterhin plausibel aus Waffe, Technik und Lage hervorgehen.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III verkuerzt den Aktionsdruck, verbessert die Anschlusslage bei Teilerfolg und liest den Re-Einsatz etwas weniger hart als strict_scene, ohne das Szenenlimit aufzuheben.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Finisher II muss bereits gelernt sein.; Eine klar erspielte Oeffnung oder sehr starke Kontrolle des Gegners bleibt Pflicht.; Die konkrete Abschlussform muss weiterhin plausibel aus Waffe, Technik und Lage hervorgehen.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III verkuerzt den Aktionsdruck, verbessert die Anschlusslage bei Teilerfolg und liest den Re-Einsatz etwas weniger hart als strict_scene, ohne das Szenenlimit aufzuheben.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_finisher_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_schnellziehen",
-      "family_id": "man_schnellziehen",
-      "family_name": "Schnellziehen",
+      "familyId": "man_schnellziehen",
+      "familyName": "Schnellziehen",
       "name": "Schnellziehen I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T0",
-      "learn_cost_ep": 0,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Das Ziehen selbst kostet keine Aktion; der unmittelbare Folgeangriff derselben Runde ist aber erschwert oder traegt klares Risiko.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Bringt eine Waffe im Eskalationsmoment rechtzeitig in die Szene, aber der erste Anschluss bleibt hektisch.",
+      "learnCostEp": 0,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Das Ziehen selbst kostet keine Aktion; der unmittelbare Folgeangriff derselben Runde ist aber erschwert oder traegt klares Risiko.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Bringt eine Waffe im Eskalationsmoment rechtzeitig in die Szene, aber der erste Anschluss bleibt hektisch.",
       "description": "Sehr nah an der Basisnutzung, aber mit eigenem Eskalationsfenster und klarer Tempo-Frage. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Der Uebergang von Nicht-Kampf in unmittelbare Kampfhandlung passiert gerade; es ist ein einmaliges Eskalationsfenster, kein Dauerrecht auf Vorziehen. Typische Gegenlage: Stockender Zugriff kann die Figur in Bewegung, Deckung oder Handwechsel unguenstig erwischen. Bei Gelingen: Die Figur bringt ihre Waffe rechtzeitig in die Szene und darf noch in derselben Runde anschliessen, aber der erste Angriff bleibt hektisch. Bei Teilerfolg: Die Waffe ist da, aber noch unsauber gefuehrt, schlecht ausgerichtet oder erst nach dem Gegner wirklich einsatzbereit. Risiko: Misslingt das Ziehen offen, stockt der Zugriff und die Figur verliert wertvolles Tempo im kritischen Moment. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Rank I bringt Tempo, aber noch keine kostenlose saubere Angriffsoekonomie.",
-      "requirements_text": "Passender Umgang mit der gefuehrten Waffe muss plausibel vorhanden sein.; Die Szene kippt gerade in Gewalt, Zeitdruck oder Ueberraschung.; Eine zugriffsbereite Waffe und ausreichend freie Hand sind noetig.; Das Reaktionsfenster muss frei sein, wenn Schnellziehen im Eskalationsmoment vor der regulaeren Handlung der Figur greift.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II entfernt den Malus oder das klare Zusatzrisiko auf den unmittelbaren Folgeangriff derselben Runde, ohne selbst weitere Aktionen zu schenken.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Passender Umgang mit der gefuehrten Waffe muss plausibel vorhanden sein.; Die Szene kippt gerade in Gewalt, Zeitdruck oder Ueberraschung.; Eine zugriffsbereite Waffe und ausreichend freie Hand sind noetig.; Das Reaktionsfenster muss frei sein, wenn Schnellziehen im Eskalationsmoment vor der regulaeren Handlung der Figur greift.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II entfernt den Malus oder das klare Zusatzrisiko auf den unmittelbaren Folgeangriff derselben Runde, ohne selbst weitere Aktionen zu schenken.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_schnellziehen_ii",
-      "family_id": "man_schnellziehen",
-      "family_name": "Schnellziehen",
+      "familyId": "man_schnellziehen",
+      "familyName": "Schnellziehen",
       "name": "Schnellziehen II",
       "rank": "II",
-      "previous_rank_id": "man_schnellziehen",
+      "previousRankId": "man_schnellziehen",
       "tier": "T1",
-      "learn_cost_ep": 15,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Das Ziehen bleibt freie Reaktion; der direkte Folgeangriff derselben Runde verliert den hektischen Malus.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Bringt die Waffe rechtzeitig in die Szene und erlaubt einen sauberen unmittelbaren Folgeangriff.",
+      "learnCostEp": 15,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Das Ziehen bleibt freie Reaktion; der direkte Folgeangriff derselben Runde verliert den hektischen Malus.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Bringt die Waffe rechtzeitig in die Szene und erlaubt einen sauberen unmittelbaren Folgeangriff.",
       "description": "Fortgeschrittener Rank fuer den Eskalationsmoment. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Wie bei Rank I, aber die Figur kontrolliert den Uebergang in Gewalt deutlich besser. Bei Gelingen: Die Waffe ist rechtzeitig da, und ein unmittelbarer Standardangriff derselben Runde bleibt nicht mehr automatisch hektisch oder riskanter. Bei Teilerfolg: Der Anschluss gelingt noch, aber die Linie bleibt nicht perfekt. Designhinweis: Rank II verbessert den Uebergang, bezahlt aber keine Kosten des Anschlussmanoevers mit.",
-      "requirements_text": "Schnellziehen I muss bereits gelernt sein.; Die Figur braucht eine zugriffsbereite Waffe und ein plausibles Eskalationsfenster.; Das Reaktionsfenster muss frei sein, wenn Schnellziehen als unmittelbare Vorgriffsreaktion genutzt wird.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III darf ein passendes Anschlussmanoever in derselben Runde ermoeglichen, ersetzt aber weder dessen eigene Aktionskosten noch dessen Voraussetzungen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Schnellziehen I muss bereits gelernt sein.; Die Figur braucht eine zugriffsbereite Waffe und ein plausibles Eskalationsfenster.; Das Reaktionsfenster muss frei sein, wenn Schnellziehen als unmittelbare Vorgriffsreaktion genutzt wird.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III darf ein passendes Anschlussmanoever in derselben Runde ermoeglichen, ersetzt aber weder dessen eigene Aktionskosten noch dessen Voraussetzungen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_schnellziehen"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_schnellziehen_iii",
-      "family_id": "man_schnellziehen",
-      "family_name": "Schnellziehen",
+      "familyId": "man_schnellziehen",
+      "familyName": "Schnellziehen",
       "name": "Schnellziehen III",
       "rank": "III",
-      "previous_rank_id": "man_schnellziehen_ii",
+      "previousRankId": "man_schnellziehen_ii",
       "tier": "T2",
-      "learn_cost_ep": 20,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Die Figur darf in derselben Runde in ein passendes Anschlussmanoever uebergehen, wenn dessen normale Kosten und Voraussetzungen weiterhin erfuellt sind.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Meisterliches Schnellziehen, das den Uebergang in ein passendes Anschlussmanoever oeffnet, ohne dessen Preis zu loeschen.",
+      "learnCostEp": 20,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Die Figur darf in derselben Runde in ein passendes Anschlussmanoever uebergehen, wenn dessen normale Kosten und Voraussetzungen weiterhin erfuellt sind.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Meisterliches Schnellziehen, das den Uebergang in ein passendes Anschlussmanoever oeffnet, ohne dessen Preis zu loeschen.",
       "description": "Meisterrank fuer Schnellziehen. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Die Szene kippt abrupt in Gewalt, und die Figur bleibt trotzdem handlungsfaehig genug fuer einen anspruchsvolleren Anschluss. Bei Gelingen: Nicht nur der direkte Angriff, sondern auch ein passendes Anschlussmanoever derselben Runde wird moeglich, sofern dessen eigene Kosten und Voraussetzungen noch passen. Bei Teilerfolg: Die Kombination gelingt nur eingeschraenkt oder mit reduzierter Sauberkeit. Designhinweis: Rank III hebelt keine fremden Manoeverkosten aus, sondern oeffnet nur das Zeitfenster fuer sie.",
-      "requirements_text": "Schnellziehen II muss bereits gelernt sein.; Die konkrete Anschlussaktion muss weiterhin ein gueltiges Einsatzfenster, passende Lage und eigene Kosten haben.; Das Reaktionsfenster bleibt die knappe Leitplanke dieses Manoevers.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Schnellziehen II muss bereits gelernt sein.; Die konkrete Anschlussaktion muss weiterhin ein gueltiges Einsatzfenster, passende Lage und eigene Kosten haben.; Das Reaktionsfenster bleibt die knappe Leitplanke dieses Manoevers.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_schnellziehen_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_praezisionsschuss",
-      "family_id": "man_praezisionsschuss",
-      "family_name": "Praezisionsschuss",
+      "familyId": "man_praezisionsschuss",
+      "familyName": "Praezisionsschuss",
       "name": "Praezisionsschuss I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T1",
-      "learn_cost_ep": 15,
-      "action_cost": "three_actions",
-      "uses_reaction_window": false,
-      "activation_notes": "Lange Zielbindung; derselbe Zug ist fast immer ganz auf Vorbereitung und den Schuss fokussiert.",
-      "usage_window": "unlimited",
-      "reuse_escalation_profile": "none",
-      "rules_short": "Verzichtet auf Schnellfeuer zugunsten gezielter Wirkung, braucht aber spuerbare Vorbereitungszeit.",
+      "learnCostEp": 15,
+      "actionCost": "three_actions",
+      "usesReactionWindow": false,
+      "activationNotes": "Lange Zielbindung; derselbe Zug ist fast immer ganz auf Vorbereitung und den Schuss fokussiert.",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "rulesShort": "Verzichtet auf Schnellfeuer zugunsten gezielter Wirkung, braucht aber spuerbare Vorbereitungszeit.",
       "description": "Fernkampf-Kernmanoever fuer saubere Zielwirkung statt roher Volumentreffer. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur hat eine erkennbare Linie und entscheidet sich bewusst fuer Zielbindung statt Tempo. Typische Gegenlage: Die lange Vorbereitung macht Bewegung, Deckungswechsel oder Gegenspiel besonders relevant. Bei Gelingen: Der Schuss trifft besonders sinnvoll und kann Deckung knacken, Ausruestung stoeren oder eine gute Anschlussoeffnung schaffen. Bei Teilerfolg: Weniger direkte Wirkung, aber immer noch gezielter Druck auf die angepeilte Schwachstelle. Risiko: Wer zu lange bindet, gibt mobilen Gegnern eher Fenster. Designhinweis: Rank I ist ein echter Zeitinvest, nicht bloss ein besserer Standardschuss.",
-      "requirements_text": "Fernkampf und konkrete Waffenfuehrung muessen eine saubere Zielwahl tragen.; Brauchbare Sichtlinie und eine Lage, in der sich laengere Zielbindung ueberhaupt halten laesst, sind noetig.; Die Figur muss genug Ruhe oder Deckung haben, um den Schuss vorzubereiten.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II verkuerzt die noetige Vorbereitungszeit deutlich, ohne den Manoevertype von gezielter Wirkung zu loesen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Fernkampf und konkrete Waffenfuehrung muessen eine saubere Zielwahl tragen.; Brauchbare Sichtlinie und eine Lage, in der sich laengere Zielbindung ueberhaupt halten laesst, sind noetig.; Die Figur muss genug Ruhe oder Deckung haben, um den Schuss vorzubereiten.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II verkuerzt die noetige Vorbereitungszeit deutlich, ohne den Manoevertype von gezielter Wirkung zu loesen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_praezisionsschuss_ii",
-      "family_id": "man_praezisionsschuss",
-      "family_name": "Praezisionsschuss",
+      "familyId": "man_praezisionsschuss",
+      "familyName": "Praezisionsschuss",
       "name": "Praezisionsschuss II",
       "rank": "II",
-      "previous_rank_id": "man_praezisionsschuss",
+      "previousRankId": "man_praezisionsschuss",
       "tier": "T2",
-      "learn_cost_ep": 15,
-      "action_cost": "two_actions",
-      "uses_reaction_window": false,
-      "activation_notes": "Gezielte Schussvorbereitung bleibt spuerbar, ist aber nicht mehr ganz so statisch wie bei Rank I.",
-      "usage_window": "unlimited",
-      "reuse_escalation_profile": "none",
-      "rules_short": "Gezielter Schuss mit verkuerzter Vorbereitung und saubererem Praxisfenster.",
+      "learnCostEp": 15,
+      "actionCost": "two_actions",
+      "usesReactionWindow": false,
+      "activationNotes": "Gezielte Schussvorbereitung bleibt spuerbar, ist aber nicht mehr ganz so statisch wie bei Rank I.",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "rulesShort": "Gezielter Schuss mit verkuerzter Vorbereitung und saubererem Praxisfenster.",
       "description": "Fortgeschrittener Praezisionsschuss fuer Figuren, die Zielwirkung schneller herstellen koennen. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur kann eine brauchbare Linie halten, ohne sich drei ganze Aktionsschritte lang festzunageln. Bei Gelingen: Praezise Wirkung gegen Linie, Deckung oder kleines Ziel bleibt stark, aber die Vorbereitung frisst weniger Rundentempo. Bei Teilerfolg: Noch immer gezielter Druck, jedoch ohne ganz perfekte Ausbeute. Designhinweis: Rank II macht das Manoever praxistauglicher, nicht simpler.",
-      "requirements_text": "Praezisionsschuss I muss bereits gelernt sein.; Gute Sichtlinie und halbwegs kontrollierte Schusslage bleiben noetig.; Die Figur muss die Zielbindung fuer mindestens zwei Aktionsschritte halten koennen.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III reduziert die Vorbereitung auf einen Aktionsschritt und oeffnet damit erst die Kombination mit sehr schnellen Anschlussfenstern wie meisterlichem Schnellziehen, ohne deren eigene Bedingungen zu ersetzen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Praezisionsschuss I muss bereits gelernt sein.; Gute Sichtlinie und halbwegs kontrollierte Schusslage bleiben noetig.; Die Figur muss die Zielbindung fuer mindestens zwei Aktionsschritte halten koennen.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III reduziert die Vorbereitung auf einen Aktionsschritt und oeffnet damit erst die Kombination mit sehr schnellen Anschlussfenstern wie meisterlichem Schnellziehen, ohne deren eigene Bedingungen zu ersetzen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_praezisionsschuss"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_praezisionsschuss_iii",
-      "family_id": "man_praezisionsschuss",
-      "family_name": "Praezisionsschuss",
+      "familyId": "man_praezisionsschuss",
+      "familyName": "Praezisionsschuss",
       "name": "Praezisionsschuss III",
       "rank": "III",
-      "previous_rank_id": "man_praezisionsschuss_ii",
+      "previousRankId": "man_praezisionsschuss_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Die Zielwirkung bleibt gezielt, aber der Schuss braucht nur noch einen Aktionsschritt statt langer Aufbaukette.",
-      "usage_window": "unlimited",
-      "reuse_escalation_profile": "none",
-      "rules_short": "Meisterlicher Praezisionsschuss mit minimaler Vorbereitungszeit und hoher Zielkontrolle.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Die Zielwirkung bleibt gezielt, aber der Schuss braucht nur noch einen Aktionsschritt statt langer Aufbaukette.",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "rulesShort": "Meisterlicher Praezisionsschuss mit minimaler Vorbereitungszeit und hoher Zielkontrolle.",
       "description": "Meisterrank fuer gezielte Fernkampfwirkung. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur findet auch in engeren Zeitfenstern noch saubere Zielwirkung, sofern Linie und Lage stimmen. Bei Gelingen: Hohe Praezision gegen Deckung, Ausruestung, Haltung oder kleine Zielzonen. Bei Teilerfolg: Noch immer sehr brauchbare Zielwirkung mit deutlich weniger totlaufender Vorbereitung als bei den unteren Ranks. Designhinweis: Rank III macht das Manoever schnell, aber nicht billig; Lage, Sicht und Waffenfuehrung bleiben hart.",
-      "requirements_text": "Praezisionsschuss II muss bereits gelernt sein.; Eine brauchbare Sichtlinie und eine Waffe, die saubere Zielarbeit ueberhaupt zulaesst, bleiben Pflicht.; Auch Rank III ersetzt keine fehlende Stellung oder fehlende Schussruhe.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Praezisionsschuss II muss bereits gelernt sein.; Eine brauchbare Sichtlinie und eine Waffe, die saubere Zielarbeit ueberhaupt zulaesst, bleiben Pflicht.; Auch Rank III ersetzt keine fehlende Stellung oder fehlende Schussruhe.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_praezisionsschuss_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_unterdrueckungsfeuer",
-      "family_id": "man_unterdrueckungsfeuer",
-      "family_name": "Unterdrueckungsfeuer",
+      "familyId": "man_unterdrueckungsfeuer",
+      "familyName": "Unterdrueckungsfeuer",
       "name": "Unterdrueckungsfeuer I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Hoher Munitions- und Aufmerksamkeitsverbrauch bleibt Teil der Balancing-Lesart, aber vorerst als Text statt Pflichtfeld.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Kontrolliert einen Raumabschnitt, bremst Vorstoss und zwingt Gegner zu Vorsicht, Deckung oder Umweg.",
+      "learnCostEp": 30,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Hoher Munitions- und Aufmerksamkeitsverbrauch bleibt Teil der Balancing-Lesart, aber vorerst als Text statt Pflichtfeld.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Kontrolliert einen Raumabschnitt, bremst Vorstoss und zwingt Gegner zu Vorsicht, Deckung oder Umweg.",
       "description": "Flaechen- und Tempomanoever fuer Raumkontrolle statt Einzelzielpraezision. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Die Figur will nicht ein Einzelziel praezise brechen, sondern Bereich, Bewegung oder Vorstoss kontrollieren. Typische Gegenlage: Mobile Gegner, Flanken oder harte Deckungswechsel koennen eine starre Feuerlinie ausspielen. Bei Gelingen: Gegner im betroffenen Raum verlieren Tempo, wagen weniger offene Bewegung oder muessen schlechtere Positionen akzeptieren. Bei Teilerfolg: Der Bereich wird nur teilweise kontrolliert, zwingt aber immer noch zu Vorsicht, Deckung oder Umweg. Risiko: Hoher Ressourcenverbrauch und geringere Praezision; die bindende Feuerlinie kann gegen die Figur ausgespielt werden. Designhinweis: Starker Szeneneingriff, deshalb klar T2.",
-      "requirements_text": "Geeignete Fernkampfwaffe und ausreichend Feuerkontrolle sind noetig.; Ein sinnvoller Raumabschnitt, Korridor oder Vorstossweg muss kontrollierbar sein.; Munition und Bereitschaft zum spuerbaren Verbrauch muessen in der Szene plausibel sein.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II stabilisiert die Raumkontrolle und reduziert den Zielstreuverlust bei bewegten Lagen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Geeignete Fernkampfwaffe und ausreichend Feuerkontrolle sind noetig.; Ein sinnvoller Raumabschnitt, Korridor oder Vorstossweg muss kontrollierbar sein.; Munition und Bereitschaft zum spuerbaren Verbrauch muessen in der Szene plausibel sein.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II stabilisiert die Raumkontrolle und reduziert den Zielstreuverlust bei bewegten Lagen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_unterdrueckungsfeuer_ii",
-      "family_id": "man_unterdrueckungsfeuer",
-      "family_name": "Unterdrueckungsfeuer",
+      "familyId": "man_unterdrueckungsfeuer",
+      "familyName": "Unterdrueckungsfeuer",
       "name": "Unterdrueckungsfeuer II",
       "rank": "II",
-      "previous_rank_id": "man_unterdrueckungsfeuer",
+      "previousRankId": "man_unterdrueckungsfeuer",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Die Feuerlinie bleibt unter Bewegung stabiler und haelt Gegner verlaesslicher aus offenen Wechseln heraus.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Fortgeschrittenes Unterdrueckungsfeuer mit stabilerer Raumkontrolle und klareren Folgefenstern.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Die Feuerlinie bleibt unter Bewegung stabiler und haelt Gegner verlaesslicher aus offenen Wechseln heraus.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Fortgeschrittenes Unterdrueckungsfeuer mit stabilerer Raumkontrolle und klareren Folgefenstern.",
       "description": "Fortgeschrittener Rank fuer Unterdrueckungsfeuer. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Mehrere Gegner bewegen sich ueber denselben Korridor oder muessen Position wechseln. Bei Gelingen: Der kontrollierte Bereich bleibt dichter und zwingt Gegner haeufiger in schlechte Deckung. Bei Teilerfolg: Die Linie wirkt weiter, aber mit geringerer Flaechentiefe. Risiko: Verbrauch und Bindung bleiben hoch; Rank II reduziert jedoch den Streuverlust in dynamischer Lage.",
-      "requirements_text": "Unterdrueckungsfeuer I muss bereits gelernt sein.; Geeignete Waffe, Munitionslage und ein klar lesbarer Raumabschnitt bleiben Pflicht.; Die Figur muss den Bereich fuer die Dauer der Drucklage halten koennen.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III verstaerkt den Kontrollabschluss gegen Vorstosslinien und macht das Halten der Feuerzone unter Druck noch verlaesslicher.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Unterdrueckungsfeuer I muss bereits gelernt sein.; Geeignete Waffe, Munitionslage und ein klar lesbarer Raumabschnitt bleiben Pflicht.; Die Figur muss den Bereich fuer die Dauer der Drucklage halten koennen.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III verstaerkt den Kontrollabschluss gegen Vorstosslinien und macht das Halten der Feuerzone unter Druck noch verlaesslicher.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_unterdrueckungsfeuer"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_unterdrueckungsfeuer_iii",
-      "family_id": "man_unterdrueckungsfeuer",
-      "family_name": "Unterdrueckungsfeuer",
+      "familyId": "man_unterdrueckungsfeuer",
+      "familyName": "Unterdrueckungsfeuer",
       "name": "Unterdrueckungsfeuer III",
       "rank": "III",
-      "previous_rank_id": "man_unterdrueckungsfeuer_ii",
+      "previousRankId": "man_unterdrueckungsfeuer_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Meisterliche Flaechenkontrolle: Vorstossfenster brechen haerter weg, ohne dass das Manoever zur Dauerloesung wird.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Meisterliches Unterdrueckungsfeuer fuer harte Raumhoheit in kritischen Sto?lagen.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Meisterliche Flaechenkontrolle: Vorstossfenster brechen haerter weg, ohne dass das Manoever zur Dauerloesung wird.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Meisterliches Unterdrueckungsfeuer fuer harte Raumhoheit in kritischen Sto?lagen.",
       "description": "Meisterrank fuer Unterdrueckungsfeuer. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Kritischer Raumknoten, Flankenwechsel oder gesicherter Rueckzug unter hohem Gegnerdruck. Bei Gelingen: Bewegung durch die kontrollierte Zone wird massiv unattraktiv. Bei Teilerfolg: Weniger vollstaendige Sperre, aber deutlicher Tempoverlust fuer den Gegner. Risiko: Bleibt ressourcenintensiv und kann bei Fehllesung die eigene Linie entbloessen.",
-      "requirements_text": "Unterdrueckungsfeuer II muss bereits gelernt sein.; Es braucht weiterhin eine taktisch sinnvolle Feuerzone und ausreichende Munitionskontrolle.; Die Szene muss die hohe Aufmerksamkeitsbindung plausibel tragen.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Unterdrueckungsfeuer II muss bereits gelernt sein.; Es braucht weiterhin eine taktisch sinnvolle Feuerzone und ausreichende Munitionskontrolle.; Die Szene muss die hohe Aufmerksamkeitsbindung plausibel tragen.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_unterdrueckungsfeuer_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_reaktionsschuss",
-      "family_id": "man_reaktionsschuss",
-      "family_name": "Reaktionsschuss",
+      "familyId": "man_reaktionsschuss",
+      "familyName": "Reaktionsschuss",
       "name": "Reaktionsschuss I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Bindet Aufmerksamkeit auf ein enges Expositionsfenster und verbraucht das Reaktionsfenster.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Nutzen eines kurzen Expositionsmoments, um Bewegung oder Vorstoss direkt im Oeffnungsfenster zu brechen.",
+      "learnCostEp": 30,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Bindet Aufmerksamkeit auf ein enges Expositionsfenster und verbraucht das Reaktionsfenster.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Nutzen eines kurzen Expositionsmoments, um Bewegung oder Vorstoss direkt im Oeffnungsfenster zu brechen.",
       "description": "Timingkritisches Fernkampf-Reaktionsmanoever gegen sichtbare Bewegung oder Exposition. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Ein Ziel tritt sichtbar aus Deckung, sprintet durch eine gehaltene Linie, wechselt Position oder exponiert sich kurz; bereits abgeschlossene Handlungen sind kein gueltiger Trigger. Typische Gegenlage: Falsches Timing oder Taeuschung kann die gebundene Reaktion leer laufen lassen. Typische Antwortart: abfangen. Bei Gelingen: Der Gegner wird im Moment seiner Oeffnung getroffen, gestoert oder mindestens hart gebremst. Bei Teilerfolg: Selbst ohne volle Wirkung erzwingt die Reaktion oft Deckung, Kurswechsel oder Abbruch. Risiko: Wer Bereitschaft bindet, verliert Aufmerksamkeit fuer andere Lagen; falsches Lesen verbrennt das Reaktionsfenster. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Starkes Zeitfenstermanoever; darf nicht gleichzeitig mit anderen Reaktionen derselben Figur in demselben Zyklus genutzt werden.",
-      "requirements_text": "Passende Waffenfuehrung und Bereitschaft muessen vorhanden sein.; Eine erkennbare gegnerische Bewegung, Exposition oder Positionsaenderung ist zwingend.; Die Figur bindet Aufmerksamkeit auf dieses Fenster; das gemeinsame Reaktionsfenster fuer den aktuellen Initiativzyklus muss noch frei sein.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II verbessert Trigger-Lesung und Trefferfenster gegen Bewegung, ohne die Reaktionsoeko auszuhebeln.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Passende Waffenfuehrung und Bereitschaft muessen vorhanden sein.; Eine erkennbare gegnerische Bewegung, Exposition oder Positionsaenderung ist zwingend.; Die Figur bindet Aufmerksamkeit auf dieses Fenster; das gemeinsame Reaktionsfenster fuer den aktuellen Initiativzyklus muss noch frei sein.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II verbessert Trigger-Lesung und Trefferfenster gegen Bewegung, ohne die Reaktionsoeko auszuhebeln.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_reaktionsschuss_ii",
-      "family_id": "man_reaktionsschuss",
-      "family_name": "Reaktionsschuss",
+      "familyId": "man_reaktionsschuss",
+      "familyName": "Reaktionsschuss",
       "name": "Reaktionsschuss II",
       "rank": "II",
-      "previous_rank_id": "man_reaktionsschuss",
+      "previousRankId": "man_reaktionsschuss",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Die Figur bindet ihr Reaktionsfenster weiterhin voll, liest Expositionsmomente aber praeziser und verliert seltener in Feintaeuschungen.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Fortgeschrittener Reaktionsschuss mit verlaesslicherem Timing gegen Peek-, Lauf- und Expositionsfenster.",
+      "learnCostEp": 20,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Die Figur bindet ihr Reaktionsfenster weiterhin voll, liest Expositionsmomente aber praeziser und verliert seltener in Feintaeuschungen.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Fortgeschrittener Reaktionsschuss mit verlaesslicherem Timing gegen Peek-, Lauf- und Expositionsfenster.",
       "description": "Fortgeschrittener Rank fuer Reaktionsschuss. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Gegnerischer Peek, Sprint oder Positionswechsel in klarer Sichtlinie. Bei Gelingen: Das Abfangfenster greift verlaesslicher und bremst Vorstoss sauberer. Bei Teilerfolg: Immer noch nennenswerter Bewegungsdruck auf den Gegner, auch wenn kein voller Stopp gelingt. Risiko: Das Reaktionsfenster bleibt knapp; Fehllesen kostet weiterhin reale Antworten gegen andere Trigger.",
-      "requirements_text": "Reaktionsschuss I muss bereits gelernt sein.; Es braucht eine klar erkennbare gegnerische Exposition oder Bewegung.; Das gemeinsame Reaktionsfenster muss frei sein und wird verbraucht.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III schaerft den Abbruchgrad bei korrektem Trigger weiter und reduziert Fehllesungsfolgen leicht, ohne den Reaktionsschuss in Dauerunterbrechung zu drehen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Reaktionsschuss I muss bereits gelernt sein.; Es braucht eine klar erkennbare gegnerische Exposition oder Bewegung.; Das gemeinsame Reaktionsfenster muss frei sein und wird verbraucht.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III schaerft den Abbruchgrad bei korrektem Trigger weiter und reduziert Fehllesungsfolgen leicht, ohne den Reaktionsschuss in Dauerunterbrechung zu drehen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_reaktionsschuss"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_reaktionsschuss_iii",
-      "family_id": "man_reaktionsschuss",
-      "family_name": "Reaktionsschuss",
+      "familyId": "man_reaktionsschuss",
+      "familyName": "Reaktionsschuss",
       "name": "Reaktionsschuss III",
       "rank": "III",
-      "previous_rank_id": "man_reaktionsschuss_ii",
+      "previousRankId": "man_reaktionsschuss_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Meisterreaktion auf Exposition: Abfangwirkung wird in engen Fenstern sehr verbindlich, bleibt aber an Reaktionsknappheit gekoppelt.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Meisterlicher Reaktionsschuss fuer harte Bewegungsunterbrechung in kritischen Zeitfenstern.",
+      "learnCostEp": 20,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Meisterreaktion auf Exposition: Abfangwirkung wird in engen Fenstern sehr verbindlich, bleibt aber an Reaktionsknappheit gekoppelt.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Meisterlicher Reaktionsschuss fuer harte Bewegungsunterbrechung in kritischen Zeitfenstern.",
       "description": "Meisterrank fuer Reaktionsschuss. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Hochriskante Laufwege, Deckungswechsel oder Vorstossmomente unter Feuerdruck. Bei Gelingen: Der Gegner verliert den Vorteil aus seinem Bewegungsfenster deutlich. Bei Teilerfolg: Immer noch klares Bremsen oder Umlenken der Bewegung. Risiko: Reaktionsschuss bleibt ein einmaliges Antwortwerkzeug pro Zyklus und konkurriert weiter direkt mit anderen Reaktionen.",
-      "requirements_text": "Reaktionsschuss II muss bereits gelernt sein.; Eine gueltige Triggerlage bleibt Pflicht.; Das Reaktionsfenster muss frei sein und wird vollstaendig verbraucht.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Reaktionsschuss II muss bereits gelernt sein.; Eine gueltige Triggerlage bleibt Pflicht.; Das Reaktionsfenster muss frei sein und wird vollstaendig verbraucht.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_fernkampf"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_reaktionsschuss_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_gespraechsschock",
-      "family_id": "man_gespraechsschock",
-      "family_name": "Gespraechsschock",
+      "familyId": "man_gespraechsschock",
+      "familyName": "Gespraechsschock",
       "name": "Gespraechsschock I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Soziale Spitzenaktion mit hoher Szenenwirkung, aber ohne gesonderte Pflichtmatrix fuer Publikum oder Fallout.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Setzt eine belastende Wahrheit, Enthuellung oder Grenzueberschreitung als harten Schlag gegen Fassung und Haltung.",
+      "learnCostEp": 30,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Soziale Spitzenaktion mit hoher Szenenwirkung, aber ohne gesonderte Pflichtmatrix fuer Publikum oder Fallout.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Setzt eine belastende Wahrheit, Enthuellung oder Grenzueberschreitung als harten Schlag gegen Fassung und Haltung.",
       "description": "Harter sozialer Schlag, der nicht Alltagswerkzeug, sondern Szenen-Kippmoment sein soll. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel ist emotional, sozial oder rhetorisch angreifbar und die Szene traegt einen harten Schlag gegen Haltung oder Fassade. Typische Gegenlage: Zu harte oder unpassende Schocks koennen Autoritaeten, Publikum oder Verbuendete gegen die handelnde Figur drehen. Bei Gelingen: Das Ziel verliert Fassung, Gesicht, argumentative Linie oder soziale Stabilitaet; Anschlussaktionen gegen Widerstand oder Haltung werden leichter. Bei Teilerfolg: Kein kompletter Bruch, aber sichtbare Erschuetterung, Unruhe oder defensiver Rueckzug. Risiko: Soziale Eskalation droht; die Wirkung kann kippen, wenn der Schlag als unpassend, unfair oder unklug gelesen wird. Designhinweis: Bewusst kein T1-Alltagswerkzeug, weil es soziale Szenen stark kippen kann.",
-      "requirements_text": "Druck, Auftreten oder glaubhafte Inszenierung muessen den Schlag tragen koennen.; Es braucht einen belastenden Hebel, eine harte Wahrheit oder einen wirksamen Statusmoment.; Besonders stark nach vorherigem Druckaufbau oder sichtbarer Instabilitaet des Ziels.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II verbessert die Trefferhaerte gegen Fassade und reduziert das Risiko, selbst sofort die Deutungshoheit zu verlieren.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Druck, Auftreten oder glaubhafte Inszenierung muessen den Schlag tragen koennen.; Es braucht einen belastenden Hebel, eine harte Wahrheit oder einen wirksamen Statusmoment.; Besonders stark nach vorherigem Druckaufbau oder sichtbarer Instabilitaet des Ziels.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II verbessert die Trefferhaerte gegen Fassade und reduziert das Risiko, selbst sofort die Deutungshoheit zu verlieren.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_athletik",
           "skill_broad_einfluss"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_gespraechsschock_ii",
-      "family_id": "man_gespraechsschock",
-      "family_name": "Gespraechsschock",
+      "familyId": "man_gespraechsschock",
+      "familyName": "Gespraechsschock",
       "name": "Gespraechsschock II",
       "rank": "II",
-      "previous_rank_id": "man_gespraechsschock",
+      "previousRankId": "man_gespraechsschock",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Der soziale Schlag sitzt praeziser; Teilerfolge erzeugen stabilere Folgefenster fuer den eigenen Druck.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Fortgeschrittener Gespraechsschock mit verlaesslicherem Haltungsbruch bei weiterhin hohem Eskalationspreis.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Der soziale Schlag sitzt praeziser; Teilerfolge erzeugen stabilere Folgefenster fuer den eigenen Druck.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Fortgeschrittener Gespraechsschock mit verlaesslicherem Haltungsbruch bei weiterhin hohem Eskalationspreis.",
       "description": "Fortgeschrittener Rank fuer Gespraechsschock. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel steht unter erkennbarer Spannung und ein harter Hebel ist bereit. Bei Gelingen: Fassade und Argumentlinie brechen deutlicher, ohne sofort in chaotische Ueberhitzung zu kippen. Bei Teilerfolg: Die Erschuetterung bleibt vernuenftig verwertbar fuer Anschlussdruck. Risiko: Soziales Fallout bleibt moeglich, wird aber bei sauberer Setzung besser kontrollierbar.",
-      "requirements_text": "Gespraechsschock I muss bereits gelernt sein.; Ein plausibler sozialer Hebel oder belastender Wahrheitsmoment bleibt Pflicht.; Die Szene muss den harten Schlag oeffentlich oder interpersonal tragen koennen.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III verschaerft den Haltungsbruch weiter und kann den Re-Einsatz weniger eskalativ lesen, ohne Gespraechsschock zu einem Standardwerkzeug zu machen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Gespraechsschock I muss bereits gelernt sein.; Ein plausibler sozialer Hebel oder belastender Wahrheitsmoment bleibt Pflicht.; Die Szene muss den harten Schlag oeffentlich oder interpersonal tragen koennen.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III verschaerft den Haltungsbruch weiter und kann den Re-Einsatz weniger eskalativ lesen, ohne Gespraechsschock zu einem Standardwerkzeug zu machen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_einfluss"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_gespraechsschock"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_gespraechsschock_iii",
-      "family_id": "man_gespraechsschock",
-      "family_name": "Gespraechsschock",
+      "familyId": "man_gespraechsschock",
+      "familyName": "Gespraechsschock",
       "name": "Gespraechsschock III",
       "rank": "III",
-      "previous_rank_id": "man_gespraechsschock_ii",
+      "previousRankId": "man_gespraechsschock_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Meisterlicher sozialer Schlag mit hoher Deutungswirkung und kontrollierterem Folgechaos.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Meisterlicher Gespraechsschock fuer harte Deutungshoheit in Schluesselmomenten.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Meisterlicher sozialer Schlag mit hoher Deutungswirkung und kontrollierterem Folgechaos.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Meisterlicher Gespraechsschock fuer harte Deutungshoheit in Schluesselmomenten.",
       "description": "Meisterrank fuer Gespraechsschock. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Schluesselmoment mit hohem Publikumseffekt, Statusbruch oder strategischer Enthuellung. Bei Gelingen: Das Ziel verliert deutlich Haltung und Deutungshoheit, waehrend die eigene Linie stabiler bleibt. Bei Teilerfolg: Immer noch klarer Schockeffekt mit verwertbarem Anschluss. Risiko: Bleibt ein seltenes Spitzenwerkzeug, das bei Fehlansage soziale Gegenwellen ausloesen kann.",
-      "requirements_text": "Gespraechsschock II muss bereits gelernt sein.; Es braucht weiter einen tragfaehigen sozialen Hebel und passende Szenenlage.; Der Schlag muss plausibel und nicht rein willkuerlich gesetzt werden.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Gespraechsschock II muss bereits gelernt sein.; Es braucht weiter einen tragfaehigen sozialen Hebel und passende Szenenlage.; Der Schlag muss plausibel und nicht rein willkuerlich gesetzt werden.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_einfluss"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_gespraechsschock_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_sozialer_konter",
-      "family_id": "man_sozialer_konter",
-      "family_name": "Sozialer Konter",
+      "familyId": "man_sozialer_konter",
+      "familyName": "Sozialer Konter",
       "name": "Sozialer Konter I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Reaktive Sozialmacht; verbraucht das gemeinsame Reaktionsfenster des Schlagabtauschs.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Dreht einen sichtbaren Angriff auf Ansehen, Deutung oder Position gegen seinen Urheber zurueck.",
+      "learnCostEp": 30,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Reaktive Sozialmacht; verbraucht das gemeinsame Reaktionsfenster des Schlagabtauschs.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Dreht einen sichtbaren Angriff auf Ansehen, Deutung oder Position gegen seinen Urheber zurueck.",
       "description": "Reaktive Sozialmacht gegen offene Deutungs-, Status- oder Glaubwuerdigkeitsangriffe. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Jemand setzt gerade sichtbar zu Blosstellung, Deutungshoheit, Statusangriff oder Glaubwuerdigkeitsbruch an; diffuses Unbehagen reicht nicht. Typische Gegenlage: Ein schwacher Konter wirkt defensiv, duennhaeutig oder ausweichend und kann den Angriff sogar verstaerken. Typische Antwortart: umkehren. Bei Gelingen: Der Angriff laeuft ins Leere oder kippt gegen seinen Urheber; die reagierende Figur gewinnt Boden, Wuerde oder Deutungshoheit zurueck. Bei Teilerfolg: Die gegnerische Spitze wird wenigstens entschaerft, zerfasert oder auf Nebenschauplaetze gezogen. Risiko: Schlecht gesetzte Reaktivitaet kann Unsicherheit zeigen und die urspruengliche Attacke verstaerken. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Soziale Reaktivmacht muss da sein, darf aber nie kostenlose Allzweckparade werden; teilt sich das Reaktionsfenster mit anderen Antworten.",
-      "requirements_text": "Die Figur braucht glaubhafte rhetorische oder soziale Gegenmittel.; Ein sichtbarer Angriff auf Position, Deutung oder Glaubwuerdigkeit muss bereits laufen.; Das gemeinsame Reaktionsfenster der Figur fuer diesen sozialen Schlagabtausch muss noch frei sein; der Konter verbraucht es.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II macht die reaktive Umkehr gegen sichtbare Spitzen stabiler und senkt das Risiko, defensiv zu wirken.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Die Figur braucht glaubhafte rhetorische oder soziale Gegenmittel.; Ein sichtbarer Angriff auf Position, Deutung oder Glaubwuerdigkeit muss bereits laufen.; Das gemeinsame Reaktionsfenster der Figur fuer diesen sozialen Schlagabtausch muss noch frei sein; der Konter verbraucht es.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II macht die reaktive Umkehr gegen sichtbare Spitzen stabiler und senkt das Risiko, defensiv zu wirken.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_einfluss",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_sozialer_konter_ii",
-      "family_id": "man_sozialer_konter",
-      "family_name": "Sozialer Konter",
+      "familyId": "man_sozialer_konter",
+      "familyName": "Sozialer Konter",
       "name": "Sozialer Konter II",
       "rank": "II",
-      "previous_rank_id": "man_sozialer_konter",
+      "previousRankId": "man_sozialer_konter",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Die Umkehr sitzt rhetorisch sauberer; selbst Teilerfolge halten die eigene Deutungslinie besser.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Fortgeschrittener Sozialer Konter mit verlaesslicherer Rueckspiegelung offener Status- und Deutungsangriffe.",
+      "learnCostEp": 20,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Die Umkehr sitzt rhetorisch sauberer; selbst Teilerfolge halten die eigene Deutungslinie besser.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Fortgeschrittener Sozialer Konter mit verlaesslicherer Rueckspiegelung offener Status- und Deutungsangriffe.",
       "description": "Fortgeschrittener Rank fuer Sozialer Konter. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Offene soziale Spitze gegen Position, Gesicht oder Glaubwuerdigkeit. Bei Gelingen: Die gegnerische Attacke kippt stabiler zurueck. Bei Teilerfolg: Die eigene Linie bleibt deutlich besser intakt als bei Rank I. Risiko: Das Reaktionsfenster bleibt knapp; falsches Timing kann weiterhin die Gegenseite staerken.",
-      "requirements_text": "Sozialer Konter I muss bereits gelernt sein.; Es braucht einen klar sichtbaren sozialen Angriff als Trigger.; Das Reaktionsfenster der Figur muss frei sein und wird verbraucht.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III staerkt den Deutungsrueckschlag weiter und kann Folgefenster fuer die eigene soziale Initiative klarer oeffnen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Sozialer Konter I muss bereits gelernt sein.; Es braucht einen klar sichtbaren sozialen Angriff als Trigger.; Das Reaktionsfenster der Figur muss frei sein und wird verbraucht.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III staerkt den Deutungsrueckschlag weiter und kann Folgefenster fuer die eigene soziale Initiative klarer oeffnen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_einfluss",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_sozialer_konter"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_sozialer_konter_iii",
-      "family_id": "man_sozialer_konter",
-      "family_name": "Sozialer Konter",
+      "familyId": "man_sozialer_konter",
+      "familyName": "Sozialer Konter",
       "name": "Sozialer Konter III",
       "rank": "III",
-      "previous_rank_id": "man_sozialer_konter_ii",
+      "previousRankId": "man_sozialer_konter_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Meisterreaktion im sozialen Schlagabtausch: Deutungsangriffe lassen sich in guenstige Anschlusslage drehen, ohne Reaktionsketten zu erlauben.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Meisterlicher Sozialer Konter fuer harte Deutungsumkehr in Schluesselmomenten.",
+      "learnCostEp": 20,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Meisterreaktion im sozialen Schlagabtausch: Deutungsangriffe lassen sich in guenstige Anschlusslage drehen, ohne Reaktionsketten zu erlauben.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Meisterlicher Sozialer Konter fuer harte Deutungsumkehr in Schluesselmomenten.",
       "description": "Meisterrank fuer Sozialer Konter. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Sichtbare Statusattacke mit hohem Publikumseffekt oder strategischer Spitze. Bei Gelingen: Der Angreifer verliert klar Deutungshoheit und oeffnet Gegenfenster fuer die reagierende Figur oder deren Team. Bei Teilerfolg: Der Angriff wird zumindest wirksam entschaerft. Risiko: Bleibt ein reaktives Spitzenwerkzeug und ist weiter durch Reaktionsknappheit und Triggerpflicht begrenzt.",
-      "requirements_text": "Sozialer Konter II muss bereits gelernt sein.; Trigger muss als offene soziale Spitze klar lesbar sein.; Das Reaktionsfenster muss frei sein und wird verbraucht.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Sozialer Konter II muss bereits gelernt sein.; Trigger muss als offene soziale Spitze klar lesbar sein.; Das Reaktionsfenster muss frei sein und wird verbraucht.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_einfluss",
           "skill_broad_nahkampf",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_sozialer_konter_ii"
         ],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_bypass",
-      "family_id": "man_bypass",
-      "family_name": "Bypass",
+      "familyId": "man_bypass",
+      "familyName": "Bypass",
       "name": "Bypass I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Starker Szenenoeffner; Spuren, Instabilitaet oder begrenzte Berechtigung bleiben bewusste Textbalancing-Punkte.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Umgeht eine Schutzlogik ueber einen schmalen Zugangspfad statt sie frontal aufzubrechen.",
+      "learnCostEp": 30,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Starker Szenenoeffner; Spuren, Instabilitaet oder begrenzte Berechtigung bleiben bewusste Textbalancing-Punkte.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Umgeht eine Schutzlogik ueber einen schmalen Zugangspfad statt sie frontal aufzubrechen.",
       "description": "Technischer Szenenoeffner fuer Umgehung statt rohe Oeffnung. Einordnung: Technik, aktiv, Oeffnung. Typisches Einsatzfenster: Eine direkte Oeffnung waere zu langsam, zu laut oder zu schwer; stattdessen wird die Schutzlogik umgangen. Typische Gegenlage: Fehler im Umgehungspfad koennen Spuren, Alarm, Rueckkopplungen oder sehr instabilen Teilzugriff erzeugen. Bei Gelingen: Die Sperre wird nicht klassisch gebrochen, sondern ueber einen schmalen und oft fragilen Pfad umgangen. Bei Teilerfolg: Es entsteht nur Teilzugriff, kurzer Zugriff oder Zugriff mit Spuren, Instabilitaet oder begrenzter Berechtigung. Risiko: Bypass kann leiser sein als rohe Gewalt, aber Fehler hinterlassen oft genau die Art von Spuren, die spaeter teuer werden. Designhinweis: Starker Szenenoeffner und deshalb klar oberhalb von T1.",
-      "requirements_text": "Elektronik, Sicherheitssysteme, Schlossmechanik oder aehnliches muessen den Umgehungspfad tragen koennen.; Eine relevante Schnittstelle, Leitung, Logik oder Schutzstruktur muss greifbar sein.; Vorwissen, Beobachtung oder Vorbereitung verbessern das Fenster deutlich.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II verbessert die Stabilitaet des Teilzugriffs und senkt die Spurhaerte bei sauberer Vorbereitung.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Elektronik, Sicherheitssysteme, Schlossmechanik oder aehnliches muessen den Umgehungspfad tragen koennen.; Eine relevante Schnittstelle, Leitung, Logik oder Schutzstruktur muss greifbar sein.; Vorwissen, Beobachtung oder Vorbereitung verbessern das Fenster deutlich.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II verbessert die Stabilitaet des Teilzugriffs und senkt die Spurhaerte bei sauberer Vorbereitung.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_broad_technik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [
           "qh_tuer_freigeben",
           "qh_kamera_freundlich",
           "qh_sicherheitsfenster_oeffnen"
         ],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_bypass_ii",
-      "family_id": "man_bypass",
-      "family_name": "Bypass",
+      "familyId": "man_bypass",
+      "familyName": "Bypass",
       "name": "Bypass II",
       "rank": "II",
-      "previous_rank_id": "man_bypass",
+      "previousRankId": "man_bypass",
       "tier": "T3",
-      "learn_cost_ep": 15,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Umgehungspfade werden stabiler; Teilzugriffe brechen nicht mehr so schnell unter Gegenlast weg.",
-      "usage_window": "once_per_scene",
-      "reuse_escalation_profile": "strict_scene",
-      "rules_short": "Fortgeschrittener Bypass mit verlaesslicherer Umgehung und besserer Zugriffsstabilitaet.",
+      "learnCostEp": 15,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Umgehungspfade werden stabiler; Teilzugriffe brechen nicht mehr so schnell unter Gegenlast weg.",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "rulesShort": "Fortgeschrittener Bypass mit verlaesslicherer Umgehung und besserer Zugriffsstabilitaet.",
       "description": "Fortgeschrittener Rank fuer Bypass. Einordnung: Technik, aktiv, Oeffnung. Typisches Einsatzfenster: Eine direkte Oeffnung waere weiter zu laut oder zu langsam, aber die Figur kann den Umgehungspfad deutlich robuster bauen. Bei Gelingen: Der Zugriff bleibt laenger und ist weniger fragil. Bei Teilerfolg: Noch immer moeglicher Zugriff, aber mit begrenzter Berechtigung oder Restspur. Risiko: Fehler erzeugen weiter Spuren, jedoch mit weniger chaotischem Rueckschlag als bei Rank I.",
-      "requirements_text": "Bypass I muss bereits gelernt sein.; Ein erreichbarer technischer Pfad (Schnittstelle, Logik, Leitung) bleibt Pflicht.; Vorbereitung oder Vorwissen verbessern den Erfolg weiterhin stark.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III oeffnet auch unter Druck engere Zeitfenster und kann den Re-Einsatz milder lesen, ohne Bypass zum Standardwerkzeug zu machen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Bypass I muss bereits gelernt sein.; Ein erreichbarer technischer Pfad (Schnittstelle, Logik, Leitung) bleibt Pflicht.; Vorbereitung oder Vorwissen verbessern den Erfolg weiterhin stark.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III oeffnet auch unter Druck engere Zeitfenster und kann den Re-Einsatz milder lesen, ohne Bypass zum Standardwerkzeug zu machen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_broad_technik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_bypass"
         ],
-        "related_quickhack_ids": [
+        "relatedQuickhackIds": [
           "qh_tuer_freigeben",
           "qh_kamera_freundlich",
           "qh_sicherheitsfenster_oeffnen"
         ],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_bypass_iii",
-      "family_id": "man_bypass",
-      "family_name": "Bypass",
+      "familyId": "man_bypass",
+      "familyName": "Bypass",
       "name": "Bypass III",
       "rank": "III",
-      "previous_rank_id": "man_bypass_ii",
+      "previousRankId": "man_bypass_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Meisterliche Umgehung auch unter Zeitdruck; Spuren bleiben moeglich, sind aber besser steuerbar.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Meisterlicher Bypass fuer schnelle, praezise Umgehung mit kontrollierterem Fallout.",
+      "learnCostEp": 20,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Meisterliche Umgehung auch unter Zeitdruck; Spuren bleiben moeglich, sind aber besser steuerbar.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Meisterlicher Bypass fuer schnelle, praezise Umgehung mit kontrollierterem Fallout.",
       "description": "Meisterrank fuer Bypass. Einordnung: Technik, aktiv, Oeffnung/Kontrolle. Typisches Einsatzfenster: Hoher Zeitdruck, laufende Gegenmassnahmen oder enge Teamkette. Bei Gelingen: Der Zugriff entsteht schnell und mit hoher Zielgenauigkeit. Bei Teilerfolg: Es bleibt brauchbarer Teilzugriff statt nur kurzer Instabilitaet. Risiko: Auch Rank III ersetzt keine schlechte Vorbereitung vollstaendig, verhindert aber haeufiger den kompletten Rueckstoss.",
-      "requirements_text": "Bypass II muss bereits gelernt sein.; Zugangspunkt und plausibler Umgehungspfad bleiben erforderlich.; Unter Druck darf improvisiert werden, aber nur mit erkennbarer technischer Grundlage.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Bypass II muss bereits gelernt sein.; Zugangspunkt und plausibler Umgehungspfad bleiben erforderlich.; Unter Druck darf improvisiert werden, aber nur mit erkennbarer technischer Grundlage.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_broad_technik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_bypass_ii"
         ],
-        "related_quickhack_ids": [
+        "relatedQuickhackIds": [
           "qh_tuer_freigeben",
           "qh_kamera_freundlich",
           "qh_sicherheitsfenster_oeffnen"
         ],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_alarm_verzoegern",
-      "family_id": "man_alarm_verzoegern",
-      "family_name": "Alarm verzoegern",
+      "familyId": "man_alarm_verzoegern",
+      "familyName": "Alarm verzoegern",
       "name": "Alarm verzoegern I",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Reaktiver Eingriff in einen schon laufenden Alarmpfad; teilt sich das knappe Reaktionsfenster mit anderen Antworten.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Gewinnt Zeit, indem Alarm, Meldung oder Eskalationskette gestaut, umgeleitet oder verspaetet wird.",
+      "learnCostEp": 30,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Reaktiver Eingriff in einen schon laufenden Alarmpfad; teilt sich das knappe Reaktionsfenster mit anderen Antworten.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Gewinnt Zeit, indem Alarm, Meldung oder Eskalationskette gestaut, umgeleitet oder verspaetet wird.",
       "description": "Zeitkontroll-Manoever gegen drohende Entdeckung statt absolute Unsichtbarkeit. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Entdeckung oder Alarmweg sind bereits aktiv oder loesen gerade aus; vorab ruhige Vorbereitung ist kein Alarm-verzoegern-Manoever. Typische Gegenlage: Manipulation am Alarmweg hinterlaesst oft Spuren; spaetere Entdeckung kann haerter ausfallen, wenn der Eingriff bemerkt wird. Typische Antwortart: entziehen. Bei Gelingen: Alarm, Meldung oder Eskalationskette werden aufgehalten, umgeleitet, gestaut oder spaeter ausgeloest. Bei Teilerfolg: Nur kurze Verzoegerung, aber oft genug fuer Flucht, Abschluss oder Planwechsel. Risiko: Arbeit am Alarmpfad ist selten unsichtbar und kann spaeter fuer umso haertere Reaktion sorgen. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Sehr starker Szeneneingriff, weil Zeitkontrolle ganze Plaene rettet; als Reaktion teilt es sich dasselbe knappe Fenster.",
-      "requirements_text": "Elektronik, Sicherheitssysteme oder Sensorik muessen den Alarmpfad plausibel lesbar machen.; Ein erkannter oder absehbarer Alarmweg muss bereits aktiv oder kurz vor Aktivierung sein.; Zugriff auf Sensorik, Leitung, Protokoll oder Meldepfad ist noetig.; Das gemeinsame Reaktionsfenster der Figur muss noch frei sein, wenn Alarm verzoegern als unmittelbare Gegenreaktion gelesen wird.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank II verlaengert die gewonnene Zeit und macht den Eingriff weniger leicht rueckverfolgbar.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Elektronik, Sicherheitssysteme oder Sensorik muessen den Alarmpfad plausibel lesbar machen.; Ein erkannter oder absehbarer Alarmweg muss bereits aktiv oder kurz vor Aktivierung sein.; Zugriff auf Sensorik, Leitung, Protokoll oder Meldepfad ist noetig.; Das gemeinsame Reaktionsfenster der Figur muss noch frei sein, wenn Alarm verzoegern als unmittelbare Gegenreaktion gelesen wird.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank II verlaengert die gewonnene Zeit und macht den Eingriff weniger leicht rueckverfolgbar.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_broad_technik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [
           "qh_tuer_freigeben",
           "qh_kamera_freundlich",
           "qh_sicherheitsfenster_oeffnen"
         ],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_alarm_verzoegern_ii",
-      "family_id": "man_alarm_verzoegern",
-      "family_name": "Alarm verzoegern",
+      "familyId": "man_alarm_verzoegern",
+      "familyName": "Alarm verzoegern",
       "name": "Alarm verzoegern II",
       "rank": "II",
-      "previous_rank_id": "man_alarm_verzoegern",
+      "previousRankId": "man_alarm_verzoegern",
       "tier": "T2",
-      "learn_cost_ep": 15,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Reaktiver Eingriff sitzt schneller und verlaesslicher; kurze Stoerfenster werden seltener sofort erkannt.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Fortgeschrittenes Alarm-verzoegern mit besserer Zeitgewinn-Qualitaet im laufenden Zugriff.",
+      "learnCostEp": 15,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Reaktiver Eingriff sitzt schneller und verlaesslicher; kurze Stoerfenster werden seltener sofort erkannt.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Fortgeschrittenes Alarm-verzoegern mit besserer Zeitgewinn-Qualitaet im laufenden Zugriff.",
       "description": "Fortgeschrittener Rank fuer Alarm verzoegern. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Alarmkette laeuft bereits oder kippt gerade. Bei Gelingen: Verzoegerung ist stabiler und schafft klarere Teamzeit fuer Flucht, Abschluss oder Umstellung. Bei Teilerfolg: Es bleibt eine kuerzere, aber verwertbare Verzoegerung mit kontrollierbarer Spur. Risiko: Reaktive Eingriffe bleiben sichtbar, doch Rank II reduziert haeufige Fruehenttarnung.",
-      "requirements_text": "Alarm verzoegern I muss bereits gelernt sein.; Ein laufender oder unmittelbar drohender Alarmpfad bleibt Pflicht.; Das Reaktionsfenster der Figur muss frei sein und wird verbraucht.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Rank III erlaubt noch robustere Zeitkontrolle und mildert die Eskalation bei Wiederholung, ohne die Reaktionsoekonomie zu umgehen.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Alarm verzoegern I muss bereits gelernt sein.; Ein laufender oder unmittelbar drohender Alarmpfad bleibt Pflicht.; Das Reaktionsfenster der Figur muss frei sein und wird verbraucht.",
+      "advancementMode": "fixed",
+      "advancementText": "Rank III erlaubt noch robustere Zeitkontrolle und mildert die Eskalation bei Wiederholung, ohne die Reaktionsoekonomie zu umgehen.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_broad_technik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_alarm_verzoegern"
         ],
-        "related_quickhack_ids": [
+        "relatedQuickhackIds": [
           "qh_tuer_freigeben",
           "qh_kamera_freundlich",
           "qh_sicherheitsfenster_oeffnen"
         ],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_alarm_verzoegern_iii",
-      "family_id": "man_alarm_verzoegern",
-      "family_name": "Alarm verzoegern",
+      "familyId": "man_alarm_verzoegern",
+      "familyName": "Alarm verzoegern",
       "name": "Alarm verzoegern III",
       "rank": "III",
-      "previous_rank_id": "man_alarm_verzoegern_ii",
+      "previousRankId": "man_alarm_verzoegern_ii",
       "tier": "T3",
-      "learn_cost_ep": 20,
-      "action_cost": "free",
-      "uses_reaction_window": true,
-      "activation_notes": "Meisterreaktion gegen Alarmketten: Verzoegerung bleibt auch unter Gegenlast laenger stabil.",
-      "usage_window": "once_per_conflict",
-      "reuse_escalation_profile": "standard_conflict",
-      "rules_short": "Meisterliches Alarm-verzoegern fuer harte Zeitkontrolle im laufenden Entdeckungsdruck.",
+      "learnCostEp": 20,
+      "actionCost": "free",
+      "usesReactionWindow": true,
+      "activationNotes": "Meisterreaktion gegen Alarmketten: Verzoegerung bleibt auch unter Gegenlast laenger stabil.",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "rulesShort": "Meisterliches Alarm-verzoegern fuer harte Zeitkontrolle im laufenden Entdeckungsdruck.",
       "description": "Meisterrank fuer Alarm verzoegern. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Mehrere Alarmschritte oder aktive Gegenwehr laufen gleichzeitig. Bei Gelingen: Der Alarmpfad wird deutlich laenger gestaut oder sauber umgeleitet. Bei Teilerfolg: Auch ohne Vollerfolg bleibt genug Zeitgewinn fuer kritische Anschlussentscheidungen. Risiko: Bei groben Fehlschlaegen drohen weiter harte Spaetfolgen, aber die Routine gegen Alarmketten ist klar auf Meistergrad.",
-      "requirements_text": "Alarm verzoegern II muss bereits gelernt sein.; Laufender Alarmpfad und plausibler technischer Zugriff bleiben Pflicht.; Das Reaktionsfenster muss frei sein und wird verbraucht.",
-      "advancement_mode": "fixed",
-      "advancement_text": "Aktuell Endrank der Familie.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Alarm verzoegern II muss bereits gelernt sein.; Laufender Alarmpfad und plausibler technischer Zugriff bleiben Pflicht.; Das Reaktionsfenster muss frei sein und wird verbraucht.",
+      "advancementMode": "fixed",
+      "advancementText": "Aktuell Endrank der Familie.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_nahkampf",
           "skill_broad_technik",
           "skill_standard_waffenlos"
         ],
-        "required_maneuver_ids": [
+        "requiredManeuverIds": [
           "man_alarm_verzoegern_ii"
         ],
-        "related_quickhack_ids": [
+        "relatedQuickhackIds": [
           "qh_tuer_freigeben",
           "qh_kamera_freundlich",
           "qh_sicherheitsfenster_oeffnen"
         ],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_granate_werfen",
-      "family_id": "man_granate_werfen",
-      "family_name": "Granate werfen",
+      "familyId": "man_granate_werfen",
+      "familyName": "Granate werfen",
       "name": "Granate werfen",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T1",
-      "learn_cost_ep": 15,
-      "action_cost": "action",
-      "uses_reaction_window": false,
-      "activation_notes": "Standard-Wurf-Manoever; Granatentypen definieren die Wirkung.",
-      "usage_window": "unlimited",
-      "reuse_escalation_profile": "none",
-      "rules_short": "Wirft eine Granate (Splitter, Waerme, EMP, Rauch, Blendgranate) auf ein Zielgebiet.",
+      "learnCostEp": 15,
+      "actionCost": "action",
+      "usesReactionWindow": false,
+      "activationNotes": "Standard-Wurf-Manoever; Granatentypen definieren die Wirkung.",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "rulesShort": "Wirft eine Granate (Splitter, Waerme, EMP, Rauch, Blendgranate) auf ein Zielgebiet.",
       "description": "Einfaches Fernkampf-Manoever fuer Handgranaten. Einordnung: Kampf, aktiv, Effekt/Kontrolle.",
-      "requirements_text": "Fernkampf muss vorhanden sein.; Figur braucht freie Hand und Granate.; Zielposition muss sichtbar sein.",
-      "advancement_mode": "none",
-      "advancement_text": "Keine Rank-Staffelung geplant; Basis fuer optionale Rank II.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Fernkampf muss vorhanden sein.; Figur braucht freie Hand und Granate.; Zielposition muss sichtbar sein.",
+      "advancementMode": "none",
+      "advancementText": "Keine Rank-Staffelung geplant; Basis fuer optionale Rank II.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf",
           "skill_broad_athletik"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     },
     {
       "id": "man_rakete_abfeuern",
-      "family_id": "man_rakete_abfeuern",
-      "family_name": "Rakete abfeuern",
+      "familyId": "man_rakete_abfeuern",
+      "familyName": "Rakete abfeuern",
       "name": "Rakete abfeuern",
       "rank": "I",
-      "previous_rank_id": null,
+      "previousRankId": null,
       "tier": "T2",
-      "learn_cost_ep": 30,
-      "action_cost": "two_actions",
-      "uses_reaction_window": false,
-      "activation_notes": "Schulter-Rakete oder Fahrzeug-System. Braucht ruhigen Stand oder Fahrzeug-Montage.",
-      "usage_window": "unlimited",
-      "reuse_escalation_profile": "none",
-      "rules_short": "Laden und Abfeuern einer tragbaren oder Fahrzeug-Raketenwaffe.",
+      "learnCostEp": 30,
+      "actionCost": "two_actions",
+      "usesReactionWindow": false,
+      "activationNotes": "Schulter-Rakete oder Fahrzeug-System. Braucht ruhigen Stand oder Fahrzeug-Montage.",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "rulesShort": "Laden und Abfeuern einer tragbaren oder Fahrzeug-Raketenwaffe.",
       "description": "Fernkampf-Kernmanoever fuer Raketenwaffen. Einordnung: Kampf, aktiv, Verheerende Effekte.",
-      "requirements_text": "Fernkampf-Spezialisierung muss vorhanden sein.; Raketenwaffen-System muss funktionsfaehig sein.",
-      "advancement_mode": "none",
-      "advancement_text": "Keine Rank-Staffelung geplant; Basis fuer optionale Rank II.",
-      "internal_refs": {
-        "required_skill_ids": [
+      "requirementsText": "Fernkampf-Spezialisierung muss vorhanden sein.; Raketenwaffen-System muss funktionsfaehig sein.",
+      "advancementMode": "none",
+      "advancementText": "Keine Rank-Staffelung geplant; Basis fuer optionale Rank II.",
+      "internalRefs": {
+        "requiredSkillIds": [
           "skill_broad_fernkampf",
           "skill_broad_athletik"
         ],
-        "required_maneuver_ids": [],
-        "related_quickhack_ids": [],
-        "related_state_ids": [],
-        "related_consequence_ids": []
+        "requiredManeuverIds": [],
+        "relatedQuickhackIds": [],
+        "relatedStateIds": [],
+        "relatedConsequenceIds": []
       }
     }
   ],
-  "reactive_balancing_guardrails": {
+  "reactiveBalancingGuardrails": {
     "status": "ARBEITSSTAND",
-    "core_principle": "Hoehere Reaktionsranks erhoehen Zuverlaessigkeit und Wirkung, nicht die Anzahl der Reaktionsfenster.",
-    "trigger_quality": {
-      "hard_trigger": "Sichtbare, laufende gegnerische Handlung oder klar messbarer Eskalationspfad.",
-      "soft_trigger": "Nur indirekte Absichtssignale ohne klare Exposition.",
+    "corePrinciple": "Hoehere Reaktionsranks erhoehen Zuverlaessigkeit und Wirkung, nicht die Anzahl der Reaktionsfenster.",
+    "triggerQuality": {
+      "hardTrigger": "Sichtbare, laufende gegnerische Handlung oder klar messbarer Eskalationspfad.",
+      "softTrigger": "Nur indirekte Absichtssignale ohne klare Exposition.",
       "rule": "Rank II und III reaktiver Familien verlangen hard_trigger; soft_trigger reicht nur fuer Rank I oder basisnahe Gegenwehr."
     },
-    "declaration_order": {
+    "declarationOrder": {
       "rule": "Bei mehreren moeglichen Reaktionen muss vor dem Wurf genau eine Antwort angesagt werden.",
       "effect": "Keine nachtraegliche Umschaltung zwischen Konter, Reaktionsschuss, Sozialer Konter, Alarm verzoegern und Schnellziehen."
     },
-    "escalation_floor": {
-      "rule": "Reaktive Familien mit usage_window once_per_conflict sollen als Balancing-Floor mindestens standard_conflict nutzen.",
+    "escalationFloor": {
+      "rule": "Reaktive Familien mit usageWindow once_per_conflict sollen als Balancing-Floor mindestens standard_conflict nutzen.",
       "note": "none ist hier nur fuer explizite Sonderfaelle mit gesonderter Begruendung gedacht."
     },
-    "no_chain_reaction": {
+    "noChainReaction": {
       "rule": "Ein reaktives Manoever erzeugt kein neues sofortiges Reaktionsfenster.",
       "effect": "Keine Reaktionsketten durch Wechsel auf andere Familien in derselben Triggerlage."
     },
-    "family_focus": {
+    "familyFocus": {
       "konter": "Nahkampftiming gegen klare Angriffs- oder Grifffenster.",
       "reaktionsschuss": "Bewegungs- und Expositionsfenster in Fernkampflinien.",
-      "sozialer_konter": "Offene Deutungs- und Statusspitzen im sozialen Schlagabtausch.",
-      "alarm_verzoegern": "Laufende technische Alarm- oder Meldepfade.",
+      "sozialerKonter": "Offene Deutungs- und Statusspitzen im sozialen Schlagabtausch.",
+      "alarmVerzoegern": "Laufende technische Alarm- oder Meldepfade.",
       "schnellziehen": "Einmaliges Eskalationsfenster beim Uebergang in offene Gewalt."
     }
   },
-  "reaction_economy": {
+  "reactionEconomy": {
     "status": "ARBEITSSTAND",
-    "cycle_rule": "Jede Figur hat pro eigenem Initiativzyklus ein Reaktionsfenster.",
+    "cycleRule": "Jede Figur hat pro eigenem Initiativzyklus ein Reaktionsfenster.",
     "refresh": "Das Reaktionsfenster erneuert sich mit der naechsten regulaeren Handlung der Figur.",
     "consumption": "Ein reaktives Manoever verbraucht das Reaktionsfenster unabhaengig davon, ob es gelingt oder scheitert.",
-    "trigger_limit": "Pro Ausloeser darf eine Figur nur eine reaktive Antwort ansagen.",
-    "chain_limit": "Ein reaktives Manoever eroeffnet nicht sofort wieder ein weiteres reaktives Manoever als Kettenunterbrechung.",
+    "triggerLimit": "Pro Ausloeser darf eine Figur nur eine reaktive Antwort ansagen.",
+    "chainLimit": "Ein reaktives Manoever eroeffnet nicht sofort wieder ein weiteres reaktives Manoever als Kettenunterbrechung.",
     "note": "Normale fiktionale Gegenwehr oder Widerstand ohne volles Manoever verbrauchen dieses Reaktionsfenster nicht automatisch."
   },
-  "internal_field_policy": {
+  "internalFieldPolicy": {
     "purpose": "machine_readable_crossrefs_for_internal_authoring",
-    "print_visibility": "exclude_from_print_lists_and_rulebook_exports",
-    "consumer_rule": "Render pipelines for player-facing output should ignore internal_* objects and internal_refs fields.",
+    "printVisibility": "exclude_from_print_lists_and_rulebook_exports",
+    "consumerRule": "Render pipelines for player-facing output should ignore internal_* objects and internalRefs fields.",
     "note": "Diese Felder sind Hilfsdaten fuer Konsistenzpruefung und schnellere Datenerweiterung."
   }
 }

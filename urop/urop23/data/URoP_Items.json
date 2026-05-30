@@ -1,14 +1,14 @@
 {
-  "schema_version": "1.1",
+  "schemaVersion": "1.1",
   "type": "items",
-  "authoritative_note": "Fuehrende Datenquelle fuer allgemeine Ausruestung und Items. Der aktive Endkern bleibt bewusst schlank; Zusatzdetails gehoeren bei Bedarf in den Fliesstext oder in spezialisierte Datenschemata.",
-  "currency_unit": "EB",
-  "currency_aliases": [
+  "authoritativeNote": "Fuehrende Datenquelle fuer allgemeine Ausruestung und Items. Der aktive Endkern bleibt bewusst schlank; Zusatzdetails gehoeren bei Bedarf in den Fliesstext oder in spezialisierte Datenschemata.",
+  "currencyUnit": "EB",
+  "currencyAliases": [
     "ebbies",
     "Eurodollar",
     "Eurobuck"
   ],
-  "design_notes": [
+  "designNotes": [
     "Items bleiben fuer URoP absichtlich leicht lesbar und pflegearm.",
     "Die fuehrende Itemstruktur fuehrt nur Felder, die fuer Spiel, Regelwerk und Foundry direkt nuetzlich sind.",
     "Zugang, Legalitaet, Verbrauch und Sonderfaelle koennen bei Bedarf im Beschreibungstext stehen statt als Pflichtfelder.",
@@ -30,7 +30,7 @@
       "special"
     ]
   },
-  "field_schema": {
+  "fieldSchema": {
     "id": {
       "required": true,
       "type": "string",
@@ -51,12 +51,12 @@
       "type": "string",
       "description": "Beschreibender Fliesstext, Atmosphaere, Einordnung und besondere Hinweise"
     },
-    "rules_short": {
+    "rulesShort": {
       "required": true,
       "type": "string",
       "description": "Kurze regeltechnische Kernaussage"
     },
-    "price_eb": {
+    "priceEb": {
       "required": true,
       "type": [
         "number",
@@ -71,64 +71,64 @@
       "name": "Basismultitool",
       "kind": "tool",
       "description": "Ein robustes Multitool fuer Wartung, Improvisation und kleine technische Eingriffe im Alltag oder Einsatz.",
-      "rules_short": "Kompaktes Allzweckwerkzeug fuer kleine Reparaturen, Oeffnungen und Feldanpassungen.",
-      "price_eb": 35
+      "rulesShort": "Kompaktes Allzweckwerkzeug fuer kleine Reparaturen, Oeffnungen und Feldanpassungen.",
+      "priceEb": 35
     },
     {
       "id": "item_medical_field_kit",
       "name": "Feldmedkit",
       "kind": "medical",
       "description": "Ein kompaktes Medkit mit Verbandmaterial, Blutungsstopp, einfachen Medikamenten und Basisinstrumenten fuer den Einsatz draussen oder unter Druck.",
-      "rules_short": "Tragbares Set fuer Erstversorgung, Stabilisierung und saubere Notfallarbeit im Feld.",
-      "price_eb": 120
+      "rulesShort": "Tragbares Set fuer Erstversorgung, Stabilisierung und saubere Notfallarbeit im Feld.",
+      "priceEb": 120
     },
     {
       "id": "item_consumable_trauma_patch",
       "name": "Traumapatch",
       "kind": "consumable",
       "description": "Ein selbstklebender Akutpatch mit Gerinnungs- und Stabilisierungsfunktion, gedacht fuer die ersten Sekunden bis Minuten nach schwerer Verletzung.",
-      "rules_short": "Einweg-Helfer fuer schnelle Notstabilisierung auf sehr engem Zeitfenster.",
-      "price_eb": 45
+      "rulesShort": "Einweg-Helfer fuer schnelle Notstabilisierung auf sehr engem Zeitfenster.",
+      "priceEb": 45
     },
     {
       "id": "item_security_lockpick_set",
       "name": "Dietrichset",
       "kind": "security",
       "description": "Ein abgestimmtes Set aus Dietrichen, Spannwerkzeugen und feinen Haken fuer mechanische Schloesser und aehnliche Verriegelungen.",
-      "rules_short": "Werkzeugsatz fuer mechanische Oeffnung, feinmotorische Manipulation und stillere Zugriffe.",
-      "price_eb": 90
+      "rulesShort": "Werkzeugsatz fuer mechanische Oeffnung, feinmotorische Manipulation und stillere Zugriffe.",
+      "priceEb": 90
     },
     {
       "id": "item_sensor_motion_portable",
       "name": "Portabler Bewegungsmelder",
       "kind": "sensor",
       "description": "Ein tragbarer Bewegungsmelder, der kurze Korridore, Tueren oder kleine Raeume ueberwachen kann und ein klares Warnsignal liefert.",
-      "rules_short": "Kleines Sensormodul fuer Fruehwarnung, Raumkontrolle und das Sichern von Zugaengen.",
-      "price_eb": 140
+      "rulesShort": "Kleines Sensormodul fuer Fruehwarnung, Raumkontrolle und das Sichern von Zugaengen.",
+      "priceEb": 140
     },
     {
       "id": "item_comms_radio_encrypted",
       "name": "Verschluesseltes Funkset",
       "kind": "communication",
       "description": "Ein verschluesseltes Kurzstrecken-Funkset fuer Einsatzteams, Szeneleute oder organisierte Gruppen, die nicht offen ueber normale Kanaele reden wollen.",
-      "rules_short": "Robustes Funkset fuer Teamkoordination, sichere Absprachen und stabile Kommunikation unter Druck.",
-      "price_eb": 220
+      "rulesShort": "Robustes Funkset fuer Teamkoordination, sichere Absprachen und stabile Kommunikation unter Druck.",
+      "priceEb": 220
     },
     {
       "id": "item_survival_pack_compact",
       "name": "Kompaktes Survival-Pack",
       "kind": "survival",
       "description": "Ein kompaktes Set mit Feuerstarter, Wasserreinigung, Leine, Signalmittel, einfacher Plane und kleinem Koch- oder Heizmodul.",
-      "rules_short": "Kleines Feldpaket fuer Orientierung, Notlager, Wasseraufbereitung und Grundversorgung ausserhalb geregelter Infrastruktur.",
-      "price_eb": 95
+      "rulesShort": "Kleines Feldpaket fuer Orientierung, Notlager, Wasseraufbereitung und Grundversorgung ausserhalb geregelter Infrastruktur.",
+      "priceEb": 95
     },
     {
       "id": "item_device_signal_jammer_portable",
       "name": "Portabler Signaljammer",
       "kind": "device",
       "description": "Ein tragbares Stoergeraet fuer kurze Zeitfenster, wenn Kommunikation, einfache Sensorik oder billige Steuerungssysteme instabil gemacht werden sollen.",
-      "rules_short": "Stoert oder verschlechtert Funk- und Nahbereichssignale in einem begrenzten Feld.",
-      "price_eb": 380
+      "rulesShort": "Stoert oder verschlechtert Funk- und Nahbereichssignale in einem begrenzten Feld.",
+      "priceEb": 380
     }
   ]
 }

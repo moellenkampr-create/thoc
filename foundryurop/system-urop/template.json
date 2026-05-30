@@ -8,30 +8,25 @@
           "fields": {}
         },
         "focus": {
-          "attributes": [],
+          "leadAttributes": [],
           "selectionLocked": true
         }
       },
       "attributes": {
-        "koerper": { "value": 2 },
-        "geist": { "value": 2 },
-        "praesenz": { "value": 2 }
+        "staerke": 2,
+        "grobmotorik": 2,
+        "feinmotorik": 2,
+        "konstitution": 2,
+        "analyse": 2,
+        "willenskraft": 2,
+        "aufmerksamkeit": 2,
+        "intuition": 2,
+        "ausdruck": 2,
+        "empathie": 2,
+        "dominanz": 2,
+        "resonanz": 2
       },
       "sizeClass": "G3",
-      "facets": {
-        "staerke": 0,
-        "grobmotorik": 0,
-        "feinmotorik": 0,
-        "konstitution": 0,
-        "analyse": 0,
-        "willenskraft": 0,
-        "aufmerksamkeit": 0,
-        "intuition": 0,
-        "ausdruck": 0,
-        "empathie": 0,
-        "dominanz": 0,
-        "resonanz": 0
-      },
       "skills": {
         "athletik": 0,
         "nahkampf": 0,
@@ -46,7 +41,7 @@
         "fahrzeuge": 0
       },
       "initiative": {
-        "anchor": "koerper",
+        "leadAttribute": "koerper",
         "baseMod": 0,
         "target": 0,
         "situational": 0,

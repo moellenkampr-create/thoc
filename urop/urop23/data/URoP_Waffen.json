@@ -1,23 +1,23 @@
 {
-  "schema_version": "2.2",
+  "schemaVersion": "2.2",
   "type": "urop_weapons",
-  "authoritative_note": "Fuehrende Datenquelle fuer Waffen in URoP. Die Struktur bleibt spielorientiert und bewusst schlanker als echte Waffenkunde.",
-  "design_note": "Waffen fuehren nur die Felder, die fuer Spielgefuehl, Foundry-Einordnung und spaetere Pflege echten Nutzen haben. Feinere Schnitt-, Stich- oder Schlaglogik bleibt im Beschreibungstext oder Regeltext.",
-  "effect_scale": {
+  "authoritativeNote": "Fuehrende Datenquelle fuer Waffen in URoP. Die Struktur bleibt spielorientiert und bewusst schlanker als echte Waffenkunde.",
+  "designNote": "Waffen fuehren nur die Felder, die fuer Spielgefuehl, Foundry-Einordnung und spaetere Pflege echten Nutzen haben. Feinere Schnitt-, Stich- oder Schlaglogik bleibt im Beschreibungstext oder Regeltext.",
+  "effectScale": {
     "1": "reduzierter Druck",
     "2": "Druck",
     "3": "Leichte Konsequenz",
     "4": "Schwere Konsequenz",
     "5": "Kritische Konsequenz"
   },
-  "currency_unit": "EB",
-  "currency_aliases": [
+  "currencyUnit": "EB",
+  "currencyAliases": [
     "ebbies",
     "Eurodollar",
     "Eurobuck"
   ],
   "enums": {
-    "combat_mode": [
+    "combatMode": [
       "melee",
       "ranged",
       "hybrid"
@@ -36,7 +36,7 @@
       "bogen",
       "armbrust"
     ],
-    "size_class": [
+    "sizeClass": [
       "G1",
       "G2",
       "G3",
@@ -50,30 +50,30 @@
       "excellent",
       "masterwork"
     ],
-    "fire_modes": [
+    "fireModes": [
       "single",
       "burst",
       "auto",
       "continuous"
     ],
-    "handling_profile": [
+    "handlingProfile": [
       "direct",
       "platform_only"
     ],
-    "attack_patterns": [
+    "attackPatterns": [
       "point",
       "cone",
       "line",
       "area"
     ],
-    "melee_reach_classes": [
+    "meleeReachClasses": [
       "handgemenge",
       "nahkampf",
       "lang",
       "stange"
     ]
   },
-  "field_schema": {
+  "fieldSchema": {
     "id": {
       "required": true,
       "type": "string",
@@ -89,7 +89,7 @@
       "type": "string",
       "description": "Spielorientierte Hauptkategorie fuer Ordnung, Foundry und grobe Handhabung"
     },
-    "combat_mode": {
+    "combatMode": {
       "required": true,
       "type": "string",
       "description": "melee, ranged oder hybrid"
@@ -99,32 +99,32 @@
       "type": "string",
       "description": "Beschreibender Fliesstext; hier koennen Schnitt-, Stich-, Schlag- oder Hybridcharakter stehen"
     },
-    "handling_profile": {
+    "handlingProfile": {
       "required": false,
       "type": "string",
       "description": "Kennzeichnung fuer Fuehrung: direct (normal fuehrbar) oder platform_only (nur als Plattform-/Fahrzeug-/Turmwaffe sinnvoll)"
     },
-    "rules_short": {
+    "rulesShort": {
       "required": true,
       "type": "string",
       "description": "Kurze regeltechnische Kernaussage"
     },
-    "price_eb": {
+    "priceEb": {
       "required": true,
       "type": "number",
       "description": "Referenzpreis in EB"
     },
-    "designed_for_size_class": {
+    "designedForSizeClass": {
       "required": true,
       "type": "string",
       "description": "Fuer welche Nutzergroesse die Waffe primaer gebaut ist (G1-G6, nicht vehicle)"
     },
-    "effective_against_class": {
+    "effectiveAgainstClass": {
       "required": true,
       "type": "string",
       "description": "Gegen welche Zielgroesse oder Zielklasse der Basiseffekt primaer gelesen wird (G1-G6 oder vehicle); ersetzt den frueher diskutierten Gedanken eines zweiten Schadenswerts"
     },
-    "damage_baseline": {
+    "damageBaseline": {
       "required": true,
       "type": "integer",
       "minimum": 1,
@@ -136,7 +136,7 @@
       "type": "string",
       "description": "Grobe Qualitaetseinstufung"
     },
-    "magazine_capacity": {
+    "magazineCapacity": {
       "required": false,
       "type": [
         "integer",
@@ -144,7 +144,7 @@
       ],
       "description": "Magazingroesse oder Ladekapazitaet, falls relevant"
     },
-    "fire_modes": {
+    "fireModes": {
       "required": false,
       "type": [
         "array",
@@ -155,7 +155,7 @@
       },
       "description": "Verfuegbare Feuerarten fuer Fernkampfwaffen"
     },
-    "attack_pattern": {
+    "attackPattern": {
       "required": false,
       "type": [
         "string",
@@ -163,7 +163,7 @@
       ],
       "description": "Raumwirkung des Angriffs: point, cone, line oder area"
     },
-    "melee_reach_classes": {
+    "meleeReachClasses": {
       "required": false,
       "type": [
         "array",
@@ -174,7 +174,7 @@
       },
       "description": "Aktive Nahkampfreichweiten; mehrere Eintraege sind erlaubt"
     },
-    "range_bands": {
+    "rangeBands": {
       "required": false,
       "type": [
         "object",
@@ -202,16 +202,16 @@
       "id": "weapon_knife_combat_std",
       "name": "Kampfmesser",
       "category": "kleinwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Standardisiertes Kampf- oder Gebrauchsmesser.",
-      "rules_short": "Leichte bis ernste Nahkampfwaffe im direkten Kontakt.",
-      "price_eb": 40,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 3,
+      "rulesShort": "Leichte bis ernste Nahkampfwaffe im direkten Kontakt.",
+      "priceEb": 40,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "handgemenge",
         "nahkampf"
       ]
@@ -220,16 +220,16 @@
       "id": "weapon_baton_telescopic_std",
       "name": "Teleskopschlagstock",
       "category": "kleinwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Ausziehbarer Schlagstock fuer Polizei, Sicherheit und verdeckte Traeger.",
-      "rules_short": "Kontrollwaffe fuer Druck, Schmerz und nichtletale Gewalt.",
-      "price_eb": 80,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 2,
+      "rulesShort": "Kontrollwaffe fuer Druck, Schmerz und nichtletale Gewalt.",
+      "priceEb": 80,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 2,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "handgemenge",
         "nahkampf"
       ]
@@ -238,16 +238,16 @@
       "id": "weapon_machete_field_std",
       "name": "Feldmachete",
       "category": "nahkampfwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Schwere Machete fuer Busch, Werkstatt und harte Nahkampfeinsaetze.",
-      "rules_short": "Rohe Nahkampf- und Werkzeugwaffe mit guter Schnittwirkung.",
-      "price_eb": 60,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 3,
+      "rulesShort": "Rohe Nahkampf- und Werkzeugwaffe mit guter Schnittwirkung.",
+      "priceEb": 60,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "nahkampf"
       ]
     },
@@ -255,16 +255,16 @@
       "id": "weapon_sword_longsword_std",
       "name": "Langschwert",
       "category": "zweihandwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Militaerisch oder zeremoniell gefuehrtes Langschwert im menschlichen Groessenraum.",
-      "rules_short": "Ernsthafte Nahkampfwaffe mit hoher Wirkung gegen ungeschuetzte Ziele.",
-      "price_eb": 180,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Ernsthafte Nahkampfwaffe mit hoher Wirkung gegen ungeschuetzte Ziele.",
+      "priceEb": 180,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "nahkampf",
         "lang"
       ]
@@ -273,16 +273,16 @@
       "id": "weapon_hammer_war_std",
       "name": "Kriegshammer",
       "category": "zweihandwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Massive Schlagwaffe fuer gepanzerte Gegner oder Durchbruch im Nahkampf.",
-      "rules_short": "Wuchtige Schlagwaffe fuer hohe rohe Wirkung auf kurze Distanz.",
-      "price_eb": 220,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Wuchtige Schlagwaffe fuer hohe rohe Wirkung auf kurze Distanz.",
+      "priceEb": 220,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "nahkampf",
         "lang"
       ]
@@ -291,20 +291,20 @@
       "id": "weapon_taser_pistol_std",
       "name": "Taserpistole",
       "category": "handfeuerwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Elektrische Kontrollwaffe fuer Polizei, Security und Zwangseinsatz.",
-      "rules_short": "Kurzreichweitige Kontrollwaffe mit primaer nichtletaler Wirkung.",
-      "price_eb": 250,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 2,
+      "rulesShort": "Kurzreichweitige Kontrollwaffe mit primaer nichtletaler Wirkung.",
+      "priceEb": 250,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 2,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 5,
         "mittel": 10,
         "weit": 15,
@@ -315,20 +315,20 @@
       "id": "weapon_pistol_service_9mm",
       "name": "9mm Dienstpistole",
       "category": "handfeuerwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Verbreitete halbautomatische Dienstpistole.",
-      "rules_short": "Standard-Kurzwaffe gegen Personalziele.",
-      "price_eb": 450,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Standard-Kurzwaffe gegen Personalziele.",
+      "priceEb": 450,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "magazine_capacity": 15,
-      "fire_modes": [
+      "magazineCapacity": 15,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 10,
         "mittel": 25,
         "weit": 50,
@@ -339,20 +339,20 @@
       "id": "weapon_revolver_heavy_44",
       "name": ".44 Schwerer Revolver",
       "category": "handfeuerwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Großkalibriger Revolver fuer Jagd, Abschreckung und harte Einzelziele.",
-      "rules_short": "Kurzwaffe mit hoher roher Wirkung und geringerem Komfort als Dienstpistolen.",
-      "price_eb": 550,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Kurzwaffe mit hoher roher Wirkung und geringerem Komfort als Dienstpistolen.",
+      "priceEb": 550,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "magazine_capacity": 6,
-      "fire_modes": [
+      "magazineCapacity": 6,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 10,
         "mittel": 30,
         "weit": 60,
@@ -363,22 +363,22 @@
       "id": "weapon_machinepistol_compact_9mm",
       "name": "Kompakte Maschinenpistole",
       "category": "handfeuerwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Kleine Maschinenpistole fuer Sicherheitskraefte, Spezialeinsaetze und kriminelle Nutzung.",
-      "rules_short": "Kompakte automatische Waffe fuer Nahraum und kurze Feuerstoesse.",
-      "price_eb": 700,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Kompakte automatische Waffe fuer Nahraum und kurze Feuerstoesse.",
+      "priceEb": 700,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "magazine_capacity": 20,
-      "fire_modes": [
+      "magazineCapacity": 20,
+      "fireModes": [
         "single",
         "burst",
         "auto"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 10,
         "mittel": 25,
         "weit": 50,
@@ -389,22 +389,22 @@
       "id": "weapon_smg_service_9mm",
       "name": "Dienst-SMG",
       "category": "gewehr",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Dienstliche Maschinenpistole mit Schulterstuetze und einsatznaher Ergonomie.",
-      "rules_short": "Kurzdistanzaffe fuer kontrolliertere Feuerstoesse als die kompakte Maschinenpistole.",
-      "price_eb": 950,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Kurzdistanzaffe fuer kontrolliertere Feuerstoesse als die kompakte Maschinenpistole.",
+      "priceEb": 950,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "magazine_capacity": 30,
-      "fire_modes": [
+      "magazineCapacity": 30,
+      "fireModes": [
         "single",
         "burst",
         "auto"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 15,
         "mittel": 40,
         "weit": 80,
@@ -415,22 +415,22 @@
       "id": "weapon_rifle_service_556",
       "name": "5.56 Dienstgewehr",
       "category": "gewehr",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Verbreitetes Dienst- oder Sturmgewehr im menschlichen Groessenraum.",
-      "rules_short": "Standard-Gewehr fuer mittlere bis weitere Distanzen.",
-      "price_eb": 1200,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Standard-Gewehr fuer mittlere bis weitere Distanzen.",
+      "priceEb": 1200,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "magazine_capacity": 30,
-      "fire_modes": [
+      "magazineCapacity": 30,
+      "fireModes": [
         "single",
         "burst",
         "auto"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 25,
         "mittel": 75,
         "weit": 200,
@@ -441,21 +441,21 @@
       "id": "weapon_battle_rifle_762",
       "name": "7.62 Battle Rifle",
       "category": "gewehr",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Leistungsstarkes Kampfgewehr fuer offene Gefechtsfelder und harte Ziele.",
-      "rules_short": "Schweres Gefechtsgewehr mit hoher Personalwirkung und starker Rueckstosskontrolle-Anforderung.",
-      "price_eb": 1600,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G4",
-      "damage_baseline": 5,
+      "rulesShort": "Schweres Gefechtsgewehr mit hoher Personalwirkung und starker Rueckstosskontrolle-Anforderung.",
+      "priceEb": 1600,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G4",
+      "damageBaseline": 5,
       "quality": "standard",
-      "magazine_capacity": 20,
-      "fire_modes": [
+      "magazineCapacity": 20,
+      "fireModes": [
         "single",
         "burst"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 25,
         "mittel": 100,
         "weit": 250,
@@ -466,21 +466,21 @@
       "id": "weapon_shotgun_pump_12g",
       "name": "12G Pump-Schrotflinte",
       "category": "shotgun",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Schwere Schrotflinte fuer Hauskampf, Breach und harte kurze Distanzen.",
-      "rules_short": "Sehr harte Nah- und Kurzdistanzwaffe mit Streucharakter.",
-      "price_eb": 800,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 5,
+      "rulesShort": "Sehr harte Nah- und Kurzdistanzwaffe mit Streucharakter.",
+      "priceEb": 800,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 5,
       "quality": "standard",
-      "magazine_capacity": 8,
-      "fire_modes": [
+      "magazineCapacity": 8,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "cone",
-      "range_bands": {
+      "attackPattern": "cone",
+      "rangeBands": {
         "nah": 8,
         "mittel": 20,
         "weit": 35,
@@ -491,20 +491,20 @@
       "id": "weapon_marksman_rifle_762",
       "name": "Praezisionsgewehr 7.62",
       "category": "sniper",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Schweres Praezisionsgewehr fuer kontrollierte Einzelziele und weite Linien.",
-      "rules_short": "Praezisionswaffe fuer gezielte Wirkung auf mittlere bis extreme Distanz.",
-      "price_eb": 1800,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G4",
-      "damage_baseline": 5,
+      "rulesShort": "Praezisionswaffe fuer gezielte Wirkung auf mittlere bis extreme Distanz.",
+      "priceEb": 1800,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G4",
+      "damageBaseline": 5,
       "quality": "standard",
-      "magazine_capacity": 10,
-      "fire_modes": [
+      "magazineCapacity": 10,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 30,
         "mittel": 120,
         "weit": 300,
@@ -515,20 +515,20 @@
       "id": "weapon_launcher_av_mk1",
       "name": "AV-Werfer MK1",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Tragbarer Werfer fuer Grossziele, Panzerung und Strukturziele.",
-      "rules_short": "Schultergestuetzte AV-Waffe gegen Fahrzeuge und schwere Ziele.",
-      "price_eb": 6500,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 5,
+      "rulesShort": "Schultergestuetzte AV-Waffe gegen Fahrzeuge und schwere Ziele.",
+      "priceEb": 6500,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 5,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 20,
         "mittel": 75,
         "weit": 250,
@@ -539,16 +539,16 @@
       "id": "weapon_knuckles_steel_std",
       "name": "Stahl-Schlagring",
       "category": "kleinwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Verdeckte Faustverstaerkung fuer rohe direkte Gewalt auf Handgemenge-Distanz.",
-      "rules_short": "Kleine versteckbare Nahkampfwaffe fuer brutale kurze Treffer.",
-      "price_eb": 35,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 2,
+      "rulesShort": "Kleine versteckbare Nahkampfwaffe fuer brutale kurze Treffer.",
+      "priceEb": 35,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 2,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "handgemenge"
       ]
     },
@@ -556,16 +556,16 @@
       "id": "weapon_bat_aluminum_std",
       "name": "Alu-Baseballschlaeger",
       "category": "nahkampfwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Sportgeraet, Strassenwaffe und Einschuechterungswerkzeug zugleich.",
-      "rules_short": "Guenstige Schlagwaffe mit ordentlicher Wucht und einfacher Handhabung.",
-      "price_eb": 55,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 3,
+      "rulesShort": "Guenstige Schlagwaffe mit ordentlicher Wucht und einfacher Handhabung.",
+      "priceEb": 55,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "nahkampf",
         "lang"
       ]
@@ -574,16 +574,16 @@
       "id": "weapon_crowbar_utility_std",
       "name": "Brechstange",
       "category": "nahkampfwaffe",
-      "combat_mode": "melee",
-      "handling_profile": "direct",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
       "description": "Werkzeug mit klarer Zweitkarriere als improvisierte Nahkampfwaffe.",
-      "rules_short": "Robuste Hebel- und Schlagwaffe fuer Aufbruch und direkte Gewalt.",
-      "price_eb": 30,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 3,
+      "rulesShort": "Robuste Hebel- und Schlagwaffe fuer Aufbruch und direkte Gewalt.",
+      "priceEb": 30,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
       "quality": "standard",
-      "melee_reach_classes": [
+      "meleeReachClasses": [
         "handgemenge",
         "nahkampf"
       ]
@@ -592,20 +592,20 @@
       "id": "weapon_holdout_pistol_22",
       "name": "Holdout-Pistole .22",
       "category": "handfeuerwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Winzige Pistole fuer Verbergen, Notfaelle und letzte Chancen.",
-      "rules_short": "Leicht versteckbare Kleinstwaffe mit begrenzter Wirkung und kurzer Reichweite.",
-      "price_eb": 180,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G2",
-      "damage_baseline": 2,
+      "rulesShort": "Leicht versteckbare Kleinstwaffe mit begrenzter Wirkung und kurzer Reichweite.",
+      "priceEb": 180,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G2",
+      "damageBaseline": 2,
       "quality": "standard",
-      "magazine_capacity": 6,
-      "fire_modes": [
+      "magazineCapacity": 6,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 5,
         "mittel": 12,
         "weit": 20,
@@ -616,20 +616,20 @@
       "id": "weapon_pistol_budget_9mm",
       "name": "Budgetpistole 9mm",
       "category": "handfeuerwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Billige Massenpistole fuer Zivilmarkt, Gangs und Leute mit knappem Budget.",
-      "rules_short": "Guenstige Standard-Kurzwaffe mit solider Wirkung, aber geringerer Verarbeitungsqualitaet.",
-      "price_eb": 220,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 3,
+      "rulesShort": "Guenstige Standard-Kurzwaffe mit solider Wirkung, aber geringerer Verarbeitungsqualitaet.",
+      "priceEb": 220,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
       "quality": "poor",
-      "magazine_capacity": 12,
-      "fire_modes": [
+      "magazineCapacity": 12,
+      "fireModes": [
         "single"
       ],
-      "range_bands": {
+      "rangeBands": {
         "nah": 8,
         "mittel": 20,
         "weit": 40,
@@ -640,21 +640,21 @@
       "id": "weapon_shotgun_doublebarrel_12g",
       "name": "Doppellauf-Schrotflinte 12G",
       "category": "shotgun",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Einfache zivile oder jagdliche Schrotflinte mit zwei schnellen harten Schuessen.",
-      "rules_short": "Kurze, harte Schrotwaffe mit wenig Kapazitaet und starker Praesenz auf kurzer Distanz.",
-      "price_eb": 420,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 5,
+      "rulesShort": "Kurze, harte Schrotwaffe mit wenig Kapazitaet und starker Praesenz auf kurzer Distanz.",
+      "priceEb": 420,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 5,
       "quality": "standard",
-      "magazine_capacity": 2,
-      "fire_modes": [
+      "magazineCapacity": 2,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "cone",
-      "range_bands": {
+      "attackPattern": "cone",
+      "rangeBands": {
         "nah": 6,
         "mittel": 15,
         "weit": 25,
@@ -665,22 +665,22 @@
       "id": "weapon_turret_hmg_127",
       "name": "Turret-HMG 12.7",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "platform_only",
+      "combatMode": "ranged",
+      "handlingProfile": "platform_only",
       "description": "Schweres stationaeres MG fuer Turm-, Tor- oder Fahrzeuglafetten mit stabiler Munitionszufuhr.",
-      "rules_short": "Plattformgebundene Dauerfeuerwaffe zur Raumkontrolle und gegen leichte Fahrzeugziele.",
-      "price_eb": 9200,
-      "designed_for_size_class": "G6",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 5,
+      "rulesShort": "Plattformgebundene Dauerfeuerwaffe zur Raumkontrolle und gegen leichte Fahrzeugziele.",
+      "priceEb": 9200,
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 5,
       "quality": "excellent",
-      "magazine_capacity": 200,
-      "fire_modes": [
+      "magazineCapacity": 200,
+      "fireModes": [
         "burst",
         "auto"
       ],
-      "attack_pattern": "point",
-      "range_bands": {
+      "attackPattern": "point",
+      "rangeBands": {
         "nah": 40,
         "mittel": 180,
         "weit": 450,
@@ -691,22 +691,22 @@
       "id": "weapon_vehicle_laser_lance",
       "name": "Fahrzeug-Laserlanze",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "platform_only",
+      "combatMode": "ranged",
+      "handlingProfile": "platform_only",
       "description": "Gebuendeltes Strahlsystem fuer Fahrzeug- oder Turmplattformen, ausgelegt auf Praezisionsdruck gegen harte Ziele.",
-      "rules_short": "Plattformgebundene Strahlwaffe mit kontinuierlichem Feuermodus und linienfoermiger Wirkung.",
-      "price_eb": 14500,
-      "designed_for_size_class": "G6",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 5,
+      "rulesShort": "Plattformgebundene Strahlwaffe mit kontinuierlichem Feuermodus und linienfoermiger Wirkung.",
+      "priceEb": 14500,
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 5,
       "quality": "masterwork",
-      "magazine_capacity": null,
-      "fire_modes": [
+      "magazineCapacity": null,
+      "fireModes": [
         "single",
         "continuous"
       ],
-      "attack_pattern": "line",
-      "range_bands": {
+      "attackPattern": "line",
+      "rangeBands": {
         "nah": 60,
         "mittel": 220,
         "weit": 500,
@@ -717,21 +717,21 @@
       "id": "weapon_flame_projector_mk2",
       "name": "Flammenprojektor MK2",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "platform_only",
+      "combatMode": "ranged",
+      "handlingProfile": "platform_only",
       "description": "Mittleres Flammenprojektsystem fuer Fahrzeug- oder stationaere Plattformen mit kurzer, flaechiger Wirkzone.",
-      "rules_short": "Plattformgebundene Nahbereichswaffe mit kontinuierlichem Kegelangriff zur Raumverweigerung.",
-      "price_eb": 11800,
-      "designed_for_size_class": "G6",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 4,
+      "rulesShort": "Plattformgebundene Nahbereichswaffe mit kontinuierlichem Kegelangriff zur Raumverweigerung.",
+      "priceEb": 11800,
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 4,
       "quality": "excellent",
-      "magazine_capacity": null,
-      "fire_modes": [
+      "magazineCapacity": null,
+      "fireModes": [
         "continuous"
       ],
-      "attack_pattern": "cone",
-      "range_bands": {
+      "attackPattern": "cone",
+      "rangeBands": {
         "nah": 20,
         "mittel": 40,
         "weit": 60,
@@ -742,21 +742,21 @@
       "id": "weapon_grenade_frag_std",
       "name": "Handgranate (Splitter)",
       "category": "wurfwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Wirksame Splittergranate fuer Nahbereichsverteidigung und Kampf lokal begrenzter Bereiche.",
-      "rules_short": "Flaechen-Wurfwaffe mit Sprengwirkung und Splittereffekt im Nah- bis Mittelbreich.",
-      "price_eb": 85,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 4,
+      "rulesShort": "Flaechen-Wurfwaffe mit Sprengwirkung und Splittereffekt im Nah- bis Mittelbreich.",
+      "priceEb": 85,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 5,
         "mittel": 15,
         "weit": 25,
@@ -767,21 +767,21 @@
       "id": "weapon_grenade_thermal_std",
       "name": "Waerme-Granate",
       "category": "wurfwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Inkendiaergranate fuer Saeuberings-, Abwehr- und Zugangsblockade. Erzeugt anhaltende Hitze- und Brandeffekte.",
-      "rules_short": "Flaechiges Waffesystem mit Thermische Wirkung und Kontrolleffekt; typisch fuer Einsaetze gegen Positionen und Verbarrikadierungen.",
-      "price_eb": 120,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 3,
+      "rulesShort": "Flaechiges Waffesystem mit Thermische Wirkung und Kontrolleffekt; typisch fuer Einsaetze gegen Positionen und Verbarrikadierungen.",
+      "priceEb": 120,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 5,
         "mittel": 15,
         "weit": 25,
@@ -792,21 +792,21 @@
       "id": "weapon_grenade_emp_std",
       "name": "EMP-Granate",
       "category": "wurfwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Spezialisiertes Infrastruktur-Stoerimpuls im Wurf. Zerstoert oder lahmt elektronische Systeme, Cybersysteme, elektrische Verbarrikaden.",
-      "rules_short": "Nicht-kinetische Effektgranate mit elektromagnetischem Stoerpuls; Primaerefekt auf Cyberware, Sensoren und Elektronik.",
-      "price_eb": 225,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 1,
+      "rulesShort": "Nicht-kinetische Effektgranate mit elektromagnetischem Stoerpuls; Primaerefekt auf Cyberware, Sensoren und Elektronik.",
+      "priceEb": 225,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 1,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 5,
         "mittel": 15,
         "weit": 25,
@@ -817,21 +817,21 @@
       "id": "weapon_grenade_smoke_std",
       "name": "Rauchgranate",
       "category": "wurfwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Dichter Rauchabwurf fuer Verdeckung, Deckung und Linienuendung. Reduziert Sichtbarkeit und optische Zielerfassung.",
-      "rules_short": "Verdeckungs- und Kontrollgranate; erzeugt dichtes Rauchfeld fuer taktische Mobiliaet und Sensorenblindung.",
-      "price_eb": 45,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 0,
+      "rulesShort": "Verdeckungs- und Kontrollgranate; erzeugt dichtes Rauchfeld fuer taktische Mobiliaet und Sensorenblindung.",
+      "priceEb": 45,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 0,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 5,
         "mittel": 15,
         "weit": 25,
@@ -842,21 +842,21 @@
       "id": "weapon_grenade_flash_std",
       "name": "Blendgranate",
       "category": "wurfwaffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Intensive Blitz- und Donnereffekte fuer Desorientierung und temporaere Kampfunfaehigkeit. Wirkt durch sichtbarkeits- und Sensor-Betaeubeung.",
-      "rules_short": "Sensorenstoergranate mit intensivem Blitz- und Schalleffekt; primaer zur Desorientierung von Zielgruppen.",
-      "price_eb": 65,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "G3",
-      "damage_baseline": 1,
+      "rulesShort": "Sensorenstoergranate mit intensivem Blitz- und Schalleffekt; primaer zur Desorientierung von Zielgruppen.",
+      "priceEb": 65,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 1,
       "quality": "standard",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 5,
         "mittel": 15,
         "weit": 25,
@@ -867,21 +867,21 @@
       "id": "weapon_launcher_av_mk1_std",
       "name": "AV-Werfer MK1",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Schulter-tragbares Antivehikel-Raketensystem mit Standard-Splittergefechtskoepfen. Wirkt gegen Fahrzeuge, stationaere Ziele und gepanzerte Positionen.",
-      "rules_short": "Tragbare Raketenwaffe mit Bereichswirkung gegen Fa hrzeugs- und Infrastrukturziele.",
-      "price_eb": 5400,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 5,
+      "rulesShort": "Tragbare Raketenwaffe mit Bereichswirkung gegen Fa hrzeugs- und Infrastrukturziele.",
+      "priceEb": 5400,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 5,
       "quality": "excellent",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 50,
         "mittel": 200,
         "weit": 500,
@@ -892,21 +892,21 @@
       "id": "weapon_launcher_guided_missile_std",
       "name": "Gelenkflugkoerper (Guided Missile)",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "platform_only",
+      "combatMode": "ranged",
+      "handlingProfile": "platform_only",
       "description": "Fahrzeug-montierter Lenkflugkoerper mit aktiver Zielerfassung und intelligenter Navigationssteuerung. Fuer praeventive Luftabwehr und Praesenzkontrolle.",
-      "rules_short": "Plattformgebundenes Lenkwaffen-System mit hoher Intelligenz und Treffquote gegen mobile und stationaere Fernziele.",
-      "price_eb": 9850,
-      "designed_for_size_class": "G6",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 5,
+      "rulesShort": "Plattformgebundenes Lenkwaffen-System mit hoher Intelligenz und Treffquote gegen mobile und stationaere Fernziele.",
+      "priceEb": 9850,
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 5,
       "quality": "masterwork",
-      "magazine_capacity": 2,
-      "fire_modes": [
+      "magazineCapacity": 2,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 100,
         "mittel": 400,
         "weit": 1000,
@@ -917,21 +917,21 @@
       "id": "weapon_launcher_specialized_breach",
       "name": "Spezialisierter Raketenwerfer (Breach-Variante)",
       "category": "schwere_waffe",
-      "combat_mode": "ranged",
-      "handling_profile": "direct",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
       "description": "Kurzstrecken-Raketenladung fuer Zugangsoeffnung, Barrikadensprengung und Einsatzoeffnungen. Niedrigere Reichweite, hohe Praezision auf kurze Entfernung.",
-      "rules_short": "Tragbare spezialisierte Kurzstrecken-Raketenwaffe fuer Infrastruktur-Eingriff und offensive Zugangseroeffnung.",
-      "price_eb": 3200,
-      "designed_for_size_class": "G3",
-      "effective_against_class": "vehicle",
-      "damage_baseline": 4,
+      "rulesShort": "Tragbare spezialisierte Kurzstrecken-Raketenwaffe fuer Infrastruktur-Eingriff und offensive Zugangseroeffnung.",
+      "priceEb": 3200,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "vehicle",
+      "damageBaseline": 4,
       "quality": "excellent",
-      "magazine_capacity": 1,
-      "fire_modes": [
+      "magazineCapacity": 1,
+      "fireModes": [
         "single"
       ],
-      "attack_pattern": "area",
-      "range_bands": {
+      "attackPattern": "area",
+      "rangeBands": {
         "nah": 20,
         "mittel": 80,
         "weit": 200,

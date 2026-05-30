@@ -46,14 +46,14 @@
       "Temp": "Temporäre Felder"
     },
     "Field": {
-      "Anchor": "Initiativanker",
+      "LeadAttribute": "Leitattribut",
       "BaseMod": "Inibasis Mod",
       "Target": "Vergleichswert",
       "Situational": "Situationsmod",
-      "FocusAttributes": "Hauptattribute",
-      "FocusLock": "Hauptattribute sperren",
-      "FacetDelta": "Abw.",
-      "FacetTotal": "Gesamt",
+      "FocusAttributes": "Leitattribute",
+      "FocusLock": "Leitattribute sperren",
+      "FacetDelta": "Wert",
+      "FacetTotal": "Leitattribut",
       "EPTotal": "EP gesamt",
       "EPSpent": "EP ausgegeben",
       "RecalculateEP": "EP aktualisieren",
@@ -66,33 +66,33 @@
       "InternalNote": "Interne Notiz"
     },
     "Help": {
-      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Facetten, Fertigkeiten (inkl. Überhang) und Manöverkosten.",
-      "FocusAttributes": "Wähle bis zu zwei Hauptattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
-      "FacetDelta": "Abweichung zur Basis des Hauptattributs. Jede Stufe verändert den Facetten-Gesamtwert entsprechend.",
+      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Fertigkeiten (inkl. Überhang) und Manöverkosten; Leitattribute sind abgeleitet und kostenfrei.",
+      "FocusAttributes": "Wähle bis zu zwei Leitattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
+      "FacetDelta": "Konkreter Attributwert innerhalb des Leitattributs. Jede Stufe verändert den Wert direkt.",
       "TempTab": "Temp-Reiter für ausgelagerte Felder während der Iteration."
     },
     "Notification": {
       "EPSpentUpdated": "EP ausgegeben aktualisiert: {value}",
-      "FocusMaxTwo": "Es sind maximal zwei Hauptattribute erlaubt."
+      "FocusMaxTwo": "Es sind maximal zwei Leitattribute erlaubt."
     },
     "Attr": {
-      "KoerperHelp": "Körper – Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung",
-      "GeistHelp": "Geist – Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung",
-      "PraesenzHelp": "Präsenz – Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung"
+      "KoerperHelp": "Leitattribut Körper – Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung",
+      "GeistHelp": "Leitattribut Geist – Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung",
+      "PraesenzHelp": "Leitattribut Präsenz – Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung"
     },
     "Facet": {
-      "StaerkeHelp": "Stärke – rohe Kraft, Hebeln, Tragen, Wucht",
-      "GrobmotorikHelp": "Grobmotorik – große Bewegungskoordination, Sprint, Sprung, Nahkampf-Flow",
-      "FeinmotorikHelp": "Feinmotorik – Präzision, Fingerarbeit, ruhige Hand, feine Werkzeugführung",
-      "KonstitutionHelp": "Konstitution – Belastbarkeit, Erschöpfungsresistenz, Schmerz- und Toxintoleranz",
-      "AnalyseHelp": "Analyse – Muster erkennen, Logik, taktische Bewertung, Schlussfolgerung",
-      "WillenskraftHelp": "Willenskraft – mentale Standfestigkeit, Selbstkontrolle, Stressresistenz, innerer Gegendruck",
-      "AufmerksamkeitHelp": "Aufmerksamkeit – Wahrnehmung, Fokus halten, Reizfilter, situatives Lesen",
-      "IntuitionHelp": "Intuition – schnelle Urteile, Bauchentscheidungen, Lagegefühl, Sinnesintegration",
-      "AusdruckHelp": "Ausdruck – Absicht und Wirkung nach außen tragen, klar kommunizieren, auftreten",
-      "EmpathieHelp": "Empathie – Stimmungen und Motive lesen, soziales Feingehör, resonantes Verstehen",
-      "DominanzHelp": "Dominanz – Macht projizieren, Grenzen setzen, eigenen Willen gegen Widerstand behaupten",
-      "ResonanzHelp": "Resonanz – Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und übernatürlichen Feldern"
+      "StaerkeHelp": "Attribut Stärke – rohe Kraft, Hebeln, Tragen, Wucht",
+      "GrobmotorikHelp": "Attribut Grobmotorik – große Bewegungskoordination, Sprint, Sprung, Nahkampf-Flow",
+      "FeinmotorikHelp": "Attribut Feinmotorik – Präzision, Fingerarbeit, ruhige Hand, feine Werkzeugführung",
+      "KonstitutionHelp": "Attribut Konstitution – Belastbarkeit, Erschöpfungsresistenz, Schmerz- und Toxintoleranz",
+      "AnalyseHelp": "Attribut Analyse – Muster erkennen, Logik, taktische Bewertung, Schlussfolgerung",
+      "WillenskraftHelp": "Attribut Willenskraft – mentale Standfestigkeit, Selbstkontrolle, Stressresistenz, innerer Gegendruck",
+      "AufmerksamkeitHelp": "Attribut Aufmerksamkeit – Wahrnehmung, Fokus halten, Reizfilter, situatives Lesen",
+      "IntuitionHelp": "Attribut Intuition – schnelle Urteile, Bauchentscheidungen, Lagegefühl, Sinnesintegration",
+      "AusdruckHelp": "Attribut Ausdruck – Absicht und Wirkung nach außen tragen, klar kommunizieren, auftreten",
+      "EmpathieHelp": "Attribut Empathie – Stimmungen und Motive lesen, soziales Feingehör, resonantes Verstehen",
+      "DominanzHelp": "Attribut Dominanz – Macht projizieren, Grenzen setzen, eigenen Willen gegen Widerstand behaupten",
+      "ResonanzHelp": "Attribut Resonanz – Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und übernatürlichen Feldern"
     },
     "ItemType": {
       "gear": "Ausrüstung",

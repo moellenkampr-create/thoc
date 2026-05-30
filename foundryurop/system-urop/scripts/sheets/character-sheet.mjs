@@ -1,18 +1,24 @@
+import {
+  ATTRIBUTE_TO_LEAD_ATTRIBUTE,
+  applyFocusModifier,
+  buildDerivedLeadAttributes,
+  buildInitiativeValues,
+  buildResistanceValues,
+  calculateAttributeCost,
+  calculateInitiativeBase,
+  calculateSpentEpBreakdown,
+  focusModifierForAttribute,
+  isSkillAnchorMatchingFocus,
+  readSkillRuleAnchors,
+  resolveLeadAttributeAnchor,
+  skillFocusModifier,
+  skillOverhangCost,
+  roundCommercial,
+  toFiniteNumber
+} from "../urop-calculations.mjs";
+
 export class UropCharacterSheet extends ActorSheet {
-  static FACET_TO_ATTRIBUTE = {
-    staerke: "koerper",
-    grobmotorik: "koerper",
-    feinmotorik: "koerper",
-    konstitution: "koerper",
-    analyse: "geist",
-    willenskraft: "geist",
-    aufmerksamkeit: "geist",
-    intuition: "geist",
-    ausdruck: "praesenz",
-    empathie: "praesenz",
-    dominanz: "praesenz",
-    resonanz: "praesenz"
-  };
+  static ATTRIBUTE_TO_LEAD_ATTRIBUTE = ATTRIBUTE_TO_LEAD_ATTRIBUTE;
 
   static APPLICATION_CLASS_ORDER = {
     combat: 0,
@@ -47,8 +53,7 @@ export class UropCharacterSheet extends ActorSheet {
     const data = super.getData(options);
     const allItems = Array.from(this.actor.items.values()).map((i) => i.toObject());
     const attributes = this.actor.system.attributes || {};
-    const facets = this.actor.system.facets || {};
-    const focusAttributes = this.actor.system.meta?.focus?.attributes || [];
+    const focusLeadAttributes = this.actor.system.meta?.focus?.leadAttributes || [];
 
     data.itemGroups = {
       gear: allItems.filter((i) => i.type === "gear"),
@@ -72,10 +77,13 @@ export class UropCharacterSheet extends ActorSheet {
     };
     data.combatSkills = data.itemGroups.skill.filter((i) => i.system?.applicationClass === "combat");
 
-    data.facetTotals = this._buildFacetTotals(attributes, facets);
-    data.isKoerperFocus = focusAttributes.includes("koerper");
-    data.isGeistFocus = focusAttributes.includes("geist");
-    data.isPraesenzFocus = focusAttributes.includes("praesenz");
+    data.leadAttributeDerived = buildDerivedLeadAttributes(attributes);
+    this.leadAttributeDerived = data.leadAttributeDerived;
+    data.resistanceValues = buildResistanceValues(data.leadAttributeDerived);
+    data.initiativeValues = buildInitiativeValues(data.leadAttributeDerived);
+    data.isKoerperFocus = focusLeadAttributes.includes("koerper");
+    data.isGeistFocus = focusLeadAttributes.includes("geist");
+    data.isPraesenzFocus = focusLeadAttributes.includes("praesenz");
     data.isFocusSelectionLocked = this.actor.system.meta?.focus?.selectionLocked !== false;
 
     return data;
@@ -104,25 +112,36 @@ export class UropCharacterSheet extends ActorSheet {
     this._applyLockState(html);
   }
 
-  _buildFacetTotals(attributes, facets) {
-    const totals = {};
+  _getLeadAttributeGroups() {
+    return {
+      koerper: ["staerke", "grobmotorik", "feinmotorik", "konstitution"],
+      geist: ["analyse", "willenskraft", "aufmerksamkeit", "intuition"],
+      praesenz: ["ausdruck", "empathie", "dominanz", "resonanz"]
+    };
+  }
 
-    for (const [facetKey, attrKey] of Object.entries(UropCharacterSheet.FACET_TO_ATTRIBUTE)) {
-      const attrValue = Number(attributes?.[attrKey]?.value || 0);
-      const facetDelta = Number(facets?.[facetKey] || 0);
-      totals[facetKey] = attrValue + facetDelta;
-    }
+  _buildDerivedLeadAttributes(attributeValues) {
+    return buildDerivedLeadAttributes(attributeValues);
+  }
 
-    return totals;
+  _getDerivedLeadAttributeValue(attributeKey) {
+    return toFiniteNumber(this.leadAttributeDerived?.[attributeKey] ?? 0);
+  }
+
+  _buildResistanceValues(derivedLeadAttributes) {
+    return buildResistanceValues(derivedLeadAttributes);
+  }
+
+  _buildInitiativeValues(derivedLeadAttributes) {
+    return buildInitiativeValues(derivedLeadAttributes);
   }
 
   _toFiniteNumber(value, fallback = 0) {
-    const numeric = Number(value);
-    return Number.isFinite(numeric) ? numeric : fallback;
+    return toFiniteNumber(value, fallback);
   }
 
   _readLearnCostEp(item) {
-    return this._toFiniteNumber(item?.system?.learnCostEp ?? item?.system?.learn_cost_ep ?? 0);
+    return this._toFiniteNumber(item?.system?.learnCostEp ?? 0);
   }
 
   _readSkillLevel(item) {
@@ -131,17 +150,14 @@ export class UropCharacterSheet extends ActorSheet {
 
   _readSkillRuleAnchors(item) {
     const fromRuleAnchors = item?.system?.ruleAnchors;
-    const fromRuleAnchorsSnake = item?.system?.rule_anchors;
 
     const rawAnchors = Array.isArray(fromRuleAnchors)
       ? fromRuleAnchors
-      : Array.isArray(fromRuleAnchorsSnake)
-        ? fromRuleAnchorsSnake
-        : [];
+      : [];
 
     const anchors = rawAnchors.filter((anchor) => typeof anchor === "string" && anchor.trim().length > 0);
 
-    const attributeAnchor = item?.system?.attributeAnchor ?? item?.system?.attribute_anchor;
+    const attributeAnchor = item?.system?.attributeAnchor;
     if (typeof attributeAnchor === "string" && attributeAnchor.trim().length > 0) {
       anchors.push(attributeAnchor);
     }
@@ -150,88 +166,31 @@ export class UropCharacterSheet extends ActorSheet {
   }
 
   _attributeCost(value) {
-    const rawNumeric = Number(value || 0);
-    const numeric = Math.max(0, rawNumeric);
-
-    if (numeric === 2) return 0;
-    if (numeric === 1) return -40;
-    if (numeric === 0) return -90;
-
-    const table = {
-      3: 40,
-      4: 90,
-      5: 160,
-      6: 260
-    };
-
-    if (table[numeric] !== undefined) return table[numeric];
-    if (numeric > 6) return table[6] + (numeric - 6) * 100;
-
-    return 0;
+    return calculateAttributeCost(value);
   }
 
   _focusModifierForAttribute(attributeKey) {
-    const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
+    return focusModifierForAttribute(attributeKey, this.actor.system.meta?.focus?.leadAttributes || []);
+  }
 
-    if (focus.length === 1) {
-      return focus.includes(attributeKey) ? -0.2 : 0.1;
-    }
-
-    if (focus.length === 2) {
-      return focus.includes(attributeKey) ? -0.1 : 0.2;
-    }
-
-    return 0;
+  _roundCommercial(value) {
+    return roundCommercial(value);
   }
 
   _applyFocusModifier(cost, modifier) {
-    const result = Number(cost || 0) * (1 + Number(modifier || 0));
-    // Rundung zugunsten des Spielers.
-    return Math.floor(result);
+    return applyFocusModifier(cost, modifier);
   }
 
   _isSkillAnchorMatchingFocus(anchorValue) {
-    if (!anchorValue) return false;
-
-    const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
-    if (focus.length === 0) return false;
-
-    if (focus.includes(anchorValue)) return true;
-
-    const mappedAttribute = UropCharacterSheet.FACET_TO_ATTRIBUTE[anchorValue];
-    if (mappedAttribute && focus.includes(mappedAttribute)) return true;
-
-    return false;
+    return isSkillAnchorMatchingFocus(anchorValue, this.actor.system.meta?.focus?.leadAttributes || []);
   }
 
   _skillFocusModifier(item) {
-    const focus = Array.from(this.actor.system.meta?.focus?.attributes || []);
-    if (focus.length === 0) return 0;
-
-    const anchors = this._readSkillRuleAnchors(item);
-
-    const hasMatchingAnchor = anchors.some((anchor) => this._isSkillAnchorMatchingFocus(anchor));
-
-    if (focus.length === 1) {
-      return hasMatchingAnchor ? -0.2 : 0.1;
-    }
-
-    if (focus.length === 2) {
-      return hasMatchingAnchor ? -0.1 : 0.2;
-    }
-
-    return 0;
+    return skillFocusModifier(item, this.actor.system.meta?.focus?.leadAttributes || []);
   }
 
   _resolveAnchorAttribute(anchorValue) {
-    if (!anchorValue) return null;
-
-    if (this.actor.system.attributes?.[anchorValue]) return anchorValue;
-
-    const mappedAttribute = UropCharacterSheet.FACET_TO_ATTRIBUTE[anchorValue];
-    if (mappedAttribute) return mappedAttribute;
-
-    return null;
+    return resolveLeadAttributeAnchor(anchorValue);
   }
 
   _resolveSkillPrimaryAttribute(item) {
@@ -241,7 +200,7 @@ export class UropCharacterSheet extends ActorSheet {
       if (attrKey) return attrKey;
     }
 
-    return this._resolveAnchorAttribute(item.system?.attributeAnchor ?? item.system?.attribute_anchor);
+    return this._resolveAnchorAttribute(item.system?.attributeAnchor);
   }
 
   _skillOverhangCost(item) {
@@ -249,56 +208,18 @@ export class UropCharacterSheet extends ActorSheet {
     const attrKey = this._resolveSkillPrimaryAttribute(item);
     if (!attrKey) return 0;
 
-    const attrValue = this._toFiniteNumber(this.actor.system.attributes?.[attrKey]?.value || 0);
-    const overhang = level - attrValue;
-
-    if (overhang <= 0) return 0;
-    if (overhang === 1) return 30;
-
-    // +2 and above is exception area in rules; EP logic currently applies the highest defined surcharge.
-    return 90;
+    return skillOverhangCost(item, this.leadAttributeDerived || {});
   }
 
   _calculateSpentEpBreakdown() {
-    const attributes = Object.entries(this.actor.system.attributes || {}).reduce((sum, [attrKey, entry]) => {
-      const baseCost = this._attributeCost(entry?.value || 0);
-      const modifier = this._focusModifierForAttribute(attrKey);
-      return sum + this._toFiniteNumber(this._applyFocusModifier(baseCost, modifier));
-    }, 0);
-
-    const facets = Object.entries(this.actor.system.facets || {}).reduce((sum, [facetKey, value]) => {
-      const attrKey = UropCharacterSheet.FACET_TO_ATTRIBUTE[facetKey];
-      const baseCost = this._toFiniteNumber(value || 0) * 40;
-      const modifier = this._focusModifierForAttribute(attrKey);
-      return sum + this._toFiniteNumber(this._applyFocusModifier(baseCost, modifier));
-    }, 0);
-
-    const skills = Object.values(this.actor.system.skills || {}).reduce(
-      (sum, value) => sum + this._toFiniteNumber(value || 0),
-      0
-    );
-
-    const skillItems = Array.from(this.actor.items.values())
-      .filter((item) => item.type === "skill")
-      .reduce((sum, item) => {
-        const baseCost = this._readLearnCostEp(item);
-        const modifier = this._skillFocusModifier(item);
-        const overhangCost = this._skillOverhangCost(item);
-        return sum + this._toFiniteNumber(this._applyFocusModifier(baseCost, modifier)) + this._toFiniteNumber(overhangCost);
-      }, 0);
-
-    const maneuverEp = Array.from(this.actor.items.values())
-      .filter((item) => item.type === "maneuver")
-      .reduce((sum, item) => sum + this._readLearnCostEp(item), 0);
-
-    return {
-      attributes,
-      facets,
-      skills,
-      skillItems,
-      maneuverEp,
-      total: Math.max(0, this._toFiniteNumber(attributes + facets + skills + skillItems + maneuverEp))
-    };
+    return calculateSpentEpBreakdown({
+      attributes: this.actor.system.attributes || {},
+      skills: this.actor.system.skills || {},
+      skillItems: Array.from(this.actor.items.values()).filter((item) => item.type === "skill"),
+      maneuverItems: Array.from(this.actor.items.values()).filter((item) => item.type === "maneuver"),
+      focusLeadAttributes: this.actor.system.meta?.focus?.leadAttributes || [],
+      readLearnCostEp: (item) => this._readLearnCostEp(item)
+    });
   }
 
   async _refreshEpSpent() {
@@ -446,7 +367,7 @@ export class UropCharacterSheet extends ActorSheet {
       return;
     }
 
-    const current = Array.from(this.actor.system.meta?.focus?.attributes || []);
+    const current = Array.from(this.actor.system.meta?.focus?.leadAttributes || []);
     const has = current.includes(attrKey);
     const next = has ? current.filter((key) => key !== attrKey) : [...current, attrKey];
 
@@ -456,7 +377,7 @@ export class UropCharacterSheet extends ActorSheet {
       return;
     }
 
-    await this.actor.update({ "system.meta.focus.attributes": next });
+    await this.actor.update({ "system.meta.focus.leadAttributes": next });
     await this._refreshEpSpent();
   }
 
@@ -479,7 +400,10 @@ export class UropCharacterSheet extends ActorSheet {
     event.preventDefault();
 
     const init = this.actor.system.initiative;
-    const base = Number(init.baseMod || 0) + Number(this.actor.system.attributes?.[init.anchor]?.value || 0);
+    const base = calculateInitiativeBase({
+      initiative: init,
+      attributeValues: this.actor.system.attributes || {}
+    });
     const target = Number(init.target || 0);
     const situational = Number(init.situational || 0);
 

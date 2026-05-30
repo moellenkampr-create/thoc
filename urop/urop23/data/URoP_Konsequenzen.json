@@ -1,8 +1,8 @@
-﻿{
-  "schema_version": "2026-04-17_v2",
+{
+  "schemaVersion": "2026-04-17_v2",
   "type": "state_and_consequence_list",
-  "authoritative_note": "Fuehrende Datenquelle fuer kurzfristige Zustaende und anhaltende Konsequenzen. JSON ist die fuehrende Datenbasis, MD wird spaeter als Lesefassung abgeleitet.",
-  "design_notes": [
+  "authoritativeNote": "Fuehrende Datenquelle fuer kurzfristige Zustaende und anhaltende Konsequenzen. JSON ist die fuehrende Datenbasis, MD wird spaeter als Lesefassung abgeleitet.",
+  "designNotes": [
     "URoP trennt taktische Zustaende (schnell wechselnd, in der Szene) von Konsequenzen (anhaltend, stufenbasiert).",
     "Beide Listen teilen sich einen Feldkern, nutzen aber unterschiedliche Pflichtfelder fuer Abhandlung und Erholung.",
     "Konsequenzen laufen ueber vier Stufen: short_term, light, heavy, critical.",
@@ -31,19 +31,19 @@
       "heavy",
       "critical"
     ],
-    "action_cost": [
+    "actionCost": [
       "none",
       "free",
       "minor",
       "major",
       "full_turn"
     ],
-    "act_capability": [
+    "actCapability": [
       "full",
       "limited",
       "none"
     ],
-    "recovery_track": [
+    "recoveryTrack": [
       "auto_end_of_exchange",
       "auto_end_of_scene",
       "first_aid",
@@ -54,33 +54,33 @@
       "long_recovery"
     ]
   },
-  "shared_field_schema": {
+  "sharedFieldSchema": {
     "id": "Stabile interne Kennung",
     "name": "Anzeigename",
     "kind": "state oder consequence",
     "domain": "Regelbereich, in dem der Eintrag primaer verwendet wird",
     "description": "Fiction-first Bedeutung in Lesesprache",
-    "mechanical_effect": "Klare mechanische Auswirkung am Tisch",
-    "clear_condition": "Wie der Eintrag abgehandelt oder beendet wird",
-    "default_duration": "Typische Dauer ohne Sonderregeln",
+    "mechanicalEffect": "Klare mechanische Auswirkung am Tisch",
+    "clearCondition": "Wie der Eintrag abgehandelt oder beendet wird",
+    "defaultDuration": "Typische Dauer ohne Sonderregeln",
     "stacking": "none, replace, accumulate; als Kurztext",
-    "source_examples": "Kurze Quellenhinweise aus Vorbildsystemen"
+    "sourceExamples": "Kurze Quellenhinweise aus Vorbildsystemen"
   },
-  "state_field_schema": {
-    "action_to_clear": "Konkrete Aktion, die den Zustand beendet",
-    "action_cost": "none, free, minor, major, full_turn",
-    "can_act_while_active": "full, limited oder none",
-    "expires_automatically": "true/false",
-    "upgrades_to_consequence": "Optionale Folgekonsequenz bei Nichtbeachtung"
+  "stateFieldSchema": {
+    "actionToClear": "Konkrete Aktion, die den Zustand beendet",
+    "actionCost": "none, free, minor, major, full_turn",
+    "canActWhileActive": "full, limited oder none",
+    "expiresAutomatically": "true/false",
+    "upgradesToConsequence": "Optionale Folgekonsequenz bei Nichtbeachtung"
   },
-  "consequence_field_schema": {
+  "consequenceFieldSchema": {
     "severity": "short_term, light, heavy oder critical",
-    "overflow_to": "Naechste Stufe bei vollem Slot oder Eskalation",
-    "treatment_required": "true/false",
-    "recovery_track": "Primarer Erholungspfad",
-    "minimum_recovery_time": "Mindestdauer als Klartext",
-    "blocks_actions": "Optionale Liste gesperrter Aktionen/Faehigkeiten",
-    "can_downgrade": "Optionale Angabe, ob in niedrigere Stufe ueberfuehrbar"
+    "overflowTo": "Naechste Stufe bei vollem Slot oder Eskalation",
+    "treatmentRequired": "true/false",
+    "recoveryTrack": "Primarer Erholungspfad",
+    "minimumRecoveryTime": "Mindestdauer als Klartext",
+    "blocksActions": "Optionale Liste gesperrter Aktionen/Faehigkeiten",
+    "canDowngrade": "Optionale Angabe, ob in niedrigere Stufe ueberfuehrbar"
   },
   "states": [
     {
@@ -88,17 +88,17 @@
       "name": "Offen",
       "kind": "state",
       "domain": "combat",
-      "description": "Du bist kurzzeitig ungedeckt oder ungÃ¼nstig ausgerichtet und gibst eine klare Angriffschance.",
-      "mechanical_effect": "Gegnerische Angriffe gegen dich sind deutlich erleichtert.",
-      "clear_condition": "Endet nach dem naechsten gegen dich gerichteten Angriff oder durch sofortige Deckungsaktion.",
-      "default_duration": "Kurzfristig, meist bis zur naechsten gegnerischen Aktion.",
+      "description": "Du bist kurzzeitig ungedeckt oder ungünstig ausgerichtet und gibst eine klare Angriffschance.",
+      "mechanicalEffect": "Gegnerische Angriffe gegen dich sind deutlich erleichtert.",
+      "clearCondition": "Endet nach dem naechsten gegen dich gerichteten Angriff oder durch sofortige Deckungsaktion.",
+      "defaultDuration": "Kurzfristig, meist bis zur naechsten gegnerischen Aktion.",
       "stacking": "replace",
-      "source_examples": "Aehnlich zu vulnerable/opening states in taktischen Systemen.",
-      "action_to_clear": "Deckung suchen oder Distanz neu aufbauen",
-      "action_cost": "minor",
-      "can_act_while_active": "full",
-      "expires_automatically": true,
-      "upgrades_to_consequence": ""
+      "sourceExamples": "Aehnlich zu vulnerable/opening states in taktischen Systemen.",
+      "actionToClear": "Deckung suchen oder Distanz neu aufbauen",
+      "actionCost": "minor",
+      "canActWhileActive": "full",
+      "expiresAutomatically": true,
+      "upgradesToConsequence": ""
     },
     {
       "id": "st_prone",
@@ -106,16 +106,16 @@
       "kind": "state",
       "domain": "combat",
       "description": "Du liegst am Boden und hast schlechtere Mobilitaet und Winkel.",
-      "mechanical_effect": "Bewegung stark eingeschraenkt; viele Angriffe und Reaktionen sind erschwert.",
-      "clear_condition": "Aufstehen als Aktion. Beim Aufstehen giltst du bis zum Ende der Aktion als Offen.",
-      "default_duration": "Bis aktive Aufstehaktion oder fremde Hilfe.",
+      "mechanicalEffect": "Bewegung stark eingeschraenkt; viele Angriffe und Reaktionen sind erschwert.",
+      "clearCondition": "Aufstehen als Aktion. Beim Aufstehen giltst du bis zum Ende der Aktion als Offen.",
+      "defaultDuration": "Bis aktive Aufstehaktion oder fremde Hilfe.",
       "stacking": "none",
-      "source_examples": "Prone/Lying states in vielen Kampfregeln, u. a. GURPS.",
-      "action_to_clear": "Aufstehen",
-      "action_cost": "major",
-      "can_act_while_active": "limited",
-      "expires_automatically": false,
-      "upgrades_to_consequence": ""
+      "sourceExamples": "Prone/Lying states in vielen Kampfregeln, u. a. GURPS.",
+      "actionToClear": "Aufstehen",
+      "actionCost": "major",
+      "canActWhileActive": "limited",
+      "expiresAutomatically": false,
+      "upgradesToConsequence": ""
     },
     {
       "id": "st_dropped_weapon",
@@ -123,16 +123,16 @@
       "kind": "state",
       "domain": "gear",
       "description": "Die aktive Waffe wurde fallen gelassen, entwaffnet oder ist ausser Reichweite.",
-      "mechanical_effect": "Keine Nutzung der verlorenen Waffe bis Wiederaufnahme; Nahkampf ohne passende Reserve eingeschraenkt.",
-      "clear_condition": "Waffe aufnehmen oder auf Ersatzwaffe wechseln.",
-      "default_duration": "Bis Aufnahme oder Wechsel.",
+      "mechanicalEffect": "Keine Nutzung der verlorenen Waffe bis Wiederaufnahme; Nahkampf ohne passende Reserve eingeschraenkt.",
+      "clearCondition": "Waffe aufnehmen oder auf Ersatzwaffe wechseln.",
+      "defaultDuration": "Bis Aufnahme oder Wechsel.",
       "stacking": "replace",
-      "source_examples": "Disarm outcomes in Shadowrun und Song of Ice and Fire Roleplaying.",
-      "action_to_clear": "Aufheben oder Ziehen einer Ersatzwaffe",
-      "action_cost": "minor",
-      "can_act_while_active": "limited",
-      "expires_automatically": false,
-      "upgrades_to_consequence": "con_gear_lost_primary"
+      "sourceExamples": "Disarm outcomes in Shadowrun und Song of Ice and Fire Roleplaying.",
+      "actionToClear": "Aufheben oder Ziehen einer Ersatzwaffe",
+      "actionCost": "minor",
+      "canActWhileActive": "limited",
+      "expiresAutomatically": false,
+      "upgradesToConsequence": "con_gear_lost_primary"
     },
     {
       "id": "st_firearm_jam",
@@ -140,16 +140,16 @@
       "kind": "state",
       "domain": "gear",
       "description": "Die Schusswaffe hat eine Lade- oder Auswurfstoerung und feuert nicht sauber.",
-      "mechanical_effect": "Mit der betroffenen Waffe keine Angriffe moeglich.",
-      "clear_condition": "Stoerung beheben per Freimachaktion; bei Fehlschlag bleibt der Zustand bestehen.",
-      "default_duration": "Bis Freimachaktion oder Waffenwechsel.",
+      "mechanicalEffect": "Mit der betroffenen Waffe keine Angriffe moeglich.",
+      "clearCondition": "Stoerung beheben per Freimachaktion; bei Fehlschlag bleibt der Zustand bestehen.",
+      "defaultDuration": "Bis Freimachaktion oder Waffenwechsel.",
       "stacking": "none",
-      "source_examples": "Weapon jam/malfunction Konzepte in GURPS Tactical Shooting und Hausregeln vieler Systeme.",
-      "action_to_clear": "Klemmer freimachen",
-      "action_cost": "major",
-      "can_act_while_active": "limited",
-      "expires_automatically": false,
-      "upgrades_to_consequence": "con_weapon_damaged"
+      "sourceExamples": "Weapon jam/malfunction Konzepte in GURPS Tactical Shooting und Hausregeln vieler Systeme.",
+      "actionToClear": "Klemmer freimachen",
+      "actionCost": "major",
+      "canActWhileActive": "limited",
+      "expiresAutomatically": false,
+      "upgradesToConsequence": "con_weapon_damaged"
     },
     {
       "id": "st_string_snapped",
@@ -157,16 +157,16 @@
       "kind": "state",
       "domain": "gear",
       "description": "Die Fernkampfwaffe ist akut nicht einsatzbereit, weil die Sehne gerissen ist.",
-      "mechanical_effect": "Bogenangriffe unmoeglich, bis Material ersetzt und neu gespannt wurde.",
-      "clear_condition": "Sehne ersetzen und Bogen neu spannen ausserhalb direkter Bedrohung.",
-      "default_duration": "Haelt oft bis Szenenende an.",
+      "mechanicalEffect": "Bogenangriffe unmoeglich, bis Material ersetzt und neu gespannt wurde.",
+      "clearCondition": "Sehne ersetzen und Bogen neu spannen ausserhalb direkter Bedrohung.",
+      "defaultDuration": "Haelt oft bis Szenenende an.",
       "stacking": "none",
-      "source_examples": "Equipment breakage in gritty combat frameworks.",
-      "action_to_clear": "Neue Sehne anbringen",
-      "action_cost": "full_turn",
-      "can_act_while_active": "limited",
-      "expires_automatically": false,
-      "upgrades_to_consequence": "con_weapon_damaged"
+      "sourceExamples": "Equipment breakage in gritty combat frameworks.",
+      "actionToClear": "Neue Sehne anbringen",
+      "actionCost": "full_turn",
+      "canActWhileActive": "limited",
+      "expiresAutomatically": false,
+      "upgradesToConsequence": "con_weapon_damaged"
     },
     {
       "id": "st_alerted",
@@ -174,16 +174,16 @@
       "kind": "state",
       "domain": "quickhack",
       "description": "Ein Ziel oder System ist aufmerksam und sucht aktiv nach weiterer Stoerung.",
-      "mechanical_effect": "Folgeaktionen mit verdeckter Methode sind erschwert; Gegenmassnahmen wahrscheinlicher.",
-      "clear_condition": "Ablenkung, Zeitablauf oder Lagewechsel, der den Verdacht plausibel abbaut.",
-      "default_duration": "Bis Szenenende oder glaubwuerdige Beruhigung.",
+      "mechanicalEffect": "Folgeaktionen mit verdeckter Methode sind erschwert; Gegenmassnahmen wahrscheinlicher.",
+      "clearCondition": "Ablenkung, Zeitablauf oder Lagewechsel, der den Verdacht plausibel abbaut.",
+      "defaultDuration": "Bis Szenenende oder glaubwuerdige Beruhigung.",
       "stacking": "replace",
-      "source_examples": "Alert states in stealth/hacking loops von Cyberpunk und Shadowrun.",
-      "action_to_clear": "Deckung der Signatur und Lageberuhigung",
-      "action_cost": "major",
-      "can_act_while_active": "full",
-      "expires_automatically": false,
-      "upgrades_to_consequence": "con_trace_confirmed"
+      "sourceExamples": "Alert states in stealth/hacking loops von Cyberpunk und Shadowrun.",
+      "actionToClear": "Deckung der Signatur und Lageberuhigung",
+      "actionCost": "major",
+      "canActWhileActive": "full",
+      "expiresAutomatically": false,
+      "upgradesToConsequence": "con_trace_confirmed"
     }
   ],
   "consequences": [
@@ -193,18 +193,18 @@
       "kind": "consequence",
       "domain": "combat",
       "description": "Ein kurzer Schmerz- oder Schreckimpuls beeintraechtigt dich nur voruebergehend.",
-      "mechanical_effect": "Nimmt auf die naechste passende Aktion moderaten Druck; danach endet der Effekt.",
-      "clear_condition": "Automatisch nach dem naechsten eigenen Zug oder spaetestens am Szenenende.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Nimmt auf die naechste passende Aktion moderaten Druck; danach endet der Effekt.",
+      "clearCondition": "Automatisch nach dem naechsten eigenen Zug oder spaetestens am Szenenende.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Minor setback Konzepte in narrativen Kampfregeln.",
+      "sourceExamples": "Minor setback Konzepte in narrativen Kampfregeln.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_scene",
-      "minimum_recovery_time": "Bis naechster eigener Zug oder Szenenende.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_scene",
+      "minimumRecoveryTime": "Bis naechster eigener Zug oder Szenenende.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_sprain",
@@ -212,20 +212,20 @@
       "kind": "consequence",
       "domain": "combat",
       "description": "Gelenk oder Sehne ist ueberzogen; Bewegungen bleiben moeglich, aber instabil und schmerzhaft.",
-      "mechanical_effect": "Passende Bewegungs- oder Kraftaktionen sind erschwert, bis Erstversorgung erfolgt.",
-      "clear_condition": "Erstversorgung oder Schonung bis Szenenende; danach Herabstufung auf kurzfristig.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Passende Bewegungs- oder Kraftaktionen sind erschwert, bis Erstversorgung erfolgt.",
+      "clearCondition": "Erstversorgung oder Schonung bis Szenenende; danach Herabstufung auf kurzfristig.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Sprain/strain als leichte Verletzung in GURPS und Song of Ice and Fire Roleplaying.",
+      "sourceExamples": "Sprain/strain als leichte Verletzung in GURPS und Song of Ice and Fire Roleplaying.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "first_aid",
-      "minimum_recovery_time": "Mindestens eine Versorgungsaktion, vollstaendige Erholung meist nach Ruhephase.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "first_aid",
+      "minimumRecoveryTime": "Mindestens eine Versorgungsaktion, vollstaendige Erholung meist nach Ruhephase.",
+      "blocksActions": [
         "hohe_sprintbelastung"
       ],
-      "can_downgrade": "Ja, nach Erstversorgung zu short_term moeglich."
+      "canDowngrade": "Ja, nach Erstversorgung zu short_term moeglich."
     },
     {
       "id": "con_broken_arm",
@@ -233,21 +233,21 @@
       "kind": "consequence",
       "domain": "combat",
       "description": "Ein Arm ist strukturell verletzt und fuer praezise oder kraftvolle Nutzung unzuverlaessig.",
-      "mechanical_effect": "Zweihandaktionen und schwere Armnutzung sind gesperrt oder stark eingeschraenkt.",
-      "clear_condition": "Stabilisierung in der Szene, danach medizinische Versorgung und Downtime.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Zweihandaktionen und schwere Armnutzung sind gesperrt oder stark eingeschraenkt.",
+      "clearCondition": "Stabilisierung in der Szene, danach medizinische Versorgung und Downtime.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Major wound Folgen in gritty combat systemen inkl. Green Ronin SIFRP.",
+      "sourceExamples": "Major wound Folgen in gritty combat systemen inkl. Green Ronin SIFRP.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "medical_care",
-      "minimum_recovery_time": "Mehrere Tage bis Wochen je nach Versorgung und Technologie.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "medical_care",
+      "minimumRecoveryTime": "Mehrere Tage bis Wochen je nach Versorgung und Technologie.",
+      "blocksActions": [
         "zweihand_angriff",
         "schwere_kletteraktion"
       ],
-      "can_downgrade": "Ja, nach erfolgreicher Stabilisierung auf light reduzierbar, volle Heilung nur ueber Downtime."
+      "canDowngrade": "Ja, nach erfolgreicher Stabilisierung auf light reduzierbar, volle Heilung nur ueber Downtime."
     },
     {
       "id": "con_internal_trauma",
@@ -255,21 +255,21 @@
       "kind": "consequence",
       "domain": "combat",
       "description": "Lebensgefaehrliche oder systemisch destabilierende Verletzung mit akuter Ausfallgefahr.",
-      "mechanical_effect": "Handlungsfaehigkeit massiv reduziert; ohne schnelle Hilfe droht Ausscheiden aus der Szene.",
-      "clear_condition": "Sofortige Stabilisierung, dann Notfallmedizin; ohne beides Eskalation.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Handlungsfaehigkeit massiv reduziert; ohne schnelle Hilfe droht Ausscheiden aus der Szene.",
+      "clearCondition": "Sofortige Stabilisierung, dann Notfallmedizin; ohne beides Eskalation.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Critical injury tracks aus Cyberpunk und gritty militÃ¤rischen Hausregeln.",
+      "sourceExamples": "Critical injury tracks aus Cyberpunk und gritty militärischen Hausregeln.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Mindestens bis nach Notfallversorgung; volle Erholung meist mehrstufig ueber laengere Downtime.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Mindestens bis nach Notfallversorgung; volle Erholung meist mehrstufig ueber laengere Downtime.",
+      "blocksActions": [
         "intensiver_kampf",
         "komplexe_probe"
       ],
-      "can_downgrade": "Nur durch sofortige Stabilisierung und anschliessende medizinische Versorgung."
+      "canDowngrade": "Nur durch sofortige Stabilisierung und anschliessende medizinische Versorgung."
     },
     {
       "id": "con_gear_brief_misalignment",
@@ -277,18 +277,18 @@
       "kind": "consequence",
       "domain": "gear",
       "description": "Eine Ausruestungskomponente sitzt kurzfristig nicht sauber und stoert den naechsten Einsatz.",
-      "mechanical_effect": "Die naechste ausruestungsgebundene Aktion ist erschwert.",
-      "clear_condition": "Kurz nachjustieren, nachziehen oder neu greifen.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Die naechste ausruestungsgebundene Aktion ist erschwert.",
+      "clearCondition": "Kurz nachjustieren, nachziehen oder neu greifen.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Minor gear setbacks in tactical systems.",
+      "sourceExamples": "Minor gear setbacks in tactical systems.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis zur naechsten ruhigen Handlungssekunde.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis zur naechsten ruhigen Handlungssekunde.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_weapon_damaged",
@@ -296,20 +296,20 @@
       "kind": "consequence",
       "domain": "gear",
       "description": "Die Waffe ist technisch oder strukturell beeintraechtigt und arbeitet nur noch eingeschraenkt.",
-      "mechanical_effect": "Erhoehte Stoerungswahrscheinlichkeit oder reduzierte Wirkung bis Reparatur.",
-      "clear_condition": "Werkstattreparatur oder Feldreparatur mit geeigneter Ausruestung.",
-      "default_duration": "Leicht bis Schwer je nach Schadensbild.",
+      "mechanicalEffect": "Erhoehte Stoerungswahrscheinlichkeit oder reduzierte Wirkung bis Reparatur.",
+      "clearCondition": "Werkstattreparatur oder Feldreparatur mit geeigneter Ausruestung.",
+      "defaultDuration": "Leicht bis Schwer je nach Schadensbild.",
       "stacking": "accumulate",
-      "source_examples": "Gear degradation und malfunction tracks in taktischen Low-Fantasy und Modern-Rules.",
+      "sourceExamples": "Gear degradation und malfunction tracks in taktischen Low-Fantasy und Modern-Rules.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "repair",
-      "minimum_recovery_time": "Feldreparatur: Szene; Werkstatt: zwischen Szenen.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "repair",
+      "minimumRecoveryTime": "Feldreparatur: Szene; Werkstatt: zwischen Szenen.",
+      "blocksActions": [
         "praezisionsschuss"
       ],
-      "can_downgrade": "Ja, per provisorischer Reparatur."
+      "canDowngrade": "Ja, per provisorischer Reparatur."
     },
     {
       "id": "con_gear_primary_failure",
@@ -317,21 +317,21 @@
       "kind": "consequence",
       "domain": "gear",
       "description": "Die zentrale Ausruestungskomponente der Szene faellt teilweise oder vollstaendig aus.",
-      "mechanical_effect": "Kernaktionen mit dieser Ausruestung sind stark eingeschraenkt oder unmoeglich.",
-      "clear_condition": "Feldinstandsetzung mit Ersatzteilen oder Wechsel auf Reserve.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Kernaktionen mit dieser Ausruestung sind stark eingeschraenkt oder unmoeglich.",
+      "clearCondition": "Feldinstandsetzung mit Ersatzteilen oder Wechsel auf Reserve.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Major gear breakage in gritty modern combat rules.",
+      "sourceExamples": "Major gear breakage in gritty modern combat rules.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "repair",
-      "minimum_recovery_time": "Mindestens bis nach einer technischen Instandsetzung ausserhalb direkter Bedrohung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "repair",
+      "minimumRecoveryTime": "Mindestens bis nach einer technischen Instandsetzung ausserhalb direkter Bedrohung.",
+      "blocksActions": [
         "kerneinsatz_der_ausruestung",
         "spezialfunktion_nutzen"
       ],
-      "can_downgrade": "Ja, nach erfolgreicher Feldreparatur auf light."
+      "canDowngrade": "Ja, nach erfolgreicher Feldreparatur auf light."
     },
     {
       "id": "con_gear_catastrophic_break",
@@ -339,20 +339,20 @@
       "kind": "consequence",
       "domain": "gear",
       "description": "Die Ausruestung ist so stark beschaedigt, dass sichere Nutzung nicht mehr moeglich ist.",
-      "mechanical_effect": "Die betroffene Ausruestung kann in der laufenden Szene nicht sinnvoll eingesetzt werden.",
-      "clear_condition": "Ausserbetriebnahme, Ersatzbeschaffung oder umfangreiche Werkstattreparatur.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Die betroffene Ausruestung kann in der laufenden Szene nicht sinnvoll eingesetzt werden.",
+      "clearCondition": "Ausserbetriebnahme, Ersatzbeschaffung oder umfangreiche Werkstattreparatur.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Catastrophic item failure in simulationist equipment tracks.",
+      "sourceExamples": "Catastrophic item failure in simulationist equipment tracks.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Nicht in derselben Szene voll behebbar.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Nicht in derselben Szene voll behebbar.",
+      "blocksActions": [
         "einsatz_der_betroffenen_ausruestung"
       ],
-      "can_downgrade": "Nur durch Austausch oder umfassende Reparatur."
+      "canDowngrade": "Nur durch Austausch oder umfassende Reparatur."
     },
     {
       "id": "con_trace_confirmed",
@@ -360,20 +360,20 @@
       "kind": "consequence",
       "domain": "quickhack",
       "description": "Gegenseite hat deine Signatur hinreichend sauber zugeordnet.",
-      "mechanical_effect": "Aktive Gegenmassnahmen, lokalisierte Jagd oder systemweite Watchlists werden sofort wahrscheinlicher.",
-      "clear_condition": "Signaturwechsel, Deckwechsel oder laengeres Abtauchen mit Spurenbereinigung.",
-      "default_duration": "Leicht bis Schwer je nach Gegenseite.",
+      "mechanicalEffect": "Aktive Gegenmassnahmen, lokalisierte Jagd oder systemweite Watchlists werden sofort wahrscheinlicher.",
+      "clearCondition": "Signaturwechsel, Deckwechsel oder laengeres Abtauchen mit Spurenbereinigung.",
+      "defaultDuration": "Leicht bis Schwer je nach Gegenseite.",
       "stacking": "replace",
-      "source_examples": "Trace and counter-intrusion loops aus Shadowrun und Cyberpunk RED Netrunning.",
+      "sourceExamples": "Trace and counter-intrusion loops aus Shadowrun und Cyberpunk RED Netrunning.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "downtime",
-      "minimum_recovery_time": "Mindestens eine Downtime-Phase mit aktiver Spurbereinigung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "downtime",
+      "minimumRecoveryTime": "Mindestens eine Downtime-Phase mit aktiver Spurbereinigung.",
+      "blocksActions": [
         "offener_wiederholungshack"
       ],
-      "can_downgrade": "Ja, auf light nach erfolgreicher Spurverwischung."
+      "canDowngrade": "Ja, auf light nach erfolgreicher Spurverwischung."
     },
     {
       "id": "con_magic_focus_flicker",
@@ -381,18 +381,18 @@
       "kind": "consequence",
       "domain": "magic",
       "description": "Der Wirkkanal flackert kurz und reagiert fuer einen Moment unpraezise.",
-      "mechanical_effect": "Die naechste magische Aktion ist in Wirkung oder Kontrolle leicht eingeschraenkt.",
-      "clear_condition": "Kurze Sammlung und Neuansatz des Fokus.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Die naechste magische Aktion ist in Wirkung oder Kontrolle leicht eingeschraenkt.",
+      "clearCondition": "Kurze Sammlung und Neuansatz des Fokus.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Minor casting instability in arcane systems.",
+      "sourceExamples": "Minor casting instability in arcane systems.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis nach kurzer Neukonzentration.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis nach kurzer Neukonzentration.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_magic_drain",
@@ -400,20 +400,20 @@
       "kind": "consequence",
       "domain": "magic",
       "description": "Magische Ueberanstrengung trifft Kreislauf und Konzentration spuerbar.",
-      "mechanical_effect": "Folgezauber und konzentrierte Effektsteuerung sind erschwert.",
-      "clear_condition": "Kurze Erholung, Atmung und geordneter Neuaufbau des Fokus.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Folgezauber und konzentrierte Effektsteuerung sind erschwert.",
+      "clearCondition": "Kurze Erholung, Atmung und geordneter Neuaufbau des Fokus.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Drain-like pressure from Shadowrun-style traditions.",
+      "sourceExamples": "Drain-like pressure from Shadowrun-style traditions.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "stabilization",
-      "minimum_recovery_time": "Mindestens bis nach einer aktiven Ruhephase.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "stabilization",
+      "minimumRecoveryTime": "Mindestens bis nach einer aktiven Ruhephase.",
+      "blocksActions": [
         "mehrfacher_starkzauber"
       ],
-      "can_downgrade": "Ja, nach Stabilisierung auf short_term."
+      "canDowngrade": "Ja, nach Stabilisierung auf short_term."
     },
     {
       "id": "con_aura_backlash",
@@ -421,21 +421,21 @@
       "kind": "consequence",
       "domain": "magic",
       "description": "Magische oder psionische Ueberlast erzeugt einen Rueckschlag auf Fokus und Kanalstabilitaet.",
-      "mechanical_effect": "Starke Effekte dieser Domaene sind temporaer gesperrt oder nur mit Zusatzrisiko nutzbar.",
-      "clear_condition": "Stabilisierung, kurze Ruhephase und ggf. rituelle oder therapeutische Neujustierung.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Starke Effekte dieser Domaene sind temporaer gesperrt oder nur mit Zusatzrisiko nutzbar.",
+      "clearCondition": "Stabilisierung, kurze Ruhephase und ggf. rituelle oder therapeutische Neujustierung.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Backlash/Drain Konzepte in Shadowrun und psionischen Systemen.",
+      "sourceExamples": "Backlash/Drain Konzepte in Shadowrun und psionischen Systemen.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "stabilization",
-      "minimum_recovery_time": "Mindestens bis Szenenende plus aktive Stabilisierung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "stabilization",
+      "minimumRecoveryTime": "Mindestens bis Szenenende plus aktive Stabilisierung.",
+      "blocksActions": [
         "starker_zauber",
         "starke_psi_wirkung"
       ],
-      "can_downgrade": "Ja, nach Stabilisierung auf light reduzierbar."
+      "canDowngrade": "Ja, nach Stabilisierung auf light reduzierbar."
     },
     {
       "id": "con_magic_channel_burn",
@@ -443,21 +443,21 @@
       "kind": "consequence",
       "domain": "magic",
       "description": "Der magische Kanal ist kritisch ueberlastet und reisst strukturell auf.",
-      "mechanical_effect": "Starke oder komplexe Zauber sind bis zur Wiederherstellung gesperrt.",
-      "clear_condition": "Sofortige Entlastung, Schutzmassnahme und laengerer Wiederaufbau in Downtime.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Starke oder komplexe Zauber sind bis zur Wiederherstellung gesperrt.",
+      "clearCondition": "Sofortige Entlastung, Schutzmassnahme und laengerer Wiederaufbau in Downtime.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Critical spell backlash in high-risk magic frameworks.",
+      "sourceExamples": "Critical spell backlash in high-risk magic frameworks.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Mindestens bis nach einem vollwertigen Regenerationsfenster.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Mindestens bis nach einem vollwertigen Regenerationsfenster.",
+      "blocksActions": [
         "starker_zauber",
         "ritualwirkung"
       ],
-      "can_downgrade": "Nur durch erfolgreiche Stabilisierung und Ruhephase."
+      "canDowngrade": "Nur durch erfolgreiche Stabilisierung und Ruhephase."
     },
     {
       "id": "con_psi_mental_echo",
@@ -465,18 +465,18 @@
       "kind": "consequence",
       "domain": "psi",
       "description": "Ein psionischer Nachhall stoert kurz die innere Ausrichtung.",
-      "mechanical_effect": "Die naechste psi-bezogene Handlung ist leicht erschwert.",
-      "clear_condition": "Kurze Fokussierung und Abschirmung stoerender Reize.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Die naechste psi-bezogene Handlung ist leicht erschwert.",
+      "clearCondition": "Kurze Fokussierung und Abschirmung stoerender Reize.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Psychic feedback flickers in psionics subsystems.",
+      "sourceExamples": "Psychic feedback flickers in psionics subsystems.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis nach einem ruhigen Fokusmoment.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis nach einem ruhigen Fokusmoment.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_psi_synaptic_strain",
@@ -484,20 +484,20 @@
       "kind": "consequence",
       "domain": "psi",
       "description": "Neurale Belastung durch psionischen Druck fuehrt zu Kopf- und Konzentrationsproblemen.",
-      "mechanical_effect": "Feine psi-Kontrolle und Mehrfachnutzung sind erschwert.",
-      "clear_condition": "Ruhe, Reizreduktion und kontrollierter Neuansatz.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Feine psi-Kontrolle und Mehrfachnutzung sind erschwert.",
+      "clearCondition": "Ruhe, Reizreduktion und kontrollierter Neuansatz.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Psionic fatigue in classic psi rulesets.",
+      "sourceExamples": "Psionic fatigue in classic psi rulesets.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "stabilization",
-      "minimum_recovery_time": "Mindestens bis nach aktiver Entlastung.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "stabilization",
+      "minimumRecoveryTime": "Mindestens bis nach aktiver Entlastung.",
+      "blocksActions": [
         "praezise_psi_steuerung"
       ],
-      "can_downgrade": "Ja, nach Stabilisierung auf short_term."
+      "canDowngrade": "Ja, nach Stabilisierung auf short_term."
     },
     {
       "id": "con_psi_feedback_spike",
@@ -505,21 +505,21 @@
       "kind": "consequence",
       "domain": "psi",
       "description": "Ein harter Rueckschlag aus dem Ziel- oder Umgebungsfeld trifft den Geist direkt.",
-      "mechanical_effect": "Kraeftige psi-Wirkungen sind stark eingeschraenkt und riskant.",
-      "clear_condition": "Sofortige Abschirmung, Stabilisierung und gefuehrte mentale Rezentrierung.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Kraeftige psi-Wirkungen sind stark eingeschraenkt und riskant.",
+      "clearCondition": "Sofortige Abschirmung, Stabilisierung und gefuehrte mentale Rezentrierung.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Psionic backlash and overchannel risks.",
+      "sourceExamples": "Psionic backlash and overchannel risks.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "medical_care",
-      "minimum_recovery_time": "Mindestens bis nach professioneller Stabilisierung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "medical_care",
+      "minimumRecoveryTime": "Mindestens bis nach professioneller Stabilisierung.",
+      "blocksActions": [
         "starke_psi_wirkung",
         "mentale_duelltechnik"
       ],
-      "can_downgrade": "Ja, nach erfolgreicher Stabilisierung auf light."
+      "canDowngrade": "Ja, nach erfolgreicher Stabilisierung auf light."
     },
     {
       "id": "con_psi_identity_fracture",
@@ -527,21 +527,21 @@
       "kind": "consequence",
       "domain": "psi",
       "description": "Kritische psionische Ueberlast fragmentiert Wahrnehmung und Selbststeuerung.",
-      "mechanical_effect": "Verlaessliche psi-Anwendung ist nicht moeglich; mentale Integritaet ist akut gefaehrdet.",
-      "clear_condition": "Sofortige Unterbrechung, Schutzumgebung und laengerfristige neurologische/psychische Nachversorgung.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Verlaessliche psi-Anwendung ist nicht moeglich; mentale Integritaet ist akut gefaehrdet.",
+      "clearCondition": "Sofortige Unterbrechung, Schutzumgebung und laengerfristige neurologische/psychische Nachversorgung.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Catastrophic overchannel outcomes in hard-psi designs.",
+      "sourceExamples": "Catastrophic overchannel outcomes in hard-psi designs.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Nicht in derselben Szene voll aufloesbar.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Nicht in derselben Szene voll aufloesbar.",
+      "blocksActions": [
         "zuverlaessige_psi_nutzung",
         "komplexe_mentale_koordination"
       ],
-      "can_downgrade": "Nur nach stabilisierter Langzeitbehandlung."
+      "canDowngrade": "Nur nach stabilisierter Langzeitbehandlung."
     },
     {
       "id": "con_public_disgrace",
@@ -549,20 +549,20 @@
       "kind": "consequence",
       "domain": "social",
       "description": "Ein sichtbarer sozialer Fehltritt erzeugt in der aktuellen Szene messbaren Vertrauensverlust.",
-      "mechanical_effect": "Relevante soziale Interaktionen mit der betroffenen Gruppe sind erschwert.",
-      "clear_condition": "Wiedergutmachung, Narrativkontrolle oder Zeitablauf mit Gegenbeweis.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Relevante soziale Interaktionen mit der betroffenen Gruppe sind erschwert.",
+      "clearCondition": "Wiedergutmachung, Narrativkontrolle oder Zeitablauf mit Gegenbeweis.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Influence and reputation fallout in Green Ronin SIFRP und GURPS Social Engineering.",
+      "sourceExamples": "Influence and reputation fallout in Green Ronin SIFRP und GURPS Social Engineering.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": false,
-      "recovery_track": "downtime",
-      "minimum_recovery_time": "Mindestens bis zur naechsten passenden sozialen Szene.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": false,
+      "recoveryTrack": "downtime",
+      "minimumRecoveryTime": "Mindestens bis zur naechsten passenden sozialen Szene.",
+      "blocksActions": [
         "vertrauensbasierte_verhandlung"
       ],
-      "can_downgrade": "Ja, durch glaubwuerdige Wiedergutmachung."
+      "canDowngrade": "Ja, durch glaubwuerdige Wiedergutmachung."
     },
     {
       "id": "con_vehicle_brief_skid",
@@ -570,18 +570,18 @@
       "kind": "consequence",
       "domain": "vehicle",
       "description": "Das Fahrzeug verliert fuer einen Moment Traktion oder Linie, faengt sich aber wieder.",
-      "mechanical_effect": "Naechstes riskantes Fahrmanoever ist erschwert.",
-      "clear_condition": "Automatisch nach dem naechsten stabilen Fahrabschnitt.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Naechstes riskantes Fahrmanoever ist erschwert.",
+      "clearCondition": "Automatisch nach dem naechsten stabilen Fahrabschnitt.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Skid/handling setbacks in chase systems.",
+      "sourceExamples": "Skid/handling setbacks in chase systems.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis nach dem naechsten stabilen Manoever.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis nach dem naechsten stabilen Manoever.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_vehicle_steering_drift",
@@ -589,20 +589,20 @@
       "kind": "consequence",
       "domain": "vehicle",
       "description": "Lenkung oder Spurstabilitaet ist beeintraechtigt und reagiert unpraezise.",
-      "mechanical_effect": "Praezise Kurven und enge Fluchtlinien sind erschwert.",
-      "clear_condition": "Kurzcheck/Feldjustierung oder Werkstattkorrektur.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Praezise Kurven und enge Fluchtlinien sind erschwert.",
+      "clearCondition": "Kurzcheck/Feldjustierung oder Werkstattkorrektur.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Vehicle handling damage in modern tactical RPGs.",
+      "sourceExamples": "Vehicle handling damage in modern tactical RPGs.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "repair",
-      "minimum_recovery_time": "Mindestens eine Reparaturaktion ausserhalb direkter Bedrohung.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "repair",
+      "minimumRecoveryTime": "Mindestens eine Reparaturaktion ausserhalb direkter Bedrohung.",
+      "blocksActions": [
         "enge_hochgeschwindigkeitskurve"
       ],
-      "can_downgrade": "Ja, durch Feldreparatur auf short_term."
+      "canDowngrade": "Ja, durch Feldreparatur auf short_term."
     },
     {
       "id": "con_vehicle_drive_damage",
@@ -610,21 +610,21 @@
       "kind": "consequence",
       "domain": "vehicle",
       "description": "Der Antriebsstrang ist stark belastet oder teilweise ausgefallen.",
-      "mechanical_effect": "Beschleunigung, Flucht und schwere Manoever sind deutlich eingeschraenkt.",
-      "clear_condition": "Technische Reparatur mit geeigneten Teilen.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Beschleunigung, Flucht und schwere Manoever sind deutlich eingeschraenkt.",
+      "clearCondition": "Technische Reparatur mit geeigneten Teilen.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Major vehicle damage tracks from chase-focused systems.",
+      "sourceExamples": "Major vehicle damage tracks from chase-focused systems.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "repair",
-      "minimum_recovery_time": "Mindestens bis Szenenende plus Reparaturfenster.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "repair",
+      "minimumRecoveryTime": "Mindestens bis Szenenende plus Reparaturfenster.",
+      "blocksActions": [
         "maximalbeschleunigung",
         "rammmanoever"
       ],
-      "can_downgrade": "Ja, nach provisorischer Instandsetzung auf light."
+      "canDowngrade": "Ja, nach provisorischer Instandsetzung auf light."
     },
     {
       "id": "con_vehicle_system_failure",
@@ -632,21 +632,21 @@
       "kind": "consequence",
       "domain": "vehicle",
       "description": "Kritische Fahr- oder Sicherheitssysteme fallen aus und bedrohen die Einsatzfaehigkeit akut.",
-      "mechanical_effect": "Fahrzeug droht auszufallen; riskante Nutzung kann Totalausfall ausloesen.",
-      "clear_condition": "Notstopp, Sicherung der Besatzung, anschliessende Notfallreparatur.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Fahrzeug droht auszufallen; riskante Nutzung kann Totalausfall ausloesen.",
+      "clearCondition": "Notstopp, Sicherung der Besatzung, anschliessende Notfallreparatur.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Catastrophic vehicle failure in gritty simulation rules.",
+      "sourceExamples": "Catastrophic vehicle failure in gritty simulation rules.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Nicht in derselben Szene voll behebbar.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Nicht in derselben Szene voll behebbar.",
+      "blocksActions": [
         "verfolgungsfahrt",
         "kampfunterstuetzung_aus_fahrzeug"
       ],
-      "can_downgrade": "Nur nach erfolgreicher Notstabilisierung."
+      "canDowngrade": "Nur nach erfolgreicher Notstabilisierung."
     },
     {
       "id": "con_environment_brief_smoke",
@@ -654,18 +654,18 @@
       "kind": "consequence",
       "domain": "environment",
       "description": "Kurzer Reiz durch Rauch, Staub oder Reizgas bringt dich aus dem Rhythmus.",
-      "mechanical_effect": "Die naechste praezise oder ausdauernde Aktion ist erschwert.",
-      "clear_condition": "Frische Luft oder kurzer Abstand zur Quelle.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Die naechste praezise oder ausdauernde Aktion ist erschwert.",
+      "clearCondition": "Frische Luft oder kurzer Abstand zur Quelle.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Environmental micro-penalties in survival-oriented games.",
+      "sourceExamples": "Environmental micro-penalties in survival-oriented games.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis zum naechsten Atemfenster ausserhalb der Quelle.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis zum naechsten Atemfenster ausserhalb der Quelle.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_environment_heat_stress",
@@ -673,20 +673,20 @@
       "kind": "consequence",
       "domain": "environment",
       "description": "Anhaltende Hitze oder Schutzkleidung ueberlastet Kreislauf und Konzentration.",
-      "mechanical_effect": "Ausdauernde Aktionen sind erschwert; Erholung verlangsamt sich.",
-      "clear_condition": "Kuehlung, Fluessigkeit und kurze Ruhephase.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Ausdauernde Aktionen sind erschwert; Erholung verlangsamt sich.",
+      "clearCondition": "Kuehlung, Fluessigkeit und kurze Ruhephase.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Heat stress in military and survival modules.",
+      "sourceExamples": "Heat stress in military and survival modules.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "first_aid",
-      "minimum_recovery_time": "Mindestens eine aktive Erholungsphase.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "first_aid",
+      "minimumRecoveryTime": "Mindestens eine aktive Erholungsphase.",
+      "blocksActions": [
         "lange_sprintserie"
       ],
-      "can_downgrade": "Ja, durch Kuehlung auf short_term."
+      "canDowngrade": "Ja, durch Kuehlung auf short_term."
     },
     {
       "id": "con_environment_toxic_exposure",
@@ -694,21 +694,21 @@
       "kind": "consequence",
       "domain": "environment",
       "description": "Der Koerper wurde von Giftstoffen oder starker Umweltbelastung getroffen.",
-      "mechanical_effect": "Leistungsfaehigkeit sinkt deutlich; koerpernahe Aktionen sind eingeschraenkt.",
-      "clear_condition": "Dekontamination, Stabilisierung und medizinische Betreuung.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Leistungsfaehigkeit sinkt deutlich; koerpernahe Aktionen sind eingeschraenkt.",
+      "clearCondition": "Dekontamination, Stabilisierung und medizinische Betreuung.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Toxin tracks in cyberpunk and post-apocalypse systems.",
+      "sourceExamples": "Toxin tracks in cyberpunk and post-apocalypse systems.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "medical_care",
-      "minimum_recovery_time": "Mindestens bis nach professioneller Versorgung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "medical_care",
+      "minimumRecoveryTime": "Mindestens bis nach professioneller Versorgung.",
+      "blocksActions": [
         "dauerbelastung",
         "praezisionshandarbeit"
       ],
-      "can_downgrade": "Ja, nach Dekontamination auf light."
+      "canDowngrade": "Ja, nach Dekontamination auf light."
     },
     {
       "id": "con_environment_asphyxia",
@@ -716,21 +716,21 @@
       "kind": "consequence",
       "domain": "environment",
       "description": "Sauerstoffmangel oder toxische Luft bedroht unmittelbar Bewusstsein und Leben.",
-      "mechanical_effect": "Handlungen brechen weg; ohne sofortige Hilfe droht Ausfall aus der Szene.",
-      "clear_condition": "Sofort aus der Quelle, Atemsicherung und Notfallstabilisierung.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Handlungen brechen weg; ohne sofortige Hilfe droht Ausfall aus der Szene.",
+      "clearCondition": "Sofort aus der Quelle, Atemsicherung und Notfallstabilisierung.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Drowning/asphyxiation critical rules in survival RPGs.",
+      "sourceExamples": "Drowning/asphyxiation critical rules in survival RPGs.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Sofortmassnahmen noetig; volle Erholung erst spaeter.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Sofortmassnahmen noetig; volle Erholung erst spaeter.",
+      "blocksActions": [
         "intensiver_kampf",
         "zauberwirken"
       ],
-      "can_downgrade": "Nur mit unmittelbarer Notfallhilfe."
+      "canDowngrade": "Nur mit unmittelbarer Notfallhilfe."
     },
     {
       "id": "con_mental_tunnel_vision",
@@ -738,18 +738,18 @@
       "kind": "consequence",
       "domain": "mental",
       "description": "Unter Druck verengt sich dein Fokus auf ein Ziel und blendet Randreize aus.",
-      "mechanical_effect": "Breite Lageeinschaetzung ist erschwert bis zum naechsten klaren Neuansatz.",
-      "clear_condition": "Kurze Neuorientierung oder Teamhinweis.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Breite Lageeinschaetzung ist erschwert bis zum naechsten klaren Neuansatz.",
+      "clearCondition": "Kurze Neuorientierung oder Teamhinweis.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Stress perception penalties in tactical RPGs.",
+      "sourceExamples": "Stress perception penalties in tactical RPGs.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis nach aktiver Neuorientierung.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis nach aktiver Neuorientierung.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_mental_shaken",
@@ -757,42 +757,42 @@
       "kind": "consequence",
       "domain": "mental",
       "description": "Ein Schockereignis wirkt nach und senkt deine mentale Stabilitaet.",
-      "mechanical_effect": "Konzentrations- und Nervenproben sind erschwert.",
-      "clear_condition": "Kurze Stabilisierung, Rueckhalt oder Beruhigung in sicherer Position.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Konzentrations- und Nervenproben sind erschwert.",
+      "clearCondition": "Kurze Stabilisierung, Rueckhalt oder Beruhigung in sicherer Position.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Shaken/frightened states from many narrative combat systems.",
+      "sourceExamples": "Shaken/frightened states from many narrative combat systems.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": false,
-      "recovery_track": "downtime",
-      "minimum_recovery_time": "Mindestens bis nach einer ruhigen Szenenphase.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": false,
+      "recoveryTrack": "downtime",
+      "minimumRecoveryTime": "Mindestens bis nach einer ruhigen Szenenphase.",
+      "blocksActions": [
         "riskante_fuehrungsentscheidung"
       ],
-      "can_downgrade": "Ja, durch glaubwuerdige Stabilisierung."
+      "canDowngrade": "Ja, durch glaubwuerdige Stabilisierung."
     },
     {
       "id": "con_mental_panic_spiral",
       "name": "Panikspirale",
       "kind": "consequence",
       "domain": "mental",
-      "description": "Stressreaktionen verstÃ¤rken sich gegenseitig und reiÃŸen Handlungskontrolle auf.",
-      "mechanical_effect": "Geordnete taktische Aktionen sind stark eingeschraenkt.",
-      "clear_condition": "Aktive Beruhigung, Schutzraum und gegebenenfalls medikamentoese Unterstuetzung.",
-      "default_duration": "Schwer.",
+      "description": "Stressreaktionen verstärken sich gegenseitig und reißen Handlungskontrolle auf.",
+      "mechanicalEffect": "Geordnete taktische Aktionen sind stark eingeschraenkt.",
+      "clearCondition": "Aktive Beruhigung, Schutzraum und gegebenenfalls medikamentoese Unterstuetzung.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Fear cascades in horror and military stress subsystems.",
+      "sourceExamples": "Fear cascades in horror and military stress subsystems.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "stabilization",
-      "minimum_recovery_time": "Mindestens bis Szenenende plus Stabilisierung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "stabilization",
+      "minimumRecoveryTime": "Mindestens bis Szenenende plus Stabilisierung.",
+      "blocksActions": [
         "koordinierte_teamaktion",
         "zaehes_durchhalten"
       ],
-      "can_downgrade": "Ja, nach erfolgreicher Stabilisierung auf light."
+      "canDowngrade": "Ja, nach erfolgreicher Stabilisierung auf light."
     },
     {
       "id": "con_mental_dissociation",
@@ -800,21 +800,21 @@
       "kind": "consequence",
       "domain": "mental",
       "description": "Die Figur driftet aus der unmittelbaren Selbststeuerung und ist nur eingeschraenkt ansprechbar.",
-      "mechanical_effect": "Eigenstaendige zielgerichtete Aktionen sind fast nicht moeglich.",
-      "clear_condition": "Sofortige Schutzmassnahme, enges Ansprechen und professionelle Nachversorgung.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Eigenstaendige zielgerichtete Aktionen sind fast nicht moeglich.",
+      "clearCondition": "Sofortige Schutzmassnahme, enges Ansprechen und professionelle Nachversorgung.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Critical sanity/trauma breaks in gritty narrative systems.",
+      "sourceExamples": "Critical sanity/trauma breaks in gritty narrative systems.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Nicht in derselben Szene voll aufloesbar.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Nicht in derselben Szene voll aufloesbar.",
+      "blocksActions": [
         "selbststaendige_taktik",
         "komplexe_verhandlung"
       ],
-      "can_downgrade": "Nur mit sofortiger Stabilisierung und anschliessender Betreuung."
+      "canDowngrade": "Nur mit sofortiger Stabilisierung und anschliessender Betreuung."
     },
     {
       "id": "con_social_brief_misstep",
@@ -822,18 +822,18 @@
       "kind": "consequence",
       "domain": "social",
       "description": "Ein ungeschickter Satz oder Tonfall erzeugt unmittelbare Reibung im laufenden Austausch.",
-      "mechanical_effect": "Die naechste soziale Aktion gegen dieselbe Gruppe ist erschwert.",
-      "clear_condition": "Sofortiges Korrigieren oder klares Rueckrudern.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Die naechste soziale Aktion gegen dieselbe Gruppe ist erschwert.",
+      "clearCondition": "Sofortiges Korrigieren oder klares Rueckrudern.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Minor influence setbacks in courtly and intrigue systems.",
+      "sourceExamples": "Minor influence setbacks in courtly and intrigue systems.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_scene",
-      "minimum_recovery_time": "Bis nach glaubwuerdiger Korrektur oder Szenenende.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_scene",
+      "minimumRecoveryTime": "Bis nach glaubwuerdiger Korrektur oder Szenenende.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_social_rumor_hardened",
@@ -841,21 +841,21 @@
       "kind": "consequence",
       "domain": "social",
       "description": "Ein negatives Narrativ ueber die Figur hat sich in einer Gruppe festgesetzt.",
-      "mechanical_effect": "Informations- und Vertrauenszugang in der betroffenen Szene ist stark erschwert.",
-      "clear_condition": "Gezielte Gegeninformation, glaubhafte Belege oder einflussreiche Fuersprecher.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Informations- und Vertrauenszugang in der betroffenen Szene ist stark erschwert.",
+      "clearCondition": "Gezielte Gegeninformation, glaubhafte Belege oder einflussreiche Fuersprecher.",
+      "defaultDuration": "Schwer.",
       "stacking": "accumulate",
-      "source_examples": "Reputation clocks in political/courtly RPG frameworks.",
+      "sourceExamples": "Reputation clocks in political/courtly RPG frameworks.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": false,
-      "recovery_track": "downtime",
-      "minimum_recovery_time": "Mindestens eine voll ausgespielte soziale Gegenmassnahme.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": false,
+      "recoveryTrack": "downtime",
+      "minimumRecoveryTime": "Mindestens eine voll ausgespielte soziale Gegenmassnahme.",
+      "blocksActions": [
         "diskrete_kontaktanbahnung",
         "vertrauensdeal"
       ],
-      "can_downgrade": "Ja, durch belegte Entkraeftung auf light."
+      "canDowngrade": "Ja, durch belegte Entkraeftung auf light."
     },
     {
       "id": "con_social_outcast_mark",
@@ -863,21 +863,21 @@
       "kind": "consequence",
       "domain": "social",
       "description": "Die Figur ist in einem relevanten Umfeld offen markiert und wird aktiv ausgeschlossen.",
-      "mechanical_effect": "Zugang zu Ressourcen, Schutz und diplomatischen Kanaelen bricht weitgehend weg.",
-      "clear_condition": "GroÃŸe Wiedergutmachung, Machtwechsel oder radikaler Milieuwechsel.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Zugang zu Ressourcen, Schutz und diplomatischen Kanaelen bricht weitgehend weg.",
+      "clearCondition": "Große Wiedergutmachung, Machtwechsel oder radikaler Milieuwechsel.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Exile/disgrace outcomes in Song of Ice and Fire style politics.",
+      "sourceExamples": "Exile/disgrace outcomes in Song of Ice and Fire style politics.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": false,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Mehrere Szenen oder ein ganzer Handlungsbogen.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": false,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Mehrere Szenen oder ein ganzer Handlungsbogen.",
+      "blocksActions": [
         "offene_verhandlung",
         "institutioneller_beistand"
       ],
-      "can_downgrade": "Nur durch substanzielle Story-Wende."
+      "canDowngrade": "Nur durch substanzielle Story-Wende."
     },
     {
       "id": "con_cyberware_brief_glitch",
@@ -885,18 +885,18 @@
       "kind": "consequence",
       "domain": "cyberware",
       "description": "Kurzzeitige Synchronisationsstoerung zwischen Nervenimpuls und Implantat.",
-      "mechanical_effect": "Die naechste cyberware-gestuetzte Aktion ist erschwert.",
-      "clear_condition": "Automatisch nach kurzer Neukalibrierung.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Die naechste cyberware-gestuetzte Aktion ist erschwert.",
+      "clearCondition": "Automatisch nach kurzer Neukalibrierung.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Cyberware hiccups inspired by Cyberpunk RED humanity strain.",
+      "sourceExamples": "Cyberware hiccups inspired by Cyberpunk RED humanity strain.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis zur naechsten ruhigen Interface-Sekunde.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis zur naechsten ruhigen Interface-Sekunde.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_cyberware_desync",
@@ -904,21 +904,21 @@
       "kind": "consequence",
       "domain": "cyberware",
       "description": "Implantatreaktionen laufen spuerbar asynchron zu beabsichtigten Bewegungen.",
-      "mechanical_effect": "Feinmotorik und Timing-gestuetzte Aktionen sind erschwert.",
-      "clear_condition": "Kalibrierung, Neustart oder kurze technische Nachjustierung.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Feinmotorik und Timing-gestuetzte Aktionen sind erschwert.",
+      "clearCondition": "Kalibrierung, Neustart oder kurze technische Nachjustierung.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Cyberwear wear-and-tear patterns in transhuman RPG design.",
+      "sourceExamples": "Cyberwear wear-and-tear patterns in transhuman RPG design.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "repair",
-      "minimum_recovery_time": "Mindestens eine Serviceaktion.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "repair",
+      "minimumRecoveryTime": "Mindestens eine Serviceaktion.",
+      "blocksActions": [
         "feinoperation",
         "praezisionsschuss"
       ],
-      "can_downgrade": "Ja, nach Kalibrierung auf short_term."
+      "canDowngrade": "Ja, nach Kalibrierung auf short_term."
     },
     {
       "id": "con_cyberware_motor_drift",
@@ -926,21 +926,21 @@
       "kind": "consequence",
       "domain": "cyberware",
       "description": "Implantatprofile driften unter Last und erzeugen anhaltende Bewegungsfehler.",
-      "mechanical_effect": "Schnelle koerperliche Handlungen mit Cyberware sind stark eingeschraenkt.",
-      "clear_condition": "Fachservice und erneutes Profiling in sicherer Umgebung.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Schnelle koerperliche Handlungen mit Cyberware sind stark eingeschraenkt.",
+      "clearCondition": "Fachservice und erneutes Profiling in sicherer Umgebung.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "High-stress cybernetic instability in cyberpunk rulesets.",
+      "sourceExamples": "High-stress cybernetic instability in cyberpunk rulesets.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "medical_care",
-      "minimum_recovery_time": "Mindestens bis nach professioneller Wartung.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "medical_care",
+      "minimumRecoveryTime": "Mindestens bis nach professioneller Wartung.",
+      "blocksActions": [
         "schneller_nahkampf",
         "akrobatische_flucht"
       ],
-      "can_downgrade": "Ja, nach Service auf light."
+      "canDowngrade": "Ja, nach Service auf light."
     },
     {
       "id": "con_cyberware_blackout",
@@ -948,21 +948,21 @@
       "kind": "consequence",
       "domain": "cyberware",
       "description": "Kritische Implantatcluster fallen aus oder schalten in Notmodus.",
-      "mechanical_effect": "Betroffene Cyberware-Funktionen sind unbrauchbar; Folgerisiken fuer den Koerper steigen.",
-      "clear_condition": "Notfallabschaltung, medizinisch-technische Stabilisierung und tiefes Rebooting.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Betroffene Cyberware-Funktionen sind unbrauchbar; Folgerisiken fuer den Koerper steigen.",
+      "clearCondition": "Notfallabschaltung, medizinisch-technische Stabilisierung und tiefes Rebooting.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "System crash consequences in high-chrome cyberpunk campaigns.",
+      "sourceExamples": "System crash consequences in high-chrome cyberpunk campaigns.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Nicht innerhalb derselben Szene voll reparierbar.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Nicht innerhalb derselben Szene voll reparierbar.",
+      "blocksActions": [
         "cyberware_boost",
         "neural_link_hack"
       ],
-      "can_downgrade": "Nur nach Notfallversorgung und kompletter Neukalibrierung."
+      "canDowngrade": "Nur nach Notfallversorgung und kompletter Neukalibrierung."
     },
     {
       "id": "con_quickhack_signature_flare",
@@ -970,18 +970,18 @@
       "kind": "consequence",
       "domain": "quickhack",
       "description": "Ein Hack hinterlaesst eine kurzlebige, aber auffaellige digitale Spitze.",
-      "mechanical_effect": "Naechster verdeckter Hackversuch ist erschwert.",
-      "clear_condition": "Kurze Signaturkuehlung oder Kanalwechsel.",
-      "default_duration": "Kurzfristig.",
+      "mechanicalEffect": "Naechster verdeckter Hackversuch ist erschwert.",
+      "clearCondition": "Kurze Signaturkuehlung oder Kanalwechsel.",
+      "defaultDuration": "Kurzfristig.",
       "stacking": "replace",
-      "source_examples": "Heat/spike mechanics from quick intrusions.",
+      "sourceExamples": "Heat/spike mechanics from quick intrusions.",
       "severity": "short_term",
-      "overflow_to": "light",
-      "treatment_required": false,
-      "recovery_track": "auto_end_of_exchange",
-      "minimum_recovery_time": "Bis nach einem ruhigen Netzwerkfenster.",
-      "blocks_actions": [],
-      "can_downgrade": ""
+      "overflowTo": "light",
+      "treatmentRequired": false,
+      "recoveryTrack": "auto_end_of_exchange",
+      "minimumRecoveryTime": "Bis nach einem ruhigen Netzwerkfenster.",
+      "blocksActions": [],
+      "canDowngrade": ""
     },
     {
       "id": "con_quickhack_partial_trace",
@@ -989,20 +989,20 @@
       "kind": "consequence",
       "domain": "quickhack",
       "description": "Die Gegenseite hat verwertbare Fragmente deiner Spur gesammelt.",
-      "mechanical_effect": "Gegenwehr gegen wiederholte Hacks steigt; defensive Systeme reagieren frueher.",
-      "clear_condition": "Spurverwischung oder Kanalwechsel mit Zeitverlust.",
-      "default_duration": "Leicht.",
+      "mechanicalEffect": "Gegenwehr gegen wiederholte Hacks steigt; defensive Systeme reagieren frueher.",
+      "clearCondition": "Spurverwischung oder Kanalwechsel mit Zeitverlust.",
+      "defaultDuration": "Leicht.",
       "stacking": "accumulate",
-      "source_examples": "Trace build-up in Netrunning loops.",
+      "sourceExamples": "Trace build-up in Netrunning loops.",
       "severity": "light",
-      "overflow_to": "heavy",
-      "treatment_required": true,
-      "recovery_track": "downtime",
-      "minimum_recovery_time": "Mindestens eine aktive Tarnaktion.",
-      "blocks_actions": [
+      "overflowTo": "heavy",
+      "treatmentRequired": true,
+      "recoveryTrack": "downtime",
+      "minimumRecoveryTime": "Mindestens eine aktive Tarnaktion.",
+      "blocksActions": [
         "aggressiver_folge_hack"
       ],
-      "can_downgrade": "Ja, nach erfolgreicher Spurloeschung auf short_term."
+      "canDowngrade": "Ja, nach erfolgreicher Spurloeschung auf short_term."
     },
     {
       "id": "con_quickhack_ice_lock",
@@ -1010,21 +1010,21 @@
       "kind": "consequence",
       "domain": "quickhack",
       "description": "Aktive Verteidigungssysteme kapseln den Angriffsvektor und beantworten ihn offensiv.",
-      "mechanical_effect": "Direkte Hacks auf das betroffene Netz sind stark eingeschraenkt.",
-      "clear_condition": "Bypass ueber anderen Vektor oder Zeitfenster bis zur Reinitialisierung.",
-      "default_duration": "Kritisch.",
+      "mechanicalEffect": "Direkte Hacks auf das betroffene Netz sind stark eingeschraenkt.",
+      "clearCondition": "Bypass ueber anderen Vektor oder Zeitfenster bis zur Reinitialisierung.",
+      "defaultDuration": "Kritisch.",
       "stacking": "none",
-      "source_examples": "Black ICE lockouts in Shadowrun/Cyberpunk style systems.",
+      "sourceExamples": "Black ICE lockouts in Shadowrun/Cyberpunk style systems.",
       "severity": "critical",
-      "overflow_to": "",
-      "treatment_required": true,
-      "recovery_track": "long_recovery",
-      "minimum_recovery_time": "Mindestens bis nach gezieltem Gegenangriff oder Szenenwechsel.",
-      "blocks_actions": [
+      "overflowTo": "",
+      "treatmentRequired": true,
+      "recoveryTrack": "long_recovery",
+      "minimumRecoveryTime": "Mindestens bis nach gezieltem Gegenangriff oder Szenenwechsel.",
+      "blocksActions": [
         "direkter_systemhack",
         "schneller_rein_und_raus_hack"
       ],
-      "can_downgrade": "Nur durch Bypass oder harten Neustart des Angriffswegs."
+      "canDowngrade": "Nur durch Bypass oder harten Neustart des Angriffswegs."
     },
     {
       "id": "con_quickhack_counter_window",
@@ -1032,20 +1032,20 @@
       "kind": "consequence",
       "domain": "quickhack",
       "description": "Dein letzter Eingriff hat ein unmittelbares Zeitfenster fuer gegnerische Infiltration geoeffnet.",
-      "mechanical_effect": "Die Gegenseite kann im direkten Anschluss auf dein Deck/OS reagieren, wenn sie Reichweite hat.",
-      "clear_condition": "Sofortiges Schliessen des Vektors und defensive Neukonfiguration.",
-      "default_duration": "Schwer.",
+      "mechanicalEffect": "Die Gegenseite kann im direkten Anschluss auf dein Deck/OS reagieren, wenn sie Reichweite hat.",
+      "clearCondition": "Sofortiges Schliessen des Vektors und defensive Neukonfiguration.",
+      "defaultDuration": "Schwer.",
       "stacking": "replace",
-      "source_examples": "Counter-intrusion windows from opposed hacking systems.",
+      "sourceExamples": "Counter-intrusion windows from opposed hacking systems.",
       "severity": "heavy",
-      "overflow_to": "critical",
-      "treatment_required": true,
-      "recovery_track": "stabilization",
-      "minimum_recovery_time": "Mindestens eine defensive Systemaktion.",
-      "blocks_actions": [
+      "overflowTo": "critical",
+      "treatmentRequired": true,
+      "recoveryTrack": "stabilization",
+      "minimumRecoveryTime": "Mindestens eine defensive Systemaktion.",
+      "blocksActions": [
         "offensiver_doppelschlag_hack"
       ],
-      "can_downgrade": "Ja, nach erfolgreichem Hardening auf light."
+      "canDowngrade": "Ja, nach erfolgreichem Hardening auf light."
     }
   ]
 }
