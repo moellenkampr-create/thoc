@@ -1,5 +1,10 @@
 import { UropCharacterSheet } from "./sheets/character-sheet.mjs";
-import { UropItemSheet } from "./sheets/item-sheet.mjs";
+import { UropSkillSheet } from "./sheets/items/skill-sheet.mjs";
+import { UropManeuverSheet } from "./sheets/items/maneuver-sheet.mjs";
+import { UropWeaponSheet } from "./sheets/items/weapon-sheet.mjs";
+import { UropArmorSheet } from "./sheets/items/armor-sheet.mjs";
+import { UropGearSheet } from "./sheets/items/gear-sheet.mjs";
+import { UropConsumableSheet } from "./sheets/items/consumable-sheet.mjs";
 
 async function runSystemMigrations(fromVersion, toVersion) {
   console.log(`URoP | Migration gestartet: ${fromVersion} -> ${toVersion}`);
@@ -90,11 +95,12 @@ Hooks.once("init", () => {
   });
 
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("urop", UropItemSheet, {
-    types: ["gear", "consumable", "weapon", "armor", "maneuver", "skill"],
-    makeDefault: true,
-    label: "URoP.ItemSheet"
-  });
+  Items.registerSheet("urop", UropSkillSheet,      { types: ["skill"],       makeDefault: true, label: "URoP.Sheet.Skill" });
+  Items.registerSheet("urop", UropManeuverSheet,   { types: ["maneuver"],    makeDefault: true, label: "URoP.Sheet.Maneuver" });
+  Items.registerSheet("urop", UropWeaponSheet,     { types: ["weapon"],      makeDefault: true, label: "URoP.Sheet.Weapon" });
+  Items.registerSheet("urop", UropArmorSheet,      { types: ["armor"],       makeDefault: true, label: "URoP.Sheet.Armor" });
+  Items.registerSheet("urop", UropGearSheet,       { types: ["gear"],        makeDefault: true, label: "URoP.Sheet.Gear" });
+  Items.registerSheet("urop", UropConsumableSheet, { types: ["consumable"],  makeDefault: true, label: "URoP.Sheet.Consumable" });
 
   Handlebars.registerHelper("uropEq", function (a, b) {
     return a === b;

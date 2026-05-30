@@ -1,0 +1,48 @@
+<form class="urop-sheet item-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="80" width="80"/>
+    <div class="header-main">
+      <input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'URoP.Item.Name'}}"/>
+      <div class="type-chip">{{itemTypeLabel}}</div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="effects">{{localize "URoP.Tab.Description"}}</a>
+    <a class="item" data-tab="details">{{localize "URoP.Tab.Details"}}</a>
+    <a class="item" data-tab="notes">{{localize "URoP.Tab.Internal"}}</a>
+  </nav>
+
+  <section class="sheet-body">
+
+    <div class="tab" data-group="primary" data-tab="details">
+      <div class="card">
+        <label>Tier</label>
+        <input type="text" name="system.tier" value="{{item.system.tier}}"/>
+        <label>Preis</label>
+        <input type="number" name="system.price" value="{{item.system.price}}"/>
+        <label>Menge</label>
+        <input type="number" name="system.quantity" value="{{item.system.quantity}}"/>
+        <label>Einsätze</label>
+        <input type="number" name="system.uses" value="{{item.system.uses}}"/>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="effects">
+      <div class="card">
+        <label>Kurztext</label>
+        <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
+        <label>Beschreibung</label>
+        <textarea class="large" name="system.description">{{item.system.description}}</textarea>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="notes">
+      <div class="card">
+        <label>{{localize "URoP.Field.InternalNote"}}</label>
+        <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
+      </div>
+    </div>
+
+  </section>
+</form>

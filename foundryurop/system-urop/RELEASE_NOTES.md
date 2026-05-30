@@ -1,5 +1,13 @@
 # URoP Foundry Release Notes
 
+## [0.1.21] - 2026-05-30
+
+### Changed
+- Refactoring: Separate Sheet-Klassen und Templates pro Item-Typ (skill, maneuver, weapon, armor, gear, consumable)
+- Gemeinsame Basis `UropItemSheetBase`, jede Typ-Klasse erbt davon
+- JS-Dateien in `scripts/sheets/items/`, Templates in `templates/items/`
+- `urop.mjs` registriert jeden Typ einzeln mit eigenem Sheet
+
 ## [0.1.20] - 2026-05-30
 
 ### Changed
