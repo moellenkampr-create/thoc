@@ -22,6 +22,27 @@
 
 ---
 
+## [0.1.17] - 2026-05-30
+
+### Added
+- Unit-Test-Suite fuer zentrale Rechenlogik (`tests/urop-calculations.test.mjs`) verbindlich im Ruleset aufgenommen.
+- Reine Berechnungshelfer in `scripts/urop-calculations.mjs` als testbare Kernlogik eingebracht.
+
+### Changed
+- Feldschema in Daten- und Foundry-Logik auf konsistentes camelCase umgestellt (inkl. Skill-/Manoever-/Quickhack-Feldern).
+- Sheet- und Datenbindung auf abgeleitete Leitattribute + neue Attributstruktur vereinheitlicht.
+
+### Fixed
+- Inkompatibilitaeten durch gemischte Feldkonventionen in Ruleset-Datenpfaden bereinigt.
+
+### Migration Required
+- yes (Feldkonventionen/Struktur geaendert; bestehende Inhalte pruefen)
+
+### Migration Notes
+- Systeme mit Altfeldern in snake_case auf camelCase-Schema angleichen.
+
+---
+
 ## [0.1.16] - 2026-05-30
 
 ### Changed

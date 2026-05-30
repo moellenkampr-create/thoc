@@ -87,6 +87,9 @@ Der URoP‑Chat:
 ## 10. Versionierung
 Änderungen erfolgen nach Regelprüfung.
 
+- Bei jedem Commit mit Aenderungen am Foundry-Ruleset (`foundryurop/system-urop/`) ist die Versionsnummer in `foundryurop/system-urop/system.json` zu erhoehen.
+- Gleichzeitig ist der passende Eintrag in `foundryurop/system-urop/RELEASE_NOTES.md` zu pflegen.
+
 ---
 
 ## 11. Foundry-Systempflege (URoP)

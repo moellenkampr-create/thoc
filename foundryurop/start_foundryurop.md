@@ -86,6 +86,9 @@ Der FoundryURoP‑Chat:
 ## 10. Versionierung
 Änderungen erfolgen nach technischer Prüfung.
 
+- Bei jedem Commit mit Aenderungen unter `foundryurop/system-urop/` muss die Version in `foundryurop/system-urop/system.json` erhoeht werden.
+- Der zugehoerige Eintrag in `foundryurop/system-urop/RELEASE_NOTES.md` ist im selben Commit zu aktualisieren.
+
 ---
 
 ## 11. Verbindliche Testvorgaben (FoundryURoP)
