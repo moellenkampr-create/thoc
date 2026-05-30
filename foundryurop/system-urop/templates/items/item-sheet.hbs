@@ -8,8 +8,8 @@
   </header>
 
   <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="effects">{{localize "URoP.Tab.Description"}}</a>
     <a class="item" data-tab="details">{{localize "URoP.Tab.Details"}}</a>
-    <a class="item" data-tab="effects">{{localize "URoP.Tab.Effects"}}</a>
     <a class="item" data-tab="notes">{{localize "URoP.Tab.Internal"}}</a>
   </nav>
 
@@ -50,7 +50,12 @@
 
           {{#if isSkill}}
           <label>Stufe</label>
-          <input type="number" name="system.level" value="{{item.system.level}}"/>
+          <div class="facet-stepper skill-level-stepper">
+            <button type="button" class="stepper-btn" data-action="skill-level-decrement">−</button>
+            <input type="number" class="facet-value skill-level-input" name="system.level" value="{{item.system.level}}" readonly/>
+            <button type="button" class="stepper-btn" data-action="skill-level-increment">+</button>
+            <button type="button" class="lock-btn skill-level-lock" data-action="toggle-skill-level-lock" title="Stufe sperren/entsperren">🔒</button>
+          </div>
           <label>Fertigkeitsebene</label>
           <select name="system.type">
             <option value="broad" {{#if (uropEq item.system.type "broad")}}selected{{/if}}>Sammelfertigkeit</option>
@@ -65,8 +70,6 @@
           </select>
           <label>Lernkosten EP</label>
           <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
-          <label>Konsequenzdomäne</label>
-          <input type="text" name="system.skillDomain" value="{{item.system.skillDomain}}"/>
           {{/if}}
         </div>
         <div class="card">

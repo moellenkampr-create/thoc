@@ -138,6 +138,16 @@
   padding: 6px 8px;
 }
 
+.urop-sheet select {
+  min-height: 34px;
+  height: auto;
+  line-height: 1.4;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  appearance: auto;
+}
+
 .urop-sheet textarea {
   min-height: 80px;
   resize: vertical;

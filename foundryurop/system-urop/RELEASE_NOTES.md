@@ -1,5 +1,17 @@
 # URoP Foundry Release Notes
 
+## [0.1.20] - 2026-05-30
+
+### Changed
+- Item-Sheet: Tab-Reihenfolge geändert – "Beschreibung" (ex-Effekte) als erster Reiter, Details zweiter
+- Item-Sheet: "Effekte"-Tab umbenannt zu "Beschreibung"
+- Item-Sheet: Fertigkeiten – Konsequenzdomäne-Feld entfernt
+- Item-Sheet: Fertigkeiten – Stufe als Stepper mit Sperr-Button (standardmäßig gesperrt)
+- Item-Sheet: Initaler Tab ist nun "Beschreibung" statt "Details"
+
+### Fixed
+- CSS: Select-Boxen schnitten Optionstext unten ab (min-height/padding-Fix)
+
 ## [Unreleased]
 
 ### Added
