@@ -37,19 +37,30 @@ Dieses Verzeichnis enthaelt ein erstes Foundry VTT Systemgeruest fuer URoP.
 ## Update-Workflow (Kurzfassung)
 
 1. Aenderungen in Datenmodell, Sheets, Logik und Lokalisierung umsetzen.
-2. Version in `system.json` erhoehen.
-3. `urop-system.zip` neu bauen.
-4. Release Notes aktualisieren (`RELEASE_NOTES.md`).
-5. Commit + Push.
-6. In Foundry ueber Manifest-URL aktualisieren.
+2. Noetige Unit-Tests erstellen/aktualisieren (mindestens fuer geaenderte Kernlogik).
+3. Tests ausfuehren und Ergebnis pruefen.
+4. Version in `system.json` erhoehen.
+5. `urop-system.zip` neu bauen.
+6. Release Notes aktualisieren (`RELEASE_NOTES.md`).
+7. Commit + Push.
+8. In Foundry ueber Manifest-URL aktualisieren.
 
 ## Release-Checkliste
 
 - [ ] Version in `system.json` erhoeht
 - [ ] Aenderungen in `RELEASE_NOTES.md` dokumentiert
 - [ ] Migration noetig geprueft (bei Feldumbenennungen/-verschiebungen)
+- [ ] Unit-Tests fuer geaenderte Logik vorhanden/aktualisiert
+- [ ] Unit-Tests ausgefuehrt (gruener Lauf)
 - [ ] `urop-system.zip` neu gebaut
 - [ ] Manifest-URL und Download-URL weiterhin gueltig
+
+### Test-Befehl (PowerShell)
+
+```powershell
+Set-Location "f:\repos\thoc\foundryurop\system-urop"
+node --test tests\urop-calculations.test.mjs
+```
 
 ### Build-Befehl fuer ZIP (PowerShell)
 

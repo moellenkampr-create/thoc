@@ -1,113 +1,116 @@
-# URoP – Grundregeln
+﻿# URoP â€“ Grundregeln
 Stand: 2026-04-16
 
 ## Status dieses Dokuments
 Dieses Dokument sammelt die **Kernregeln** des Basissystems.
-Ziel ist kein Vollständigkeitszwang pro Teilmodul, sondern ein lesbarer Hauptkern.
+Ziel ist kein VollstÃ¤ndigkeitszwang pro Teilmodul, sondern ein lesbarer Hauptkern.
+Begriffsdefinitionen stehen zentral im Glossar: `docs/rules/URoP_Glossar.md`.
 
 ---
 
 ## 1. Systemleitbild [GELOCKT]
 - URoP soll im Kern bewusst schlank bleiben.
-- Komplexität, die nicht zwingend zum Basissystem gehört, wird in Zusatzmodule ausgelagert.
+- KomplexitÃ¤t, die nicht zwingend zum Basissystem gehÃ¶rt, wird in Zusatzmodule ausgelagert.
 - Das Spiel ist fiction-first lesbar.
-- Starke Konzepte, Spezialisierung und Gruppenergänzung sind erwünscht.
+- Starke Konzepte, Spezialisierung und GruppenergÃ¤nzung sind erwÃ¼nscht.
 - Regeln sind eher Leitlinien als starre Verbotszonen.
 
 ---
 
-## 2. Kernattribute [GELOCKT / TESTSTAND]
-URoP arbeitet im Basiskern mit drei Hauptattributen:
-- **Körper**
+## 2. Kernleitattribute [GELOCKT / TESTSTAND]
+URoP arbeitet im Basiskern mit drei Leitattributen:
+- **KÃ¶rper**
 - **Geist**
-- **Präsenz**
+- **PrÃ¤senz**
 
 ### 2.1 Bedeutung [GELOCKT]
-- **Körper** = Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung
+- **KÃ¶rper** = Physis, Belastbarkeit, Bewegung, kÃ¶rpernahe Durchsetzung
 - **Geist** = Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung
-- **Präsenz** = Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung
+- **PrÃ¤senz** = Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung
 
-Kernattribute beschreiben Figuren vor allem wertemaeßig und sind zentral fuer Voraussetzungen, Freischaltungen und Einordnung. Direkte Attributsproben sind moeglich, aber selten; im Regelfall wirken Attribut und Fertigkeit zusammen. Nebenfolgen werden vor allem ueber Risiko, Schaerfe und Zustandsdauer gelesen.
+Leitattribute beschreiben Figuren vor allem wertemaeÃŸig und sind zentral fuer Voraussetzungen, Freischaltungen und Einordnung. Direkte Leitattributsproben sind moeglich, aber selten; im Regelfall wirken Leitattribut und Fertigkeit zusammen. Nebenfolgen werden vor allem ueber Risiko, Schaerfe und Zustandsdauer gelesen.
 
-### 2.2 Attribut-Facetten [TESTSTAND]
-Jedes Attribut ist in vier Facetten unterteilt. Facetten sind keine eigenständigen Attribute, sondern Stellschrauben für Risiko, Auswirkungen und Zustandsdauer in passenden Situationen. Sie können als Vorteil/Nachteil in Stufen 1–3 gehalten werden.
+### 2.2 Attribute unter Leitattributen [TESTSTAND]
+Jedes Leitattribut ist in vier Attribute unterteilt. Diese Attribute sind keine Leitattribute, sondern Stellschrauben fÃ¼r Risiko, Auswirkungen und Zustandsdauer in passenden Situationen. Sie kÃ¶nnen als Vorteil/Nachteil in Stufen 1â€“3 gehalten werden.
 
-#### Körper-Facetten
-- **Stärke**: rohe Kraft, Hebeln, Tragen, Wucht
-- **Grobmotorik**: große Bewegungskoordination, Sprint, Sprung, Nahkampf-Flow
-- **Feinmotorik**: Präzision, Fingerarbeit, ruhige Hand, feine Werkzeugführung
-- **Konstitution**: Belastbarkeit, Erschöpfungsresistenz, Schmerz- und Toxintoleranz
+#### KÃ¶rper-Attribute
+- **StÃ¤rke**: rohe Kraft, Hebeln, Tragen, Wucht
+- **Grobmotorik**: groÃŸe Bewegungskoordination, Sprint, Sprung, Nahkampf-Flow
+- **Feinmotorik**: PrÃ¤zision, Fingerarbeit, ruhige Hand, feine WerkzeugfÃ¼hrung
+- **Konstitution**: Belastbarkeit, ErschÃ¶pfungsresistenz, Schmerz- und Toxintoleranz
 
-#### Geist-Facetten
+#### Geist-Attribute
 - **Analyse**: Muster erkennen, Logik, taktische Bewertung, Schlussfolgerung
 - **Willenskraft**: mentale Standfestigkeit, Selbstkontrolle, Stressresistenz, innerer Gegendruck
 - **Aufmerksamkeit**: Wahrnehmung, Fokus halten, Reizfilter, situatives Lesen
-- **Intuition**: schnelle Urteile, Bauchentscheidungen, Lagegefühl, Sinnesintegration
+- **Intuition**: schnelle Urteile, Bauchentscheidungen, LagegefÃ¼hl, Sinnesintegration
 
-#### Präsenz-Facetten
-- **Ausdruck**: Absicht und Wirkung nach außen tragen, klar kommunizieren, auftreten
-- **Empathie**: Stimmungen und Motive lesen, soziales Feingehör, resonantes Verstehen
+#### PrÃ¤senz-Attribute
+- **Ausdruck**: Absicht und Wirkung nach auÃŸen tragen, klar kommunizieren, auftreten
+- **Empathie**: Stimmungen und Motive lesen, soziales FeingehÃ¶r, resonantes Verstehen
 - **Dominanz**: Macht projizieren, Grenzen setzen, eigenen Willen gegen Widerstand behaupten
-- **Resonanz**: Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und übernatürlichen Feldern; die Qualität des eigenen Signals in der Welt
+- **Resonanz**: Aura, metaphysische Ausstrahlung, Kontakt zu Geistwesen und Ã¼bernatÃ¼rlichen Feldern; die QualitÃ¤t des eigenen Signals in der Welt
 
-#### Facetten-Wirkung im Spiel (Grundmodul)
-Facetten beeinflussen Wuerfelwuerfe selten direkt, sondern vor allem die Verteilung von Nebenfolgen:
-- **Passende Facette hoch (+2/+3)**: geringeres Risiko, mildere Nebenfolge, kürzere Zustandsdauer
-- **Passende Facette niedrig (-2/-3)**: erhöhtes Risiko, schärfere Nebenfolge, längere Zustandsdauer
-- **Neutrale Facette (0/±1)**: wenig Einfluss; Standard greift
+#### Attribut-Wirkung im Spiel (Grundmodul)
+Attribute beeinflussen Wuerfelwuerfe selten direkt, sondern vor allem die Verteilung von Nebenfolgen:
+- **Passendes Attribut hoch (+2/+3)**: geringeres Risiko, mildere Nebenfolge, kÃ¼rzere Zustandsdauer
+- **Passendes Attribut niedrig (-2/-3)**: erhÃ¶htes Risiko, schÃ¤rfere Nebenfolge, lÃ¤ngere Zustandsdauer
+- **Neutrales Attribut (0/Â±1)**: wenig Einfluss; Standard greift
 
 Beispiel Konstitution:
-- Konstitution +2: körpernaher Treffer führt eher zu leichter statt schwerer Konsequenz; Erschöpfung tritt später ein
-- Konstitution -2: gleiche Lage führt schneller zu Erschöpft/Instabil oder höherer Konsequenz
+- Konstitution +2: kÃ¶rpernaher Treffer fÃ¼hrt eher zu leichter statt schwerer Konsequenz; ErschÃ¶pfung tritt spÃ¤ter ein
+- Konstitution -2: gleiche Lage fÃ¼hrt schneller zu ErschÃ¶pft/Instabil oder hÃ¶herer Konsequenz
 
 ### 2.3 Wertebereich [TESTSTAND]
 - aktueller Arbeitsbereich: **0 bis 6**
 - Referenz: **2 = Durchschnitt**
+- Werte ueber 6 sind als Ausnahme durch Vorteile, Zauber, Kraefte, Cyberware oder Ausruestung moeglich.
 
 ### 2.4 Charakterkosten-Referenz [TESTSTAND]
-- Attributkosten: 0=-90, 1=-40, 2=0, 3=40, 4=90, 5=160, 6=260
-- Facettenkosten: **lineare Abweichungskosten** mit **±40 EP pro Stufe**
+- Leitattributkosten entfallen; Leitattribute werden aus Attributen abgeleitet.
+- Attributkosten werden ueber die aktive Kostenregel gefuehrt (separate Kostentabelle).
+- Bei Erschaffung kann kein Attributwert mit 0 oder kleiner gewaehlt werden.
 
-Beispiel Facettenkosten:
-- Facette -2 = -80 EP
-- Facette +1 = +40 EP
-- Facette +3 = +120 EP
+Rundungsregel fuer Ableitungen und Modifikationen:
+- Kaufmaennische Rundung mit Vorzeichen-Erhalt.
+- .5 wird vom Nullpunkt weg gerundet (1.5 -> 2, -1.5 -> -2).
 
-Fokusmodifikator:
-- Fokusmodifikatoren werden auf Attribut- und Facettenkosten angewandt.
-- Rundung erfolgt zugunsten des Spielers (abrunden).
+### 2.5 Aktionsfaehigkeit [TESTSTAND]
+- Faellt mindestens ein Attribut durch Mali auf 0 oder darunter, ist die Figur aktionsunfaehig.
+- Temporaere Senkungen fuehren zu temporaerer Aktionsunfaehigkeit bis zur Stabilisierung.
+- Bleibt der Zustand dauerhaft bestehen, kann das zum dauerhaften Ausfall der Figur fuehren.
 
 ---
 
 ## 3. Probenkern [ARBEITSSTAND]
 ### 3.1 Grundsatz
-Es wird nur gewürfelt, wenn:
+Es wird nur gewÃ¼rfelt, wenn:
 - Unsicherheit besteht
 - Druck oder Risiko besteht
 - Widerstand relevant ist
-- Zeitknappheit oder besondere Qualität wichtig ist
+- Zeitknappheit oder besondere QualitÃ¤t wichtig ist
 
 ### 3.2 Standard vor dem Wurf
-Vor dem Wurf wird der erwartbare Standard geklärt:
-- Was würde im Normalfall passieren?
+Vor dem Wurf wird der erwartbare Standard geklÃ¤rt:
+- Was wÃ¼rde im Normalfall passieren?
 - Was hilft?
 - Was erschwert?
-- Wer oder was führt die Handlung?
+- Wer oder was fÃ¼hrt die Handlung?
 
-### 3.3 Würfelsystem [ARBEITSSTAND]
+### 3.3 WÃ¼rfelsystem [ARBEITSSTAND]
 Kernwurf: **3W6**
 
-Aktuelle Qualitätsbänder:
-- 3–5 = schlecht
-- 6–8 = schwach
-- 9–12 = Standard
-- 13–15 = gut
-- 16–18 = sehr gut
+Aktuelle QualitÃ¤tsbÃ¤nder:
+- 3â€“5 = schlecht
+- 6â€“8 = schwach
+- 9â€“12 = Standard
+- 13â€“15 = gut
+- 16â€“18 = sehr gut
 
-### 3.4 Führender und unterstützender Wert [ARBEITSSTAND]
+### 3.4 FÃ¼hrender und unterstÃ¼tzender Wert [ARBEITSSTAND]
 Im Normalfall ist die passende **Fertigkeit** der fuehrende Wert.
-- **Attribut und Umstaende** (z. B. Ausruestung, Umgebung, Zeitdruck, Gefaehrlichkeit) faerben, wie stabil, praezise und folgenarm das Ergebnis ausfaellt.
-- Reine **Attributsproben** sind moeglich, aber selten (z. B. wenn keine passende Fertigkeit greift oder rohe Koerperkraft gefragt ist).
+- **Leitattribut und Umstaende** (z. B. Ausruestung, Umgebung, Zeitdruck, Gefaehrlichkeit) faerben, wie stabil, praezise und folgenarm das Ergebnis ausfaellt.
+- Reine **Leitattributsproben** sind moeglich, aber selten (z. B. wenn keine passende Fertigkeit greift oder rohe Koerperkraft gefragt ist).
 
 #### 3.4.1 Spielleitlinie: Bandbreite verschieben
 1. Zuerst den plausiblen Standard setzen (9-12).
@@ -123,10 +126,10 @@ Im Normalfall ist die passende **Fertigkeit** der fuehrende Wert.
 
 ### 3.5 Grundformen von Proben [GELOCKT / ARBEITSSTAND]
 - **Erfolgsprobe**
-- **Verlängerte Probe**
+- **VerlÃ¤ngerte Probe**
 
-### 3.6 Verlängerte Probe mit Uhren [ARBEITSSTAND]
-Für längere, szenisch relevante Vorgänge können Uhren genutzt werden:
+### 3.6 VerlÃ¤ngerte Probe mit Uhren [ARBEITSSTAND]
+FÃ¼r lÃ¤ngere, szenisch relevante VorgÃ¤nge kÃ¶nnen Uhren genutzt werden:
 - **Fortschrittsuhr**
 - **Gefahrenuhr**
 - **Abbruchuhr**
@@ -148,9 +151,9 @@ Segment-Logik:
 
 ## 4. Teamwork [GELOCKT]
 - Es gibt meist einen **Hauptakteur**.
-- Unterstützung muss konkret und passend sein.
+- UnterstÃ¼tzung muss konkret und passend sein.
 - Teamwork hat keinen starren Standardbonus.
-- Unterstützung verbessert je nach Lage Qualität, Tempo, Sicherheit, Position oder Zugriff.
+- UnterstÃ¼tzung verbessert je nach Lage QualitÃ¤t, Tempo, Sicherheit, Position oder Zugriff.
 
 ---
 
@@ -239,20 +242,20 @@ Bis eigene Datenbloecke fuer Magie/Psi vorliegen, gilt diese Referenz:
 ## 6. Konsequenzen [GELOCKT]
 Konsequenzen bilden anhaltende negative Folgen ab und werden fiction-first benannt.
 
-### 6.1 Verteilung für Menschen [GELOCKT]
+### 6.1 Verteilung fÃ¼r Menschen [GELOCKT]
 - **3 Leichte**
 - **2 Schwere**
 - **1 Kritische**
 
 ### 6.2 Overflow [GELOCKT]
-- zusätzliche Leichte → Schwer
-- zusätzliche Schwere → Kritisch
-- ist auch Kritisch voll, ist die Figur in der Regel aus normaler Handlungsfähigkeit herausgenommen
+- zusÃ¤tzliche Leichte â†’ Schwer
+- zusÃ¤tzliche Schwere â†’ Kritisch
+- ist auch Kritisch voll, ist die Figur in der Regel aus normaler HandlungsfÃ¤higkeit herausgenommen
 
 ### 6.3 Wirkungsprinzip [GELOCKT]
-Konsequenzen wirken zuerst fiktional und können zusätzlich:
+Konsequenzen wirken zuerst fiktional und kÃ¶nnen zusÃ¤tzlich:
 - Erschwernisse
-- Ausschluss bestimmter Manöver
+- Ausschluss bestimmter ManÃ¶ver
 - Zeitverlust
 - Zusatzrisiko
 - neue gegnerische Gelegenheiten
@@ -274,7 +277,7 @@ Konsequenzen sollen zur Art der Faehigkeit passen. Aktuell gefuehrte Domaenen:
 ### 6.5 Trennung: Zustand vs. Konsequenz [GELOCKT / TESTSTAND]
 URoP trennt zwei Ebenen:
 - **Zustaende**: kurzfristig, taktisch, meist in der Szene durch konkrete Aktion aufloesbar
-- **Konsequenzen**: anhaltend, stufenbasiert (short_term / light / heavy / critical), ueber Versorgung, Reparatur oder Downtime abhandelbar
+- **Konsequenzen**: anhaltend, stufenbasiert (shortTerm / light / heavy / critical), ueber Versorgung, Reparatur oder Downtime abhandelbar
 
 Leitfrage fuer die Spielleitung:
 - Wenn es durch 1 klare Aktion im Kampf aufloesbar ist -> Zustand
@@ -286,10 +289,10 @@ Die vollstaendige Liste mit Abhandlungspfaden steht in den Datenquellen:
 - `docs/data-readable/URoP_Konsequenzen.md` (Lesefassung)
 
 Pfad fuer die Abhandlung am Tisch:
-1. Domäne bestimmen
-2. Stufe waehlen (short_term, light, heavy, critical)
-3. `clear_condition` anwenden
-4. `recovery_track` und Mindestzeit beachten
+1. DomÃ¤ne bestimmen
+2. Stufe waehlen (shortTerm, light, heavy, critical)
+3. `clearCondition` anwenden
+4. `recoveryTrack` und Mindestzeit beachten
 
 Spieltest-Hinweis:
 Bei wiederholtem Push in derselben Szene wird in der Regel ueber die Stufen eskaliert,
@@ -307,7 +310,10 @@ statt denselben leichten Effekt mehrfach zu stapeln.
 Initiative wird in konfliktgeladenen Szenen einmal bestimmt und bleibt grundsaetzlich bestehen.
 
 Inibasis:
-- **Initiativanker-Attribut + feste Modi**
+- **gerundetes Leitattribut des Initiativankers + Boni - Mali**
+
+Rundung:
+- kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet)
 
 Initiative als Vergleichsprobe:
 - Spieler wuerfeln eine normale Probe gegen den Vergleichswert (**gegnerische Inibasis + Modi**).
@@ -315,45 +321,45 @@ Initiative als Vergleichsprobe:
 - Die Schere wirkt wie ueblich: schlecht/schwach = spaeter, gut/sehr gut = frueher.
 
 Initiativanker je Szenentyp:
-- **Körper** fuer physischen Konflikt
+- **KÃ¶rper** fuer physischen Konflikt
 - **Geist** fuer taktische/technische Konflikte
-- **Präsenz** fuer soziale Konfrontationen
+- **PrÃ¤senz** fuer soziale Konfrontationen
 
 Wirkung:
 - Hohe Initiative bestimmt primaer die Reihenfolge, nicht automatisch zusaetzliche Hauptaktionen.
 
-### 7.3 Überraschung und Gleichstand [GELOCKT]
+### 7.3 Ãœberraschung und Gleichstand [GELOCKT]
 - Ueberraschte steigen in der Regel erst nach der ersten gegnerischen Aktion sinnvoll ein.
 - Bei Gleichstand zwischen Spielern und gleich starken Gegnern haben Spieler Vorrang.
 
-### 7.4 Aktionsökonomie [GELOCKT / ARBEITSSTAND]
+### 7.4 AktionsÃ¶konomie [GELOCKT / ARBEITSSTAND]
 - Pro eigenem Initiativzyklus hat jede Figur **eine Hauptaktion**.
 - Kurze, naheliegende Handlungen ohne starke Wirkung koennen frei bleiben.
 - Effekte mit **2+ Aktionen** binden mehrere eigene Zyklen (Aufbau, Kanalisation, Vorbereitung).
 - Initiativehoehe allein erzeugt keinen zweiten regulaeren Zug.
 
-### 7.5 Reaktionsökonomie [ARBEITSSTAND]
+### 7.5 ReaktionsÃ¶konomie [ARBEITSSTAND]
 In konfliktgeladenen Szenen hat jede Figur grundsaetzlich **ein Reaktionsfenster pro eigenem Initiativzyklus**.
 
 Grundsatz:
-- **ein reaktives Manöver pro eigenem Zyklus**
+- **ein reaktives ManÃ¶ver pro eigenem Zyklus**
 - das Reaktionsfenster **erneuert sich mit der naechsten regulaeren Handlung** der Figur
-- ein reaktives Manöver **verbraucht das Reaktionsfenster**, egal ob es gelingt oder scheitert
+- ein reaktives ManÃ¶ver **verbraucht das Reaktionsfenster**, egal ob es gelingt oder scheitert
 - pro Ausloeser darf eine Figur **nur eine** reaktive Antwort ansagen
-- ein reaktives Manöver eroeffnet **nicht sofort wieder ein neues reaktives Manöver** als Kettenunterbrechung
+- ein reaktives ManÃ¶ver eroeffnet **nicht sofort wieder ein neues reaktives ManÃ¶ver** als Kettenunterbrechung
 
 Leitlinie:
 - Diese Reaktionsoekonomie gilt fuer volle reaktive Manoever wie `Konter`, `Reaktionsschuss`, `Sozialer Konter` oder `Alarm verzoegern`.
-- Normale Gegenwehr, Widerstand oder fiktionale Verteidigung ohne volles Manöver verbrauchen dieses Fenster nicht automatisch.
-- Reaktive Manöver brauchen immer einen **klar lesbaren Auslöser**, nicht nur ein vages Gefühl, dass "jetzt vielleicht etwas kommt".
+- Normale Gegenwehr, Widerstand oder fiktionale Verteidigung ohne volles ManÃ¶ver verbrauchen dieses Fenster nicht automatisch.
+- Reaktive ManÃ¶ver brauchen immer einen **klar lesbaren AuslÃ¶ser**, nicht nur ein vages GefÃ¼hl, dass "jetzt vielleicht etwas kommt".
 
-Typische klare Auslöser:
+Typische klare AuslÃ¶ser:
 - sichtbarer Angriff oder Griffversuch
 - erkennbare Bewegung durch eine gehaltene Linie
-- offene soziale Spitze, Bloßstellung oder Deutungsoffensive
+- offene soziale Spitze, BloÃŸstellung oder Deutungsoffensive
 - ein bereits laufender oder unmittelbar ausloesender Alarmweg
 
-### 7.6 Größe, Last, Kräfte und Cyberware [TESTSTAND]
+### 7.6 GrÃ¶ÃŸe, Last, KrÃ¤fte und Cyberware [TESTSTAND]
 - Groesse wirkt nur dann als Modifikator, wenn sie in der Szene direkt relevant ist.
 - Last, Verletzung oder starke Lagefaktoren koennen Initiative druecken.
 - Beschleuniger-Cyberware kann Initiative erhoehen, wenn das Profil das explizit vorsieht.
@@ -402,34 +408,42 @@ Mini-Beispiele:
 
 ---
 
-## 8. Widerstände [GELOCKT]
-URoP nutzt drei Grundwiderstände:
-- **Körperwiderstand**
+## 8. WiderstÃ¤nde [GELOCKT]
+URoP nutzt drei GrundwiderstÃ¤nde:
+- **KÃ¶rperwiderstand**
 - **Geistwiderstand**
-- **Präsenzwiderstand**
+- **PrÃ¤senzwiderstand**
+
+Ableitung:
+- Koerperwiderstand = gerundetes Leitattribut Koerper + Boni - Mali
+- Geistwiderstand = gerundetes Leitattribut Geist + Boni - Mali
+- Praesenzwiderstand = gerundetes Leitattribut Praesenz + Boni - Mali
+
+Rundung:
+- kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet)
 
 Leitfrage:
-Nicht die Quelle zählt, sondern **was angegriffen wird**.
+Nicht die Quelle zÃ¤hlt, sondern **was angegriffen wird**.
 
 ---
 
-## 9. Größenstufen und Zielwahl [GELOCKT / ARBEITSSTAND]
-### 9.1 Größenstufen
-Aktueller Basiskern nutzt abstrakte Größenstufen **G0–G9** mit **Mensch = G3**.
+## 9. GrÃ¶ÃŸenstufen und Zielwahl [GELOCKT / ARBEITSSTAND]
+### 9.1 GrÃ¶ÃŸenstufen
+Aktueller Basiskern nutzt abstrakte GrÃ¶ÃŸenstufen **G0â€“G9** mit **Mensch = G3**.
 
 ### 9.2 Zielarten
-Angriffe können sich richten auf:
+Angriffe kÃ¶nnen sich richten auf:
 - Gesamtziel
 - Teilbereich
 - Subsystem
 - Schwachstelle
 
 ### 9.3 Panzerung umgehen
-Panzerung wird primär über **Zielwahl** und **Schwachstellenlogik** umgangen, nicht über ein isoliertes Miniregelwerk.
+Panzerung wird primÃ¤r Ã¼ber **Zielwahl** und **Schwachstellenlogik** umgangen, nicht Ã¼ber ein isoliertes Miniregelwerk.
 
 ---
 
-## 10. Kampfwirkung [GELOCKT – Hybrid/Dominanz B per ADR-001]
+## 10. Kampfwirkung [GELOCKT â€“ Hybrid/Dominanz B per ADR-001]
 URoP nutzt zwei Lesarten fuer Kampfwirkung, aber im Standardfall wird die schnelle Lesart verwendet.
 
 In Klartext:
@@ -442,14 +456,14 @@ Die Entscheidung ist getroffen (siehe `archive/ADR-001-Kampfwirkung.md`, nur Ref
 
 Zwei Linien wurden abgewogen:
 
-### Linie A – Größen-/Zielmodell
-- Größenstufen G0–G9
+### Linie A â€“ GrÃ¶ÃŸen-/Zielmodell
+- GrÃ¶ÃŸenstufen G0â€“G9
 - Wirkungsschritte
-- Zielwahl über Gesamtziel / Teilbereich / Subsystem / Schwachstelle
+- Zielwahl Ã¼ber Gesamtziel / Teilbereich / Subsystem / Schwachstelle
 
-### Linie B – Waffen-/Rüstungsklassen
-- W1–W6
-- R1–R6
+### Linie B â€“ Waffen-/RÃ¼stungsklassen
+- W1â€“W6
+- R1â€“R6
 - Kampfleiter mit:
   - kein Effekt
   - reduzierter Druck
@@ -525,7 +539,7 @@ Leitlinien:
 ## 12. Noch offen
 - exakte Endfassung des Probenkerns
 - endgueltige Stellung von Uhren im Basiskern
-- Eskalationskurven fuer Re-Einsatz (mild vs. hart) – Spieltest
+- Eskalationskurven fuer Re-Einsatz (mild vs. hart) â€“ Spieltest
 - Kernschema fuer faehigkeitsspezifisches Lernen ausserhalb der Manoeverfamilien (z. B. Stufe I-III)
 - einheitliche Voraussetzungen (Sammelfertigkeit/Standardfertigkeit/Spezialisierung) pro Faehigkeitskategorie
 
@@ -533,60 +547,60 @@ Leitlinien:
 
 
 ### 9.3 Panzerung umgehen
-Für Angriffslogik siehe Abschnitt "Zielwahl und Wirkung".
+FÃ¼r Angriffslogik siehe Abschnitt "Zielwahl und Wirkung".
 
 ---
 
 ## 10. Sprengstoffe und Spezialmunition [ARBEITSSTAND]
 
 ### 10.1 Granaten im Einsatz
-Handgranaten sind Fernwaffen mit **Flächenwirkung** (attack_pattern: area). Sie erfordern das Manöver "Granate werfen" (T1, action_cost: action, unlimited Einsatz).
+Handgranaten sind Fernwaffen mit **FlÃ¤chenwirkung** (attackPattern: area). Sie erfordern das ManÃ¶ver "Granate werfen" (T1, actionCost: action, unlimited Einsatz).
 
 **Granatentypen:**
 
-- **Splitter-Granate** (Damage 4): Standard-Kampfgranate mit Sprengkörper und Splittereffekt. Balancing: Entspricht roher Wirkung, keine Spezialanpassung nötig.
+- **Splitter-Granate** (Damage 4): Standard-Kampfgranate mit SprengkÃ¶rper und Splittereffekt. Balancing: Entspricht roher Wirkung, keine Spezialanpassung nÃ¶tig.
 
-- **Wärme-Granate / Inkendiar** (Damage 3): Erzeugt Hitzeeffekte und Brandaufbau. Primär für Geländekontrolle, Verbarrikadierungen und Positionsblockade. Neben kinetischem Schaden auch narrative Kontrolleffekte.
+- **WÃ¤rme-Granate / Inkendiar** (Damage 3): Erzeugt Hitzeeffekte und Brandaufbau. PrimÃ¤r fÃ¼r GelÃ¤ndekontrolle, Verbarrikadierungen und Positionsblockade. Neben kinetischem Schaden auch narrative Kontrolleffekte.
 
-- **EMP-Granate** (Damage 1): Spezialisiert auf elektronische Systeme, Cyberware-Interface und Sensoren-Deaktivierung. Balancing: Reduzierte kinetische Wirkung, aber hohe Systemstörung im Fokusbereich.
+- **EMP-Granate** (Damage 1): Spezialisiert auf elektronische Systeme, Cyberware-Interface und Sensoren-Deaktivierung. Balancing: Reduzierte kinetische Wirkung, aber hohe SystemstÃ¶rung im Fokusbereich.
 
 - **Rauchgranate** (Damage 0): Verdeckung und Sensorenblindung ohne direkte Verletzung. Narrative Wirkung auf Sichtlinien und optische Zielerfassung.
 
-- **Blendgranate** (Damage 1): Intensive Blitz- und Schalleffekte. Primär für Desorientierung und temporäre Kampfunfähigkeit durch Sensor-Betäubeung.
+- **Blendgranate** (Damage 1): Intensive Blitz- und Schalleffekte. PrimÃ¤r fÃ¼r Desorientierung und temporÃ¤re KampfunfÃ¤higkeit durch Sensor-BetÃ¤ubeung.
 
 ### 10.2 Raketen und Raketenwerfer
-Raketen sind **Plattformwaffen oder spezialisierte tragbare Systeme** mit Bereichswirkung und hohem Schaden (baseline 4–5).
+Raketen sind **Plattformwaffen oder spezialisierte tragbare Systeme** mit Bereichswirkung und hohem Schaden (baseline 4â€“5).
 
 **Einsatz- und Balancing-Leitplanken:**
 
-- Tragbare Raketensysteme (AV-Werfer, Breach-Varianten) erfordern **Granate werfen Manöver-Äquivalent oder höher**.
-- Fahrzeug-Lenkflugkörper sind **Fahrzeugwaffen-Aktionen** (kein separates Manöver nötig).
-- Raketeneinsatz flaggt Position sofort; Gegner können Gegenfeuer, Manöver oder Deckungswechsel ausloesen.
+- Tragbare Raketensysteme (AV-Werfer, Breach-Varianten) erfordern **Granate werfen ManÃ¶ver-Ã„quivalent oder hÃ¶her**.
+- Fahrzeug-LenkflugkÃ¶rper sind **Fahrzeugwaffen-Aktionen** (kein separates ManÃ¶ver nÃ¶tig).
+- Raketeneinsatz flaggt Position sofort; Gegner kÃ¶nnen Gegenfeuer, ManÃ¶ver oder Deckungswechsel ausloesen.
 - Balancing-Anker: Raketen sind nicht Alltagswaffen, sondern Szenen-Kipper. Einsatz bleibt laut, sichtbar und ressourcenintensiv.
 
-### 10.3 Spezialmunition und narrative Flexibilität
-URoP **verzichtet bewusst auf separate Munitionstypen-Felder** und nutzt stattdessen narrative Flexibilität:
+### 10.3 Spezialmunition und narrative FlexibilitÃ¤t
+URoP **verzichtet bewusst auf separate Munitionstypen-Felder** und nutzt stattdessen narrative FlexibilitÃ¤t:
 
 **Modell:**
 - Eine konkrete Granate oder Rakete kann mehrere Effekttypen kombinieren (z.B. Splitter + EMP-Komponente).
 - Spezialmunition wird im Regulierungstext oder durch Spieleraussage definiert ("Armor-piercing Kugeln", "EMP-Geschoss", "Incendiar-Rakete").
-- Der Regeleffekt bleibt über Zielwahl und Fiction-First-Modell: Wer gezielt gegen "schwache Stelle" würfelt und trifft, profitiert unabhängig von Munitionsbeschreibung.
+- Der Regeleffekt bleibt Ã¼ber Zielwahl und Fiction-First-Modell: Wer gezielt gegen "schwache Stelle" wÃ¼rfelt und trifft, profitiert unabhÃ¤ngig von Munitionsbeschreibung.
 
-**Leitfaden für Spieler und SL:**
+**Leitfaden fÃ¼r Spieler und SL:**
 - Beschreibt die Munition, die euer Charakter hat. ("Frangible Rounds, Thermal Slugs, Armor-piercing Discarding Sabot".)
-- Der narrative Kontext ändert die Szenenlage, unterstützt aber kein separates "Munitionssystem".
-- Bei umstrittenem Effekt einigen sich Spieler und SL auf Bonus/Malus ("Das AP-Geschoss reduziert Panzerung um 1 Stufe in dieser Situation") oder loesen es über extended dice mechanics.
+- Der narrative Kontext Ã¤ndert die Szenenlage, unterstÃ¼tzt aber kein separates "Munitionssystem".
+- Bei umstrittenem Effekt einigen sich Spieler und SL auf Bonus/Malus ("Das AP-Geschoss reduziert Panzerung um 1 Stufe in dieser Situation") oder loesen es Ã¼ber extended dice mechanics.
 
-### 10.4 Balancing-Prinzipien für Sprengstoffe
+### 10.4 Balancing-Prinzipien fÃ¼r Sprengstoffe
 
 **Kostenstruktur:**
-- Granaten sind relativ günstig (40–225 EB) und unbegrenzt in der Einsatzfrequenz.
-- Raketensysteme sind teuer (3200–9850 EB) und munitionslimitiert.
-- Einsatzkosten (action vs. two_actions): Granaten = 1 Aktion ("Werfen"), Raketen = 2 Aktionen ("Laden + Abfeuern").
+- Granaten sind relativ gÃ¼nstig (40â€“225 EB) und unbegrenzt in der Einsatzfrequenz.
+- Raketensysteme sind teuer (3200â€“9850 EB) und munitionslimitiert.
+- Einsatzkosten (action vs. twoActions): Granaten = 1 Aktion ("Werfen"), Raketen = 2 Aktionen ("Laden + Abfeuern").
 
-**Balancing gegen Überlegenheit:**
-- Keine grenzenlose Flächenspamming: Jede Granate/Rakete ist eine bewusste Einsatzentscheidung, nicht Boilerplate.
-- Raketensysteme sind auf Szenen-skalige Einsätze beschränkt (Fahrzeuge, Gebäude, große Ziele); Personenziele mit Raketen sind möglich, aber mit Risikowarnung.
-- Narrative Rückwirkungen (Alarm, Aufmerksamkeit, Ressourcenmanagement) bleiben gültig.
+**Balancing gegen Ãœberlegenheit:**
+- Keine grenzenlose FlÃ¤chenspamming: Jede Granate/Rakete ist eine bewusste Einsatzentscheidung, nicht Boilerplate.
+- Raketensysteme sind auf Szenen-skalige EinsÃ¤tze beschrÃ¤nkt (Fahrzeuge, GebÃ¤ude, groÃŸe Ziele); Personenziele mit Raketen sind mÃ¶glich, aber mit Risikowarnung.
+- Narrative RÃ¼ckwirkungen (Alarm, Aufmerksamkeit, Ressourcenmanagement) bleiben gÃ¼ltig.
 
 ---

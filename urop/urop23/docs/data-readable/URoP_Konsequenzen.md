@@ -1,4 +1,4 @@
-# URoP – Zustaende und Konsequenzen
+﻿# URoP â€“ Zustaende und Konsequenzen
 Stand: 2026-04-17
 
 ## 1. Fuehrende Datenquelle
@@ -16,16 +16,16 @@ URoP nutzt zwei Ebenen:
 - **Konsequenzen**: stufenbasiert, ueber Szene hinaus wirksam
 
 Konsequenzstufen:
-- `short_term`
+- `shortTerm`
 - `light`
 - `heavy`
 - `critical`
 
 ## 3. Abhandlung am Tisch [GELOCKT]
-1. Domäne bestimmen
+1. DomÃ¤ne bestimmen
 2. Eintrag auswaehlen (state oder consequence)
-3. `clear_condition` anwenden
-4. Falls consequence: `recovery_track` + `minimum_recovery_time` beachten
+3. `clearCondition` anwenden
+4. Falls consequence: `recoveryTrack` + `minimumRecovery Time` beachten
 
 Faustregel:
 - In 1 Aktion loesbar -> eher Zustand
@@ -60,7 +60,7 @@ Faustregel:
 **Bogensehne gerissen**
 - Effekt: Bogenangriffe unmoeglich bis Material ersetzt/gespannt ist.
 - Abhandlung: Sehne ersetzen ausserhalb direkter Bedrohung.
-- Aktion: neue Sehne anbringen (`full_turn`).
+- Aktion: neue Sehne anbringen (`fullTurn`).
 
 ### 4.3 Quickhack
 
@@ -69,77 +69,77 @@ Faustregel:
 - Abhandlung: Ablenkung, Lagewechsel oder glaubwuerdige Beruhigung.
 - Aktion: Signatur decken und Lage beruhigen (`major`).
 
-## 5. Konsequenzen nach Domäne und Stufe [ARBEITSSTAND]
+## 5. Konsequenzen nach DomÃ¤ne und Stufe [ARBEITSSTAND]
 
 ### 5.1 Combat
-- `short_term`: **Kurzfristige Blessur**
+- `shortTerm`: **Kurzfristige Blessur**
 - `light`: **Verstauchung**
 - `heavy`: **Gebrochener Arm**
 - `critical`: **Kritisches Trauma**
 
 ### 5.2 Gear
-- `short_term`: **Ausrichtung verrutscht**
+- `shortTerm`: **Ausrichtung verrutscht**
 - `light`: **Waffe beschaedigt**
 - `heavy`: **Primaerausruestung ausgefallen**
 - `critical`: **Katastrophaler Ausruestungsbruch**
 
 ### 5.3 Quickhack
-- `short_term`: **Signaturflare**
+- `shortTerm`: **Signaturflare**
 - `light`: **Teiltrace**
 - `heavy`: **Trace bestaetigt (Identitaet kompromittiert)**, **Gegenhack-Fenster (akut)**
 - `critical`: **ICE-Lock**
 
 ### 5.4 Cyberware
-- `short_term`: **Interface-Glitch**
+- `shortTerm`: **Interface-Glitch**
 - `light`: **Cyberware-Desync**
 - `heavy`: **Motorik-Drift**
 - `critical`: **Cyberware-Blackout**
 
 ### 5.5 Vehicle
-- `short_term`: **Kurzer Kontrollverlust**
+- `shortTerm`: **Kurzer Kontrollverlust**
 - `light`: **Lenkung driftet**
 - `heavy`: **Antrieb beschaedigt**
 - `critical`: **Systemausfall Fahrzeug**
 
 ### 5.6 Environment
-- `short_term`: **Rauch in den Lungen**
+- `shortTerm`: **Rauch in den Lungen**
 - `light`: **Hitzestress**
 - `heavy`: **Toxische Belastung**
 - `critical`: **Akute Erstickungsgefahr**
 
 ### 5.7 Mental
-- `short_term`: **Tunnelblick**
+- `shortTerm`: **Tunnelblick**
 - `light`: **Erschuettert**
 - `heavy`: **Panikspirale**
 - `critical`: **Dissoziativer Bruch**
 
 ### 5.8 Social
-- `short_term`: **Sozialer Fehltritt**
+- `shortTerm`: **Sozialer Fehltritt**
 - `light`: **Oeffentliche Bloesse**
 - `heavy`: **Geruecht verhaertet**
 - `critical`: **Sozial geaechtet**
 
 ### 5.9 Magic
-- `short_term`: **Fokusflimmern**
+- `shortTerm`: **Fokusflimmern**
 - `light`: **Arkaner Ausbrennimpuls**
 - `heavy`: **Resonanz-Rueckschlag**
 - `critical`: **Wirkkanal-Riss**
 
 ### 5.10 Psi
-- `short_term`: **Mentales Echo**
+- `shortTerm`: **Mentales Echo**
 - `light`: **Synaptische Ueberdehnung**
 - `heavy`: **Psi-Rueckkopplung**
 - `critical`: **Psi-Identitaetsbruch**
 
 ## 6. Recovery-Track Referenz [TESTSTAND]
-- `auto_end_of_exchange`: endet innerhalb der laufenden Austauschfolge
-- `auto_end_of_scene`: endet spaetestens mit Szenenende
-- `first_aid`: erfordert einfache Versorgung
+- `autoEnd Of Exchange`: endet innerhalb der laufenden Austauschfolge
+- `autoEnd Of Scene`: endet spaetestens mit Szenenende
+- `firstAid`: erfordert einfache Versorgung
 - `stabilization`: erfordert aktive Stabilisierung vor voller Belastung
-- `medical_care`: professionelle medizinische Behandlung noetig
+- `medicalCare`: professionelle medizinische Behandlung noetig
 - `repair`: technische Instandsetzung noetig
 - `downtime`: braucht Zeitfenster zwischen Szenen
-- `long_recovery`: laengerer Erholungsbogen, oft mehrere Szenen
+- `longRecovery`: laengerer Erholungsbogen, oft mehrere Szenen
 
 ## 7. Noch offen
 - optionale SL-Karten aus den JSON-Eintraegen automatisch ableiten

@@ -1,10 +1,10 @@
-# URoP – Quickhacks
+﻿# URoP â€“ Quickhacks
 Stand: 2026-04-17
 
-## 1. Führende Datenquelle
-Für Quickhacks gilt ab jetzt:
-- `URoP_Quickhacks.json` = **führende Datenquelle** für Kategorien, Zugangslogik und Referenzhacks
-- `URoP_Quickhacks.md` = erklärende Lesefassung, Grundlogik und Designhinweise
+## 1. FÃ¼hrende Datenquelle
+FÃ¼r Quickhacks gilt ab jetzt:
+- `URoP_Quickhacks.json` = **fÃ¼hrende Datenquelle** fÃ¼r Kategorien, Zugangslogik und Referenzhacks
+- `URoP_Quickhacks.md` = erklÃ¤rende Lesefassung, Grundlogik und Designhinweise
 
 Quickhacks sind ein **Cyberpunk-Modul**. Sie bauen auf demselben URoP-Kern auf und sollen kein eigenes Fremdsystem werden.
 
@@ -19,14 +19,14 @@ Der Kern bleibt:
 
 Leitfragen am Tisch:
 1. Warum ist das Ziel digital erreichbar?
-2. Wodurch läuft der Hack – OS, Deck, vorbereiteter Zugang oder Vor-Ort-Link?
+2. Wodurch lÃ¤uft der Hack â€“ OS, Deck, vorbereiteter Zugang oder Vor-Ort-Link?
 3. Was genau soll der Hack bewirken?
 4. Welches Risiko entsteht dabei?
 
 Wichtiger Stilgrundsatz:
-- Quickhacks sollen die Szene **öffnen und färben**, nicht jede andere Handlung ersetzen.
-- Wenn ein Effekt sehr groß wäre, steigen meist **Zugriffshürde, Risiko oder Zeitbedarf**.
-- Der Erzähler darf glaubwürdige Fiktion belohnen und harte Zugangshürden absenken, wenn die Szene das trägt.
+- Quickhacks sollen die Szene **Ã¶ffnen und fÃ¤rben**, nicht jede andere Handlung ersetzen.
+- Wenn ein Effekt sehr groÃŸ wÃ¤re, steigen meist **ZugriffshÃ¼rde, Risiko oder Zeitbedarf**.
+- Der ErzÃ¤hler darf glaubwÃ¼rdige Fiktion belohnen und harte ZugangshÃ¼rden absenken, wenn die Szene das trÃ¤gt.
 
 ---
 
@@ -34,48 +34,48 @@ Wichtiger Stilgrundsatz:
 ### 3.1 OS-Hacks
 Schnelle, eingespielte Standardhacks aus Implant-OS oder eingebautem System.
 
-Typisch für:
+Typisch fÃ¼r:
 - Scan
 - Markierung
-- kurze Störung
+- kurze StÃ¶rung
 - Cyberware-Druck
 - schnelle Kampfhacks
 
 ### 3.2 Deck-Hacks
 Breiter, tiefer und systemlastiger.
 
-Typisch für:
+Typisch fÃ¼r:
 - Kameras
 - Autoturrets
-- Türen
+- TÃ¼ren
 - Fahrzeuge
 - Sicherheitsknoten
 - Drohnen
 - Raumsteuerung
 
 ### 3.3 Vorbereiteter Zugang
-Ein Hack baut auf vorheriger Infiltration, geklauter Kennung, gesetzter Backdoor oder ähnlichem auf.
+Ein Hack baut auf vorheriger Infiltration, geklauter Kennung, gesetzter Backdoor oder Ã¤hnlichem auf.
 
-Das ist wichtig, weil dadurch große Effekte **verdient** statt frei gespammt werden.
+Das ist wichtig, weil dadurch groÃŸe Effekte **verdient** statt frei gespammt werden.
 
 ### 3.4 Vor-Ort-Link
-Ein Ziel wurde physisch geöffnet, freigelegt oder per Elektronik / Mechanik angreifbar gemacht.
+Ein Ziel wurde physisch geÃ¶ffnet, freigelegt oder per Elektronik / Mechanik angreifbar gemacht.
 
-Typische Fälle:
+Typische FÃ¤lle:
 - Wartungsklappe offen
 - Port freigelegt
-- Schlosskontakt zugänglich
+- Schlosskontakt zugÃ¤nglich
 - Fahrzeugsicherung bereits teilweise offen
 
-Das ist die wichtige Brücke zwischen **Elektronikarbeit** und **Quickhack**.
+Das ist die wichtige BrÃ¼cke zwischen **Elektronikarbeit** und **Quickhack**.
 
 ---
 
 ## 4. Zieltypen [ARBEITSSTAND]
-Quickhacks können typischerweise zielen auf:
+Quickhacks kÃ¶nnen typischerweise zielen auf:
 - **Person**
 - **Cyberware**
-- **Gerät**
+- **GerÃ¤t**
 - **Sicherheitssystem**
 - **Fahrzeug**
 - **Drohne**
@@ -87,7 +87,7 @@ Nicht jede Zielart ist gleich leicht hackbar.
 Leitlinie:
 - **wenig vernetzt / wenig cyberisiert** = schwerer oder nur begrenzt hackbar
 - **normal vernetzt** = situativ gut hackbar
-- **stark vercybert / systemgebunden** = viele Eingriffsflächen, aber oft auch mehr Schutz
+- **stark vercybert / systemgebunden** = viele EingriffsflÃ¤chen, aber oft auch mehr Schutz
 - **isoliert / abgeschirmt** = braucht meist Vorarbeit, direkten Link oder starken Zugriff
 
 ---
@@ -100,26 +100,26 @@ Das ist eine Leitplanke, keine starre Verbotsmauer.
 ### 5.1 Offenes Wireless-Fenster
 Das Ziel ist normal oder schlecht abgesichert erreichbar.
 
-Gut für:
+Gut fÃ¼r:
 - Scan
 - Markierung
-- einfache Sensorstörung
+- einfache SensorstÃ¶rung
 - kleine Person-/Cyberware-Hacks
 
 ### 5.2 Gleiches Netz
-Hackender und Ziel hängen glaubwürdig am selben Sicherheits- oder Systemraum.
+Hackender und Ziel hÃ¤ngen glaubwÃ¼rdig am selben Sicherheits- oder Systemraum.
 
-Gut für:
+Gut fÃ¼r:
 - Kameras
 - Turrets
-- Türen
-- Gebäudetechnik
+- TÃ¼ren
+- GebÃ¤udetechnik
 - Drohnen
 
 ### 5.3 Gescannt / markiert
 Das Ziel wurde erst lesbar gemacht.
 
-Gut für:
+Gut fÃ¼r:
 - Personenhacks
 - Smartgun-/Cyberware-Druck
 - schnelle Kampfhacks
@@ -127,20 +127,20 @@ Gut für:
 ### 5.4 Vorbereiteter Zugang
 Backdoor, geklaute Kennung, Spoof, Sniffer oder vorbereitete Freigabe.
 
-Gut für:
-- größere Systeme
+Gut fÃ¼r:
+- grÃ¶ÃŸere Systeme
 - harte Sicherheit
-- länger vorbereitete Infiltrationen
+- lÃ¤nger vorbereitete Infiltrationen
 
 ### 5.5 Physisch freigelegt
-Etwas wurde geöffnet, aufgeschraubt oder per Elektronik / Mechanik angreifbar gemacht.
+Etwas wurde geÃ¶ffnet, aufgeschraubt oder per Elektronik / Mechanik angreifbar gemacht.
 
-Gut für:
-- Sicherheitsschlösser
-- Türen
+Gut fÃ¼r:
+- SicherheitsschlÃ¶sser
+- TÃ¼ren
 - Fahrzeugsicherung
 - lokale Knoten
-- Notzugänge
+- NotzugÃ¤nge
 
 ### 5.6 Direkter Link
 Port, Kabel oder echter Diagnosekontakt.
@@ -156,10 +156,10 @@ Der Hack liest, identifiziert oder markiert.
 Beispiele:
 - Scan & Markieren
 - Status lesen
-- Sicherheitsfenster öffnen
+- Sicherheitsfenster Ã¶ffnen
 
-### 6.2 Störung
-Der Hack drückt kurz auf Wahrnehmung, Funktion oder Verlässlichkeit.
+### 6.2 StÃ¶rung
+Der Hack drÃ¼ckt kurz auf Wahrnehmung, Funktion oder VerlÃ¤sslichkeit.
 
 Beispiele:
 - Sensoren blenden
@@ -167,17 +167,17 @@ Beispiele:
 - kurze Sperre
 
 ### 6.3 Kontrolle
-Der Hack lenkt, öffnet, überschreibt oder setzt Prioritäten um.
+Der Hack lenkt, Ã¶ffnet, Ã¼berschreibt oder setzt PrioritÃ¤ten um.
 
 Beispiele:
-- Tür freigeben
+- TÃ¼r freigeben
 - Kamera auf freundlich
 - Autoturret auf freundlich
 - Fahrzeugsicherheit umgehen
 - Drohne umflaggen
 
-### 6.4 Überlast
-Der Hack erzeugt akuten Druck, Systemschock oder Überforderung.
+### 6.4 Ãœberlast
+Der Hack erzeugt akuten Druck, Systemschock oder Ãœberforderung.
 
 Beispiele:
 - Schmerzimpuls
@@ -186,16 +186,16 @@ Beispiele:
 
 ---
 
-## 7. Basisanwendung oder volles Manöver? [GELOCKT / ARBEITSSTAND]
+## 7. Basisanwendung oder volles ManÃ¶ver? [GELOCKT / ARBEITSSTAND]
 Quickhacks folgen derselben einfachen Linie wie der Rest:
 - **basisnah**, wenn der Eingriff klein, direkt und ohne eigene Gegenfenster- oder Kostenlogik lesbar ist
-- **volles Manöver**, wenn der Hack stark in Kontrolle, Entzug, Kampfdruck oder Reaktionsspiel eingreift
-- **verlängerte Probe**, wenn ein größeres System schrittweise geöffnet, übernommen oder umgeschrieben werden soll
+- **volles ManÃ¶ver**, wenn der Hack stark in Kontrolle, Entzug, Kampfdruck oder Reaktionsspiel eingreift
+- **verlÃ¤ngerte Probe**, wenn ein grÃ¶ÃŸeres System schrittweise geÃ¶ffnet, Ã¼bernommen oder umgeschrieben werden soll
 
 Faustregel:
 - **kleine Systemeingriffe** = eher Basisanwendung
-- **harte Kampf- und Sicherheitsumschreibungen** = eher volles Manöver
-- **Gebäudenetz / tiefes Systemspiel** = eher verlängerte Probe
+- **harte Kampf- und Sicherheitsumschreibungen** = eher volles ManÃ¶ver
+- **GebÃ¤udenetz / tiefes Systemspiel** = eher verlÃ¤ngerte Probe
 
 ---
 
@@ -203,13 +203,13 @@ Faustregel:
 Quickhacks nutzen **kein Zauberpunktesystem**.
 
 Typische Risiken:
-- **Trace** – du hinterlässt digitale Spur
-- **Overheat** – Implant, Deck oder Nervensystem laufen heiß
-- **Counter-Intrusion** – das Ziel oder seine Sicherheit wehrt sich digital
-- **Alarm** – Sicherheitsreaktionen steigen
-- **Collateral** – der Hack kippt auf ein Nebensystem oder erzeugt Nebenfolgen
+- **Trace** â€“ du hinterlÃ¤sst digitale Spur
+- **Overheat** â€“ Implant, Deck oder Nervensystem laufen heiÃŸ
+- **Counter-Intrusion** â€“ das Ziel oder seine Sicherheit wehrt sich digital
+- **Alarm** â€“ Sicherheitsreaktionen steigen
+- **Collateral** â€“ der Hack kippt auf ein Nebensystem oder erzeugt Nebenfolgen
 
-Das hält Quickhacks cyberpunkig statt mystisch.
+Das hÃ¤lt Quickhacks cyberpunkig statt mystisch.
 
 ---
 
@@ -221,28 +221,28 @@ Sehr wichtig:
 - Mechanik kann erst ein System freilegen
 - Wahrnehmung / Scan kann Ziele lesbar machen
 - Infiltration kann vorbereiteten Zugang liefern
-- Fahrzeuge, Drohnen und Sicherheitssysteme können über denselben Szenenfluss bespielt werden
+- Fahrzeuge, Drohnen und Sicherheitssysteme kÃ¶nnen Ã¼ber denselben Szenenfluss bespielt werden
 
 So wird Hacking nicht zum Solominispiel neben der Gruppe.
 
 ---
 
-## 10. Referenzfälle [ARBEITSSTAND]
-Der aktuelle JSON-Bestand führt unter anderem:
+## 10. ReferenzfÃ¤lle [ARBEITSSTAND]
+Der aktuelle JSON-Bestand fÃ¼hrt unter anderem:
 - `Scan & Markieren`
 - `Status lesen`
 - `Sensoren blenden`
 - `Waffe sperren`
-- `Tür freigeben`
+- `TÃ¼r freigeben`
 - `Kamera auf freundlich`
 - `Autoturret auf freundlich`
 - `Fahrzeugsicherheit umgehen`
 - `Sicherheitsschloss freischalten`
 - `Drohne umflaggen`
 - `Systemschock`
-- `Sicherheitsfenster öffnen`
+- `Sicherheitsfenster Ã¶ffnen`
 
-Diese Liste ist eine **erste Arbeitsbasis**, kein vollständiger Katalog.
+Diese Liste ist eine **erste Arbeitsbasis**, kein vollstÃ¤ndiger Katalog.
 
 ## 10.1 Erwerbskosten (EP) [TESTSTAND]
 Quickhacks sind im Build aktuell **nicht bepreist**.
@@ -258,22 +258,22 @@ Bis zur finalen Kostenrunde gilt fuer alle Referenzhacks:
 - `Status lesen` = **0 EP**
 - `Sensoren blenden` = **0 EP**
 - `Waffe sperren` = **0 EP**
-- `Tür freigeben` = **0 EP**
+- `TÃ¼r freigeben` = **0 EP**
 - `Kamera auf freundlich` = **0 EP**
 - `Autoturret auf freundlich` = **0 EP**
 - `Fahrzeugsicherheit umgehen` = **0 EP**
 - `Sicherheitsschloss freischalten` = **0 EP**
 - `Drohne umflaggen` = **0 EP**
 - `Systemschock` = **0 EP**
-- `Sicherheitsfenster öffnen` = **0 EP**
+- `Sicherheitsfenster Ã¶ffnen` = **0 EP**
 
 ## 10.3 Einsatzprofile im Referenzbestand [TESTSTAND]
 Die JSON-Daten fuehren jetzt fuer den aktiven Referenzbestand zusaetzliche Felder, die an die Manoever-Logik anschliessen:
-- `action_cost`
-- `usage_window`
-- `reuse_escalation_profile`
-- `requirements_text`
-- `internal_refs` (nur intern, nicht fuer Druck- oder Regelbuchausgaben)
+- `actionCost`
+- `usageWindow`
+- `reuseEscalationProfile`
+- `requirementsText`
+- `internalRefs` (nur intern, nicht fuer Druck- oder Regelbuchausgaben)
 
 Ziel dieser Struktur:
 - Quickhacks und Manoever sollen dieselbe Grundsprache fuer Aktionskosten, Einsatzfenster und Re-Einsatz teilen.
@@ -283,12 +283,12 @@ Aktuell ist dieses Profil fuer den ganzen Referenzsatz gepflegt.
 
 Grobe Lesart im Bestand:
 - `Scan & Markieren` und `Status lesen`: kleine Infohacks, meist `free`, `unlimited`, `none`.
-- `Sensoren blenden`: kurze Stoerung, weiter eher `action`, `once_per_conflict`, `standard_conflict`.
-- `Waffe sperren` und `Systemschock`: direkte Kampfentzugs- oder Ueberlasthacks, nach Schaerfung jetzt eher `action`, `once_per_scene`, `strict_scene`.
-- `Tür freigeben`, `Fahrzeugsicherheit umgehen` und `Sicherheitsschloss freischalten`: direkte Zugriffs- und Freigabehacks, meist `action`, `unlimited`, `none`.
-- `Kamera auf freundlich`: lokaler Sicherheitsumschrieb, `action`, `once_per_conflict`, `standard_conflict`.
-- `Autoturret auf freundlich` und `Drohne umflaggen`: starke bewaffnete Kontrollhacks, nach Schaerfung jetzt eher `two_actions`, `once_per_scene`, `strict_scene`.
-- `Sicherheitsfenster öffnen`: starker Setuphack, weiter `action`, `once_per_scene`, `strict_scene`.
+- `Sensoren blenden`: kurze Stoerung, weiter eher `action`, `oncePer Conflict`, `standardConflict`.
+- `Waffe sperren` und `Systemschock`: direkte Kampfentzugs- oder Ueberlasthacks, nach Schaerfung jetzt eher `action`, `oncePer Scene`, `strictScene`.
+- `TÃ¼r freigeben`, `Fahrzeugsicherheit umgehen` und `Sicherheitsschloss freischalten`: direkte Zugriffs- und Freigabehacks, meist `action`, `unlimited`, `none`.
+- `Kamera auf freundlich`: lokaler Sicherheitsumschrieb, `action`, `oncePer Conflict`, `standardConflict`.
+- `Autoturret auf freundlich` und `Drohne umflaggen`: starke bewaffnete Kontrollhacks, nach Schaerfung jetzt eher `twoActions`, `oncePer Scene`, `strictScene`.
+- `Sicherheitsfenster Ã¶ffnen`: starker Setuphack, weiter `action`, `oncePer Scene`, `strictScene`.
 
 ## 10.4 Balancing-Leitplanken fuer starke Quickhacks [ARBEITSSTAND]
 Fuer die staerkeren Quickhacks gilt jetzt ausdruecklich:
@@ -304,16 +304,16 @@ Praktische Folge der aktuellen Schaerfung:
 - `Autoturret auf freundlich` und `Drohne umflaggen` verlangen mehr Setup-Zeit oder klarer verdienten Zugriff, bevor bewaffnete Systeme kippen.
 
 Wichtig:
-- `internal_refs` dienen nur Autoring, Cross-Checks und spaeteren Exporten.
+- `internalRefs` dienen nur Autoring, Cross-Checks und spaeteren Exporten.
 - Diese internen Felder sollen in Drucklisten und Regelbuch-Lesefassungen nicht auftauchen.
 
 ---
 
-## 11. Wichtig für spätere Ausbaustufen
+## 11. Wichtig fÃ¼r spÃ¤tere Ausbaustufen
 Quickhacks sind eng verwandt mit:
 - `URoP_Cyberware.json`
-- späterem **Netrunning / Decking**
-- späteren **Vehicles-Regeln**
+- spÃ¤terem **Netrunning / Decking**
+- spÃ¤teren **Vehicles-Regeln**
 - Technikfertigkeiten wie **Elektronik** und **Sicherheitssysteme**
 
 Das Ziel ist aber bewusst:

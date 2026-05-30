@@ -1,15 +1,15 @@
-# URoP – Waffen
+﻿# URoP â€“ Waffen
 Stand: 2026-04-10
 
 ## 1. Zweck dieser Datei
-Diese Datei erklärt die **aktive Waffenstruktur** des URoP-Regelwerks.
-Die **führende Datenquelle** für Waffen ist:
+Diese Datei erklÃ¤rt die **aktive Waffenstruktur** des URoP-Regelwerks.
+Die **fÃ¼hrende Datenquelle** fÃ¼r Waffen ist:
 - `URoP_Waffen.json`
 
 Diese MD-Datei dient als:
 - Lesefassung der Waffenfelder
 - Einordnung der Waffenkategorien
-- kurze Regel- und Pflegeerklärung
+- kurze Regel- und PflegeerklÃ¤rung
 
 ---
 
@@ -30,26 +30,26 @@ Aktive Waffenfelder sind aktuell:
 - `id`
 - `name`
 - `category`
-- `combat_mode`
+- `combatMode`
 - `description`
-- `rules_short`
-- `price_eb`
-- `designed_for_size_class`
-- `effective_against_class`
-- `damage_baseline`
+- `rulesShort`
+- `priceEb`
+- `designedFor Size Class`
+- `effectiveAgainst Class`
+- `damageBaseline`
 - `quality`
-- `magazine_capacity` *(falls relevant)*
-- `fire_modes` *(falls relevant)*
-- `melee_reach_classes` *(falls relevant)*
-- `range_bands` *(falls relevant)*
+- `magazineCapacity` *(falls relevant)*
+- `fireModes` *(falls relevant)*
+- `meleeReach Classes` *(falls relevant)*
+- `rangeBands` *(falls relevant)*
 
 Bewusst **nicht** aktiv gefuehrt werden derzeit:
-- `skill_links`
+- `skillLinks`
 - `tags`
 - `availability`
-- `legal_status`
-- `hands_required`
-- `ammo_type`
+- `legalStatus`
+- `handsRequired`
+- `ammoType`
 - echte Feintaxonomien wie Schnittwaffe / Stichwaffe / Schlagwaffe als eigenes Feld
 
 Feinere Einordnung bleibt im Text.
@@ -62,7 +62,7 @@ Feinere Einordnung bleibt im Text.
 Die spielorientierte Hauptklasse der Waffe.
 Sie dient vor allem Ordnung, Foundry-Unterordnern und der groben Einordnung.
 
-### `combat_mode`
+### `combatMode`
 Der Haupteinsatzraum der Waffe:
 - `melee`
 - `ranged`
@@ -76,19 +76,19 @@ Hier koennen auch Details stehen wie:
 - Hybrid aus Schlag und Haken
 - Breach-, Jagd- oder Antimaterialrolle
 
-### `rules_short`
-1–3 Saetze mit der regeltechnischen Kernaussage.
+### `rulesShort`
+1â€“3 Saetze mit der regeltechnischen Kernaussage.
 
-### `price_eb`
+### `priceEb`
 Referenzpreis in **EB**.
 Alias im Setting: **ebbies / Eurodollar / Eurobuck**.
 
-### `designed_for_size_class`
+### `designedFor Size Class`
 Fuer welche Nutzergroesse die Waffe primaer gebaut ist.
 Beispiel:
 - `G3` = menschlicher Standardraum
 
-### `effective_against_class`
+### `effectiveAgainst Class`
 Gegen welche Zielgroesse oder Zielklasse der Basiseffekt primaer gelesen wird.
 Dieses Feld ersetzt **keinen zweiten Schadenswert**, sondern die Frage:
 **Wofuer ist die Waffe eigentlich ausgelegt?**
@@ -98,7 +98,7 @@ Beispiele:
 - schweres Gefechtsgewehr: `G4`
 - AV-Werfer: `vehicle`
 
-### `damage_baseline`
+### `damageBaseline`
 Die typische Standardwirkung der Waffe.
 Arbeitsleiter:
 - `1` = reduzierter Druck
@@ -114,17 +114,17 @@ Aktueller Arbeitskern:
 - `standard`
 - `excellent`
 
-### `magazine_capacity`
+### `magazineCapacity`
 Magazingroesse oder Ladekapazitaet, wenn die Waffe das braucht.
 
-### `fire_modes`
+### `fireModes`
 Verfuegbare Feuerarten von Fernkampfwaffen.
 Aktueller Kern:
 - `single`
 - `burst`
 - `auto`
 
-### `melee_reach_classes`
+### `meleeReach Classes`
 Aktive Nahkampfreichweiten einer Waffe.
 Mehrere Eintraege sind erlaubt.
 Aktueller Kern:
@@ -133,7 +133,7 @@ Aktueller Kern:
 - `lang`
 - `stange`
 
-### `range_bands`
+### `rangeBands`
 Reichweitenbaender von Fernkampfwaffen.
 Sie werden als Werteblock gefuehrt:
 - `nah`
@@ -163,7 +163,7 @@ Feinere Dinge wie Dolch, Kurzschwert, Machete, Kriegshammer oder Kampfspeer werd
 - `shotgun`
 - `gewehr`
 - `sniper`
-- `schwere_waffe`
+- `schwereWaffe`
 - `wurfwaffe`
 - `bogen`
 - `armbrust`

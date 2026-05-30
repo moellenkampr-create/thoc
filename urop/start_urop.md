@@ -102,3 +102,14 @@ Migrations-Skelett pflegen: `foundryurop/system-urop/scripts/urop.mjs`.
 ## 12. Offene Prüfaufgaben (Foundry-Sheet)
 
 - **EP-Neuberechnung prüfen**: Nach Abschluss der Sheet-Überarbeitung (Fertigkeiten, Items, Manöver) sicherstellen, dass der „EP aktualisieren"-Button auf der Übersichtsseite korrekt nach URoP-Regeln rechnet (Attribute + Facetten + Fertigkeiten + Manöverkosten).
+
+---
+
+## 13. Testpflicht (URoP + FoundryURoP)
+
+Diese Vorgaben gelten verbindlich, sobald `start_urop.md` geladen ist, und sind fuer Foundry-Arbeiten identisch mit `foundryurop/start_foundryurop.md` anzuwenden.
+
+- Bei regelrelevanten oder strukturellen Aenderungen im Foundry-Ruleset (scripts, template, sheet-Logik, EP/Fokus/Initiative/Widerstand) sind passende automatisierte Tests mitzuerstellen.
+- Vor jedem Commit sind diese Tests auszufuehren und das Ergebnis kurz zu dokumentieren.
+- Wenn die lokale Laufzeitumgebung fehlt (z. B. kein Node.js), ist das explizit als Blocker zu dokumentieren; Commit erst nach gruener Testausfuehrung in einer geeigneten Umgebung.
+- Testfokus im Zweifel zuerst auf: Rundung, Leitattribut-Ableitung, Fokusmodifikator, EP-Berechnung, Initiativbasis.

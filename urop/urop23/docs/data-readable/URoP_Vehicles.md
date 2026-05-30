@@ -1,4 +1,4 @@
-# URoP – Vehicles
+﻿# URoP â€“ Vehicles
 Stand: 2026-04-09
 
 ## Zweck dieser Datei
@@ -76,12 +76,12 @@ Das reicht fuer die meisten Szenen schon aus.
 Vehicles werden interessanter, wenn nicht nur der Fahrer etwas tun darf.
 
 Typische Rollen:
-- **Fahrer / Pilot** – haelt Kontrolle, Linie, Tempo und Risiko
-- **Schuetze** – nutzt Bordwaffen oder offene Feuerwinkel
-- **Navigator / Spotter** – Route, Sicht, Warnung, Zielhilfe
-- **Hacker** – Fahrzeugfunktionen, fremde Systeme, Verfolgungsnetz
-- **Mechaniker / Tech** – Notreparatur, Ueberbrueckung, Stabilisierung
-- **Passagier** – kann normal handeln, aber unter Fahrzeugdruck
+- **Fahrer / Pilot** â€“ haelt Kontrolle, Linie, Tempo und Risiko
+- **Schuetze** â€“ nutzt Bordwaffen oder offene Feuerwinkel
+- **Navigator / Spotter** â€“ Route, Sicht, Warnung, Zielhilfe
+- **Hacker** â€“ Fahrzeugfunktionen, fremde Systeme, Verfolgungsnetz
+- **Mechaniker / Tech** â€“ Notreparatur, Ueberbrueckung, Stabilisierung
+- **Passagier** â€“ kann normal handeln, aber unter Fahrzeugdruck
 
 ---
 
@@ -89,17 +89,17 @@ Typische Rollen:
 Die JSON-Daten fuehren Fahrzeuge nicht als Technikporno, sondern als **spielrelevante Plattformen**.
 
 Wichtige Lesefelder:
-- **vehicle_class**
-- **terrain_profile**
-- **role_focus**
-- **crew_min / crew_optimal**
-- **passenger_capacity**
+- **vehicleClass**
+- **terrainProfile**
+- **roleFocus**
+- **crewMin / crewOptimal**
+- **passengerCapacity**
 - **control**
 - **speed**
-- **protection_value**
+- **protectionValue**
 - **durability**
-- **network_exposure**
-- **hardpoints_or_mounts**
+- **networkExposure**
+- **hardpointsOr Mounts**
 
 Das reicht fuer eine Vorabfassung.
 

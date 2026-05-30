@@ -8,6 +8,7 @@ Stand: 2026-05-14
 ## Regeln
 - docs/rules/URoP_Grundregeln.md
 - docs/rules/URoP_Charaktererschaffung.md
+- docs/rules/URoP_Glossar.md
 - docs/rules/URoP_Module_und_Welten.md
 - docs/rules/URoP_Spielerhandbuch.md
 - docs/rules/URoP_Vorabregelwerk_v07.md  ← konsolidierte Lesefassung (ersetzt Archiv v06)

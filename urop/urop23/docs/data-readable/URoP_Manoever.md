@@ -1,34 +1,34 @@
-# URoP – Manöver
+﻿# URoP â€“ ManÃ¶ver
 Stand: 2026-04-16
 
 ## 1. Grundabgrenzung [GELOCKT]
-- **Fertigkeit** = was die Figur grundsätzlich kann
+- **Fertigkeit** = was die Figur grundsÃ¤tzlich kann
 - **Spezialisierung** = worin sie fokussiert ist
-- **Manöver** = zugespitzte, besondere Anwendung eines vorhandenen Könnens mit eigenem Einsatzfenster, erhöhter Wirkung, Kosten, Risiko oder klarer Gegenreaktion
+- **ManÃ¶ver** = zugespitzte, besondere Anwendung eines vorhandenen KÃ¶nnens mit eigenem Einsatzfenster, erhÃ¶hter Wirkung, Kosten, Risiko oder klarer Gegenreaktion
 - basisnahe Anschlussanwendungen bleiben **Basisanwendungen**, solange sie keine eigene Fenster-, Kosten- oder Gegenlogik brauchen
 
 ---
 
-## 2. Was ein Manöver ist [ARBEITSSTAND]
-Manöver sind besondere Anwendungen eines vorhandenen Könnens.
-Sie verändern Nutzung, Wirkung, Kontrolle, Mobilität, Schutz, Zugriff oder Präzision.
+## 2. Was ein ManÃ¶ver ist [ARBEITSSTAND]
+ManÃ¶ver sind besondere Anwendungen eines vorhandenen KÃ¶nnens.
+Sie verÃ¤ndern Nutzung, Wirkung, Kontrolle, MobilitÃ¤t, Schutz, Zugriff oder PrÃ¤zision.
 
-Ein Manöver liegt vor, wenn mindestens einer dieser Punkte klar erfüllt ist:
+Ein ManÃ¶ver liegt vor, wenn mindestens einer dieser Punkte klar erfÃ¼llt ist:
 - es braucht ein **besonderes Einsatzfenster**
-- es erzeugt eine **spürbar andere Wirkung** als die Basisaktion
-- es kostet **Aktionszeit** oder trägt ein klares Zusatzrisiko
-- es eröffnet eine **gezielte Gegenreaktion**
+- es erzeugt eine **spÃ¼rbar andere Wirkung** als die Basisaktion
+- es kostet **Aktionszeit** oder trÃ¤gt ein klares Zusatzrisiko
+- es erÃ¶ffnet eine **gezielte Gegenreaktion**
 - es verschiebt die Szene deutlich in Richtung **Kontrolle, Zugriff, Stellung oder Eskalation**
 
-Normale Angriffe und Basisaktionen sind in der Regel **keine Manöver**.
-Nicht jede gute Beschreibung oder clevere Idee wird automatisch zu einem eigenen Manöver.
+Normale Angriffe und Basisaktionen sind in der Regel **keine ManÃ¶ver**.
+Nicht jede gute Beschreibung oder clevere Idee wird automatisch zu einem eigenen ManÃ¶ver.
 
 ---
 
 ## 3. Abgrenzung zu Basisaktionen [ARBEITSSTAND]
 ### 3.1 Basisaktion
 Eine Anwendung bleibt im Grundkern, wenn sie:
-- häufig vorkommt
+- hÃ¤ufig vorkommt
 - ohne Sonderlogik funktioniert
 - kein enges Einsatzfenster braucht
 - keine eigene Kosten- oder Konterlogik verlangt
@@ -38,38 +38,38 @@ Beispiele:
 - normal ausweichen
 - sich in Deckung bewegen
 - jemanden ansprechen
-- ein einfaches Schloss unter ruhigen Bedingungen öffnen
+- ein einfaches Schloss unter ruhigen Bedingungen Ã¶ffnen
 
-### 3.2 Manöver
-Ein Manöver ist sinnvoll, wenn die Frage am Tisch nicht nur lautet **"schaffe ich das?"**, sondern zusätzlich:
+### 3.2 ManÃ¶ver
+Ein ManÃ¶ver ist sinnvoll, wenn die Frage am Tisch nicht nur lautet **"schaffe ich das?"**, sondern zusÃ¤tzlich:
 - **komme ich rechtzeitig in dieses Fenster?**
 - **lohnt sich die Investition in Aktionszeit, Lage und Konsequenz?**
-- **öffne ich mich für Gegenwehr?**
-- **verändere ich damit Stellung, Kontrolle oder Zugriff spürbar?**
+- **Ã¶ffne ich mich fÃ¼r Gegenwehr?**
+- **verÃ¤ndere ich damit Stellung, Kontrolle oder Zugriff spÃ¼rbar?**
 
 ### 3.3 Vereinfachungslinie [GELOCKT]
-URoP führt aktuell **keine eigene Zwischenebene für Optionen / Techniken**.
-Was kein volles Manöver braucht, bleibt vorerst einfache Anwendung von Fertigkeit, Spezialisierung und Lage.
+URoP fÃ¼hrt aktuell **keine eigene Zwischenebene fÃ¼r Optionen / Techniken**.
+Was kein volles ManÃ¶ver braucht, bleibt vorerst einfache Anwendung von Fertigkeit, Spezialisierung und Lage.
 
-## 4. Manöverachsen [ARBEITSSTAND]
-Jedes Manöver sollte künftig auf drei Achsen lesbar sein.
+## 4. ManÃ¶verachsen [ARBEITSSTAND]
+Jedes ManÃ¶ver sollte kÃ¼nftig auf drei Achsen lesbar sein.
 
-### 4.1 Einsatzdomäne
+### 4.1 EinsatzdomÃ¤ne
 - **Kampf**
 - **Einfluss / Sozial**
 - **Technik / Zugriff**
-- später möglich: Fahrzeuge, Magie, Psi, Sondermodule
+- spÃ¤ter mÃ¶glich: Fahrzeuge, Magie, Psi, Sondermodule
 
 ### 4.2 Timing
-- **aktiv** = in der eigenen Handlung ausgeführt
+- **aktiv** = in der eigenen Handlung ausgefÃ¼hrt
 - **reaktiv** = Antwort auf erkennbare gegnerische Handlung
-- **nachsetzend** = baut auf bereits geschaffene Öffnung, Kontrolle oder Vorbedingung auf
+- **nachsetzend** = baut auf bereits geschaffene Ã–ffnung, Kontrolle oder Vorbedingung auf
 
 ### 4.3 Hauptrolle
 - **Druck** = mehr unmittelbare Wirkung, Bedrohung oder Tempo
-- **Kontrolle** = Zugriff, Festlegung, Einschränkung, Stellung
-- **Öffnung** = Fenster schaffen, Schutz knacken, Linie aufbrechen
-- **Sicherung** = Risiko senken, Stabilität erhöhen, Lage absichern
+- **Kontrolle** = Zugriff, Festlegung, EinschrÃ¤nkung, Stellung
+- **Ã–ffnung** = Fenster schaffen, Schutz knacken, Linie aufbrechen
+- **Sicherung** = Risiko senken, StabilitÃ¤t erhÃ¶hen, Lage absichern
 - **Abbruch / Entzug** = gegnerische Linie unterbrechen, Distanz, Zugriff oder Takt verlieren lassen
 
 Diese Achsen dienen aktuell vor allem als Lesehilfe und Konstruktionsblick, nicht als Pflichtfelder der JSON-Struktur.
@@ -77,45 +77,45 @@ Diese Achsen dienen aktuell vor allem als Lesehilfe und Konstruktionsblick, nich
 ---
 
 ## 5. Tierlogik [ARBEITSSTAND]
-- **T0** = Grundmanöver
-- **T1** = Kernmanöver
-- **T2** = fortgeschrittene Manöver
-- **T3** = Meistermanöver
+- **T0** = GrundmanÃ¶ver
+- **T1** = KernmanÃ¶ver
+- **T2** = fortgeschrittene ManÃ¶ver
+- **T3** = MeistermanÃ¶ver
 
 ### 5.1 Leitlinie
-Je höher das Tier, desto eher sinnvoll:
-- höhere Aktionskosten oder Vorbereitung
-- zusätzliche Voraussetzungen
+Je hÃ¶her das Tier, desto eher sinnvoll:
+- hÃ¶here Aktionskosten oder Vorbereitung
+- zusÃ¤tzliche Voraussetzungen
 - staerkere Konsequenzen beim Re-Einsatz
 - engeres Einsatzfenster
-- stärkere oder kontrollierendere Wirkung
+- stÃ¤rkere oder kontrollierendere Wirkung
 - klarere Combo- oder Kettenlogik
 
 ### 5.2 Praktische Lesart der Tiers
-#### T0 – Grundmanöver
+#### T0 â€“ GrundmanÃ¶ver
 - sehr nah an der Basisanwendung
 - meist ohne Vorbereitung
 - erzeugt einen kleinen, aber klar lesbaren Spezialvorteil
 - soll das System nicht verlangsamen
-- oft guter Kandidat für Spezialisierungsflair
+- oft guter Kandidat fÃ¼r Spezialisierungsflair
 
-#### T1 – Kernmanöver
-- häufige, nützliche Spezialwerkzeuge
-- klar stärker oder präziser als die Basisaktion
+#### T1 â€“ KernmanÃ¶ver
+- hÃ¤ufige, nÃ¼tzliche Spezialwerkzeuge
+- klar stÃ¤rker oder prÃ¤ziser als die Basisaktion
 - wenig bis mittlere Vorbedingung
 - soll im Alltagseinsatz attraktiv, aber nicht automatisch richtig sein
 
-#### T2 – Fortgeschrittene Manöver
+#### T2 â€“ Fortgeschrittene ManÃ¶ver
 - deutlicher Szeneneingriff
 - brauchen meist Lagevorteil, Vorbereitung, Spezialisierung oder gutes Timing
-- starke Kontrolle, harte Öffnung oder reaktive Umkehr sind hier typisch
-- dürfen scheitern, ohne wertlos zu sein, müssen aber spürbares Risiko tragen
+- starke Kontrolle, harte Ã–ffnung oder reaktive Umkehr sind hier typisch
+- dÃ¼rfen scheitern, ohne wertlos zu sein, mÃ¼ssen aber spÃ¼rbares Risiko tragen
 
-#### T3 – Meistermanöver
-- große Szenenverschiebung
+#### T3 â€“ MeistermanÃ¶ver
+- groÃŸe Szenenverschiebung
 - enge Fenster, harte Voraussetzungen oder vorherige Kette
 - oft Finisher, dominanter Kontrollabschluss oder hochriskante Spitzenaktion
-- nicht für Spam gedacht
+- nicht fÃ¼r Spam gedacht
 
 ### 5.3 Ranklogik innerhalb einzelner Manoeverfamilien [ARBEITSSTAND]
 Nicht jedes Manoever braucht mehrere Lernstufen.
@@ -126,7 +126,7 @@ Wo Balancing, Spezialisierung oder Wahlverbesserungen davon gewinnen, fuehrt die
 
 Leitlinien:
 - hoeherer Rank ersetzt niedrigere Ranks nicht automatisch
-- `learn_cost_ep` ist immer die **Zusatzinvestition fuer genau diesen Rank**
+- `learnCostEp` ist immer die **Zusatzinvestition fuer genau diesen Rank**
 - die Rank-Familie darf von der reinen Tier-Kostentabelle abweichen, wenn das Balancing es braucht
 - Voraussetzungen und Upgrade-Details bleiben oft bewusst lesbar als Text statt als starre Pflichtmatrix
 
@@ -141,7 +141,7 @@ Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
 
 ### 6.1.1 Erwerbskosten (EP)
 Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft.
-Die JSON trennt jetzt sauber zwischen **Erwerbskosten** (`learn_cost_ep`) und **Einsatzkosten** (`action_cost`, `uses_reaction_window`, `activation_notes`).
+Die JSON trennt jetzt sauber zwischen **Erwerbskosten** (`learnCostEp`) und **Einsatzkosten** (`actionCost`, `usesReactionWindow`, `activationNotes`).
 
 Die Tiertabelle bleibt als Orientierungswert bestehen:
 - **T0** = 0 EP
@@ -149,12 +149,12 @@ Die Tiertabelle bleibt als Orientierungswert bestehen:
 - **T2** = 30 EP
 - **T3** = 50 EP
 
-Diese Tabelle ist aktuell mit `tier_cost_reference` in der JSON synchronisiert.
-Bei Rank-Familien darf ein Folgerank davon bewusst abweichen, weil `learn_cost_ep` nur den **naechsten Schritt der Familie** bezahlt und nicht das ganze Manoever neu einkauft.
+Diese Tabelle ist aktuell mit `tierCost Reference` in der JSON synchronisiert.
+Bei Rank-Familien darf ein Folgerank davon bewusst abweichen, weil `learnCostEp` nur den **naechsten Schritt der Familie** bezahlt und nicht das ganze Manoever neu einkauft.
 
 ### 6.2 Einsatzfenster
 Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster.
-Diese Information wird jetzt in der JSON je Eintrag ueber `usage_window` gefuehrt:
+Diese Information wird jetzt in der JSON je Eintrag ueber `usageWindow` gefuehrt:
 - **beliebig** (nur bei kleinen Effekten)
 - **1x pro Kampf**
 - **1x pro Szene**
@@ -173,10 +173,10 @@ Standardleiter fuer Manoever mit **1x pro Kampf** oder **1x pro Szene**:
 - 3. Einsatz: mittlere Konsequenz plus optional erhoehtes Risiko
 - 4. Einsatz: schwere Konsequenz oder Sperre bis Szenenende
 
-Die JSON fuehrt das je Eintrag ueber `reuse_escalation_profile`:
+Die JSON fuehrt das je Eintrag ueber `reuseEscalationProfile`:
 - `none`
-- `standard_conflict`
-- `strict_scene`
+- `standardConflict`
+- `strictScene`
 
 Leitlinie:
 - 1x pro Kampf darf tendenziell etwas milder eskalieren.
@@ -185,61 +185,61 @@ Leitlinie:
 ---
 
 ## 7. Voraussetzungen [ARBEITSSTAND]
-Ein Manöver kann auf bis zu vier Arten gebunden sein:
-- **Könnensbindung** = passende Fertigkeit oder Spezialisierung
+Ein ManÃ¶ver kann auf bis zu vier Arten gebunden sein:
+- **KÃ¶nnensbindung** = passende Fertigkeit oder Spezialisierung
 - **Lagebindung** = Deckung, Nahdistanz, Griffkontakt, Zeitfenster, laufende Verhandlung, Zugriff auf System usw.
 - **Ressourcenbindung** = Aktionszeit, Werkzeug, freie Hand, Munition, Ruhe, Position
-- **Kettenbindung** = vorherige Öffnung, angesammelter Druck, bestehende Kontrolle oder Setup aus Voraktion
+- **Kettenbindung** = vorherige Ã–ffnung, angesammelter Druck, bestehende Kontrolle oder Setup aus Voraktion
 
-Die JSON fuehrt Voraussetzungen jetzt bewusst meist als **`requirements_text`** statt als Pflichtlisten.
+Die JSON fuehrt Voraussetzungen jetzt bewusst meist als **`requirementsText`** statt als Pflichtlisten.
 Grund: Viele Anforderungen sind am Tisch besser lesbar und auslegbar, als wenn sie zu frueh in starre Arrays zerlegt werden.
 Strukturiert bleiben nur die harten Balancing-Felder, nicht jede einzelne Lagebedingung.
 
 ### Tier-Faustregel
-- **T0**: meist nur Könnensbindung
-- **T1**: Könnensbindung plus leichte Lagebindung
+- **T0**: meist nur KÃ¶nnensbindung
+- **T1**: KÃ¶nnensbindung plus leichte Lagebindung
 - **T2**: fast immer mindestens eine echte Lage- oder Kettenbindung
 - **T3**: in der Regel zwei Bindungen oder ein sehr enges Fenster
 
 ---
 
-## 8. Auflösung eines Manövers [ARBEITSSTAND]
+## 8. AuflÃ¶sung eines ManÃ¶vers [ARBEITSSTAND]
 Empfohlene Reihenfolge am Tisch:
-1. **Ansage** – was genau soll erreicht werden?
-2. **Fenster prüfen** – ist die Lage dafür offen?
-3. **Kosten festlegen** – Aktionskosten und sonstige Bindungen zahlen
-4. **Probe lesen** – führender Wert, unterstützender Wert, Widerstand oder Lage
-5. **Ergebnis deuten** – nicht nur Erfolg/Misserfolg, sondern Wirkung, Stellung, Risiko, Folgefenster
-6. **Gegenfenster prüfen** – eröffnet das Manöver eine sinnvolle Reaktion?
+1. **Ansage** â€“ was genau soll erreicht werden?
+2. **Fenster prÃ¼fen** â€“ ist die Lage dafÃ¼r offen?
+3. **Kosten festlegen** â€“ Aktionskosten und sonstige Bindungen zahlen
+4. **Probe lesen** â€“ fÃ¼hrender Wert, unterstÃ¼tzender Wert, Widerstand oder Lage
+5. **Ergebnis deuten** â€“ nicht nur Erfolg/Misserfolg, sondern Wirkung, Stellung, Risiko, Folgefenster
+6. **Gegenfenster prÃ¼fen** â€“ erÃ¶ffnet das ManÃ¶ver eine sinnvolle Reaktion?
 
 ### Ergebnislesung
-Ein gutes Manöver sollte nicht nur "mehr Schaden" bedeuten, sondern mindestens eine dieser Fragen mitbeantworten:
+Ein gutes ManÃ¶ver sollte nicht nur "mehr Schaden" bedeuten, sondern mindestens eine dieser Fragen mitbeantworten:
 - Wer kontrolliert jetzt die Lage?
 - Wer verliert Zugriff, Deckung, Haltung oder Linie?
 - Welche Folgeaktion wird leichter oder schwerer?
-- Entsteht ein neues Fenster für Verbündete oder Gegner?
+- Entsteht ein neues Fenster fÃ¼r VerbÃ¼ndete oder Gegner?
 
 ---
 
 
-### 8.1 Reaktionsökonomie [ARBEITSSTAND]
-Reaktive Manöver teilen sich eine **gemeinsame knappe Reaktionsressource**.
+### 8.1 ReaktionsÃ¶konomie [ARBEITSSTAND]
+Reaktive ManÃ¶ver teilen sich eine **gemeinsame knappe Reaktionsressource**.
 
 Grundsatz:
 - jede Figur hat pro eigenem Initiativzyklus **ein Reaktionsfenster**
-- dieses Fenster erneuert sich mit der **nächsten regulären Handlung** der Figur
-- ein reaktives Manöver **verbraucht** dieses Fenster, egal ob es gelingt oder scheitert
-- pro Auslöser darf eine Figur **nur eine** reaktive Antwort ansagen
-- ein reaktives Manöver eröffnet **nicht sofort wieder** eine weitere reaktive Kette
+- dieses Fenster erneuert sich mit der **nÃ¤chsten regulÃ¤ren Handlung** der Figur
+- ein reaktives ManÃ¶ver **verbraucht** dieses Fenster, egal ob es gelingt oder scheitert
+- pro AuslÃ¶ser darf eine Figur **nur eine** reaktive Antwort ansagen
+- ein reaktives ManÃ¶ver erÃ¶ffnet **nicht sofort wieder** eine weitere reaktive Kette
 
 Was das praktisch bedeutet:
-- `Konter`, `Reaktionsschuss`, `Sozialer Konter`, `Alarm verzögern`, `Befreien aus Griff` und `Schnellziehen` konkurrieren um dasselbe Reaktionsfenster, wenn sie als reaktive Manöver gelesen werden.
-- normale Gegenwehr, Widerstand oder fiktionales Ausweichen ohne volles Manöver verbrauchen dieses Fenster nicht automatisch.
-- reaktive Manöver brauchen immer einen **konkret lesbaren Trigger**: sichtbarer Angriff, offener Griff, klares Peek-/Bewegungsfenster, erkennbare soziale Spitze oder ein schon laufender Alarmpfad.
+- `Konter`, `Reaktionsschuss`, `Sozialer Konter`, `Alarm verzÃ¶gern`, `Befreien aus Griff` und `Schnellziehen` konkurrieren um dasselbe Reaktionsfenster, wenn sie als reaktive ManÃ¶ver gelesen werden.
+- normale Gegenwehr, Widerstand oder fiktionales Ausweichen ohne volles ManÃ¶ver verbrauchen dieses Fenster nicht automatisch.
+- reaktive ManÃ¶ver brauchen immer einen **konkret lesbaren Trigger**: sichtbarer Angriff, offener Griff, klares Peek-/Bewegungsfenster, erkennbare soziale Spitze oder ein schon laufender Alarmpfad.
 - reaktive Manoever sind nicht an einen Ausdauer-Counter gebunden, sondern an Reaktionsfenster, Einsatzfenster, Lage und Konsequenz.
 
 Ziel dieser Regel:
-Reaktive Manöver sollen scharf, spannend und stark bleiben, aber nicht zu einer kostenlosen Universalunterbrechung für jede Szene werden.
+Reaktive ManÃ¶ver sollen scharf, spannend und stark bleiben, aber nicht zu einer kostenlosen Universalunterbrechung fÃ¼r jede Szene werden.
 
 ### 8.2 Reaktiv-Leitplanken fuer Balancing [ARBEITSSTAND]
 Damit Reaktionsfamilien stark bleiben, ohne den Tischfluss zu brechen, gilt zusaetzlich:
@@ -257,133 +257,133 @@ Damit Reaktionsfamilien stark bleiben, ohne den Tischfluss zu brechen, gilt zusa
   - kein nachtraegliches Umschalten zwischen `Konter`, `Reaktionsschuss`, `Sozialer Konter`, `Alarm verzoegern` oder `Schnellziehen`
 
 - **Eskalations-Floor fuer Reaktionsfamilien**
-  - reaktive Manoever mit `once_per_conflict` sollen mindestens `standard_conflict` als Re-Einsatz-Eskalation behalten
+  - reaktive Manoever mit `oncePer Conflict` sollen mindestens `standardConflict` als Re-Einsatz-Eskalation behalten
   - dadurch bleiben Wiederholungen teuer genug und werden nicht zur Dauerunterbrechung
 
 - **Kein Reaktionsketten-Spiel**
   - ein reaktives Manoever erzeugt nicht sofort wieder ein neues Reaktionsfenster
   - damit bleibt die Reihenfolge lesbar und die Initiative bleibt entscheidungsrelevant
 
-## 9. Typische Kern-Manöver mit geschärfter Tierzuordnung [ARBEITSSTAND]
-Die folgende Zuordnung ist der aktuelle aktive Teststand der **vollen Manöver**.
+## 9. Typische Kern-ManÃ¶ver mit geschÃ¤rfter Tierzuordnung [ARBEITSSTAND]
+Die folgende Zuordnung ist der aktuelle aktive Teststand der **vollen ManÃ¶ver**.
 
 ### 9.1 Nahkampf
-- **Befreien aus Griff** – **T0 (0 EP)**
-  - defensives Grundmanöver mit engem Reaktionsfenster
-- **Entwaffnen I-III** – **T1 bis T3 Rank-Familie**
+- **Befreien aus Griff** â€“ **T0 (0 EP)**
+  - defensives GrundmanÃ¶ver mit engem Reaktionsfenster
+- **Entwaffnen I-III** â€“ **T1 bis T3 Rank-Familie**
   - skaliert von stabilem Waffenlinienbruch bis zu harter Waffenkontrolle in engem Fenster
-- **Umreißen / Niederwerfen** – **T1 (15 EP)**
+- **UmreiÃŸen / Niederwerfen** â€“ **T1 (15 EP)**
   - gute Kontrolloption ohne Endspielcharakter
-- **Festsetzen I-III** – **T2/T3 Rank-Familie**
+- **Festsetzen I-III** â€“ **T2/T3 Rank-Familie**
   - baut von klarer Bindung bis zu meisterlicher Lagehoheit aus, bleibt aber commitment-lastig
-- **Konter** – **T2 (30 EP)**
+- **Konter** â€“ **T2 (30 EP)**
   - reaktiv, timingkritisch, beansprucht das Reaktionsfenster
-- **Finisher I-III** – **T2/T3 Rank-Familie**
+- **Finisher I-III** â€“ **T2/T3 Rank-Familie**
   - Abschlussaktion mit harter Vorbedingung und sequentiellem Ausbau
 
 ### 9.2 Fernkampf
-- **Schnellziehen I-III** – **T0 bis T2 Rank-Familie**
-  - Eskalationsfenster beim Übergang in offene Gewalt; hoehere Ranks entfernen den hektischen Anschlussnachteil und oeffnen spaeter nur passende Folgefenster, nicht gratis fremde Manoeverkosten
-- **Präzisionsschuss I-III** – **T1 bis T3 Rank-Familie**
+- **Schnellziehen I-III** â€“ **T0 bis T2 Rank-Familie**
+  - Eskalationsfenster beim Ãœbergang in offene Gewalt; hoehere Ranks entfernen den hektischen Anschlussnachteil und oeffnen spaeter nur passende Folgefenster, nicht gratis fremde Manoeverkosten
+- **PrÃ¤zisionsschuss I-III** â€“ **T1 bis T3 Rank-Familie**
   - klassisches Zielwirkungsmanoever; hoehere Ranks verkuerzen vor allem die noetige Vorbereitung
-- **Unterdrückungsfeuer I-III** – **T2/T3 Rank-Familie**
+- **UnterdrÃ¼ckungsfeuer I-III** â€“ **T2/T3 Rank-Familie**
   - skaliert von stabiler Raumkontrolle zu meisterlicher Feuerzonen-Hoheit bei weiter hohem Bindungs- und Verbrauchspreis
-- **Reaktionsschuss I-III** – **T2/T3 Rank-Familie**
+- **Reaktionsschuss I-III** â€“ **T2/T3 Rank-Familie**
   - reaktive Bewegungsunterbrechung wird uebersichtlich staerker, bleibt aber strikt an Trigger und Reaktionsknappheit gebunden
 
 ### 9.3 Einfluss
-- **Gesprächsschock I-III** – **T2/T3 Rank-Familie**
+- **GesprÃ¤chsschock I-III** â€“ **T2/T3 Rank-Familie**
   - baut von hartem Kippmoment zu meisterlicher Deutungswirkung aus, bleibt aber bewusst ein seltenes Spitzenwerkzeug
-- **Sozialer Konter I-III** – **T2/T3 Rank-Familie**
+- **Sozialer Konter I-III** â€“ **T2/T3 Rank-Familie**
   - reaktive Deutungsumkehr wird robuster, ohne zur kostenlosen Universalparade zu werden
 
 ### 9.4 Technik
-- **Bypass I-III** – **T2/T3 Rank-Familie**
+- **Bypass I-III** â€“ **T2/T3 Rank-Familie**
   - skaliert von fragiler Umgehung hin zu robuster Zugriffsoeffnung unter Druck
-- **Alarm verzögern I-III** – **T2/T3 Rank-Familie**
+- **Alarm verzÃ¶gern I-III** â€“ **T2/T3 Rank-Familie**
   - reaktive Zeitkontrolle wird ueber die Ranks verlaesslicher und weniger eskalationshart
 
-Basisnahe Anwendungen wie ruhiges Öffnen, saubere Routinearbeit, normales Gesprächsführen oder einfache Improvisation bleiben **keine vollen Manöver**, solange sie keine eigene Fenster-, Kosten- oder Gegenlogik brauchen.
+Basisnahe Anwendungen wie ruhiges Ã–ffnen, saubere Routinearbeit, normales GesprÃ¤chsfÃ¼hren oder einfache Improvisation bleiben **keine vollen ManÃ¶ver**, solange sie keine eigene Fenster-, Kosten- oder Gegenlogik brauchen.
 
-## 10. Gegenmanöver [ARBEITSSTAND]
-Gegenmanöver sind **keine Universalabwehr**.
+## 10. GegenmanÃ¶ver [ARBEITSSTAND]
+GegenmanÃ¶ver sind **keine Universalabwehr**.
 Sie sind gezielte Antworten auf:
 - bestimmte gegnerische Handlungen
-- erkennbare Manöver
+- erkennbare ManÃ¶ver
 - klare Situationen
 - passende Reichweite, Distanz oder Zugriffslage
 
-### 10.1 Einfacher Gegenmanöver-Rahmen
-Ein Gegenmanöver sollte immer zu **einer** dieser Antwortarten gehören:
-- **abfangen** = gegnerisches Manöver vor Wirkung brechen
-- **umlenken** = Wirkung abschwächen, Richtung ändern oder auf schlechteres Ziel laufen lassen
-- **entziehen** = Fenster schließen, Distanz, Zugriff oder Gesprächslinie kappen
-- **umkehren** = Druck oder Kontrollversuch gegen den Gegner zurückspiegeln
+### 10.1 Einfacher GegenmanÃ¶ver-Rahmen
+Ein GegenmanÃ¶ver sollte immer zu **einer** dieser Antwortarten gehÃ¶ren:
+- **abfangen** = gegnerisches ManÃ¶ver vor Wirkung brechen
+- **umlenken** = Wirkung abschwÃ¤chen, Richtung Ã¤ndern oder auf schlechteres Ziel laufen lassen
+- **entziehen** = Fenster schlieÃŸen, Distanz, Zugriff oder GesprÃ¤chslinie kappen
+- **umkehren** = Druck oder Kontrollversuch gegen den Gegner zurÃ¼ckspiegeln
 
-### 10.2 Was Gegenmanöver normalerweise nicht dürfen
+### 10.2 Was GegenmanÃ¶ver normalerweise nicht dÃ¼rfen
 - alles gleichzeitig abwehren
 - ohne klares Erkennungsfenster funktionieren
-- jede stärkere Aktion kostenlos neutralisieren
+- jede stÃ¤rkere Aktion kostenlos neutralisieren
 - die Basisinitiative dauerhaft aushebeln
 
 ### 10.3 Praktische Gegenfenster
-Sinnvolle Gegenmanöver-Fenster sind zum Beispiel:
-- Annäherung oder Clinch-Versuch
+Sinnvolle GegenmanÃ¶ver-Fenster sind zum Beispiel:
+- AnnÃ¤herung oder Clinch-Versuch
 - Entwaffnen, Festsetzen, Hebel, Wurf
-- Präzisionsschuss, Reaktionsschuss, Bereichswurf
-- Gesprächsübernahme, Gesprächsschock, Druckspitze
+- PrÃ¤zisionsschuss, Reaktionsschuss, Bereichswurf
+- GesprÃ¤chsÃ¼bernahme, GesprÃ¤chsschock, Druckspitze
 - Bypass, falsche Freigabe, Alarmmanipulation
 
-### 10.4 Leitlinie für spätere Matrix
-Nicht jedes Manöver braucht eine eigene Sonderabwehr. Gegenlagen und Folgefenster werden aktuell im Regeltext und in der Beschreibung des jeweiligen Manövers mitgeführt, nicht über eine starre Pflichtmatrix.
+### 10.4 Leitlinie fÃ¼r spÃ¤tere Matrix
+Nicht jedes ManÃ¶ver braucht eine eigene Sonderabwehr. Gegenlagen und Folgefenster werden aktuell im Regeltext und in der Beschreibung des jeweiligen ManÃ¶vers mitgefÃ¼hrt, nicht Ã¼ber eine starre Pflichtmatrix.
 
 ---
 
 ## 11. Aktiver Feldkern der JSON [GELOCKT]
-Der aktuelle Datenkern der Manöver ist bewusst schlank gehalten:
+Der aktuelle Datenkern der ManÃ¶ver ist bewusst schlank gehalten:
 - `id`
-- `family_id`
-- `family_name`
+- `familyId`
+- `familyName`
 - `name`
 - `rank`
-- `previous_rank_id`
+- `previousRankId`
 - `tier`
-- `learn_cost_ep`
-- `action_cost`
-- `uses_reaction_window`
-- `activation_notes`
-- `usage_window`
-- `reuse_escalation_profile`
-- `rules_short`
+- `learnCostEp`
+- `actionCost`
+- `usesReactionWindow`
+- `activationNotes`
+- `usageWindow`
+- `reuseEscalationProfile`
+- `rulesShort`
 - `description`
-- `requirements_text`
-- `advancement_mode`
-- `advancement_text`
+- `requirementsText`
+- `advancementMode`
+- `advancementText`
 
-Frühere Strukturfelder wie `domain`, `timing`, `role`, `window`, `counter_window`, `response_type`, Klassenmarker oder fein zerlegte Voraussetzungen/Upgrade-Matrizen laufen derzeit bewusst im Fließtext statt als Pflichtfelder.
+FrÃ¼here Strukturfelder wie `domain`, `timing`, `role`, `window`, `counterWindow`, `responseType`, Klassenmarker oder fein zerlegte Voraussetzungen/Upgrade-Matrizen laufen derzeit bewusst im FlieÃŸtext statt als Pflichtfelder.
 
 Interne Hilfsfelder:
-- `internal_refs` wird maschinenlesbar fuer Cross-Referenzen gepflegt (z. B. Skill- und Datenblock-Bezuege)
+- `internalRefs` wird maschinenlesbar fuer Cross-Referenzen gepflegt (z. B. Skill- und Datenblock-Bezuege)
 - diese internen Felder sind **nicht** fuer Drucklisten oder Regelbuch-Lesefassungen gedacht und werden in Spieler-Ausgaben ausgeblendet
 
 ---
 
 ## 12. Testkatalog [ARBEITSSTAND]
-Ein Manöver ist im aktuellen URoP-Kern dann gelungen, wenn es:
+Ein ManÃ¶ver ist im aktuellen URoP-Kern dann gelungen, wenn es:
 - sich klar von der Basisaktion abhebt
 - ein echtes Entscheidungsfenster schafft
-- nicht bloß rohe Zahlen stapelt
-- Kosten, Risiko und Wirkung sauber zusammenführt
+- nicht bloÃŸ rohe Zahlen stapelt
+- Kosten, Risiko und Wirkung sauber zusammenfÃ¼hrt
 - Gegenreaktionen lesbar macht
-- auch außerhalb reiner Schadenslogik Mehrwert erzeugt
-- den Basiskern nicht mit Sonderfällen überlädt
+- auch auÃŸerhalb reiner Schadenslogik Mehrwert erzeugt
+- den Basiskern nicht mit SonderfÃ¤llen Ã¼berlÃ¤dt
 
 ---
 
 ## 13. Noch offen
-- genaue Einzeleffekte pro Manöver
-- Kettenbindung für `Festsetzen` und `Finisher` noch schärfer formulieren
+- genaue Einzeleffekte pro ManÃ¶ver
+- Kettenbindung fÃ¼r `Festsetzen` und `Finisher` noch schÃ¤rfer formulieren
 - konkrete soziale Trigger klarer in Lesebeispiele ziehen
-- falls später nötig: Anschluss- oder Finisherlogik gezielt ergänzen, statt den Kern sofort wieder aufzublähen
+- falls spÃ¤ter nÃ¶tig: Anschluss- oder Finisherlogik gezielt ergÃ¤nzen, statt den Kern sofort wieder aufzublÃ¤hen
 - Endlock der Re-Einsatz-Eskalation pro Tier
 - Praxistest der Reaktiv-Leitplanken (Triggerqualitaet, Ansagebindung, Eskalations-Floor) gegen echtes Tischtempo

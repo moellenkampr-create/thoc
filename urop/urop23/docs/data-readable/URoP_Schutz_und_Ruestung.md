@@ -1,86 +1,86 @@
-# URoP – Schutz und Rüstung
+﻿# URoP â€“ Schutz und RÃ¼stung
 Stand: 2026-04-10
 
 ## 1. Zweck dieser Datei
-Diese Datei erklärt die **Schutz- und Rüstungsstruktur** des URoP-Regelwerks.
-Die **führende Datenquelle** für Schutz und Rüstung ist ab jetzt:
+Diese Datei erklÃ¤rt die **Schutz- und RÃ¼stungsstruktur** des URoP-Regelwerks.
+Die **fÃ¼hrende Datenquelle** fÃ¼r Schutz und RÃ¼stung ist ab jetzt:
 - `URoP_Schutz_und_Ruestung.json`
 
 Diese MD-Datei dient als:
-- Regel- und Strukturübersicht
-- Erläuterung der Felder
+- Regel- und StrukturÃ¼bersicht
+- ErlÃ¤uterung der Felder
 - menschlich lesbare Einordnung
-- Referenz für spätere Listenpflege
+- Referenz fÃ¼r spÃ¤tere Listenpflege
 
 ---
 
 ## 2. Grundsatz
-Schutz und Rüstung werden künftig **datenorientiert** geführt.
-Für Datenbank, Foundry-Import und spätere Listenpflege ist JSON die robustere Hauptquelle.
+Schutz und RÃ¼stung werden kÃ¼nftig **datenorientiert** gefÃ¼hrt.
+FÃ¼r Datenbank, Foundry-Import und spÃ¤tere Listenpflege ist JSON die robustere Hauptquelle.
 
 Darum gilt:
-- **JSON** = führende Datendefinition und spätere Importbasis
-- **MD** = erklärender Regeltext und Lesefassung
+- **JSON** = fÃ¼hrende Datendefinition und spÃ¤tere Importbasis
+- **MD** = erklÃ¤render Regeltext und Lesefassung
 
 ---
 
-## 3. Kernlogik von Schutz und Rüstung
-Schutz und Rüstung beantworten in URoP vor allem vier Fragen:
-1. **Was ist das für ein Schutztyp?**
-2. **Für welche Nutzergröße ist er gebaut?**
-3. **Wie viel Wirkung fängt er typischerweise ab?**
-4. **Wie ist das Stück grob einzuordnen und was muss man dazu wissen?**
+## 3. Kernlogik von Schutz und RÃ¼stung
+Schutz und RÃ¼stung beantworten in URoP vor allem vier Fragen:
+1. **Was ist das fÃ¼r ein Schutztyp?**
+2. **FÃ¼r welche NutzergrÃ¶ÃŸe ist er gebaut?**
+3. **Wie viel Wirkung fÃ¤ngt er typischerweise ab?**
+4. **Wie ist das StÃ¼ck grob einzuordnen und was muss man dazu wissen?**
 
-Dafür nutzt URoP folgende Kernfelder:
+DafÃ¼r nutzt URoP folgende Kernfelder:
 - `category`
 - `quality`
-- `user_size_nominal`
-- `protection_value`
-- `rules_short`
+- `userSize Nominal`
+- `protectionValue`
+- `rulesShort`
 - `description`
-- `price_eb`
+- `priceEb`
 
-`coverage`, Verfügbarkeit, Legalität und ähnliche Hinweise werden derzeit **nicht als Pflichtfelder** geführt, sondern in die Beschreibung integriert.
-Das hält die Struktur offen für Humanoide, Tiere, Aliens und spätere Trefferzonenmodelle.
+`coverage`, VerfÃ¼gbarkeit, LegalitÃ¤t und Ã¤hnliche Hinweise werden derzeit **nicht als Pflichtfelder** gefÃ¼hrt, sondern in die Beschreibung integriert.
+Das hÃ¤lt die Struktur offen fÃ¼r Humanoide, Tiere, Aliens und spÃ¤tere Trefferzonenmodelle.
 
 ---
 
 ## 4. Regelbedeutung der Kernfelder
 
 ### `category`
-Die grobe Schutz- oder Rüstungskategorie.
-Sie dient zugleich als guter Trenner für spätere Foundry-Typen oder Filter.
+Die grobe Schutz- oder RÃ¼stungskategorie.
+Sie dient zugleich als guter Trenner fÃ¼r spÃ¤tere Foundry-Typen oder Filter.
 
 Beispiele:
 - `clothing`
 - `vest`
-- `armor_light`
-- `armor_heavy`
+- `armorLight`
+- `armorHeavy`
 - `riot`
 - `powered`
 - `shield`
 - `helmet`
 
 ### `quality`
-Die allgemeine Qualitätsstufe des Schutzes.
-Aktuell analog zur Waffenstruktur geführt.
+Die allgemeine QualitÃ¤tsstufe des Schutzes.
+Aktuell analog zur Waffenstruktur gefÃ¼hrt.
 
 Leitlinie:
 - `poor`
 - `standard`
 - `excellent`
 
-### `user_size_nominal`
-Die nominale Nutzergröße.
+### `userSize Nominal`
+Die nominale NutzergrÃ¶ÃŸe.
 Sie beantwortet:
-**Für welche Körpergröße / Ergonomie ist der Schutz gebaut?**
+**FÃ¼r welche KÃ¶rpergrÃ¶ÃŸe / Ergonomie ist der Schutz gebaut?**
 
 Beispiel:
 - `G3`
 
-Das Feld ist bewusst offen genug, um später auch nichtmenschliche Träger sauber abzubilden.
+Das Feld ist bewusst offen genug, um spÃ¤ter auch nichtmenschliche TrÃ¤ger sauber abzubilden.
 
-### `protection_value`
+### `protectionValue`
 Der zentrale Schutzwert.
 
 Er beschreibt:
@@ -89,42 +89,42 @@ Er beschreibt:
 Leitlinie:
 - `0` = praktisch kein echter Schutz
 - `1` = leichter Schutz
-- `2` = spürbarer Schutz
+- `2` = spÃ¼rbarer Schutz
 - `3` = starker Schutz
 - `4` = sehr starker Schutz
 - `5+` = Sonderfall / schwere Spezialpanzerung
 
-### `rules_short`
-1–2 Sätze zur schnellen Regelfunktion.
+### `rulesShort`
+1â€“2 SÃ¤tze zur schnellen Regelfunktion.
 
 ### `description`
 Volle Beschreibung, Fluff und Nutzungskontext.
 Hier stehen derzeit auch:
 - typische Abdeckung
-- Verfügbarkeits- oder Beschaffungshinweise
+- VerfÃ¼gbarkeits- oder Beschaffungshinweise
 - rechtlicher oder sozialer Kontext
 - Trage- und Nutzungshinweise
 
-### `price_eb`
+### `priceEb`
 Preis in **EB**.
 
 ---
 
 ## 5. Protection Scale
-`protection_scale` bleibt als **grobe Leseskala** erhalten.
+`protectionScale` bleibt als **grobe Leseskala** erhalten.
 Sie ist keine zweite verdeckte Regelmechanik, sondern nur eine Orientierung dafuer, wie stark sich ein Schutzwert im Spiel anfuehlt.
 
 ---
 
 ## 6. Zusammenspiel mit Waffen, Deckung und Zielwahl
-Schutz und Rüstung sprechen dieselbe Wirkungslogik wie Waffen.
+Schutz und RÃ¼stung sprechen dieselbe Wirkungslogik wie Waffen.
 
 ### Standardlogik
-1. Waffe liefert `base_effect`
-2. Schutz reduziert mit `protection_value`
-3. Größenregeln verschieben bei Bedarf
+1. Waffe liefert `baseEffect`
+2. Schutz reduziert mit `protectionValue`
+3. GrÃ¶ÃŸenregeln verschieben bei Bedarf
 4. Zielwahl verschiebt bei Bedarf
-5. Wurfqualität verschiebt
+5. WurfqualitÃ¤t verschiebt
 6. Reaktion / Deckung verschiebt
 
 Damit gilt:
@@ -138,8 +138,8 @@ Damit gilt:
 Schnell sichtbar sein sollten:
 - Name
 - Kategorie
-- Qualität
-- nominale Nutzergröße
+- QualitÃ¤t
+- nominale NutzergrÃ¶ÃŸe
 - Schutzwert
 - Kurzregel
 - Preis
@@ -149,11 +149,11 @@ Weitere Details stehen in der Beschreibung.
 ---
 
 ## 8. Pflegeprinzip
-- Neue Schutz- und Rüstungseinträge werden **zuerst in JSON** eingetragen.
+- Neue Schutz- und RÃ¼stungseintrÃ¤ge werden **zuerst in JSON** eingetragen.
 - Diese MD-Datei wird angepasst, wenn:
-  - sich das Feldschema ändert
+  - sich das Feldschema Ã¤ndert
   - neue Pflichtfelder dazukommen
-  - die Regellogik geändert wird
+  - die Regellogik geÃ¤ndert wird
   - neue Kategorien oder Grundprinzipien dazukommen
 
 ---

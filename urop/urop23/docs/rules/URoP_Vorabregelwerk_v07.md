@@ -1,6 +1,6 @@
-# URoP – Vorabregelwerk
+﻿# URoP â€“ Vorabregelwerk
 **Konsolidierte Lesefassung des Basissystems mit Cyberpunk-Modulen**
-Stand: 2026-05-14 · Version 07 · Nachfolger der archivierten DOCX-Fassung v06
+Stand: 2026-05-14 Â· Version 07 Â· Nachfolger der archivierten DOCX-Fassung v06
 
 > **Hinweis:** Diese Fassung ersetzt die archivierte Datei `URoP_Vorabregelwerk_2026-04-09_v06_konsolidiert.docx`.
 > Autoritative Datenquellen bleiben die JSON-Dateien in `data/`. Dieses Dokument ist die konsolidierte Lesefassung.
@@ -11,8 +11,8 @@ Stand: 2026-05-14 · Version 07 · Nachfolger der archivierten DOCX-Fassung v06
 1. Systemleitbild und Kernregeln
 2. Charaktererschaffung
 3. Fertigkeiten, Vorteile und Nachteile
-4. Kampf, Wirkung und Manöver
-5. Ausrüstung und Schutz
+4. Kampf, Wirkung und ManÃ¶ver
+5. AusrÃ¼stung und Schutz
 6. Cyberpunk-Module: Cyberware, Quickhacks, Netrunning, Vehicles
 7. Offene Punkte
 
@@ -20,57 +20,57 @@ Stand: 2026-05-14 · Version 07 · Nachfolger der archivierten DOCX-Fassung v06
 
 ## 1. Systemleitbild und Kernregeln
 
-URoP arbeitet fiction-first, aber mit klar lesbaren Leitplanken. Gute Beschreibungen, Spezialisierung und Gruppenergänzung sind erwünscht. Regeln sollen Entscheidungen tragen, nicht jede Lage vollständig verregeln. Der Kern bleibt bewusst schlank; Komplexität, die nicht zwingend für das Grundspiel nötig ist, wandert in Module.
+URoP arbeitet fiction-first, aber mit klar lesbaren Leitplanken. Gute Beschreibungen, Spezialisierung und GruppenergÃ¤nzung sind erwÃ¼nscht. Regeln sollen Entscheidungen tragen, nicht jede Lage vollstÃ¤ndig verregeln. Der Kern bleibt bewusst schlank; KomplexitÃ¤t, die nicht zwingend fÃ¼r das Grundspiel nÃ¶tig ist, wandert in Module.
 
-### 1.1 Kernattribute
+### 1.1 Kernleitattribute
 
-| Attribut | Bedeutung |
+| Leitattribut | Bedeutung |
 |----------|-----------|
-| **Körper** | Physis, Belastbarkeit, Bewegung, körpernahe Durchsetzung |
+| **KÃ¶rper** | Physis, Belastbarkeit, Bewegung, kÃ¶rpernahe Durchsetzung |
 | **Geist** | Analyse, Wissen, Technik, Planung, kontrollierte Verarbeitung |
-| **Präsenz** | Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung |
+| **PrÃ¤senz** | Wirkung, Ausdruck, Einfluss, soziale und metaphysische Durchsetzung |
 
-Kernattribute beschreiben Figuren vor allem wertemäßig und sind zentral für Voraussetzungen, Freischaltungen und Einordnung. Direkte Attributsproben sind möglich, aber selten; im Regelfall wirken Attribut und Fertigkeit zusammen. Wie bei Facetten werden Nebenfolgen vor allem über Risiko, Schärfe und Zustandsdauer gelesen.
+Kernleitattribute beschreiben Figuren vor allem wertemÃ¤ÃŸig und sind zentral fÃ¼r Voraussetzungen, Freischaltungen und Einordnung. Direkte Leitattributsproben sind mÃ¶glich, aber selten; im Regelfall wirken Leitattribut und Fertigkeit zusammen. Wie bei Attributen werden Nebenfolgen vor allem Ã¼ber Risiko, SchÃ¤rfe und Zustandsdauer gelesen.
 
-Aktueller Arbeitsbereich: **0–6**, Durchschnittsreferenz: **2**.
+Aktueller Arbeitsbereich: **0â€“6**, Durchschnittsreferenz: **2**.
 
-### 1.2 Attribut-Facetten [TESTSTAND]
+### 1.2 Attribute unter Leitattributen [TESTSTAND]
 
-Jedes Attribut gliedert sich in vier Facetten. Facetten sind keine eigenständigen Attribute; sie beeinflussen Würfelwürfe **selten direkt**, sondern vor allem die **Verteilung von Nebenfolgen** (Risiko, Schärfe, Zustandsdauer).
+Jedes Leitattribut gliedert sich in vier Attribute. Diese Attribute sind keine eigenstÃ¤ndigen Leitattribute; sie beeinflussen WÃ¼rfelwÃ¼rfe **selten direkt**, sondern vor allem die **Verteilung von Nebenfolgen** (Risiko, SchÃ¤rfe, Zustandsdauer).
 
-- **Passende Facette hoch (+2/+3):** geringeres Risiko, mildere Nebenfolge, kürzere Zustandsdauer
-- **Passende Facette niedrig (−2/−3):** erhöhtes Risiko, schärfere Nebenfolge, längere Zustandsdauer
-- **Neutrale Facette (0/±1):** wenig Einfluss; Standard greift
+- **Passendes Attribut hoch (+2/+3):** geringeres Risiko, mildere Nebenfolge, kÃ¼rzere Zustandsdauer
+- **Passendes Attribut niedrig (âˆ’2/âˆ’3):** erhÃ¶htes Risiko, schÃ¤rfere Nebenfolge, lÃ¤ngere Zustandsdauer
+- **Neutrales Attribut (0/Â±1):** wenig Einfluss; Standard greift
 
-Facetten werden als Vorteil/Nachteil in Stufen 1–3 gehalten.
+Attribute werden als Vorteil/Nachteil in Stufen 1â€“3 gehalten.
 
-| Attribut | Facetten |
+| Leitattribut | Attribute |
 |----------|---------|
-| **Körper** | Stärke · Grobmotorik · Feinmotorik · Konstitution |
-| **Geist** | Analyse · Willenskraft · Aufmerksamkeit · Intuition |
-| **Präsenz** | Ausdruck · Empathie · Dominanz · Resonanz |
+| **KÃ¶rper** | StÃ¤rke Â· Grobmotorik Â· Feinmotorik Â· Konstitution |
+| **Geist** | Analyse Â· Willenskraft Â· Aufmerksamkeit Â· Intuition |
+| **PrÃ¤senz** | Ausdruck Â· Empathie Â· Dominanz Â· Resonanz |
 
 ### 1.3 Probenkern
 
-Es wird nur gewürfelt, wenn Unsicherheit, Druck, Widerstand, Zeitknappheit oder besondere Qualität relevant sind. Vor dem Wurf wird zuerst der erwartbare Standard geklärt: Was wäre ohne Würfel plausibel? Was hilft? Was erschwert? Welcher Wert führt die Handlung?
+Es wird nur gewÃ¼rfelt, wenn Unsicherheit, Druck, Widerstand, Zeitknappheit oder besondere QualitÃ¤t relevant sind. Vor dem Wurf wird zuerst der erwartbare Standard geklÃ¤rt: Was wÃ¤re ohne WÃ¼rfel plausibel? Was hilft? Was erschwert? Welcher Wert fÃ¼hrt die Handlung?
 
 - **Standardwurf:** 3W6
-- Im Normalfall ist die passende **Fertigkeit** der führende Wert.
-- **Attribut und Umstände** (z. B. Ausrüstung, Umgebung, Zeitdruck, Gefährlichkeit) färben, wie stabil, präzise und folgenarm das Ergebnis ausfällt.
-- Reine **Attributsproben** sind möglich, aber selten (z. B. wenn keine passende Fertigkeit greift oder reine Körperkraft gefragt ist).
+- Im Normalfall ist die passende **Fertigkeit** der fÃ¼hrende Wert.
+- **Leitattribut und UmstÃ¤nde** (z. B. AusrÃ¼stung, Umgebung, Zeitdruck, GefÃ¤hrlichkeit) fÃ¤rben, wie stabil, prÃ¤zise und folgenarm das Ergebnis ausfÃ¤llt.
+- Reine **Leitattributsproben** sind mÃ¶glich, aber selten (z. B. wenn keine passende Fertigkeit greift oder reine KÃ¶rperkraft gefragt ist).
 
 | Wurf | Lesart |
 |------|--------|
-| 3–5 | schlecht |
-| 6–8 | schwach |
-| 9–12 | Standard |
-| 13–15 | gut |
-| 16–18 | sehr gut |
+| 3â€“5 | schlecht |
+| 6â€“8 | schwach |
+| 9â€“12 | Standard |
+| 13â€“15 | gut |
+| 16â€“18 | sehr gut |
 
 #### 1.3.1 Mini-Beispiele
 
 1. **Kampf:** Ein schneller Gegner ohne Deckung. Feuerwaffen 4 gilt als plausibler Standard fuer einen Treffer. Standardwirkung bleibt im Waffenprofil; schlechte Ergebnisse druecken die Wirkung (z. B. auf Druck), sehr gute Ergebnisse heben sie (z. B. auf schwere Konsequenz).
-2. **Aktion:** Ein Balken klemmt einen Verbuendeten ein. Statt Athletik kann der Spielleiter eine seltene Attributsprobe auf Koerper ansetzen, weil rohe Kraft der Kern der Lage ist.
+2. **Aktion:** Ein Balken klemmt einen Verbuendeten ein. Statt Athletik kann der Spielleiter eine seltene Leitattributsprobe auf Koerper ansetzen, weil rohe Kraft der Kern der Lage ist.
 3. **Fluff/Sozial:** Eine heikle Ansprache vor nervoeser Gruppe. Einfluss fuehrt, Praesenz und Umstaende (Publikum, Timing, Vorwissen) bestimmen, ob das Ergebnis sauber wirkt oder Nebenfolgen ausloest.
 
 #### 1.3.2 Spielleitlinie: Bandbreite verschieben
@@ -79,7 +79,7 @@ Es wird nur gewürfelt, wenn Unsicherheit, Druck, Widerstand, Zeitknappheit oder
 2. **Dann nur 1-2 starke Umstaende werten:** z. B. klare Deckung, perfekte Position, Zeitdruck, schlechter Untergrund.
 3. **Bandbreite eng halten, wenn Lage neutral ist:** schlechte Ergebnisse fallen nicht zu hart ab, gute steigen nicht zu stark an.
 4. **Bandbreite breiter ziehen, wenn Lage extrem ist:** klare Vorteile oder harte Nachteile duerfen die Spreizung sichtbar vergroessern.
-5. **Spezialisierung wirkt verlässlich:** Sie verschiebt die Wirkung eher in Richtung stabiler/hoeher statt nur als flacher Bonus.
+5. **Spezialisierung wirkt verlÃ¤sslich:** Sie verschiebt die Wirkung eher in Richtung stabiler/hoeher statt nur als flacher Bonus.
 
 #### 1.3.3 Mini-Beispiele zur Bandbreitenverschiebung
 
@@ -90,8 +90,8 @@ Es wird nur gewürfelt, wenn Unsicherheit, Druck, Widerstand, Zeitknappheit oder
 ### 1.4 Probenformen und Uhren
 
 - **Erfolgsprobe:** eine einzelne Entscheidungsspitze.
-- **Verlängerte Probe:** relevante Tätigkeit über mehrere Schläge oder Szenen.
-- Für längere Vorgänge können Fortschritts-, Gefahren- und Abbruchuhren genutzt werden.
+- **VerlÃ¤ngerte Probe:** relevante TÃ¤tigkeit Ã¼ber mehrere SchlÃ¤ge oder Szenen.
+- FÃ¼r lÃ¤ngere VorgÃ¤nge kÃ¶nnen Fortschritts-, Gefahren- und Abbruchuhren genutzt werden.
 - Segmentleitlinie: schlecht = 0 + Haken, schwach = 1 + Haken, Standard = 1, gut = 2, sehr gut = 3 oder 2 + Zusatzvorteil.
 
 **Haken** bedeutet: Das Ziel wird nicht sauber oder nicht kostenlos erreicht. Ein Haken ist eine spuerbare Komplikation, ein Preis oder ein Anschlussproblem, aber noch nicht automatisch eine volle Konsequenz.
@@ -108,13 +108,13 @@ Es wird nur gewürfelt, wenn Unsicherheit, Druck, Widerstand, Zeitknappheit oder
 
 ### 1.5 Teamwork
 
-Meist gibt es einen Hauptakteur. Unterstützung muss konkret und passend sein; sie verbessert je nach Lage Qualität, Tempo, Sicherheit, Position oder Zugriff, statt einfach einen starren Standardbonus zu geben.
+Meist gibt es einen Hauptakteur. UnterstÃ¼tzung muss konkret und passend sein; sie verbessert je nach Lage QualitÃ¤t, Tempo, Sicherheit, Position oder Zugriff, statt einfach einen starren Standardbonus zu geben.
 
-### 1.6 Einsatzlogik für besondere Fähigkeiten [GELOCKT / TESTSTAND]
+### 1.6 Einsatzlogik fÃ¼r besondere FÃ¤higkeiten [GELOCKT / TESTSTAND]
 
-Manöver, Kräfte, Zauber und Quickhacks werden über drei Ebenen begrenzt:
+ManÃ¶ver, KrÃ¤fte, Zauber und Quickhacks werden Ã¼ber drei Ebenen begrenzt:
 
-1. **Aktionskosten** – was ein Einsatz in der Szene kostet:
+1. **Aktionskosten** â€“ was ein Einsatz in der Szene kostet:
 
 | Klasse | Bedeutung |
 |--------|-----------|
@@ -122,19 +122,19 @@ Manöver, Kräfte, Zauber und Quickhacks werden über drei Ebenen begrenzt:
 | Aktion | eine volle Kampfaktion |
 | 2+ Aktionen | Aufbau, Kanalisation, Vorbereitung |
 
-2. **Einsatzfenster** – wie oft ein Einsatz erlaubt ist:
+2. **Einsatzfenster** â€“ wie oft ein Einsatz erlaubt ist:
 
 | Fenster | Regel |
 |---------|-------|
 | Unbegrenzt | beliebig oft, nur kleine Effekte |
-| 1× pro Kampf | je Konflikt einmal; Re-Einsatz eskaliert |
-| 1× pro Szene | je zusammenhängendem Abschnitt einmal; Re-Einsatz eskaliert stärker |
+| 1Ã— pro Kampf | je Konflikt einmal; Re-Einsatz eskaliert |
+| 1Ã— pro Szene | je zusammenhÃ¤ngendem Abschnitt einmal; Re-Einsatz eskaliert stÃ¤rker |
 
-3. **Re-Einsatz-Eskalation** – Preis bei Limitüberschreitung:
+3. **Re-Einsatz-Eskalation** â€“ Preis bei LimitÃ¼berschreitung:
 - 2. Einsatz: mindestens leichte Konsequenz
-- 3. Einsatz: mittlere oder schwere Konsequenz und erhöhtes Risiko
+- 3. Einsatz: mittlere oder schwere Konsequenz und erhÃ¶htes Risiko
 
-Die **Lernkosten** (EP) für besondere Fähigkeiten folgen dem Tier-Raster:
+Die **Lernkosten** (EP) fÃ¼r besondere FÃ¤higkeiten folgen dem Tier-Raster:
 
 | Tier | EP-Richtwert |
 |------|-------------|
@@ -143,7 +143,7 @@ Die **Lernkosten** (EP) für besondere Fähigkeiten folgen dem Tier-Raster:
 | T2 | 30 EP |
 | T3 | 50 EP |
 
-Manöver mit Rank-Familien können davon abweichen (→ Abschnitt 4.4).
+ManÃ¶ver mit Rank-Familien kÃ¶nnen davon abweichen (â†’ Abschnitt 4.4).
 
 ### 1.7 Konsequenzen [GELOCKT]
 
@@ -155,40 +155,46 @@ Konsequenzen bilden anhaltende negative Folgen ab und werden fiction-first benan
 | Schwere Konsequenzen | 2 |
 | Kritische Konsequenzen | 1 |
 
-Zusätzliche leichte Konsequenzen kippen in schwer, zusätzliche schwere in kritisch. Sind auch die kritischen Felder voll, ist die Figur in der Regel aus normaler Handlungsfähigkeit herausgenommen.
+ZusÃ¤tzliche leichte Konsequenzen kippen in schwer, zusÃ¤tzliche schwere in kritisch. Sind auch die kritischen Felder voll, ist die Figur in der Regel aus normaler HandlungsfÃ¤higkeit herausgenommen.
 
-**Zustand vs. Konsequenz** – URoP trennt zwei Ebenen:
-- **Zustände:** kurzfristig, taktisch, meist durch eine klare Aktion in der Szene auflösbar (Offen, Instabil, Erschöpft).
-- **Konsequenzen:** anhaltend, stufenbasiert (short_term / light / heavy / critical), über Versorgung, Reparatur oder Downtime abhandelbar.
+**Zustand vs. Konsequenz** â€“ URoP trennt zwei Ebenen:
+- **ZustÃ¤nde:** kurzfristig, taktisch, meist durch eine klare Aktion in der Szene auflÃ¶sbar (Offen, Instabil, ErschÃ¶pft).
+- **Konsequenzen:** anhaltend, stufenbasiert (shortTerm / light / heavy / critical), Ã¼ber Versorgung, Reparatur oder Downtime abhandelbar.
 
-Konsequenzen gehören Domänen an: combat, quickhack, gear, cyberware, vehicle, environment, social, mental. Die vollständige Abhandlungsliste steht in `data/URoP_Konsequenzen.json`.
+Konsequenzen gehÃ¶ren DomÃ¤nen an: combat, quickhack, gear, cyberware, vehicle, environment, social, mental. Die vollstÃ¤ndige Abhandlungsliste steht in `data/URoP_Konsequenzen.json`.
 
-### 1.8 Kampfsimulation im Überblick [GELOCKT / ARBEITSSTAND]
+### 1.8 Kampfsimulation im Ãœberblick [GELOCKT / ARBEITSSTAND]
 
-- Initiative, Aktionsökonomie und Reaktionsökonomie sind in der Kampfsimulation gebündelt (siehe Abschnitt 4.1).
+- Initiative, AktionsÃ¶konomie und ReaktionsÃ¶konomie sind in der Kampfsimulation gebÃ¼ndelt (siehe Abschnitt 4.1).
 - Kernidee: Initiative bestimmt Reihenfolge, nicht automatisch die Anzahl der Hauptaktionen.
-- Reaktive Manöver laufen über ein Reaktionsfenster pro eigenem Zyklus.
+- Reaktive ManÃ¶ver laufen Ã¼ber ein Reaktionsfenster pro eigenem Zyklus.
 
-### 1.9 Widerstände [GELOCKT]
+### 1.9 WiderstÃ¤nde [GELOCKT]
 
 | Widerstand | Leitfrage |
 |------------|-----------|
-| Körperwiderstand | wenn Physis, Zähigkeit oder direkte körperliche Integrität angegriffen werden |
-| Geistwiderstand | wenn Wahrnehmung, Fokus, Technikverarbeitung oder mentale Stabilität angegriffen werden |
-| Präsenzwiderstand | wenn Wirkung, soziale Stellung, Selbstbehauptung oder Deutungshoheit angegriffen werden |
+| KÃ¶rperwiderstand | wenn Physis, ZÃ¤higkeit oder direkte kÃ¶rperliche IntegritÃ¤t angegriffen werden |
+| Geistwiderstand | wenn Wahrnehmung, Fokus, Technikverarbeitung oder mentale StabilitÃ¤t angegriffen werden |
+| PrÃ¤senzwiderstand | wenn Wirkung, soziale Stellung, Selbstbehauptung oder Deutungshoheit angegriffen werden |
 
-### 1.10 Größenstufen, Zielwahl und Kampfwirkung [GELOCKT]
+Ableitungsregel:
+- Koerperwiderstand = gerundetes Leitattribut Koerper + Boni - Mali
+- Geistwiderstand = gerundetes Leitattribut Geist + Boni - Mali
+- Praesenzwiderstand = gerundetes Leitattribut Praesenz + Boni - Mali
+- Rundung kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet)
 
-Basiskern nutzt abstrakte Größenstufen **G0–G9** mit Mensch = G3.
+### 1.10 GrÃ¶ÃŸenstufen, Zielwahl und Kampfwirkung [GELOCKT]
 
-Angriffe können sich richten auf: Gesamtziel · Teilbereich · Subsystem · Schwachstelle.
+Basiskern nutzt abstrakte GrÃ¶ÃŸenstufen **G0â€“G9** mit Mensch = G3.
+
+Angriffe kÃ¶nnen sich richten auf: Gesamtziel Â· Teilbereich Â· Subsystem Â· Schwachstelle.
 
 **Kampfwirkung** [ENTSCHIEDEN per ADR-001] in Klartext:
 - URoP nutzt zwei Lesarten, aber im Alltag gilt zuerst die schnelle Lesart.
 - **Linie B (Standard):** Waffe gegen Schutz ergibt die Grundwirkung am schnellsten.
-- **Linie A (gezielte Ausnahmen):** Größen-/Zielmodell greift, wenn eine Schwachstelle oder Zielchance klar erspielt wurde.
-- **Dominanz B** bedeutet: Ohne besondere Vorbereitung wird nach Linie B aufgelöst.
-- Wenn Linie A genutzt wird, kostet das etwas (höhere Hürde, Zusatzrisiko oder Setup-Aufwand).
+- **Linie A (gezielte Ausnahmen):** GrÃ¶ÃŸen-/Zielmodell greift, wenn eine Schwachstelle oder Zielchance klar erspielt wurde.
+- **Dominanz B** bedeutet: Ohne besondere Vorbereitung wird nach Linie B aufgelÃ¶st.
+- Wenn Linie A genutzt wird, kostet das etwas (hÃ¶here HÃ¼rde, Zusatzrisiko oder Setup-Aufwand).
 - Beide Linien landen auf derselben Wirkungsleiter, es gibt also kein zweites Schadenssystem.
 
 | Wirkungswert | Lesart |
@@ -199,9 +205,9 @@ Angriffe können sich richten auf: Gesamtziel · Teilbereich · Subsystem · Sch
 | 4 | Schwere Konsequenz |
 | 5 | Kritische Konsequenz |
 
-**Was heißt reduzierter Druck bzw. Druck konkret?**
-- **Reduzierter Druck (1):** kurzer Nachteil ohne volle Folgewirkung. Typisch: Position verschlechtert, Ziel kurz gebremst, nächster Schritt wird schwieriger. Noch kein automatischer Zustand oder Konsequenz.
-- **Druck (2):** spürbare taktische Belastung. Typisch: klarer Lageverlust oder ein kurzer Zustand (z. B. Offen/Instabil). Wenn die Szene schon scharf ist oder Druck bereits besteht, kann auf **leichte Konsequenz** kippen.
+**Was heiÃŸt reduzierter Druck bzw. Druck konkret?**
+- **Reduzierter Druck (1):** kurzer Nachteil ohne volle Folgewirkung. Typisch: Position verschlechtert, Ziel kurz gebremst, nÃ¤chster Schritt wird schwieriger. Noch kein automatischer Zustand oder Konsequenz.
+- **Druck (2):** spÃ¼rbare taktische Belastung. Typisch: klarer Lageverlust oder ein kurzer Zustand (z. B. Offen/Instabil). Wenn die Szene schon scharf ist oder Druck bereits besteht, kann auf **leichte Konsequenz** kippen.
 
 **Mini-Beispiele:**
 - **Reduzierter Druck:** Ein Schuss streift knapp vorbei, die Figur muss Deckung wechseln und verliert den sauberen Winkel fuer die naechste Aktion.
@@ -211,72 +217,57 @@ Angriffe können sich richten auf: Gesamtziel · Teilbereich · Subsystem · Sch
 
 ## 2. Charaktererschaffung
 
-URoP denkt Charaktere nicht nur als freien Ein-Topf-Build, sondern stufenweise über Lebensphasen.
+URoP denkt Charaktere nicht nur als freien Ein-Topf-Build, sondern stufenweise Ã¼ber Lebensphasen.
 
 ### 2.1 Reihenfolge
 
 1. Ausrichtung
 2. Sondernatur / Spezialattribut
 3. Kindheit / Herkunft
-4. Jugend / frühe Prägung
+4. Jugend / frÃ¼he PrÃ¤gung
 5. Ausbildung / Formung
-6. Frühe Erwachsenenerfahrung
+6. FrÃ¼he Erwachsenenerfahrung
 7. Aktuelle Position / Startstatus
 
 ### 2.2 Ausrichtung [GELOCKT / TESTSTAND]
 
 | Ausrichtung | Leitwirkung auf Entwicklungskosten |
 |------------|-------------------------------------|
-| Körper | körpernahe Kompetenzen −20 %; andere +10 % / +10 % |
-| Geist | analytische/technische Entwicklung −20 %; andere +10 % / +10 % |
-| Präsenz | soziale/wirkungsbezogene Entwicklung −20 %; andere +10 % / +10 % |
-| Körper/Geist, Körper/Präsenz, Geist/Präsenz | zwei Bereiche −10 % / −10 %; dritter +20 % |
+| KÃ¶rper | kÃ¶rpernahe Kompetenzen âˆ’20 %; andere +10 % / +10 % |
+| Geist | analytische/technische Entwicklung âˆ’20 %; andere +10 % / +10 % |
+| PrÃ¤senz | soziale/wirkungsbezogene Entwicklung âˆ’20 %; andere +10 % / +10 % |
+| KÃ¶rper/Geist, KÃ¶rper/PrÃ¤senz, Geist/PrÃ¤senz | zwei Bereiche âˆ’10 % / âˆ’10 %; dritter +20 % |
 | Ausgewogen | keine Modifikation |
 
-Ausrichtung soll formen, nicht verbieten. Rundungen erfolgen zugunsten des Spielers.
+Ausrichtung soll formen, nicht verbieten. Rundungen erfolgen kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet).
 
-### 2.3 Startbudget und Attributkosten [TESTSTAND]
+### 2.3 Startbudget und Attributwerte [TESTSTAND]
 
 Aktueller Testwert: **600 Entwicklungspunkte (EP)**
 
-| Attributswert | Kosten |
-|--------------|--------|
-| 0 | -90 EP |
-| 1 | -40 EP |
-| 2 | 0 EP |
-| 3 | 40 EP |
-| 4 | 90 EP |
-| 5 | 160 EP |
-| 6 | 260 EP |
+Leitattributkosten entfallen. Leitattribute werden aus den zugeordneten Attributen abgeleitet.
 
-Hinweis: Attributwerte unter 0 sind kein regulärer Build-Zielwert. Kurzfristige Zustände/Konsequenzen koennen Werte temporaer beeinflussen, ohne die Entwicklungskosten neu zu berechnen.
+Wertebereich und Ausfallregel:
+- Bei Erschaffung kann kein Attributwert mit 0 oder kleiner gewaehlt werden.
+- Im Spiel koennen Mali Attribute auf 0 oder darunter druecken.
+- Faellt mindestens ein Attribut auf 0 oder darunter, ist die Figur aktionsunfaehig.
+- Werte ueber 6 sind als Ausnahme durch Vorteile, Zauber, Kraefte, Cyberware oder Ausruestung moeglich.
 
-### 2.3.1 Facettenkosten [TESTSTAND]
+### 2.3.1 Attributkosten [TESTSTAND]
 
-Facetten werden als Abweichung vom Attribut-Basiswert geführt.
-
-| Facetten-Abweichung | Kosten |
-|---------------------|--------|
-| -3 | -120 EP |
-| -2 | -80 EP |
-| -1 | -40 EP |
-| 0 | 0 EP |
-| +1 | +40 EP |
-| +2 | +80 EP |
-| +3 | +120 EP |
+Attributkosten werden ueber die aktive Kostentabelle gefuehrt.
 
 Regellogik:
-- lineare Kosten: **±40 EP pro Abweichungsstufe**
-- Fokusmodifikator wird auf Facettenkosten angewandt (wie bei Attributkosten)
-- Rundung immer zugunsten des Spielers (abrunden)
+- Fokusmodifikator wird auf Attribut- und Fertigkeitskosten angewandt
+- Rundung immer kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet)
 
 | Lebensphase | Empfohlener Anteil |
 |-------------|-------------------|
-| Kindheit / Herkunft | 10–15 % |
-| Jugend / frühe Prägung | 15–20 % |
-| Ausbildung / Formung | 25–30 % |
-| Frühe Erwachsenenerfahrung | 25–30 % |
-| Aktuelle Position / Startstatus | 5–10 % |
+| Kindheit / Herkunft | 10â€“15 % |
+| Jugend / frÃ¼he PrÃ¤gung | 15â€“20 % |
+| Ausbildung / Formung | 25â€“30 % |
+| FrÃ¼he Erwachsenenerfahrung | 25â€“30 % |
+| Aktuelle Position / Startstatus | 5â€“10 % |
 
 ### 2.4 Fertigkeitskosten [TESTSTAND]
 
@@ -295,21 +286,21 @@ Anwendungsklassen-Matrix auf Basiskosten:
 - Flufffertigkeit: -60 %
 
 Fokus ueber Regelanker:
-- passt mindestens ein Regelanker zum Hauptattribut oder zu dessen Facetten, greift der Fokusrabatt
+- passt mindestens ein Regelanker zum Leitattribut oder zu dessen Attributen, greift der Fokusrabatt
 - der Fokusmodifikator wird pro Fertigkeit nur einmal angewandt
-- Rundung immer zugunsten des Spielers (abrunden)
+- Rundung immer kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet)
 
 Bei unklarer Einordnung zwischen Aktions- und Flufffertigkeit entscheidet die Spielleitung entlang der Definitionskriterien; es gibt keine starre Prioritaetsregel.
 
-Überhang: bis Attribut = normal · +1 über Attribut = +30 · +2 über Attribut = +90 · mehr = Ausnahme.
+Ãœberhang: bis Leitattribut = normal Â· +1 Ã¼ber Leitattribut = +30 Â· +2 Ã¼ber Leitattribut = +90 Â· mehr = Ausnahme.
 
 ### 2.5 Spezialattribute / Sondernatur [GELOCKT]
 
-Spezialattribute sind optional. Zusatzkräfte sind nicht fest an Geist gebunden; sie können an Körper, Geist oder Präsenz andocken. Zugänge laufen eher über Freischaltung, Vorteil, Begabung und passende Fertigkeiten.
+Spezialattribute sind optional. ZusatzkrÃ¤fte sind nicht fest an Geist gebunden; sie kÃ¶nnen an KÃ¶rper, Geist oder PrÃ¤senz andocken. ZugÃ¤nge laufen eher Ã¼ber Freischaltung, Vorteil, Begabung und passende Fertigkeiten.
 
 ### 2.6 Spielbarer Start-Charakter
 
-Ein Start-SC sollte vier Bereiche abdecken: Kernkompetenz · Selbstbehauptung / Überlebensfähigkeit · Alltags- und Handlungstauglichkeit · Anbindung an Gruppe, Welt und Startlage.
+Ein Start-SC sollte vier Bereiche abdecken: Kernkompetenz Â· Selbstbehauptung / ÃœberlebensfÃ¤higkeit Â· Alltags- und Handlungstauglichkeit Â· Anbindung an Gruppe, Welt und Startlage.
 
 ---
 
@@ -317,7 +308,7 @@ Ein Start-SC sollte vier Bereiche abdecken: Kernkompetenz · Selbstbehauptung / 
 
 ### 3.1 Fertigkeitslogik
 
-URoP kennt bis zu vier Ebenen: Attribut → Sammelfertigkeit → Standardfertigkeit → Spezialisierung. Standardfertigkeiten und Spezialisierungen sind optional; Spezialisierungen dürfen direkt an eine Sammelfertigkeit angeschlossen werden. Mehrfachzuordnung ist erlaubt, wenn mehrere klare Kompetenzräume sinnvoll sind.
+URoP kennt bis zu vier Ebenen: Leitattribut â†’ Sammelfertigkeit â†’ Standardfertigkeit â†’ Spezialisierung. Standardfertigkeiten und Spezialisierungen sind optional; Spezialisierungen dÃ¼rfen direkt an eine Sammelfertigkeit angeschlossen werden. Mehrfachzuordnung ist erlaubt, wenn mehrere klare KompetenzrÃ¤ume sinnvoll sind.
 
 ### 3.1.1 Verbindliche Einteilungen [GELOCKT]
 Fertigkeiten werden im Regelkern ueber vier getrennte Einteilungen beschrieben:
@@ -336,7 +327,7 @@ Definitionskriterien:
 - **Flufffertigkeit**: primaer fuer langfristige, vorbereitende, alltagsnahe oder charakterprofilierende Wirkung mit geringer unmittelbarer Eskalationswirkung.
 
 3. **Regelanker**
-- Attribut- und optional Facettenanker
+- Leitattribut- und optionale Attributanker
 - beschreibt Voraussetzungen, Ueberhangbezug und regeltechnische Andockpunkte
 
 4. **Konsequenzdomaene**
@@ -354,17 +345,17 @@ Diese vier Einteilungen gelten parallel und ersetzen einander nicht.
 
 | Fertigkeit | Attribut | Kurzrolle |
 |------------|----------|-----------|
-| Athletik | Körper | Bewegung, Kraft, Koordination, Belastbarkeit |
-| Nahkampf | Körper | bewaffneter und unbewaffneter Kampf auf kurze Distanz |
-| Fernkampf | Körper | Einsatz von Distanzwaffen |
-| Heimlichkeit | Körper | unauffälliges, verborgenes oder schwer nachverfolgbares Handeln |
-| Fahrzeuge | Körper | Führen und Kontrollieren typischer Fahrzeuge |
-| Wahrnehmung | Geist | Bemerken, Erkennen und Einordnen relevanter Eindrücke |
-| Technik | Geist | Umgang mit Geräten, Maschinen und praktischen Systemen |
+| Athletik | KÃ¶rper | Bewegung, Kraft, Koordination, Belastbarkeit |
+| Nahkampf | KÃ¶rper | bewaffneter und unbewaffneter Kampf auf kurze Distanz |
+| Fernkampf | KÃ¶rper | Einsatz von Distanzwaffen |
+| Heimlichkeit | KÃ¶rper | unauffÃ¤lliges, verborgenes oder schwer nachverfolgbares Handeln |
+| Fahrzeuge | KÃ¶rper | FÃ¼hren und Kontrollieren typischer Fahrzeuge |
+| Wahrnehmung | Geist | Bemerken, Erkennen und Einordnen relevanter EindrÃ¼cke |
+| Technik | Geist | Umgang mit GerÃ¤ten, Maschinen und praktischen Systemen |
 | Medizin | Geist | Diagnose, Versorgung und medizinische Behandlung |
-| Überleben | Geist | Orientierung, Versorgung und Handeln in schwierigen Umgebungen |
+| Ãœberleben | Geist | Orientierung, Versorgung und Handeln in schwierigen Umgebungen |
 | Wissen | Geist | gespeichertes Wissen, Recherche und strukturierte Informationsnutzung |
-| Einfluss | Präsenz | Gesprächsführung, soziale Wirkung und Beeinflussung |
+| Einfluss | PrÃ¤senz | GesprÃ¤chsfÃ¼hrung, soziale Wirkung und Beeinflussung |
 
 ### 3.3 Standardfertigkeiten und Spezialisierungsbeispiele (Auswahl)
 
@@ -377,23 +368,23 @@ Diese vier Einteilungen gelten parallel und ersetzen einander nicht.
 | Langwaffen | Fernkampf |
 | Wurfwaffen | Fernkampf |
 | Verhandeln | Einfluss |
-| Täuschen | Einfluss |
+| TÃ¤uschen | Einfluss |
 | Auftreten | Einfluss |
-| Verhör / Druck | Einfluss |
+| VerhÃ¶r / Druck | Einfluss |
 | Mechanik | Technik |
 | Elektronik | Technik |
 | Sicherheitssysteme | Technik |
 
-Spezialisierungsbeispiele: Pistole · Gewehr · Schrotflinte · Boxen · Messer · Krisenverhandlung · Lügen · Falsche Identität · Schlossmechanik · Sensorik.
+Spezialisierungsbeispiele: Pistole Â· Gewehr Â· Schrotflinte Â· Boxen Â· Messer Â· Krisenverhandlung Â· LÃ¼gen Â· Falsche IdentitÃ¤t Â· Schlossmechanik Â· Sensorik.
 
 ### 3.4 Vorteile (Auswahl)
 
 | Name | Tier | Kurzrolle |
 |------|------|-----------|
-| Wachsame Sinne | moderate | Frühe Hinweise und schwache Reize kippen seltener unbemerkt durch. |
-| Richtungssinn | minor | Wege und Orientierungspunkte bleiben ungewöhnlich stabil im Kopf. |
-| Zäh | moderate | Belastung und Druck werfen dich später aus der Bahn. |
-| Abgebrüht | moderate | Schock, Einschüchterung und Chaos bringen dich seltener aus dem Arbeitsmodus. |
+| Wachsame Sinne | moderate | FrÃ¼he Hinweise und schwache Reize kippen seltener unbemerkt durch. |
+| Richtungssinn | minor | Wege und Orientierungspunkte bleiben ungewÃ¶hnlich stabil im Kopf. |
+| ZÃ¤h | moderate | Belastung und Druck werfen dich spÃ¤ter aus der Bahn. |
+| AbgebrÃ¼ht | moderate | Schock, EinschÃ¼chterung und Chaos bringen dich seltener aus dem Arbeitsmodus. |
 | Feldroutine | moderate | Typische Gefahrensituationen eskalieren seltener unkontrolliert. |
 | Erstversorger | minor | Notfallversorgung schnell, praktisch und unter Druck. |
 | Szene-Kontakte | moderate | Belastbare Kontakte in einer relevanten Szene oder einem Milieu. |
@@ -404,101 +395,102 @@ Spezialisierungsbeispiele: Pistole · Gewehr · Schrotflinte · Boxen · Messer 
 | Name | Tier | Kurzrolle |
 |------|------|-----------|
 | Schlechte Orientierung | minor | Routen und Raumanordnung kippen leichter durcheinander. |
-| Fragil | moderate | Körperliche Belastungen und Treffer kippen schneller in echte Folgen. |
-| Schreckhaft | moderate | Überraschung, Knall oder abrupte Eskalation werfen dich leichter aus der Spur. |
-| Stolz | minor | Kränkung oder Statusverlust lässt Konflikte schneller härter werden. |
-| Misstrauisch | minor | Vertrauen fällt schwer; Kooperation und Bindung bauen sich zäher auf. |
-| Verpflichtung | moderate | Wiederkehrende Pflicht kostet Zeit, Loyalität oder Handlungsspielraum. |
-| Schulden | moderate | Finanzieller oder faktischer Rückstand erzeugt regelmäßigen Druck. |
+| Fragil | moderate | KÃ¶rperliche Belastungen und Treffer kippen schneller in echte Folgen. |
+| Schreckhaft | moderate | Ãœberraschung, Knall oder abrupte Eskalation werfen dich leichter aus der Spur. |
+| Stolz | minor | KrÃ¤nkung oder Statusverlust lÃ¤sst Konflikte schneller hÃ¤rter werden. |
+| Misstrauisch | minor | Vertrauen fÃ¤llt schwer; Kooperation und Bindung bauen sich zÃ¤her auf. |
+| Verpflichtung | moderate | Wiederkehrende Pflicht kostet Zeit, LoyalitÃ¤t oder Handlungsspielraum. |
+| Schulden | moderate | Finanzieller oder faktischer RÃ¼ckstand erzeugt regelmÃ¤ÃŸigen Druck. |
 | Schlechter Ruf | moderate | Sichtbarer Vertrauens- und Ansehensnachteil in passenden Milieus. |
 
 ---
 
-## 4. Kampf, Wirkung und Manöver
+## 4. Kampf, Wirkung und ManÃ¶ver
 
 ### 4.1 Kampfsimulation (Initiative, Aktionen, Reaktionen) [GELOCKT / ARBEITSSTAND]
 
 - **Kampfrunde:** Richtwert ist etwa 6 Sekunden. Die Runde bleibt ein abstrakter Taktgeber, keine sekundengenaue Simulation.
-- **Inibasis:** Initiativanker-Attribut + feste Modi aus Lage/Profil.
+- **Inibasis:** gerundetes Initiativanker-Leitattribut + Boni - Mali aus Lage/Profil.
+- **Rundung:** kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet).
 - **Initiative als Vergleichsprobe:** Spieler wuerfeln eine normale Probe gegen den Vergleichswert (gegnerische Inibasis + Modi).
-- **Initiativanker:** Körper (physischer Konflikt), Geist (taktisch/technisch), Präsenz (soziale Konfrontation).
+- **Initiativanker:** KÃ¶rper (physischer Konflikt), Geist (taktisch/technisch), PrÃ¤senz (soziale Konfrontation).
 - **Standard bei Lagewert 0:** 9-12 bedeutet normaler Initiativslot (gleichauf).
 - **Schere um den Standard:** schlechte Ergebnisse = spaeter, gute Ergebnisse = frueher; keine automatische Zusatzaktion.
-- **Wirkung der Initiative:** Sie bestimmt primär die Reihenfolge. Hohe Initiative gibt nicht automatisch zusätzliche Hauptaktionen.
+- **Wirkung der Initiative:** Sie bestimmt primÃ¤r die Reihenfolge. Hohe Initiative gibt nicht automatisch zusÃ¤tzliche Hauptaktionen.
 - **Hauptaktion pro Zyklus:** Jede Figur hat pro eigenem Initiativzyklus eine Hauptaktion.
-- **Freie Handlungen:** Kurze, naheliegende Tätigkeiten ohne starke Wirkung bleiben frei.
+- **Freie Handlungen:** Kurze, naheliegende TÃ¤tigkeiten ohne starke Wirkung bleiben frei.
 - **2+ Aktionen:** Solche Effekte binden mehrere eigene Zyklen (Aufbau, Kanalisation, Vorbereitung).
-- **Reaktionsfenster:** Pro eigenem Zyklus ein reaktives Manöver; Refresh mit der nächsten regulären eigenen Handlung.
+- **Reaktionsfenster:** Pro eigenem Zyklus ein reaktives ManÃ¶ver; Refresh mit der nÃ¤chsten regulÃ¤ren eigenen Handlung.
 - **Keine Reaktionskette:** Eine Reaktion erzeugt nicht sofort wieder eine neue Reaktion.
 
-**Größe, Kräfte, Last und Cyberware in der Initiative:**
-- Größe wirkt nur dann als Modifikator, wenn sie in der Szene direkt relevant ist.
-- Belastung, Verletzung oder harte Lagefaktoren können Initiative drücken.
-- Beschleuniger-Cyberware kann Initiative erhöhen, wenn die Ware das explizit vorsieht.
+**GrÃ¶ÃŸe, KrÃ¤fte, Last und Cyberware in der Initiative:**
+- GrÃ¶ÃŸe wirkt nur dann als Modifikator, wenn sie in der Szene direkt relevant ist.
+- Belastung, Verletzung oder harte Lagefaktoren kÃ¶nnen Initiative drÃ¼cken.
+- Beschleuniger-Cyberware kann Initiative erhÃ¶hen, wenn die Ware das explizit vorsieht.
 
 **Sandevistan-/Beschleuniger-Regel (Pilot, TESTSTAND):**
 - Kein dauerhafter Doppelzug.
 - Stattdessen: 1x pro Kampf ein Tempoburst (z. B. vorziehen oder kurze Zusatzhandlung), mit klarem Preis (Risiko/Zustand/Konsequenz) je nach Profil.
 
-**PvP-Würfelzuständigkeit (GELOCKT / TESTSTAND):**
-- Gewürfelt wird von der Figur, die das unmittelbare Risiko trägt.
-- Angriff gegen einen Spieler: der Zielspieler würfelt (Verteidigung als aktiver Konfliktwurf).
-- Sozialer Druck gegen einen Spieler: der Zielspieler würfelt (z. B. über passenden Widerstand).
-- Neutrale Wettläufe ohne direkte Schädigung: der Initiator würfelt.
-- Wenn beide Spieler gleichzeitig gegeneinander drücken, gilt Austauschlogik: Impuls setzen, ein Wurf für diesen Austausch, danach kann die Gegenseite den nächsten Impuls setzen.
+**PvP-WÃ¼rfelzustÃ¤ndigkeit (GELOCKT / TESTSTAND):**
+- GewÃ¼rfelt wird von der Figur, die das unmittelbare Risiko trÃ¤gt.
+- Angriff gegen einen Spieler: der Zielspieler wÃ¼rfelt (Verteidigung als aktiver Konfliktwurf).
+- Sozialer Druck gegen einen Spieler: der Zielspieler wÃ¼rfelt (z. B. Ã¼ber passenden Widerstand).
+- Neutrale WettlÃ¤ufe ohne direkte SchÃ¤digung: der Initiator wÃ¼rfelt.
+- Wenn beide Spieler gleichzeitig gegeneinander drÃ¼cken, gilt Austauschlogik: Impuls setzen, ein Wurf fÃ¼r diesen Austausch, danach kann die Gegenseite den nÃ¤chsten Impuls setzen.
 
-**Kampf-Scherenbremse durch Körperwiderstand (TESTSTAND):**
-- Bei Verteidigungswürfen gegen körperliche Treffer kann hoher Körperwiderstand die negative Spreizung begrenzen.
+**Kampf-Scherenbremse durch KÃ¶rperwiderstand (TESTSTAND):**
+- Bei VerteidigungswÃ¼rfen gegen kÃ¶rperliche Treffer kann hoher KÃ¶rperwiderstand die negative Spreizung begrenzen.
 - Standard-Spreizung bleibt bis zu +2/-2 Stufen um den gesetzten Standard.
-- Mit hoher Körperwiderstandslage kann die negative Seite auf +1 begrenzt werden.
-- Mit sehr hoher Körperwiderstandslage kann die negative Seite auf +0 begrenzt werden, außer bei klarer Überlegenheit des Angreifers (erspielte Schwachstelle, massive Waffe, deutliche Lagevorteile).
-- Diese Bremse gilt nur für körpernahe Kampffolgen und ändert keine allgemeinen Widerstandsproben in anderen Domänen.
+- Mit hoher KÃ¶rperwiderstandslage kann die negative Seite auf +1 begrenzt werden.
+- Mit sehr hoher KÃ¶rperwiderstandslage kann die negative Seite auf +0 begrenzt werden, auÃŸer bei klarer Ãœberlegenheit des Angreifers (erspielte Schwachstelle, massive Waffe, deutliche Lagevorteile).
+- Diese Bremse gilt nur fÃ¼r kÃ¶rpernahe Kampffolgen und Ã¤ndert keine allgemeinen Widerstandsproben in anderen DomÃ¤nen.
 
 **Tisch-Entscheidungsregel (hoch vs. sehr hoch):**
-- **Hoher Körperwiderstand** liegt vor, wenn mindestens ein klarer Resilienzfaktor trägt (z. B. hohe Konstitution/Körper, passender Vorteil, robuste Cyberware, gute Schutzlage).
-- **Sehr hoher Körperwiderstand** liegt vor, wenn mindestens zwei klare Resilienzfaktoren gleichzeitig tragen und keine klare Schwachstelle offen ist.
+- **Hoher KÃ¶rperwiderstand** liegt vor, wenn mindestens ein klarer Resilienzfaktor trÃ¤gt (z. B. hohe Konstitution/KÃ¶rper, passender Vorteil, robuste Cyberware, gute Schutzlage).
+- **Sehr hoher KÃ¶rperwiderstand** liegt vor, wenn mindestens zwei klare Resilienzfaktoren gleichzeitig tragen und keine klare Schwachstelle offen ist.
 - Bei Unklarheit gilt konservativ: erst **hoch** ansetzen; **sehr hoch** nur bei eindeutigem Mehrwert.
 
 **Typische Resilienzfaktoren (6er-Referenz):**
-- Hohe Konstitution oder klar überdurchschnittlicher Körperwert.
-- Passender Vorteil wie zäh/abgebrüht/feldroutine-nah.
-- Robuste Schutzlage (passende Rüstung, Deckung, stabile Position).
-- Belastbare Cyberware (z. B. verstärkte Struktur, Dämpfung, Stabilisierung).
-- Günstige Lage gegen den Angriff (Winkel, Distanz, Vorbereitung).
+- Hohe Konstitution oder klar Ã¼berdurchschnittlicher KÃ¶rperwert.
+- Passender Vorteil wie zÃ¤h/abgebrÃ¼ht/feldroutine-nah.
+- Robuste Schutzlage (passende RÃ¼stung, Deckung, stabile Position).
+- Belastbare Cyberware (z. B. verstÃ¤rkte Struktur, DÃ¤mpfung, Stabilisierung).
+- GÃ¼nstige Lage gegen den Angriff (Winkel, Distanz, Vorbereitung).
 - Keine offene Schwachstelle im aktuell angegriffenen Bereich.
 
 **Mini-Beispiele (PvP + Scherenbremse):**
-1. **Spieler A schießt auf Spieler B:** B trägt das Risiko und würfelt die Verteidigung. Bei gutem Ergebnis sinkt die Wirkung, bei sehr gutem kann sie auf Druck fallen.
-2. **Spieler B mit hoher Körperwiderstandslage:** Standard wäre leichte Konsequenz. Schlechter Wurf würde normalerweise auf schwere Konsequenz steigen; mit Scherenbremse bleibt es bei leichter Konsequenz plus Haken/Zustand.
+1. **Spieler A schieÃŸt auf Spieler B:** B trÃ¤gt das Risiko und wÃ¼rfelt die Verteidigung. Bei gutem Ergebnis sinkt die Wirkung, bei sehr gutem kann sie auf Druck fallen.
+2. **Spieler B mit hoher KÃ¶rperwiderstandslage:** Standard wÃ¤re leichte Konsequenz. Schlechter Wurf wÃ¼rde normalerweise auf schwere Konsequenz steigen; mit Scherenbremse bleibt es bei leichter Konsequenz plus Haken/Zustand.
 
-**Kampfsimulation – noch offen:**
+**Kampfsimulation â€“ noch offen:**
 - Join-in-Mid-Combat, Hold/Delay, Unterbrechen
-- Exakte Tie-Break-Reihenfolge bei mehreren Gleichständen
-- Wann Initiative in langen Szenen neu gewürfelt wird
-- Feintuning, wie Zustände/Cyberware das Reaktionsfenster beeinflussen
+- Exakte Tie-Break-Reihenfolge bei mehreren GleichstÃ¤nden
+- Wann Initiative in langen Szenen neu gewÃ¼rfelt wird
+- Feintuning, wie ZustÃ¤nde/Cyberware das Reaktionsfenster beeinflussen
 
-### 4.2 Was ein volles Manöver ausmacht
+### 4.2 Was ein volles ManÃ¶ver ausmacht
 
-Manöver sind zugespitzte, besondere Anwendungen vorhandenen Könnens. Sie sind von Basisaktionen abgegrenzt durch:
+ManÃ¶ver sind zugespitzte, besondere Anwendungen vorhandenen KÃ¶nnens. Sie sind von Basisaktionen abgegrenzt durch:
 - besonderes Einsatzfenster oder klares Limit
-- spürbar andere Wirkung als die Basisaktion
+- spÃ¼rbar andere Wirkung als die Basisaktion
 - definierte Aktionskosten
 - gezielte Gegenreaktion oder klares Risiko
 - deutliche Verschiebung in Richtung Kontrolle, Zugriff, Stellung oder Eskalation
 
-URoP führt aktuell keine Zwischenebene für Optionen oder Techniken. Was kein volles Manöver braucht, bleibt Basisanwendung.
+URoP fÃ¼hrt aktuell keine Zwischenebene fÃ¼r Optionen oder Techniken. Was kein volles ManÃ¶ver braucht, bleibt Basisanwendung.
 
-### 4.3 Manöverachsen
+### 4.3 ManÃ¶verachsen
 
 | Achse | Arbeitsstand |
 |-------|-------------|
-| Domäne | Kampf · Einfluss/Sozial · Technik/Zugriff |
-| Timing | aktiv · reaktiv · nachsetzend |
-| Hauptrolle | Druck · Kontrolle · Öffnung · Sicherung · Abbruch/Entzug |
+| DomÃ¤ne | Kampf Â· Einfluss/Sozial Â· Technik/Zugriff |
+| Timing | aktiv Â· reaktiv Â· nachsetzend |
+| Hauptrolle | Druck Â· Kontrolle Â· Ã–ffnung Â· Sicherung Â· Abbruch/Entzug |
 
-### 4.4 Manöver-Familien (Referenzbestand)
+### 4.4 ManÃ¶ver-Familien (Referenzbestand)
 
-Manöver werden in Rank-Familien (I–III) gelernt. Höhere Ranks sind sequenziell: wer Rank II erwerben will, muss Rank I besitzen. Höhere Ranks ersetzen niedrigere nicht – alle erlernten Ranks bleiben verfügbar. `learn_cost_ep` ist der **einmalige Erwerbspreis** pro Rank. Die Aktionskosten beschreiben den **Einsatzpreis** im Spiel.
+ManÃ¶ver werden in Rank-Familien (Iâ€“III) gelernt. HÃ¶here Ranks sind sequenziell: wer Rank II erwerben will, muss Rank I besitzen. HÃ¶here Ranks ersetzen niedrigere nicht â€“ alle erlernten Ranks bleiben verfÃ¼gbar. `learnCostEp` ist der **einmalige Erwerbspreis** pro Rank. Die Aktionskosten beschreiben den **Einsatzpreis** im Spiel.
 
 | Familie | Rank | Tier | EP (Erwerb) | Aktionskosten | Reaktionsfenster | Fenster |
 |---------|------|------|-------------|---------------|-----------------|---------|
@@ -506,55 +498,55 @@ Manöver werden in Rank-Familien (I–III) gelernt. Höhere Ranks sind sequenzie
 | Schnellziehen | I | T0 | 0 | frei | ja | unbegrenzt |
 | Schnellziehen | II | T1 | 15 | frei | ja | unbegrenzt |
 | Schnellziehen | III | T2 | 15 | frei | ja | unbegrenzt |
-| Entwaffnen | I | T1 | 15 | Aktion | nein | 1× pro Kampf |
-| Entwaffnen | II | T2 | 15 | Aktion | nein | 1× pro Kampf |
-| Entwaffnen | III | T3 | 20 | Aktion | nein | 1× pro Kampf |
-| Umreißen / Niederwerfen | I | T1 | 15 | Aktion | nein | 1× pro Kampf |
-| Festsetzen | I | T2 | 30 | Aktion | nein | 1× pro Szene |
-| Festsetzen | II | T3 | 20 | Aktion | nein | 1× pro Szene |
-| Festsetzen | III | T3 | 20 | Aktion | nein | 1× pro Kampf |
-| Konter | I | T2 | 30 | frei | ja | 1× pro Kampf |
-| Finisher | I | T2 | 30 | 2 Aktionen | nein | 1× pro Szene |
-| Finisher | II | T3 | 20 | 2 Aktionen | nein | 1× pro Szene |
-| Präzisionsschuss | I | T1 | 15 | Aktion | nein | unbegrenzt |
-| Präzisionsschuss | II | T2 | 15 | Aktion | nein | unbegrenzt |
-| Präzisionsschuss | III | T3 | 20 | Aktion | nein | 1× pro Kampf |
-| Unterdrückungsfeuer | I | T2 | 30 | 2 Aktionen | nein | 1× pro Szene |
-| Unterdrückungsfeuer | II | T3 | 20 | 2 Aktionen | nein | 1× pro Szene |
-| Reaktionsschuss | I | T2 | 30 | frei | ja | 1× pro Kampf |
-| Reaktionsschuss | II | T3 | 20 | frei | ja | 1× pro Kampf |
-| Gesprächsschock | I | T2 | 30 | Aktion | nein | 1× pro Szene |
-| Gesprächsschock | II | T3 | 20 | Aktion | nein | 1× pro Szene |
-| Sozialer Konter | I | T2 | 30 | frei | ja | 1× pro Kampf |
-| Sozialer Konter | II | T3 | 20 | frei | ja | 1× pro Kampf |
-| Bypass | I | T2 | 30 | Aktion | nein | 1× pro Szene |
-| Bypass | II | T3 | 20 | Aktion | nein | 1× pro Szene |
-| Alarm verzögern | I | T2 | 30 | frei | ja | 1× pro Kampf |
-| Alarm verzögern | II | T3 | 20 | frei | ja | 1× pro Kampf |
+| Entwaffnen | I | T1 | 15 | Aktion | nein | 1Ã— pro Kampf |
+| Entwaffnen | II | T2 | 15 | Aktion | nein | 1Ã— pro Kampf |
+| Entwaffnen | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
+| UmreiÃŸen / Niederwerfen | I | T1 | 15 | Aktion | nein | 1Ã— pro Kampf |
+| Festsetzen | I | T2 | 30 | Aktion | nein | 1Ã— pro Szene |
+| Festsetzen | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
+| Festsetzen | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
+| Konter | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Finisher | I | T2 | 30 | 2 Aktionen | nein | 1Ã— pro Szene |
+| Finisher | II | T3 | 20 | 2 Aktionen | nein | 1Ã— pro Szene |
+| PrÃ¤zisionsschuss | I | T1 | 15 | Aktion | nein | unbegrenzt |
+| PrÃ¤zisionsschuss | II | T2 | 15 | Aktion | nein | unbegrenzt |
+| PrÃ¤zisionsschuss | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
+| UnterdrÃ¼ckungsfeuer | I | T2 | 30 | 2 Aktionen | nein | 1Ã— pro Szene |
+| UnterdrÃ¼ckungsfeuer | II | T3 | 20 | 2 Aktionen | nein | 1Ã— pro Szene |
+| Reaktionsschuss | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Reaktionsschuss | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
+| GesprÃ¤chsschock | I | T2 | 30 | Aktion | nein | 1Ã— pro Szene |
+| GesprÃ¤chsschock | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
+| Sozialer Konter | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Sozialer Konter | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
+| Bypass | I | T2 | 30 | Aktion | nein | 1Ã— pro Szene |
+| Bypass | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
+| Alarm verzÃ¶gern | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Alarm verzÃ¶gern | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
 
-Kurzrollen für die wichtigsten Einzelmanöver:
-- **Befreien aus Griff:** Löst oder lockert einen bestehenden Griff.
+Kurzrollen fÃ¼r die wichtigsten EinzelmanÃ¶ver:
+- **Befreien aus Griff:** LÃ¶st oder lockert einen bestehenden Griff.
 - **Schnellziehen:** Bringt Waffe im Eskalationsmoment rechtzeitig in die Szene.
-- **Entwaffnen:** Drückt Waffe aus der Linie, aus der Hand oder macht sie akut unbrauchbar.
-- **Umreißen / Niederwerfen:** Bricht Stand und Schwerpunkt, um Ziel aus stabiler Position zu holen.
-- **Festsetzen:** Erzwingt klare Bindung und schränkt Bewegung oder freies Waffenspiel stark ein.
-- **Konter:** Fängt erkennbare Aktion ab und kippt sie in Nachteil oder Öffnung für den Gegner.
-- **Finisher:** Abschlussmanöver nach bereits geschaffener Öffnung oder massiver Kontrolle.
-- **Präzisionsschuss:** Verzichtet auf reines Schnellfeuer zugunsten gezielter Wirkung.
-- **Unterdrückungsfeuer:** Kontrolliert Raumabschnitt, bremst Vorstoß.
-- **Reaktionsschuss:** Nutzt Expositionsmoment, um Bewegung oder Vorstoß zu brechen.
-- **Gesprächsschock:** Setzt belastende Wahrheit oder Enthüllung als harten Schlag gegen Fassung.
-- **Sozialer Konter:** Dreht sichtbaren Angriff auf Ansehen gegen seinen Urheber zurück.
-- **Bypass:** Umgeht Schutzlogik über schmalen Zugangspfad statt frontalem Aufbrechen.
-- **Alarm verzögern:** Gewinnt Zeit durch Stau, Umleitung oder Verzögerung der Eskalationskette.
+- **Entwaffnen:** DrÃ¼ckt Waffe aus der Linie, aus der Hand oder macht sie akut unbrauchbar.
+- **UmreiÃŸen / Niederwerfen:** Bricht Stand und Schwerpunkt, um Ziel aus stabiler Position zu holen.
+- **Festsetzen:** Erzwingt klare Bindung und schrÃ¤nkt Bewegung oder freies Waffenspiel stark ein.
+- **Konter:** FÃ¤ngt erkennbare Aktion ab und kippt sie in Nachteil oder Ã–ffnung fÃ¼r den Gegner.
+- **Finisher:** AbschlussmanÃ¶ver nach bereits geschaffener Ã–ffnung oder massiver Kontrolle.
+- **PrÃ¤zisionsschuss:** Verzichtet auf reines Schnellfeuer zugunsten gezielter Wirkung.
+- **UnterdrÃ¼ckungsfeuer:** Kontrolliert Raumabschnitt, bremst VorstoÃŸ.
+- **Reaktionsschuss:** Nutzt Expositionsmoment, um Bewegung oder VorstoÃŸ zu brechen.
+- **GesprÃ¤chsschock:** Setzt belastende Wahrheit oder EnthÃ¼llung als harten Schlag gegen Fassung.
+- **Sozialer Konter:** Dreht sichtbaren Angriff auf Ansehen gegen seinen Urheber zurÃ¼ck.
+- **Bypass:** Umgeht Schutzlogik Ã¼ber schmalen Zugangspfad statt frontalem Aufbrechen.
+- **Alarm verzÃ¶gern:** Gewinnt Zeit durch Stau, Umleitung oder VerzÃ¶gerung der Eskalationskette.
 
 ---
 
-## 5. Ausrüstung und Schutz
+## 5. AusrÃ¼stung und Schutz
 
 ### 5.1 Wirkungsleiter (Waffen)
 
-| Wirkungswert (damage_baseline) | Lesart |
+| Wirkungswert (damageBaseline) | Lesart |
 |-------------------------------|--------|
 | 1 | reduzierter Druck |
 | 2 | Druck |
@@ -564,7 +556,7 @@ Kurzrollen für die wichtigsten Einzelmanöver:
 
 ### 5.2 Waffen (Referenzauswahl)
 
-Führende Datenquelle: `data/URoP_Waffen.json`. Felder: `id`, `name`, `category`, `combat_mode`, `damage_baseline`, `quality`, `designed_for_size_class`, `effective_against_class`, `price_eb`, ggf. `fire_modes`, `range_bands`, `melee_reach_classes`, `attack_pattern`.
+FÃ¼hrende Datenquelle: `data/URoP_Waffen.json`. Felder: `id`, `name`, `category`, `combatMode`, `damageBaseline`, `quality`, `designedFor Size Class`, `effectiveAgainst Class`, `priceEb`, ggf. `fireModes`, `rangeBands`, `meleeReach Classes`, `attackPattern`.
 
 | Name | Kategorie | Modus | Wirkung | Preis (EB) |
 |------|-----------|-------|---------|------------|
@@ -577,22 +569,22 @@ Führende Datenquelle: `data/URoP_Waffen.json`. Felder: `id`, `name`, `category`
 | 9mm Dienstpistole | handfeuerwaffe | ranged | 4 | 500 |
 | Kompakte Maschinenpistole | handfeuerwaffe | ranged | 4 | 800 |
 
-Zugangsbeschränkungen, Legalitätsstufen und Umgebungseigenschaften (laut, verdeckbar usw.) werden im `description`-Fließtext geführt, nicht als diskretes Tags-Feld.
+ZugangsbeschrÃ¤nkungen, LegalitÃ¤tsstufen und Umgebungseigenschaften (laut, verdeckbar usw.) werden im `description`-FlieÃŸtext gefÃ¼hrt, nicht als diskretes Tags-Feld.
 
-### 5.3 Schutz und Rüstung (Referenzauswahl)
+### 5.3 Schutz und RÃ¼stung (Referenzauswahl)
 
-Führende Datenquelle: `data/URoP_Schutz_und_Ruestung.json`. Felder: `id`, `name`, `category`, `quality`, `user_size_nominal`, `protection_value`, `rules_short`, `description`, `price_eb`. Abdeckungsbereich und Materialeigenschaften stehen im `description`-Fließtext.
+FÃ¼hrende Datenquelle: `data/URoP_Schutz_und_Ruestung.json`. Felder: `id`, `name`, `category`, `quality`, `userSize Nominal`, `protectionValue`, `rulesShort`, `description`, `priceEb`. Abdeckungsbereich und Materialeigenschaften stehen im `description`-FlieÃŸtext.
 
 | Name | Kategorie | Schutzwert | Preis (EB) |
 |------|-----------|-----------|------------|
-| Verstärkte Straßenkleidung | clothing | 0 | 150 |
+| VerstÃ¤rkte StraÃŸenkleidung | clothing | 0 | 150 |
 | Verdeckte Stichschutzweste | vest | 1 | 250 |
 | Leichte Schutzweste | vest | 1 | 400 |
-| Patrouillenweste | armor_light | 2 | 700 |
+| Patrouillenweste | armorLight | 2 | 700 |
 | Riot-Anzug | riot | 2 | 1 500 |
 | Ballistischer Helm | helmet | 1 | 180 |
-| Versiegelter Operationsanzug | armor_light | 2 | 4 500 |
-| Schwere taktische Panzerung | armor_heavy | 3 | 3 000 |
+| Versiegelter Operationsanzug | armorLight | 2 | 4 500 |
+| Schwere taktische Panzerung | armorHeavy | 3 | 3 000 |
 | Riot-Schild | shield | 2 | 350 |
 | Powered Assault Frame | powered | 4 | 18 000 |
 
@@ -600,84 +592,84 @@ Führende Datenquelle: `data/URoP_Schutz_und_Ruestung.json`. Felder: `id`, `name
 
 ## 6. Cyberpunk-Module
 
-Cyberpunk erweitert den Basiskern, verbiegt ihn aber nicht. Kernprinzip bleibt überall: **Leistungswert → Wurf → Ergebnis → Wirkung / Konsequenz.**
+Cyberpunk erweitert den Basiskern, verbiegt ihn aber nicht. Kernprinzip bleibt Ã¼berall: **Leistungswert â†’ Wurf â†’ Ergebnis â†’ Wirkung / Konsequenz.**
 
 ### 6.1 Cyberware
 
-Cyberware erweitert den Kern über neue Sinne, Schnittstellen, Schutzlagen, Spezialfenster und Systemrisiken. Sie ersetzt den Probenkern nicht.
+Cyberware erweitert den Kern Ã¼ber neue Sinne, Schnittstellen, Schutzlagen, Spezialfenster und Systemrisiken. Sie ersetzt den Probenkern nicht.
 
 | Load-Band | Lesart |
 |-----------|--------|
-| 0–3 | leichte Chrome-Dichte |
-| 4–6 | deutlich augmentiert |
+| 0â€“3 | leichte Chrome-Dichte |
+| 4â€“6 | deutlich augmentiert |
 | 7+ | schwere Cyberisierung mit sichtbarer Reibung |
 
 | Cyberware | Kategorie | Zone | Load | Kurzrolle |
 |-----------|-----------|------|------|-----------|
-| Neurale Interface-Ports | interface | head | 1 | Direkte Kabelkopplung an kompatible Geräte und Hardware. |
+| Neurale Interface-Ports | interface | head | 1 | Direkte Kabelkopplung an kompatible GerÃ¤te und Hardware. |
 | Cyberoptiken, Basis | sensory | eyes | 1 | Ersatzaugen mit Sensorik, Aufzeichnung und Modulslots. |
-| Cyberaudio-Suite | sensory | ears | 1 | Verbesserte Hörleistung, Filter und Richtungswahrnehmung. |
+| Cyberaudio-Suite | sensory | ears | 1 | Verbesserte HÃ¶rleistung, Filter und Richtungswahrnehmung. |
 | Subdermales Schutzgeflecht | dermal | skin | 2 | Unsichtbarer Grundschutz gegen typische Gewaltspitzen. |
-| Reflexbooster | neural | spine | 2 | Beschleunigt Reaktionsfähigkeit und kurze Gewaltspitzen. |
-| Smartgun-Link | interface | arm | 1 | Direkte Waffenkopplung für Overlay und schnelleren Zielbezug. |
-| Medmonitor | medical | internal | 1 | Liest Vitaldaten, warnt früh und speichert medizinische Grundwerte. |
-| Skelettverst&auml;rkung | internal | full_body | 2 | Verstärkt Belastbarkeit und körperliche Stabilität. |
+| Reflexbooster | neural | spine | 2 | Beschleunigt ReaktionsfÃ¤higkeit und kurze Gewaltspitzen. |
+| Smartgun-Link | interface | arm | 1 | Direkte Waffenkopplung fÃ¼r Overlay und schnelleren Zielbezug. |
+| Medmonitor | medical | internal | 1 | Liest Vitaldaten, warnt frÃ¼h und speichert medizinische Grundwerte. |
+| Skelettverst&auml;rkung | internal | fullBody | 2 | VerstÃ¤rkt Belastbarkeit und kÃ¶rperliche StabilitÃ¤t. |
 | Cyberarm, Standard | limb | arm | 2 | Vollersatzarm mit Werkzeugslots und konstanter Greifleistung. |
-| Cyberbein, Sprintpaket | mobility | leg | 2 | Beinpaket für Antritt, Sprung und Hochbelastung. |
-| Schmerzeditor | neural | spine | 2 | Drosselt Schmerzsignale, längere Handlungsfähigkeit. |
-| Versteckte Unterarmklinge | combat | arm | 1 | Verdeckte Nahkampfwaffe im Armgehäuse. |
+| Cyberbein, Sprintpaket | mobility | leg | 2 | Beinpaket fÃ¼r Antritt, Sprung und Hochbelastung. |
+| Schmerzeditor | neural | spine | 2 | Drosselt Schmerzsignale, lÃ¤ngere HandlungsfÃ¤higkeit. |
+| Versteckte Unterarmklinge | combat | arm | 1 | Verdeckte Nahkampfwaffe im ArmgehÃ¤use. |
 
 ### 6.2 Quickhacks
 
-Quickhacks sind digitale Eingriffe auf vernetzte Ziele, Systeme und Raumtechnik. Sie sind keine Magie. Kleine Eingriffe können basisnah bleiben; harte Kontrolle, breite Umschreibung oder tiefe Sicherheitsarbeit werden als Manöver oder verlängerte Proben lesbar.
+Quickhacks sind digitale Eingriffe auf vernetzte Ziele, Systeme und Raumtechnik. Sie sind keine Magie. Kleine Eingriffe kÃ¶nnen basisnah bleiben; harte Kontrolle, breite Umschreibung oder tiefe Sicherheitsarbeit werden als ManÃ¶ver oder verlÃ¤ngerte Proben lesbar.
 
-**Zugangslogik** – Zugang ist eine Voraussetzung, kein optionaler Bonus:
+**Zugangslogik** â€“ Zugang ist eine Voraussetzung, kein optionaler Bonus:
 
 | Zugangspfad | Leitidee |
 |------------|---------|
-| open_wireless | Ziel sendet offen oder schwach abgesichert |
-| same_network | Hackender und Ziel im selben Netz/Knoten |
-| scanned_marked | Ziel wurde gescannt oder markiert |
-| prepared_access | Backdoor, geklaute Kennung, installierter Sniffer |
-| physically_exposed | Port oder Wartungspunkt wurde vor Ort freigelegt |
-| direct_link | Kabel, direkter Anschluss oder harter Host-Zugang |
+| openWireless | Ziel sendet offen oder schwach abgesichert |
+| sameNetwork | Hackender und Ziel im selben Netz/Knoten |
+| scannedMarked | Ziel wurde gescannt oder markiert |
+| preparedAccess | Backdoor, geklaute Kennung, installierter Sniffer |
+| physicallyExposed | Port oder Wartungspunkt wurde vor Ort freigelegt |
+| directLink | Kabel, direkter Anschluss oder harter Host-Zugang |
 
-**Risikotypen:** trace · overheat · counter_intrusion · alarm · collateral
+**Risikotypen:** trace Â· overheat Â· counterIntrusion Â· alarm Â· collateral
 
-**Quickhack-Referenzbestand** (Auswahl; führende Quelle: `data/URoP_Quickhacks.json`):
+**Quickhack-Referenzbestand** (Auswahl; fÃ¼hrende Quelle: `data/URoP_Quickhacks.json`):
 
 | Hack | Klasse | Aktionskosten | Fenster | Zugangspfade | Kurzrolle |
 |------|--------|--------------|---------|-------------|-----------|
-| Scan & Markieren | info | frei | unbegrenzt | open_wireless, same_network, scanned_marked | Liest vernetztes Ziel an und erzeugt digitales Zielbild. |
-| Status lesen | info | frei | unbegrenzt | open_wireless, same_network, prepared_access | Liest Betriebszustand oder Warnlagen aus. |
-| Sicherheitsfenster öffnen | info | Aktion | 1× pro Szene | deck, prepared_access, onsite_link | Schafft Hackfenster für Folgeaktionen. |
-| Sensoren blenden | störung | Aktion | 1× pro Kampf | os, deck | Stört Optik, Audio oder Tracking kurz. |
-| Waffe sperren | störung | Aktion | 1× pro Szene | os, deck | Blockiert vernetzte oder smart-gekoppelte Waffe. |
-| Systemschock | überlast | Aktion | 1× pro Szene | os, deck | Überlastet vernetzte Systeme oder Implantate. |
-| Tür freigeben | kontrolle | Aktion | unbegrenzt | deck, prepared_access, onsite_link | Öffnet oder entsperrt digitales Türsystem. |
-| Kamera auf freundlich | kontrolle | Aktion | 1× pro Szene | deck, prepared_access, onsite_link | Ändert Bewertung einer Kamera zugunsten der Gruppe. |
-| Autoturret auf freundlich | kontrolle | 2 Aktionen | 1× pro Szene | deck, prepared_access, onsite_link | Schiebt IFF eines Autoturrets um. |
-| Fahrzeugsicherheit umgehen | kontrolle | 2 Aktionen | 1× pro Szene | deck, prepared_access, onsite_link | Umgeht Wegfahrsperre oder Zugangssperre. |
-| Sicherheitsschloss freischalten | kontrolle | Aktion | unbegrenzt | prepared_access, onsite_link | Knackt digitales Schloss, besonders nach Freilegen. |
-| Drohne umflaggen | kontrolle | 2 Aktionen | 1× pro Szene | deck, prepared_access | Ändert Zugehörigkeit oder Kommandoflag einer Drohne. |
+| Scan & Markieren | info | frei | unbegrenzt | openWireless, sameNetwork, scannedMarked | Liest vernetztes Ziel an und erzeugt digitales Zielbild. |
+| Status lesen | info | frei | unbegrenzt | openWireless, sameNetwork, preparedAccess | Liest Betriebszustand oder Warnlagen aus. |
+| Sicherheitsfenster Ã¶ffnen | info | Aktion | 1Ã— pro Szene | deck, preparedAccess, onsiteLink | Schafft Hackfenster fÃ¼r Folgeaktionen. |
+| Sensoren blenden | stÃ¶rung | Aktion | 1Ã— pro Kampf | os, deck | StÃ¶rt Optik, Audio oder Tracking kurz. |
+| Waffe sperren | stÃ¶rung | Aktion | 1Ã— pro Szene | os, deck | Blockiert vernetzte oder smart-gekoppelte Waffe. |
+| Systemschock | Ã¼berlast | Aktion | 1Ã— pro Szene | os, deck | Ãœberlastet vernetzte Systeme oder Implantate. |
+| TÃ¼r freigeben | kontrolle | Aktion | unbegrenzt | deck, preparedAccess, onsiteLink | Ã–ffnet oder entsperrt digitales TÃ¼rsystem. |
+| Kamera auf freundlich | kontrolle | Aktion | 1Ã— pro Szene | deck, preparedAccess, onsiteLink | Ã„ndert Bewertung einer Kamera zugunsten der Gruppe. |
+| Autoturret auf freundlich | kontrolle | 2 Aktionen | 1Ã— pro Szene | deck, preparedAccess, onsiteLink | Schiebt IFF eines Autoturrets um. |
+| Fahrzeugsicherheit umgehen | kontrolle | 2 Aktionen | 1Ã— pro Szene | deck, preparedAccess, onsiteLink | Umgeht Wegfahrsperre oder Zugangssperre. |
+| Sicherheitsschloss freischalten | kontrolle | Aktion | unbegrenzt | preparedAccess, onsiteLink | Knackt digitales Schloss, besonders nach Freilegen. |
+| Drohne umflaggen | kontrolle | 2 Aktionen | 1Ã— pro Szene | deck, preparedAccess | Ã„ndert ZugehÃ¶rigkeit oder Kommandoflag einer Drohne. |
 
 ### 6.3 Netrunning
 
-Netrunning ist das Abtauchen in einen projizierten digitalen Parallelraum. Die Darstellung (Optik, Skin) darf frei gewählt werden; die strukturellen Rollen bleiben gleich und sollen später auch für Astralraum wiederverwendbar sein.
+Netrunning ist das Abtauchen in einen projizierten digitalen Parallelraum. Die Darstellung (Optik, Skin) darf frei gewÃ¤hlt werden; die strukturellen Rollen bleiben gleich und sollen spÃ¤ter auch fÃ¼r Astralraum wiederverwendbar sein.
 
 | Zugangstiefe | Leitidee |
 |-------------|---------|
-| Direkter Link | lokaler Zugriff auf PC, Terminal oder Einzelgerät; oft noch Quickhack / Elektronik |
-| Lokales Grid | kleines Netz als zusammenhängender Raum; typisch mit Deck |
+| Direkter Link | lokaler Zugriff auf PC, Terminal oder EinzelgerÃ¤t; oft noch Quickhack / Elektronik |
+| Lokales Grid | kleines Netz als zusammenhÃ¤ngender Raum; typisch mit Deck |
 | Tiefer Dive | Host, Matrixlandschaft oder tiefer Netzknoten; braucht mindestens Deck oder Mainframe-Zugang |
 
-Tragende Netzrollen: Einstiegsanker · Persona/Projektion · Verbindungen · Knoten · Datenspeicher · Kontrollknoten · ICE/Verteidigung · Sicherheitsdruck · Ausstieg.
+Tragende Netzrollen: Einstiegsanker Â· Persona/Projektion Â· Verbindungen Â· Knoten Â· Datenspeicher Â· Kontrollknoten Â· ICE/Verteidigung Â· Sicherheitsdruck Â· Ausstieg.
 
-Netrunning ist in dieser Fassung noch keine vollständige Spieler-Minispielmechanik, sondern Zukunftsarchitektur.
+Netrunning ist in dieser Fassung noch keine vollstÃ¤ndige Spieler-Minispielmechanik, sondern Zukunftsarchitektur.
 
 ### 6.4 Vehicles
 
-Vehicles erweitern den Kern für Druckfahrt, Verfolgung, Flucht und mobilen Kampf.
+Vehicles erweitern den Kern fÃ¼r Druckfahrt, Verfolgung, Flucht und mobilen Kampf.
 
 | Leselage | Leitidee |
 |----------|---------|
@@ -688,13 +680,13 @@ Vehicles erweitern den Kern für Druckfahrt, Verfolgung, Flucht und mobilen Kamp
 
 | Positionszustand | Lesart |
 |-----------------|--------|
-| Kontakt | Direkt am Ziel; Boarding, Rammen oder Anhalten möglich. |
+| Kontakt | Direkt am Ziel; Boarding, Rammen oder Anhalten mÃ¶glich. |
 | Nah | Kurzer Abstand; Schusswinkel und riskante Positionswechsel plausibel. |
 | Gleichauf | Weder klar gewonnen noch verloren. |
-| Vorsprung | Führende Seite hat Raum, Route oder Sichtvorteil. |
-| Abgesetzt | Verfolgung für den Moment entschieden. |
+| Vorsprung | FÃ¼hrende Seite hat Raum, Route oder Sichtvorteil. |
+| Abgesetzt | Verfolgung fÃ¼r den Moment entschieden. |
 
-Crewrollen: Fahrer/Pilot · Schütze · Navigator/Spotter · Hacker · Tech · Passagier.
+Crewrollen: Fahrer/Pilot Â· SchÃ¼tze Â· Navigator/Spotter Â· Hacker Â· Tech Â· Passagier.
 
 ---
 
@@ -703,12 +695,12 @@ Crewrollen: Fahrer/Pilot · Schütze · Navigator/Spotter · Hacker · Tech · P
 Der aktuelle Stand ist als Arbeitsregelwerk spielbar und lesbar. Folgende Punkte sind bewusst offen oder nur auf Vorabniveau beschrieben:
 
 - Finale Passungslogik verwandter Fertigkeiten; Endlock optionaler Standardfertigkeiten.
-- Voraussetzungen-Matrix für Fähigkeiten (Sammelfertigkeit/Standardfertigkeit/Spezialisierung).
-- Lernstufen je Fähigkeit außerhalb der Manöver-Familien (z. B. Stufen I–III als Pilotmodell).
+- Voraussetzungen-Matrix fÃ¼r FÃ¤higkeiten (Sammelfertigkeit/Standardfertigkeit/Spezialisierung).
+- Lernstufen je FÃ¤higkeit auÃŸerhalb der ManÃ¶ver-Familien (z. B. Stufen Iâ€“III als Pilotmodell).
 - Re-Einsatz-Eskalation (Risiko/Konsequenzen) per Praxistest feinjustieren.
-- Quickhack-Einsatzprofil nach weiterer Schärfung im Spieltest verproben.
-- Sprengstoffe und Spezialmunition im Spieltest prüfen (Granatentypen, Raketen; Balancing gegen Szenenkippereffekt).
-- Preisniveaus für Items gegen Spielgefühl prüfen.
-- Foundry-Handoff für Datenblöcke konkretisieren; Chassis-Workflow für Plattform-Actors finalisieren.
+- Quickhack-Einsatzprofil nach weiterer SchÃ¤rfung im Spieltest verproben.
+- Sprengstoffe und Spezialmunition im Spieltest prÃ¼fen (Granatentypen, Raketen; Balancing gegen Szenenkippereffekt).
+- Preisniveaus fÃ¼r Items gegen SpielgefÃ¼hl prÃ¼fen.
+- Foundry-Handoff fÃ¼r DatenblÃ¶cke konkretisieren; Chassis-Workflow fÃ¼r Plattform-Actors finalisieren.
 - Vehicles: Waffen, Chase-Feinschliff und Tuning.
-- Weitere Module: Bioware · Psi · Magie · Astralraum · Spezies/Herkunft.
+- Weitere Module: Bioware Â· Psi Â· Magie Â· Astralraum Â· Spezies/Herkunft.

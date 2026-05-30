@@ -1,18 +1,18 @@
-# URoP – Fertigkeiten
+﻿# URoP â€“ Fertigkeiten
 Stand: 2026-04-08
 
-## 1. Führende Datenquelle
-Für Fertigkeiten gilt ab jetzt:
-- `URoP_Fertigkeiten.json` = **führende Datenquelle** für Feldschema und Einträge
-- `URoP_Fertigkeiten.md` = erklärende Lesefassung, Regeltext und Designhinweise
+## 1. FÃ¼hrende Datenquelle
+FÃ¼r Fertigkeiten gilt ab jetzt:
+- `URoP_Fertigkeiten.json` = **fÃ¼hrende Datenquelle** fÃ¼r Feldschema und EintrÃ¤ge
+- `URoP_Fertigkeiten.md` = erklÃ¤rende Lesefassung, Regeltext und Designhinweise
 
-Die JSON-Datei ist die spätere Import- und Datenbankbasis. Diese MD-Datei erklärt Aufbau, Begriffe und aktive Strukturregeln.
+Die JSON-Datei ist die spÃ¤tere Import- und Datenbankbasis. Diese MD-Datei erklÃ¤rt Aufbau, Begriffe und aktive Strukturregeln.
 
 ---
 
 ## 2. Fertigkeitsebenen [GELOCKT / ARBEITSSTAND]
 URoP kennt bis zu vier Ebenen:
-- Attribut
+- Leitattribut
 - Sammelfertigkeit
 - Standardfertigkeit / Stammbereich
 - Spezialisierung
@@ -35,8 +35,8 @@ Definitionskriterien:
 - **Flufffertigkeit**: fuer langfristige, vorbereitende, alltagsnahe oder charakterprofilierende Wirkung mit geringer unmittelbarer Eskalationswirkung.
 
 3. **Regelanker**
-- beschreibt, an welche Attribute/Facetten eine Fertigkeit fuer Voraussetzungen und Regelpruefung andockt
-- mindestens ein Attributanker; Facettenanker optional gemaess Regelstand
+- beschreibt, an welche Leitattribute/Attribute eine Fertigkeit fuer Voraussetzungen und Regelpruefung andockt
+- mindestens ein Leitattributanker; Attributanker optional gemaess Regelstand
 
 4. **Konsequenzdomaene**
 - beschreibt, in welche Domaenen Nebenfolgen dieser Fertigkeit primaer abgewickelt werden
@@ -50,11 +50,11 @@ Eine Fertigkeit hat damit mindestens:
 - eine Konsequenzdomaene
 
 ### Grundprinzipien [GELOCKT]
-- Überhang wird nur gegen das **zugehörige Attribut** geprüft.
+- Ãœberhang wird nur gegen das **zugehÃ¶rige Leitattribut** geprÃ¼ft.
 - Standardfertigkeiten sind **optional**.
-- Spezialisierungen dürfen **direkt an eine Sammelfertigkeit** angeschlossen werden.
-- Nicht jede Spezialisierung braucht eine Standardfertigkeit darüber.
-- Mehrfachzuordnung ist erlaubt, wenn mehrere klare Kompetenzräume sinnvoll sind.
+- Spezialisierungen dÃ¼rfen **direkt an eine Sammelfertigkeit** angeschlossen werden.
+- Nicht jede Spezialisierung braucht eine Standardfertigkeit darÃ¼ber.
+- Mehrfachzuordnung ist erlaubt, wenn mehrere klare KompetenzrÃ¤ume sinnvoll sind.
 
 ---
 
@@ -62,14 +62,14 @@ Eine Fertigkeit hat damit mindestens:
 Die Fertigkeitsstruktur soll drei Dinge leisten:
 1. die **Art** einer Fertigkeit klar machen
 2. ihren **Platz im System** markieren
-3. ihren groben **Ordnungsbereich** für Sortierung und Filterung tragen
+3. ihren groben **Ordnungsbereich** fÃ¼r Sortierung und Filterung tragen
 
-Die Struktur soll ausdrücklich **nicht nur für Kampf** funktionieren, sondern auch für:
+Die Struktur soll ausdrÃ¼cklich **nicht nur fÃ¼r Kampf** funktionieren, sondern auch fÃ¼r:
 - Soziales
 - Technik
 - Medizin
 - Wissen
-- Überleben
+- Ãœberleben
 - Fahrzeuge
 - Heimlichkeit
 - Wahrnehmung
@@ -81,31 +81,31 @@ Pflichtfelder je Eintrag:
 - `id`
 - `name`
 - `type`
-- `application_class`
-- `attribute_anchor`
-- `rule_anchors`
-- `skill_domain`
-- `learn_cost_ep`
-- `prerequisites_text`
-- `parent_ids`
-- `rules_short`
+- `applicationClass`
+- `attributeAnchor`
+- `ruleAnchors`
+- `skillDomain`
+- `learnCostEp`
+- `prerequisitesText`
+- `parentIds`
+- `rulesShort`
 - `description`
 
 ### Bedeutungslogik
 - `type` = `broad`, `standard` oder `specialization`
-- `application_class` = `combat`, `action`, `fluff`
-- `attribute_anchor` = typischer Attributanker, kein harter Zwang
-- `rule_anchors` = bis zu drei optionale Attribut-/Facetten-Anker als Auswahlliste
-- `skill_domain` = Obergruppe für Sortierung und Filterung
-- `learn_cost_ep` = gefuehrter Lernkostenwert des konkreten Eintrags
-- `prerequisites_text` = Freitextfeld fuer Voraussetzungen; keine automatische Pruefung noetig
-- `parent_ids` = übergeordnete Knoten; mehrere Eltern sind erlaubt
+- `applicationClass` = `combat`, `action`, `fluff`
+- `attributeAnchor` = typischer Leitattributanker, kein harter Zwang
+- `ruleAnchors` = bis zu drei optionale Leitattribut-/Attribut-Anker als Auswahlliste
+- `skillDomain` = Obergruppe fÃ¼r Sortierung und Filterung
+- `learnCostEp` = gefuehrter Lernkostenwert des konkreten Eintrags
+- `prerequisitesText` = Freitextfeld fuer Voraussetzungen; keine automatische Pruefung noetig
+- `parentIds` = Ã¼bergeordnete Knoten; mehrere Eltern sind erlaubt
 
 Erweiterte Leselogik fuer die vier Einteilungen:
 - `type` = Fertigkeitsebene
-- `skill_domain` = Konsequenzdomaene (Ordnung/Abwicklung)
-- `application_class` = Anwendungsklasse
-- `rule_anchors` = Regelanker
+- `skillDomain` = Konsequenzdomaene (Ordnung/Abwicklung)
+- `applicationClass` = Anwendungsklasse
+- `ruleAnchors` = Regelanker
 
 ---
 
@@ -114,36 +114,36 @@ Erweiterte Leselogik fuer die vier Einteilungen:
 Ein Charakter darf direkt von einer Sammelfertigkeit auf eine Spezialisierung gehen.
 
 ### 5.2 Mehrfachzuordnung [GELOCKT]
-Eine Spezialisierung darf an mehreren Knoten hängen, wenn mehrere klare Kompetenzräume sinnvoll sind.
+Eine Spezialisierung darf an mehreren Knoten hÃ¤ngen, wenn mehrere klare KompetenzrÃ¤ume sinnvoll sind.
 
 Beispiele:
-- Messer → Waffenlos oder Klingenwaffen
-- Spurenlesen → Überleben oder Wahrnehmung
-- Maschinenpistole → Kurzwaffen oder Langwaffen
+- Messer â†’ Waffenlos oder Klingenwaffen
+- Spurenlesen â†’ Ãœberleben oder Wahrnehmung
+- Maschinenpistole â†’ Kurzwaffen oder Langwaffen
 
-### 5.3 Herauslösen [GELOCKT / TESTSTAND]
-Ein Teilbereich kann aus einer breiteren Fertigkeit oder aus einem Stammbereich als eigener Wert herausgelöst werden.
+### 5.3 HerauslÃ¶sen [GELOCKT / TESTSTAND]
+Ein Teilbereich kann aus einer breiteren Fertigkeit oder aus einem Stammbereich als eigener Wert herausgelÃ¶st werden.
 
-- Herauslösen kostet **10 Punkte**
+- HerauslÃ¶sen kostet **10 Punkte**
 - keine Gratissteigerung
-- nur getrennte Führung
-- neuer Bereich startet grundsätzlich auf dem vorhandenen Wert des übergeordneten Bereichs, sofern Logik und Hintergrund das tragen
+- nur getrennte FÃ¼hrung
+- neuer Bereich startet grundsÃ¤tzlich auf dem vorhandenen Wert des Ã¼bergeordneten Bereichs, sofern Logik und Hintergrund das tragen
 
 ### 5.4 Mitzieh-Regel [GELOCKT]
-Solange der herausgelöste Bereich keinen höheren eigenen Wert als der übergeordnete Bereich hat, kann er mitgezogen werden.
+Solange der herausgelÃ¶ste Bereich keinen hÃ¶heren eigenen Wert als der Ã¼bergeordnete Bereich hat, kann er mitgezogen werden.
 
 ---
 
-## 6. Verhältnis zum Probenkern
+## 6. VerhÃ¤ltnis zum Probenkern
 Fertigkeiten wirken nicht nur auf den **Standard**, sondern oft auch auf **Kontrolle** und **Fehlerbeherrschung**.
 
-Das ist besonders wichtig für:
+Das ist besonders wichtig fÃ¼r:
 - enge Spezialisierungen
-- Routine in gefährlichen Situationen
+- Routine in gefÃ¤hrlichen Situationen
 - Fachfertigkeiten mit hohem Fehlerrisiko
 - soziale oder technische Anwendungen, bei denen Fehler anders eskalieren als im Kampf
 
-Der unterstützende Wert wirkt daher nicht nur „atmosphärisch“, sondern kann die Beherrschbarkeit von Fehlern mittragen.
+Der unterstÃ¼tzende Wert wirkt daher nicht nur â€žatmosphÃ¤rischâ€œ, sondern kann die Beherrschbarkeit von Fehlern mittragen.
 
 ---
 
@@ -154,10 +154,10 @@ Der aktuelle JSON-Testbestand deckt bereits gemischt ab:
 - Technik
 - Medizin
 - Wissen
-- Überleben
+- Ãœberleben
 - Fahrzeuge
 
-Er enthält:
+Er enthÃ¤lt:
 - Sammelfertigkeiten
 - Kern-Standardfertigkeiten
 - gemischte Spezialisierungen aus Kampf- und Nichtkampffeldern
@@ -165,7 +165,7 @@ Er enthält:
 ---
 
 ## 8. Fertigkeitskosten [TESTSTAND]
-Kosten werden pro Fertigkeitseintrag direkt im Feld `learn_cost_ep` gefuehrt.
+Kosten werden pro Fertigkeitseintrag direkt im Feld `learnCostEp` gefuehrt.
 Die folgenden Regeln liefern den Standardwert fuer diesen Eintrag.
 
 ### 8.1 Basiskosten nach Fertigkeitsebene
@@ -190,11 +190,11 @@ Standardfertigkeit / Spezialisierung:
 - Aktionsfertigkeit: **+0 %** auf Basiskosten
 - Flufffertigkeit: **-60 %** auf Basiskosten
 
-Rundung erfolgt immer **zugunsten des Spielers** (abrunden).
+Rundung erfolgt kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet).
 
 ### 8.3 Regelanker und Hauptattribut-Fokus
 Wenn mindestens ein gesetzter Regelanker zum gewaehlten Hauptattribut passt
-oder eine Facette dieses Hauptattributs ist, greift der Fokusmodifikator.
+oder ein Attribut dieses Hauptattributs ist, greift der Fokusmodifikator.
 
 Der Fokusmodifikator greift **einmal pro Fertigkeit**, nicht pro Ankerfeld.
 
@@ -208,10 +208,10 @@ Es gibt keine starre Prioritaetsregel.
 Bei unklarer Zuordnung entscheidet die Spielleitung entlang der Definitionen
 und der erwartbaren Szenenwirkung.
 
-### 8.5 Überhang [TESTSTAND]
-- bis Attribut = normal
-- +1 über Attribut = +30
-- +2 über Attribut = +90
+### 8.5 Ãœberhang [TESTSTAND]
+- bis Leitattribut = normal
+- +1 Ã¼ber Leitattribut = +30
+- +2 Ã¼ber Leitattribut = +90
 - mehr als +2 = Ausnahmebereich
 
 ---
@@ -220,4 +220,4 @@ und der erwartbaren Szenenwirkung.
 - Endlock einzelner optionaler Standardfertigkeiten
 - finale Passungslogik verwandter Fertigkeiten
 - Ausbau des Referenzbestands
-- spätere JSON-Anbindung an Manöver, Vorteile und Foundry-Import
+- spÃ¤tere JSON-Anbindung an ManÃ¶ver, Vorteile und Foundry-Import

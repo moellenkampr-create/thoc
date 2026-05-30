@@ -35,7 +35,7 @@ Ausrichtung wirkt aktuell auf die **Grundkosten** von Fertigkeiten, nicht auf Ü
 #### Ausgewogen
 - keine Modifikation
 
-Rundung zugunsten des Spielers.
+Rundung kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet).
 
 ---
 
@@ -92,12 +92,12 @@ Aktuelle Richtung:
 
 ---
 
-## 7. Attributkosten [TESTSTAND]
-Ausgehend von Basis 2:
-- 3 = 40
-- 4 = 90
-- 5 = 160
-- 6 = 260
+## 7. Attributwerte und Kosten [TESTSTAND]
+- Leitattributkosten entfallen.
+- Leitattribute werden als Mittelwert aus den vier zugeordneten Attributen abgeleitet.
+- Bei Erschaffung kann kein Attributwert mit 0 oder kleiner gewaehlt werden.
+- Attributkosten folgen der aktiven Kostentabelle.
+- Rundung bei abgeleiteten/modifizierten Werten erfolgt kaufmaennisch mit Vorzeichen-Erhalt.
 
 ---
 

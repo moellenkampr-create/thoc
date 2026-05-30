@@ -85,3 +85,14 @@ Der FoundryURoP‑Chat:
 
 ## 10. Versionierung
 Änderungen erfolgen nach technischer Prüfung.
+
+---
+
+## 11. Verbindliche Testvorgaben (FoundryURoP)
+
+Diese Vorgaben sind bei jeder Arbeit am Foundry-Ruleset anzuwenden.
+
+- Bei regelrelevanten oder strukturellen Aenderungen (scripts, template, sheet-Logik, EP/Fokus/Initiative/Widerstand) immer passende automatisierte Tests miterstellen.
+- Tests immer vor jedem Commit ausfuehren; erst bei gruener Testausfuehrung committen.
+- Testlauf im Arbeitsprotokoll kurz festhalten (Befehl + Ergebnis).
+- Wenn lokal keine Testlaufzeit verfuegbar ist (z. B. Node.js fehlt), als Blocker dokumentieren und vor Commit in einer geeigneten Umgebung nachholen.

@@ -3,19 +3,40 @@
 ## [Unreleased]
 
 ### Added
-- n/a
+- Neue Unit-Tests fuer Kernberechnungen (Rundung, Leitattribut-Ableitung, Fokusmodifikator, EP-Berechnung, Initiativbasis).
+- Reine Berechnungshelfer in `scripts/urop-calculations.mjs` zur testbaren Trennung von Foundry-UI/Shell.
 
 ### Changed
-- n/a
+- Datenmodell der Charaktere auf die neue Struktur umgestellt: 12 Feinattribute werden direkt gespeichert, Leitattribute werden daraus abgeleitet.
+- Charakterblatt bindet jetzt an `system.attributes.*` und zeigt abgeleitete Leitattribute, Widerstand und Initiative an.
+- Update-Workflow im README um verbindliche Testschritte vor Commit erweitert.
 
 ### Fixed
-- n/a
+- Kaufmännische Rundung fuer abgeleitete Werte und Fokusmodifikatoren vereinheitlicht.
 
 ### Migration Required
-- no
+- yes (neue Charakterdatenstruktur; bestehende Charaktere werden nicht automatisch migriert)
 
 ### Migration Notes
-- n/a
+- Neue Charaktere nutzen direkt die 12 Attributwerte unter `system.attributes`. Alte Charaktere koennen entfernt oder manuell neu aufgebaut werden.
+
+---
+
+## [0.1.16] - 2026-05-30
+
+### Changed
+- Charakterschema auf die neue Leitattribut-/Attributstruktur umgestellt.
+- Fokusauswahl verwendet jetzt Leitattribute; Initiative wird aus dem gewaehlten Leitattribut abgeleitet.
+- Charakterblatt zeigt abgeleitete Leitattribute, Widerstand und Initiative im Temp-Reiter an.
+
+### Fixed
+- EP-Berechnung und Fokusmodifikatoren nutzen jetzt die neue Attributstruktur mit kaufmaennischer Rundung.
+
+### Migration Required
+- yes (neues Charakterdatenmodell; bestehende Charaktere werden nicht automatisch konvertiert)
+
+### Migration Notes
+- Alte Charaktere sind fuer diesen Stand nicht kompatibel und koennen wie besprochen entfernt werden.
 
 ---
 
@@ -147,7 +168,7 @@
 ## [0.1.8] - 2026-05-27
 
 ### Changed
-- EP-Gesamtrechnung fuer Skill-Items nutzt jetzt `learn_cost_ep` aus dem Charakter-Skill und wendet Fokusmodifikator ueber passende Regelanker an
+- EP-Gesamtrechnung fuer Skill-Items nutzt jetzt `learnCostEp` aus dem Charakter-Skill und wendet Fokusmodifikator ueber passende Regelanker an
 - Skills-Liste auf dem Charakter zeigt Name, drei Regelanker und Stufe statt EP-Wert
 - Skill-Sortierung verbessert: Anwendungsklasse -> Fertigkeitsebene -> Name
 - Skill-Maske: drei Regelanker als Auswahllisten (Regelanker 1 Pflicht, Regelanker 2/3 optional mit `-`)

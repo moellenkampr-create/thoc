@@ -1,4 +1,4 @@
-# URoP – Vor- und Nachteile
+﻿# URoP â€“ Vor- und Nachteile
 Stand: 2026-04-17
 
 ## 1. Grundsatz [GELOCKT]
@@ -27,7 +27,7 @@ Vor- und Nachteile sollen:
 - `name`
 - `kind`
 - `tier`
-- `rules_short`
+- `rulesShort`
 - `description`
 - `requirements`
 - `incompatibilities`
@@ -53,7 +53,7 @@ Grobe Gewichtung:
 Bei Vorteilen ist das die grobe **Kostenklasse**.
 Bei Nachteilen ist das die grobe **Rueckgabeklasse**.
 
-### `rules_short`
+### `rulesShort`
 Kurzregel in 1-2 Saetzen fuer schnellen Tischzugriff.
 
 ### `description`
@@ -69,15 +69,15 @@ Wenn nichts gesperrt ist, bleibt das Feld leer.
 
 ## 6. Bewusst gestrichen [GELOCKT]
 Nicht mehr Teil der aktiven Struktur:
-- `effect_type`
+- `effectType`
 - `stacking`
 - `tags`
-- `mechanical_hooks`
+- `mechanicalHooks`
 - `levels`
-- `setting_scope`
-- `typical_uses`
+- `settingScope`
+- `typicalUses`
 - `limitations`
-- `gm_notes`
+- `gmNotes`
 
 Wenn spaeter wieder mehr Ordnung noetig wird, soll das gezielt und nur bei echtem Nutzen zurueckkommen.
 
@@ -89,18 +89,18 @@ Aktuell bleibt die grobe Leselogik:
 Konkrete Kosten und Rueckgaben werden weiter im Charakterbau gelesen, nicht ueber Zusatzfelder am Eintrag selbst.
 
 ## 8. Referenzbestand [ARBEITSSTAND]
-Stand: 2026-04-17 — 47 Eintraege. Fuehrend ist die JSON-Datei.
+Stand: 2026-04-17 â€” 47 Eintraege. Fuehrend ist die JSON-Datei.
 
 ---
 
-### Allgemein — Vorteile
+### Allgemein â€” Vorteile
 
 **Wachsame Sinne** *(moderate)*
 Fruehere Hinweise, schwache Reize und kleine Auffaelligkeiten kippen bei dir seltener unbemerkt durch.
 
 **Richtungssinn** *(minor)*
 Du behaeltst Wege, Richtungen und Orientierungspunkte ungewoehnlich stabil im Kopf.
-→ Inkompatibel mit: Schlechte Orientierung
+â†’ Inkompatibel mit: Schlechte Orientierung
 
 **Zaeh** *(moderate)*
 Belastung, Erschoepfung und allgemeiner Druck werfen dich spaeter aus der Bahn als andere.
@@ -119,15 +119,15 @@ Du hast belastbare Kontakte in einer relevanten Szene oder einem Milieu.
 
 **Kampfschule** *(moderate)*
 Du hast formale oder halbformale Ausbildung in einem klaren Kampfstil erhalten.
-Markiert Stil, Zugang und Trainingshintergrund — ist selbst keine Fertigkeit.
+Markiert Stil, Zugang und Trainingshintergrund â€” ist selbst keine Fertigkeit.
 
 ---
 
-### Allgemein — Nachteile
+### Allgemein â€” Nachteile
 
 **Schlechte Orientierung** *(minor)*
 Routen, Richtungen und Raumanordnung kippen bei dir leichter durcheinander.
-→ Inkompatibel mit: Richtungssinn
+â†’ Inkompatibel mit: Richtungssinn
 
 **Fragil** *(moderate)*
 Koerperliche Belastungen und Treffer kippen bei dir schneller in echte Folgen.
@@ -153,157 +153,157 @@ In passenden Milieus hast du einen spuerbaren Vertrauens- und Ansehensnachteil.
 
 ---
 
-### Koerper — Vorteile
+### Koerper â€” Vorteile
 
-**Kraftvoll** *(moderate)* · Facette: Staerke
+**Kraftvoll** *(moderate)* Â· Attribut: Staerke
 Tragen, Druecken, Ringen und rohe koerperliche Gewalt liegen dir ueberdurchschnittlich gut.
-→ Inkompatibel mit: Schwaechlich
+â†’ Inkompatibel mit: Schwaechlich
 
-**Geschickt** *(moderate)* · Facette: Grobmotorik
+**Geschickt** *(moderate)* Â· Attribut: Grobmotorik
 Balance, Ausweichen, Klettern und schnelle saubere Bewegungen gelingen dir leichter.
-→ Inkompatibel mit: Ungelenk
+â†’ Inkompatibel mit: Ungelenk
 
-**Cyberware-Affinitaet** *(moderate)* · Facette: Konstitution
+**Cyberware-Affinitaet** *(moderate)* Â· Attribut: Konstitution
 Dein Organismus nimmt Implantate ungewoehnlich gut an; Abstossungsreaktionen, Heilungszeiten und biologische Reibung fallen geringer aus.
-→ Inkompatibel mit: Cyberware-Empfindlich
+â†’ Inkompatibel mit: Cyberware-Empfindlich
 
-**Schmerzresistent** *(moderate)* · Facette: Konstitution
+**Schmerzresistent** *(moderate)* Â· Attribut: Konstitution
 Schmerz bringt dich spaeter aus dem Arbeitsmodus; du haeltst unter Verwundung und Belastung laenger funktional.
-Kein Schutz vor Verletzungen selbst — die Konsequenzen fuer Handlungsfaehigkeit treten spaeter ein.
-→ Inkompatibel mit: Schmerzempfindlich
+Kein Schutz vor Verletzungen selbst â€” die Konsequenzen fuer Handlungsfaehigkeit treten spaeter ein.
+â†’ Inkompatibel mit: Schmerzempfindlich
 
-**Schnell** *(minor)* · Facette: Grobmotorik
+**Schnell** *(minor)* Â· Attribut: Grobmotorik
 Du bewegst dich schneller als der Durchschnitt; Distanzen schliessen sich, Verfolgungen kippen eher zu deinen Gunsten.
-→ Inkompatibel mit: Traege
+â†’ Inkompatibel mit: Traege
 
-**Beidhaendig** *(minor)* · Facette: Feinmotorik
+**Beidhaendig** *(minor)* Â· Attribut: Feinmotorik
 Du arbeitest mit beiden Haenden gleichmaessig sicher; einseitige Einschraenkungen und Behinderungen treffen dich weniger.
 
 ---
 
-### Koerper — Nachteile
+### Koerper â€” Nachteile
 
-**Schwaechlich** *(moderate)* · Facette: Staerke
+**Schwaechlich** *(moderate)* Â· Attribut: Staerke
 Last, Griffkraft und rohe koerperliche Durchsetzung kippen bei dir schneller an ihre Grenzen.
-→ Inkompatibel mit: Kraftvoll
+â†’ Inkompatibel mit: Kraftvoll
 
-**Ungelenk** *(moderate)* · Facette: Grobmotorik
+**Ungelenk** *(moderate)* Â· Attribut: Grobmotorik
 Feine Balance, schnelle Richtungswechsel und saubere Bewegungsablaeufe geraten dir leichter unsauber.
-→ Inkompatibel mit: Geschickt
+â†’ Inkompatibel mit: Geschickt
 
-**Cyberware-Empfindlich** *(moderate)* · Facette: Konstitution
+**Cyberware-Empfindlich** *(moderate)* Â· Attribut: Konstitution
 Dein Koerper reagiert auf Implantate haerter; Integrationsprobleme, Nebenwirkungen und Heilungsverlaeufe fallen unguenstiger aus.
-→ Inkompatibel mit: Cyberware-Affinitaet
+â†’ Inkompatibel mit: Cyberware-Affinitaet
 
-**Schmerzempfindlich** *(minor)* · Facette: Konstitution
+**Schmerzempfindlich** *(minor)* Â· Attribut: Konstitution
 Schmerz trifft dich haerter und setzt Handlungsfaehigkeit, Fokus oder Linie schneller ausser Kraft.
-→ Inkompatibel mit: Schmerzresistent
+â†’ Inkompatibel mit: Schmerzresistent
 
-**Traege** *(minor)* · Facette: Grobmotorik
+**Traege** *(minor)* Â· Attribut: Grobmotorik
 Du bewegst dich langsamer als andere; Distanzen oeffnen sich gegen dich, Flucht und Angriff kosten mehr Zeit.
-→ Inkompatibel mit: Schnell
+â†’ Inkompatibel mit: Schnell
 
-**Narbengewebe** *(minor)* · Facette: Konstitution
+**Narbengewebe** *(minor)* Â· Attribut: Konstitution
 Alte Verletzungen hinterlassen funktionale Einschraenkungen, die unter Last oder Belastung spaeter sichtbar werden.
-Keine optische Einschraenkung im Vordergrund — konkret benannte mechanische oder neurologische Restschaeden.
+Keine optische Einschraenkung im Vordergrund â€” konkret benannte mechanische oder neurologische Restschaeden.
 
 ---
 
-### Geist — Vorteile
+### Geist â€” Vorteile
 
-**Analytisch** *(moderate)* · Facette: Analytik
+**Analytisch** *(moderate)* Â· Attribut: Analytik
 Muster, Fehlerquellen, Zusammenhaenge und technische Logik springen dir schneller ins Auge.
-→ Inkompatibel mit: Zerstreut
+â†’ Inkompatibel mit: Zerstreut
 
-**Willensstark** *(moderate)* · Facette: Willenskraft
+**Willensstark** *(moderate)* Â· Attribut: Willenskraft
 Mentale Belastung, Ablenkung, Druck und Einschuechterung brechen deinen Fokus seltener.
-→ Inkompatibel mit: Sprunghaft
+â†’ Inkompatibel mit: Sprunghaft
 
-**Scharf im Stress** *(moderate)* · Facette: Willenskraft
+**Scharf im Stress** *(moderate)* Â· Attribut: Willenskraft
 Unter Druck, Zeitnot und Gefahr wirst du klarer statt hektischer; Panik oder Reaktionsverlust treffen dich seltener.
-Kein Wuerfelbonus — Konsequenzen von Schock, Ueberrumpelung und Panik-Eskalation fallen milder aus.
-→ Inkompatibel mit: Trauma-Trigger
+Kein Wuerfelbonus â€” Konsequenzen von Schock, Ueberrumpelung und Panik-Eskalation fallen milder aus.
+â†’ Inkompatibel mit: Trauma-Trigger
 
-**Fotografisches Gedaechtnis** *(moderate)* · Facette: Intuition
+**Fotografisches Gedaechtnis** *(moderate)* Â· Attribut: Intuition
 Gesehene Details, Texte, Plaene und Szenen stehen dir spaeter ungewoehnlich praezise zur Verfuegung.
-Kein Denkbonus — seltener Informationsverlust durch Zeit oder Stress.
+Kein Denkbonus â€” seltener Informationsverlust durch Zeit oder Stress.
 
-**Gefahreninstinkt** *(moderate)* · Facette: Intuition
+**Gefahreninstinkt** *(moderate)* Â· Attribut: Intuition
 Du bekommst frueher ein warnendes Gefuehl, wenn etwas nicht stimmt, auch ohne klare bewusste Grundlage.
 Hinterhalte, Fallen und unerwartete Aggression kippen seltener voellig unvermittelt.
 
-**Psi-Sensitiv** *(major)* · Facette: Intuition — Gate-Vorteil
+**Psi-Sensitiv** *(major)* Â· Attribut: Intuition â€” Gate-Vorteil
 Schaltet den Zugang zu Psi-Fertigkeiten frei. Ohne diesen Vorteil sind Psi-Fertigkeiten nicht zugaenglich.
 Das Ausmass der Faehigkeiten haengt von Fertigkeitspunkten ab, nicht vom Vorteil selbst.
-→ Inkompatibel mit: Leer innen
+â†’ Inkompatibel mit: Leer innen
 
 ---
 
-### Geist — Nachteile
+### Geist â€” Nachteile
 
-**Zerstreut** *(moderate)* · Facette: Analytik
+**Zerstreut** *(moderate)* Â· Attribut: Analytik
 Details, Reihenfolgen und logische Anschlussstellen rutschen dir leichter durch.
-→ Inkompatibel mit: Analytisch
+â†’ Inkompatibel mit: Analytisch
 
-**Sprunghaft** *(moderate)* · Facette: Willenskraft
+**Sprunghaft** *(moderate)* Â· Attribut: Willenskraft
 Du wechselst leichter den mentalen Fokus, laesst dich eher ziehen und haeltst Linien schlechter durch.
-→ Inkompatibel mit: Willensstark
+â†’ Inkompatibel mit: Willensstark
 
-**Trauma-Trigger** *(moderate)* · Facette: Willenskraft
+**Trauma-Trigger** *(moderate)* Â· Attribut: Willenskraft
 Bestimmte Reize, Situationen oder Ausloeser kippen dich in Reaktionen, die du nicht vollstaendig kontrollierst.
 Trigger bei Charaktererstellung konkret benennen.
-→ Inkompatibel mit: Scharf im Stress
+â†’ Inkompatibel mit: Scharf im Stress
 
-**Abhaengig** *(moderate)* · Facette: Willenskraft
+**Abhaengig** *(moderate)* Â· Attribut: Willenskraft
 Du bist von einer Substanz, einem Verhalten oder einem System abhaengig, das regelmaessig Ressourcen, Kontrolle oder Zuverlaessigkeit kostet.
 Substanz oder Verhalten bei Charaktererstellung konkret benennen.
 
 ---
 
-### Praesenz — Vorteile
+### Praesenz â€” Vorteile
 
-**Charismatisch** *(moderate)* · Facette: Ausdruck
+**Charismatisch** *(moderate)* Â· Attribut: Ausdruck
 Deine Praesenz bleibt haengen; du gewinnst leichter Aufmerksamkeit, Vertrauen oder Folgebewegung.
-→ Inkompatibel mit: Farblos
+â†’ Inkompatibel mit: Farblos
 
-**Feinfuehlig** *(moderate)* · Facette: Empathie
+**Feinfuehlig** *(moderate)* Â· Attribut: Empathie
 Stimmungen, Unsicherheiten und kleine soziale Brueche liest du schneller und sicherer.
-→ Inkompatibel mit: Taktlos
+â†’ Inkompatibel mit: Taktlos
 
-**Aura des Vertrauens** *(moderate)* · Facette: Ausdruck
+**Aura des Vertrauens** *(moderate)* Â· Attribut: Ausdruck
 Menschen geben dir gegenueber fremden Personen schneller den Benefit of the Doubt; Vertrauensaufbau und Tueroeffnen laufen smoother.
-Kein Glamour-Effekt — subtile soziale Signalgebung, kein Bonus auf Luegen.
-→ Inkompatibel mit: Stigmatisiert
+Kein Glamour-Effekt â€” subtile soziale Signalgebung, kein Bonus auf Luegen.
+â†’ Inkompatibel mit: Stigmatisiert
 
-**Magisch Veranlagt** *(major)* · Facette: Resonanz — Gate-Vorteil
+**Magisch Veranlagt** *(major)* Â· Attribut: Resonanz â€” Gate-Vorteil
 Schaltet den Zugang zu magischen Fertigkeiten frei. Ohne diesen Vorteil sind magische Fertigkeiten nicht zugaenglich.
 Das Ausmass der Faehigkeiten haengt von Fertigkeitspunkten ab, nicht vom Vorteil selbst.
-Hohe Cyberware-Last reduziert die Resonanz-Facette und damit die Wirkstaerke — keine separate Mechanik noetig.
-→ Inkompatibel mit: Leer innen
+Hohe Cyberware-Last reduziert das Resonanz-Attribut und damit die Wirkstaerke â€” keine separate Mechanik noetig.
+â†’ Inkompatibel mit: Leer innen
 
 ---
 
-### Praesenz — Nachteile
+### Praesenz â€” Nachteile
 
-**Farblos** *(minor)* · Facette: Ausdruck
+**Farblos** *(minor)* Â· Attribut: Ausdruck
 Du bleibst sozial leichter blass, wirst spaeter erinnert und erzeugst weniger Sog in einer Szene.
-→ Inkompatibel mit: Charismatisch
+â†’ Inkompatibel mit: Charismatisch
 
-**Taktlos** *(moderate)* · Facette: Empathie
+**Taktlos** *(moderate)* Â· Attribut: Empathie
 Du vergreifst dich leichter im Ton, liest Grenzen spaeter und kippst soziale Lagen schneller an.
-→ Inkompatibel mit: Feinfuehlig
+â†’ Inkompatibel mit: Feinfuehlig
 
-**Stigmatisiert** *(moderate)* · Facette: Resonanz
+**Stigmatisiert** *(moderate)* Â· Attribut: Resonanz
 Ein sichtbares Merkmal, ein Ruf oder eine Zugehoerigkeit loest bei einem relevanten Teil der Gesellschaft Ablehnung oder Feindseligkeit aus.
 Konkret benennen: Herkunft, Aussehen, Zugehoerigkeit oder Geschichte.
-→ Inkompatibel mit: Aura des Vertrauens
+â†’ Inkompatibel mit: Aura des Vertrauens
 
-**Leer innen** *(major)* · Facette: Resonanz
+**Leer innen** *(major)* Â· Attribut: Resonanz
 Zu viel Chrome, zu wenig Mensch: Empathie, emotionale Tiefe und soziale Praesenz sind dauerhaft und spuerbar reduziert.
-Kein einmaliger Schock — dauerhafter Wesensanteil, der fehlt. Abgebildet ueber Resonanz-Facette und soziale Konsequenzen.
-→ Inkompatibel mit: Psi-Sensitiv, Magisch Veranlagt
+Kein einmaliger Schock â€” dauerhafter Wesensanteil, der fehlt. Abgebildet ueber Resonanz-Attribut und soziale Konsequenzen.
+â†’ Inkompatibel mit: Psi-Sensitiv, Magisch Veranlagt
 
-**Ehrenkodex** *(minor)* · Facette: Dominanz
+**Ehrenkodex** *(minor)* Â· Attribut: Dominanz
 Du haeltst dich an einen selbst gesetzten Verhaltenskodex und wirst dadurch in bestimmten Lagen vorhersehbarer oder eingeschraenkter.
 Kodex bei Charaktererstellung konkret benennen. Kann als Hebel durch Antagonisten genutzt werden.
 
@@ -311,5 +311,5 @@ Kodex bei Charaktererstellung konkret benennen. Kann als Hebel durch Antagoniste
 
 ## 9. Noch offen
 - Kosten und Rueckgaben weiter gegen Spielgefuehl pruefen
-- Facetten-Logik (Resonanz als Soft-Inkompatibilitaet fuer Chrome/Magie) im Playtest validieren
+- Attribut-Logik (Resonanz als Soft-Inkompatibilitaet fuer Chrome/Magie) im Playtest validieren
 - Psi-Fertigkeitenliste noch offen
