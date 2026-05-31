@@ -18,9 +18,9 @@
     <div class="tab" data-group="primary" data-tab="details">
       <div class="grid two-col">
         <div class="card">
-          <label>Wirkungsbasis</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.DamageBaseline'}}">Wirkungsbasis</label>
           <input type="number" name="system.damageBaseline" value="{{item.system.damageBaseline}}"/>
-          <label>Gebaut für Größenstufe</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.DesignedForSizeClass'}}">Gebaut für Größenstufe</label>
           <select name="system.designedForSizeClass">
             <option value="G0" {{#if (uropEq item.system.designedForSizeClass "G0")}}selected{{/if}}>G0</option>
             <option value="G1" {{#if (uropEq item.system.designedForSizeClass "G1")}}selected{{/if}}>G1</option>
@@ -33,7 +33,7 @@
             <option value="G8" {{#if (uropEq item.system.designedForSizeClass "G8")}}selected{{/if}}>G8</option>
             <option value="G9" {{#if (uropEq item.system.designedForSizeClass "G9")}}selected{{/if}}>G9</option>
           </select>
-          <label>Wirksam gegen Größenstufe</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.EffectiveAgainstClass'}}">Wirksam gegen Größenstufe</label>
           <select name="system.effectiveAgainstClass">
             <option value="G0" {{#if (uropEq item.system.effectiveAgainstClass "G0")}}selected{{/if}}>G0</option>
             <option value="G1" {{#if (uropEq item.system.effectiveAgainstClass "G1")}}selected{{/if}}>G1</option>
@@ -49,15 +49,15 @@
           </select>
         </div>
         <div class="card">
-          <label>Reichweite Nah (m)</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RangeNear'}}">Reichweite Nah (m)</label>
           <input type="number" name="system.rangeBands.nah" value="{{item.system.rangeBands.nah}}" step="1"/>
-          <label>Reichweite Mittel (m)</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RangeMid'}}">Reichweite Mittel (m)</label>
           <input type="number" name="system.rangeBands.mittel" value="{{item.system.rangeBands.mittel}}" step="1"/>
-          <label>Reichweite Weit (m)</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RangeFar'}}">Reichweite Weit (m)</label>
           <input type="number" name="system.rangeBands.weit" value="{{item.system.rangeBands.weit}}" step="1"/>
-          <label>Reichweite Extrem (m)</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RangeExtreme'}}">Reichweite Extrem (m)</label>
           <input type="number" name="system.rangeBands.extrem" value="{{item.system.rangeBands.extrem}}" step="1"/>
-          <label>Qualität</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Quality'}}">Qualität</label>
           <input type="text" name="system.quality" value="{{item.system.quality}}"/>
         </div>
       </div>
@@ -65,16 +65,16 @@
 
     <div class="tab" data-group="primary" data-tab="effects">
       <div class="card">
-        <label>Kurztext</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
-        <label>Beschreibung</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
-        <label>{{localize "URoP.Field.InternalNote"}}</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
         <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
       </div>
     </div>

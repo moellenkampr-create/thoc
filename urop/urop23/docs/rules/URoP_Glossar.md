@@ -77,3 +77,38 @@ Abgeleitete Kampf-/Probenwerte:
 Balance-Hinweis:
 - Attributwerte ueber 6 bleiben als Ausnahme durch Vorteile, Zauber, Kraefte, Cyberware oder Ausruestung erlaubt.
 - Ein harter Deckel ist aktuell bewusst nicht gesetzt und wird ueber Spieltest beobachtet.
+
+---
+
+## 6. Item-/Manoever-Feldbegriffe (Sheet + Datenkern)
+
+### 6.1 Gemeinsame Kernbegriffe
+- Tier: Einordnung der Staerke-/Komplexitaetsstufe (z. B. T0 bis T3).
+- Lernkosten EP (`learnCostEp`): Erwerbskosten in Entwicklungspunkten fuer den Eintrag oder Rank.
+- Aktionskosten (`actionCost`): Einsatzaufwand im Konflikt; aktiv: `free`, `small_action`, `action`, `two_actions`, `three_actions`, `four_actions`.
+- Einsatzfenster (`usageWindow`): Nutzungsfenster je Konflikt/Szene oder vorbereitete Anwendung; aktiv: `unlimited`, `once_per_conflict`, `once_per_scene`, `prepared`.
+- Wiederholungs-Eskalation (`reuseEscalation` / `reuseEscalationProfile`): Konsequenzprofil bei Re-Einsatz in derselben Szene.
+- Kurztext (`rulesShort`): Kurze Regelfassung fuer schnellen Zugriff.
+- Beschreibung (`description`): Volltext mit Wirkung, Risiko und Einsatzkontext.
+- Interne Notiz (`notes`): Interner Arbeits-/SL-Kommentar, nicht als Regeltext fuer Spieler gedacht.
+
+### 6.2 Fertigkeitsspezifische Begriffe
+- Stufe (`level`): Aktueller Auspraegungsgrad der Fertigkeit.
+- Fertigkeitsebene (`type`): Sammelfertigkeit, Standardfertigkeit oder Spezialisierung.
+- Anwendungsklasse (`applicationClass`): Kampf, Aktion oder Fluff.
+- Regelanker 1-3 (`ruleAnchors`): Attribut-/Leitattribut-Anbindung fuer die Regelauflosung.
+- Voraussetzungen (`prerequisitesText`): Lesbare Vorbedingungen im Freitext.
+
+### 6.3 Waffen- und Ruestungsbegriffe
+- Wirkungsbasis (`damageBaseline`): Basiswert fuer Waffenwirkung.
+- Gebaut fuer Groessenstufe (`designedForSizeClass`): Konstruktion der Waffe je Nutzer-/Systemgroesse.
+- Wirksam gegen Groessenstufe (`effectiveAgainstClass`): Zielgroesse, gegen die die Waffe optimal arbeitet.
+- Reichweite Nah/Mittel/Weit/Extrem (`rangeBands`): Distanzbaender in Metern.
+- Schutzwert (`protectionValue`): Reduktions-/Schutzwirkung von Ruestung.
+- Nominale Nutzergroesse (`userSizeNominal`): Groessenklasse, fuer die die Ruestung ausgelegt ist.
+- Qualitaet (`quality`): Verarbeitungs- und Zustandsqualitaet.
+
+### 6.4 Namenskonsistenz
+- Gleich benannte Felder mit gleicher Bedeutung bleiben bewusst gleich benannt.
+- Aktueller Stand: `Qualitaet` ist in mehreren Item-Typen semantisch gleich und bleibt daher einheitlich.
+- Fuer den aktuellen Feldkern sind keine aktiven Doppelbezeichnungen mit unterschiedlicher Bedeutung vorgesehen.

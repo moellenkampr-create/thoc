@@ -17,25 +17,25 @@
 
     <div class="tab" data-group="primary" data-tab="details">
       <div class="card">
-        <label>Tier</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Tier'}}">Tier</label>
         <input type="text" name="system.tier" value="{{item.system.tier}}"/>
-        <label>Preis</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Price'}}">Preis</label>
         <input type="number" name="system.price" value="{{item.system.price}}"/>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="effects">
       <div class="card">
-        <label>Kurztext</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
-        <label>Beschreibung</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
-        <label>{{localize "URoP.Field.InternalNote"}}</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
         <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
       </div>
     </div>

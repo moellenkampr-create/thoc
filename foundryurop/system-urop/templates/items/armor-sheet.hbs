@@ -17,9 +17,9 @@
 
     <div class="tab" data-group="primary" data-tab="details">
       <div class="card">
-        <label>Schutzwert</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ProtectionValue'}}">Schutzwert</label>
         <input type="number" name="system.protectionValue" value="{{item.system.protectionValue}}"/>
-        <label>Nominale Nutzergröße</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.UserSizeNominal'}}">Nominale Nutzergröße</label>
         <select name="system.userSizeNominal">
           <option value="G0" {{#if (uropEq item.system.userSizeNominal "G0")}}selected{{/if}}>G0</option>
           <option value="G1" {{#if (uropEq item.system.userSizeNominal "G1")}}selected{{/if}}>G1</option>
@@ -32,23 +32,23 @@
           <option value="G8" {{#if (uropEq item.system.userSizeNominal "G8")}}selected{{/if}}>G8</option>
           <option value="G9" {{#if (uropEq item.system.userSizeNominal "G9")}}selected{{/if}}>G9</option>
         </select>
-        <label>Qualität</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Quality'}}">Qualität</label>
         <input type="text" name="system.quality" value="{{item.system.quality}}"/>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="effects">
       <div class="card">
-        <label>Kurztext</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
-        <label>Beschreibung</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
-        <label>{{localize "URoP.Field.InternalNote"}}</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
         <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
       </div>
     </div>

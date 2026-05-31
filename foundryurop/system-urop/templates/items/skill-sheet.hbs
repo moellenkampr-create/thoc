@@ -18,30 +18,30 @@
     <div class="tab" data-group="primary" data-tab="details">
       <div class="grid two-col">
         <div class="card">
-          <label>Stufe</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SkillLevel'}}">Stufe</label>
           <div class="facet-stepper skill-level-stepper">
             <button type="button" class="stepper-btn" data-action="skill-level-decrement">−</button>
             <input type="number" class="facet-value skill-level-input" name="system.level" value="{{item.system.level}}" readonly/>
             <button type="button" class="stepper-btn" data-action="skill-level-increment">+</button>
             <button type="button" class="lock-btn skill-level-lock" data-action="toggle-skill-level-lock" title="Stufe sperren/entsperren">🔒</button>
           </div>
-          <label>Fertigkeitsebene</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SkillType'}}">Fertigkeitsebene</label>
           <select name="system.type">
             <option value="broad" {{#if (uropEq item.system.type "broad")}}selected{{/if}}>Sammelfertigkeit</option>
             <option value="standard" {{#if (uropEq item.system.type "standard")}}selected{{/if}}>Standardfertigkeit</option>
             <option value="specialization" {{#if (uropEq item.system.type "specialization")}}selected{{/if}}>Spezialisierung</option>
           </select>
-          <label>Anwendungsklasse</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ApplicationClass'}}">Anwendungsklasse</label>
           <select name="system.applicationClass">
             <option value="combat" {{#if (uropEq item.system.applicationClass "combat")}}selected{{/if}}>Kampffertigkeit</option>
             <option value="action" {{#if (uropEq item.system.applicationClass "action")}}selected{{/if}}>Aktionsfertigkeit</option>
             <option value="fluff" {{#if (uropEq item.system.applicationClass "fluff")}}selected{{/if}}>Flufffertigkeit</option>
           </select>
-          <label>Lernkosten EP</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.LearnCostEp'}}">Lernkosten EP</label>
           <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
         </div>
         <div class="card">
-          <label>Regelanker 1</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RuleAnchor1'}}">Regelanker 1</label>
           <select name="system.ruleAnchors.0" required>
             <option value="koerper" {{#if (uropEq item.system.ruleAnchors.[0] "koerper")}}selected{{/if}}>Körper</option>
             <option value="geist" {{#if (uropEq item.system.ruleAnchors.[0] "geist")}}selected{{/if}}>Geist</option>
@@ -59,7 +59,7 @@
             <option value="dominanz" {{#if (uropEq item.system.ruleAnchors.[0] "dominanz")}}selected{{/if}}>Dominanz</option>
             <option value="resonanz" {{#if (uropEq item.system.ruleAnchors.[0] "resonanz")}}selected{{/if}}>Resonanz</option>
           </select>
-          <label>Regelanker 2</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RuleAnchor2'}}">Regelanker 2</label>
           <select name="system.ruleAnchors.1">
             <option value="" {{#if (uropEq item.system.ruleAnchors.[1] "")}}selected{{/if}}>-</option>
             <option value="koerper" {{#if (uropEq item.system.ruleAnchors.[1] "koerper")}}selected{{/if}}>Körper</option>
@@ -78,7 +78,7 @@
             <option value="dominanz" {{#if (uropEq item.system.ruleAnchors.[1] "dominanz")}}selected{{/if}}>Dominanz</option>
             <option value="resonanz" {{#if (uropEq item.system.ruleAnchors.[1] "resonanz")}}selected{{/if}}>Resonanz</option>
           </select>
-          <label>Regelanker 3</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RuleAnchor3'}}">Regelanker 3</label>
           <select name="system.ruleAnchors.2">
             <option value="" {{#if (uropEq item.system.ruleAnchors.[2] "")}}selected{{/if}}>-</option>
             <option value="koerper" {{#if (uropEq item.system.ruleAnchors.[2] "koerper")}}selected{{/if}}>Körper</option>
@@ -97,7 +97,7 @@
             <option value="dominanz" {{#if (uropEq item.system.ruleAnchors.[2] "dominanz")}}selected{{/if}}>Dominanz</option>
             <option value="resonanz" {{#if (uropEq item.system.ruleAnchors.[2] "resonanz")}}selected{{/if}}>Resonanz</option>
           </select>
-          <label>Voraussetzungen (Freitext)</label>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.PrerequisitesText'}}">Voraussetzungen (Freitext)</label>
           <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
         </div>
       </div>
@@ -105,16 +105,16 @@
 
     <div class="tab" data-group="primary" data-tab="effects">
       <div class="card">
-        <label>Kurztext</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
-        <label>Beschreibung</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
-        <label>{{localize "URoP.Field.InternalNote"}}</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
         <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
       </div>
     </div>

@@ -1,5 +1,14 @@
 # URoP Foundry Release Notes
 
+## [0.1.23] - 2026-05-31
+
+### Changed
+- Item-Sheets (Skill, Manöver, Waffe, Rüstung, Ausrüstung, Verbrauch): Feldüberschriften mit Hover-Hilfe ergänzt
+- Neue Lokalisierungssektion `URoP.ItemHelp` (de/en) für kurze Feld-Erklärungen
+
+### Migration Required
+- no
+
 ## [0.1.22] - 2026-05-30
 
 ### Changed

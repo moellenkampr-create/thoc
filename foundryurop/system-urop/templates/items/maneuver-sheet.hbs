@@ -17,16 +17,16 @@
 
     <div class="tab" data-group="primary" data-tab="details">
       <div class="card">
-        <label>Tier</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Tier'}}">Tier</label>
         <select name="system.tier">
           <option value="T0" {{#if (uropEq item.system.tier "T0")}}selected{{/if}}>T0 - Grundmanöver</option>
           <option value="T1" {{#if (uropEq item.system.tier "T1")}}selected{{/if}}>T1 - Kernmanöver</option>
           <option value="T2" {{#if (uropEq item.system.tier "T2")}}selected{{/if}}>T2 - Fortgeschrittenes Manöver</option>
           <option value="T3" {{#if (uropEq item.system.tier "T3")}}selected{{/if}}>T3 - Meistermanöver</option>
         </select>
-        <label>Lernkosten EP</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.LearnCostEp'}}">Lernkosten EP</label>
         <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
-        <label>Aktionskosten</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ActionCost'}}">Aktionskosten</label>
         <select name="system.actionCost">
           <option value="free" {{#if (uropEq item.system.actionCost "free")}}selected{{/if}}>Frei</option>
           <option value="small_action" {{#if (uropEq item.system.actionCost "small_action")}}selected{{/if}}>Kleine Aktion</option>
@@ -35,30 +35,30 @@
           <option value="three_actions" {{#if (uropEq item.system.actionCost "three_actions")}}selected{{/if}}>3 Aktionen</option>
           <option value="four_actions" {{#if (uropEq item.system.actionCost "four_actions")}}selected{{/if}}>4 Aktionen</option>
         </select>
-        <label>Einsatzfenster</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.UsageWindow'}}">Einsatzfenster</label>
         <select name="system.usageWindow">
           <option value="unlimited" {{#if (uropEq item.system.usageWindow "unlimited")}}selected{{/if}}>Beliebig</option>
           <option value="once_per_conflict" {{#if (uropEq item.system.usageWindow "once_per_conflict")}}selected{{/if}}>1x pro Kampf</option>
           <option value="once_per_scene" {{#if (uropEq item.system.usageWindow "once_per_scene")}}selected{{/if}}>1x pro Szene</option>
           <option value="prepared" {{#if (uropEq item.system.usageWindow "prepared")}}selected{{/if}}>Vorbereitet</option>
         </select>
-        <label>Wiederholungs-Eskalation</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ReuseEscalation'}}">Wiederholungs-Eskalation</label>
         <input type="text" name="system.reuseEscalation" value="{{item.system.reuseEscalation}}"/>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="effects">
       <div class="card">
-        <label>Kurztext</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
-        <label>Beschreibung</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
     </div>
 
     <div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
-        <label>{{localize "URoP.Field.InternalNote"}}</label>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
         <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
       </div>
     </div>
