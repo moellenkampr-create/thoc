@@ -92,6 +92,27 @@
   color: #b8d8ff;
 }
 
+.urop-sheet .sheet-hint {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--urop-border);
+  border-radius: 8px;
+  background: #132033;
+}
+
+.urop-sheet .sheet-hint h4 {
+  margin: 0 0 4px 0;
+  color: #b9dbff;
+  font-size: 0.84rem;
+}
+
+.urop-sheet .sheet-hint p {
+  margin: 0;
+  color: var(--urop-muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
 .urop-sheet label {
   display: block;
   font-size: 0.85rem;

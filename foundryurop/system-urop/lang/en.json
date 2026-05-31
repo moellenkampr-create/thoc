@@ -113,7 +113,9 @@
       "ReuseEscalation": "Consequences when reused in the same scene.",
       "RulesShort": "Short rules summary for quick table reference.",
       "Description": "Detailed reading with effect, risk, and usage context.",
-      "InternalNote": "Internal note for GM/authoring use; not public-facing rules text."
+      "InternalNote": "Internal note for GM/authoring use; not public-facing rules text.",
+      "WeaponAuthoringHintTitle": "Weapon Text Structure",
+      "WeaponAuthoringHintBody": "Short text: 1-2 sentences for quick overview. Prerequisites: hard minimum conditions and handling limits. Description: structured long text with role, range behavior, ammo/power supply, recoil, fire cadence, secondary effects, and special notes."
     },
     "DamageType": {
       "None": "-",

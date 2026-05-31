@@ -113,7 +113,9 @@
       "ReuseEscalation": "Folgen bei wiederholtem Einsatz in derselben Szene.",
       "RulesShort": "Kurzfassung der Regelfunktion für schnellen Zugriff am Tisch.",
       "Description": "Ausführliche Lesefassung mit Wirkung, Risiko und Einsatzkontext.",
-      "InternalNote": "Interne Notiz für SL/Autorenteam; nicht als öffentlicher Regeltext gedacht."
+      "InternalNote": "Interne Notiz für SL/Autorenteam; nicht als öffentlicher Regeltext gedacht.",
+      "WeaponAuthoringHintTitle": "Waffen-Textstruktur",
+      "WeaponAuthoringHintBody": "Kurztext: 1-2 Sätze für schnellen Überblick. Voraussetzungen: harte Mindestbedingungen und Handhabung. Beschreibung: strukturierter Langtext mit Einsatzrolle, Reichweite, Munition/Versorgung, Rückstoß, Feuerfrequenz, Sekundäreffekten und Besonderheiten."
     },
     "DamageType": {
       "None": "-",

@@ -1,5 +1,14 @@
 # URoP Foundry Release Notes
 
+## [0.1.25] - 2026-05-31
+
+### Changed
+- Waffen-Sheet: sichtbarer Hinweisblock zur Textstruktur (Kurztext, Voraussetzungen, Beschreibung)
+- Lokalisierte Hilfetexte fuer den Waffen-Authoring-Hinweis (de/en)
+
+### Migration Required
+- no
+
 ## [0.1.24] - 2026-05-31
 
 ### Changed
