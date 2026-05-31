@@ -559,7 +559,14 @@ Kurzrollen fÃ¼r die wichtigsten EinzelmanÃ¶ver:
 
 ### 5.2 Waffen (Referenzauswahl)
 
-FÃ¼hrende Datenquelle: `data/URoP_Waffen.json`. Felder: `id`, `name`, `category`, `combatMode`, `damageBaseline`, `quality`, `designedFor Size Class`, `effectiveAgainst Class`, `priceEb`, ggf. `fireModes`, `rangeBands`, `meleeReach Classes`, `attackPattern`.
+Führende Datenquelle: `data/URoP_Waffen.json`. Felder: `id`, `name`, `category`, `combatMode`, `damageBaseline`, `damageType`, `initiativeModifier`, `prerequisitesText`, `quality`, `designedForSizeClass`, `effectiveAgainstClass`, `priceEb`, ggf. `fireModes`, `rangeBands`, `meleeReachClasses`, `attackPattern`.
+
+Leitlinie fuer die Waffenerstellung:
+- `rulesShort` = kurzer Hover-/Listenblick in ein bis zwei Saetzen.
+- `prerequisitesText` = Mindestanforderungen, Handhabung, harte Bedingungen.
+- `description` = strukturierter Langtext mit Einsatzrolle, Wirkung, Munition/Versorgung, Rueckstoss, Feuerfrequenz, Spezialeffekten und Sonderregeln.
+- Zusatzeffekte wie Blutung, Korruption, Systemschaden, Strukturschaden oder spezielle Munitionseffekte werden im Langtext beschrieben und nicht als separates Schadenssystem gefuehrt.
+- Die Waffe fuehrt genau eine primäre Schadensart; munition- oder modusabhängige Besonderheiten bleiben im Langtext.
 
 | Name | Kategorie | Modus | Wirkung | Preis (EB) |
 |------|-----------|-------|---------|------------|

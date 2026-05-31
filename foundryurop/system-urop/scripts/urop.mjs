@@ -26,6 +26,9 @@ async function runSystemMigrations(fromVersion, toVersion) {
         const itemUpdates = {};
 
         if (item.type === "weapon") {
+          if (!foundry.utils.hasProperty(item, "system.damageType")) itemUpdates["system.damageType"] = "";
+          if (!foundry.utils.hasProperty(item, "system.initiativeModifier")) itemUpdates["system.initiativeModifier"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
           if (!foundry.utils.hasProperty(item, "system.designedForSizeClass")) itemUpdates["system.designedForSizeClass"] = "G3";
           if (!foundry.utils.hasProperty(item, "system.effectiveAgainstClass")) itemUpdates["system.effectiveAgainstClass"] = "G3";
           if (!foundry.utils.hasProperty(item, "system.rangeBands.nah")) itemUpdates["system.rangeBands.nah"] = 0;
@@ -48,6 +51,9 @@ async function runSystemMigrations(fromVersion, toVersion) {
       const itemUpdates = {};
 
       if (item.type === "weapon") {
+        if (!foundry.utils.hasProperty(item, "system.damageType")) itemUpdates["system.damageType"] = "";
+        if (!foundry.utils.hasProperty(item, "system.initiativeModifier")) itemUpdates["system.initiativeModifier"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
         if (!foundry.utils.hasProperty(item, "system.designedForSizeClass")) itemUpdates["system.designedForSizeClass"] = "G3";
         if (!foundry.utils.hasProperty(item, "system.effectiveAgainstClass")) itemUpdates["system.effectiveAgainstClass"] = "G3";
         if (!foundry.utils.hasProperty(item, "system.rangeBands.nah")) itemUpdates["system.rangeBands.nah"] = 0;

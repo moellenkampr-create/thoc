@@ -1,5 +1,16 @@
 # URoP Foundry Release Notes
 
+## [0.1.24] - 2026-05-31
+
+### Changed
+- Waffen-Sheet um Schadensart, Initiative-Modifikator und Voraussetzungen erweitert
+- Waffen-Struktur standardisiert: Kurztext, Voraussetzungen, Beschreibung mit klarer Langtext-Logik
+- Regeltexte und Glossar auf einheitliches Waffen-Schema abgeglichen
+
+### Migration Required
+- yes
+- Bestehende Waffen erhalten neue Default-Felder fuer Schadensart, Initiative-Modifikator und Voraussetzungen
+
 ## [0.1.23] - 2026-05-31
 
 ### Changed

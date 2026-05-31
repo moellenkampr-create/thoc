@@ -101,14 +101,24 @@ Balance-Hinweis:
 
 ### 6.3 Waffen- und Ruestungsbegriffe
 - Wirkungsbasis (`damageBaseline`): Basiswert fuer Waffenwirkung.
+- Schadensart (`damageType`): Primäre Schadensart der Waffe; Sonderfaelle und Sekundaeffekte werden im Langtext gefuehrt.
+- Initiative-Modifikator (`initiativeModifier`): Situativer Zahlenwert fuer den Einsatz der Waffe im Initiative-Kontext.
 - Gebaut fuer Groessenstufe (`designedForSizeClass`): Konstruktion der Waffe je Nutzer-/Systemgroesse.
 - Wirksam gegen Groessenstufe (`effectiveAgainstClass`): Zielgroesse, gegen die die Waffe optimal arbeitet.
 - Reichweite Nah/Mittel/Weit/Extrem (`rangeBands`): Distanzbaender in Metern.
+- Voraussetzungen (`prerequisitesText`): Lesbare Mindestanforderungen, Handhabung und Sonderbedingungen.
 - Schutzwert (`protectionValue`): Reduktions-/Schutzwirkung von Ruestung.
 - Nominale Nutzergroesse (`userSizeNominal`): Groessenklasse, fuer die die Ruestung ausgelegt ist.
 - Qualitaet (`quality`): Verarbeitungs- und Zustandsqualitaet.
 
-### 6.4 Namenskonsistenz
+### 6.4 Waffen-Langtext-Standard
+Der Waffen-Langtext soll bei der Erstellung in dieser Reihenfolge lesbar sein:
+- Kurztext: ein bis zwei Saetze fuer Hover, Listenansicht und schnellen Tischblick.
+- Voraussetzungen: Mindestwerte, Zugriffs- oder Handhabungsregeln, Sonderbedingungen.
+- Beschreibung: strukturierter Langtext mit Einsatzrolle, Wirkung, Reichweite, Munition/Versorgung, Rueckstoss, Feuerfrequenz, sekundaeren Effekten und Besonderheiten.
+- Sonderregeln, die nicht konstant automatisiert werden sollen, bleiben im Langtext und nicht als zusaetzliches Kernfeld.
+
+### 6.5 Namenskonsistenz
 - Gleich benannte Felder mit gleicher Bedeutung bleiben bewusst gleich benannt.
 - Aktueller Stand: `Qualitaet` ist in mehreren Item-Typen semantisch gleich und bleibt daher einheitlich.
 - Fuer den aktuellen Feldkern sind keine aktiven Doppelbezeichnungen mit unterschiedlicher Bedeutung vorgesehen.

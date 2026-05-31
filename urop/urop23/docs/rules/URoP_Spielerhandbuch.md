@@ -226,13 +226,28 @@ URoP nutzt keine Hit Points. Schaden wird durch **Effekt-Wirkung bestimmt**:
 
 | damageBaseline | Effekt | Beispielwaffe |
 |------------------|--------|---------------|
-| 1 | Reduzierer Druck | Taserpistole, Boxerhandschuhe |
+| 1 | Reduzierter Druck | Taserpistole, Boxerhandschuhe |
 | 2 | Druck | Schrotflinte (nah), Pistole |
 | 3 | Leichte Konsequenz | Machete, Schrotflinte (mittel) |
 | 4 | Schwere Konsequenz | Sturmgewehr, Schwert |
 | 5 | Kritische Konsequenz | 7.62 Battle Rifle, Raketenwerfer |
 
 Ein **kritischer Treffer** kann Effekt um 1â€“2 Stufen erhÃ¶hen.
+
+### Waffenstruktur beim Erstellen
+Jede Waffe soll in Foundry und im Regeltext dieselbe Grundstruktur verwenden:
+
+| Feld | Zweck |
+|------|-------|
+| **Kurztext** | kurze Lesefassung fuer Hover, Listenansicht und schnelle Einordnung |
+| **Voraussetzungen** | Mindestanforderungen, Handhabung, Einschränkungen, Sonderbedingungen |
+| **Beschreibung** | strukturierter Langtext mit Einsatzrolle, Wirkungsart, Reichweite, Munition, Rueckstoss, Feuerfrequenz und Sondereffekten |
+| **Schadensart** | genau eine primäre Schadensart; besondere Kombinationen werden ueber den Langtext oder Munition beschrieben |
+| **Wirkungsbasis** | bestimmt die Basiseffekt-Stufe nach der Wirkungsleiter |
+| **Gebaut/Wirksam gegen** | Groessenstufen-Bezug der Waffe |
+| **Qualitaet** | Verarbeitung/Zustand |
+
+Schadensarten koennen als Schutz-/Wirkprofil helfen, ersetzen aber nicht den Langtext fuer spezielle Effekte wie Blutung, Korruption, Systemschaden oder Aehnliches.
 
 ### Zielwahl Ã¤ndern den Effekt
 Du kannst gezielt auf:

@@ -20,6 +20,30 @@
         <div class="card">
           <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.DamageBaseline'}}">Wirkungsbasis</label>
           <input type="number" name="system.damageBaseline" value="{{item.system.damageBaseline}}"/>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.DamageType'}}">Schadensart</label>
+          <select name="system.damageType">
+            <option value="" {{#if (uropEq item.system.damageType "")}}selected{{/if}}>-</option>
+            <option value="kinetic" {{#if (uropEq item.system.damageType "kinetic")}}selected{{/if}}>{{localize "URoP.DamageType.Kinetic"}}</option>
+            <option value="blunt" {{#if (uropEq item.system.damageType "blunt")}}selected{{/if}}>{{localize "URoP.DamageType.Blunt"}}</option>
+            <option value="piercing" {{#if (uropEq item.system.damageType "piercing")}}selected{{/if}}>{{localize "URoP.DamageType.Piercing"}}</option>
+            <option value="slashing" {{#if (uropEq item.system.damageType "slashing")}}selected{{/if}}>{{localize "URoP.DamageType.Slashing"}}</option>
+            <option value="fire" {{#if (uropEq item.system.damageType "fire")}}selected{{/if}}>{{localize "URoP.DamageType.Fire"}}</option>
+            <option value="electricity" {{#if (uropEq item.system.damageType "electricity")}}selected{{/if}}>{{localize "URoP.DamageType.Electricity"}}</option>
+            <option value="cold" {{#if (uropEq item.system.damageType "cold")}}selected{{/if}}>{{localize "URoP.DamageType.Cold"}}</option>
+            <option value="acid" {{#if (uropEq item.system.damageType "acid")}}selected{{/if}}>{{localize "URoP.DamageType.Acid"}}</option>
+            <option value="poison" {{#if (uropEq item.system.damageType "poison")}}selected{{/if}}>{{localize "URoP.DamageType.Poison"}}</option>
+            <option value="arcane" {{#if (uropEq item.system.damageType "arcane")}}selected{{/if}}>{{localize "URoP.DamageType.Arcane"}}</option>
+            <option value="stun_body" {{#if (uropEq item.system.damageType "stun_body")}}selected{{/if}}>{{localize "URoP.DamageType.StunBody"}}</option>
+            <option value="stun_mind" {{#if (uropEq item.system.damageType "stun_mind")}}selected{{/if}}>{{localize "URoP.DamageType.StunMind"}}</option>
+            <option value="psychic" {{#if (uropEq item.system.damageType "psychic")}}selected{{/if}}>{{localize "URoP.DamageType.Psychic"}}</option>
+            <option value="radiation" {{#if (uropEq item.system.damageType "radiation")}}selected{{/if}}>{{localize "URoP.DamageType.Radiation"}}</option>
+            <option value="holy" {{#if (uropEq item.system.damageType "holy")}}selected{{/if}}>{{localize "URoP.DamageType.Holy"}}</option>
+            <option value="necrotic" {{#if (uropEq item.system.damageType "necrotic")}}selected{{/if}}>{{localize "URoP.DamageType.Necrotic"}}</option>
+            <option value="energy" {{#if (uropEq item.system.damageType "energy")}}selected{{/if}}>{{localize "URoP.DamageType.Energy"}}</option>
+            <option value="other" {{#if (uropEq item.system.damageType "other")}}selected{{/if}}>{{localize "URoP.DamageType.Other"}}</option>
+          </select>
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InitiativeModifier'}}">Initiative-Modifikator</label>
+          <input type="number" name="system.initiativeModifier" value="{{item.system.initiativeModifier}}" step="1"/>
           <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.DesignedForSizeClass'}}">Gebaut für Größenstufe</label>
           <select name="system.designedForSizeClass">
             <option value="G0" {{#if (uropEq item.system.designedForSizeClass "G0")}}selected{{/if}}>G0</option>
@@ -67,6 +91,8 @@
       <div class="card">
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.PrerequisitesText'}}">Voraussetzungen</label>
+        <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>

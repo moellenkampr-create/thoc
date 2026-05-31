@@ -120,6 +120,9 @@
     },
     "weapon": {
       "damageBaseline": 2,
+      "damageType": "",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
       "quality": "standard",
       "designedForSizeClass": "G3",
       "effectiveAgainstClass": "G3",
