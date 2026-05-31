@@ -81,6 +81,7 @@
       "InstallationProfile": "Installation location/type",
       "OperationProfile": "Maintenance/power/hackability",
       "SideEffects": "Risks/side effects",
+      "SpecificEffectDescription": "Specific effect description",
       "PressureState": "Pressure State",
       "Boosts": "Boosts",
       "SizeClass": "Size Class",
@@ -116,6 +117,8 @@
       "InstallationProfile": "Free text for installation location, intervention type, and typical procedure fallout.",
       "OperationProfile": "Compact free text for maintenance, power demand, and hackability.",
       "SideEffects": "Combined free text for risks and side effects.",
+      "CyberwareDescription": "General cyberware description: classification, form factor, installation context, and typical technical or narrative traits.",
+      "CyberwareSpecificEffectDescription": "Concrete gameplay effect of the cyberware, for example values, bonuses, extra actions, or activation conditions.",
       "SkillLevel": "Current skill level.",
       "SkillType": "Skill category: broad, standard, or specialization.",
       "ApplicationClass": "Primary play context for the skill (combat, action, fluff).",
@@ -134,7 +137,7 @@
       "WeaponAuthoringHintTitle": "Weapon Text Structure",
       "WeaponAuthoringHintBody": "Short text: 1-2 sentences for quick overview. Prerequisites: hard minimum conditions and handling limits. Description: structured long text with role, range behavior, ammo/power supply, recoil, fire cadence, secondary effects, and special notes.",
       "CyberwareAuthoringHintTitle": "Cyberware Text Structure",
-      "CyberwareAuthoringHintBody": "Short text: 1-2 sentences for core utility. Prerequisites: compatibility, minimum conditions, conflict points. Specific effect description: concrete gameplay effect. Installation location/type: invasiveness and consequences. Keep maintenance/power/hackability and risks/side effects compact, bullet-like, and reproducible."
+      "CyberwareAuthoringHintBody": "Short text: 1-2 sentences for core utility. Prerequisites: compatibility, minimum conditions, conflict points. Description: general cyberware framing, installation context, and technical traits. Specific effect description: concrete gameplay effect, for example Initiative +1 or one additional action per conflict. Keep installation location/type, maintenance/power/hackability, and risks/side effects compact, bullet-like, and reproducible."
     },
     "CyberwareActivationType": {
       "Passive": "Passive",

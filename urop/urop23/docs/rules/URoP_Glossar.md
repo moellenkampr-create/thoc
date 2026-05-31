@@ -132,15 +132,17 @@ Der Waffen-Langtext soll bei der Erstellung in dieser Reihenfolge lesbar sein:
 - Preis (`price`): Standardkosten in der Weltoekonomie.
 - Verfuegbarkeit/Legalitaet (`availabilityLegality`): Text zu Marktzugang, Restriktion und legalem Status.
 - Voraussetzungen (`prerequisitesText`): Kompatibilitaet, Mindestbedingungen und Ausschluesse.
+- Beschreibung (`description`): Allgemeine Einordnung, Bauform, Einbaukontext und technische/erzählerische Merkmale der Cyberware.
+- Spezifische Effektbeschreibung (`specificEffectDescription`): Konkrete Spielwirkung, z. B. Bonus, Zusatzaktion oder Aktivierungsbedingung.
 - Einbauort/Art (`installationProfile`): Eingriffsbereich, Invasivitaet und ggf. OP-Folgen.
 - Wartung/Energie/Hackbarkeit (`operationProfile`): Kompaktes Betriebsprofil statt drei separater Felder.
 - Risiken/Nebenwirkungen (`sideEffects`): Gebuendelte Risiken und unerwuenschte Folgeeffekte.
 - Kurztext (`rulesShort`): 1-2 Saetze fuer schnellen Tischzugriff.
-- Spezifische Effektbeschreibung (`description`): Konkrete Regelfunktion und Spielwirkung der Cyberware.
 
 Cyberware-Textstruktur (Leitlinie):
 - Kurztext: knapper Nutzen in 1-2 Saetzen.
 - Voraussetzungen: nur harte Bedingungen und Kompatibilitaetsgrenzen.
+- Beschreibung: allgemeine Cyberware-Einordnung, Einbaukontext und technische Merkmale.
 - Spezifische Effektbeschreibung: reproduzierbare Wirkung im Spiel.
 - Einbauort/Art und Betriebsprofil kurz, klar, stichpunktartig.
 - Risiken/Nebenwirkungen als zusammengefasster Risikoblock.

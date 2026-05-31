@@ -60,6 +60,8 @@ async function runSystemMigrations(fromVersion, toVersion) {
           if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
           if (!foundry.utils.hasProperty(item, "system.availabilityLegality")) itemUpdates["system.availabilityLegality"] = "";
           if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
+          if (!foundry.utils.hasProperty(item, "system.description")) itemUpdates["system.description"] = "";
+          if (!foundry.utils.hasProperty(item, "system.specificEffectDescription")) itemUpdates["system.specificEffectDescription"] = "";
           if (!foundry.utils.hasProperty(item, "system.installationProfile")) itemUpdates["system.installationProfile"] = "";
           if (!foundry.utils.hasProperty(item, "system.operationProfile")) itemUpdates["system.operationProfile"] = "";
           if (!foundry.utils.hasProperty(item, "system.sideEffects")) itemUpdates["system.sideEffects"] = "";
@@ -103,6 +105,8 @@ async function runSystemMigrations(fromVersion, toVersion) {
         if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
         if (!foundry.utils.hasProperty(item, "system.availabilityLegality")) itemUpdates["system.availabilityLegality"] = "";
         if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
+        if (!foundry.utils.hasProperty(item, "system.description")) itemUpdates["system.description"] = "";
+        if (!foundry.utils.hasProperty(item, "system.specificEffectDescription")) itemUpdates["system.specificEffectDescription"] = "";
         if (!foundry.utils.hasProperty(item, "system.installationProfile")) itemUpdates["system.installationProfile"] = "";
         if (!foundry.utils.hasProperty(item, "system.operationProfile")) itemUpdates["system.operationProfile"] = "";
         if (!foundry.utils.hasProperty(item, "system.sideEffects")) itemUpdates["system.sideEffects"] = "";

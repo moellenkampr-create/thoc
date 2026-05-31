@@ -81,6 +81,7 @@
       "InstallationProfile": "Einbauort/Art",
       "OperationProfile": "Wartung/Energie/Hackbarkeit",
       "SideEffects": "Risiken/Nebenwirkungen",
+      "SpecificEffectDescription": "Spezifische Effektbeschreibung",
       "PressureState": "Druckstatus",
       "Boosts": "Boosts",
       "SizeClass": "Größenstufe",
@@ -116,6 +117,8 @@
       "InstallationProfile": "Freitext für Einbauort, Eingriffsart und typische OP-Folgen.",
       "OperationProfile": "Kompakter Freitext für Wartung, Energiebedarf und Hackbarkeit.",
       "SideEffects": "Gebündelter Freitext für Risiken und Nebenwirkungen.",
+      "CyberwareDescription": "Allgemeine Beschreibung der Cyberware: Einordnung, Form, Einbaukontext und typische technische oder erzählerische Merkmale.",
+      "CyberwareSpecificEffectDescription": "Konkrete Regelwirkung der Cyberware im Spiel, zum Beispiel Werte, Boni, zusätzliche Aktionen oder Aktivierungsbedingungen.",
       "SkillLevel": "Aktuelle Stufe der Fertigkeit.",
       "SkillType": "Fertigkeitsebene: Sammelfertigkeit, Standardfertigkeit oder Spezialisierung.",
       "ApplicationClass": "Einsatzklasse der Fertigkeit im Spiel (Kampf, Aktion, Fluff).",
@@ -134,7 +137,7 @@
       "WeaponAuthoringHintTitle": "Waffen-Textstruktur",
       "WeaponAuthoringHintBody": "Kurztext: 1-2 Sätze für schnellen Überblick. Voraussetzungen: harte Mindestbedingungen und Handhabung. Beschreibung: strukturierter Langtext mit Einsatzrolle, Reichweite, Munition/Versorgung, Rückstoß, Feuerfrequenz, Sekundäreffekten und Besonderheiten.",
       "CyberwareAuthoringHintTitle": "Cyberware-Textstruktur",
-      "CyberwareAuthoringHintBody": "Kurztext: 1-2 Sätze mit Kernnutzen. Voraussetzungen: Kompatibilität, Mindestbedingungen, Konfliktpunkte. Spezifische Effektbeschreibung: konkrete Wirkung im Spiel. Einbauort/Art: Eingriffsgrad und Folgewirkungen. Wartung/Energie/Hackbarkeit und Risiken/Nebenwirkungen kompakt, stichpunktartig und reproduzierbar."
+      "CyberwareAuthoringHintBody": "Kurztext: 1-2 Sätze mit Kernnutzen. Voraussetzungen: Kompatibilität, Mindestbedingungen, Konfliktpunkte. Beschreibung: allgemeine Cyberware-Einordnung, Einbaukontext und technische Besonderheiten. Spezifische Effektbeschreibung: konkrete Wirkung im Spiel, z. B. Initiative +1 oder eine zusätzliche Aktion pro Kampf. Einbauort/Art, Wartung/Energie/Hackbarkeit und Risiken/Nebenwirkungen kompakt, stichpunktartig und reproduzierbar."
     },
     "CyberwareActivationType": {
       "Passive": "Passiv",

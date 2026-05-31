@@ -160,11 +160,12 @@
       "price": 0,
       "availabilityLegality": "",
       "prerequisitesText": "",
+      "description": "",
+      "specificEffectDescription": "",
       "installationProfile": "",
       "operationProfile": "",
       "sideEffects": "",
       "rulesShort": "",
-      "description": "",
       "notes": ""
     },
     "maneuver": {

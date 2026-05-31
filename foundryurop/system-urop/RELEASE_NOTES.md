@@ -1,5 +1,16 @@
 # URoP Foundry Release Notes
 
+## [0.1.28] - 2026-05-31
+
+### Changed
+- Cyberware trennt jetzt allgemeine Beschreibung und spezifische Effektbeschreibung sauber in zwei Felder
+- Authoring-Hinweis und Hover-Help auf die neue Trennung von Beschreibung und Regelwirkung abgestimmt
+- Glossar und Schema um das zusätzliche Cyberware-Feld `specificEffectDescription` erweitert
+
+### Migration Required
+- yes
+- Bestehende Cyberware-Items erhalten das neue Feld `specificEffectDescription`
+
 ## [0.1.27] - 2026-05-31
 
 ### Changed
