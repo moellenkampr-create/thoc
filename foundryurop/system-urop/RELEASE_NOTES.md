@@ -1,5 +1,16 @@
 # URoP Foundry Release Notes
 
+## [0.1.26] - 2026-05-31
+
+### Changed
+- Rüstungs-Sheet erweitert: Preis, Voraussetzungen und Liste für schadensartspezifische Schutzwerte
+- Schadensartspezifische Schutzwerte als dynamische Liste mit Add/Remove, Default-Zeile und Lösch-Bestätigung
+- Regeltexte und Glossar auf das neue Rüstungs-Schema abgeglichen
+
+### Migration Required
+- yes
+- Bestehende Rüstungen erhalten neue Default-Felder (`price`, `prerequisitesText`, `protectionByDamageType`)
+
 ## [0.1.25] - 2026-05-31
 
 ### Changed

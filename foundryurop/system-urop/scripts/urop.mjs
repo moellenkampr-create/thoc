@@ -9,6 +9,11 @@ import { UropConsumableSheet } from "./sheets/items/consumable-sheet.mjs";
 async function runSystemMigrations(fromVersion, toVersion) {
   console.log(`URoP | Migration gestartet: ${fromVersion} -> ${toVersion}`);
 
+  const createEmptyProtectionOverride = () => ({
+    damageType: "",
+    value: 0
+  });
+
   const migrateSizeAndRangeFields = async () => {
     for (const actor of game.actors) {
       if (actor.type !== "character") continue;
@@ -38,7 +43,13 @@ async function runSystemMigrations(fromVersion, toVersion) {
         }
 
         if (item.type === "armor") {
+          if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
           if (!foundry.utils.hasProperty(item, "system.userSizeNominal")) itemUpdates["system.userSizeNominal"] = "G3";
+          const protectionByDamageType = item.system?.protectionByDamageType;
+          if (!Array.isArray(protectionByDamageType) || protectionByDamageType.length === 0) {
+            itemUpdates["system.protectionByDamageType"] = [createEmptyProtectionOverride()];
+          }
         }
 
         if (Object.keys(itemUpdates).length > 0) {
@@ -63,7 +74,13 @@ async function runSystemMigrations(fromVersion, toVersion) {
       }
 
       if (item.type === "armor") {
+        if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
         if (!foundry.utils.hasProperty(item, "system.userSizeNominal")) itemUpdates["system.userSizeNominal"] = "G3";
+        const protectionByDamageType = item.system?.protectionByDamageType;
+        if (!Array.isArray(protectionByDamageType) || protectionByDamageType.length === 0) {
+          itemUpdates["system.protectionByDamageType"] = [createEmptyProtectionOverride()];
+        }
       }
 
       if (Object.keys(itemUpdates).length > 0) {

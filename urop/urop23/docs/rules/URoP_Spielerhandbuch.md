@@ -261,6 +261,8 @@ Ein Schuss auf "Augen" bei erhÃ¶hter Schwierigkeit kann also ein "Geblendet"-E
 ### Panzerung
 Panzerung reduziert den **Effekt um Stufen**, nicht den Schaden. Eine Deckung mit Panzerungs-Wert 2 reduziert einen kritischen Treffer (5) zu "Schwere Konsequenz" (3).
 
+Ruestungen koennen zusaetzlich **spezifische Schutzwerte pro Schadensart** tragen. Wenn fuer eine Schadensart ein eigener Wert eingetragen ist, gilt dieser statt des allgemeinen Basis-Schutzwerts.
+
 ### Granaten und Raketen
 - **Granaten:** Wurfwaffe, `area` attack pattern, Wurfweite 5â€“35m. Kosten 1 Aktion.
 - **Granatentypen:** Splitter (4), WÃ¤rme (3), EMP (1), Rauch (0), Blendgranate (1)

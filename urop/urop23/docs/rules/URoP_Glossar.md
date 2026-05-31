@@ -108,7 +108,9 @@ Balance-Hinweis:
 - Reichweite Nah/Mittel/Weit/Extrem (`rangeBands`): Distanzbaender in Metern.
 - Voraussetzungen (`prerequisitesText`): Lesbare Mindestanforderungen, Handhabung und Sonderbedingungen.
 - Schutzwert (`protectionValue`): Reduktions-/Schutzwirkung von Ruestung.
+- Schutzwerte nach Schadensart (`protectionByDamageType`): Spezifische Schutzwerte je Schadensart; wenn vorhanden, ueberschreibt der Eintrag den Basis-Schutzwert.
 - Nominale Nutzergroesse (`userSizeNominal`): Groessenklasse, fuer die die Ruestung ausgelegt ist.
+- Preis (`price`): Standardkosten des Items in der Weltoekonomie.
 - Qualitaet (`quality`): Verarbeitungs- und Zustandsqualitaet.
 
 ### 6.4 Waffen-Langtext-Standard

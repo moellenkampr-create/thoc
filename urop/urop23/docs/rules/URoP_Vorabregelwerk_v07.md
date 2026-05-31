@@ -583,7 +583,12 @@ ZugangsbeschrÃ¤nkungen, LegalitÃ¤tsstufen und Umgebungseigenschaften (laut, 
 
 ### 5.3 Schutz und RÃ¼stung (Referenzauswahl)
 
-FÃ¼hrende Datenquelle: `data/URoP_Schutz_und_Ruestung.json`. Felder: `id`, `name`, `category`, `quality`, `userSize Nominal`, `protectionValue`, `rulesShort`, `description`, `priceEb`. Abdeckungsbereich und Materialeigenschaften stehen im `description`-FlieÃŸtext.
+FÃ¼hrende Datenquelle: `data/URoP_Schutz_und_Ruestung.json`. Felder: `id`, `name`, `category`, `quality`, `userSizeNominal`, `protectionValue`, `protectionByDamageType`, `prerequisitesText`, `rulesShort`, `description`, `priceEb`. Abdeckungsbereich und Materialeigenschaften stehen im `description`-FlieÃŸtext.
+
+Leitlinie:
+- `protectionValue` bleibt der allgemeine Basis-Schutzwert.
+- `protectionByDamageType` fuehrt optionale spezifische Schutzwerte; ein spezifischer Eintrag ueberschreibt den Basiswert fuer genau diese Schadensart.
+- `prerequisitesText` beschreibt Handhabungs- und Tragevoraussetzungen als Freitext.
 
 | Name | Kategorie | Schutzwert | Preis (EB) |
 |------|-----------|-----------|------------|

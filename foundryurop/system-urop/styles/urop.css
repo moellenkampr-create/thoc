@@ -279,6 +279,51 @@
   text-align: center;
 }
 
+.urop-sheet .protection-override-section {
+  margin-top: 10px;
+  border-top: 1px solid var(--urop-border);
+  padding-top: 8px;
+}
+
+.urop-sheet .protection-override-header {
+  margin-bottom: 6px;
+  color: var(--urop-muted);
+  font-size: 0.82rem;
+}
+
+.urop-sheet .protection-override-head-row,
+.urop-sheet .protection-override-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 1fr) 100px 32px;
+  gap: 6px;
+  align-items: center;
+}
+
+.urop-sheet .protection-override-head-row {
+  margin-bottom: 4px;
+}
+
+.urop-sheet .protection-override-head-row span {
+  font-size: 0.72rem;
+  color: var(--urop-muted);
+}
+
+.urop-sheet .protection-override-remove-head {
+  text-align: center;
+}
+
+.urop-sheet .protection-override-row {
+  margin-bottom: 6px;
+}
+
+.urop-sheet .protection-override-remove-btn {
+  width: 32px;
+  min-width: 32px;
+  height: 30px;
+  padding: 0;
+  text-align: center;
+}
+
 .urop-sheet .type-chip {
   display: inline-block;
   width: auto;

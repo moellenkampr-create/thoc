@@ -139,8 +139,16 @@
     },
     "armor": {
       "protectionValue": 0,
+      "price": 0,
       "quality": "standard",
       "userSizeNominal": "G3",
+      "prerequisitesText": "",
+      "protectionByDamageType": [
+        {
+          "damageType": "",
+          "value": 0
+        }
+      ],
       "rulesShort": "",
       "description": "",
       "notes": ""

@@ -34,6 +34,49 @@
         </select>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Quality'}}">Qualität</label>
         <input type="text" name="system.quality" value="{{item.system.quality}}"/>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Price'}}">Preis</label>
+        <input type="number" name="system.price" value="{{item.system.price}}"/>
+
+        <div class="protection-override-section">
+          <div class="protection-override-header">{{localize "URoP.Field.ProtectionByDamageType"}}</div>
+          <div class="protection-override-head-row">
+            <span>Schutz vor</span>
+            <span>Schutzwert</span>
+            <span class="protection-override-remove-head">{{localize "URoP.Field.RemoveMoneyStoreShort"}}</span>
+          </div>
+          {{#each protectionByDamageType as |entry index|}}
+          <div class="protection-override-row">
+            <select name="system.protectionByDamageType.{{index}}.damageType">
+              <option value="" {{#if (uropEq entry.damageType "")}}selected{{/if}}>{{localize "URoP.DamageType.None"}}</option>
+              <option value="kinetic" {{#if (uropEq entry.damageType "kinetic")}}selected{{/if}}>{{localize "URoP.DamageType.Kinetic"}}</option>
+              <option value="blunt" {{#if (uropEq entry.damageType "blunt")}}selected{{/if}}>{{localize "URoP.DamageType.Blunt"}}</option>
+              <option value="piercing" {{#if (uropEq entry.damageType "piercing")}}selected{{/if}}>{{localize "URoP.DamageType.Piercing"}}</option>
+              <option value="slashing" {{#if (uropEq entry.damageType "slashing")}}selected{{/if}}>{{localize "URoP.DamageType.Slashing"}}</option>
+              <option value="fire" {{#if (uropEq entry.damageType "fire")}}selected{{/if}}>{{localize "URoP.DamageType.Fire"}}</option>
+              <option value="electricity" {{#if (uropEq entry.damageType "electricity")}}selected{{/if}}>{{localize "URoP.DamageType.Electricity"}}</option>
+              <option value="cold" {{#if (uropEq entry.damageType "cold")}}selected{{/if}}>{{localize "URoP.DamageType.Cold"}}</option>
+              <option value="acid" {{#if (uropEq entry.damageType "acid")}}selected{{/if}}>{{localize "URoP.DamageType.Acid"}}</option>
+              <option value="poison" {{#if (uropEq entry.damageType "poison")}}selected{{/if}}>{{localize "URoP.DamageType.Poison"}}</option>
+              <option value="arcane" {{#if (uropEq entry.damageType "arcane")}}selected{{/if}}>{{localize "URoP.DamageType.Arcane"}}</option>
+              <option value="stun_body" {{#if (uropEq entry.damageType "stun_body")}}selected{{/if}}>{{localize "URoP.DamageType.StunBody"}}</option>
+              <option value="stun_mind" {{#if (uropEq entry.damageType "stun_mind")}}selected{{/if}}>{{localize "URoP.DamageType.StunMind"}}</option>
+              <option value="psychic" {{#if (uropEq entry.damageType "psychic")}}selected{{/if}}>{{localize "URoP.DamageType.Psychic"}}</option>
+              <option value="radiation" {{#if (uropEq entry.damageType "radiation")}}selected{{/if}}>{{localize "URoP.DamageType.Radiation"}}</option>
+              <option value="holy" {{#if (uropEq entry.damageType "holy")}}selected{{/if}}>{{localize "URoP.DamageType.Holy"}}</option>
+              <option value="necrotic" {{#if (uropEq entry.damageType "necrotic")}}selected{{/if}}>{{localize "URoP.DamageType.Necrotic"}}</option>
+              <option value="energy" {{#if (uropEq entry.damageType "energy")}}selected{{/if}}>{{localize "URoP.DamageType.Energy"}}</option>
+              <option value="other" {{#if (uropEq entry.damageType "other")}}selected{{/if}}>{{localize "URoP.DamageType.Other"}}</option>
+            </select>
+            <input type="number" name="system.protectionByDamageType.{{index}}.value" value="{{entry.value}}"/>
+            <button type="button" class="protection-override-remove-btn" data-action="remove-protection-override" data-index="{{index}}" {{#unless ../canRemoveProtectionOverride}}disabled{{/unless}}>
+              {{localize "URoP.Field.RemoveMoneyStoreShort"}}
+            </button>
+          </div>
+          {{/each}}
+          <button type="button" class="secondary-action" data-action="add-protection-override" {{#unless canAddProtectionOverride}}disabled{{/unless}}>
+            {{localize "URoP.Field.AddProtectionOverride"}}
+          </button>
+        </div>
       </div>
     </div>
 
@@ -41,6 +84,8 @@
       <div class="card">
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
         <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.PrerequisitesText'}}">Voraussetzungen</label>
+        <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
         <textarea class="large" name="system.description">{{item.system.description}}</textarea>
       </div>
