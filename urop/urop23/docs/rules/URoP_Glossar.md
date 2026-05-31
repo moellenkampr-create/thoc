@@ -124,3 +124,23 @@ Der Waffen-Langtext soll bei der Erstellung in dieser Reihenfolge lesbar sein:
 - Gleich benannte Felder mit gleicher Bedeutung bleiben bewusst gleich benannt.
 - Aktueller Stand: `Qualitaet` ist in mehreren Item-Typen semantisch gleich und bleibt daher einheitlich.
 - Fuer den aktuellen Feldkern sind keine aktiven Doppelbezeichnungen mit unterschiedlicher Bedeutung vorgesehen.
+
+### 6.6 Cyberware-Feldbegriffe
+- Tier (`tier`): Einordnung in Ausbaustufe/Qualitaetssegment.
+- Aktivierungstyp (`activationType`): Nutzungsmodus (`passive`, `active`, `reaction`, `scene`).
+- Hat Mod-Slots (`hasModSlots`): Boolescher Schalter, ob Zusatzmodule andocken koennen.
+- Preis (`price`): Standardkosten in der Weltoekonomie.
+- Verfuegbarkeit/Legalitaet (`availabilityLegality`): Text zu Marktzugang, Restriktion und legalem Status.
+- Voraussetzungen (`prerequisitesText`): Kompatibilitaet, Mindestbedingungen und Ausschluesse.
+- Einbauort/Art (`installationProfile`): Eingriffsbereich, Invasivitaet und ggf. OP-Folgen.
+- Wartung/Energie/Hackbarkeit (`operationProfile`): Kompaktes Betriebsprofil statt drei separater Felder.
+- Risiken/Nebenwirkungen (`sideEffects`): Gebuendelte Risiken und unerwuenschte Folgeeffekte.
+- Kurztext (`rulesShort`): 1-2 Saetze fuer schnellen Tischzugriff.
+- Spezifische Effektbeschreibung (`description`): Konkrete Regelfunktion und Spielwirkung der Cyberware.
+
+Cyberware-Textstruktur (Leitlinie):
+- Kurztext: knapper Nutzen in 1-2 Saetzen.
+- Voraussetzungen: nur harte Bedingungen und Kompatibilitaetsgrenzen.
+- Spezifische Effektbeschreibung: reproduzierbare Wirkung im Spiel.
+- Einbauort/Art und Betriebsprofil kurz, klar, stichpunktartig.
+- Risiken/Nebenwirkungen als zusammengefasster Risikoblock.

@@ -101,7 +101,7 @@
     }
   },
   "Item": {
-    "types": ["gear", "consumable", "weapon", "armor", "maneuver", "skill"],
+    "types": ["gear", "consumable", "weapon", "armor", "cyberware", "maneuver", "skill"],
     "gear": {
       "tier": "T0",
       "price": 0,
@@ -149,6 +149,20 @@
           "value": 0
         }
       ],
+      "rulesShort": "",
+      "description": "",
+      "notes": ""
+    },
+    "cyberware": {
+      "tier": "T0",
+      "activationType": "passive",
+      "hasModSlots": false,
+      "price": 0,
+      "availabilityLegality": "",
+      "prerequisitesText": "",
+      "installationProfile": "",
+      "operationProfile": "",
+      "sideEffects": "",
       "rulesShort": "",
       "description": "",
       "notes": ""

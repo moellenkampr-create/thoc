@@ -75,6 +75,12 @@
       "ConfirmRemoveProtectionOverridePrompt": "Diesen spezifischen Schutzwert wirklich löschen?",
       "Appearance": "Aussehen",
       "Backstory": "Backstory",
+      "ActivationType": "Aktivierungstyp",
+      "HasModSlots": "Hat Mod-Slots",
+      "AvailabilityLegality": "Verfügbarkeit/Legalität",
+      "InstallationProfile": "Einbauort/Art",
+      "OperationProfile": "Wartung/Energie/Hackbarkeit",
+      "SideEffects": "Risiken/Nebenwirkungen",
       "PressureState": "Druckstatus",
       "Boosts": "Boosts",
       "SizeClass": "Größenstufe",
@@ -104,6 +110,12 @@
       "ProtectionValue": "Schutzwert der Rüstung zur Reduktion von Wirkung.",
       "ProtectionByDamageType": "Spezifische Schutzwerte pro Schadensart. Falls gesetzt, überschreibt der Eintrag den Basis-Schutzwert.",
       "UserSizeNominal": "Nominale Nutzergröße, für die die Rüstung passend ausgelegt ist.",
+      "CyberwareActivationType": "Nutzungsmodus der Cyberware (passiv, aktiv, reaktiv, szenisch).",
+      "HasModSlots": "Gibt an, ob diese Cyberware zusätzliche Optionen/Mods aufnehmen kann.",
+      "AvailabilityLegality": "Freitext zu Verfügbarkeit, Marktkanal und legalem Status.",
+      "InstallationProfile": "Freitext für Einbauort, Eingriffsart und typische OP-Folgen.",
+      "OperationProfile": "Kompakter Freitext für Wartung, Energiebedarf und Hackbarkeit.",
+      "SideEffects": "Gebündelter Freitext für Risiken und Nebenwirkungen.",
       "SkillLevel": "Aktuelle Stufe der Fertigkeit.",
       "SkillType": "Fertigkeitsebene: Sammelfertigkeit, Standardfertigkeit oder Spezialisierung.",
       "ApplicationClass": "Einsatzklasse der Fertigkeit im Spiel (Kampf, Aktion, Fluff).",
@@ -120,7 +132,15 @@
       "Description": "Ausführliche Lesefassung mit Wirkung, Risiko und Einsatzkontext.",
       "InternalNote": "Interne Notiz für SL/Autorenteam; nicht als öffentlicher Regeltext gedacht.",
       "WeaponAuthoringHintTitle": "Waffen-Textstruktur",
-      "WeaponAuthoringHintBody": "Kurztext: 1-2 Sätze für schnellen Überblick. Voraussetzungen: harte Mindestbedingungen und Handhabung. Beschreibung: strukturierter Langtext mit Einsatzrolle, Reichweite, Munition/Versorgung, Rückstoß, Feuerfrequenz, Sekundäreffekten und Besonderheiten."
+      "WeaponAuthoringHintBody": "Kurztext: 1-2 Sätze für schnellen Überblick. Voraussetzungen: harte Mindestbedingungen und Handhabung. Beschreibung: strukturierter Langtext mit Einsatzrolle, Reichweite, Munition/Versorgung, Rückstoß, Feuerfrequenz, Sekundäreffekten und Besonderheiten.",
+      "CyberwareAuthoringHintTitle": "Cyberware-Textstruktur",
+      "CyberwareAuthoringHintBody": "Kurztext: 1-2 Sätze mit Kernnutzen. Voraussetzungen: Kompatibilität, Mindestbedingungen, Konfliktpunkte. Spezifische Effektbeschreibung: konkrete Wirkung im Spiel. Einbauort/Art: Eingriffsgrad und Folgewirkungen. Wartung/Energie/Hackbarkeit und Risiken/Nebenwirkungen kompakt, stichpunktartig und reproduzierbar."
+    },
+    "CyberwareActivationType": {
+      "Passive": "Passiv",
+      "Active": "Aktiv",
+      "Reaction": "Reaktiv",
+      "Scene": "Szenisch"
     },
     "DamageType": {
       "None": "-",
@@ -171,6 +191,7 @@
       "consumable": "Verbrauchsgegenstand",
       "weapon": "Waffe",
       "armor": "Rüstung",
+      "cyberware": "Cyberware",
       "maneuver": "Manöver",
       "skill": "Fertigkeit"
     }

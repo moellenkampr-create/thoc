@@ -75,6 +75,12 @@
       "ConfirmRemoveProtectionOverridePrompt": "Delete this specific protection value?",
       "Appearance": "Appearance",
       "Backstory": "Backstory",
+      "ActivationType": "Activation type",
+      "HasModSlots": "Has mod slots",
+      "AvailabilityLegality": "Availability/legality",
+      "InstallationProfile": "Installation location/type",
+      "OperationProfile": "Maintenance/power/hackability",
+      "SideEffects": "Risks/side effects",
       "PressureState": "Pressure State",
       "Boosts": "Boosts",
       "SizeClass": "Size Class",
@@ -104,6 +110,12 @@
       "ProtectionValue": "Armor protection value used to reduce incoming effect.",
       "ProtectionByDamageType": "Specific protection values per damage type. If set, the entry overrides the base protection value.",
       "UserSizeNominal": "Nominal wearer size the armor is built for.",
+      "CyberwareActivationType": "Usage mode of this cyberware entry (passive, active, reaction, scene-based).",
+      "HasModSlots": "Indicates whether this cyberware can host additional mods/options.",
+      "AvailabilityLegality": "Free text for availability, market channel, and legal status.",
+      "InstallationProfile": "Free text for installation location, intervention type, and typical procedure fallout.",
+      "OperationProfile": "Compact free text for maintenance, power demand, and hackability.",
+      "SideEffects": "Combined free text for risks and side effects.",
       "SkillLevel": "Current skill level.",
       "SkillType": "Skill category: broad, standard, or specialization.",
       "ApplicationClass": "Primary play context for the skill (combat, action, fluff).",
@@ -120,7 +132,15 @@
       "Description": "Detailed reading with effect, risk, and usage context.",
       "InternalNote": "Internal note for GM/authoring use; not public-facing rules text.",
       "WeaponAuthoringHintTitle": "Weapon Text Structure",
-      "WeaponAuthoringHintBody": "Short text: 1-2 sentences for quick overview. Prerequisites: hard minimum conditions and handling limits. Description: structured long text with role, range behavior, ammo/power supply, recoil, fire cadence, secondary effects, and special notes."
+      "WeaponAuthoringHintBody": "Short text: 1-2 sentences for quick overview. Prerequisites: hard minimum conditions and handling limits. Description: structured long text with role, range behavior, ammo/power supply, recoil, fire cadence, secondary effects, and special notes.",
+      "CyberwareAuthoringHintTitle": "Cyberware Text Structure",
+      "CyberwareAuthoringHintBody": "Short text: 1-2 sentences for core utility. Prerequisites: compatibility, minimum conditions, conflict points. Specific effect description: concrete gameplay effect. Installation location/type: invasiveness and consequences. Keep maintenance/power/hackability and risks/side effects compact, bullet-like, and reproducible."
+    },
+    "CyberwareActivationType": {
+      "Passive": "Passive",
+      "Active": "Active",
+      "Reaction": "Reaction",
+      "Scene": "Scene-based"
     },
     "DamageType": {
       "None": "-",
@@ -171,6 +191,7 @@
       "consumable": "Consumable",
       "weapon": "Weapon",
       "armor": "Armor",
+      "cyberware": "Cyberware",
       "maneuver": "Maneuver",
       "skill": "Skill"
     }

@@ -1,0 +1,84 @@
+<form class="urop-sheet item-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="80" width="80"/>
+    <div class="header-main">
+      <input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'URoP.Item.Name'}}"/>
+      <div class="type-chip">{{itemTypeLabel}}</div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="effects">{{localize "URoP.Tab.Description"}}</a>
+    <a class="item" data-tab="details">{{localize "URoP.Tab.Details"}}</a>
+    <a class="item" data-tab="notes">{{localize "URoP.Tab.Internal"}}</a>
+  </nav>
+
+  <section class="sheet-body">
+
+    <div class="tab" data-group="primary" data-tab="details">
+      <div class="grid two-col">
+        <div class="card">
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Tier'}}">Tier</label>
+          <select name="system.tier">
+            <option value="T0" {{#if (uropEq item.system.tier "T0")}}selected{{/if}}>T0</option>
+            <option value="T1" {{#if (uropEq item.system.tier "T1")}}selected{{/if}}>T1</option>
+            <option value="T2" {{#if (uropEq item.system.tier "T2")}}selected{{/if}}>T2</option>
+            <option value="T3" {{#if (uropEq item.system.tier "T3")}}selected{{/if}}>T3</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.CyberwareActivationType'}}">{{localize "URoP.Field.ActivationType"}}</label>
+          <select name="system.activationType">
+            <option value="passive" {{#if (uropEq item.system.activationType "passive")}}selected{{/if}}>{{localize "URoP.CyberwareActivationType.Passive"}}</option>
+            <option value="active" {{#if (uropEq item.system.activationType "active")}}selected{{/if}}>{{localize "URoP.CyberwareActivationType.Active"}}</option>
+            <option value="reaction" {{#if (uropEq item.system.activationType "reaction")}}selected{{/if}}>{{localize "URoP.CyberwareActivationType.Reaction"}}</option>
+            <option value="scene" {{#if (uropEq item.system.activationType "scene")}}selected{{/if}}>{{localize "URoP.CyberwareActivationType.Scene"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Price'}}">Preis</label>
+          <input type="number" name="system.price" value="{{item.system.price}}"/>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.HasModSlots'}}">{{localize "URoP.Field.HasModSlots"}}</label>
+          <input type="checkbox" name="system.hasModSlots" {{#if item.system.hasModSlots}}checked{{/if}}/>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.AvailabilityLegality'}}">{{localize "URoP.Field.AvailabilityLegality"}}</label>
+          <textarea name="system.availabilityLegality">{{item.system.availabilityLegality}}</textarea>
+        </div>
+
+        <div class="card">
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.PrerequisitesText'}}">Voraussetzungen</label>
+          <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InstallationProfile'}}">{{localize "URoP.Field.InstallationProfile"}}</label>
+          <textarea name="system.installationProfile">{{item.system.installationProfile}}</textarea>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.OperationProfile'}}">{{localize "URoP.Field.OperationProfile"}}</label>
+          <textarea name="system.operationProfile">{{item.system.operationProfile}}</textarea>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SideEffects'}}">{{localize "URoP.Field.SideEffects"}}</label>
+          <textarea name="system.sideEffects">{{item.system.sideEffects}}</textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="effects">
+      <div class="card">
+        <div class="sheet-hint">
+          <h4>{{localize "URoP.ItemHelp.CyberwareAuthoringHintTitle"}}</h4>
+          <p>{{localize "URoP.ItemHelp.CyberwareAuthoringHintBody"}}</p>
+        </div>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
+        <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Spezifische Effektbeschreibung</label>
+        <textarea class="large" name="system.description">{{item.system.description}}</textarea>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="notes">
+      <div class="card">
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
+        <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
+      </div>
+    </div>
+
+  </section>
+</form>

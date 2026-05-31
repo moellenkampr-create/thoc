@@ -1,5 +1,17 @@
 # URoP Foundry Release Notes
 
+## [0.1.27] - 2026-05-31
+
+### Changed
+- Neuer Itemtyp `cyberware` mit eigenem Sheet, eigener Registrierung und Actor-Listendarstellung
+- Kompaktes Cyberware-Feldmodell umgesetzt: Aktivierungstyp, Mod-Slot-Boolean, Verfügbarkeit/Legalität, Einbauort/Art, Wartung/Energie/Hackbarkeit, Risiken/Nebenwirkungen
+- Hover-Hilfen (de/en) und Authoring-Hinweisblock für konsistentes Ausfüllen ergänzt
+- Glossar um verbindliche Cyberware-Felddefinitionen erweitert
+
+### Migration Required
+- yes
+- Bestehende Cyberware-Items erhalten fehlende Default-Felder beim Weltenstart
+
 ## [0.1.26] - 2026-05-31
 
 ### Changed

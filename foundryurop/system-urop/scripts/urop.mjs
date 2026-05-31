@@ -3,6 +3,7 @@ import { UropSkillSheet } from "./sheets/items/skill-sheet.mjs";
 import { UropManeuverSheet } from "./sheets/items/maneuver-sheet.mjs";
 import { UropWeaponSheet } from "./sheets/items/weapon-sheet.mjs";
 import { UropArmorSheet } from "./sheets/items/armor-sheet.mjs";
+import { UropCyberwareSheet } from "./sheets/items/cyberware-sheet.mjs";
 import { UropGearSheet } from "./sheets/items/gear-sheet.mjs";
 import { UropConsumableSheet } from "./sheets/items/consumable-sheet.mjs";
 
@@ -52,6 +53,18 @@ async function runSystemMigrations(fromVersion, toVersion) {
           }
         }
 
+        if (item.type === "cyberware") {
+          if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = "T0";
+          if (!foundry.utils.hasProperty(item, "system.activationType")) itemUpdates["system.activationType"] = "passive";
+          if (!foundry.utils.hasProperty(item, "system.hasModSlots")) itemUpdates["system.hasModSlots"] = false;
+          if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.availabilityLegality")) itemUpdates["system.availabilityLegality"] = "";
+          if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
+          if (!foundry.utils.hasProperty(item, "system.installationProfile")) itemUpdates["system.installationProfile"] = "";
+          if (!foundry.utils.hasProperty(item, "system.operationProfile")) itemUpdates["system.operationProfile"] = "";
+          if (!foundry.utils.hasProperty(item, "system.sideEffects")) itemUpdates["system.sideEffects"] = "";
+        }
+
         if (Object.keys(itemUpdates).length > 0) {
           await item.update(itemUpdates);
         }
@@ -81,6 +94,18 @@ async function runSystemMigrations(fromVersion, toVersion) {
         if (!Array.isArray(protectionByDamageType) || protectionByDamageType.length === 0) {
           itemUpdates["system.protectionByDamageType"] = [createEmptyProtectionOverride()];
         }
+      }
+
+      if (item.type === "cyberware") {
+        if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = "T0";
+        if (!foundry.utils.hasProperty(item, "system.activationType")) itemUpdates["system.activationType"] = "passive";
+        if (!foundry.utils.hasProperty(item, "system.hasModSlots")) itemUpdates["system.hasModSlots"] = false;
+        if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.availabilityLegality")) itemUpdates["system.availabilityLegality"] = "";
+        if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
+        if (!foundry.utils.hasProperty(item, "system.installationProfile")) itemUpdates["system.installationProfile"] = "";
+        if (!foundry.utils.hasProperty(item, "system.operationProfile")) itemUpdates["system.operationProfile"] = "";
+        if (!foundry.utils.hasProperty(item, "system.sideEffects")) itemUpdates["system.sideEffects"] = "";
       }
 
       if (Object.keys(itemUpdates).length > 0) {
@@ -141,6 +166,7 @@ Hooks.once("init", () => {
   Items.registerSheet("urop", UropManeuverSheet,   { types: ["maneuver"],    makeDefault: true, label: "URoP.Sheet.Maneuver" });
   Items.registerSheet("urop", UropWeaponSheet,     { types: ["weapon"],      makeDefault: true, label: "URoP.Sheet.Weapon" });
   Items.registerSheet("urop", UropArmorSheet,      { types: ["armor"],       makeDefault: true, label: "URoP.Sheet.Armor" });
+  Items.registerSheet("urop", UropCyberwareSheet,  { types: ["cyberware"],   makeDefault: true, label: "URoP.Sheet.Cyberware" });
   Items.registerSheet("urop", UropGearSheet,       { types: ["gear"],        makeDefault: true, label: "URoP.Sheet.Gear" });
   Items.registerSheet("urop", UropConsumableSheet, { types: ["consumable"],  makeDefault: true, label: "URoP.Sheet.Consumable" });
 
