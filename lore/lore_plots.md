@@ -495,7 +495,7 @@ source: lore_db.md
 - Elias' Zielbild im Erstgespraech:
   - eigene Darstellung gegen Georges Negativbild stabilisieren,
   - Zugang zu Elys Familienlinie (Vaterkontakt) anbahnen,
-  - ueber den "nicht-biologischer-Sohn"-Punkt Vertrauen erzeugen.
+  - ueber den "nicht-biologischer-Sohn"-Punkt rhetorischen Hebel gegenueber Ely/Lauri aufbauen (kein neuer Informationswert fuer George).
 - Aktueller Outcome:
   - Ely/Lauri bleiben skeptisch bis ablehnend,
   - der Vertrauenshebel wird als Keilversuch gelesen,
@@ -504,6 +504,9 @@ source: lore_db.md
   - Goodwins Forderung "ohne George" wird nicht akzeptiert; Ely/Lauri setzen sofortige George-Transparenz dagegen.
   - Das eigentliche Treffen laeuft unter erhöhter Sicherheitsparanoia (Treffpunktplanung, Entwaffnung, Fahrzeugmisstrauen).
   - Vor dem Einsteigen wirkt der Kontakt eher wie ein kontrollierter Risikocheck als wie ein vertrauensbildendes Gespraech.
+  - Im nachgereichten Gespraechsteil setzt Elias Entschuldigungs- und "nicht-biologischer-Vater"-Linien; Lauri liest beides als Taktik unter Druckrahmen.
+  - Elias' Zusage "George in Ruhe lassen" ist an Bedingung gekoppelt (George bleibt verschwunden / stoert Elias' Laufbahn nicht); Wahrheitsgehalt bleibt bewusst offen (kann taktische Zwischenrhetorik sein).
+  - Elias fordert zusaetzlich Zugang zur Ely-Elternlinie; dadurch oeffnet sich ein neuer Hebel ausserhalb der direkten George-Achse.
 - Plotfunktion:
   - Race-Event wird zur politischen Kontaktkulisse statt zum eigentlichen Hauptkonflikt.
   - Elias wird als aktiver Verhandler sichtbar, nicht nur als Schattenkontrolle.
@@ -515,6 +518,9 @@ source: lore_db.md
   - Ely prueft Ambidexterity-Chip (Qualitaetsstufen, Vic als Beschaffungsknoten),
   - Lauri startet Waffengespraech bei Wilson (Second Amendment).
   - Lauri setzt zusaetzlich einen Ermittlungsstrang: Oggy soll das Video der unbekannten Apartment-Frau identifizieren.
+  - Wilson-Pfad konkretisiert sich operativ: Munition + Ersatzmagazine sind beschafft; Sabot-Munition ("Kate") wird als harte Penetrationsoption angeboten.
+  - Bee-/Gel-Munition wird als non-lethal-naehere Option sichtbar, ist aber an Schrotflintenplattform gebunden.
+  - Betaeubungs- und Elektromunition sind bei Wilson nicht verfuegbar; der Non-Lethal-Pfad bleibt damit eingeschraenkt und stark rollenabhaengig.
 - Plotfunktion:
   - Das Trio baut zeitgleich Mobilitaet, Waffenkompetenz und Schnittstellen-Upgrades auf.
   - Der Pfad koppelt direkt an Rocky-Ridge-/Gewaltfragen und an die Frage, wie "toedlich" das Trio agieren muss.

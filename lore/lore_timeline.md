@@ -843,4 +843,15 @@ source: lore_db.md
       - Elias erscheint mit Wagen und fordert Einsteigen.
       - Ely/Lauri reagieren zunaechst mit starkem Misstrauen.
       - Thomas verlangt Abgabe schwerer Bewaffnung; Ely/Lauri legen Waffen ab und steigen danach ein.
-    - Der Tagebucheintrag endet mit dem Einsteigen; Gespraechsinhalt im Wagen ist in dieser Sicht noch nicht enthalten.
+    - In einem nachgereichten Lauri-Tagebuchabschnitt wird der Wagenblock weitergefuehrt (weiterhin Einzelsicht/ARBEITSSTAND):
+      - Lauri bindet Elias' Entschuldigung explizit an kuenftige Taten (keine sofortige Annahme).
+      - Elias setzt den Punkt "nicht-biologischer Vater" als Gespraechshebel; Lauri liest das als strategischen Druck, nicht als Vertrauensangebot.
+      - Ely/Lauri fordern, dass Elias George in Ruhe laesst; Elias koppelt Zurueckhaltung an Georges Unsichtbarkeit/Nichteinmischung.
+      - Elias will Kontakt zu Elys Eltern; Ely sendet seine Visitenkarte per anonymer Drohne an die Eltern weiter ("mir geht es gut"-Marker).
+      - Das Tracker-Risiko der Karte wird im weiteren Stand als Spieler-Paranoia gefuehrt, nicht als bestaetigter Technikbefund.
+    - H10-Nachlauf aus Lauri-Sicht:
+      - Wilson/Beschaffung konkretisiert sich: Munition + Ersatzmagazine, Sabot-Option fuer "Kate", Bee/Gel nur fuer Schrotflinte.
+      - Keine Betaeubungs-/Elektromunition bei Wilson verfuegbar.
+      - Non-Lethal-Impuls bleibt aktiv (moeglichst lange ohne Toetungen, auch im Blick auf Georges Grenze).
+      - Alltag-/Bindungsmarker (Wrap-Stopp, Rueckkehr zu George/Ely) bleiben als Beziehungs-/Stresskontext, nicht als Detailchronik.
+      - Oggy-Ruecklauf zur unbekannten Frau: keine persoenliche Identifikation, aber hohe Valentino-Wahrscheinlichkeit ueber Farben/Tattoos; laut Oggy duerfte sie bei seinem Ausstieg noch sehr jung gewesen sein.
