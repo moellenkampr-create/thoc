@@ -817,3 +817,30 @@ source: lore_db.md
       - George programmiert weiter an der VI.
       - Fuer vollstaendiges Einklinken fehlen noch mehrere Module.
       - Ein grosser Teil ist bereits implementiert.
+
+  - **2077-07-18 (Spielleiter-/Erzaehler-Sicht, Rennen/Elias/Panam) [ARBEITSSTAND]**:
+    - Tagesstart bei den Aldecaldos mit "Lauri-Morgen"; Fruehstuecksmarker: "Aldecaldo Sonntags Tombolaa".
+    - Das Trio testet KITT bei Oggy: manuelles Fahren ist moeglich, Fahrzeug bleibt technisch unfertig.
+    - Ely recherchiert Ambidexterity-Chips fuer duale Waffen (mehrere Qualitaetsstufen) und plant Rueckfrage bei Vik.
+    - Das Trio faehrt zum Rennen (Startfenster um 14:00); George tritt mit schwarzen Haaren als Tarnung auf.
+    - Waerend George Essen besorgt, spricht **Thomas Goodwin** (Sekretaer von Elias) Ely und Lauri an.
+    - Goodwin uebermittelt: Elias will mit ihnen sprechen, moeglichst ohne George; Begruendung ist die harte Spannung Elias<->George.
+    - Rennen verlaeuft mit vergleichsweise wenigen Toten; V faehrt fuer Claire im **Beast** unter die ersten drei.
+    - Ely und Lauri treffen Elias spaeter am Nachmittag, bleiben aber skeptisch/ablehnend.
+    - Elias versucht Selbsteinordnung ("nicht so schlecht wie dargestellt") und will Elys Vater kennenlernen.
+    - Ely schickt murrend Elias' Karte plus "mir geht es gut"-Nachricht an ihren Vater und entzieht sich weiterem Follow-up.
+    - Elias setzt den Hebel "George ist nicht mein biologischer Sohn"; Ely/Lauri deuten dies als Keilversuch gegen das Trio.
+    - Danach geht es ins H10; Lauri spricht mit **Wilson** (Second Amendment) ueber Waffen und Munition.
+    - Abendmarker: Treffen mit Panam im **Afterlife** ist angesetzt.
+
+  - **2077-07-18 (Lauri-Sicht, Tagebucheintrag - Goodwin/Elias-Anbahnung) [ARBEITSSTAND]**:
+    - Trio-Morgen startet als enger Bindungs-/Stabilisierungsmarker; Ue18-Anteile bleiben Kontext, keine Detailchronik.
+    - Die Idee mit **Betaeubungsgeschossen** wird im Trio geprueft und vorlaeufig als unpraktisch verworfen (unklare Drogen-/Resistenzlage der Gegenseite).
+    - Bei Oggy setzt Lauri zusaetzlich einen stillen Investigativschritt: sie sendet Oggy ein Video zur Frage, ob er die unbekannte Frau aus der Apartment-Spur erkennt.
+    - Goodwin-Ansprache wird in Lauris Wahrnehmung als Trennungszug gelesen; Ely/Lauri lehnen ein Gespraech ohne George klar ab und informieren George sofort.
+    - Vor dem Elias-Kontakt planen die drei den Treffpunkt taktisch waehrend des Rennens.
+    - Sicherheitsmarker vor Einstieg:
+      - Elias erscheint mit Wagen und fordert Einsteigen.
+      - Ely/Lauri reagieren zunaechst mit starkem Misstrauen.
+      - Thomas verlangt Abgabe schwerer Bewaffnung; Ely/Lauri legen Waffen ab und steigen danach ein.
+    - Der Tagebucheintrag endet mit dem Einsteigen; Gespraechsinhalt im Wagen ist in dieser Sicht noch nicht enthalten.

@@ -488,6 +488,37 @@ source: lore_db.md
 - Sie befindet sich aktuell in **Europa**, warnt George vor **Elias' Rueckkehr nach NC** und oeffnet mit der **Monaco-Einladung in zwei Monaten** einen moeglichen spaeteren Flucht-/Familienkorridor.
 - George meldet ihr die Verlobung mit **Lauri** und **Ely**; die Mutter reagiert warm und will beide bei direkter Gelegenheit kennenlernen.
 
+### 4.11 Elias-Erstkontakt ueber Rennkulisse (18.07)
+**ARBEITSSTAND**
+- Fixpunkt: Elias-Linie ist am 18.07 von indirekter Beobachtung auf direkte Kontaktpolitik gewechselt.
+- Operativer Einstieg laeuft ueber **Thomas Goodwin** (Elias-Sekretaer), adressiert an Ely/Lauri und bewusst in Georges Abwesenheit.
+- Elias' Zielbild im Erstgespraech:
+  - eigene Darstellung gegen Georges Negativbild stabilisieren,
+  - Zugang zu Elys Familienlinie (Vaterkontakt) anbahnen,
+  - ueber den "nicht-biologischer-Sohn"-Punkt Vertrauen erzeugen.
+- Aktueller Outcome:
+  - Ely/Lauri bleiben skeptisch bis ablehnend,
+  - der Vertrauenshebel wird als Keilversuch gelesen,
+  - Elias erreicht Kontakt, aber keine stabile Annahme.
+- Nachschaerfung aus Lauri-Sicht:
+  - Goodwins Forderung "ohne George" wird nicht akzeptiert; Ely/Lauri setzen sofortige George-Transparenz dagegen.
+  - Das eigentliche Treffen laeuft unter erhöhter Sicherheitsparanoia (Treffpunktplanung, Entwaffnung, Fahrzeugmisstrauen).
+  - Vor dem Einsteigen wirkt der Kontakt eher wie ein kontrollierter Risikocheck als wie ein vertrauensbildendes Gespraech.
+- Plotfunktion:
+  - Race-Event wird zur politischen Kontaktkulisse statt zum eigentlichen Hauptkonflikt.
+  - Elias wird als aktiver Verhandler sichtbar, nicht nur als Schattenkontrolle.
+
+### 4.12 18.07 Upgrade-/Beschaffungspfad (KITT + Waffen)
+**ARBEITSSTAND**
+- KITT bleibt in einem einsatznahen Zwischenzustand (fahrbar, aber technisch unvollstaendig).
+- Parallel oeffnet sich ein klarer Ausruestungspfad:
+  - Ely prueft Ambidexterity-Chip (Qualitaetsstufen, Vic als Beschaffungsknoten),
+  - Lauri startet Waffengespraech bei Wilson (Second Amendment).
+  - Lauri setzt zusaetzlich einen Ermittlungsstrang: Oggy soll das Video der unbekannten Apartment-Frau identifizieren.
+- Plotfunktion:
+  - Das Trio baut zeitgleich Mobilitaet, Waffenkompetenz und Schnittstellen-Upgrades auf.
+  - Der Pfad koppelt direkt an Rocky-Ridge-/Gewaltfragen und an die Frage, wie "toedlich" das Trio agieren muss.
+
 ### 4.9 Corporate-Nachschlag nach Exit-Anfragen
 **ARBEITSSTAND**
 - Fixpunkt: Die Freikaufanfragen vom **2077-07-17** machen aus einem stillen Rechtsproblem eine aktive Konzernspur.
