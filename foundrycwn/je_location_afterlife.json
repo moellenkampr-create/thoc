@@ -1,0 +1,17 @@
+{
+  "name": "Afterlife",
+  "pages": [
+    {
+      "name": "Ortprofil",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>Ortprofil:</strong> Das <strong>Afterlife</strong> ist eine ikonische Merc-Bar in Night City und ein zentraler Treffpunkt fuer Solos, Söldner und Fixer.</p><ul><li><strong>Funktion:</strong> Job-Hub, Informationsknoten, Kontaktboerse fuer High-Risk/High-Pay-Auftraege</li><li><strong>Milieu:</strong> Runner, Veteranen, Top-Fixer, Broker und Auftraggeber mit hoher Street-Cred-Dichte</li><li><strong>District:</strong> Watson (laut CP2077-Wiki-Quellenlage)</li><li><strong>Praegende Namen:</strong> Rogue Amendiares, Claire Russell, Nix, Crispin \"Squama\" Weyland</li><li><strong>Zugang:</strong> In der CP2077-Logik an Story/Street-Cred gekoppelt; kein typischer Fruehspiel-Ort</li></ul><p><strong>THoC-Anker:</strong> 18.07.2077 Abendtreffen mit Panam als Briefing-/Koordinationsfenster fuer den Rocky-Ridge-Strang.</p><p><em>Quellenhinweis:</em> Fandom war technisch nicht abrufbar (HTTP 403); Faktenbasis aus frei abrufbarer CP2077-Wiki-Quelle (Fextralife) und THoC-Loreabgleich.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ]
+}
