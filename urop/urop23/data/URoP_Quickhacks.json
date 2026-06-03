@@ -995,6 +995,561 @@
         "relatedStateIds": [],
         "relatedConsequenceIds": []
       }
+    },
+    {
+      "id": "qh_ping",
+      "name": "Ping",
+      "hackClass": "info",
+      "sourceType": [
+        "os",
+        "deck"
+      ],
+      "targetTypes": [
+        "person",
+        "device",
+        "network_node"
+      ],
+      "accessRoutes": [
+        "open_wireless",
+        "same_network",
+        "scanned_marked"
+      ],
+      "executionMode": "basis",
+      "scope": "small_system",
+      "availability": "common",
+      "tags": [
+        "aufklaerung",
+        "netzbild",
+        "teamplay"
+      ],
+      "rulesShort": "Liefert ein kurzfristiges Netzbild mit verbundenen relevanten Zielen.",
+      "description": "Ping erweitert die Aufklärung über ein einzelnes Ziel hinaus und zeigt lokale digitale Zusammenhänge. Er ist ein Setup-Hack und soll Folgeaktionen der Gruppe vorbereiten.",
+      "typicalEffects": [
+        "vernetzte Ziele sichtbar machen",
+        "Sicherheitsknoten lokalisieren",
+        "Routen fuer Folgehacks oeffnen"
+      ],
+      "riskProfile": [
+        "trace"
+      ],
+      "counterplay": [
+        "Segmentierung",
+        "Spoof-Netz",
+        "stille Knoten"
+      ],
+      "actionCost": "free",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "requirementsText": "Ein plausibler digitaler Einstiegspunkt muss bestehen.; Ping liefert Netzlage und ersetzt keinen Kontrollhack.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_memory_wipe",
+      "name": "Memory Wipe",
+      "hackClass": "stoerung",
+      "sourceType": [
+        "os",
+        "deck"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware"
+      ],
+      "accessRoutes": [
+        "scanned_marked",
+        "same_network",
+        "direct_link"
+      ],
+      "executionMode": "manoever",
+      "scope": "single_target",
+      "availability": "restricted",
+      "tags": [
+        "stealth",
+        "desorientierung",
+        "kontrollfenster"
+      ],
+      "rulesShort": "Erzeugt ein kurzes Erinnerungs- und Orientierungsloch bei einem vernetzten Ziel.",
+      "description": "Memory Wipe soll ein temporäres Fenster für Infiltration oder Rückzug öffnen. Er ersetzt keine dauerhafte Gedächtnisumschreibung.",
+      "typicalEffects": [
+        "kurze Desorientierung",
+        "letzte Beobachtung verliert Gewicht",
+        "sofortige Verfolgung verlangsamt"
+      ],
+      "riskProfile": [
+        "trace",
+        "counter_intrusion",
+        "overheat"
+      ],
+      "counterplay": [
+        "isolierte Implantate",
+        "Team-Bestaetigung",
+        "Protokollabgleich"
+      ],
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Ein plausibler Zugriff auf neurodigitale oder sensorische Schnittstellen muss bestehen.; Wirkung bleibt kurz und situativ.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_contagion",
+      "name": "Contagion",
+      "hackClass": "ueberlast",
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware",
+        "drone"
+      ],
+      "accessRoutes": [
+        "same_network",
+        "prepared_access"
+      ],
+      "executionMode": "verlaengerte_probe",
+      "scope": "small_system",
+      "availability": "rare",
+      "tags": [
+        "ausbreitung",
+        "druck",
+        "netzschaden"
+      ],
+      "rulesShort": "Lässt eine Störung über eng gekoppelte vernetzte Ziele weiterlaufen.",
+      "description": "Contagion ist ein eskalierender Überlast-Hack für dicht vernetzte Lagen. Er braucht klare Netzlogik und ist kein universeller Flächenknopf.",
+      "typicalEffects": [
+        "Überlast springt auf nahe Knoten",
+        "mehrere Ziele unter Druck",
+        "lokales System wird instabil"
+      ],
+      "riskProfile": [
+        "trace",
+        "overheat",
+        "alarm",
+        "collateral"
+      ],
+      "counterplay": [
+        "hart segmentiertes Netz",
+        "Notabschaltung",
+        "analoge Trennung"
+      ],
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Der Effekt braucht ein plausibel gekoppeltes Netz mehrerer Ziele.; Ohne dichte Kopplung bleibt es bei Einzelzielwirkung.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_cripple_movement",
+      "name": "Cripple Movement",
+      "hackClass": "stoerung",
+      "sourceType": [
+        "os",
+        "deck"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware",
+        "drone"
+      ],
+      "accessRoutes": [
+        "scanned_marked",
+        "same_network",
+        "direct_link"
+      ],
+      "executionMode": "manoever",
+      "scope": "single_target",
+      "availability": "uncommon",
+      "tags": [
+        "bewegung",
+        "kontrolle",
+        "combat"
+      ],
+      "rulesShort": "Stört kurz Bewegungssteuerung oder Motorik des Ziels.",
+      "description": "Der Hack ist ein temporärer Bewegungsentzug für vernetzte Ziele. Er soll kurze taktische Fenster schaffen und keine komplette Dauersperre ersetzen.",
+      "typicalEffects": [
+        "Bewegung verlangsamt",
+        "Ausweichmuster bricht",
+        "kurze Standphase"
+      ],
+      "riskProfile": [
+        "trace",
+        "counter_intrusion"
+      ],
+      "counterplay": [
+        "manuelle Steuerung",
+        "offline-Modus",
+        "harte Motorikreserve"
+      ],
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "requirementsText": "Ein plausibler Zugriff auf Bewegungslogik, Assistenzsystem oder Motorik-Schnittstelle muss bestehen.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_overheat",
+      "name": "Overheat",
+      "hackClass": "ueberlast",
+      "sourceType": [
+        "os",
+        "deck"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware",
+        "device"
+      ],
+      "accessRoutes": [
+        "scanned_marked",
+        "same_network",
+        "direct_link"
+      ],
+      "executionMode": "manoever",
+      "scope": "single_target",
+      "availability": "restricted",
+      "tags": [
+        "hitze",
+        "systemdruck",
+        "combat"
+      ],
+      "rulesShort": "Treibt thermische Last hoch und erzeugt akuten Systemstress.",
+      "description": "Overheat fokussiert auf thermische Überlast statt direkter Kontrolle. Der Hack wirkt stark auf cyberisierte Ziele und ist gegen isolierte Technik deutlich schwächer.",
+      "typicalEffects": [
+        "starke Wärmespitze",
+        "Leistungseinbruch",
+        "kurze Systempanik"
+      ],
+      "riskProfile": [
+        "trace",
+        "overheat",
+        "counter_intrusion"
+      ],
+      "counterplay": [
+        "Kühlreserve",
+        "Isolation",
+        "Not-Bypass"
+      ],
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Ein plausibler Zugriff auf thermisch belastbare Cyberware oder Geräte muss bestehen.; Gegen minimal vernetzte Ziele sinkt die Wirkung stark.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_short_circuit",
+      "name": "Short Circuit",
+      "hackClass": "ueberlast",
+      "sourceType": [
+        "os",
+        "deck"
+      ],
+      "targetTypes": [
+        "cyberware",
+        "device",
+        "drone"
+      ],
+      "accessRoutes": [
+        "scanned_marked",
+        "same_network",
+        "direct_link"
+      ],
+      "executionMode": "manoever",
+      "scope": "single_target",
+      "availability": "uncommon",
+      "tags": [
+        "elektrik",
+        "schock",
+        "stoerung"
+      ],
+      "rulesShort": "Erzwingt einen elektrischen Kurzschluss im Zielsystem.",
+      "description": "Short Circuit ist ein klarer Einzelziel-Hack gegen vernetzte Elektronik. Er passt für gezielte Kampfstörung und technische Neutralisierung.",
+      "typicalEffects": [
+        "System reset",
+        "Leitungsausfall",
+        "kurze Kontrollluecke"
+      ],
+      "riskProfile": [
+        "trace",
+        "counter_intrusion",
+        "collateral"
+      ],
+      "counterplay": [
+        "Sicherungskaskade",
+        "isolierte Sektionen",
+        "redundante Leitungen"
+      ],
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "requirementsText": "Ein plausibler Zugriff auf elektrische Kernlogik oder Implantatsteuerung muss bestehen.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_request_backup",
+      "name": "Request Backup",
+      "hackClass": "kontrolle",
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "security_system",
+        "network_node"
+      ],
+      "accessRoutes": [
+        "same_network",
+        "prepared_access"
+      ],
+      "executionMode": "basis",
+      "scope": "small_system",
+      "availability": "restricted",
+      "tags": [
+        "social_engineering",
+        "alarm",
+        "lageverschiebung"
+      ],
+      "rulesShort": "Triggert glaubhaft eine falsche Backup-Anforderung im Sicherheitsfluss.",
+      "description": "Der Hack manipuliert Einsatzlogik und verschiebt Kräfte. Er ist ein taktischer Lagenhack statt direkter Schadenswirkung.",
+      "typicalEffects": [
+        "Sicherheitskräfte umleiten",
+        "Bereich kurzfristig entlasten",
+        "falsche Priorität erzwingen"
+      ],
+      "riskProfile": [
+        "trace",
+        "alarm",
+        "counter_intrusion"
+      ],
+      "counterplay": [
+        "menschliche Freigabe",
+        "Signaturcheck",
+        "Zeitstempelabgleich"
+      ],
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Der Hack braucht Zugriff auf Dispatch-, Alarm- oder Priorisierungslogik.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_detonate_grenade",
+      "name": "Detonate Grenade",
+      "hackClass": "ueberlast",
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "person",
+        "device"
+      ],
+      "accessRoutes": [
+        "scanned_marked",
+        "same_network",
+        "prepared_access"
+      ],
+      "executionMode": "manoever",
+      "scope": "single_target",
+      "availability": "rare",
+      "tags": [
+        "explosiv",
+        "combat",
+        "high_risk"
+      ],
+      "rulesShort": "Manipuliert ein vernetztes Sprengobjekt für vorzeitige Auslösung.",
+      "description": "Sehr starker Spezialhack mit klaren Voraussetzungen. Ohne plausibles digitales Zielobjekt ist der Hack nicht anwendbar.",
+      "typicalEffects": [
+        "vorzeitige Auslösung",
+        "Wurf abgebrochen",
+        "taktische Zonenverschiebung"
+      ],
+      "riskProfile": [
+        "trace",
+        "alarm",
+        "collateral",
+        "counter_intrusion"
+      ],
+      "counterplay": [
+        "analoge Zündung",
+        "airgapped Sicherung",
+        "manueller Safemode"
+      ],
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Es muss ein plausibel vernetztes oder digital gesichertes Sprengobjekt vorliegen.; Ohne digitales Angriffsfeld kein Hackeffekt.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_cyberpsychosis",
+      "name": "Cyberpsychosis",
+      "hackClass": "kontrolle",
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware"
+      ],
+      "accessRoutes": [
+        "prepared_access",
+        "same_network",
+        "direct_link"
+      ],
+      "executionMode": "verlaengerte_probe",
+      "scope": "single_target",
+      "availability": "rare",
+      "tags": [
+        "mentaldruck",
+        "kontrollbruch",
+        "high_risk"
+      ],
+      "rulesShort": "Erzwingt einen schweren neurodigitalen Kontrollbruch bei stark vernetztem Ziel.",
+      "description": "Cyberpsychosis ist ein extremer Eingriff und nur mit starkem Setup plausibel. In URoP soll der Effekt als riskante Ausnahmespitze laufen, nicht als Standardwerkzeug.",
+      "typicalEffects": [
+        "kurzer Kontrollverlust",
+        "Feindpriorisierung kippt",
+        "massive Selbstgefährdung"
+      ],
+      "riskProfile": [
+        "trace",
+        "counter_intrusion",
+        "alarm",
+        "collateral",
+        "overheat"
+      ],
+      "counterplay": [
+        "isolierte Neurokern-Logik",
+        "hohe mentale Stabilität",
+        "Notabschaltung"
+      ],
+      "actionCost": "three_actions",
+      "usageWindow": "prepared",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Braucht vorbereiteten Zugang oder direkten Link auf hochgradig cyberisiertes Ziel.; Dieser Hack ist kein regulärer Kampfstandard und sollte als Eskalationswerkzeug behandelt werden.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_suicide",
+      "name": "Suicide",
+      "hackClass": "ueberlast",
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware"
+      ],
+      "accessRoutes": [
+        "prepared_access",
+        "direct_link"
+      ],
+      "executionMode": "verlaengerte_probe",
+      "scope": "single_target",
+      "availability": "rare",
+      "tags": [
+        "extrem",
+        "kontrollbruch",
+        "high_risk"
+      ],
+      "rulesShort": "Extremer Neuroangriff auf Selbstkontrolle eines stark vernetzten Ziels.",
+      "description": "Dieser Hack ist als harter Ausnahmefall gedacht. Er benötigt massiven Zugriff und sollte nur in entsprechend schweren Lagen auftreten.",
+      "typicalEffects": [
+        "akuter Kontrollbruch",
+        "Selbstschädigungsimpuls",
+        "dramatische Eskalation"
+      ],
+      "riskProfile": [
+        "trace",
+        "alarm",
+        "counter_intrusion",
+        "overheat",
+        "collateral"
+      ],
+      "counterplay": [
+        "harte Isolierung",
+        "Neuro-Failsafe",
+        "Sicherheitsüberwachung"
+      ],
+      "actionCost": "four_actions",
+      "usageWindow": "prepared",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Nur mit vorbereitetem Zugang oder direktem Link auf hochgradig cyberisiertes Ziel plausibel.; Als extremer Ausnahmehack mit hohen narrativen und taktischen Kosten behandeln.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_synapse_burnout",
+      "name": "Synapse Burnout",
+      "hackClass": "ueberlast",
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "person",
+        "cyberware"
+      ],
+      "accessRoutes": [
+        "scanned_marked",
+        "prepared_access",
+        "direct_link"
+      ],
+      "executionMode": "manoever",
+      "scope": "single_target",
+      "availability": "rare",
+      "tags": [
+        "nervenlast",
+        "systemversagen",
+        "combat"
+      ],
+      "rulesShort": "Erzwingt synaptische Überlast mit schwerem Ausfallfenster.",
+      "description": "Synapse Burnout ist ein offensiver Hochrisiko-Hack gegen neurodigitale Ziele. Er soll selten und spürbar bleiben.",
+      "typicalEffects": [
+        "starker Leistungseinbruch",
+        "kurzer Totalaussetzer",
+        "Folgefehler in Cyberware"
+      ],
+      "riskProfile": [
+        "trace",
+        "overheat",
+        "counter_intrusion"
+      ],
+      "counterplay": [
+        "Neuro-Schutz",
+        "gekappte Netzpfade",
+        "medizinische Stabilisierung"
+      ],
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Braucht plausiblen Zugriff auf neurodigitale Zielstruktur.; Gegen schwach cyberisierte Ziele sinkt Wirkung deutlich.",
+      "buildCost": 0
+    },
+    {
+      "id": "qh_system_collapse",
+      "name": "System Collapse",
+      "hackClass": "ueberlast",
+      "sourceType": ["deck", "prepared_access"],
+      "targetTypes": ["device", "security_system", "drone", "network_node"],
+      "accessRoutes": ["same_network", "prepared_access", "direct_link"],
+      "executionMode": "verlaengerte_probe",
+      "scope": "small_system",
+      "availability": "rare",
+      "tags": ["totalausfall", "netz", "hochrisko"],
+      "rulesShort": "Fuehrt ein lokales Teilsystem in den kontrollierten Zusammenbruch.",
+      "description": "System Collapse ist kein normaler Kampfhack, sondern ein starker Szeneneingriff gegen vernetzte Infrastruktur.",
+      "typicalEffects": ["lokaler Teilausfall", "Sicherheitsbruch", "Folgefenster fuer Team"],
+      "riskProfile": ["trace", "alarm", "collateral"],
+      "counterplay": ["Notfallpfade", "Redundanz", "manuelle Umschaltung"],
+      "actionCost": "three_actions",
+      "usageWindow": "prepared",
+      "reuseEscalationProfile": "strict_scene",
+      "requirementsText": "Braucht vorbereiteten Zugang auf ein zusammenhaengendes Teilnetz oder direkten Link.",
+      "buildCost": 0
     }
   ],
   "quickhackCostReference": {

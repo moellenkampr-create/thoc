@@ -228,7 +228,7 @@ So wird Hacking nicht zum Solominispiel neben der Gruppe.
 ---
 
 ## 10. ReferenzfÃ¤lle [ARBEITSSTAND]
-Der aktuelle JSON-Bestand fÃ¼hrt unter anderem:
+Der aktuelle JSON-Bestand fÃ¼hrt:
 - `Scan & Markieren`
 - `Status lesen`
 - `Sensoren blenden`
@@ -241,8 +241,22 @@ Der aktuelle JSON-Bestand fÃ¼hrt unter anderem:
 - `Drohne umflaggen`
 - `Systemschock`
 - `Sicherheitsfenster Ã¶ffnen`
+- `Ping`
+- `Memory Wipe`
+- `Contagion`
+- `Cripple Movement`
+- `Overheat`
+- `Short Circuit`
+- `Request Backup`
+- `Detonate Grenade`
+- `Cyberpsychosis`
+- `Suicide`
+- `Synapse Burnout`
+- `System Collapse`
 
-Diese Liste ist eine **erste Arbeitsbasis**, kein vollstÃ¤ndiger Katalog.
+Hinweis zur Herkunft:
+- Die zusaetzlichen Namen orientieren sich an dem gÃ¤ngigen Cyberpunk-Wiki/Fandom-Quickhack-Katalog.
+- Die URoP-Fassung Ã¼bernimmt diese nicht 1:1 als Lore-Kopie, sondern als regeltechnisch eingehegte URoP-Implementierung mit Zugriff, Risiko und Einsatzfenster.
 
 ## 10.1 Erwerbskosten (EP) [TESTSTAND]
 Quickhacks sind im Build aktuell **nicht bepreist**.
@@ -266,6 +280,18 @@ Bis zur finalen Kostenrunde gilt fuer alle Referenzhacks:
 - `Drohne umflaggen` = **0 EP**
 - `Systemschock` = **0 EP**
 - `Sicherheitsfenster Ã¶ffnen` = **0 EP**
+- `Ping` = **0 EP**
+- `Memory Wipe` = **0 EP**
+- `Contagion` = **0 EP**
+- `Cripple Movement` = **0 EP**
+- `Overheat` = **0 EP**
+- `Short Circuit` = **0 EP**
+- `Request Backup` = **0 EP**
+- `Detonate Grenade` = **0 EP**
+- `Cyberpsychosis` = **0 EP**
+- `Suicide` = **0 EP**
+- `Synapse Burnout` = **0 EP**
+- `System Collapse` = **0 EP**
 
 ## 10.3 Einsatzprofile im Referenzbestand [TESTSTAND]
 Die JSON-Daten fuehren jetzt fuer den aktiven Referenzbestand zusaetzliche Felder, die an die Manoever-Logik anschliessen:
@@ -286,13 +312,12 @@ Aktuelle gemeinsame Enum-Leitlinie:
 Aktuell ist dieses Profil fuer den ganzen Referenzsatz gepflegt.
 
 Grobe Lesart im Bestand:
-- `Scan & Markieren` und `Status lesen`: kleine Infohacks, meist `free`, `unlimited`, `none`.
-- `Sensoren blenden`: kurze Stoerung, weiter eher `action`, `oncePer Conflict`, `standardConflict`.
-- `Waffe sperren` und `Systemschock`: direkte Kampfentzugs- oder Ueberlasthacks, nach Schaerfung jetzt eher `action`, `oncePer Scene`, `strictScene`.
-- `TÃ¼r freigeben`, `Fahrzeugsicherheit umgehen` und `Sicherheitsschloss freischalten`: direkte Zugriffs- und Freigabehacks, meist `action`, `unlimited`, `none`.
-- `Kamera auf freundlich`: lokaler Sicherheitsumschrieb, `action`, `oncePer Conflict`, `standardConflict`.
-- `Autoturret auf freundlich` und `Drohne umflaggen`: starke bewaffnete Kontrollhacks, nach Schaerfung jetzt eher `twoActions`, `oncePer Scene`, `strictScene`.
-- `Sicherheitsfenster Ã¶ffnen`: starker Setuphack, weiter `action`, `oncePer Scene`, `strictScene`.
+- `Scan & Markieren`, `Status lesen` und `Ping`: Info- und Setuphacks, ueberwiegend niedrigschwellig mit klarer Zugriffsfiktion.
+- `Sensoren blenden`, `Cripple Movement` und `Memory Wipe`: Stoerhacks fuer kurze taktische Fenster statt dauerhafte Vollkontrolle.
+- `Waffe sperren`, `Systemschock`, `Overheat`, `Short Circuit` und `Synapse Burnout`: direkte Kampfdruck- und Ueberlast-Hacks mit strengerem Risiko-/Einsatzprofil.
+- `TÃ¼r freigeben`, `Fahrzeugsicherheit umgehen`, `Sicherheitsschloss freischalten` und `Sicherheitsfenster Ã¶ffnen`: Zugriff- und Infrastrukturhacks, stark von vorbereitetem Zugang und Szenenlogik abhaengig.
+- `Kamera auf freundlich`, `Autoturret auf freundlich`, `Drohne umflaggen` und `Request Backup`: Kontrollhacks fuer Sicherheitslogik, Prioritaeten und IFF.
+- `Contagion`, `Detonate Grenade`, `Cyberpsychosis`, `Suicide` und `System Collapse`: Hochrisiko-Hacks fuer eskalierte Lagen mit klaren Leitplanken.
 
 ## 10.4 Balancing-Leitplanken fuer starke Quickhacks [ARBEITSSTAND]
 Fuer die staerkeren Quickhacks gilt jetzt ausdruecklich:

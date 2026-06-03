@@ -101,7 +101,7 @@
     }
   },
   "Item": {
-    "types": ["gear", "consumable", "weapon", "armor", "cyberware", "maneuver", "skill"],
+    "types": ["gear", "consumable", "weapon", "armor", "cyberware", "quickhack", "maneuver", "skill"],
     "gear": {
       "tier": "T0",
       "price": 0,
@@ -166,6 +166,24 @@
       "operationProfile": "",
       "sideEffects": "",
       "rulesShort": "",
+      "notes": ""
+    },
+    "quickhack": {
+      "hackClass": "info",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "none",
+      "availability": "common",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "device",
+      "accessRoutePrimary": "open_wireless",
+      "requirementsText": "",
+      "riskProfileText": "",
+      "typicalEffectsText": "",
+      "learnCostEp": 0,
+      "rulesShort": "",
+      "description": "",
       "notes": ""
     },
     "maneuver": {

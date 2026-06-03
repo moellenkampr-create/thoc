@@ -499,6 +499,18 @@
             </li>
             {{/each}}
           </ul>
+
+          <div class="list-header">
+            <h3>Quickhacks</h3>
+          </div>
+          <ul class="item-list interactive-list">
+            {{#each itemGroups.quickhack as |item|}}
+            <li>
+              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
+              <span class="item-meta">{{item.system.hackClass}} | {{item.system.actionCost}} | {{item.system.usageWindow}}</span>
+            </li>
+            {{/each}}
+          </ul>
         </div>
       </div>
     </div>

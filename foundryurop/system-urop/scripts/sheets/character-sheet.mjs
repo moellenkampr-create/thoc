@@ -68,6 +68,7 @@ export class UropCharacterSheet extends ActorSheet {
       weapon: allItems.filter((i) => i.type === "weapon"),
       armor: allItems.filter((i) => i.type === "armor"),
       cyberware: allItems.filter((i) => i.type === "cyberware"),
+      quickhack: allItems.filter((i) => i.type === "quickhack"),
       maneuver: allItems.filter((i) => i.type === "maneuver"),
       skill: allItems
         .filter((i) => i.type === "skill")

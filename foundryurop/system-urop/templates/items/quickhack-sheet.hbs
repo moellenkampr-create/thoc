@@ -1,0 +1,133 @@
+<form class="urop-sheet item-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="80" width="80"/>
+    <div class="header-main">
+      <input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'URoP.Item.Name'}}"/>
+      <div class="type-chip">{{itemTypeLabel}}</div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="effects">{{localize "URoP.Tab.Description"}}</a>
+    <a class="item" data-tab="details">{{localize "URoP.Tab.Details"}}</a>
+    <a class="item" data-tab="notes">{{localize "URoP.Tab.Internal"}}</a>
+  </nav>
+
+  <section class="sheet-body">
+
+    <div class="tab" data-group="primary" data-tab="details">
+      <div class="grid two-col">
+        <div class="card">
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.HackClass'}}">{{localize "URoP.Field.HackClass"}}</label>
+          <select name="system.hackClass">
+            <option value="info" {{#if (uropEq item.system.hackClass "info")}}selected{{/if}}>{{localize "URoP.QuickhackClass.Info"}}</option>
+            <option value="stoerung" {{#if (uropEq item.system.hackClass "stoerung")}}selected{{/if}}>{{localize "URoP.QuickhackClass.Stoerung"}}</option>
+            <option value="kontrolle" {{#if (uropEq item.system.hackClass "kontrolle")}}selected{{/if}}>{{localize "URoP.QuickhackClass.Kontrolle"}}</option>
+            <option value="ueberlast" {{#if (uropEq item.system.hackClass "ueberlast")}}selected{{/if}}>{{localize "URoP.QuickhackClass.Ueberlast"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ActionCost'}}">{{localize "URoP.Field.ActionCost"}}</label>
+          <select name="system.actionCost">
+            <option value="free" {{#if (uropEq item.system.actionCost "free")}}selected{{/if}}>{{localize "URoP.ActionCost.Free"}}</option>
+            <option value="small_action" {{#if (uropEq item.system.actionCost "small_action")}}selected{{/if}}>{{localize "URoP.ActionCost.SmallAction"}}</option>
+            <option value="action" {{#if (uropEq item.system.actionCost "action")}}selected{{/if}}>{{localize "URoP.ActionCost.Action"}}</option>
+            <option value="two_actions" {{#if (uropEq item.system.actionCost "two_actions")}}selected{{/if}}>{{localize "URoP.ActionCost.TwoActions"}}</option>
+            <option value="three_actions" {{#if (uropEq item.system.actionCost "three_actions")}}selected{{/if}}>{{localize "URoP.ActionCost.ThreeActions"}}</option>
+            <option value="four_actions" {{#if (uropEq item.system.actionCost "four_actions")}}selected{{/if}}>{{localize "URoP.ActionCost.FourActions"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.UsageWindow'}}">{{localize "URoP.Field.UsageWindow"}}</label>
+          <select name="system.usageWindow">
+            <option value="unlimited" {{#if (uropEq item.system.usageWindow "unlimited")}}selected{{/if}}>{{localize "URoP.UsageWindow.Unlimited"}}</option>
+            <option value="once_per_conflict" {{#if (uropEq item.system.usageWindow "once_per_conflict")}}selected{{/if}}>{{localize "URoP.UsageWindow.OncePerConflict"}}</option>
+            <option value="once_per_scene" {{#if (uropEq item.system.usageWindow "once_per_scene")}}selected{{/if}}>{{localize "URoP.UsageWindow.OncePerScene"}}</option>
+            <option value="prepared" {{#if (uropEq item.system.usageWindow "prepared")}}selected{{/if}}>{{localize "URoP.UsageWindow.Prepared"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ReuseEscalation'}}">{{localize "URoP.Field.ReuseEscalation"}}</label>
+          <select name="system.reuseEscalationProfile">
+            <option value="none" {{#if (uropEq item.system.reuseEscalationProfile "none")}}selected{{/if}}>{{localize "URoP.ReuseEscalation.None"}}</option>
+            <option value="standard_conflict" {{#if (uropEq item.system.reuseEscalationProfile "standard_conflict")}}selected{{/if}}>{{localize "URoP.ReuseEscalation.StandardConflict"}}</option>
+            <option value="strict_scene" {{#if (uropEq item.system.reuseEscalationProfile "strict_scene")}}selected{{/if}}>{{localize "URoP.ReuseEscalation.StrictScene"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Availability'}}">{{localize "URoP.Field.Availability"}}</label>
+          <select name="system.availability">
+            <option value="common" {{#if (uropEq item.system.availability "common")}}selected{{/if}}>{{localize "URoP.Availability.Common"}}</option>
+            <option value="uncommon" {{#if (uropEq item.system.availability "uncommon")}}selected{{/if}}>{{localize "URoP.Availability.Uncommon"}}</option>
+            <option value="restricted" {{#if (uropEq item.system.availability "restricted")}}selected{{/if}}>{{localize "URoP.Availability.Restricted"}}</option>
+            <option value="rare" {{#if (uropEq item.system.availability "rare")}}selected{{/if}}>{{localize "URoP.Availability.Rare"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Scope'}}">{{localize "URoP.Field.Scope"}}</label>
+          <select name="system.scope">
+            <option value="single_target" {{#if (uropEq item.system.scope "single_target")}}selected{{/if}}>{{localize "URoP.Scope.SingleTarget"}}</option>
+            <option value="small_system" {{#if (uropEq item.system.scope "small_system")}}selected{{/if}}>{{localize "URoP.Scope.SmallSystem"}}</option>
+            <option value="room_level" {{#if (uropEq item.system.scope "room_level")}}selected{{/if}}>{{localize "URoP.Scope.RoomLevel"}}</option>
+          </select>
+        </div>
+
+        <div class="card">
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SourceType'}}">{{localize "URoP.Field.SourceType"}}</label>
+          <select name="system.sourceTypePrimary">
+            <option value="os" {{#if (uropEq item.system.sourceTypePrimary "os")}}selected{{/if}}>{{localize "URoP.SourceType.Os"}}</option>
+            <option value="deck" {{#if (uropEq item.system.sourceTypePrimary "deck")}}selected{{/if}}>{{localize "URoP.SourceType.Deck"}}</option>
+            <option value="prepared_access" {{#if (uropEq item.system.sourceTypePrimary "prepared_access")}}selected{{/if}}>{{localize "URoP.SourceType.PreparedAccess"}}</option>
+            <option value="onsite_link" {{#if (uropEq item.system.sourceTypePrimary "onsite_link")}}selected{{/if}}>{{localize "URoP.SourceType.OnsiteLink"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.TargetType'}}">{{localize "URoP.Field.TargetType"}}</label>
+          <select name="system.targetTypePrimary">
+            <option value="person" {{#if (uropEq item.system.targetTypePrimary "person")}}selected{{/if}}>{{localize "URoP.TargetType.Person"}}</option>
+            <option value="cyberware" {{#if (uropEq item.system.targetTypePrimary "cyberware")}}selected{{/if}}>{{localize "URoP.TargetType.Cyberware"}}</option>
+            <option value="device" {{#if (uropEq item.system.targetTypePrimary "device")}}selected{{/if}}>{{localize "URoP.TargetType.Device"}}</option>
+            <option value="security_system" {{#if (uropEq item.system.targetTypePrimary "security_system")}}selected{{/if}}>{{localize "URoP.TargetType.SecuritySystem"}}</option>
+            <option value="vehicle" {{#if (uropEq item.system.targetTypePrimary "vehicle")}}selected{{/if}}>{{localize "URoP.TargetType.Vehicle"}}</option>
+            <option value="drone" {{#if (uropEq item.system.targetTypePrimary "drone")}}selected{{/if}}>{{localize "URoP.TargetType.Drone"}}</option>
+            <option value="network_node" {{#if (uropEq item.system.targetTypePrimary "network_node")}}selected{{/if}}>{{localize "URoP.TargetType.NetworkNode"}}</option>
+            <option value="room_infrastructure" {{#if (uropEq item.system.targetTypePrimary "room_infrastructure")}}selected{{/if}}>{{localize "URoP.TargetType.RoomInfrastructure"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.AccessRoute'}}">{{localize "URoP.Field.AccessRoute"}}</label>
+          <select name="system.accessRoutePrimary">
+            <option value="open_wireless" {{#if (uropEq item.system.accessRoutePrimary "open_wireless")}}selected{{/if}}>{{localize "URoP.AccessRoute.OpenWireless"}}</option>
+            <option value="same_network" {{#if (uropEq item.system.accessRoutePrimary "same_network")}}selected{{/if}}>{{localize "URoP.AccessRoute.SameNetwork"}}</option>
+            <option value="scanned_marked" {{#if (uropEq item.system.accessRoutePrimary "scanned_marked")}}selected{{/if}}>{{localize "URoP.AccessRoute.ScannedMarked"}}</option>
+            <option value="prepared_access" {{#if (uropEq item.system.accessRoutePrimary "prepared_access")}}selected{{/if}}>{{localize "URoP.AccessRoute.PreparedAccess"}}</option>
+            <option value="physically_exposed" {{#if (uropEq item.system.accessRoutePrimary "physically_exposed")}}selected{{/if}}>{{localize "URoP.AccessRoute.PhysicallyExposed"}}</option>
+            <option value="direct_link" {{#if (uropEq item.system.accessRoutePrimary "direct_link")}}selected{{/if}}>{{localize "URoP.AccessRoute.DirectLink"}}</option>
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RequirementsText'}}">{{localize "URoP.Field.RequirementsText"}}</label>
+          <textarea name="system.requirementsText">{{item.system.requirementsText}}</textarea>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RiskProfileText'}}">{{localize "URoP.Field.RiskProfileText"}}</label>
+          <textarea name="system.riskProfileText">{{item.system.riskProfileText}}</textarea>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.TypicalEffectsText'}}">{{localize "URoP.Field.TypicalEffectsText"}}</label>
+          <textarea name="system.typicalEffectsText">{{item.system.typicalEffectsText}}</textarea>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.LearnCostEp'}}">{{localize "URoP.Field.LearnCostEp"}}</label>
+          <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="effects">
+      <div class="card">
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.RulesShort'}}">Kurztext</label>
+        <textarea name="system.rulesShort">{{item.system.rulesShort}}</textarea>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Description'}}">Beschreibung</label>
+        <textarea class="large" name="system.description">{{item.system.description}}</textarea>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="notes">
+      <div class="card">
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
+        <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
+      </div>
+    </div>
+
+  </section>
+</form>

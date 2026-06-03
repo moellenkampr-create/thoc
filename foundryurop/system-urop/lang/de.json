@@ -82,6 +82,19 @@
       "OperationProfile": "Wartung/Energie/Hackbarkeit",
       "SideEffects": "Risiken/Nebenwirkungen",
       "SpecificEffectDescription": "Spezifische Effektbeschreibung",
+      "HackClass": "Hackklasse",
+      "ActionCost": "Aktionskosten",
+      "UsageWindow": "Einsatzfenster",
+      "ReuseEscalation": "Wiederholungs-Eskalation",
+      "Availability": "Verfügbarkeit",
+      "Scope": "Wirkungsbereich",
+      "SourceType": "Hackquelle",
+      "TargetType": "Zieltyp",
+      "AccessRoute": "Zugriffsweg",
+      "RequirementsText": "Voraussetzungen",
+      "RiskProfileText": "Risikoprofil",
+      "TypicalEffectsText": "Typische Effekte",
+      "LearnCostEp": "Lernkosten EP",
       "PressureState": "Druckstatus",
       "Boosts": "Boosts",
       "SizeClass": "Größenstufe",
@@ -119,6 +132,15 @@
       "SideEffects": "Gebündelter Freitext für Risiken und Nebenwirkungen.",
       "CyberwareDescription": "Allgemeine Beschreibung der Cyberware: Einordnung, Form, Einbaukontext und typische technische oder erzählerische Merkmale.",
       "CyberwareSpecificEffectDescription": "Konkrete Regelwirkung der Cyberware im Spiel, zum Beispiel Werte, Boni, zusätzliche Aktionen oder Aktivierungsbedingungen.",
+      "HackClass": "Grundtyp des Quickhacks: Information, Störung, Kontrolle oder Überlast.",
+      "Availability": "Verbreitung und Zugänglichkeit des Hacks im Setting.",
+      "Scope": "Wirkungsrahmen des Hacks: einzelnes Ziel, Teilsystem oder Raumebene.",
+      "SourceType": "Primäre Quelle, über die der Hack ausgeführt wird.",
+      "TargetType": "Primärer Zieltyp, auf den der Hack ausgelegt ist.",
+      "AccessRoute": "Typischer Zugangsweg, der den Hack plausibel macht.",
+      "RequirementsText": "Lesbare Voraussetzungen und Zugriffshürden für den Hackeinsatz.",
+      "RiskProfileText": "Kurzzusammenfassung typischer Risiken beim Einsatz.",
+      "TypicalEffectsText": "Kurzliste typischer Wirkungen im Spiel.",
       "SkillLevel": "Aktuelle Stufe der Fertigkeit.",
       "SkillType": "Fertigkeitsebene: Sammelfertigkeit, Standardfertigkeit oder Spezialisierung.",
       "ApplicationClass": "Einsatzklasse der Fertigkeit im Spiel (Kampf, Aktion, Fluff).",
@@ -144,6 +166,66 @@
       "Active": "Aktiv",
       "Reaction": "Reaktiv",
       "Scene": "Szenisch"
+    },
+    "QuickhackClass": {
+      "Info": "Information",
+      "Stoerung": "Störung",
+      "Kontrolle": "Kontrolle",
+      "Ueberlast": "Überlast"
+    },
+    "ActionCost": {
+      "Free": "Frei",
+      "SmallAction": "Kleine Aktion",
+      "Action": "Aktion",
+      "TwoActions": "2 Aktionen",
+      "ThreeActions": "3 Aktionen",
+      "FourActions": "4 Aktionen"
+    },
+    "UsageWindow": {
+      "Unlimited": "Beliebig",
+      "OncePerConflict": "1x pro Konflikt",
+      "OncePerScene": "1x pro Szene",
+      "Prepared": "Vorbereitet"
+    },
+    "ReuseEscalation": {
+      "None": "Keine",
+      "StandardConflict": "Standard Konflikt",
+      "StrictScene": "Streng Szene"
+    },
+    "Availability": {
+      "Common": "Häufig",
+      "Uncommon": "Ungewöhnlich",
+      "Restricted": "Eingeschränkt",
+      "Rare": "Selten"
+    },
+    "Scope": {
+      "SingleTarget": "Einzelziel",
+      "SmallSystem": "Teilsystem",
+      "RoomLevel": "Raumebene"
+    },
+    "SourceType": {
+      "Os": "OS",
+      "Deck": "Deck",
+      "PreparedAccess": "Vorbereiteter Zugang",
+      "OnsiteLink": "Vor-Ort-Link"
+    },
+    "TargetType": {
+      "Person": "Person",
+      "Cyberware": "Cyberware",
+      "Device": "Gerät",
+      "SecuritySystem": "Sicherheitssystem",
+      "Vehicle": "Fahrzeug",
+      "Drone": "Drohne",
+      "NetworkNode": "Netzknoten",
+      "RoomInfrastructure": "Rauminfrastruktur"
+    },
+    "AccessRoute": {
+      "OpenWireless": "Offenes Wireless",
+      "SameNetwork": "Gleiches Netz",
+      "ScannedMarked": "Gescannt/Markiert",
+      "PreparedAccess": "Vorbereiteter Zugang",
+      "PhysicallyExposed": "Physisch freigelegt",
+      "DirectLink": "Direkter Link"
     },
     "DamageType": {
       "None": "-",
@@ -195,6 +277,7 @@
       "weapon": "Waffe",
       "armor": "Rüstung",
       "cyberware": "Cyberware",
+      "quickhack": "Quickhack",
       "maneuver": "Manöver",
       "skill": "Fertigkeit"
     }

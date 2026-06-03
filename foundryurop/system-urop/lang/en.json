@@ -82,6 +82,19 @@
       "OperationProfile": "Maintenance/power/hackability",
       "SideEffects": "Risks/side effects",
       "SpecificEffectDescription": "Specific effect description",
+      "HackClass": "Hack class",
+      "ActionCost": "Action cost",
+      "UsageWindow": "Usage window",
+      "ReuseEscalation": "Reuse escalation",
+      "Availability": "Availability",
+      "Scope": "Scope",
+      "SourceType": "Hack source",
+      "TargetType": "Target type",
+      "AccessRoute": "Access route",
+      "RequirementsText": "Requirements",
+      "RiskProfileText": "Risk profile",
+      "TypicalEffectsText": "Typical effects",
+      "LearnCostEp": "Learn cost XP",
       "PressureState": "Pressure State",
       "Boosts": "Boosts",
       "SizeClass": "Size Class",
@@ -119,6 +132,15 @@
       "SideEffects": "Combined free text for risks and side effects.",
       "CyberwareDescription": "General cyberware description: classification, form factor, installation context, and typical technical or narrative traits.",
       "CyberwareSpecificEffectDescription": "Concrete gameplay effect of the cyberware, for example values, bonuses, extra actions, or activation conditions.",
+      "HackClass": "Core quickhack category: information, disruption, control, or overload.",
+      "Availability": "How common and accessible the hack is in the setting.",
+      "Scope": "Effect scope: single target, small system, or room level.",
+      "SourceType": "Primary source used to execute the hack.",
+      "TargetType": "Primary target type the hack is designed for.",
+      "AccessRoute": "Typical access route that makes the hack plausible.",
+      "RequirementsText": "Readable prerequisites and access conditions for use.",
+      "RiskProfileText": "Short summary of typical usage risks.",
+      "TypicalEffectsText": "Short list of common gameplay effects.",
       "SkillLevel": "Current skill level.",
       "SkillType": "Skill category: broad, standard, or specialization.",
       "ApplicationClass": "Primary play context for the skill (combat, action, fluff).",
@@ -144,6 +166,66 @@
       "Active": "Active",
       "Reaction": "Reaction",
       "Scene": "Scene-based"
+    },
+    "QuickhackClass": {
+      "Info": "Information",
+      "Stoerung": "Disruption",
+      "Kontrolle": "Control",
+      "Ueberlast": "Overload"
+    },
+    "ActionCost": {
+      "Free": "Free",
+      "SmallAction": "Small action",
+      "Action": "Action",
+      "TwoActions": "2 actions",
+      "ThreeActions": "3 actions",
+      "FourActions": "4 actions"
+    },
+    "UsageWindow": {
+      "Unlimited": "Unlimited",
+      "OncePerConflict": "Once per conflict",
+      "OncePerScene": "Once per scene",
+      "Prepared": "Prepared"
+    },
+    "ReuseEscalation": {
+      "None": "None",
+      "StandardConflict": "Standard conflict",
+      "StrictScene": "Strict scene"
+    },
+    "Availability": {
+      "Common": "Common",
+      "Uncommon": "Uncommon",
+      "Restricted": "Restricted",
+      "Rare": "Rare"
+    },
+    "Scope": {
+      "SingleTarget": "Single target",
+      "SmallSystem": "Small system",
+      "RoomLevel": "Room level"
+    },
+    "SourceType": {
+      "Os": "OS",
+      "Deck": "Deck",
+      "PreparedAccess": "Prepared access",
+      "OnsiteLink": "On-site link"
+    },
+    "TargetType": {
+      "Person": "Person",
+      "Cyberware": "Cyberware",
+      "Device": "Device",
+      "SecuritySystem": "Security system",
+      "Vehicle": "Vehicle",
+      "Drone": "Drone",
+      "NetworkNode": "Network node",
+      "RoomInfrastructure": "Room infrastructure"
+    },
+    "AccessRoute": {
+      "OpenWireless": "Open wireless",
+      "SameNetwork": "Same network",
+      "ScannedMarked": "Scanned/marked",
+      "PreparedAccess": "Prepared access",
+      "PhysicallyExposed": "Physically exposed",
+      "DirectLink": "Direct link"
     },
     "DamageType": {
       "None": "-",
@@ -195,6 +277,7 @@
       "weapon": "Weapon",
       "armor": "Armor",
       "cyberware": "Cyberware",
+      "quickhack": "Quickhack",
       "maneuver": "Maneuver",
       "skill": "Skill"
     }

@@ -4,6 +4,7 @@ import { UropManeuverSheet } from "./sheets/items/maneuver-sheet.mjs";
 import { UropWeaponSheet } from "./sheets/items/weapon-sheet.mjs";
 import { UropArmorSheet } from "./sheets/items/armor-sheet.mjs";
 import { UropCyberwareSheet } from "./sheets/items/cyberware-sheet.mjs";
+import { UropQuickhackSheet } from "./sheets/items/quickhack-sheet.mjs";
 import { UropGearSheet } from "./sheets/items/gear-sheet.mjs";
 import { UropConsumableSheet } from "./sheets/items/consumable-sheet.mjs";
 
@@ -67,6 +68,22 @@ async function runSystemMigrations(fromVersion, toVersion) {
           if (!foundry.utils.hasProperty(item, "system.sideEffects")) itemUpdates["system.sideEffects"] = "";
         }
 
+        if (item.type === "quickhack") {
+          if (!foundry.utils.hasProperty(item, "system.hackClass")) itemUpdates["system.hackClass"] = "info";
+          if (!foundry.utils.hasProperty(item, "system.actionCost")) itemUpdates["system.actionCost"] = "action";
+          if (!foundry.utils.hasProperty(item, "system.usageWindow")) itemUpdates["system.usageWindow"] = "once_per_scene";
+          if (!foundry.utils.hasProperty(item, "system.reuseEscalationProfile")) itemUpdates["system.reuseEscalationProfile"] = "none";
+          if (!foundry.utils.hasProperty(item, "system.availability")) itemUpdates["system.availability"] = "common";
+          if (!foundry.utils.hasProperty(item, "system.scope")) itemUpdates["system.scope"] = "single_target";
+          if (!foundry.utils.hasProperty(item, "system.sourceTypePrimary")) itemUpdates["system.sourceTypePrimary"] = "os";
+          if (!foundry.utils.hasProperty(item, "system.targetTypePrimary")) itemUpdates["system.targetTypePrimary"] = "device";
+          if (!foundry.utils.hasProperty(item, "system.accessRoutePrimary")) itemUpdates["system.accessRoutePrimary"] = "open_wireless";
+          if (!foundry.utils.hasProperty(item, "system.requirementsText")) itemUpdates["system.requirementsText"] = "";
+          if (!foundry.utils.hasProperty(item, "system.riskProfileText")) itemUpdates["system.riskProfileText"] = "";
+          if (!foundry.utils.hasProperty(item, "system.typicalEffectsText")) itemUpdates["system.typicalEffectsText"] = "";
+          if (!foundry.utils.hasProperty(item, "system.learnCostEp")) itemUpdates["system.learnCostEp"] = 0;
+        }
+
         if (Object.keys(itemUpdates).length > 0) {
           await item.update(itemUpdates);
         }
@@ -110,6 +127,22 @@ async function runSystemMigrations(fromVersion, toVersion) {
         if (!foundry.utils.hasProperty(item, "system.installationProfile")) itemUpdates["system.installationProfile"] = "";
         if (!foundry.utils.hasProperty(item, "system.operationProfile")) itemUpdates["system.operationProfile"] = "";
         if (!foundry.utils.hasProperty(item, "system.sideEffects")) itemUpdates["system.sideEffects"] = "";
+      }
+
+      if (item.type === "quickhack") {
+        if (!foundry.utils.hasProperty(item, "system.hackClass")) itemUpdates["system.hackClass"] = "info";
+        if (!foundry.utils.hasProperty(item, "system.actionCost")) itemUpdates["system.actionCost"] = "action";
+        if (!foundry.utils.hasProperty(item, "system.usageWindow")) itemUpdates["system.usageWindow"] = "once_per_scene";
+        if (!foundry.utils.hasProperty(item, "system.reuseEscalationProfile")) itemUpdates["system.reuseEscalationProfile"] = "none";
+        if (!foundry.utils.hasProperty(item, "system.availability")) itemUpdates["system.availability"] = "common";
+        if (!foundry.utils.hasProperty(item, "system.scope")) itemUpdates["system.scope"] = "single_target";
+        if (!foundry.utils.hasProperty(item, "system.sourceTypePrimary")) itemUpdates["system.sourceTypePrimary"] = "os";
+        if (!foundry.utils.hasProperty(item, "system.targetTypePrimary")) itemUpdates["system.targetTypePrimary"] = "device";
+        if (!foundry.utils.hasProperty(item, "system.accessRoutePrimary")) itemUpdates["system.accessRoutePrimary"] = "open_wireless";
+        if (!foundry.utils.hasProperty(item, "system.requirementsText")) itemUpdates["system.requirementsText"] = "";
+        if (!foundry.utils.hasProperty(item, "system.riskProfileText")) itemUpdates["system.riskProfileText"] = "";
+        if (!foundry.utils.hasProperty(item, "system.typicalEffectsText")) itemUpdates["system.typicalEffectsText"] = "";
+        if (!foundry.utils.hasProperty(item, "system.learnCostEp")) itemUpdates["system.learnCostEp"] = 0;
       }
 
       if (Object.keys(itemUpdates).length > 0) {
@@ -171,6 +204,7 @@ Hooks.once("init", () => {
   Items.registerSheet("urop", UropWeaponSheet,     { types: ["weapon"],      makeDefault: true, label: "URoP.Sheet.Weapon" });
   Items.registerSheet("urop", UropArmorSheet,      { types: ["armor"],       makeDefault: true, label: "URoP.Sheet.Armor" });
   Items.registerSheet("urop", UropCyberwareSheet,  { types: ["cyberware"],   makeDefault: true, label: "URoP.Sheet.Cyberware" });
+  Items.registerSheet("urop", UropQuickhackSheet,  { types: ["quickhack"],   makeDefault: true, label: "URoP.Sheet.Quickhack" });
   Items.registerSheet("urop", UropGearSheet,       { types: ["gear"],        makeDefault: true, label: "URoP.Sheet.Gear" });
   Items.registerSheet("urop", UropConsumableSheet, { types: ["consumable"],  makeDefault: true, label: "URoP.Sheet.Consumable" });
 

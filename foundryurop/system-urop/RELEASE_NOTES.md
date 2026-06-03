@@ -1,5 +1,21 @@
 # URoP Foundry Release Notes
 
+## [0.1.30] - 2026-06-03
+
+### Added
+- Neuer Itemtyp `quickhack` inkl. Registrierung in `system.json`, `template.json` und Actor-Item-Gruppierung
+- Eigenes Quickhack-Item-Sheet mit Feldern fuer Klasse, Aktionskosten, Einsatzfenster, Eskalation, Verfuegbarkeit, Zugriff und Risiko
+
+### Changed
+- Lokalisierung (de/en) um Quickhack-Felder, Enums und `ItemType.quickhack` erweitert
+- Migrationslogik setzt fehlende Default-Felder fuer bestehende Quickhack-Items beim Weltenstart
+- Quickhack-Referenzdaten im Ruleset um weitere Cyberpunk-Wiki-inspirierte Hacks erweitert (u. a. Ping, Contagion, Overheat, System Collapse)
+- Lesefassung `URoP_Quickhacks.md` auf den erweiterten Referenzbestand und EP-Nullkostenstand synchronisiert
+
+### Migration Required
+- yes
+- Bestehende Welten erhalten fuer Quickhack-Items fehlende Standardfelder bei der Migration nachgezogen
+
 ## [0.1.29] - 2026-06-03
 
 ### Changed
