@@ -937,6 +937,135 @@
         "weit": 200,
         "extrem": 400
       }
+    },
+    {
+      "id": "weapon_trio_lauri_bluttrinker",
+      "name": "Bluttrinker (Lauri)",
+      "category": "nahkampfwaffe",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
+      "description": "Historisch aufgeladene Executor-Klinge aus dem Valentino-Umfeld, von Lauri als persoenliche Waffe gefuehrt.",
+      "rulesShort": "Scharfe Signatur-Nahkampfwaffe mit hoher psychologischer und narrativer Wirkung.",
+      "priceEb": 2400,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
+      "quality": "masterwork",
+      "meleeReachClasses": [
+        "nahkampf",
+        "lang"
+      ]
+    },
+    {
+      "id": "weapon_trio_george_trust",
+      "name": "Trust (George)",
+      "category": "zweihandwaffe",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
+      "description": "Georges Schwert, im Camp als \"Trust\" benannt und im Trio als Vertrauenssymbol gefuehrt.",
+      "rulesShort": "Praezise gefuehrte Zweihandklinge fuer kontrollierte Nahkampfduelle.",
+      "priceEb": 1900,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
+      "quality": "excellent",
+      "meleeReachClasses": [
+        "nahkampf",
+        "lang"
+      ]
+    },
+    {
+      "id": "weapon_trio_ely_stiletto",
+      "name": "Stiletto (Ely)",
+      "category": "kleinwaffe",
+      "combatMode": "melee",
+      "handlingProfile": "direct",
+      "description": "Schmale Stichklinge, von Ely in schnellen Nahkampfmomenten aggressiv eingesetzt.",
+      "rulesShort": "Verdeckbare Stichwaffe fuer kurze, schnelle und praezise Nahkampfangriffe.",
+      "priceEb": 120,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
+      "quality": "standard",
+      "meleeReachClasses": [
+        "handgemenge",
+        "nahkampf"
+      ]
+    },
+    {
+      "id": "weapon_trio_ely_pinky",
+      "name": "Pinky (Ely)",
+      "category": "handfeuerwaffe",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
+      "description": "Kleine Schnellfeuerpistole mit pinkem Griffstueck, von Ely benannt und als persoenliche Sidearm gefuehrt.",
+      "rulesShort": "Kompakte Pistole fuer kurze bis mittlere Distanz und schnelle Folgeschuesse.",
+      "priceEb": 650,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 3,
+      "quality": "standard",
+      "magazineCapacity": 18,
+      "fireModes": [
+        "single",
+        "burst"
+      ],
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 22,
+        "weit": 40,
+        "extrem": 75
+      }
+    },
+    {
+      "id": "weapon_trio_ely_georgina_dying_light",
+      "name": "Georgina / Dying Light (Ely)",
+      "category": "handfeuerwaffe",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
+      "description": "Schwere Burstfire-Pistole, im Trio-Kontext als Dying Light bekannt und von Ely \"Georgina\" genannt; sinnvoll erst mit Waffenlink.",
+      "rulesShort": "Schwere Kurzwaffe mit Burst-Option; hohe Wirkung, aber anspruchsvoll in Fuehrung und Rueckstosskontrolle.",
+      "priceEb": 1400,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 4,
+      "quality": "excellent",
+      "magazineCapacity": 12,
+      "fireModes": [
+        "single",
+        "burst"
+      ],
+      "rangeBands": {
+        "nah": 10,
+        "mittel": 28,
+        "weit": 55,
+        "extrem": 110
+      }
+    },
+    {
+      "id": "weapon_trio_kate",
+      "name": "Kate (Trio)",
+      "category": "shotgun",
+      "combatMode": "ranged",
+      "handlingProfile": "direct",
+      "description": "Trio-intern benannte Schrotflinte, im Einsatz auch mit Sabot-Munition als harte Penetrationsoption erwaehnt.",
+      "rulesShort": "Schrotplattform fuer harten Nahbereich; mit Munitionswahl von non-lethal-naeher bis durchschlagsstark skalierbar.",
+      "priceEb": 1100,
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "damageBaseline": 5,
+      "quality": "excellent",
+      "magazineCapacity": 8,
+      "fireModes": [
+        "single"
+      ],
+      "attackPattern": "cone",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 35,
+        "extrem": 60
+      }
     }
   ]
 }

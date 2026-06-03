@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Bluttrinker (Lauri)",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "masterwork",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Scharfe Signatur-Nahkampfwaffe mit hoher psychologischer und narrativer Wirkung.",
+      "description": "Historisch aufgeladene Executor-Klinge aus dem Valentino-Umfeld, von Lauri als persoenliche Waffe gefuehrt.",
+      "notes": "id=weapon_trio_lauri_bluttrinker; category=nahkampfwaffe; combatMode=melee; fireModes=; source=trio_lore"
+    }
+  },
+  {
+    "name": "Trust (George)",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Praezise gefuehrte Zweihandklinge fuer kontrollierte Nahkampfduelle.",
+      "description": "Georges Schwert, im Camp als \"Trust\" benannt und im Trio als Vertrauenssymbol gefuehrt.",
+      "notes": "id=weapon_trio_george_trust; category=zweihandwaffe; combatMode=melee; fireModes=; source=trio_lore"
+    }
+  },
+  {
+    "name": "Stiletto (Ely)",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Verdeckbare Stichwaffe fuer kurze, schnelle und praezise Nahkampfangriffe.",
+      "description": "Schmale Stichklinge, von Ely in schnellen Nahkampfmomenten aggressiv eingesetzt.",
+      "notes": "id=weapon_trio_ely_stiletto; category=kleinwaffe; combatMode=melee; fireModes=; source=trio_lore"
+    }
+  },
+  {
+    "name": "Pinky (Ely)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 22,
+        "weit": 40,
+        "extrem": 75
+      },
+      "range": "",
+      "rulesShort": "Kompakte Pistole fuer kurze bis mittlere Distanz und schnelle Folgeschuesse.",
+      "description": "Kleine Schnellfeuerpistole mit pinkem Griffstueck, von Ely benannt und als persoenliche Sidearm gefuehrt.",
+      "notes": "id=weapon_trio_ely_pinky; category=handfeuerwaffe; combatMode=ranged; fireModes=single|burst; source=trio_lore"
+    }
+  },
+  {
+    "name": "Georgina / Dying Light (Ely)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "Waffenlink empfohlen (Lore).",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 10,
+        "mittel": 28,
+        "weit": 55,
+        "extrem": 110
+      },
+      "range": "",
+      "rulesShort": "Schwere Kurzwaffe mit Burst-Option; hohe Wirkung, aber anspruchsvoll in Fuehrung und Rueckstosskontrolle.",
+      "description": "Schwere Burstfire-Pistole, im Trio-Kontext als Dying Light bekannt und von Ely \"Georgina\" genannt; sinnvoll erst mit Waffenlink.",
+      "notes": "id=weapon_trio_ely_georgina_dying_light; category=handfeuerwaffe; combatMode=ranged; fireModes=single|burst; source=trio_lore"
+    }
+  },
+  {
+    "name": "Kate (Trio)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 35,
+        "extrem": 60
+      },
+      "range": "",
+      "rulesShort": "Schrotplattform fuer harten Nahbereich; mit Munitionswahl von non-lethal-naeher bis durchschlagsstark skalierbar.",
+      "description": "Trio-intern benannte Schrotflinte, im Einsatz auch mit Sabot-Munition als harte Penetrationsoption erwaehnt.",
+      "notes": "id=weapon_trio_kate; category=shotgun; combatMode=ranged; fireModes=single; source=trio_lore"
+    }
+  }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "name": "Scan & Markieren",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "info",
+      "actionCost": "free",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "availability": "common",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "open_wireless",
+      "requirementsText": "Ein plausibel erreichbares oder sichtbar markierbares Ziel muss bestehen.; Offenes Wireless-Fenster, vorheriger Scan oder direkte Netznaehe muessen das digitale Zielbild tragen koennen.; Gegen harte Black-Box-Systeme reicht blosser Sichtkontakt meist nicht aus.",
+      "riskProfileText": "trace",
+      "typicalEffectsText": "Status lesen; Systemklasse erkennen; Schwachstelle markieren; Folgehack plausibel machen",
+      "learnCostEp": 0,
+      "rulesShort": "Liest ein vernetztes Ziel an und erzeugt ein klares digitales Zielbild.",
+      "description": "Der einfachste Quickhack. Er oeffnet Folgehandlungen, bestaetigt Systemtyp, Sensorik oder Implantpraesenz und schafft oft erst die Grundlage fuer spaetere Eingriffe. Zugangs-Hinweis: Kann oft schon auf offene oder normal vernetzte Ziele gehen; harte Black-Box-Systeme brauchen mehr als nur Sichtkontakt.",
+      "notes": "id=qh_scan_markieren; executionMode=basis; tags=aufklaerung|zielbild|combat_support; counterplay=Abschirmung|Funkstille|Ghost-Signatur"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_scan_markieren"
+      }
+    }
+  },
+  {
+    "name": "Status lesen",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "info",
+      "actionCost": "free",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "availability": "common",
+      "scope": "small_system",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriff auf das betroffene System oder Teilnetz muss bestehen.; Die Figur braucht genug technische Lesbarkeit, um Status, Warnlagen oder Freigabestufen sinnvoll auszuwerten.; Je groesser oder haerter segmentiert das System ist, desto eher braucht es vorbereiteten Zugang oder direct_link.",
+      "riskProfileText": "trace",
+      "typicalEffectsText": "Alarmstatus erkennen; Freigabestufe lesen; Wartungsmodus sehen; Sicherheitsluecke erkennen",
+      "learnCostEp": 0,
+      "rulesShort": "Liest Betriebszustand, Warnlagen oder Freigabestatus eines Systems aus.",
+      "description": "Gut fuer Alarmstufen, Tuersperren, Fahrzeugsicherheit, Kamerastatus oder Turret-Parameter. Liefert oft erst die Information, welche Folgeaktion sinnvoll ist. Zugangs-Hinweis: Je groesser das System, desto eher braucht es Netzwerknaehe, echte Kennung oder vorbereiteten Zugang.",
+      "notes": "id=qh_status_lesen; executionMode=basis; tags=diagnose|sicherheit|support; counterplay=Dummy-Daten|Read-Only-Sandbox|Spoofing"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_status_lesen"
+      }
+    }
+  },
+  {
+    "name": "Sensoren blenden",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "stoerung",
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "availability": "common",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "cyberware",
+      "accessRoutePrimary": "open_wireless",
+      "requirementsText": "Ein plausibler Zugriff auf Sensorik, Kamera, Tracking oder persoenliche Cyberware muss bestehen.; Bei persoenlicher Sensorik sind Scan, Markierung oder ein klarer Netzpfad meist noetig.; Der Hack soll ein kurzes Stoerfenster schaffen, nicht dauerhaft ganze Wahrnehmungsketten ausschalten.",
+      "riskProfileText": "trace, overheat",
+      "typicalEffectsText": "kurze Blindphase; Tracking stoeren; Erfassung verwackeln; Kamera auf Leerlauf ziehen",
+      "learnCostEp": 0,
+      "rulesShort": "Stoert Optik, Audio, Tracking oder Sensorik fuer einen kurzen Moment.",
+      "description": "Typischer Quickhack fuer Infiltration oder Feuergefecht. Er blendet nicht die ganze Welt aus, sondern oeffnet ein kleines Fenster fuer Bewegung, Verstecken oder Zielverlust. Zugangs-Hinweis: Bei persoenlicher Cyberware meist Scan oder Markierung noetig; bei Kameras und Sensoren reicht oft Netznaehe.",
+      "notes": "id=qh_sensoren_blenden; executionMode=basis; tags=stealth|ablenkung|sensors; counterplay=Fallback-Sensorik|manuelle Bestaetigung|analoge Sicherung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_sensoren_blenden"
+      }
+    }
+  },
+  {
+    "name": "Waffe sperren",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "stoerung",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "uncommon",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "device",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Ein plausibler Zugriff auf Smartgun-Link, vernetzte Waffenlogik oder direkt angeschlossene Cyberware muss bestehen.; Fuer verlaessliche Sperre braucht der Hack meist Scan, bekannte Kennung, klare Netznaehe oder einen nahen Port, nicht bloss vage Erreichbarkeit.; Rein mechanische Waffen oder sauber isolierte Systeme entziehen sich diesem Quickhack weitgehend.; Die Sperre soll ein kurzes Kampfentzugsfenster oeffnen, keine vollwertige dauerhafte Entwaffnung ersetzen.",
+      "riskProfileText": "trace, counter_intrusion",
+      "typicalEffectsText": "Smartlink verlieren; Abzugssperre aktivieren; Zielhilfe kippen",
+      "learnCostEp": 0,
+      "rulesShort": "Blockiert kurz eine vernetzte oder smart gekoppelte Waffe.",
+      "description": "Staerker als reine Stoerung, weil es direkte Kampfkontrolle ausuebt. Gute Kandidatin fuer ein volles Technik-/Quickhack-Manoever. Zugangs-Hinweis: Braucht meist klaren Waffenzugriff: Smartgun-Link, bekannte Kennung oder nahen Port.",
+      "notes": "id=qh_waffe_sperren; executionMode=manoever; tags=combat|entzug|smartgun; counterplay=mechanische Waffe|offline Modus|manueller Override"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_waffe_sperren"
+      }
+    }
+  },
+  {
+    "name": "Tuer freigeben",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "action",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "availability": "common",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriffspfad auf Tuersystem oder Raumsteuerung muss bestehen.; Technik oder vorbereiteter Zugang muessen die Freigabe tragen koennen.; Wenn das Schloss physisch freigelegt wurde, darf direct_link oder physically_exposed den Hack deutlich erleichtern.",
+      "riskProfileText": "trace, alarm",
+      "typicalEffectsText": "Tuer entriegeln; Wartungsmodus erzwingen; kurze Freigabe erzeugen",
+      "learnCostEp": 0,
+      "rulesShort": "Oeffnet oder entsperrt ein digitales Tuersystem oder aehnliche Raumsteuerung.",
+      "description": "Der Standardfall fuer Schloss- und Tuerkontrolle in Cyberpunk. Besonders passend, wenn Elektronik oder Mechanik vorher einen Zugangspunkt geschaffen haben. Zugangs-Hinweis: Wenn das Schloss vorher freigelegt wurde, darf der Erzaehler Zugriff stark erleichtern oder auf direkten Link umstellen.",
+      "notes": "id=qh_tuer_freigeben; executionMode=basis; tags=zugang|infiltration|facility; counterplay=mechanische Sperre|Mehrfachauthentifizierung|lokaler Guard"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_tuer_freigeben"
+      }
+    }
+  },
+  {
+    "name": "Kamera auf freundlich",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "availability": "common",
+      "scope": "small_system",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriff auf Kamera, Kameranetz oder zugehoerige Raumsteuerung muss bestehen.; Besonders starke Umschreibungen sollten Netznaehe, vorbereiteten Zugang oder einen freigelegten Anschluss haben.; Der Hack soll eine lokale Sicherheitslage kippen, nicht ganze Anlagen ohne Vorarbeit neutralisieren.",
+      "riskProfileText": "trace, alarm",
+      "typicalEffectsText": "Freund-Flag setzen; Bild verzerren; Bewegungsmuster ausblenden",
+      "learnCostEp": 0,
+      "rulesShort": "Aendert Bewertung oder Sicht einer Kamera zugunsten der Gruppe.",
+      "description": "Die Kamera filmt weiter, wertet aber anders aus: ignoriert, filtert oder stuft Ziele falsch ein. Ideal fuer stilles Eindringen ohne offenen Ausfall. Zugangs-Hinweis: Besonders stark bei vorbereitetem Zugang oder Netznahe; offene Werkskameras koennen auch per Basisprobe kippen.",
+      "notes": "id=qh_kamera_freundlich; executionMode=basis; tags=stealth|iff|security; counterplay=menschliche Ueberwachung|Pattern-Checks|lokale KI"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_kamera_freundlich"
+      }
+    }
+  },
+  {
+    "name": "Autoturret auf freundlich",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "restricted",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriff auf Turret, Waffensteuerung oder zugehoeriges Sicherheitsnetz muss bestehen.; Netznaehe allein reicht fuer bewaffnete Systeme meist nicht: verlaessliche Umschreibung braucht vorbereiteten Zugang, einen freigelegten Anschluss oder klaren Zugriff auf den lokalen Sicherheitsknoten.; Der Hack soll eine lokale Kampfmaschine umstellen, nicht ohne Vorarbeit eine ganze Verteidigungsanlage uebernehmen.; Bei Teilzugriff darf die Wirkung eher in Pause, Fehlpriorisierung oder kurzem IFF-Fenster enden als in voller Dauerkontrolle.",
+      "riskProfileText": "trace, counter_intrusion, alarm",
+      "typicalEffectsText": "Turret ignoriert die Gruppe; Turret wechselt Feindbild; Turret pausiert",
+      "learnCostEp": 0,
+      "rulesShort": "Schiebt IFF oder Zielpriorisierung eines Autoturrets zugunsten der Gruppe um.",
+      "description": "Ein tieferer Eingriff als bei einer Kamera, weil das System aktiv bewaffnet ist. Stark, aber klar risikobehaftet und oft nur mit gutem Zugang plausibel. Zugangs-Hinweis: Meist kein 'freier Gedankenhack'. Netznaehe, vorbereitete Freigabe oder freigelegter Anschluss sind hier glaubwuerdiger.",
+      "notes": "id=qh_turret_freundlich; executionMode=manoever; tags=combat|security|iff; counterplay=isolierte Waffensteuerung|manueller Fire-Control|mehrstufige IFF"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_turret_freundlich"
+      }
+    }
+  },
+  {
+    "name": "Fahrzeugsicherheit umgehen",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "action",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "availability": "common",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "vehicle",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriff auf Fahrzeugsicherung, Bordnetz oder Zugangssystem muss bestehen.; Vorbereiteter Zugang oder ein freigelegter Serviceport erleichtern den Hack deutlich.; Der Hack umgeht Nutzerbindung oder Wegfahrsperre, ersetzt aber keine laengere Komplettuebernahme eines komplexen Fahrzeugsystems.",
+      "riskProfileText": "trace, alarm",
+      "typicalEffectsText": "Wegfahrsperre loesen; Tuer oeffnen; Nutzerprofil umgehen",
+      "learnCostEp": 0,
+      "rulesShort": "Umgeht Wegfahrsperre, Zugangssperre oder Nutzerbindung eines Fahrzeugs.",
+      "description": "Cyberpunk-Standard fuer Fahrzeugdiebstahl, Flucht oder stilles Uebernehmen. Vorarbeit an Elektronik oder Port macht den Hack deutlich leichter. Zugangs-Hinweis: Wenn ein Fahrzeug physisch geoeffnet oder ein Serviceport freigelegt ist, sollte onsite_link stark belohnt werden.",
+      "notes": "id=qh_fahrzeugsicherheit_umgehen; executionMode=basis; tags=vehicle|theft|entry; counterplay=biometrische Sperre|mechanische Sicherung|Funkisolierung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_fahrzeugsicherheit_umgehen"
+      }
+    }
+  },
+  {
+    "name": "Sicherheitsschloss freischalten",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "action",
+      "usageWindow": "unlimited",
+      "reuseEscalationProfile": "none",
+      "availability": "common",
+      "scope": "single_target",
+      "sourceTypePrimary": "prepared_access",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "prepared_access",
+      "requirementsText": "Ein plausibler Angriffspunkt am Schloss oder seinem Sicherheitskontakt muss bestehen.; Vor allem physically_exposed oder direct_link machen diesen Hack stark und passend.; Der Hack soll ein einzelnes Schloss oder eine einzelne Kontaktlogik knacken, nicht ganze Gebaeudestrukturen global oeffnen.",
+      "riskProfileText": "trace, alarm, collateral",
+      "typicalEffectsText": "elektronisches Schloss oeffnen; Sicherheitskontakt ueberbruecken; kurze Freigabe setzen",
+      "learnCostEp": 0,
+      "rulesShort": "Knackt oder ueberbrueckt ein digitales Schloss, besonders wenn es vorher freigelegt wurde.",
+      "description": "Das ist genau die Bruecke zwischen Elektronikarbeit und Quickhack. Kein allmaechtiger Funkzauber, sondern eine schnelle digitale Ausnutzung eines geschaffenen Zugangspfads. Zugangs-Hinweis: Soll besonders dann glaenzen, wenn vorher Elektronik, Schlossmechanik oder rohe Vor-Ort-Arbeit einen Angriffspunkt freigelegt hat.",
+      "notes": "id=qh_schloss_freischalten; executionMode=basis; tags=lock|entry|electronics; counterplay=analoge Reserve|Harzverguss|Sabotagealarm"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_schloss_freischalten"
+      }
+    }
+  },
+  {
+    "name": "Drohne umflaggen",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "restricted",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "drone",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriff auf Drohne, Kontrollnetz oder vorbereitete Freigabe muss bestehen.; Je militaerischer oder autonomer die Drohne ist, desto eher braucht es vorbereiteten Zugang, direkten Link oder einen starken lokalen Netzpfad statt nur lockere Funknaehe.; Der Hack soll situative Umflaggung oder Prioritaetsbruch leisten, nicht eine dauerhafte Pet-Uebernahme.; Bei knapper Zugriffslage ist ein kurzes Stocken, Fehlziel oder Prioritaetsbruch passender als komplette Fremdsteuerung.",
+      "riskProfileText": "trace, counter_intrusion, alarm",
+      "typicalEffectsText": "Drohne ignoriert die Gruppe; Drohne folgt falscher Signatur; Drohne pausiert Befehle",
+      "learnCostEp": 0,
+      "rulesShort": "Aendert Zugehoerigkeit, Prioritaet oder Kommandoflag einer Drohne.",
+      "description": "Stark, aber sehr cyberpunkig. Die Drohne wird nicht permanent zum eigenen Pet, sondern kurz oder situativ in eine neue Lage gezwungen. Zugangs-Hinweis: Je militaerischer oder autonomer die Drohne, desto eher wird das ein volles Manoever oder eine verlaengerte Probe.",
+      "notes": "id=qh_drohne_umflaggen; executionMode=manoever; tags=drone|security|iff; counterplay=Hardcoded Owner-Check|isolierter Combat Mode|manueller Operator"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_drohne_umflaggen"
+      }
+    }
+  },
+  {
+    "name": "Systemschock",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "uncommon",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Ein plausibler Zugriff auf vernetzte Implantate, Cyberware oder eine angrenzende Systemlogik muss bestehen.; Gegen kaum vernetzte oder sauber isolierte Ziele ist der Hack stark erschwert oder unplausibel.; Verlaesslicher Systemschock braucht meist gescanntes oder klar lesbares Ziel statt blinden Funkversuch.; Systemschock soll akuten Druck, Stoerung oder kurze Lahmphase erzeugen, nicht automatisch klassische Schadenslogik oder wiederholbaren Burst-Schaden ersetzen.",
+      "riskProfileText": "trace, overheat, counter_intrusion",
+      "typicalEffectsText": "Schmerzimpuls; Systemzittern; kurze Lahmphase; Ueberhitzung",
+      "learnCostEp": 0,
+      "rulesShort": "Ueberlastet vernetzte Systeme oder Implantate und erzeugt akuten Druck.",
+      "description": "Der klassische offensive Quickhack. Er verursacht nicht automatisch Hitpoint-Schaden, sondern akute Stoerung, Schmerz, Ueberforderung oder Kontrollverlust. Zugangs-Hinweis: Soll gegen kaum vernetzte oder isolierte Ziele deutlich schwieriger oder unplausibel sein.",
+      "notes": "id=qh_systemschock; executionMode=manoever; tags=combat|shock|aggressiv; counterplay=abgeschirmte Implantate|wenig Cyberware|Pain Editor|isolierter Kampfmodus"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_systemschock"
+      }
+    }
+  },
+  {
+    "name": "Sicherheitsfenster oeffnen",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "info",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "common",
+      "scope": "small_system",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Ein plausibler Zugriff auf Sicherheitsknoten, Netzsegment oder lokalen Wartungspfad muss bestehen.; Der Hack schafft ein begrenztes Zeit- oder Zugriffsfenster und ersetzt nicht automatisch den Folgeeingriff.; Besonders starke Folgeeffekte brauchen weiterhin eigene Probe, Manoever oder klare Anschlussfiktion.",
+      "riskProfileText": "trace, alarm",
+      "typicalEffectsText": "Adminfenster aufziehen; lokalen Wartungsmodus finden; Kurzzeit-Backdoor setzen; Folgeprobe erleichtern",
+      "learnCostEp": 0,
+      "rulesShort": "Schafft ein kleines Hackfenster fuer Folgeaktionen, statt sofort den grossen Effekt zu erzwingen.",
+      "description": "Ideal, um in URoP nicht alles in einen Wurf zu druecken. Er baut Zugriff, Zeitfenster oder lokale Blindheit auf und macht dann Kamera-, Schloss- oder Turret-Hacks erst wirklich plausibel. Zugangs-Hinweis: Das ist oft der beste Kompromiss zwischen 'zu frei' und 'zu streng': erst Fenster schaffen, dann Wirkung ziehen.",
+      "notes": "id=qh_sicherheitsfenster_oeffnen; executionMode=basis; tags=setup|security|teamplay; counterplay=Rolling Key|aktive Gegenueberwachung|harte Segmentierung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_sicherheitsfenster_oeffnen"
+      }
+    }
+  },
+  {
+    "name": "Ping",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "info",
+      "actionCost": "free",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "availability": "common",
+      "scope": "small_system",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "open_wireless",
+      "requirementsText": "Ein plausibler digitaler Einstiegspunkt muss bestehen.; Ping liefert Netzlage und ersetzt keinen Kontrollhack.",
+      "riskProfileText": "trace",
+      "typicalEffectsText": "vernetzte Ziele sichtbar machen; Sicherheitsknoten lokalisieren; Routen fuer Folgehacks oeffnen",
+      "learnCostEp": 0,
+      "rulesShort": "Liefert ein kurzfristiges Netzbild mit verbundenen relevanten Zielen.",
+      "description": "Ping erweitert die Aufklärung über ein einzelnes Ziel hinaus und zeigt lokale digitale Zusammenhänge. Er ist ein Setup-Hack und soll Folgeaktionen der Gruppe vorbereiten.",
+      "notes": "id=qh_ping; executionMode=basis; tags=aufklaerung|netzbild|teamplay; counterplay=Segmentierung|Spoof-Netz|stille Knoten"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_ping"
+      }
+    }
+  },
+  {
+    "name": "Memory Wipe",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "stoerung",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "restricted",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Ein plausibler Zugriff auf neurodigitale oder sensorische Schnittstellen muss bestehen.; Wirkung bleibt kurz und situativ.",
+      "riskProfileText": "trace, counter_intrusion, overheat",
+      "typicalEffectsText": "kurze Desorientierung; letzte Beobachtung verliert Gewicht; sofortige Verfolgung verlangsamt",
+      "learnCostEp": 0,
+      "rulesShort": "Erzeugt ein kurzes Erinnerungs- und Orientierungsloch bei einem vernetzten Ziel.",
+      "description": "Memory Wipe soll ein temporäres Fenster für Infiltration oder Rückzug öffnen. Er ersetzt keine dauerhafte Gedächtnisumschreibung.",
+      "notes": "id=qh_memory_wipe; executionMode=manoever; tags=stealth|desorientierung|kontrollfenster; counterplay=isolierte Implantate|Team-Bestaetigung|Protokollabgleich"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_memory_wipe"
+      }
+    }
+  },
+  {
+    "name": "Contagion",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "rare",
+      "scope": "small_system",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Der Effekt braucht ein plausibel gekoppeltes Netz mehrerer Ziele.; Ohne dichte Kopplung bleibt es bei Einzelzielwirkung.",
+      "riskProfileText": "trace, overheat, alarm, collateral",
+      "typicalEffectsText": "Überlast springt auf nahe Knoten; mehrere Ziele unter Druck; lokales System wird instabil",
+      "learnCostEp": 0,
+      "rulesShort": "Lässt eine Störung über eng gekoppelte vernetzte Ziele weiterlaufen.",
+      "description": "Contagion ist ein eskalierender Überlast-Hack für dicht vernetzte Lagen. Er braucht klare Netzlogik und ist kein universeller Flächenknopf.",
+      "notes": "id=qh_contagion; executionMode=verlaengerte_probe; tags=ausbreitung|druck|netzschaden; counterplay=hart segmentiertes Netz|Notabschaltung|analoge Trennung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_contagion"
+      }
+    }
+  },
+  {
+    "name": "Cripple Movement",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "stoerung",
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "availability": "uncommon",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Ein plausibler Zugriff auf Bewegungslogik, Assistenzsystem oder Motorik-Schnittstelle muss bestehen.",
+      "riskProfileText": "trace, counter_intrusion",
+      "typicalEffectsText": "Bewegung verlangsamt; Ausweichmuster bricht; kurze Standphase",
+      "learnCostEp": 0,
+      "rulesShort": "Stört kurz Bewegungssteuerung oder Motorik des Ziels.",
+      "description": "Der Hack ist ein temporärer Bewegungsentzug für vernetzte Ziele. Er soll kurze taktische Fenster schaffen und keine komplette Dauersperre ersetzen.",
+      "notes": "id=qh_cripple_movement; executionMode=manoever; tags=bewegung|kontrolle|combat; counterplay=manuelle Steuerung|offline-Modus|harte Motorikreserve"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_cripple_movement"
+      }
+    }
+  },
+  {
+    "name": "Overheat",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "restricted",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Ein plausibler Zugriff auf thermisch belastbare Cyberware oder Geräte muss bestehen.; Gegen minimal vernetzte Ziele sinkt die Wirkung stark.",
+      "riskProfileText": "trace, overheat, counter_intrusion",
+      "typicalEffectsText": "starke Wärmespitze; Leistungseinbruch; kurze Systempanik",
+      "learnCostEp": 0,
+      "rulesShort": "Treibt thermische Last hoch und erzeugt akuten Systemstress.",
+      "description": "Overheat fokussiert auf thermische Überlast statt direkter Kontrolle. Der Hack wirkt stark auf cyberisierte Ziele und ist gegen isolierte Technik deutlich schwächer.",
+      "notes": "id=qh_overheat; executionMode=manoever; tags=hitze|systemdruck|combat; counterplay=Kühlreserve|Isolation|Not-Bypass"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_overheat"
+      }
+    }
+  },
+  {
+    "name": "Short Circuit",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "action",
+      "usageWindow": "once_per_conflict",
+      "reuseEscalationProfile": "standard_conflict",
+      "availability": "uncommon",
+      "scope": "single_target",
+      "sourceTypePrimary": "os",
+      "targetTypePrimary": "cyberware",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Ein plausibler Zugriff auf elektrische Kernlogik oder Implantatsteuerung muss bestehen.",
+      "riskProfileText": "trace, counter_intrusion, collateral",
+      "typicalEffectsText": "System reset; Leitungsausfall; kurze Kontrollluecke",
+      "learnCostEp": 0,
+      "rulesShort": "Erzwingt einen elektrischen Kurzschluss im Zielsystem.",
+      "description": "Short Circuit ist ein klarer Einzelziel-Hack gegen vernetzte Elektronik. Er passt für gezielte Kampfstörung und technische Neutralisierung.",
+      "notes": "id=qh_short_circuit; executionMode=manoever; tags=elektrik|schock|stoerung; counterplay=Sicherungskaskade|isolierte Sektionen|redundante Leitungen"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_short_circuit"
+      }
+    }
+  },
+  {
+    "name": "Request Backup",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "action",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "restricted",
+      "scope": "small_system",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "security_system",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Der Hack braucht Zugriff auf Dispatch-, Alarm- oder Priorisierungslogik.",
+      "riskProfileText": "trace, alarm, counter_intrusion",
+      "typicalEffectsText": "Sicherheitskräfte umleiten; Bereich kurzfristig entlasten; falsche Priorität erzwingen",
+      "learnCostEp": 0,
+      "rulesShort": "Triggert glaubhaft eine falsche Backup-Anforderung im Sicherheitsfluss.",
+      "description": "Der Hack manipuliert Einsatzlogik und verschiebt Kräfte. Er ist ein taktischer Lagenhack statt direkter Schadenswirkung.",
+      "notes": "id=qh_request_backup; executionMode=basis; tags=social_engineering|alarm|lageverschiebung; counterplay=menschliche Freigabe|Signaturcheck|Zeitstempelabgleich"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_request_backup"
+      }
+    }
+  },
+  {
+    "name": "Detonate Grenade",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "rare",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Es muss ein plausibel vernetztes oder digital gesichertes Sprengobjekt vorliegen.; Ohne digitales Angriffsfeld kein Hackeffekt.",
+      "riskProfileText": "trace, alarm, collateral, counter_intrusion",
+      "typicalEffectsText": "vorzeitige Auslösung; Wurf abgebrochen; taktische Zonenverschiebung",
+      "learnCostEp": 0,
+      "rulesShort": "Manipuliert ein vernetztes Sprengobjekt für vorzeitige Auslösung.",
+      "description": "Sehr starker Spezialhack mit klaren Voraussetzungen. Ohne plausibles digitales Zielobjekt ist der Hack nicht anwendbar.",
+      "notes": "id=qh_detonate_grenade; executionMode=manoever; tags=explosiv|combat|high_risk; counterplay=analoge Zündung|airgapped Sicherung|manueller Safemode"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_detonate_grenade"
+      }
+    }
+  },
+  {
+    "name": "Cyberpsychosis",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "kontrolle",
+      "actionCost": "three_actions",
+      "usageWindow": "prepared",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "rare",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "prepared_access",
+      "requirementsText": "Braucht vorbereiteten Zugang oder direkten Link auf hochgradig cyberisiertes Ziel.; Dieser Hack ist kein regulärer Kampfstandard und sollte als Eskalationswerkzeug behandelt werden.",
+      "riskProfileText": "trace, counter_intrusion, alarm, collateral, overheat",
+      "typicalEffectsText": "kurzer Kontrollverlust; Feindpriorisierung kippt; massive Selbstgefährdung",
+      "learnCostEp": 0,
+      "rulesShort": "Erzwingt einen schweren neurodigitalen Kontrollbruch bei stark vernetztem Ziel.",
+      "description": "Cyberpsychosis ist ein extremer Eingriff und nur mit starkem Setup plausibel. In URoP soll der Effekt als riskante Ausnahmespitze laufen, nicht als Standardwerkzeug.",
+      "notes": "id=qh_cyberpsychosis; executionMode=verlaengerte_probe; tags=mentaldruck|kontrollbruch|high_risk; counterplay=isolierte Neurokern-Logik|hohe mentale Stabilität|Notabschaltung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_cyberpsychosis"
+      }
+    }
+  },
+  {
+    "name": "Suicide",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "four_actions",
+      "usageWindow": "prepared",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "rare",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "prepared_access",
+      "requirementsText": "Nur mit vorbereitetem Zugang oder direktem Link auf hochgradig cyberisiertes Ziel plausibel.; Als extremer Ausnahmehack mit hohen narrativen und taktischen Kosten behandeln.",
+      "riskProfileText": "trace, alarm, counter_intrusion, overheat, collateral",
+      "typicalEffectsText": "akuter Kontrollbruch; Selbstschädigungsimpuls; dramatische Eskalation",
+      "learnCostEp": 0,
+      "rulesShort": "Extremer Neuroangriff auf Selbstkontrolle eines stark vernetzten Ziels.",
+      "description": "Dieser Hack ist als harter Ausnahmefall gedacht. Er benötigt massiven Zugriff und sollte nur in entsprechend schweren Lagen auftreten.",
+      "notes": "id=qh_suicide; executionMode=verlaengerte_probe; tags=extrem|kontrollbruch|high_risk; counterplay=harte Isolierung|Neuro-Failsafe|Sicherheitsüberwachung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_suicide"
+      }
+    }
+  },
+  {
+    "name": "Synapse Burnout",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "two_actions",
+      "usageWindow": "once_per_scene",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "rare",
+      "scope": "single_target",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "person",
+      "accessRoutePrimary": "scanned_marked",
+      "requirementsText": "Braucht plausiblen Zugriff auf neurodigitale Zielstruktur.; Gegen schwach cyberisierte Ziele sinkt Wirkung deutlich.",
+      "riskProfileText": "trace, overheat, counter_intrusion",
+      "typicalEffectsText": "starker Leistungseinbruch; kurzer Totalaussetzer; Folgefehler in Cyberware",
+      "learnCostEp": 0,
+      "rulesShort": "Erzwingt synaptische Überlast mit schwerem Ausfallfenster.",
+      "description": "Synapse Burnout ist ein offensiver Hochrisiko-Hack gegen neurodigitale Ziele. Er soll selten und spürbar bleiben.",
+      "notes": "id=qh_synapse_burnout; executionMode=manoever; tags=nervenlast|systemversagen|combat; counterplay=Neuro-Schutz|gekappte Netzpfade|medizinische Stabilisierung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_synapse_burnout"
+      }
+    }
+  },
+  {
+    "name": "System Collapse",
+    "type": "quickhack",
+    "img": "icons/svg/circuit.svg",
+    "system": {
+      "hackClass": "ueberlast",
+      "actionCost": "three_actions",
+      "usageWindow": "prepared",
+      "reuseEscalationProfile": "strict_scene",
+      "availability": "rare",
+      "scope": "small_system",
+      "sourceTypePrimary": "deck",
+      "targetTypePrimary": "device",
+      "accessRoutePrimary": "same_network",
+      "requirementsText": "Braucht vorbereiteten Zugang auf ein zusammenhaengendes Teilnetz oder direkten Link.",
+      "riskProfileText": "trace, alarm, collateral",
+      "typicalEffectsText": "lokaler Teilausfall; Sicherheitsbruch; Folgefenster fuer Team",
+      "learnCostEp": 0,
+      "rulesShort": "Fuehrt ein lokales Teilsystem in den kontrollierten Zusammenbruch.",
+      "description": "System Collapse ist kein normaler Kampfhack, sondern ein starker Szeneneingriff gegen vernetzte Infrastruktur.",
+      "notes": "id=qh_system_collapse; executionMode=verlaengerte_probe; tags=totalausfall|netz|hochrisko; counterplay=Notfallpfade|Redundanz|manuelle Umschaltung"
+    },
+    "flags": {
+      "urop": {
+        "quickhackId": "qh_system_collapse"
+      }
+    }
+  }
+]

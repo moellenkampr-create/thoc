@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Kampfmesser",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Leichte bis ernste Nahkampfwaffe im direkten Kontakt.",
+      "description": "Standardisiertes Kampf- oder Gebrauchsmesser.",
+      "notes": "id=weapon_knife_combat_std; category=kleinwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Teleskopschlagstock",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 2,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Kontrollwaffe fuer Druck, Schmerz und nichtletale Gewalt.",
+      "description": "Ausziehbarer Schlagstock fuer Polizei, Sicherheit und verdeckte Traeger.",
+      "notes": "id=weapon_baton_telescopic_std; category=kleinwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Feldmachete",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Rohe Nahkampf- und Werkzeugwaffe mit guter Schnittwirkung.",
+      "description": "Schwere Machete fuer Busch, Werkstatt und harte Nahkampfeinsaetze.",
+      "notes": "id=weapon_machete_field_std; category=nahkampfwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Langschwert",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Ernsthafte Nahkampfwaffe mit hoher Wirkung gegen ungeschuetzte Ziele.",
+      "description": "Militaerisch oder zeremoniell gefuehrtes Langschwert im menschlichen Groessenraum.",
+      "notes": "id=weapon_sword_longsword_std; category=zweihandwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Kriegshammer",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Wuchtige Schlagwaffe fuer hohe rohe Wirkung auf kurze Distanz.",
+      "description": "Massive Schlagwaffe fuer gepanzerte Gegner oder Durchbruch im Nahkampf.",
+      "notes": "id=weapon_hammer_war_std; category=zweihandwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Stahl-Schlagring",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 2,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Kleine versteckbare Nahkampfwaffe fuer brutale kurze Treffer.",
+      "description": "Verdeckte Faustverstaerkung fuer rohe direkte Gewalt auf Handgemenge-Distanz.",
+      "notes": "id=weapon_knuckles_steel_std; category=kleinwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Alu-Baseballschlaeger",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "piercing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Guenstige Schlagwaffe mit ordentlicher Wucht und einfacher Handhabung.",
+      "description": "Sportgeraet, Strassenwaffe und Einschuechterungswerkzeug zugleich.",
+      "notes": "id=weapon_bat_aluminum_std; category=nahkampfwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Brechstange",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Robuste Hebel- und Schlagwaffe fuer Aufbruch und direkte Gewalt.",
+      "description": "Werkzeug mit klarer Zweitkarriere als improvisierte Nahkampfwaffe.",
+      "notes": "id=weapon_crowbar_utility_std; category=nahkampfwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  }
+]

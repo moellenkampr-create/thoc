@@ -1,0 +1,914 @@
+[
+  {
+    "name": "Kampfmesser",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Leichte bis ernste Nahkampfwaffe im direkten Kontakt.",
+      "description": "Standardisiertes Kampf- oder Gebrauchsmesser.",
+      "notes": "id=weapon_knife_combat_std; category=kleinwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Teleskopschlagstock",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 2,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Kontrollwaffe fuer Druck, Schmerz und nichtletale Gewalt.",
+      "description": "Ausziehbarer Schlagstock fuer Polizei, Sicherheit und verdeckte Traeger.",
+      "notes": "id=weapon_baton_telescopic_std; category=kleinwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Feldmachete",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Rohe Nahkampf- und Werkzeugwaffe mit guter Schnittwirkung.",
+      "description": "Schwere Machete fuer Busch, Werkstatt und harte Nahkampfeinsaetze.",
+      "notes": "id=weapon_machete_field_std; category=nahkampfwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Langschwert",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Ernsthafte Nahkampfwaffe mit hoher Wirkung gegen ungeschuetzte Ziele.",
+      "description": "Militaerisch oder zeremoniell gefuehrtes Langschwert im menschlichen Groessenraum.",
+      "notes": "id=weapon_sword_longsword_std; category=zweihandwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Kriegshammer",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Wuchtige Schlagwaffe fuer hohe rohe Wirkung auf kurze Distanz.",
+      "description": "Massive Schlagwaffe fuer gepanzerte Gegner oder Durchbruch im Nahkampf.",
+      "notes": "id=weapon_hammer_war_std; category=zweihandwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Taserpistole",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 2,
+      "damageType": "electricity",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 10,
+        "weit": 15,
+        "extrem": 20
+      },
+      "range": "",
+      "rulesShort": "Kurzreichweitige Kontrollwaffe mit primaer nichtletaler Wirkung.",
+      "description": "Elektrische Kontrollwaffe fuer Polizei, Security und Zwangseinsatz.",
+      "notes": "id=weapon_taser_pistol_std; category=handfeuerwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "9mm Dienstpistole",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 10,
+        "mittel": 25,
+        "weit": 50,
+        "extrem": 100
+      },
+      "range": "",
+      "rulesShort": "Standard-Kurzwaffe gegen Personalziele.",
+      "description": "Verbreitete halbautomatische Dienstpistole.",
+      "notes": "id=weapon_pistol_service_9mm; category=handfeuerwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": ".44 Schwerer Revolver",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 10,
+        "mittel": 30,
+        "weit": 60,
+        "extrem": 120
+      },
+      "range": "",
+      "rulesShort": "Kurzwaffe mit hoher roher Wirkung und geringerem Komfort als Dienstpistolen.",
+      "description": "Großkalibriger Revolver fuer Jagd, Abschreckung und harte Einzelziele.",
+      "notes": "id=weapon_revolver_heavy_44; category=handfeuerwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Kompakte Maschinenpistole",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 10,
+        "mittel": 25,
+        "weit": 50,
+        "extrem": 100
+      },
+      "range": "",
+      "rulesShort": "Kompakte automatische Waffe fuer Nahraum und kurze Feuerstoesse.",
+      "description": "Kleine Maschinenpistole fuer Sicherheitskraefte, Spezialeinsaetze und kriminelle Nutzung.",
+      "notes": "id=weapon_machinepistol_compact_9mm; category=handfeuerwaffe; combatMode=ranged; fireModes=single|burst|auto; source=urop_base"
+    }
+  },
+  {
+    "name": "Dienst-SMG",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 15,
+        "mittel": 40,
+        "weit": 80,
+        "extrem": 150
+      },
+      "range": "",
+      "rulesShort": "Kurzdistanzaffe fuer kontrolliertere Feuerstoesse als die kompakte Maschinenpistole.",
+      "description": "Dienstliche Maschinenpistole mit Schulterstuetze und einsatznaher Ergonomie.",
+      "notes": "id=weapon_smg_service_9mm; category=gewehr; combatMode=ranged; fireModes=single|burst|auto; source=urop_base"
+    }
+  },
+  {
+    "name": "5.56 Dienstgewehr",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 25,
+        "mittel": 75,
+        "weit": 200,
+        "extrem": 400
+      },
+      "range": "",
+      "rulesShort": "Standard-Gewehr fuer mittlere bis weitere Distanzen.",
+      "description": "Verbreitetes Dienst- oder Sturmgewehr im menschlichen Groessenraum.",
+      "notes": "id=weapon_rifle_service_556; category=gewehr; combatMode=ranged; fireModes=single|burst|auto; source=urop_base"
+    }
+  },
+  {
+    "name": "7.62 Battle Rifle",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "electricity",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G4",
+      "rangeBands": {
+        "nah": 25,
+        "mittel": 100,
+        "weit": 250,
+        "extrem": 500
+      },
+      "range": "",
+      "rulesShort": "Schweres Gefechtsgewehr mit hoher Personalwirkung und starker Rueckstosskontrolle-Anforderung.",
+      "description": "Leistungsstarkes Kampfgewehr fuer offene Gefechtsfelder und harte Ziele.",
+      "notes": "id=weapon_battle_rifle_762; category=gewehr; combatMode=ranged; fireModes=single|burst; source=urop_base"
+    }
+  },
+  {
+    "name": "12G Pump-Schrotflinte",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 35,
+        "extrem": 60
+      },
+      "range": "",
+      "rulesShort": "Sehr harte Nah- und Kurzdistanzwaffe mit Streucharakter.",
+      "description": "Schwere Schrotflinte fuer Hauskampf, Breach und harte kurze Distanzen.",
+      "notes": "id=weapon_shotgun_pump_12g; category=shotgun; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Praezisionsgewehr 7.62",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G4",
+      "rangeBands": {
+        "nah": 30,
+        "mittel": 120,
+        "weit": 300,
+        "extrem": 700
+      },
+      "range": "",
+      "rulesShort": "Praezisionswaffe fuer gezielte Wirkung auf mittlere bis extreme Distanz.",
+      "description": "Schweres Praezisionsgewehr fuer kontrollierte Einzelziele und weite Linien.",
+      "notes": "id=weapon_marksman_rifle_762; category=sniper; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "AV-Werfer MK1",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 20,
+        "mittel": 75,
+        "weit": 250,
+        "extrem": 500
+      },
+      "range": "",
+      "rulesShort": "Schultergestuetzte AV-Waffe gegen Fahrzeuge und schwere Ziele.",
+      "description": "Tragbarer Werfer fuer Grossziele, Panzerung und Strukturziele.",
+      "notes": "id=weapon_launcher_av_mk1; category=schwere_waffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Stahl-Schlagring",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 2,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Kleine versteckbare Nahkampfwaffe fuer brutale kurze Treffer.",
+      "description": "Verdeckte Faustverstaerkung fuer rohe direkte Gewalt auf Handgemenge-Distanz.",
+      "notes": "id=weapon_knuckles_steel_std; category=kleinwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Alu-Baseballschlaeger",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "piercing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Guenstige Schlagwaffe mit ordentlicher Wucht und einfacher Handhabung.",
+      "description": "Sportgeraet, Strassenwaffe und Einschuechterungswerkzeug zugleich.",
+      "notes": "id=weapon_bat_aluminum_std; category=nahkampfwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Brechstange",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "blunt",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Robuste Hebel- und Schlagwaffe fuer Aufbruch und direkte Gewalt.",
+      "description": "Werkzeug mit klarer Zweitkarriere als improvisierte Nahkampfwaffe.",
+      "notes": "id=weapon_crowbar_utility_std; category=nahkampfwaffe; combatMode=melee; fireModes=; source=urop_base"
+    }
+  },
+  {
+    "name": "Holdout-Pistole .22",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 2,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G2",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 12,
+        "weit": 20,
+        "extrem": 35
+      },
+      "range": "",
+      "rulesShort": "Leicht versteckbare Kleinstwaffe mit begrenzter Wirkung und kurzer Reichweite.",
+      "description": "Winzige Pistole fuer Verbergen, Notfaelle und letzte Chancen.",
+      "notes": "id=weapon_holdout_pistol_22; category=handfeuerwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Budgetpistole 9mm",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "poor",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 40,
+        "extrem": 80
+      },
+      "range": "",
+      "rulesShort": "Guenstige Standard-Kurzwaffe mit solider Wirkung, aber geringerer Verarbeitungsqualitaet.",
+      "description": "Billige Massenpistole fuer Zivilmarkt, Gangs und Leute mit knappem Budget.",
+      "notes": "id=weapon_pistol_budget_9mm; category=handfeuerwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Doppellauf-Schrotflinte 12G",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 6,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 40
+      },
+      "range": "",
+      "rulesShort": "Kurze, harte Schrotwaffe mit wenig Kapazitaet und starker Praesenz auf kurzer Distanz.",
+      "description": "Einfache zivile oder jagdliche Schrotflinte mit zwei schnellen harten Schuessen.",
+      "notes": "id=weapon_shotgun_doublebarrel_12g; category=shotgun; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Turret-HMG 12.7",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 40,
+        "mittel": 180,
+        "weit": 450,
+        "extrem": 900
+      },
+      "range": "",
+      "rulesShort": "Plattformgebundene Dauerfeuerwaffe zur Raumkontrolle und gegen leichte Fahrzeugziele.",
+      "description": "Schweres stationaeres MG fuer Turm-, Tor- oder Fahrzeuglafetten mit stabiler Munitionszufuhr.",
+      "notes": "id=weapon_turret_hmg_127; category=schwere_waffe; combatMode=ranged; fireModes=burst|auto; source=urop_base"
+    }
+  },
+  {
+    "name": "Fahrzeug-Laserlanze",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "masterwork",
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 60,
+        "mittel": 220,
+        "weit": 500,
+        "extrem": 1000
+      },
+      "range": "",
+      "rulesShort": "Plattformgebundene Strahlwaffe mit kontinuierlichem Feuermodus und linienfoermiger Wirkung.",
+      "description": "Gebuendeltes Strahlsystem fuer Fahrzeug- oder Turmplattformen, ausgelegt auf Praezisionsdruck gegen harte Ziele.",
+      "notes": "id=weapon_vehicle_laser_lance; category=schwere_waffe; combatMode=ranged; fireModes=single|continuous; source=urop_base"
+    }
+  },
+  {
+    "name": "Flammenprojektor MK2",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "fire",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 20,
+        "mittel": 40,
+        "weit": 60,
+        "extrem": 80
+      },
+      "range": "",
+      "rulesShort": "Plattformgebundene Nahbereichswaffe mit kontinuierlichem Kegelangriff zur Raumverweigerung.",
+      "description": "Mittleres Flammenprojektsystem fuer Fahrzeug- oder stationaere Plattformen mit kurzer, flaechiger Wirkzone.",
+      "notes": "id=weapon_flame_projector_mk2; category=schwere_waffe; combatMode=ranged; fireModes=continuous; source=urop_base"
+    }
+  },
+  {
+    "name": "Handgranate (Splitter)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      },
+      "range": "",
+      "rulesShort": "Flaechen-Wurfwaffe mit Sprengwirkung und Splittereffekt im Nah- bis Mittelbreich.",
+      "description": "Wirksame Splittergranate fuer Nahbereichsverteidigung und Kampf lokal begrenzter Bereiche.",
+      "notes": "id=weapon_grenade_frag_std; category=wurfwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Waerme-Granate",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "fire",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      },
+      "range": "",
+      "rulesShort": "Flaechiges Waffesystem mit Thermische Wirkung und Kontrolleffekt; typisch fuer Einsaetze gegen Positionen und Verbarrikadierungen.",
+      "description": "Inkendiaergranate fuer Saeuberings-, Abwehr- und Zugangsblockade. Erzeugt anhaltende Hitze- und Brandeffekte.",
+      "notes": "id=weapon_grenade_thermal_std; category=wurfwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "EMP-Granate",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 1,
+      "damageType": "electricity",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      },
+      "range": "",
+      "rulesShort": "Nicht-kinetische Effektgranate mit elektromagnetischem Stoerpuls; Primaerefekt auf Cyberware, Sensoren und Elektronik.",
+      "description": "Spezialisiertes Infrastruktur-Stoerimpuls im Wurf. Zerstoert oder lahmt elektronische Systeme, Cybersysteme, elektrische Verbarrikaden.",
+      "notes": "id=weapon_grenade_emp_std; category=wurfwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Rauchgranate",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 0,
+      "damageType": "stun_mind",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      },
+      "range": "",
+      "rulesShort": "Verdeckungs- und Kontrollgranate; erzeugt dichtes Rauchfeld fuer taktische Mobiliaet und Sensorenblindung.",
+      "description": "Dichter Rauchabwurf fuer Verdeckung, Deckung und Linienuendung. Reduziert Sichtbarkeit und optische Zielerfassung.",
+      "notes": "id=weapon_grenade_smoke_std; category=wurfwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Blendgranate",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 1,
+      "damageType": "electricity",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 5,
+        "mittel": 15,
+        "weit": 25,
+        "extrem": 35
+      },
+      "range": "",
+      "rulesShort": "Sensorenstoergranate mit intensivem Blitz- und Schalleffekt; primaer zur Desorientierung von Zielgruppen.",
+      "description": "Intensive Blitz- und Donnereffekte fuer Desorientierung und temporaere Kampfunfaehigkeit. Wirkt durch sichtbarkeits- und Sensor-Betaeubeung.",
+      "notes": "id=weapon_grenade_flash_std; category=wurfwaffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "AV-Werfer MK1",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 50,
+        "mittel": 200,
+        "weit": 500,
+        "extrem": 1200
+      },
+      "range": "",
+      "rulesShort": "Tragbare Raketenwaffe mit Bereichswirkung gegen Fa hrzeugs- und Infrastrukturziele.",
+      "description": "Schulter-tragbares Antivehikel-Raketensystem mit Standard-Splittergefechtskoepfen. Wirkt gegen Fahrzeuge, stationaere Ziele und gepanzerte Positionen.",
+      "notes": "id=weapon_launcher_av_mk1_std; category=schwere_waffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Gelenkflugkoerper (Guided Missile)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "masterwork",
+      "designedForSizeClass": "G6",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 100,
+        "mittel": 400,
+        "weit": 1000,
+        "extrem": 2500
+      },
+      "range": "",
+      "rulesShort": "Plattformgebundenes Lenkwaffen-System mit hoher Intelligenz und Treffquote gegen mobile und stationaere Fernziele.",
+      "description": "Fahrzeug-montierter Lenkflugkoerper mit aktiver Zielerfassung und intelligenter Navigationssteuerung. Fuer praeventive Luftabwehr und Praesenzkontrolle.",
+      "notes": "id=weapon_launcher_guided_missile_std; category=schwere_waffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Spezialisierter Raketenwerfer (Breach-Variante)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "vehicle",
+      "rangeBands": {
+        "nah": 20,
+        "mittel": 80,
+        "weit": 200,
+        "extrem": 400
+      },
+      "range": "",
+      "rulesShort": "Tragbare spezialisierte Kurzstrecken-Raketenwaffe fuer Infrastruktur-Eingriff und offensive Zugangseroeffnung.",
+      "description": "Kurzstrecken-Raketenladung fuer Zugangsoeffnung, Barrikadensprengung und Einsatzoeffnungen. Niedrigere Reichweite, hohe Praezision auf kurze Entfernung.",
+      "notes": "id=weapon_launcher_specialized_breach; category=schwere_waffe; combatMode=ranged; fireModes=single; source=urop_base"
+    }
+  },
+  {
+    "name": "Bluttrinker (Lauri)",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "masterwork",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Scharfe Signatur-Nahkampfwaffe mit hoher psychologischer und narrativer Wirkung.",
+      "description": "Historisch aufgeladene Executor-Klinge aus dem Valentino-Umfeld, von Lauri als persoenliche Waffe gefuehrt.",
+      "notes": "id=weapon_trio_lauri_bluttrinker; category=nahkampfwaffe; combatMode=melee; fireModes=; source=trio_lore"
+    }
+  },
+  {
+    "name": "Trust (George)",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Praezise gefuehrte Zweihandklinge fuer kontrollierte Nahkampfduelle.",
+      "description": "Georges Schwert, im Camp als \"Trust\" benannt und im Trio als Vertrauenssymbol gefuehrt.",
+      "notes": "id=weapon_trio_george_trust; category=zweihandwaffe; combatMode=melee; fireModes=; source=trio_lore"
+    }
+  },
+  {
+    "name": "Stiletto (Ely)",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-steel.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "slashing",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 0,
+        "mittel": 0,
+        "weit": 0,
+        "extrem": 0
+      },
+      "range": "",
+      "rulesShort": "Verdeckbare Stichwaffe fuer kurze, schnelle und praezise Nahkampfangriffe.",
+      "description": "Schmale Stichklinge, von Ely in schnellen Nahkampfmomenten aggressiv eingesetzt.",
+      "notes": "id=weapon_trio_ely_stiletto; category=kleinwaffe; combatMode=melee; fireModes=; source=trio_lore"
+    }
+  },
+  {
+    "name": "Pinky (Ely)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 3,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "standard",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 22,
+        "weit": 40,
+        "extrem": 75
+      },
+      "range": "",
+      "rulesShort": "Kompakte Pistole fuer kurze bis mittlere Distanz und schnelle Folgeschuesse.",
+      "description": "Kleine Schnellfeuerpistole mit pinkem Griffstueck, von Ely benannt und als persoenliche Sidearm gefuehrt.",
+      "notes": "id=weapon_trio_ely_pinky; category=handfeuerwaffe; combatMode=ranged; fireModes=single|burst; source=trio_lore"
+    }
+  },
+  {
+    "name": "Georgina / Dying Light (Ely)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 4,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "Waffenlink empfohlen (Lore).",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 10,
+        "mittel": 28,
+        "weit": 55,
+        "extrem": 110
+      },
+      "range": "",
+      "rulesShort": "Schwere Kurzwaffe mit Burst-Option; hohe Wirkung, aber anspruchsvoll in Fuehrung und Rueckstosskontrolle.",
+      "description": "Schwere Burstfire-Pistole, im Trio-Kontext als Dying Light bekannt und von Ely \"Georgina\" genannt; sinnvoll erst mit Waffenlink.",
+      "notes": "id=weapon_trio_ely_georgina_dying_light; category=handfeuerwaffe; combatMode=ranged; fireModes=single|burst; source=trio_lore"
+    }
+  },
+  {
+    "name": "Kate (Trio)",
+    "type": "weapon",
+    "img": "icons/weapons/guns/gun-pistol-flintlock-brass.webp",
+    "system": {
+      "damageBaseline": 5,
+      "damageType": "kinetic",
+      "initiativeModifier": 0,
+      "prerequisitesText": "",
+      "quality": "excellent",
+      "designedForSizeClass": "G3",
+      "effectiveAgainstClass": "G3",
+      "rangeBands": {
+        "nah": 8,
+        "mittel": 20,
+        "weit": 35,
+        "extrem": 60
+      },
+      "range": "",
+      "rulesShort": "Schrotplattform fuer harten Nahbereich; mit Munitionswahl von non-lethal-naeher bis durchschlagsstark skalierbar.",
+      "description": "Trio-intern benannte Schrotflinte, im Einsatz auch mit Sabot-Munition als harte Penetrationsoption erwaehnt.",
+      "notes": "id=weapon_trio_kate; category=shotgun; combatMode=ranged; fireModes=single; source=trio_lore"
+    }
+  }
+]

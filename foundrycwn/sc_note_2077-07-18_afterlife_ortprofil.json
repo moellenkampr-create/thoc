@@ -1,0 +1,51 @@
+{
+  "name": "[BACKGROUND] Afterlife (Ortprofil)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 17,
+          "hour": 0,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 17,
+          "hour": 23,
+          "minute": 59,
+          "seconds": 0
+        },
+        "allDay": true,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["BACKGROUND"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>OFFIZIELL / LOCATION-BRIEF:</strong> Das <strong>Afterlife</strong> ist eine ikonische Merc-Bar in Night City und gilt als zentraler Treffpunkt fuer Solos, Söldner und Top-Fixer.</p><ul><li><strong>Charakter:</strong> Job-Hub mit hoher Dichte an hochriskanten/high-pay Auftraegen</li><li><strong>Bedeutung:</strong> Politisch-neutraler, aber machtvoller Knoten fuer Informationen und Kontakte</li><li><strong>District:</strong> Watson (laut Quellenlage im CP2077-Wiki-Umfeld)</li><li><strong>Praegende Namen:</strong> Rogue Amendiares, Claire Russell, Nix, Crispin \"Squama\" Weyland</li><li><strong>Zugang:</strong> In CP2077 an Story/Street-Cred gekoppelt; nicht als beliebiger Fruehspiel-Ort gedacht</li></ul><p><strong>THoC-Relevanz:</strong> Abendtreffen mit Panam ist fuer den 18.07 als Einsatz-/Briefingfenster gesetzt.</p><p><em>Quellenbasis (Web):</em> Cyberpunk 2077 Fextralife Wiki (Afterlife-Locationeintrag, NPC-Liste, District-Info).</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}
