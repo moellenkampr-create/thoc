@@ -164,55 +164,33 @@ Er enthÃ¤lt:
 
 ---
 
-## 8. Fertigkeitskosten [TESTSTAND]
-Kosten werden pro Fertigkeitseintrag direkt im Feld `learnCostEp` gefuehrt.
-Die folgenden Regeln liefern den Standardwert fuer diesen Eintrag.
+## 8. Fertigkeitskosten [ARBEITSSTAND]
+Kosten werden pro Fertigkeitseintrag direkt im Feld `learnCostEp` geführt.
+Die folgenden Werte sind der aktuelle Kostenrahmen für den Regelbetrieb.
 
-### 8.1 Basiskosten nach Fertigkeitsebene
-Sammelfertigkeit:
-- 1 = 15
-- 2 = 30
-- 3 = 50
-- 4 = 80
-- 5 = 120
-- 6 = 170
+### 8.1 Lineare Kosten nach Fertigkeitsebene
+- Standardfertigkeit: **20 EP pro Stufe**
+- Spezialisierung: **18 EP pro Stufe**
+- Sammelfertigkeit: **60 EP pro Stufe**
 
-Standardfertigkeit / Spezialisierung:
-- 1 = 10
-- 2 = 20
-- 3 = 35
-- 4 = 55
-- 5 = 80
-- 6 = 110
+Damit gilt für typische Zielstufen:
+- Sammelfertigkeit Stufe 1-6: 60, 120, 180, 240, 300, 360
+- Standardfertigkeit Stufe 1-6: 20, 40, 60, 80, 100, 120
+- Spezialisierung Stufe 1-6: 18, 36, 54, 72, 90, 108
 
-### 8.2 Anwendungsklassen-Matrix
-- Kampffertigkeit: **+30 %** auf Basiskosten
-- Aktionsfertigkeit: **+0 %** auf Basiskosten
-- Flufffertigkeit: **-60 %** auf Basiskosten
+### 8.2 Parent-Regel und Freischaltung
+- Parent-Verknüpfungen sind **Voraussetzungen**, keine Zusatzkosten.
+- Eine Parent-Freischaltung kostet **0 EP**.
+- Mehrere Parent-Optionen erlauben alternative Zugänge, erzeugen aber keine Mehrkosten.
 
-Rundung erfolgt kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet).
+### 8.3 Vereinfachung für den Spielbetrieb
+- Keine Anwendungsklassen-Multiplikatoren auf Lernkosten.
+- Keine Fokus-Multiplikatoren auf Lernkosten.
+- Keine Überhang-Aufschläge auf Lernkosten.
 
-### 8.3 Regelanker und Hauptattribut-Fokus
-Wenn mindestens ein gesetzter Regelanker zum gewaehlten Hauptattribut passt
-oder ein Attribut dieses Hauptattributs ist, greift der Fokusmodifikator.
-
-Der Fokusmodifikator greift **einmal pro Fertigkeit**, nicht pro Ankerfeld.
-
-Fokuslogik:
-- 1 Hauptattribut: passend -20 %, nicht passend +10 %
-- 2 Hauptattribute: passend -10 %, nicht passend +20 %
-- kein Fokus: 0 %
-
-### 8.4 Unklare Einordnung (Aktion vs. Fluff)
-Es gibt keine starre Prioritaetsregel.
-Bei unklarer Zuordnung entscheidet die Spielleitung entlang der Definitionen
-und der erwartbaren Szenenwirkung.
-
-### 8.5 Ãœberhang [TESTSTAND]
-- bis Leitattribut = normal
-- +1 Ã¼ber Leitattribut = +30
-- +2 Ã¼ber Leitattribut = +90
-- mehr als +2 = Ausnahmebereich
+### 8.4 Foundry-Berechnung
+Die EP-Neuberechnung im Foundry-Ruleset addiert bei Fertigkeiten den gespeicherten Wert
+`learnCostEp` direkt und ohne zusätzliche Modifikatoren.
 
 ---
 

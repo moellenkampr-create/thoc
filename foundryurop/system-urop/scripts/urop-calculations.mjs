@@ -236,9 +236,7 @@ export function calculateSpentEpBreakdown({
 
   const skillItemTotal = skillItems.reduce((sum, item) => {
     const baseCost = readLearnCostEp(item);
-    const modifier = skillFocusModifier(item, focusLeadAttributes);
-    const overhangCost = skillOverhangCost(item, leadAttributeValues);
-    return sum + applyFocusModifier(baseCost, modifier) + toFiniteNumber(overhangCost);
+    return sum + toFiniteNumber(baseCost);
   }, 0);
 
   const maneuverEp = maneuverItems.reduce((sum, item) => sum + readLearnCostEp(item), 0);

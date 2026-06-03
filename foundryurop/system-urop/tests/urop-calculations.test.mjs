@@ -132,9 +132,28 @@ test("spent EP breakdown combines attributes, skills, items, and maneuvers", () 
 
   assert.equal(breakdown.attributes, 120);
   assert.equal(breakdown.skills, 3);
-  assert.equal(breakdown.skillItems, 8);
+  assert.equal(breakdown.skillItems, 10);
   assert.equal(breakdown.maneuverEp, 4);
-  assert.equal(breakdown.total, 135);
+  assert.equal(breakdown.total, 137);
+});
+
+test("spent EP uses direct learnCostEp for skill items without focus or overhang modifiers", () => {
+  const breakdown = calculateSpentEpBreakdown({
+    attributes: Object.fromEntries(Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).map((key) => [key, 2])),
+    skillItems: [
+      {
+        type: "skill",
+        system: {
+          learnCostEp: 20,
+          level: 6,
+          ruleAnchors: ["analyse"]
+        }
+      }
+    ],
+    focusLeadAttributes: ["koerper"]
+  });
+
+  assert.equal(breakdown.skillItems, 20);
 });
 
 test("spent EP uses base attribute values, not temporary bonuses or penalties", () => {

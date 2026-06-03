@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.29] - 2026-06-03
+
+### Changed
+- EP-Berechnung für Fertigkeits-Items vereinfacht: `learnCostEp` wird direkt addiert
+- Keine zusätzlichen Fokus- oder Überhang-Zuschläge mehr auf Fertigkeitskosten in der Foundry-Berechnung
+- Regeltext für Fertigkeitskosten auf linearen Kostenrahmen mit 3x-Sammelfertigkeit umgestellt
+
+### Migration Required
+- no
+
 ## [0.1.28] - 2026-05-31
 
 ### Changed
