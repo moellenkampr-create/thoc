@@ -513,6 +513,13 @@ source: lore_db.md
   - Race-Event wird zur politischen Kontaktkulisse statt zum eigentlichen Hauptkonflikt.
   - Elias wird als aktiver Verhandler sichtbar, nicht nur als Schattenkontrolle.
 
+**Neuer Stand (Folgewoche nach 19.07, ARBEITSSTAND)**
+- Aus dem Ely-Break entsteht ein verdecktes Bertram-Elias-Kontaktfenster (ohne Judith-Einbindung).
+- Bertram sucht aktiv Naehe zu Ely und sieht in Elias den schnellsten Hebel fuer einen "Gefallen".
+- Elias gibt Bertram ein Zuckerl (H10-Kontaktspur) und erhaelt dafuer belastende Datensaetze gegen Walter.
+- Bertrams Eigenlinie: moeglichst geringe Sichtbarkeit im Lauri-Clon-Komplex, mit dokumentierter Erpressungslage als Entlastungsnarrativ.
+- Elias startet umgehend Verifikation; mittelfristig koennen daraus Druckmittel gegen Walter und Bertram sowie Verhandlungsmaterial gegenueber George/Ely/Lauri entstehen.
+
 ### 4.12 18.07 Upgrade-/Beschaffungspfad (KITT + Waffen)
 **ARBEITSSTAND**
 - KITT bleibt in einem einsatznahen Zwischenzustand (fahrbar, aber technisch unvollstaendig).

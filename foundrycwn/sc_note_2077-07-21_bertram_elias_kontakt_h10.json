@@ -1,0 +1,51 @@
+{
+  "name": "[BACKGROUND] Bertram-Elias Kontakt (H10-Hinweis)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 20,
+          "hour": 10,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 20,
+          "hour": 11,
+          "minute": 0,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["BACKGROUND"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Verdecktes Ersttreffen zwischen Bertram und Elias, ohne Einbindung von Judith.</p><p><strong>Kernlage:</strong> Bertram will ueber Elias Naehe zu Ely zurueckgewinnen und liefert dafuer belastendes Material gegen Walter (inkl. erpresster Mitwirkung im Lauri-Clon-Komplex, aus Bertrams Sicht mit minimaler Eigenverstrickung).</p><p><strong>Elias-Zuckerl:</strong> Elias nennt Bertram die H10-Unterkunft als Kontaktfenster zu Ely.</p><p><strong>Folge:</strong> Elias startet direkte Verifikation der Datensaetze und baut parallel Druckhebel gegen Walter und Bertram auf.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}
