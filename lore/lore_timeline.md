@@ -831,7 +831,14 @@ source: lore_db.md
     - Ely schickt murrend Elias' Karte plus "mir geht es gut"-Nachricht an ihren Vater und entzieht sich weiterem Follow-up.
     - Elias setzt den Hebel "George ist nicht mein biologischer Sohn"; Ely/Lauri deuten dies als Keilversuch gegen das Trio.
     - Danach geht es ins H10; Lauri spricht mit **Wilson** (Second Amendment) ueber Waffen und Munition.
-    - Abendmarker: Treffen mit Panam im **Afterlife** ist angesetzt.
+    - Nachlieferung aus weiterer SL-Sicht (Abend/Nachtblock):
+      - Das Trio bleibt bis kurz vor 11:00 im H10 und spricht ueber Zukunftsfragen, trifft aber keinen festen Beschluss.
+      - Einlass im **Afterlife** laeuft erst nach kurzer Abweisung ueber Panam-Terminregistrierung ("Kiddos"-Ton).
+      - Das Trio erkennt **Claire** wieder (Vorrennen); sie erklaert Drink-Namenslogik (nur sehr bekannte Runner mit spektakulaerem Abgang) und ordnet **Rogue** als Besitzerin und Top-Fixerin ein.
+      - Im Panam-Gespraech entsteht Reibung am Gewaltgrad: Das Trio lehnt einen pauschalen Totalabschuss aller Wraiths klar ab.
+      - Neuer Planmarker fuer 19.07: Treffen gegen Mittag in **Rocky Ridge** zur Vor-Ort-Sichtung.
+      - Sozialton im Club: Das Trio wird eher als junge Newcomer wahrgenommen (Kinder/Newbs).
+      - Nachtabschluss wieder im H10.
 
   - **2077-07-18 (Lauri-Sicht, Tagebucheintrag - Goodwin/Elias-Anbahnung) [ARBEITSSTAND]**:
     - Trio-Morgen startet als enger Bindungs-/Stabilisierungsmarker; Ue18-Anteile bleiben Kontext, keine Detailchronik.
@@ -855,3 +862,26 @@ source: lore_db.md
       - Non-Lethal-Impuls bleibt aktiv (moeglichst lange ohne Toetungen, auch im Blick auf Georges Grenze).
       - Alltag-/Bindungsmarker (Wrap-Stopp, Rueckkehr zu George/Ely) bleiben als Beziehungs-/Stresskontext, nicht als Detailchronik.
       - Oggy-Ruecklauf zur unbekannten Frau: keine persoenliche Identifikation, aber hohe Valentino-Wahrscheinlichkeit ueber Farben/Tattoos; laut Oggy duerfte sie bei seinem Ausstieg noch sehr jung gewesen sein.
+
+  - **2077-07-19 (Spielleiter-/Erzaehler-Sicht, Morgenlauf bis Rocky-Ridge-Einsatz) [ARBEITSSTAND]**:
+    - Vormittag:
+      - Das Trio trainiert und joggt mehrere Kilometer zu einem franzoesischen Fruehstuecksladen.
+      - Im Vorlauf werden sie verfolgt, bemerken das jedoch nicht.
+      - Nach Abholung per Motorraedern trennen sie sich kurz:
+        - Lauri faehrt nach Downtown, verkauft Stickereien und legt den Erlos spaeter bei Saul in den "Briefkasten" zur Camp-Unterstuetzung.
+        - George und Ely fahren duschen und danach zu Vik.
+      - Bei Vik erhaelt Ely den dualen Ambidexterity-Chip; Einsatzfolge: beidhandig gleichwertige Waffenfuehrung, auch mit getrennten Zielrichtungen.
+      - Um 10:00 ruft Arasaka-HR Lauri an und setzt Termin: 03.08., 10:00, Arasaka Tower.
+      - Das Trio teilt die Info, stuft das "besonderes Asset"-Label als seltsam ein, verfolgt es aber in diesem Block noch nicht vertieft.
+    - Rocky Ridge (Mittag/Nachmittag):
+      - Trio+Panam konkretisieren den Hinterhalt: Lichtschock/Anleuchten, Fahrzeughack durch George, Dachpositionen fuer Ely und Lauri, Warhorse-Sicherung via Security-Code.
+      - Beim Eintreffen wirken die Wraiths sofort aggressiv und ziehen mit Lichtkontakt direkt Waffen.
+      - Ely schaltet den Wraith-Sniper per Kopfschuss aus.
+      - George hackt die Fahrzeuge; mehrere rollen weg und krachen gegen Wand/Strasse.
+      - Panam schiesst ebenfalls toedlich.
+      - George schaltet bei einem Gegner die Augen aus, waehrend Lauri vom Dach auf einen Wraith springt.
+      - Gefecht endet schnell: Wraiths sind tot oder ausgeschaltet.
+      - Schaden: Lauri nur leicht getroffen (Ruestungstreffer), bleibt einsatzfaehig.
+    - Nachlauf:
+      - Panam hat den Warhorse zurueck.
+      - Das Trio faehrt mit Panam zum Sunset Motel; Panam will den Wraith-Boss jagen, bevor der 6th-Street-Deal finalisiert wird.

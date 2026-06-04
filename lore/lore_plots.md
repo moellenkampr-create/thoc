@@ -250,12 +250,14 @@ source: lore_db.md
   - Bezeichnung ist lokal vereinheitlicht: **Wraiths** = gangstrukturierter Zusammenschluss clanloser Nomaden in NC; **Raffen/Raffen Shivs** = Ober-/Milieubezeichnung fuer clanlose Nomaden. Fuer diesen Plot werden beide Labels als dieselbe Gegenseite gefuehrt.
   - Zielobjekte bleiben identisch: Panams Wagen + Merchandise.
   - Der urspruengliche Treffpunkt mit dem eigentlichen Kunden (**6th Street**) soll am **2077-07-19** abends in **Rocky Ridge** stattfinden.
+  - Nach konkret ausgespieltem Afterlife-Briefing am 18.07 ist zusaetzlich ein Mittagsfenster am 19.07 gesetzt: Trio+Panam wollen Rocky Ridge vorab sichten, bevor Abendentscheidungen final fallen.
   - Panam will **6th Street** fernhalten und stattdessen mit dem Trio einen Hinterhalt gegen die Wraiths legen.
   - Handlungsziel im Sideplot: Panams Assets zurueckholen und Merchandise wieder in einen 6th-Street-Deal ueberfuehren.
   - Zusatz aus Lauri-Sicht: Hilfe soll moeglichst ohne Sichtbarkeit fuer **Saul** laufen; im Gespraech wird eine **50/50-Logik** fuer den Merchandise-Deal verhandelt, waehrend das Fahrzeug an Panam geht.
 - Plotfunktion:
   - Das Trio wird in einen harten Nomaden-/Badlands-Konflikt gezogen, obwohl V genau diesen Pfad verweigert.
   - Der Strang verbindet operative Action mit einer klaren moralischen Schwelle: **Mitch** und **Scorpion** kommunizieren offen, dass toedliche Gewalt sehr wahrscheinlich ist.
+  - Afterlife-Sozialrahmen schaerft den Ton: Das Trio wird als Newcomer gelesen und muss Verhandlungsmacht gegen erfahrene Gewaltlogik aktiv behaupten.
 - Figurenrelevanz:
   - **George** reagiert am staerksten auf die Kill-Ansage und zieht sich zurueck.
   - Damit wird Rocky Ridge nicht nur Actionkulisse, sondern ein Test fuer Georges Gewaltgrenze und fuer das gemeinsame Handeln des Trios unter Todesdruck.
@@ -521,6 +523,7 @@ source: lore_db.md
   - Wilson-Pfad konkretisiert sich operativ: Munition + Ersatzmagazine sind beschafft; Sabot-Munition ("Kate") wird als harte Penetrationsoption angeboten.
   - Bee-/Gel-Munition wird als non-lethal-naehere Option sichtbar, ist aber an Schrotflintenplattform gebunden.
   - Betaeubungs- und Elektromunition sind bei Wilson nicht verfuegbar; der Non-Lethal-Pfad bleibt damit eingeschraenkt und stark rollenabhaengig.
+  - Neuer Stand 19.07 (SL): Ely erhaelt den dualen Ambidexterity-Chip bei Vik; beidhandige Praezisionsfuehrung ist nun operativ aktiv.
 - Plotfunktion:
   - Das Trio baut zeitgleich Mobilitaet, Waffenkompetenz und Schnittstellen-Upgrades auf.
   - Der Pfad koppelt direkt an Rocky-Ridge-/Gewaltfragen und an die Frage, wie "toedlich" das Trio agieren muss.
@@ -531,16 +534,23 @@ source: lore_db.md
 - Naechste wahrscheinliche Bewegungen:
   - **Arasaka** reagiert ueber Asset-Management / HR / Walter-Naehe schneller und formeller.
   - **Biotechnica** koennte indirekter, aber nicht zwingend milder reagieren (z. B. ueber Bertram oder Verwaltungsdruck).
+- Neuer Stand 19.07 (SL): Arasaka-HR setzt fuer Lauri einen festen Termin am **03.08., 10:00 im Arasaka Tower**.
 - Diese Linie soll nicht als sofortige Grosseskalation behandelt werden, sondern als wachsender Verwaltungs-, Besitz- und Loyalitaetsdruck.
 
 ### 4.10 Rocky-Ridge-Gewaltschwelle
 **ARBEITSSTAND**
 - Fixpunkt: Fuer den **19.07.** steht mit **Rocky Ridge** ein Hinterhaltsplan gegen die **Wraiths** im Raum.
+- Neuer Vorlauf aus 18.07-Afterlife-Block: Gegen Mittag ist ein Vor-Ort-Check in Rocky Ridge angesetzt, um den Abendansatz taktisch zu praezisieren.
 - Der Plot ist nicht nur Retrieval-Action, sondern eine klare Schwelle von improvisierter Selbstverteidigung zu bewusst eingeplanter toedlicher Gewalt.
+- Fortschreibung 19.07 (SL): Der Einsatz wird ausgespielt und kippt bei Waffenziehen der Wraiths sofort in toedliche Lage.
+  - Ely setzt den Sniper per Kopfschuss ausser Gefecht.
+  - George hackt mehrere Fahrzeuge aus dem Kampf und sichert den Warhorse-Zugriff.
+  - Panam schiesst ebenfalls toedlich; Lauri kaempft im Nahraum und bleibt nur leicht gepanzert getroffen.
+  - Ergebnis: Gegnerseite tot oder ausgeschaltet; direkter Nachlauf geht in Bossjagd + 6th-Street-Dealabschluss.
 - Wichtig fuer die Weiterfuehrung:
-  - Wie geschlossen zieht das Trio bei einem Hinterhalt mit?
-  - Wie stark kippt Georges innere Linie, wenn "schiessen, um zu toeten" nicht mehr abstrakt, sondern konkret bevorsteht?
-  - Welche Rolle spielen die Aldecaldos als Absicherung, moralische Rueckendeckung oder spaetere Nachbereitung?
+  - Welche psychologische Nachwirkung hat der nun faktisch vollzogene toedliche Einsatz auf George und Trio-Dynamik?
+  - Wie reagiert die Wraith-Reststruktur auf Verlust von Personal/Fahrzeugen?
+  - Kommt es im Anschluss an die Bossjagd zu sauberer Dealkonsolidierung mit 6th Street oder zu Folgeeskalation?
 
 ## 5. Plot-Branch-Board (Pilot)
 **ARBEITSSTAND - SPIELLEITUNGSWERKZEUG**
