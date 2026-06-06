@@ -55,6 +55,7 @@ Eine Fertigkeit hat damit mindestens:
 - Spezialisierungen dÃ¼rfen **direkt an eine Sammelfertigkeit** angeschlossen werden.
 - Nicht jede Spezialisierung braucht eine Standardfertigkeit darÃ¼ber.
 - Mehrfachzuordnung ist erlaubt, wenn mehrere klare KompetenzrÃ¤ume sinnvoll sind.
+- Sammelfertigkeiten sollten ihr zugehÃ¶riges Leitattribut **im Regelfall nicht ueberschreiten**; hoehere Werte sind nur als begruendete Ausnahme gedacht.
 
 ---
 
@@ -157,6 +158,14 @@ Der aktuelle JSON-Testbestand deckt bereits gemischt ab:
 - Ãœberleben
 - Fahrzeuge
 
+Neu eingefuehrte Standardzweige mit Mehrfachzuordnung:
+- **Business** (an `Einfluss` und `Wissen`)
+- **Kunst** (an `Einfluss` und `Wissen`)
+
+Dazugehoerige neue Spezialisierungen im Referenzbestand:
+- Business: Verhandlungsstrategie, Vertrags- und Risikomanagement, Marktanalyse, Finanzplanung
+- Kunst: Performance, Komposition / Arrangement, Bildende Kunst, Inszenierung
+
 Er enthÃ¤lt:
 - Sammelfertigkeiten
 - Kern-Standardfertigkeiten
@@ -170,27 +179,32 @@ Die folgenden Werte sind der aktuelle Kostenrahmen für den Regelbetrieb.
 
 ### 8.1 Lineare Kosten nach Fertigkeitsebene
 - Standardfertigkeit: **20 EP pro Stufe**
-- Spezialisierung: **18 EP pro Stufe**
+- Spezialisierung: **15 EP pro Stufe**
 - Sammelfertigkeit: **60 EP pro Stufe**
 
 Damit gilt für typische Zielstufen:
 - Sammelfertigkeit Stufe 1-6: 60, 120, 180, 240, 300, 360
 - Standardfertigkeit Stufe 1-6: 20, 40, 60, 80, 100, 120
-- Spezialisierung Stufe 1-6: 18, 36, 54, 72, 90, 108
+- Spezialisierung Stufe 1-6: 15, 30, 45, 60, 75, 90
 
 ### 8.2 Parent-Regel und Freischaltung
 - Parent-Verknüpfungen sind **Voraussetzungen**, keine Zusatzkosten.
-- Eine Parent-Freischaltung kostet **0 EP**.
+- Wenn eine Kindfertigkeit auf **dieselbe Stufe wie ihr Parent** gezogen wird, kostet diese Freischaltung einmalig **eine Fertigkeitsstufe**:
+	- **20 EP** bei Standardfertigkeiten
+	- **15 EP** bei Spezialisierungen
 - Mehrere Parent-Optionen erlauben alternative Zugänge, erzeugen aber keine Mehrkosten.
 
 ### 8.3 Vereinfachung für den Spielbetrieb
-- Keine Anwendungsklassen-Multiplikatoren auf Lernkosten.
+- Anwendungsklassen-Multiplikatoren auf Lernkosten sind aktiv:
+	- **Kampffertigkeit (`combat`)**: x **1.25**
+	- **Aktionsfertigkeit (`action`)**: x **1.00**
+	- **Flufffertigkeit (`fluff`)**: x **0.50**
 - Keine Fokus-Multiplikatoren auf Lernkosten.
 - Keine Überhang-Aufschläge auf Lernkosten.
 
 ### 8.4 Foundry-Berechnung
 Die EP-Neuberechnung im Foundry-Ruleset addiert bei Fertigkeiten den gespeicherten Wert
-`learnCostEp` direkt und ohne zusätzliche Modifikatoren.
+`learnCostEp` direkt und wendet dabei nur die Anwendungsklassen-Multiplikatoren an.
 
 ---
 

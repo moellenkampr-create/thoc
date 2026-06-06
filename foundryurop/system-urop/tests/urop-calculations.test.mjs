@@ -12,6 +12,7 @@ import {
   calculateSpentEpBreakdown,
   focusModifierForAttribute,
   resolveLeadAttributeAnchor,
+  skillApplicationClassMultiplier,
   roundCommercial
 } from "../scripts/urop-calculations.mjs";
 
@@ -137,7 +138,7 @@ test("spent EP breakdown combines attributes, skills, items, and maneuvers", () 
   assert.equal(breakdown.total, 137);
 });
 
-test("spent EP uses direct learnCostEp for skill items without focus or overhang modifiers", () => {
+test("spent EP applies application class multipliers to skill items", () => {
   const breakdown = calculateSpentEpBreakdown({
     attributes: Object.fromEntries(Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).map((key) => [key, 2])),
     skillItems: [
@@ -145,7 +146,26 @@ test("spent EP uses direct learnCostEp for skill items without focus or overhang
         type: "skill",
         system: {
           learnCostEp: 20,
+          applicationClass: "combat",
           level: 6,
+          ruleAnchors: ["analyse"]
+        }
+      },
+      {
+        type: "skill",
+        system: {
+          learnCostEp: 20,
+          applicationClass: "action",
+          level: 2,
+          ruleAnchors: ["analyse"]
+        }
+      },
+      {
+        type: "skill",
+        system: {
+          learnCostEp: 20,
+          applicationClass: "fluff",
+          level: 1,
           ruleAnchors: ["analyse"]
         }
       }
@@ -153,7 +173,14 @@ test("spent EP uses direct learnCostEp for skill items without focus or overhang
     focusLeadAttributes: ["koerper"]
   });
 
-  assert.equal(breakdown.skillItems, 20);
+  assert.equal(breakdown.skillItems, 55);
+});
+
+test("application class multipliers resolve to expected factors", () => {
+  assert.equal(skillApplicationClassMultiplier("combat"), 1.25);
+  assert.equal(skillApplicationClassMultiplier("action"), 1);
+  assert.equal(skillApplicationClassMultiplier("fluff"), 0.5);
+  assert.equal(skillApplicationClassMultiplier("unknown"), 1);
 });
 
 test("spent EP uses base attribute values, not temporary bonuses or penalties", () => {

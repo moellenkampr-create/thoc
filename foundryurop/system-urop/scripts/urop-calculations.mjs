@@ -212,6 +212,18 @@ export function skillOverhangCost(item, derivedLeadAttributes = {}) {
   return 90;
 }
 
+export function skillApplicationClassMultiplier(applicationClass) {
+  switch (applicationClass) {
+    case "combat":
+      return 1.25;
+    case "fluff":
+      return 0.5;
+    case "action":
+    default:
+      return 1;
+  }
+}
+
 export function calculateSpentEpBreakdown({
   attributes = {},
   attributeModifiers = {},
@@ -236,7 +248,10 @@ export function calculateSpentEpBreakdown({
 
   const skillItemTotal = skillItems.reduce((sum, item) => {
     const baseCost = readLearnCostEp(item);
-    return sum + toFiniteNumber(baseCost);
+    const applicationClass = item?.system?.applicationClass;
+    const multiplier = skillApplicationClassMultiplier(applicationClass);
+    const adjustedCost = roundCommercial(toFiniteNumber(baseCost) * multiplier);
+    return sum + adjustedCost;
   }, 0);
 
   const maneuverEp = maneuverItems.reduce((sum, item) => sum + readLearnCostEp(item), 0);
