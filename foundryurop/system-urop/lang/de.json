@@ -102,7 +102,7 @@
       "InternalNote": "Interne Notiz"
     },
     "Help": {
-      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Fertigkeiten (inkl. Überhang) und Manöverkosten; Leitattribute sind abgeleitet und kostenfrei.",
+      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Fertigkeits-Items und Manöverkosten; Leitattribute sind abgeleitet und kostenfrei. Für Lernkosten werden keine Fokus- oder Überhangaufschläge genutzt.",
       "FocusAttributes": "Wähle bis zu zwei Leitattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
       "FacetDelta": "Konkreter Attributwert innerhalb des Leitattributs. Jede Stufe verändert den Wert direkt.",
       "TempTab": "Temp-Reiter für ausgelagerte Felder während der Iteration."

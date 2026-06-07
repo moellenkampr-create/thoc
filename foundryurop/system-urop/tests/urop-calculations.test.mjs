@@ -103,7 +103,7 @@ test("attribute cost table matches the active progression", () => {
   assert.equal(calculateAttributeCost(8), 460);
 });
 
-test("spent EP breakdown combines attributes, skills, items, and maneuvers", () => {
+test("spent EP breakdown combines attributes, skill items, and maneuvers", () => {
   const attributes = Object.fromEntries(Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).map((key) => [key, 2]));
   attributes.staerke = 3;
   attributes.analyse = 3;
@@ -111,7 +111,6 @@ test("spent EP breakdown combines attributes, skills, items, and maneuvers", () 
 
   const breakdown = calculateSpentEpBreakdown({
     attributes,
-    skills: { athletik: 3 },
     skillItems: [
       {
         type: "skill",
@@ -132,10 +131,10 @@ test("spent EP breakdown combines attributes, skills, items, and maneuvers", () 
   });
 
   assert.equal(breakdown.attributes, 120);
-  assert.equal(breakdown.skills, 3);
+  assert.equal(breakdown.skills, 0);
   assert.equal(breakdown.skillItems, 10);
   assert.equal(breakdown.maneuverEp, 4);
-  assert.equal(breakdown.total, 137);
+  assert.equal(breakdown.total, 134);
 });
 
 test("spent EP applies application class multipliers to skill items", () => {

@@ -158,13 +158,9 @@ Der aktuelle JSON-Testbestand deckt bereits gemischt ab:
 - Ãœberleben
 - Fahrzeuge
 
-Neu eingefuehrte Standardzweige mit Mehrfachzuordnung:
-- **Business** (an `Einfluss` und `Wissen`)
-- **Kunst** (an `Einfluss` und `Wissen`)
-
-Dazugehoerige neue Spezialisierungen im Referenzbestand:
-- Business: Verhandlungsstrategie, Vertrags- und Risikomanagement, Marktanalyse, Finanzplanung
-- Kunst: Performance, Komposition / Arrangement, Bildende Kunst, Inszenierung
+Erweiterte Sammelfertigkeiten im Referenzbestand:
+- **Business**
+- **Kunst**
 
 Er enthÃ¤lt:
 - Sammelfertigkeiten

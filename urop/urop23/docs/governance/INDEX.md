@@ -11,6 +11,7 @@ Stand: 2026-05-14
 - docs/rules/URoP_Glossar.md
 - docs/rules/URoP_Module_und_Welten.md
 - docs/rules/URoP_Spielerhandbuch.md
+- docs/rules/URoP_Vorabregelwerk_v08.md  ← neue Prueffassung
 - docs/rules/URoP_Vorabregelwerk_v07.md  ← konsolidierte Lesefassung (ersetzt Archiv v06)
 
 ## Fuehrende Daten

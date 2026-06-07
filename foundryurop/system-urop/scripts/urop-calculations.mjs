@@ -228,7 +228,6 @@ export function calculateSpentEpBreakdown({
   attributes = {},
   attributeModifiers = {},
   leadAttributeModifiers = {},
-  skills = {},
   skillItems = [],
   maneuverItems = [],
   focusLeadAttributes = [],
@@ -244,7 +243,7 @@ export function calculateSpentEpBreakdown({
   const derivedLeadAttributes = buildDerivedLeadAttributes(attributes, attributeModifiers);
   const leadAttributeValues = buildLeadAttributeValues(derivedLeadAttributes, leadAttributeModifiers);
 
-  const skillTotal = Object.values(skills).reduce((sum, value) => sum + toFiniteNumber(value || 0), 0);
+  const skillTotal = 0;
 
   const skillItemTotal = skillItems.reduce((sum, item) => {
     const baseCost = readLearnCostEp(item);

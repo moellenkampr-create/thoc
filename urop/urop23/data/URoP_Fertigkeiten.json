@@ -315,30 +315,24 @@
       "description": "Verhör / Druck bündelt kaltes Ausfragen, psychologischen Druck und das Aufbrechen von Widerstand."
     },
     {
-      "id": "skill_standard_business",
+      "id": "skill_broad_business",
       "name": "Business",
-      "type": "standard",
+      "type": "broad",
       "attributeAnchor": "Präsenz",
       "skillDomain": "knowledge",
-      "parentIds": [
-        "skill_broad_einfluss",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Standardfertigkeit für wirtschaftliche Entscheidungen, Deals und organisatorische Steuerung.",
-      "description": "Business verbindet Marktlogik, Verhandlungsrealitaet und wirtschaftliche Praxis in operativen und strategischen Entscheidungen."
+      "parentIds": [],
+      "rulesShort": "Breite Fertigkeit für Verwaltung, Verhandlung, Ökonomie, Finanzen und rechtlich-organisatorische Praxis.",
+      "description": "Business bündelt Administration, Diplomatie, Ökonomie, Finance, Recht, Marktanalyse, Handel und Kontoführung."
     },
     {
-      "id": "skill_standard_kunst",
+      "id": "skill_broad_kunst",
       "name": "Kunst",
-      "type": "standard",
+      "type": "broad",
       "attributeAnchor": "Präsenz",
       "skillDomain": "social",
-      "parentIds": [
-        "skill_broad_einfluss",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Standardfertigkeit für kreative Ausdrucksformen, künstlerische Wirkung und kulturelle Praxis.",
-      "description": "Kunst bündelt Performance, Gestaltung und künstlerische Produktion als eigenständigen Kompetenzbereich."
+      "parentIds": [],
+      "rulesShort": "Breite Fertigkeit für kreative Darstellung, Gestaltung, Performance und künstlerische Wirkung.",
+      "description": "Kunst umfasst kreative Ausdrucksformen in Performance, Komposition, Gestaltung und Inszenierung."
     },
     {
       "id": "skill_standard_mechanik",
@@ -480,112 +474,6 @@
       ],
       "rulesShort": "Spezialisierung für langfristigere Coverrollen und Identitätsarbeit.",
       "description": "Falsche Identität bündelt Verhalten, Story, Auftreten und Rollenkonsistenz."
-    },
-    {
-      "id": "skill_spec_verhandlungsstrategie",
-      "name": "Verhandlungsstrategie",
-      "type": "specialization",
-      "attributeAnchor": "Präsenz",
-      "skillDomain": "social",
-      "parentIds": [
-        "skill_standard_business",
-        "skill_standard_verhandeln",
-        "skill_broad_einfluss"
-      ],
-      "rulesShort": "Spezialisierung für strukturierte Deal-Architektur, Taktik und Hebel in mehrstufigen Verhandlungen.",
-      "description": "Verhandlungsstrategie fokussiert auf Timing, Positionsbau und kontrollierten Ressourceneinsatz in komplexen Gespraechen."
-    },
-    {
-      "id": "skill_spec_vertrags_risikomanagement",
-      "name": "Vertrags- und Risikomanagement",
-      "type": "specialization",
-      "attributeAnchor": "Geist",
-      "skillDomain": "knowledge",
-      "parentIds": [
-        "skill_standard_business",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Spezialisierung für Vertragsklauseln, Haftungsfallen und kalkulierte Risikoabsicherung.",
-      "description": "Vertrags- und Risikomanagement deckt die saubere Bewertung von Bedingungen, Konsequenzen und Exit-Optionen ab."
-    },
-    {
-      "id": "skill_spec_marktanalyse",
-      "name": "Marktanalyse",
-      "type": "specialization",
-      "attributeAnchor": "Geist",
-      "skillDomain": "knowledge",
-      "parentIds": [
-        "skill_standard_business",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Spezialisierung für Nachfragebilder, Preisentwicklung und Konkurrenzlage.",
-      "description": "Marktanalyse fokussiert auf das Lesen und Einordnen wirtschaftlicher Signale fuer Entscheidungen mit Zeitdruck."
-    },
-    {
-      "id": "skill_spec_finanzplanung",
-      "name": "Finanzplanung",
-      "type": "specialization",
-      "attributeAnchor": "Geist",
-      "skillDomain": "knowledge",
-      "parentIds": [
-        "skill_standard_business",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Spezialisierung für Budgetierung, Liquiditaet und finanzielle Projektsteuerung.",
-      "description": "Finanzplanung bündelt Mittelzuweisung, Reservenmanagement und belastbare Kostenkalkulation."
-    },
-    {
-      "id": "skill_spec_performance",
-      "name": "Performance",
-      "type": "specialization",
-      "attributeAnchor": "Präsenz",
-      "skillDomain": "social",
-      "parentIds": [
-        "skill_standard_kunst",
-        "skill_standard_auftreten",
-        "skill_broad_einfluss"
-      ],
-      "rulesShort": "Spezialisierung für Bühnenpraesenz, Livewirkung und kontrollierte Publikumsbindung.",
-      "description": "Performance fokussiert auf die direkte Wirkung kuenstlerischer Darbietung unter Beobachtung oder Druck."
-    },
-    {
-      "id": "skill_spec_komposition_arrangement",
-      "name": "Komposition / Arrangement",
-      "type": "specialization",
-      "attributeAnchor": "Geist",
-      "skillDomain": "knowledge",
-      "parentIds": [
-        "skill_standard_kunst",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Spezialisierung für Struktur, Aufbau und Verdichtung kuenstlerischer Werke.",
-      "description": "Komposition / Arrangement deckt das Planen, Ausarbeiten und Abstimmen von Motiv, Rhythmus und Form ab."
-    },
-    {
-      "id": "skill_spec_bildende_kunst",
-      "name": "Bildende Kunst",
-      "type": "specialization",
-      "attributeAnchor": "Geist",
-      "skillDomain": "knowledge",
-      "parentIds": [
-        "skill_standard_kunst",
-        "skill_broad_wissen"
-      ],
-      "rulesShort": "Spezialisierung für visuelle Gestaltung, Materialwahl und bildnerische Umsetzung.",
-      "description": "Bildende Kunst fokussiert auf das Erzeugen, Lesen und gezielte Einsetzen visueller Wirkung."
-    },
-    {
-      "id": "skill_spec_inszenierung",
-      "name": "Inszenierung",
-      "type": "specialization",
-      "attributeAnchor": "Präsenz",
-      "skillDomain": "social",
-      "parentIds": [
-        "skill_standard_kunst",
-        "skill_broad_einfluss"
-      ],
-      "rulesShort": "Spezialisierung für Dramaturgie, Szenenwirkung und kontrollierte Wahrnehmungslenkung.",
-      "description": "Inszenierung bündelt Aufbau, Rhythmus und Kontextsteuerung fuer maximale Wirkung in Szene und Story."
     },
     {
       "id": "skill_spec_schlossmechanik",

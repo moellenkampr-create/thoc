@@ -331,7 +331,6 @@ export class UropCharacterSheet extends ActorSheet {
       attributes: this.actor.system.attributes || {},
       attributeModifiers: this.actor.system.attributeModifiers || {},
       leadAttributeModifiers: this.actor.system.leadAttributeModifiers || {},
-      skills: this.actor.system.skills || {},
       skillItems: Array.from(this.actor.items.values()).filter((item) => item.type === "skill"),
       maneuverItems: Array.from(this.actor.items.values()).filter((item) => item.type === "maneuver"),
       focusLeadAttributes: this.actor.system.meta?.focus?.leadAttributes || [],

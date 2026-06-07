@@ -46,19 +46,6 @@
         "praesenz": { "bonus": 0, "malus": 0 }
       },
       "sizeClass": "G3",
-      "skills": {
-        "athletik": 0,
-        "nahkampf": 0,
-        "fernkampf": 0,
-        "heimlichkeit": 0,
-        "wahrnehmung": 0,
-        "einfluss": 0,
-        "technik": 0,
-        "medizin": 0,
-        "ueberleben": 0,
-        "wissen": 0,
-        "fahrzeuge": 0
-      },
       "initiative": {
         "leadAttribute": "koerper",
         "baseMod": 0,
