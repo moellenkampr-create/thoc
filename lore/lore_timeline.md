@@ -863,6 +863,16 @@ source: lore_db.md
       - Alltag-/Bindungsmarker (Wrap-Stopp, Rueckkehr zu George/Ely) bleiben als Beziehungs-/Stresskontext, nicht als Detailchronik.
       - Oggy-Ruecklauf zur unbekannten Frau: keine persoenliche Identifikation, aber hohe Valentino-Wahrscheinlichkeit ueber Farben/Tattoos; laut Oggy duerfte sie bei seinem Ausstieg noch sehr jung gewesen sein.
 
+  - **2077-07-18 (Lauri-Sicht, Tagebucheintrag - Afterlife/Panam/H10) [ARBEITSSTAND]**:
+    - Ely zieht Lauri zu sich; die Szene kippt in enge Koerpernaehe und anschliessendes Duschen, wobei George kurz darauf ebenfalls dazustoesst.
+    - George wirkt wegen seines Vaters durcheinander; Lauri nimmt aus seinem Verhalten mit, dass die Verlobung formal wohl noch "beim Amt" nachgezogen werden muss.
+    - Der Weg ins Afterlife fuehrt ueber eine anfaengliche Abweisung durch den Tuersteher; Ely loest den Eintritt mit dem Hinweis "Panam wartet auf uns." 
+    - Im Afterlife bleibt George gereizt, weil er den Hacker dort treffen soll und den Auftrag nicht mag.
+    - Lauri traut Panam nicht und nimmt sie als bloedruenstig und schwer kontrollierbar wahr; selbst eine vereinbarte Nicht-Toetungs-Logik wirkt fuer sie fragil.
+    - Mit Panam wird ein Treffen fuer den Folgetag kurz vor Mittag am Einsatzort vereinbart.
+    - Ely gewinnt beim Billard; Lauri verspricht eine Massage.
+    - Rueckkehr ins H10 endet im Trio-Schlaf, als Lauri die beiden massiert und sich dann zwischen sie quetscht; das Erleben ist fuer sie ein extrem starkes Gluecksmoment.
+
   - **2077-07-19 (Spielleiter-/Erzaehler-Sicht, Morgenlauf bis Rocky-Ridge-Einsatz) [ARBEITSSTAND]**:
     - Vormittag:
       - Das Trio trainiert und joggt mehrere Kilometer zu einem franzoesischen Fruehstuecksladen.
@@ -885,3 +895,14 @@ source: lore_db.md
     - Nachlauf:
       - Panam hat den Warhorse zurueck.
       - Das Trio faehrt mit Panam zum Sunset Motel; Panam will den Wraith-Boss jagen, bevor der 6th-Street-Deal finalisiert wird.
+
+  - **2077-07-19 (Lauri-Sicht, Tagebucheintrag - Morgenroutine, Zara, Arasaka-HR, Panam) [ARBEITSSTAND]**:
+    - Der Tag startet verzoegert mit einer engen Trio-Morgenroutine: Liegestuetz-Wettlauf, gemeinsames Lachen und ein deutliches Bindungsgefuehl.
+    - George bringt Ely einen Sport-BH und Zusatzgewichte fuer das Lauftraining; anschliessend laeuft das Trio 5 km zum franzoesischen Fruehstueckslokal.
+    - George fragt nach einem gemeinsamen Besuch bei seiner Mutter in Monaco; Ely und Lauri reagieren spontan positiv.
+    - Ely soll spaeter bei Vik einen Ambidexterity-Chip bekommen.
+    - Lauri verkauft Stickereien bei Zara gegen Cash und erlebt den Abschluss als richtig und ruhig; sie erwartet, dass Zara wiederkommt, wenn sie mehr Luft im Geschaeft hat.
+    - Frau Bose von Arasaka ruft mit HR-Flag an und setzt fuer den 03.08.2077, 10:00, ein Gespraech im Arasaka Tower an; Lauris SIN-Status sei hoeher eingestuft, Freikauf werde besprochen.
+    - Lauri verschweigt Ely und George nicht den Anruf, bekommt aber sofort Rueckruf von Ely und teilt die Lage.
+    - Der Stickerei-Erlos landet bewusst in Sauls Kiste; Lauri empfindet das als ihre eigene Kunst aus dem Aldecaldo-Lager und als etwas, das nur ihnen gehoert.
+    - Panam ist bereits am Treffpunkt; das Gespraech schrammt direkt an einer Eskalation vorbei, ohne dass es vollstaendig kippt.

@@ -234,6 +234,11 @@ source: lore_db.md
   - Walters Mailboxton wird als Ultimatum mit Freiheits-/Beziehungsdrohung erlebt.
   - Lauri setzt intern den klaren Exit-Marker: "Ich bin out".
   - Historische Walter/Elisa-Erinnerung (possessiver Kontrollton) taucht wieder auf, bleibt aber in Zuverlaessigkeit offen.
+- Neuer 19.07-Stand:
+  - Frau Bose von Arasaka meldet ein HR-Flag-Gespraech fuer den 03.08.2077, 10:00, im Arasaka Tower.
+  - Lauris SIN-Status wird als hoeher eingestuft; der Freikauf wird nun offiziell besprochen und eingeleitet.
+  - Der Hauptinvestor als moeglicher Gespraechspartner wird als zusaetzlicher Druckhebel mitgedacht.
+  - Die Stickerei-Verkaeufe erscheinen Lauri als sauberer, richtiger Nebenpfad innerhalb des Exit-/Selbstbehauptungsdrucks.
 - Finanzrealismus (Trio-Sicht):
   - Neben 2.0 Mio (Lauri) + 0.5 Mio (Ely) + NC-Neustatuskosten wird bereits mit Reserve/Folgekosten gerechnet; dadurch zirkuliert im Spielgespraech die grobe Marke "rund 3 Mio".
   - Gleichzeitig zeichnet sich ein spaeterer Freiheits-/Sicherheitsbedarf fuer George ab.
@@ -254,6 +259,9 @@ source: lore_db.md
   - Panam will **6th Street** fernhalten und stattdessen mit dem Trio einen Hinterhalt gegen die Wraiths legen.
   - Handlungsziel im Sideplot: Panams Assets zurueckholen und Merchandise wieder in einen 6th-Street-Deal ueberfuehren.
   - Zusatz aus Lauri-Sicht: Hilfe soll moeglichst ohne Sichtbarkeit fuer **Saul** laufen; im Gespraech wird eine **50/50-Logik** fuer den Merchandise-Deal verhandelt, waehrend das Fahrzeug an Panam geht.
+  - Nach dem Afterlife-Block nimmt Lauri Panam zusaetzlich als bloedruenig und schwer kontrollierbar wahr; die Bereitschaft zu Gewalt wirkt aus ihrer Sicht nur begrenzt verhandelbar.
+  - Der Folgetag wird daher als klarer Recon-/Vorlauftermin vor Rocky Ridge gesetzt, nicht als loser Treffpunkt.
+  - Lauri erlebt das erste 19.07-Treffen direkt als knapp vor Eskalation, ohne dass Panam bereits offen ausrastet; das bestaetigt ihren Eindruck einer kaum gebremsten Gewaltlinie.
 - Plotfunktion:
   - Das Trio wird in einen harten Nomaden-/Badlands-Konflikt gezogen, obwohl V genau diesen Pfad verweigert.
   - Der Strang verbindet operative Action mit einer klaren moralischen Schwelle: **Mitch** und **Scorpion** kommunizieren offen, dass toedliche Gewalt sehr wahrscheinlich ist.
