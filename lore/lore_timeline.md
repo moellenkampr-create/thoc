@@ -906,3 +906,15 @@ source: lore_db.md
     - Lauri verschweigt Ely und George nicht den Anruf, bekommt aber sofort Rueckruf von Ely und teilt die Lage.
     - Der Stickerei-Erlos landet bewusst in Sauls Kiste; Lauri empfindet das als ihre eigene Kunst aus dem Aldecaldo-Lager und als etwas, das nur ihnen gehoert.
     - Panam ist bereits am Treffpunkt; das Gespraech schrammt direkt an einer Eskalation vorbei, ohne dass es vollstaendig kippt.
+
+  - **2077-07-19 (Lauri-Sicht, Tagebucheintrag - Rocky Ridge Kampfphase, Sunset-Nachlauf) [ARBEITSSTAND]**:
+    - Vor dem eigentlichen Hinterhalt bauen Panam und Lauri den Platz mit Reststrom und wenigen funktionierenden Leuchten auf; Spiegel sind kaum verfuegbar.
+    - Kurz vor Kampfbeginn entsteht ein unerwarteter Ruhemarker: gemeinsames Picknick aus Panams Auto auf einer improvisierten Decke.
+    - Beim Eintreffen steigen sechs Gegner aus; das Timing kippt gleichzeitig auf allen Kanaelen.
+    - Ely setzt den Dachgegner per Kopfschuss ausser Gefecht.
+    - Panam nutzt Sabot-Munition mit explosiver Trefferwirkung.
+    - Lauri springt vom Dach auf einen Gegner und setzt ihn K.O.; ihr eigener Marker bleibt "heute nicht toeten".
+    - Lauri wird durch Beschuss getroffen, aber der Mantel faengt den Treffer ab; akuter Schmerz ohne offene Blutung.
+    - Der gegnerische Anfuehrer ist nicht vor Ort; Panam will ihn anschliessend separat holen.
+    - Das Trio lehnt die direkte Teilnahme an dieser Bossjagd ab; 4-Uhr-Treffen im Sunset Motel wird vereinbart.
+    - Im Sunset-Nachlauf thematisiert Ely ihre ausbleibende emotionale Reaktion auf den Kopfschuss; das Trio faengt den Moment in enger Naehe auf.

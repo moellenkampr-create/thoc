@@ -262,6 +262,14 @@ source: lore_db.md
   - Nach dem Afterlife-Block nimmt Lauri Panam zusaetzlich als bloedruenig und schwer kontrollierbar wahr; die Bereitschaft zu Gewalt wirkt aus ihrer Sicht nur begrenzt verhandelbar.
   - Der Folgetag wird daher als klarer Recon-/Vorlauftermin vor Rocky Ridge gesetzt, nicht als loser Treffpunkt.
   - Lauri erlebt das erste 19.07-Treffen direkt als knapp vor Eskalation, ohne dass Panam bereits offen ausrastet; das bestaetigt ihren Eindruck einer kaum gebremsten Gewaltlinie.
+  - Charakterprofil-Praezisierung: Panam wird als heissbluetig, stark familienbezogen und unter harten Umstaenden sozialisiert gefuehrt; diese Schaerfe ist derzeit bewusst Teil der Figur und kein isolierter Klaerungsfehler.
+  - Kampfphasen-Nachtrag aus Lauri-Sicht (19.07):
+    - Aufbau am Einsatzort mit Reststrom/Leuchten als improvisierte Triggerkulisse.
+    - Panam setzt Sabot-Munition mit explosiver Wirkung ein.
+    - Lauri fuehrt fuer sich einen expliziten Nicht-Toeten-Marker, bleibt aber voll im Nahkampf.
+    - Treffer auf Lauris Mantel bestaetigt die Schutzfunktion unter Realbeschuss.
+    - Nach dem Feuergefecht trennt sich Panams Bossjagd kurzfristig vom Trio; Sunset-4-Uhr-Nachlauf bleibt als sozialer und taktischer Uebergabeknoten.
+    - Psychologischer Nachlauf wird sichtbar: Ely meldet Distanz zur eigenen Toetungswahrnehmung, Trio reagiert mit unmittelbarer Naehe statt Debrief-Distanz.
 - Plotfunktion:
   - Das Trio wird in einen harten Nomaden-/Badlands-Konflikt gezogen, obwohl V genau diesen Pfad verweigert.
   - Der Strang verbindet operative Action mit einer klaren moralischen Schwelle: **Mitch** und **Scorpion** kommunizieren offen, dass toedliche Gewalt sehr wahrscheinlich ist.
