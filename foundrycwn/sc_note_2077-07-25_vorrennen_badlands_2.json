@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Zweites Vorrennen (Badlands) - Grosse Rennen",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 24,
+          "hour": 0,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 24,
+          "hour": 23,
+          "minute": 59,
+          "seconds": 0
+        },
+        "allDay": true,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EVENT:</strong> Zweites Vorrennen fuer das grosse Rennen in den Badlands.</p><p><strong>Streckenstatus:</strong> Route wird erst beim Rennstart bekannt gegeben.</p><p><strong>Aldecaldo-Team:</strong> Pepe (Fahrer) und Mirabell (Begleitschutz).</p><p><strong>Hinweis:</strong> Teamfahrzeug wie bereits im laufenden Rennkontext hinterlegt.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}
