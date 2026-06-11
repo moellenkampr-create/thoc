@@ -24,6 +24,24 @@ async function runSystemMigrations(fromVersion, toVersion) {
       if (!foundry.utils.hasProperty(actor, "system.sizeClass")) {
         actorUpdates["system.sizeClass"] = "G3";
       }
+      if (!foundry.utils.hasProperty(actor, "system.settings.consequenceSlots.light")) {
+        actorUpdates["system.settings.consequenceSlots.light"] = 3;
+      }
+      if (!foundry.utils.hasProperty(actor, "system.settings.consequenceSlots.heavy")) {
+        actorUpdates["system.settings.consequenceSlots.heavy"] = 2;
+      }
+      if (!foundry.utils.hasProperty(actor, "system.settings.consequenceSlots.critical")) {
+        actorUpdates["system.settings.consequenceSlots.critical"] = 1;
+      }
+      if (!foundry.utils.hasProperty(actor, "system.settings.combatDisplay.showCombatSkills")) {
+        actorUpdates["system.settings.combatDisplay.showCombatSkills"] = true;
+      }
+      if (!foundry.utils.hasProperty(actor, "system.settings.combatDisplay.showWeapons")) {
+        actorUpdates["system.settings.combatDisplay.showWeapons"] = true;
+      }
+      if (!foundry.utils.hasProperty(actor, "system.settings.combatDisplay.showArmor")) {
+        actorUpdates["system.settings.combatDisplay.showArmor"] = true;
+      }
 
       if (Object.keys(actorUpdates).length > 0) {
         await actor.update(actorUpdates);

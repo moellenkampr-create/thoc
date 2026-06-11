@@ -18,6 +18,7 @@
     <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
     <a class="item" data-tab="maneuvers">{{localize "URoP.Tab.Maneuvers"}}</a>
     <a class="item" data-tab="advanced">{{localize "URoP.Tab.Advanced"}}</a>
+    <a class="item" data-tab="settings">{{localize "URoP.Tab.Settings"}}</a>
   </nav>
 
   <section class="sheet-body">
@@ -390,6 +391,7 @@
 
         <div class="card">
           <h3>Kampfuebersicht</h3>
+          {{#if combatDisplaySettings.showCombatSkills}}
           <label>Kampffertigkeiten</label>
           <ul class="item-list interactive-list">
             {{#each combatSkills as |item|}}
@@ -399,7 +401,9 @@
             </li>
             {{/each}}
           </ul>
+          {{/if}}
 
+          {{#if combatDisplaySettings.showWeapons}}
           <label>Waffen</label>
           <ul class="item-list interactive-list">
             {{#each itemGroups.weapon as |item|}}
@@ -409,7 +413,9 @@
             </li>
             {{/each}}
           </ul>
+          {{/if}}
 
+          {{#if combatDisplaySettings.showArmor}}
           <label>Ruestung</label>
           <ul class="item-list interactive-list">
             {{#each itemGroups.armor as |item|}}
@@ -419,24 +425,28 @@
             </li>
             {{/each}}
           </ul>
+          {{/if}}
         </div>
       </div>
 
       <div class="grid three-col">
         <div class="card">
           <h3>Leichte Konsequenzen</h3>
-          <input type="text" name="system.consequences.light.0" value="{{actor.system.consequences.light.[0]}}"/>
-          <input type="text" name="system.consequences.light.1" value="{{actor.system.consequences.light.[1]}}"/>
-          <input type="text" name="system.consequences.light.2" value="{{actor.system.consequences.light.[2]}}"/>
+          {{#each consequenceFields.light as |slot|}}
+          <input type="text" name="system.consequences.light.{{slot.index}}" value="{{slot.value}}"/>
+          {{/each}}
         </div>
         <div class="card">
           <h3>Schwere Konsequenzen</h3>
-          <input type="text" name="system.consequences.heavy.0" value="{{actor.system.consequences.heavy.[0]}}"/>
-          <input type="text" name="system.consequences.heavy.1" value="{{actor.system.consequences.heavy.[1]}}"/>
+          {{#each consequenceFields.heavy as |slot|}}
+          <input type="text" name="system.consequences.heavy.{{slot.index}}" value="{{slot.value}}"/>
+          {{/each}}
         </div>
         <div class="card">
           <h3>Kritische Konsequenz</h3>
-          <input type="text" name="system.consequences.critical.0" value="{{actor.system.consequences.critical.[0]}}"/>
+          {{#each consequenceFields.critical as |slot|}}
+          <input type="text" name="system.consequences.critical.{{slot.index}}" value="{{slot.value}}"/>
+          {{/each}}
         </div>
       </div>
     </div>
@@ -568,6 +578,63 @@
           <input type="number" value="{{initiativeValues.geist}}" readonly/>
           <label>Initiative Präsenz</label>
           <input type="number" value="{{initiativeValues.praesenz}}" readonly/>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="settings">
+      <div class="grid one-col">
+        <div class="card">
+          <h3>{{localize "URoP.Section.Settings"}}</h3>
+          <div class="sheet-hint">
+            <h4>{{localize "URoP.Field.ConsequenceSlots"}}</h4>
+            <p>{{localize "URoP.Help.ConsequenceSlots"}}</p>
+          </div>
+          <div class="grid three-col">
+            <div>
+              <label>{{localize "URoP.Field.ConsequenceSlotsLight"}}</label>
+              <input type="number" min="0" max="12" step="1" name="system.settings.consequenceSlots.light" value="{{consequenceSlotConfig.light}}"/>
+            </div>
+            <div>
+              <label>{{localize "URoP.Field.ConsequenceSlotsHeavy"}}</label>
+              <input type="number" min="0" max="12" step="1" name="system.settings.consequenceSlots.heavy" value="{{consequenceSlotConfig.heavy}}"/>
+            </div>
+            <div>
+              <label>{{localize "URoP.Field.ConsequenceSlotsCritical"}}</label>
+              <input type="number" min="0" max="12" step="1" name="system.settings.consequenceSlots.critical" value="{{consequenceSlotConfig.critical}}"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>{{localize "URoP.Section.CombatDisplaySettings"}}</h3>
+          <div class="sheet-hint">
+            <h4>{{localize "URoP.Field.CombatDisplay"}}</h4>
+            <p>{{localize "URoP.Help.CombatDisplay"}}</p>
+          </div>
+          <div class="grid three-col">
+            <div>
+              <label>{{localize "URoP.Field.ShowCombatSkills"}}</label>
+              <select name="system.settings.combatDisplay.showCombatSkills">
+                <option value="true" {{#if combatDisplaySettings.showCombatSkills}}selected{{/if}}>{{localize "URoP.Option.Yes"}}</option>
+                <option value="false" {{#unless combatDisplaySettings.showCombatSkills}}selected{{/unless}}>{{localize "URoP.Option.No"}}</option>
+              </select>
+            </div>
+            <div>
+              <label>{{localize "URoP.Field.ShowWeapons"}}</label>
+              <select name="system.settings.combatDisplay.showWeapons">
+                <option value="true" {{#if combatDisplaySettings.showWeapons}}selected{{/if}}>{{localize "URoP.Option.Yes"}}</option>
+                <option value="false" {{#unless combatDisplaySettings.showWeapons}}selected{{/unless}}>{{localize "URoP.Option.No"}}</option>
+              </select>
+            </div>
+            <div>
+              <label>{{localize "URoP.Field.ShowArmor"}}</label>
+              <select name="system.settings.combatDisplay.showArmor">
+                <option value="true" {{#if combatDisplaySettings.showArmor}}selected{{/if}}>{{localize "URoP.Option.Yes"}}</option>
+                <option value="false" {{#unless combatDisplaySettings.showArmor}}selected{{/unless}}>{{localize "URoP.Option.No"}}</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
     </div>

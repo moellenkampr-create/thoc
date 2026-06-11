@@ -33,6 +33,7 @@
       "Items": "Ausrüstung",
       "Maneuvers": "Manöver",
       "Advanced": "Temp",
+      "Settings": "Einstellungen",
       "Details": "Details",
       "Effects": "Effekte",
       "Description": "Beschreibung",
@@ -43,6 +44,8 @@
       "Initiative": "Initiative",
       "Resources": "Ressourcen",
       "Advanced": "Erweiterte Einstellungen",
+      "Settings": "Einstellungen",
+      "CombatDisplaySettings": "Kampfseiten-Anzeige",
       "OverviewNotes": "Notizen",
       "Temp": "Temporäre Felder"
     },
@@ -98,6 +101,14 @@
       "PressureState": "Druckstatus",
       "Boosts": "Boosts",
       "SizeClass": "Größenstufe",
+      "ConsequenceSlots": "Konsequenz-Slots",
+      "ConsequenceSlotsLight": "Leichte Konsequenzen (Anzahl Slots)",
+      "ConsequenceSlotsHeavy": "Schwere Konsequenzen (Anzahl Slots)",
+      "ConsequenceSlotsCritical": "Kritische Konsequenzen (Anzahl Slots)",
+      "CombatDisplay": "Kampfseiten-Inhalte",
+      "ShowCombatSkills": "Kampffertigkeiten anzeigen",
+      "ShowWeapons": "Waffen anzeigen",
+      "ShowArmor": "Rüstung anzeigen",
       "LockingEnabled": "Feldsperre aktiv",
       "InternalNote": "Interne Notiz"
     },
@@ -105,7 +116,13 @@
       "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Fertigkeits-Items und Manöverkosten; Leitattribute sind abgeleitet und kostenfrei. Für Lernkosten werden keine Fokus- oder Überhangaufschläge genutzt.",
       "FocusAttributes": "Wähle bis zu zwei Leitattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
       "FacetDelta": "Konkreter Attributwert innerhalb des Leitattributs. Jede Stufe verändert den Wert direkt.",
+      "ConsequenceSlots": "Die Anzahl bestimmt, wie viele Eingabefelder für leichte, schwere und kritische Konsequenzen auf der Kampfseite angezeigt werden.",
+      "CombatDisplay": "Steuert, welche Übersichtsblöcke auf der Kampfseite sichtbar sind.",
       "TempTab": "Temp-Reiter für ausgelagerte Felder während der Iteration."
+    },
+    "Option": {
+      "Yes": "Ja",
+      "No": "Nein"
     },
     "ItemHelp": {
       "Tier": "Einordnung der Stärke-/Komplexitätsstufe des Eintrags.",

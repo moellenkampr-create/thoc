@@ -23,6 +23,13 @@ export class UropCharacterSheet extends ActorSheet {
   static ATTRIBUTE_KEYS = Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE);
   static LEAD_ATTRIBUTE_KEYS = ["koerper", "geist", "praesenz"];
   static MAX_MONEY_STORES = 10;
+  static CONSEQUENCE_TYPES = ["light", "heavy", "critical"];
+  static DEFAULT_CONSEQUENCE_SLOTS = {
+    light: 3,
+    heavy: 2,
+    critical: 1
+  };
+  static MAX_CONSEQUENCE_SLOTS = 12;
 
   static APPLICATION_CLASS_ORDER = {
     combat: 0,
@@ -61,6 +68,9 @@ export class UropCharacterSheet extends ActorSheet {
     const leadAttributeModifiers = this._normalizeLeadAttributeModifiers(this.actor.system.leadAttributeModifiers || {});
     const moneyStores = this._normalizeMoneyStores(this.actor.system.resources?.moneyStores || []);
     const focusLeadAttributes = this.actor.system.meta?.focus?.leadAttributes || [];
+    const consequenceSlotConfig = this._normalizeConsequenceSlotConfig(this.actor.system.settings?.consequenceSlots || {});
+    const combatDisplaySettings = this._normalizeCombatDisplaySettings(this.actor.system.settings?.combatDisplay || {});
+    const consequences = this._normalizeConsequences(this.actor.system.consequences || {}, consequenceSlotConfig);
 
     data.itemGroups = {
       gear: allItems.filter((i) => i.type === "gear"),
@@ -101,8 +111,29 @@ export class UropCharacterSheet extends ActorSheet {
     data.moneyStores = moneyStores;
     data.canAddMoneyStore = moneyStores.length < UropCharacterSheet.MAX_MONEY_STORES;
     data.canRemoveMoneyStore = moneyStores.length > 1;
+    data.consequenceSlotConfig = consequenceSlotConfig;
+    data.combatDisplaySettings = combatDisplaySettings;
+    data.consequenceFields = this._buildConsequenceFieldRows(consequences);
 
     return data;
+  }
+
+  _toBoundedInteger(value, fallback, min = 0, max = Number.MAX_SAFE_INTEGER) {
+    const numeric = Number(value);
+    if (!Number.isFinite(numeric)) return fallback;
+    return Math.min(max, Math.max(min, Math.trunc(numeric)));
+  }
+
+  _toBoolean(value, fallback = false) {
+    if (typeof value === "boolean") return value;
+    if (typeof value === "string") {
+      const normalized = value.trim().toLowerCase();
+      if (["true", "1", "yes", "on"].includes(normalized)) return true;
+      if (["false", "0", "no", "off"].includes(normalized)) return false;
+    }
+
+    if (typeof value === "number") return value !== 0;
+    return fallback;
   }
 
   _normalizeAttributeModifiers(attributeModifiers = {}) {
@@ -176,6 +207,47 @@ export class UropCharacterSheet extends ActorSheet {
     return normalized;
   }
 
+  _normalizeConsequenceSlotConfig(slotConfig = {}) {
+    const defaults = UropCharacterSheet.DEFAULT_CONSEQUENCE_SLOTS;
+
+    return {
+      light: this._toBoundedInteger(slotConfig?.light, defaults.light, 0, UropCharacterSheet.MAX_CONSEQUENCE_SLOTS),
+      heavy: this._toBoundedInteger(slotConfig?.heavy, defaults.heavy, 0, UropCharacterSheet.MAX_CONSEQUENCE_SLOTS),
+      critical: this._toBoundedInteger(slotConfig?.critical, defaults.critical, 0, UropCharacterSheet.MAX_CONSEQUENCE_SLOTS)
+    };
+  }
+
+  _normalizeCombatDisplaySettings(displaySettings = {}) {
+    return {
+      showCombatSkills: this._toBoolean(displaySettings?.showCombatSkills, true),
+      showWeapons: this._toBoolean(displaySettings?.showWeapons, true),
+      showArmor: this._toBoolean(displaySettings?.showArmor, true)
+    };
+  }
+
+  _normalizeConsequences(consequences = {}, slotConfig = UropCharacterSheet.DEFAULT_CONSEQUENCE_SLOTS) {
+    const normalized = {};
+
+    for (const type of UropCharacterSheet.CONSEQUENCE_TYPES) {
+      const rawList = Array.isArray(consequences?.[type]) ? consequences[type] : [];
+      const slotCount = this._toBoundedInteger(slotConfig?.[type], UropCharacterSheet.DEFAULT_CONSEQUENCE_SLOTS[type], 0, UropCharacterSheet.MAX_CONSEQUENCE_SLOTS);
+      normalized[type] = Array.from({ length: slotCount }, (_, index) => String(rawList[index] ?? ""));
+    }
+
+    return normalized;
+  }
+
+  _buildConsequenceFieldRows(consequences = {}) {
+    const rows = {};
+
+    for (const type of UropCharacterSheet.CONSEQUENCE_TYPES) {
+      const values = Array.isArray(consequences?.[type]) ? consequences[type] : [];
+      rows[type] = values.map((value, index) => ({ index, value }));
+    }
+
+    return rows;
+  }
+
   _collectMoneyStoresFromFormData(formData = {}) {
     const buckets = new Map();
 
@@ -200,6 +272,27 @@ export class UropCharacterSheet extends ActorSheet {
       .map(([, row]) => row);
 
     return this._normalizeMoneyStores(rows);
+  }
+
+  _collectConsequencesFromFormData(formData = {}, slotConfig = UropCharacterSheet.DEFAULT_CONSEQUENCE_SLOTS) {
+    const normalized = {
+      light: Array.from({ length: slotConfig.light }, () => ""),
+      heavy: Array.from({ length: slotConfig.heavy }, () => ""),
+      critical: Array.from({ length: slotConfig.critical }, () => "")
+    };
+
+    for (const [path, rawValue] of Object.entries(formData)) {
+      const match = /^system\.consequences\.(light|heavy|critical)\.(\d+)$/.exec(path);
+      if (!match) continue;
+
+      const type = match[1];
+      const index = Number(match[2]);
+      if (!Number.isInteger(index) || index < 0 || index >= normalized[type].length) continue;
+
+      normalized[type][index] = String(rawValue ?? "");
+    }
+
+    return normalized;
   }
 
   activateListeners(html) {
@@ -544,13 +637,40 @@ export class UropCharacterSheet extends ActorSheet {
   async _updateObject(event, formData) {
     const updateData = { ...formData };
 
+    const consequenceSlotConfig = this._normalizeConsequenceSlotConfig({
+      light: updateData["system.settings.consequenceSlots.light"] ?? this.actor.system.settings?.consequenceSlots?.light,
+      heavy: updateData["system.settings.consequenceSlots.heavy"] ?? this.actor.system.settings?.consequenceSlots?.heavy,
+      critical: updateData["system.settings.consequenceSlots.critical"] ?? this.actor.system.settings?.consequenceSlots?.critical
+    });
+
+    const combatDisplaySettings = this._normalizeCombatDisplaySettings({
+      showCombatSkills: updateData["system.settings.combatDisplay.showCombatSkills"] ?? this.actor.system.settings?.combatDisplay?.showCombatSkills,
+      showWeapons: updateData["system.settings.combatDisplay.showWeapons"] ?? this.actor.system.settings?.combatDisplay?.showWeapons,
+      showArmor: updateData["system.settings.combatDisplay.showArmor"] ?? this.actor.system.settings?.combatDisplay?.showArmor
+    });
+
     for (const key of Object.keys(updateData)) {
       if (key.startsWith("system.resources.moneyStores.")) {
+        delete updateData[key];
+      }
+
+      if (key.startsWith("system.consequences.")) {
+        delete updateData[key];
+      }
+
+      if (key.startsWith("system.settings.consequenceSlots.")) {
+        delete updateData[key];
+      }
+
+      if (key.startsWith("system.settings.combatDisplay.")) {
         delete updateData[key];
       }
     }
 
     updateData["system.resources.moneyStores"] = this._collectMoneyStoresFromFormData(formData);
+    updateData["system.settings.consequenceSlots"] = consequenceSlotConfig;
+    updateData["system.settings.combatDisplay"] = combatDisplaySettings;
+    updateData["system.consequences"] = this._collectConsequencesFromFormData(formData, consequenceSlotConfig);
 
     await this.actor.update(updateData);
   }

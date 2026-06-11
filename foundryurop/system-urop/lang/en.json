@@ -33,6 +33,7 @@
       "Items": "Equipment",
       "Maneuvers": "Maneuvers",
       "Advanced": "Temp",
+      "Settings": "Settings",
       "Details": "Details",
       "Effects": "Effects",
       "Description": "Description",
@@ -43,6 +44,8 @@
       "Initiative": "Initiative",
       "Resources": "Resources",
       "Advanced": "Advanced Settings",
+      "Settings": "Settings",
+      "CombatDisplaySettings": "Combat Page Display",
       "OverviewNotes": "Notes",
       "Temp": "Temporary Fields"
     },
@@ -98,6 +101,14 @@
       "PressureState": "Pressure State",
       "Boosts": "Boosts",
       "SizeClass": "Size Class",
+      "ConsequenceSlots": "Consequence Slots",
+      "ConsequenceSlotsLight": "Light consequences (slot count)",
+      "ConsequenceSlotsHeavy": "Heavy consequences (slot count)",
+      "ConsequenceSlotsCritical": "Critical consequences (slot count)",
+      "CombatDisplay": "Combat page content",
+      "ShowCombatSkills": "Show combat skills",
+      "ShowWeapons": "Show weapons",
+      "ShowArmor": "Show armor",
       "LockingEnabled": "Field Lock Enabled",
       "InternalNote": "Internal Note"
     },
@@ -105,7 +116,13 @@
       "EPSpentRecalc": "Recalculates XP spent from attributes, skills (including overcap), and maneuver costs; lead attributes are derived and free.",
       "FocusAttributes": "Pick up to two lead attributes. Selecting a third one resets that change.",
       "FacetDelta": "The concrete attribute value within the lead attribute. Each step changes the value directly.",
+      "ConsequenceSlots": "These values define how many input boxes for light, heavy, and critical consequences are shown on the Combat tab.",
+      "CombatDisplay": "Controls which overview blocks are visible on the Combat tab.",
       "TempTab": "Temporary tab for fields moved out during iteration."
+    },
+    "Option": {
+      "Yes": "Yes",
+      "No": "No"
     },
     "ItemHelp": {
       "Tier": "Classification of this entry's power/complexity tier.",

@@ -57,6 +57,18 @@
         "state": "none",
         "notes": ""
       },
+      "settings": {
+        "consequenceSlots": {
+          "light": 3,
+          "heavy": 2,
+          "critical": 1
+        },
+        "combatDisplay": {
+          "showCombatSkills": true,
+          "showWeapons": true,
+          "showArmor": true
+        }
+      },
       "consequences": {
         "light": ["", "", ""],
         "heavy": ["", ""],
