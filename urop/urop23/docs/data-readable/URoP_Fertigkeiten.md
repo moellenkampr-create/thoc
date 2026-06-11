@@ -209,3 +209,24 @@ Die EP-Neuberechnung im Foundry-Ruleset addiert bei Fertigkeiten den gespeichert
 - finale Passungslogik verwandter Fertigkeiten
 - Ausbau des Referenzbestands
 - spÃ¤tere JSON-Anbindung an ManÃ¶ver, Vorteile und Foundry-Import
+
+---
+
+## 10. Spieltest-Stand 2026-06-11
+- Fuehrender Datenstand fuer Fertigkeiten: `URoP_Fertigkeiten.json`
+- Aktueller Umfang: **73 aktive Fertigkeiten** (nach Bereinigung der als "raus/entfallen" markierten Mapping-Eintraege)
+- Fuer Foundry vorbereitet: `URoP_Fertigkeiten_foundry_import.json` (73 Skill-Items)
+
+Umgesetzte harte Mapping-Entscheidungen aus der XLS-Bemerkungsspalte:
+- entfernt: Bildung & Allgemeinwissen, Expertenwissen, Fahren, Basistechnik, Folter-/Drogenresistenz, Ausdauer
+- umbenannt: Ueberreden (statt "Ueberreden & Schnellreden"), Aktien (statt "Aktienmarkt")
+- Klassenkorrektur: Zoologie als Flufffertigkeit
+
+Lernkosten-Baseline fuer Spieltest:
+- Sammelfertigkeit (`broad`): 60 EP
+- Standardfertigkeit (`standard`): 20 EP
+- Spezialisierung (`specialization`): 15 EP
+
+Hinweis zur Foundry-Berechnung:
+- `learnCostEp` wird pro Skill-Eintrag gespeichert.
+- Die Anwendungsklassen-Multiplikatoren bleiben aktiv (`combat` 1.25, `action` 1.00, `fluff` 0.50).

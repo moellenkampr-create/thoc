@@ -1,1127 +1,1973 @@
-{
-  "schemaVersion": "2026-06-11_v3",
-  "type": "skill_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer Fertigkeiten. Die MD-Datei ist die Lesefassung und Schemaerklaerung.",
-  "statusLogic": {
-    "GELOCKT": "als gesetzt behandeln, bis ausdrücklich geändert",
-    "TESTSTAND": "aktiv genutzter Probestand, noch nicht final",
-    "ARBEITSSTAND": "inhaltliche Richtung steht, Details sind noch prüfbar",
-    "OFFEN": "bewusst ungeklärt"
-  },
-  "designNotes": [
-    "Standardfertigkeiten sind optionale Strukturknoten, keine Pflichtstufe.",
-    "Spezialisierungen dürfen direkt an Sammelfertigkeiten angeschlossen werden.",
-    "Sammelfertigkeiten sollten ihr zugehoeriges Leitattribut im Regelfall nicht ueberschreiten; hoehere Werte sind nur als begruendete Ausnahme gedacht.",
-    "Der unterstützende Wert wirkt nicht nur atmosphärisch, sondern oft auf Kontrolle und Fehlerbeherrschung.",
-    "Die Struktur soll auch außerhalb des Kampfes sauber funktionieren."
-  ],
-  "enums": {
-    "type": [
-      "broad",
-      "standard",
-      "specialization"
-    ],
-    "attributeAnchor": [
-      "Körper",
-      "Geist",
-      "Präsenz"
-    ],
-    "skillDomain": [
-      "combat",
-      "social",
-      "technical",
-      "medical",
-      "knowledge",
-      "survival",
-      "mobility",
-      "stealth",
-      "perception"
-    ],
-    "applicationClass": [
-      "combat",
-      "action",
-      "fluff"
-    ]
-  },
-  "fieldSchema": {
-    "id": {
-      "required": true,
-      "type": "string",
-      "description": "Stabile interne Kennung"
-    },
-    "name": {
-      "required": true,
-      "type": "string",
-      "description": "Anzeigename"
-    },
-    "type": {
-      "required": true,
-      "type": "string",
-      "description": "broad, standard oder specialization"
-    },
-    "attributeAnchor": {
-      "required": true,
-      "type": "string",
-      "description": "Typischer Attributanker, kein harter Zwang"
-    },
-    "skillDomain": {
-      "required": true,
-      "type": "string",
-      "description": "Praktische Obergruppe zur Sortierung und Filterung"
-    },
-    "parentIds": {
-      "required": true,
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Übergeordnete Fertigkeiten; mehrere Eltern sind erlaubt"
-    },
-    "rulesShort": {
-      "required": true,
-      "type": "string",
-      "description": "Kurze Regelerklärung"
-    },
-    "description": {
-      "required": true,
-      "type": "string",
-      "description": "Lesefassung und Einordnung"
-    },
-    "applicationClass": {
-      "required": true,
-      "type": "string",
-      "description": "Klassifikation der Anwendung im Spiel: combat, action oder fluff"
-    },
-    "ruleAnchors": {
-      "required": false,
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Optionale Regelanker fuer spezifische Probenlogik"
-    },
-    "learnCostEp": {
-      "required": true,
-      "type": "number",
-      "description": "Basis-Lernkosten in EP vor Anwendung des applicationClass-Multiplikators"
-    }
-  },
-  "entries": [
-    {
-      "id": "skill_broad_athletik",
-      "name": "Athletik",
+[
+  {
+    "name": "Athletik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "broad",
       "applicationClass": "action",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "mobility",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 60,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (mobility) fuer Athletik.",
       "description": "Athletik (Athletics) beschreibt typische Anwendungen im Bereich mobility. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 60
+      "notes": "id=skill_broad_athletik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_beschatten",
-      "name": "Beschatten",
+    "flags": {
+      "urop": {
+        "skillId": "skill_broad_athletik"
+      }
+    }
+  },
+  {
+    "name": "Beschatten",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "action",
+      "skillDomain": "survival",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Aufmerksamkeit"
+        "Aufmerksamkeit",
+        "",
+        ""
       ],
-      "skillDomain": "survival",
-      "parentIds": [],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (survival) fuer Beschatten.",
       "description": "Beschatten (Shadow/Track) beschreibt typische Anwendungen im Bereich survival. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Aufmerksamkeit.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_beschatten; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_bibliotheksrecherche",
-      "name": "Bibliotheksrecherche",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_beschatten"
+      }
+    }
+  },
+  {
+    "name": "Bibliotheksrecherche",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (knowledge) fuer Bibliotheksrecherche.",
       "description": "Bibliotheksrecherche (Library Search) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_bibliotheksrecherche; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_buchhaltung",
-      "name": "Buchhaltung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_bibliotheksrecherche"
+      }
+    }
+  },
+  {
+    "name": "Buchhaltung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Buchhaltung.",
       "description": "Buchhaltung (Accounting) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_buchhaltung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_fechten",
-      "name": "Fechten",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_buchhaltung"
+      }
+    }
+  },
+  {
+    "name": "Fechten",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Fechten.",
       "description": "Fechten (Fencing) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_fechten; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_kampfsport",
-      "name": "Kampfsport (___)",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_fechten"
+      }
+    }
+  },
+  {
+    "name": "Kampfsport (___)",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Kampfsport (___).",
       "description": "Kampfsport (___) (Martial Arts) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_kampfsport; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_kurzwaffen",
-      "name": "Kurzwaffen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_kampfsport"
+      }
+    }
+  },
+  {
+    "name": "Kurzwaffen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Kurzwaffen.",
       "description": "Kurzwaffen (Handgun) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_kurzwaffen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_langwaffen",
-      "name": "Langwaffen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_kurzwaffen"
+      }
+    }
+  },
+  {
+    "name": "Langwaffen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Langwaffen.",
       "description": "Langwaffen (Rifle) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_langwaffen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_maschinenpistolen",
-      "name": "Maschinenpistolen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_langwaffen"
+      }
+    }
+  },
+  {
+    "name": "Maschinenpistolen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Maschinenpistolen.",
       "description": "Maschinenpistolen (Submachinegun) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_maschinenpistolen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_motorrad",
-      "name": "Motorrad",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_maschinenpistolen"
+      }
+    }
+  },
+  {
+    "name": "Motorrad",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "action",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "mobility",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (mobility) fuer Motorrad.",
       "description": "Motorrad (Motorcycle) beschreibt typische Anwendungen im Bereich mobility. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_motorrad; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_raufen",
-      "name": "Raufen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_motorrad"
+      }
+    }
+  },
+  {
+    "name": "Raufen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Raufen.",
       "description": "Raufen (Brawling) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_raufen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_schwere_waffen",
-      "name": "Schwere Waffen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_raufen"
+      }
+    }
+  },
+  {
+    "name": "Schwere Waffen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Schwere Waffen.",
       "description": "Schwere Waffen (Heavy Weapons) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_schwere_waffen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_specialization_spuren_lesen",
-      "name": "Spuren Lesen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_schwere_waffen"
+      }
+    }
+  },
+  {
+    "name": "Spuren Lesen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "specialization",
       "applicationClass": "action",
+      "skillDomain": "survival",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Aufmerksamkeit"
+        "Aufmerksamkeit",
+        "",
+        ""
       ],
-      "skillDomain": "survival",
-      "parentIds": [],
+      "learnCostEp": 15,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (survival) fuer Spuren Lesen.",
       "description": "Spuren Lesen (Shadow/Track) beschreibt typische Anwendungen im Bereich survival. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Aufmerksamkeit.",
-      "learnCostEp": 15
+      "notes": "id=skill_specialization_spuren_lesen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_ssberreden",
-      "name": "Ueberreden",
+    "flags": {
+      "urop": {
+        "skillId": "skill_specialization_spuren_lesen"
+      }
+    }
+  },
+  {
+    "name": "Ueberreden",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Überreden & Schnellreden.",
       "description": "Überreden & Schnellreden (Persuasion & Fast Talk) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_ssberreden; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_av_technik",
-      "name": "AV-Technik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_ssberreden"
+      }
+    }
+  },
+  {
+    "name": "AV-Technik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer AV-Technik.",
       "description": "AV-Technik (AV Tech) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_av_technik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_absch_tteln",
-      "name": "Abschütteln",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_av_technik"
+      }
+    }
+  },
+  {
+    "name": "Abschütteln",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "stealth",
       "attributeAnchor": "Körper",
       "ruleAnchors": [
-        "Geist"
+        "Geist",
+        "",
+        ""
       ],
-      "skillDomain": "stealth",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (stealth) fuer Abschütteln.",
       "description": "Abschütteln (Hide/Evade) beschreibt typische Anwendungen im Bereich stealth. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_absch_tteln; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_aerotechnik",
-      "name": "Aerotechnik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_absch_tteln"
+      }
+    }
+  },
+  {
+    "name": "Aerotechnik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Aerotechnik.",
       "description": "Aerotechnik (Aero Tech) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_aerotechnik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_aktien",
-      "name": "Aktien",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_aerotechnik"
+      }
+    }
+  },
+  {
+    "name": "Aktien",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Aktienmarkt.",
       "description": "Aktienmarkt (Stock Market) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_aktien; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_anthropologie",
-      "name": "Anthropologie",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_aktien"
+      }
+    }
+  },
+  {
+    "name": "Anthropologie",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Anthropologie.",
       "description": "Anthropologie (Anthropology) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_anthropologie; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_aufmerksamkeit",
-      "name": "Aufmerksamkeit",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_anthropologie"
+      }
+    }
+  },
+  {
+    "name": "Aufmerksamkeit",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "perception",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (perception) fuer Aufmerksamkeit.",
       "description": "Aufmerksamkeit (Awareness/Notice) beschreibt typische Anwendungen im Bereich perception. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_aufmerksamkeit; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_ausweichen_und_entkommen",
-      "name": "Ausweichen & Entkommen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_aufmerksamkeit"
+      }
+    }
+  },
+  {
+    "name": "Ausweichen & Entkommen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "combat",
+      "skillDomain": "combat",
       "attributeAnchor": "Körper",
       "ruleAnchors": [
-        "Feinmotorik"
+        "Feinmotorik",
+        "",
+        ""
       ],
-      "skillDomain": "combat",
-      "parentIds": [
-        "skill_broad_athletik"
-      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Ausweichen & Entkommen.",
       "description": "Ausweichen & Entkommen (Dodge & Escape) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_ausweichen_und_entkommen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_biologie",
-      "name": "Biologie",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_ausweichen_und_entkommen"
+      }
+    }
+  },
+  {
+    "name": "Biologie",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Biologie.",
       "description": "Biologie (Biology) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_biologie; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_bogenschie_en",
-      "name": "Bogenschießen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_biologie"
+      }
+    }
+  },
+  {
+    "name": "Bogenschießen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Bogenschießen.",
       "description": "Bogenschießen (Archery) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_bogenschie_en; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_botanik",
-      "name": "Botanik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_bogenschie_en"
+      }
+    }
+  },
+  {
+    "name": "Botanik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Botanik.",
       "description": "Botanik (Botany) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_botanik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_chemie",
-      "name": "Chemie",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_botanik"
+      }
+    }
+  },
+  {
+    "name": "Chemie",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Chemie.",
       "description": "Chemie (Chemistry) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_chemie; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_cyberdeck_design",
-      "name": "Cyberdeck-Design",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_chemie"
+      }
+    }
+  },
+  {
+    "name": "Cyberdeck-Design",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "technical",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Analyse"
+        "Analyse",
+        "",
+        ""
       ],
-      "skillDomain": "technical",
-      "parentIds": [
-        "skill_standard_elektronik"
-      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Cyberdeck-Design.",
       "description": "Cyberdeck-Design (Cyberdeck Design) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Analyse.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_cyberdeck_design; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_cybertechnik",
-      "name": "Cybertechnik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_cyberdeck_design"
+      }
+    }
+  },
+  {
+    "name": "Cybertechnik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "technical",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Analyse"
+        "Analyse",
+        "",
+        ""
       ],
-      "skillDomain": "technical",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Cybertechnik.",
       "description": "Cybertechnik (CyberTech) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Analyse.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_cybertechnik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_darstellung",
-      "name": "Darstellung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_cybertechnik"
+      }
+    }
+  },
+  {
+    "name": "Darstellung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Darstellung.",
       "description": "Darstellung (Perform) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_darstellung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_einsch_chtern",
-      "name": "Einschüchtern",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_darstellung"
+      }
+    }
+  },
+  {
+    "name": "Einschüchtern",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Präsenz",
-      "ruleAnchors": [],
       "skillDomain": "social",
-      "parentIds": [],
+      "attributeAnchor": "Präsenz",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Einschüchtern.",
       "description": "Einschüchtern (Intimidate) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Präsenz.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_einsch_chtern; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_elektronik",
-      "name": "Elektronik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_einsch_chtern"
+      }
+    }
+  },
+  {
+    "name": "Elektronik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Elektronik.",
       "description": "Elektronik (Electronics) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_elektronik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_elektronische_sicherheit",
-      "name": "Elektronische Sicherheit",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_elektronik"
+      }
+    }
+  },
+  {
+    "name": "Elektronische Sicherheit",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Elektronische Sicherheit.",
       "description": "Elektronische Sicherheit (Electronic Security) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_elektronische_sicherheit; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_erste_hilfe",
-      "name": "Erste Hilfe",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_elektronische_sicherheit"
+      }
+    }
+  },
+  {
+    "name": "Erste Hilfe",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "medical",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Feinmotorik"
+        "Feinmotorik",
+        "",
+        ""
       ],
-      "skillDomain": "medical",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (medical) fuer Erste Hilfe.",
       "description": "Erste Hilfe (First Aid) beschreibt typische Anwendungen im Bereich medical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_erste_hilfe; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_foto_und_film",
-      "name": "Foto & Film",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_erste_hilfe"
+      }
+    }
+  },
+  {
+    "name": "Foto & Film",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Foto & Film.",
       "description": "Foto & Film (Photo & Film) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_foto_und_film; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_f_lschung",
-      "name": "Fälschung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_foto_und_film"
+      }
+    }
+  },
+  {
+    "name": "Fälschung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "knowledge",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Analyse"
+        "Analyse",
+        "",
+        ""
       ],
-      "skillDomain": "knowledge",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (knowledge) fuer Fälschung.",
       "description": "Fälschung (Forgery) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Analyse.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_f_lschung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_f_hrung",
-      "name": "Führung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_f_lschung"
+      }
+    }
+  },
+  {
+    "name": "Führung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Präsenz",
-      "ruleAnchors": [],
       "skillDomain": "social",
-      "parentIds": [],
+      "attributeAnchor": "Präsenz",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Führung.",
       "description": "Führung (Leadership) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Präsenz.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_f_hrung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_garderobe_und_stil",
-      "name": "Garderobe & Stil",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_f_hrung"
+      }
+    }
+  },
+  {
+    "name": "Garderobe & Stil",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Garderobe & Stil.",
       "description": "Garderobe & Stil (Wardrobe & Style) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_garderobe_und_stil; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_geologie",
-      "name": "Geologie",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_garderobe_und_stil"
+      }
+    }
+  },
+  {
+    "name": "Geologie",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Geologie.",
       "description": "Geologie (Geology) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_geologie; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_geschichte",
-      "name": "Geschichte",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_geologie"
+      }
+    }
+  },
+  {
+    "name": "Geschichte",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Geschichte.",
       "description": "Geschichte (History) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_geschichte; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_geselligkeit",
-      "name": "Geselligkeit",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_geschichte"
+      }
+    }
+  },
+  {
+    "name": "Geselligkeit",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Präsenz",
-      "ruleAnchors": [],
       "skillDomain": "social",
-      "parentIds": [],
+      "attributeAnchor": "Präsenz",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Geselligkeit.",
       "description": "Geselligkeit (Social) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Präsenz.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_geselligkeit; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_gyrotechnik",
-      "name": "Gyrotechnik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_geselligkeit"
+      }
+    }
+  },
+  {
+    "name": "Gyrotechnik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Gyrotechnik.",
       "description": "Gyrotechnik (Gyro Tech) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_gyrotechnik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_handel",
-      "name": "Handel",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_gyrotechnik"
+      }
+    }
+  },
+  {
+    "name": "Handel",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "knowledge",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Geist"
+        "Geist",
+        "",
+        ""
       ],
-      "skillDomain": "knowledge",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (knowledge) fuer Handel.",
       "description": "Handel (Trading) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_handel; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_heimlichkeit",
-      "name": "Heimlichkeit",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_handel"
+      }
+    }
+  },
+  {
+    "name": "Heimlichkeit",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "stealth",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (stealth) fuer Heimlichkeit.",
       "description": "Heimlichkeit (Stealth) beschreibt typische Anwendungen im Bereich stealth. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_heimlichkeit; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_instrument_spielen",
-      "name": "Instrument spielen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_heimlichkeit"
+      }
+    }
+  },
+  {
+    "name": "Instrument spielen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Instrument spielen.",
       "description": "Instrument spielen (Play Instrument) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_instrument_spielen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_interviewen",
-      "name": "Interviewen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_instrument_spielen"
+      }
+    }
+  },
+  {
+    "name": "Interviewen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Aufmerksamkeit"
+        "Aufmerksamkeit",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Interviewen.",
       "description": "Interviewen (Interview) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Aufmerksamkeit.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_interviewen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_komposition",
-      "name": "Komposition",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_interviewen"
+      }
+    }
+  },
+  {
+    "name": "Komposition",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Komposition.",
       "description": "Komposition (Composition) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_komposition; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_kraftakt",
-      "name": "Kraftakt",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_komposition"
+      }
+    }
+  },
+  {
+    "name": "Kraftakt",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "mobility",
-      "parentIds": [
-        "skill_broad_athletik"
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
       ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (mobility) fuer Kraftakt.",
       "description": "Kraftakt (Strength Feat) beschreibt typische Anwendungen im Bereich mobility. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_kraftakt; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_krankheiten_diagnostizieren",
-      "name": "Krankheiten diagnostizieren",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_kraftakt"
+      }
+    }
+  },
+  {
+    "name": "Krankheiten diagnostizieren",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "medical",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Analyse"
+        "Analyse",
+        "",
+        ""
       ],
-      "skillDomain": "medical",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (medical) fuer Krankheiten diagnostizieren.",
       "description": "Krankheiten diagnostizieren (Diagnose Illness) beschreibt typische Anwendungen im Bereich medical. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Analyse.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_krankheiten_diagnostizieren; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_k_rperpflege",
-      "name": "Körperpflege",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_krankheiten_diagnostizieren"
+      }
+    }
+  },
+  {
+    "name": "Körperpflege",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Körperpflege.",
       "description": "Körperpflege (Personal Grooming) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_k_rperpflege; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_lehren",
-      "name": "Lehren",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_k_rperpflege"
+      }
+    }
+  },
+  {
+    "name": "Lehren",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Lehren.",
       "description": "Lehren (Teaching) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_lehren; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_malen_oder_zeichnen",
-      "name": "Malen oder Zeichnen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_lehren"
+      }
+    }
+  },
+  {
+    "name": "Malen oder Zeichnen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
+      "skillDomain": "social",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (social) fuer Malen oder Zeichnen.",
       "description": "Malen oder Zeichnen (Paint or Draw) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_malen_oder_zeichnen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_mathematik",
-      "name": "Mathematik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_malen_oder_zeichnen"
+      }
+    }
+  },
+  {
+    "name": "Mathematik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Mathematik.",
       "description": "Mathematik (Mathematics) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_mathematik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_menschenkenntnis",
-      "name": "Menschenkenntnis",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_mathematik"
+      }
+    }
+  },
+  {
+    "name": "Menschenkenntnis",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Empathie"
+        "Empathie",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Menschenkenntnis.",
       "description": "Menschenkenntnis (Human Perception) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Empathie.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_menschenkenntnis; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_nahkampfwaffen",
-      "name": "Nahkampfwaffen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_menschenkenntnis"
+      }
+    }
+  },
+  {
+    "name": "Nahkampfwaffen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "combat",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "combat",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (combat) fuer Nahkampfwaffen.",
       "description": "Nahkampfwaffen (Melee) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_nahkampfwaffen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_pharmakologie",
-      "name": "Pharmakologie",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_nahkampfwaffen"
+      }
+    }
+  },
+  {
+    "name": "Pharmakologie",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "medical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (medical) fuer Pharmakologie.",
       "description": "Pharmakologie (Pharmaceuticals) beschreibt typische Anwendungen im Bereich medical. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_pharmakologie; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_physik",
-      "name": "Physik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_pharmakologie"
+      }
+    }
+  },
+  {
+    "name": "Physik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Physik.",
       "description": "Physik (Physics) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_physik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_pilotenfertigkeit",
-      "name": "Pilotenfertigkeit",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_physik"
+      }
+    }
+  },
+  {
+    "name": "Pilotenfertigkeit",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "mobility",
-      "parentIds": [],
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (mobility) fuer Pilotenfertigkeit.",
       "description": "Pilotenfertigkeit (Pilot) beschreibt typische Anwendungen im Bereich mobility. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_pilotenfertigkeit; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_programmierung",
-      "name": "Programmierung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_pilotenfertigkeit"
+      }
+    }
+  },
+  {
+    "name": "Programmierung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Programmierung.",
       "description": "Programmierung (Programming) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_programmierung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_rhetorik",
-      "name": "Rhetorik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_programmierung"
+      }
+    }
+  },
+  {
+    "name": "Rhetorik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Rhetorik.",
       "description": "Rhetorik (Oratory) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_rhetorik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_schl_sser_knacken",
-      "name": "Schlösser knacken",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_rhetorik"
+      }
+    }
+  },
+  {
+    "name": "Schlösser knacken",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "technical",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Feinmotorik"
+        "Feinmotorik",
+        "",
+        ""
       ],
-      "skillDomain": "technical",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Schlösser knacken.",
       "description": "Schlösser knacken (Pick Lock) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_schl_sser_knacken; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_schwere_maschinen_bedienen",
-      "name": "Schwere Maschinen bedienen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_schl_sser_knacken"
+      }
+    }
+  },
+  {
+    "name": "Schwere Maschinen bedienen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "technical",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
-        "Körper"
+        "Körper",
+        "",
+        ""
       ],
-      "skillDomain": "technical",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Schwere Maschinen bedienen.",
       "description": "Schwere Maschinen bedienen (Operate Heavy Machinery) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_schwere_maschinen_bedienen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_schwimmen",
-      "name": "Schwimmen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_schwere_maschinen_bedienen"
+      }
+    }
+  },
+  {
+    "name": "Schwimmen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "mobility",
-      "parentIds": [
-        "skill_broad_athletik"
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
       ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (mobility) fuer Schwimmen.",
       "description": "Schwimmen (Swim) beschreibt typische Anwendungen im Bereich mobility. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_schwimmen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_spiele",
-      "name": "Spiele",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_schwimmen"
+      }
+    }
+  },
+  {
+    "name": "Spiele",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Spiele.",
       "description": "Spiele (Gamble) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_spiele; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_sprache",
-      "name": "Sprache (___)",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_spiele"
+      }
+    }
+  },
+  {
+    "name": "Sprache (___)",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (knowledge) fuer Sprache (___).",
       "description": "Sprache (___) (Language) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_sprache; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_sprengtechnik",
-      "name": "Sprengtechnik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_sprache"
+      }
+    }
+  },
+  {
+    "name": "Sprengtechnik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "combat",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Kampffertigkeit (technical) fuer Sprengtechnik.",
       "description": "Sprengtechnik (Demolitions) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_sprengtechnik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_stra_enwissen",
-      "name": "Straßenwissen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_sprengtechnik"
+      }
+    }
+  },
+  {
+    "name": "Straßenwissen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Aufmerksamkeit"
+        "Aufmerksamkeit",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Straßenwissen.",
       "description": "Straßenwissen (Streetwise) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Aufmerksamkeit.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_stra_enwissen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_systemkenntnis",
-      "name": "Systemkenntnis",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_stra_enwissen"
+      }
+    }
+  },
+  {
+    "name": "Systemkenntnis",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (knowledge) fuer Systemkenntnis.",
       "description": "Systemkenntnis (System Knowledge) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_systemkenntnis; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_tanzen",
-      "name": "Tanzen",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_systemkenntnis"
+      }
+    }
+  },
+  {
+    "name": "Tanzen",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Körper",
-      "ruleAnchors": [],
       "skillDomain": "mobility",
-      "parentIds": [
-        "skill_broad_athletik"
+      "attributeAnchor": "Körper",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
       ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Flufffertigkeit (mobility) fuer Tanzen.",
       "description": "Tanzen (Dance) beschreibt typische Anwendungen im Bereich mobility. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_tanzen; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_taschendiebstahl",
-      "name": "Taschendiebstahl",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_tanzen"
+      }
+    }
+  },
+  {
+    "name": "Taschendiebstahl",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "stealth",
       "attributeAnchor": "Körper",
       "ruleAnchors": [
-        "Feinmotorik"
+        "Feinmotorik",
+        "",
+        ""
       ],
-      "skillDomain": "stealth",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (stealth) fuer Taschendiebstahl.",
       "description": "Taschendiebstahl (Pick Pocket) beschreibt typische Anwendungen im Bereich stealth. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_taschendiebstahl; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_verf_hrung",
-      "name": "Verführung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_taschendiebstahl"
+      }
+    }
+  },
+  {
+    "name": "Verführung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Ausdruck"
+        "Ausdruck",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Verführung.",
       "description": "Verführung (Seduction) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_verf_hrung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_verh_r",
-      "name": "Verhör",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_verf_hrung"
+      }
+    }
+  },
+  {
+    "name": "Verhör",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Präsenz",
       "ruleAnchors": [
-        "Willenskraft"
+        "Willenskraft",
+        "",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Verhör.",
       "description": "Verhör (Interrogation) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Willenskraft.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_verh_r; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_verkleidung",
-      "name": "Verkleidung",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_verh_r"
+      }
+    }
+  },
+  {
+    "name": "Verkleidung",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
+      "skillDomain": "social",
       "attributeAnchor": "Geist",
       "ruleAnchors": [
         "Präsenz",
-        "Ausdruck"
+        "Ausdruck",
+        ""
       ],
-      "skillDomain": "social",
-      "parentIds": [],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (social) fuer Verkleidung.",
       "description": "Verkleidung (Disguise) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Präsenz / Ausdruck.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_verkleidung; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_waffentechnik",
-      "name": "Waffentechnik",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_verkleidung"
+      }
+    }
+  },
+  {
+    "name": "Waffentechnik",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "action",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "technical",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (technical) fuer Waffentechnik.",
       "description": "Waffentechnik (Weaponsmith) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_waffentechnik; source=cp2020_skill_mapping_v2"
     },
-    {
-      "id": "skill_standard_zoologie",
-      "name": "Zoologie",
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_waffentechnik"
+      }
+    }
+  },
+  {
+    "name": "Zoologie",
+    "type": "skill",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "level": 1,
       "type": "standard",
       "applicationClass": "fluff",
-      "attributeAnchor": "Geist",
-      "ruleAnchors": [],
       "skillDomain": "knowledge",
-      "parentIds": [],
+      "attributeAnchor": "Geist",
+      "ruleAnchors": [
+        "",
+        "",
+        ""
+      ],
+      "learnCostEp": 20,
+      "prerequisitesText": "",
       "rulesShort": "Aktionsfertigkeit (knowledge) fuer Zoologie.",
       "description": "Zoologie (Zoology) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
-      "learnCostEp": 20
+      "notes": "id=skill_standard_zoologie; source=cp2020_skill_mapping_v2"
+    },
+    "flags": {
+      "urop": {
+        "skillId": "skill_standard_zoologie"
+      }
     }
-  ]
-}
+  }
+]
