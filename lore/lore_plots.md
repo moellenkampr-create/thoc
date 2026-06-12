@@ -506,6 +506,11 @@ source: lore_db.md
 - Sie befindet sich aktuell in **Europa**, warnt George vor **Elias' Rueckkehr nach NC** und oeffnet mit der **Monaco-Einladung in zwei Monaten** einen moeglichen spaeteren Flucht-/Familienkorridor.
 - George meldet ihr die Verlobung mit **Lauri** und **Ely**; die Mutter reagiert warm und will beide bei direkter Gelegenheit kennenlernen.
 
+**Neuer Stand 20.07 (SL):**
+- Das Trio hat sich per VR eintragen lassen; die Aldecaldos feiern spontan.
+- Geplantes Hochzeitsdatum fuer eine echte Feier: **05.06.2078**, wenn Ely/Lauri konzernfrei sind.
+- Lala hat das Monaco-Gespraech mitgehoert und signalisiert: Aldecaldos wuerden dabei helfen.
+
 ### 4.11 Elias-Erstkontakt ueber Rennkulisse (18.07)
 **ARBEITSSTAND**
 - Fixpunkt: Elias-Linie ist am 18.07 von indirekter Beobachtung auf direkte Kontaktpolitik gewechselt.
@@ -547,6 +552,11 @@ source: lore_db.md
   - Bee-/Gel-Munition wird als non-lethal-naehere Option sichtbar, ist aber an Schrotflintenplattform gebunden.
   - Betaeubungs- und Elektromunition sind bei Wilson nicht verfuegbar; der Non-Lethal-Pfad bleibt damit eingeschraenkt und stark rollenabhaengig.
   - Neuer Stand 19.07 (SL): Ely erhaelt den dualen Ambidexterity-Chip bei Vik; beidhandige Praezisionsfuehrung ist nun operativ aktiv.
+- Neuer Stand 20.07 (SL):
+  - KITT ist bei Oggy bewaffnet und nahezu fertiggestellt.
+  - KITT-VI ist installiert und grundlegend funktional; George kann KITT ueber Personal Link direkt aus VR steuern.
+  - Neue Munition fuer KITT am 21.07 beschafft.
+  - Kleinarbeiten und Optimierungen laufen weiter (21.-22.07).
 - Plotfunktion:
   - Das Trio baut zeitgleich Mobilitaet, Waffenkompetenz und Schnittstellen-Upgrades auf.
   - Der Pfad koppelt direkt an Rocky-Ridge-/Gewaltfragen und an die Frage, wie "toedlich" das Trio agieren muss.
@@ -558,6 +568,9 @@ source: lore_db.md
   - **Arasaka** reagiert ueber Asset-Management / HR / Walter-Naehe schneller und formeller.
   - **Biotechnica** koennte indirekter, aber nicht zwingend milder reagieren (z. B. ueber Bertram oder Verwaltungsdruck).
 - Neuer Stand 19.07 (SL): Arasaka-HR setzt fuer Lauri einen festen Termin am **03.08., 10:00 im Arasaka Tower**.
+- Neuer Stand 20.07 (SL):
+  - Ely hat direkten Kontakt mit ihrem Vater (Bertram); er ist sehr traurig und entschuldigt sich aufrichtig.
+  - Treffen am Freitagabend (23.07.) im Afterlife vereinbart; Ely waehlt neutralen Boden aus Angst, festgesetzt zu werden.
 - Diese Linie soll nicht als sofortige Grosseskalation behandelt werden, sondern als wachsender Verwaltungs-, Besitz- und Loyalitaetsdruck.
 
 ### 4.10 Rocky-Ridge-Gewaltschwelle
@@ -570,10 +583,11 @@ source: lore_db.md
   - George hackt mehrere Fahrzeuge aus dem Kampf und sichert den Warhorse-Zugriff.
   - Panam schiesst ebenfalls toedlich; Lauri kaempft im Nahraum und bleibt nur leicht gepanzert getroffen.
   - Ergebnis: Gegnerseite tot oder ausgeschaltet; direkter Nachlauf geht in Bossjagd + 6th-Street-Dealabschluss.
-- Wichtig fuer die Weiterfuehrung:
-  - Welche psychologische Nachwirkung hat der nun faktisch vollzogene toedliche Einsatz auf George und Trio-Dynamik?
-  - Wie reagiert die Wraith-Reststruktur auf Verlust von Personal/Fahrzeugen?
-  - Kommt es im Anschluss an die Bossjagd zu sauberer Dealkonsolidierung mit 6th Street oder zu Folgeeskalation?
+- Neuer Stand 19.07 abends (SL-Abschluss):
+  - 6th-Street-Deal ist sauber abgewickelt worden: drei hochvercyberte Veteranen, 50.000 ED, 25.000 ED ans Trio.
+  - Panam erhaelt das Sunset-Motel-Zimmer; das Trio kehrt ins Lager zurueck.
+  - **Dieser Strang gilt als abgeschlossen (KANON):** Panam hat Warhorse und Merchandise; der Deal ist finalisiert.
+- Noch offen: Psychologische Nachwirkung des toedlichen Einsatzes auf George und Trio-Dynamik bleibt ARBEITSSTAND.
 
 ## 5. Plot-Branch-Board (Pilot)
 **ARBEITSSTAND - SPIELLEITUNGSWERKZEUG**

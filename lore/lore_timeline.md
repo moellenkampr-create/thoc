@@ -918,3 +918,34 @@ source: lore_db.md
     - Der gegnerische Anfuehrer ist nicht vor Ort; Panam will ihn anschliessend separat holen.
     - Das Trio lehnt die direkte Teilnahme an dieser Bossjagd ab; 4-Uhr-Treffen im Sunset Motel wird vereinbart.
     - Im Sunset-Nachlauf thematisiert Ely ihre ausbleibende emotionale Reaktion auf den Kopfschuss; das Trio faengt den Moment in enger Naehe auf.
+
+  - **2077-07-19 (Spielleiter-/Erzaehler-Sicht, Abend Sunset Motel / Deal-Abschluss) [ARBEITSSTAND]**:
+    - Panam kommt ins Sunset Motel; sie ist gluecklich, ihren Warhorse wieder zu haben. Gemeinsames Bier.
+    - Panam kuendigt die 6th-Street-Kunden fuer ca. 20 Minuten an.
+    - Drei hochvercyberte Veteranen erscheinen; der Deal laeuft reibungslos ab, die Kunden wirken mit dem Trio vertraut.
+    - 50.000 ED werden uebergeben; 25.000 ED gehen ans Trio.
+    - Das Trio ueberlasst Panam das Zimmer im Sunset Motel und kehrt zum Aldecaldo-Lager zurueck.
+
+  - **2077-07-20 (Spielleiter-/Erzaehler-Sicht, VR-Hochzeit, Ely-Vater, KITT) [ARBEITSSTAND]**:
+    - Gespraech ueber Heiraten; George faedelt VR-Eintragung ein. Die Aldecaldos veranstalten eine Ueberraschungsfeier.
+    - Geplantes Hochzeitsdatum: **05.06.2078** (angepeilt, sobald Ely/Lauri konzernfrei sind).
+    - Ely spricht mit ihrem Vater: er ist sehr traurig und entschuldigt sich aufrichtig.
+    - Treffen am Freitagabend im Afterlife vereinbart; Ely waehlt neutralen Boden aus Angst, festgesetzt zu werden.
+    - Maedels sind aufgeregt, beruhigen sich langsam.
+    - Lala hat das Gespraech mitgehoert, inkl. Monaco-Plan; sagt, Aldecaldos wuerden dabei helfen.
+    - KITT-Arbeiten bei Oggy: KITT ist jetzt bewaffnet und nahezu fertiggestellt.
+    - KITT-VI ist installiert und grundlegend funktional; Optimierung steht noch aus.
+    - George kann KITT ueber seinen Personal Link direkt in VR steuern.
+    - Ely/Lauri gehen mit Jenny und den Kids einkaufen (Schwimmen geplant).
+
+  - **2077-07-21 (Spielleiter-/Erzaehler-Sicht, Mittwoch) [ARBEITSSTAND]**:
+    - Neue Munition fuer KITT beschafft.
+    - Besprechung Badlands-Vorrennen am Sonntag (25.07.); Trio plant Teilnahme.
+    - Viel Training, Uni-Lernen und George programmiert weiter.
+
+  - **2077-07-22 (Spielleiter-/Erzaehler-Sicht, Donnerstag) [ARBEITSSTAND]**:
+    - Training bei Oggy.
+    - KITT-Arbeiten weiter.
+    - Uni-Lernen.
+    - Gedanken ueber Musik.
+    - Ruhiger Tag ohne besondere Ereignisse.
