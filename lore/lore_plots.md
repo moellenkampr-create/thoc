@@ -510,6 +510,9 @@ source: lore_db.md
 - Das Trio hat sich per VR eintragen lassen; die Aldecaldos feiern spontan.
 - Geplantes Hochzeitsdatum fuer eine echte Feier: **05.06.2078**, wenn Ely/Lauri konzernfrei sind.
 - Lala hat das Monaco-Gespraech mitgehoert und signalisiert: Aldecaldos wuerden dabei helfen.
+- Nachschaerfung aus Lauri-Sicht (Import 19.-22.07):
+  - Monaco-/SIN-Thema wirkt fuer Lauri als akuter Identitaets- und Ueberlebensdruck ("entflohene Sklavin" als Selbstmarker), nicht nur als Logistikfrage.
+  - Der Pfad bleibt operativ offen; konkrete Exit-Methode bleibt bewusst **ARBEITSSTAND** und wird nicht vorzeitig kanonisiert.
 
 ### 4.11 Elias-Erstkontakt ueber Rennkulisse (18.07)
 **ARBEITSSTAND**
@@ -571,6 +574,9 @@ source: lore_db.md
 - Neuer Stand 20.07 (SL):
   - Ely hat direkten Kontakt mit ihrem Vater (Bertram); er ist sehr traurig und entschuldigt sich aufrichtig.
   - Treffen am Freitagabend (23.07.) im Afterlife vereinbart; Ely waehlt neutralen Boden aus Angst, festgesetzt zu werden.
+- Nachschaerfung aus Lauri-Sicht (Import 19.-22.07):
+  - Direkt nach VR-Eintragung folgt eine Arasaka-Rueckmeldung, dass die Eintragung im Konzernrahmen nicht gueltig ist; der Hochzeitstag kippt damit unmittelbar in Rechts-/Besitzdruck.
+  - Erstgedachter Parktermin wird verworfen; final bleibt **23.07., 22:00, Afterlife** als kontrolliertes Kontaktfenster.
 - Diese Linie soll nicht als sofortige Grosseskalation behandelt werden, sondern als wachsender Verwaltungs-, Besitz- und Loyalitaetsdruck.
 
 ### 4.10 Rocky-Ridge-Gewaltschwelle

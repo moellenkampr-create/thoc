@@ -938,10 +938,23 @@ source: lore_db.md
     - George kann KITT ueber seinen Personal Link direkt in VR steuern.
     - Ely/Lauri gehen mit Jenny und den Kids einkaufen (Schwimmen geplant).
 
+  - **2077-07-20 (Lauri-Sicht, VR-Eintragung / Corporate-Rebound / Familienachse) [ARBEITSSTAND]**:
+    - Lauri recherchiert vorab: Verlobungseintrag ohne starke Rechtswirkung, Lebenspartnerschaft moeglich; Konzernrahmen bleibt Huerde.
+    - Zeremonie im Camp (Saul), erneuter Ringmoment; Datum **05.06.2078** als grosse Feier gesetzt.
+    - Direkt nach Eintragung trifft Arasaka-Rueckmeldung ein: im Konzernrahmen nicht als gueltig anerkannt; erzeugt sofortigen psychischen Druck.
+    - Bertram-Termin wird von "heute 16:00 Park" auf **Freitag 23.07., 22:00, Afterlife** verlegt (neutraler Boden, Sicherheitsmotiv).
+    - Mama Wells setzt Jackie-Totenfeier auf **24.07., 19:00**; Mitbringsel erwuenscht.
+    - Lauri markiert im Nachlauf starkes Wechselbild aus Familienhoch (Aldecaldos/Oggy/Kids) und Freikauf-/SIN-Angst.
+
   - **2077-07-21 (Spielleiter-/Erzaehler-Sicht, Mittwoch) [ARBEITSSTAND]**:
     - Neue Munition fuer KITT beschafft.
     - Besprechung Badlands-Vorrennen am Sonntag (25.07.); Trio plant Teilnahme.
     - Viel Training, Uni-Lernen und George programmiert weiter.
+
+  - **2077-07-21 (Lauri-Sicht, Trainings-/Alltagstakt) [ARBEITSSTAND]**:
+    - Lauris Fokus liegt auf Dehnen, Pole-relevanten Muskelgruppen, Songarbeit und Training bei Oggy.
+    - Mitch bestaetigt: KITT-Munition ist bereits durch George organisiert.
+    - Tagesrest: Lernen, Jam-Fenster mit Chubby, nebenbei Suche nach Jackie-Mitbringseloption in Oggys Bestand.
 
   - **2077-07-22 (Spielleiter-/Erzaehler-Sicht, Donnerstag) [ARBEITSSTAND]**:
     - Training bei Oggy.
@@ -949,3 +962,9 @@ source: lore_db.md
     - Uni-Lernen.
     - Gedanken ueber Musik.
     - Ruhiger Tag ohne besondere Ereignisse.
+
+  - **2077-07-22 (Lauri-Sicht, Quellmarker "22.02") [ARBEITSSTAND]**:
+    - Quelltext notiert "22.02.2077"; im Kontext als **22.07.2077** gefuehrt (Datumsnormalisierung).
+    - Georges Morgen: hartes Training (inkl. Randori), danach KITT-Arbeiten bei Oggy.
+    - Kids draengen auf Schwimmen; George organisiert fuer den Folgetag Plaetze im grossen Wasserpark als Hochzeitsgeschenk.
+    - Abend im Aldecaldo-Lager mit klarem Ausblick auf den Folgetag (Wasserpark + spaeter Afterlife-Terminfenster).
