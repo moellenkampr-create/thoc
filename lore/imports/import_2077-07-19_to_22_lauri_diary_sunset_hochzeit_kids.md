@@ -15,7 +15,7 @@ source: raw/lore_import_2077-07-19_to_22_lauri_diary_sunset_hochzeit_kids.md
 - Datum: 2077-07-19 bis 2077-07-22
 - Quelle: lore/raw/lore_import_2077-07-19_to_22_lauri_diary_sunset_hochzeit_kids.md
 - Vorlaeufiger Statusmix: ARBEITSSTAND (Lauri-Einzelsicht)
-- Datumsnormalisierung: Quellenmarker "22.02.2077" wurde aufgrund Sequenzlogik als 22.07.2077 gefuehrt (ARBEITSSTAND).
+- Datumsnormalisierung: Quellenmarker "22.02.2077" war ein Schreibfehler und ist auf 22.07.2077 korrigiert.
 
 ## Lauri-Sicht
 
@@ -46,7 +46,7 @@ source: raw/lore_import_2077-07-19_to_22_lauri_diary_sunset_hochzeit_kids.md
   - Training, Lernen, Songarbeit, Oggy-Arbeiten, Jackie-Mitbringsel-Suche.
   - KITT-Munition laut Mitch bereits durch George organisiert.
 
-### 2077-07-22 (aus Quellmarker 22.02 normalisiert)
+### 2077-07-22 (Datumskorrektur aus Quellmarker 22.02)
 - Fakten:
   - Georges Trainingstag plus KITT-Arbeiten.
   - Wasserpark fuer den Folgetag als Hochzeitsgeschenk organisiert.

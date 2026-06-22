@@ -794,7 +794,7 @@ source: lore_db.md
     - Tagesstart in enger Trio-Naehe; Ue18-Anteile bleiben Beziehungsmarker und werden nicht als Detailchronik gefuehrt.
     - Lauris Mailbox bringt massiven Druck durch Walter-Linie: Befehls-/Ultimatumton, Freiheits- und Beziehungsdrohung; Lauri setzt den Marker **"Ich bin out"** und teilt die Dateien mit Ely/George.
     - Kosten-/Exit-Wahrnehmung verdichtet sich in Lauris Sicht auf einen Freiheitsblock von rund **3 Mio** (Freikauf + NC-Neustatus + Sicherheits-/Folgekosten, noch unscharf).
-    - Lauri erinnert eine alte Szene Walter/Elisa (possessiver Ton "sie gehoert mir"); Zuverlaessigkeit bleibt als Kindheitserinnerung offen.
+    - Lauri erinnert eine alte Szene Walter/Elisa (possessiver Ton "sie gehoert mir"); der Marker ist als kanonischer Bestandteil ihrer Vergangenheitsachse gesetzt.
     - Ely sendet den Eltern eine neutrale Nachricht (ohne provozierendes Foto); George sendet mit Einverstaendnis ein Verlobungsfoto des Trios an seine Mutter.
     - Alltagsachse: Einkauf -> Oggy/Jenny/Kids -> Aldecaldo-Umfeld -> Panam-Treffen.
     - Panam-Lage laut Lauri: Gegenseite als **Raffen Shivs** benannt, Fahrzeug **Warhorse** + Merchandise fuer **6th Street**.
@@ -963,8 +963,8 @@ source: lore_db.md
     - Gedanken ueber Musik.
     - Ruhiger Tag ohne besondere Ereignisse.
 
-  - **2077-07-22 (Lauri-Sicht, Quellmarker "22.02") [ARBEITSSTAND]**:
-    - Quelltext notiert "22.02.2077"; im Kontext als **22.07.2077** gefuehrt (Datumsnormalisierung).
+  - **2077-07-22 (Lauri-Sicht, Datum aus Schreibfehler korrigiert)**:
+    - Quelltext notiert "22.02.2077"; als Schreibfehler auf **22.07.2077** korrigiert.
     - Georges Morgen: hartes Training (inkl. Randori), danach KITT-Arbeiten bei Oggy.
     - Kids draengen auf Schwimmen; George organisiert fuer den Folgetag Plaetze im grossen Wasserpark als Hochzeitsgeschenk.
     - Abend im Aldecaldo-Lager mit klarem Ausblick auf den Folgetag (Wasserpark + spaeter Afterlife-Terminfenster).

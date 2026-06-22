@@ -2,7 +2,7 @@
 
 Quelle: Userbericht, moeglichst wortnah als Rohtext abgelegt (ASCII-normalisiert).
 
-Hinweis zur Datumsangabe in der Quelle: Ein Abschnitt ist als "22.02.2077" notiert, wird im Kontext als **22.07.2077** gefuehrt (ARBEITSSTAND, redaktionelle Datumsnormalisierung).
+Hinweis zur Datumsangabe in der Quelle: Ein Abschnitt war als "22.02.2077" notiert (Schreibfehler) und ist auf **22.07.2077** korrigiert.
 
 ---
 
@@ -80,7 +80,7 @@ Lauri kippt zeitweise in starke Freikauf-/Existenzangst ("Sklavenstatus"), mit s
 
 ## 2077-07-22 / Georges Morgen, Oggy, Wasserpark-Plan
 
-(Quelle schrieb "22.02.2077", im Kontext auf 22.07 normalisiert.)
+(Quelle schrieb "22.02.2077"; als Schreibfehler auf 22.07.2077 korrigiert.)
 
 - Georges Morgen mit intensivem Training (u. a. Randori), danach Oggy/KITT.
 - Kids draengen auf Schwimmen; auf den Folgetag verschoben.
