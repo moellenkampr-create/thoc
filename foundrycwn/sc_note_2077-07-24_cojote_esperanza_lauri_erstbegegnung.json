@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Cojote Cojo: Esperanza-Lauri Erstbegegnung",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 23,
+          "hour": 19,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 23,
+          "hour": 20,
+          "minute": 0,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>Vorlage / EINZELFALL-HOOK:</strong> Erste direkte Begegnung zwischen Lauri und Esperanza (Encontradita) bei Jackies Totenfeier im Cojote Cojo.</p><p><strong>Szeneinstieg:</strong> Enge Passage an einer Saeule. Beide weichen gleichzeitig aus und prallen nur leicht Schulter an Schulter zusammen; alternativ rueckwaerts ineinanderlaufen.</p><p><strong>Sofortmarker:</strong> Beide frieren kurz ein und nehmen gleichzeitig den Geruch der anderen wahr (Resonanzmarker). Keine offene Feindseligkeit, aber hohe Spannung.</p><p><strong>Esperanza-Auftritt:</strong> Schwarze knallenge Lederhose, Bikerboots, enges Top, offene Haare. Aehnlichkeit zu Lauri deutlich, aber kleiner, weniger muskuloes, sichtbare Narben.</p><p><strong>Dialogton:</strong> Ruhig, kontrolliert, keine langen Erklaerungen. Kernunterton: Schutz und Zugriff gleichzeitig (Esperanza steht Lauri grundsaetzlich gut, nutzt sie aber als Schluessel in der Bluttrinker-Linie).</p><p><strong>Ausgang:</strong> Kein Handschlag. Ein halber Schritt zur Seite. Kontakt ist gesetzt, Vertrauen nicht.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

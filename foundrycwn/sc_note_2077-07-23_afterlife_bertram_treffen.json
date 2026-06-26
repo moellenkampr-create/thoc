@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Afterlife: Bertram-Treffen (23.07, 22:00)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 22,
+          "hour": 22,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 22,
+          "hour": 23,
+          "minute": 30,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Treffen Ely/Lauri/George mit Bertram im Afterlife auf neutralem Boden.</p><p><strong>Zeit:</strong> Freitag, 23.07.2077, 22:00.</p><p><strong>Psycholage:</strong> Bertram wirkt aktuell handzahmer und emotional angeschlagen; das harte Verhandeln mit Ely hat Distanz statt Naehe erzeugt. Er bleibt Denker, reagiert in der Tochterlinie aber sichtbar weniger kalt-kalkulierend.</p><p><strong>Szenenziel:</strong> Deeskalation und vorsichtige Kontaktreparatur testen, ohne Trennung des Trios oder Kontrollzugriffe zu akzeptieren.</p><p><strong>Red Lines:</strong> kein Ortswechsel in private/unsichere Zonen; keine isolierten Einzelgespraeche ohne Sicht-/Com-Sicherung; keine spontanen Zugestaendnisse zu Konzernbindungen.</p><p><strong>Nachlaufdruck:</strong> Die haertere Selbstschutzlinie liegt eher bei Walter. Trotz geplanter Ueberwachung entzieht sich das Trio wiederholt der direkten Kontrolle; Bertram prueft daher eher indirekte Hebel.</p><p><strong>Ausgangsmarker:</strong> Kontakt bleibt offen, Vertrauen bleibt ausstehend.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

@@ -296,9 +296,16 @@ source: lore_db.md
 - Nach Enricos Tod findet sie das Kreuz bei sich und behaelt es als letztes Stueck ihres Bruders
 - Kennt Lauri und Ely aus Enricos Erzaehlungen; weiss genug ueber Bluttrinker, um die Symbolik zu verstehen
 - Erscheinungsbild (ARBEITSSTAND): Lauri aehnlich, etwas kleiner, weniger muskuloes, dafuer mit deutlich groesserer Oberweite.
+- Auftreten (ARBEITSSTAND): schwarzes, enges Biker-/Valentino-Styling (knallenge Lederhose, Boots, enges Top), Haare offen.
+- Koerperspur (ARBEITSSTAND): hat sichtbare alte Narben; heilt fuer ihr Umfeld auffaellig schnell.
+- Sozialpraegung (KANON): im Valentinos-Umfeld mit Tod, Kaempfen und Gewalt aufgewachsen; hat selbst aktiv Anteile daran getragen.
+- Ethikprofil (ARBEITSSTAND): gutes Herz, aber prioritaer familiengebunden; einige Handlungen wirken von aussen klar "boese", sind fuer sie jedoch als Schutz-/Familienlogik gerechtfertigt.
+- Fruehe Praegung (ARBEITSSTAND): wurde wiederholt von einer im Viertel als "Hexe" verschrienen alten Frau betreut; daraus stammen Teile ihres Aber- und Schutzglaubens.
 - Weltbeziehung (KANON): Enrico hielt Ely und Lauri bewusst von tieferen Valentino-Strukturen fern; eine tiefere Einfuehrung war geplant, fand vor seinem Tod aber nicht mehr statt.
 - Begegnungsstatus (KANON): Esperanza hat Lauri bisher nicht in direkter Nahbegegnung erlebt; wenn Sichtkontakt, dann nur auf Distanz oder von hinten.
 - Haltung zu Bluttrinker (KANON): kennt die Geschichte, ist aberglaeubisch und will den Bluttrinker-Tod-Kreis aktiv brechen.
+- Dynamik zu Lauri (ARBEITSSTAND): steht Lauri tendenziell wohlwollend gegenueber, nutzt sie aber zugleich funktional als Schluesselperson in der Bluttrinker-Linie.
+- Erster Kontakt-Hook (ARBEITSSTAND): bei der Jackie-Wells-Totenfeier im Cojote Cojo wird ein unmittelbarer olfaktorischer Resonanzmoment zwischen Lauri und Esperanza erwartet ("sich sofort riechen").
 - Platziert spaeter Kreuz + Klinge unter Lauris Bett (Kreuz an der Kordel): als Schutz- und Abschiedszeichen — Enrico soll nicht ganz aus der Klinge verschwinden, aber die Klinge soll auch nicht frei im Raum liegen
 - Spaetere operative Rolle in der Handlung bleibt offen.
 

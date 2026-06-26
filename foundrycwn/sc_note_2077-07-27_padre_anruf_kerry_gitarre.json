@@ -1,0 +1,51 @@
+{
+  "name": "[HOOK] Padre-Anruf: Kerry-Eurodyne-Gitarre (27.07)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 26,
+          "hour": 0,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 26,
+          "hour": 0,
+          "minute": 0,
+          "seconds": 0
+        },
+        "allDay": true,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / HOOK:</strong> Padre ruft am 27.07.2077 an und setzt den Auftrag auf Kerry Eurodynes Gitarre.</p><p><strong>Wortlaut des Auftrags:</strong> \"I'll cut to the chase - my client wants to get his hands on Kerry Eurodyne's guitar, one of the members of Samurai. Weird gig, I know, but the eddies are legit, and that's all that matters.\"</p><p><strong>Kurzfassung:</strong> Der Job fuehrt zu Gaston Slayton; die Gitarre ist der eigentliche Zielgegenstand, nicht ein normales Diebesgut.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

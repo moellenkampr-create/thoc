@@ -1,0 +1,51 @@
+{
+  "name": "[EVENT] Vorrennen: Santo Domingo / Solarwerke (01.08)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 7,
+          "day": 0,
+          "hour": 18,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 7,
+          "day": 0,
+          "hour": 22,
+          "minute": 0,
+          "seconds": 0
+        },
+        "allDay": false,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["EVENT"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>EINZELFALL / EVENT:</strong> Vorrennen am 01.08.2077 durch Santo Domingo und um die Solarwerke herum.</p><p><strong>Streckencharakter:</strong> Teil Slum, teil Industrie-/Kraftwerksgebiet; eng, unruhig, mit wechselnden Sichtlinien und viel externem Druck.</p><p><strong>Bedrohungslage:</strong> Militech setzt Drohnen ein, weil Teile der Strecke in Richtung Niemandsland / Grenzrand laufen; einzelne Ziele koennen herausgenommen werden.</p><p><strong>Fahrerlage:</strong> Samson sitzt am Steuer und ist der zentrale Risikofaktor. Das Rennen ist nicht nur Geschwindigkeit, sondern auch Ausweich- und Ueberlebenspruefung.</p><p><strong>Szenenziel:</strong> Tempo halten, Drohnenfenster lesen, nicht in den ersten grossen Fehler kippen; ein brauchbarer Platz ist wichtig, ein kontrollierter Abbruch aber ebenso denkbar.</p><p><strong>Ausgangsmarker:</strong> Rennen endet mit sozialem und taktischem Nachhall; Militech-Interesse kann sich daraus verstaerken.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}
