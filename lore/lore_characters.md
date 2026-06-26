@@ -269,12 +269,13 @@ source: lore_db.md
 - in Medien oft: **Belsarius Trump**
 - beteiligt am Plot um gestohlene Superkarre
 
-### Enrico
+### Enrico Marini
 **KANON**
 - Valentino / fruehere zentrale Beziehungsperson von Ely und Lauri
 - trug nach aussen die Bad-Boy-/Macho-Maske, war in intimeren Momenten aber deutlich echter
 - starb im Winter 2076 beim Brueckenunfall
 - bleibt zentrale Traumafigur fuer Lauri und wichtiger Erinnerungspunkt fuer Ely
+- Zeitanker (KANON): Wenn Esperanza 2 Jahre juenger als Enrico und 2 Jahre aelter als Lauri ist, liegt Enricos Jahrgang plausibel um **2051** (ca. **26** in 2077).
 
 #### Bluttrinker-Motiv und letzter Tag (ARBEITSSTAND)
 - Enrico hat innerlich bereits entschieden, Bluttrinker nicht mehr als Executor zu fuehren, bevor er die Klinge an Lauri weitergibt.
@@ -288,11 +289,18 @@ source: lore_db.md
 
 ### Enricos Schwester
 **ARBEITSSTAND**
+- Name: **Esperanza**
+- Spitzname: **Encontradita**
+- Altersanker (KANON): etwa **2 Jahre juenger als Enrico** und damit etwa **2 Jahre aelter als Lauri** (exaktes Alter Inworld nicht breit bekannt).
 - Enrico verbrachte seinen letzten Tag (vor dem Unfall) bei ihr; dabei blieb sein Kreuz dort zurueck
 - Nach Enricos Tod findet sie das Kreuz bei sich und behaelt es als letztes Stueck ihres Bruders
 - Kennt Lauri und Ely aus Enricos Erzaehlungen; weiss genug ueber Bluttrinker, um die Symbolik zu verstehen
+- Erscheinungsbild (ARBEITSSTAND): Lauri aehnlich, etwas kleiner, weniger muskuloes, dafuer mit deutlich groesserer Oberweite.
+- Weltbeziehung (KANON): Enrico hielt Ely und Lauri bewusst von tieferen Valentino-Strukturen fern; eine tiefere Einfuehrung war geplant, fand vor seinem Tod aber nicht mehr statt.
+- Begegnungsstatus (KANON): Esperanza hat Lauri bisher nicht in direkter Nahbegegnung erlebt; wenn Sichtkontakt, dann nur auf Distanz oder von hinten.
+- Haltung zu Bluttrinker (KANON): kennt die Geschichte, ist aberglaeubisch und will den Bluttrinker-Tod-Kreis aktiv brechen.
 - Platziert spaeter Kreuz + Klinge unter Lauris Bett (Kreuz an der Kordel): als Schutz- und Abschiedszeichen — Enrico soll nicht ganz aus der Klinge verschwinden, aber die Klinge soll auch nicht frei im Raum liegen
-- Name und spaetere Relevanz: offen
+- Spaetere operative Rolle in der Handlung bleibt offen.
 
 ### Bluttrinker-Fanatiker
 **ARBEITSSTAND**
@@ -375,10 +383,14 @@ source: lore_db.md
 - **NCU-Verbindung / falsche Freundschaft**: Fruehe Corporate- und Netzwerkverbindung an der NCU; Bertram hielt Walter lange fuer echten Freund, Walter dachte schon frueh in Nutzenkategorien.
 - **Frueher Laborzwischenfall / erste Vertuschung**: In einer Biotechnica-nahen Night-City-Forschungsumgebung kam es zu fehlerhaften Markern, instabilen Resultaten und problematischer Entsorgung; Walter schirmte Strukturen, Bertram half technisch bei Bereinigung und lernte, wie kalt Walter wirklich ist.
 - **Lauris Entstehung / private Zweckentfremdung**: Aus einem abgeschotteten Host-Viability-/Bio-Compatibility-Black-Project im Umfeld von Arasakas Unsterblichkeitsforschung wurde durch Walter zusaetzlich eine private dynastische Operation; Bertram half technisch oder logistisch mit und verlor Walter dabei innerlich endgueltig.
+- **Subjekt-Entsorgung / Bertrams Bruchlinie (KANON):** Ueber einen Zeitraum von etwa **3-4 Jahren** (vor Lauris Geburt) wurden im Black-Project insgesamt **11 Kinderfaelle** als "auszusortieren" markiert. Davon wurden **7** (bereits tot oder mit schweren Schaeden) durch Bertram als "entsorgt" abgewickelt. Die Vertuschung lief ueber gleichzeitige Entsorgung gefaehrlicher Materialien im Biotechnica-Entsorgungsofen, sodass die Vorgaenge im Materialrauschen untergingen.
+- **Vier lebende, lebensfaehige Kinder (KANON):** **4** Kinder hat Bertram nicht getoetet, sondern verdeckt an ein offizielles Waisenhaus abgegeben, flankiert durch eine diskrete Spende und ohne namentliche Rueckverfolgbarkeit zu Bertram.
+- **Waisenhaus-Folge (KANON):** Das Waisenhaus registrierte diese Kinder nicht regulär, sondern vermittelte/verkaufte sie "schwarz" weiter.
+- **Zeitanker Lauri (KANON):** Lauri gilt als **letztes von Walter in dieser Linie hergestelltes Kind**; aeltere Ueberlebende aus den frueheren Jahrgaengen sind dadurch zeitlich plausibel.
 - **Badlands-Entsorgungsfall vor ca. 6-8 Jahren**: Problematische chemische Abfaelle aus einem Arasaka-nahen Vorgang wurden ueber Biotechnica-nahe Strukturen und einen Suendenbock in die Badlands verlagert. Der Vorfall wurde in abgeschwaechter Form bekannt; Biotechnica zahlte, der Suendenbock fiel, die eigentliche Altlast blieb liegen. Seitdem mehren sich in betroffenen Randzonen Berichte ueber veraenderte oder aggressivere Tierpopulationen.
 
 ### Moeglicher spaeterer Plothook
-- Ein spaeterer Befreiungs- oder Spurenfaden zu ueberlebenden Kindern / Restsubjekten aus dem Black-Project-Umfeld bleibt bewusst offen. Zahl, Zustand, Orte und Ueberlebende werden nicht fest definiert, um spaetere Kampagnenfreiheit zu erhalten.
+- Ein spaeterer Befreiungs- oder Spurenfaden zu ueberlebenden Kindern / Restsubjekten aus dem Black-Project-Umfeld bleibt bewusst offen. **Fixiert sind nur die Eckdaten** (7 entsorgte Faelle, 4 lebend ausgelagerte Faelle, Lauri als letzter Herstellungsfall); konkrete Identitaeten, Aufenthaltsorte und heutige Lebenslagen bleiben offen.
 
 ## 4. Plotnahe Figuren im Vorlauf
 

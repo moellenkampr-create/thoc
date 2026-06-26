@@ -22,7 +22,7 @@ source: lore_db.md
 **ARBEITSSTAND**
 - Eskalationspunkt von Elias bei George-Fake-Feed / Ueberwachung weiter ausarbeiten.
 - Langfristige Folgen der Day-6/7-Arc und der NCU-Rueckkehr des Trios konsolidieren.
-- Henshaw-/von-Eichner-Black-Project-Spuren und moegliche Restsubjekte bewusst offen halten.
+- Henshaw-/von-Eichner-Black-Project-Spuren nachgezogen weiterfuehren: Kanon-Kern steht (7 entsorgte Faelle, 4 ausgelagerte Ueberlebende, Lauri letzter Herstellungsfall), offen bleiben Identitaeten/Orte/Folgeachsen.
 - Grosses Rennen strukturell weiterfuehren, sobald Spielerentscheidungen zu Teilnahme und Tiefe feststehen.
 
 ## 1. Das grosse Rennen
