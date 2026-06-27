@@ -1,0 +1,51 @@
+{
+  "name": "[BACKGROUND] Maria in Santo Domingo (Sandom-Status)",
+  "flags": {
+    "core": {
+      "sheetClass": "foundryvtt-simple-calendar-reborn.NoteSheet"
+    },
+    "foundryvtt-simple-calendar-reborn": {
+      "noteData": {
+        "calendarId": "default",
+        "startDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 26,
+          "hour": 0,
+          "minute": 0,
+          "seconds": 0
+        },
+        "endDate": {
+          "year": 2077,
+          "month": 6,
+          "day": 26,
+          "hour": 23,
+          "minute": 59,
+          "seconds": 0
+        },
+        "allDay": true,
+        "repeats": 0,
+        "order": 0,
+        "categories": ["BACKGROUND"],
+        "remindUsers": [],
+        "macro": "none",
+        "fromPredefined": false
+      }
+    }
+  },
+  "pages": [
+    {
+      "name": "Inhalt",
+      "type": "text",
+      "text": {
+        "content": "<p><strong>HINTERGRUND:</strong> Maria lebt aktuell in Santo Domingo (Sandom), nahe dem umgefallenen Riesenrad, und betreibt dort einen kleinen, beliebten Streetfood-Stand.</p><p><strong>Vorgeschichte:</strong> Nach wachsender Naehe zu Lauri wurde Maria aus dem Henshaw-Haushaltsradius gedrueckt (Druck plus begrenztes Schweigegeld). Spaeter wurde sie bei einer Schutzgelderpressung schwer verletzt.</p><p><strong>Wendepunkt:</strong> Im Zuge dieser Eskalation brach/verschwand die alte Ueberwachungslinie. Zoltan Grim (Runner, Kriegsveteran) stabilisierte danach ihren Alltag und schuetzt Maria, den Stand und die Kinder.</p><p><strong>Familie:</strong> Isabela \"Isa\" Navarro (9, aelteres Maedchen) und Mateo \"Teo\" Navarro (8, juengerer Junge) helfen regelmaessig am Stand mit.</p><p><strong>Szenenlogik:</strong> Maria ist nicht passiv rettungsbeduerftig; sie ist prekaer-stabil, deutlich haerter und verteidigt ihre Unabhaengigkeit. Ein Kontakt mit Lauri kann daher als Hilfe-gegen-Willen oder Hilfe-auf-Augenhoehe kippen.</p>",
+        "format": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      }
+    }
+  ],
+  "folder": "R8oWhQpyHdjHlXLk"
+}

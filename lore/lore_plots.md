@@ -443,12 +443,15 @@ source: lore_db.md
 - Lauri sucht aktiv nach Maria (altes Kindermaedchen / Koechin, Schlangen-Vorfall, spaeteres Verschwinden).
 - Lauris Vater kennt diese Verbindung und kann Maria als verdeckten Suchknoten nutzen.
 - Plausibles Vorgehen:
-  - Fruehphase vermutlich low-cost: statt neuer Identitaet eher Einschuechterung, ggf. kleine Abfindung, Verlagerung in unauffaelliges Umfeld
-  - Fruehphase-Ueberwachung plausibel ueber billiges Implantat/Telemetrie statt dauerhafter Spotter
-  - spaeterer Bruch: Maria laesst das Implantat entfernen und faellt aus dem Raster
-  - Reaktivierung in 2077: erneute Suche ueber alte Adresse/soziale Linien; lokale Micro-Drohne an externer Stromquelle als guenstige Beobachtung
-  - ueber Marias Kontaktketten Rueckschluesse auf Lauris Bewegungen gewinnen
+  - Fruehphase low-cost: Druck plus begrenztes Schweigegeld; Maria wird aus Lauris Naehe gedrueckt, aber nicht sauber abgesichert
+  - Fruehphase-Ueberwachung ueber billiges Implantat/Telemetrie statt dauerhafter Spotter
+  - Maria baut in Santo Domingo einen Streetfood-Stand nahe dem umgefallenen Riesenrad auf
+  - lokale Eskalation: bei Schutzgelderpressung wird Maria schwer verletzt; dabei geht die alte Ueberwachungslinie kaputt oder wird deaktiviert
+  - Zoltan Grim (Runner, Veteran) zieht Maria und den Stand danach in einen prekaer-stabilen Schutzkorridor
+  - Status 2077: Maria lebt mit Zoltan sowie zwei Kindern (aelteres Maedchen, juengerer Junge) und verteidigt ihre neu gewonnene Unabhaengigkeit
+  - Reaktivierung in 2077: erneute Suche ueber alte Adresse/soziale Linien; zusaetzlich Rueckschluesse ueber Marias Kontaktketten auf Lauris Bewegungen
 - Zusatzrisiko: moeglicher Druck auf Maria als Schutzfigur, wenn der Suchfaden heisser wird.
+- Donny-Linie (ARBEITSSTAND): Donny kann in etwa zwei Wochen belastbare Zwischeninfos zur aktuellen Maria-Lage liefern; exakter Rueckmeldezeitpunkt bleibt offen und wird im Spiel gesetzt.
 - Eskalationsoption im Kontaktfenster: Drohne folgt dem Trio nach Erstkontakt; George entdeckt den Schattenlauf frueh, danach ist ein kurzer Direktkanal vom Vater zu Lauri moeglich.
 
 ### 4.3 Elternrollen - wer findet was wie

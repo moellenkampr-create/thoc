@@ -187,6 +187,25 @@ source: lore_db.md
 - hilft bei Identitaeten, Geldfluessen, Infrastruktur, Informationsbeschaffung
 - kein Teammitglied, sondern externer Support-Hub
 
+### Maria
+**ARBEITSSTAND**
+- Frueheres Kindermaedchen / Koechin im Henshaw-Haushalt; Lauri war ihr als Kind deutlich naeher als Walter lieb war.
+- Nach wachsender Naehe zu Lauri wurde Maria aus dem direkten Haushaltsradius gedrueckt; es gab Druck und begrenztes Schweigegeld, aber keinen sauberen Schutz.
+- Spaeterer Uebergang nach Santo Domingo (Sandom): kleiner Streetfood-Stand nahe dem umgefallenen Riesenrad.
+- Maria wurde bei einer Schutzgelderpressung schwer verletzt; in diesem Kontext brach/verschwand das alte Ueberwachungsgeraet endgueltig.
+- Maria lebt heute in einem prekaer-stabilen Alltag, ist deutlich haerter geworden und verteidigt ihre Unabhaengigkeit.
+- Kinder:
+  - **Isabela "Isa" Navarro** (9, aelteres Maedchen)
+  - **Mateo "Teo" Navarro** (8, juengerer Junge)
+  - Beide helfen regelmaessig am Stand mit.
+
+### Zoltan Grim
+**ARBEITSSTAND**
+- Runner mit Veteranenhintergrund; paranoid, opsec-stark und in lokalen Gewaltmustern erfahren.
+- Zog Maria nach der Eskalation aus dem unmittelbaren Absturz und stabilisierte ihren Alltag.
+- Lebt mit Maria zusammen und fungiert als Schutzpartner fuer sie, die Kinder und den Stand.
+- Wird als plausibler Schluessel fuer die endgueltige Deaktivierung bzw. den Verlust der alten Ueberwachungslinie gefuehrt.
+
 ### Viktor Vektor
 **KANON**
 - Ripperdoc / medizinischer Kontakt / Vertrauensperson des Trios
