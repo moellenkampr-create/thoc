@@ -968,3 +968,29 @@ source: lore_db.md
     - Georges Morgen: hartes Training (inkl. Randori), danach KITT-Arbeiten bei Oggy.
     - Kids draengen auf Schwimmen; George organisiert fuer den Folgetag Plaetze im grossen Wasserpark als Hochzeitsgeschenk.
     - Abend im Aldecaldo-Lager mit klarem Ausblick auf den Folgetag (Wasserpark + spaeter Afterlife-Terminfenster).
+
+  - **2077-07-23 (konsolidiert aus SL-/Ely-/Lauri-Sicht) [ARBEITSSTAND]**:
+    - Tagsueber: Badetag mit Oggy-Familie; sozialer Hochpunkt mit gleichzeitigem Sicherheits-/Schattencheck auf der Rueckfahrt.
+    - Lala setzt fuer den HR-Termin am **03.08., 10:00, Arasaka Tower** expliziten Rettungsmarker: falls zwischen 10 und 12 kein Lebenszeichen kommt, greifen die Aldecaldos ein.
+    - Abend im Afterlife: Bertram entschuldigt sich fuer frueheres Nicht-Handeln, setzt Herkunftsmarker gegen Lauri und rahmt die Lage als gefaehrlich; Detailoffenlegung bleibt verweigert.
+    - Konsolidierter Outcome Bertram-Treffen: deeskaliert im direkten Kontakt, Ely wird nicht festgesetzt.
+    - Vik-Block: DNA-Abgleich wird angestossen; Vik meldet mehrere untypische Einbau-/Log-Inkonsistenzen.
+    - Elisa-Kontakt scheitert ueber **Mental Health Care Mendelson**; Knoten bleibt fuer das Trio in Funktion/Absicht unklar.
+
+  - **2077-07-24 (konsolidiert aus SL-/Ely-/Lauri-Sicht) [ARBEITSSTAND]**:
+    - Tagsueber: KITT gilt als fertig im Sinn von **fahrtuechtig**; Feintuning/Optimierungen bleiben laufendes Projekt.
+    - Vorbereitung fuer Jackies Totenfeier (u. a. Arc-Topf/Udon-Mitbringsel), danach Abend im Coyote Cojo.
+    - Begegnungen im Coyote: V als Jackie-Vertrauter sowie Esperanza als harter Enrico-/Bluttrinker-Nachhallmarker.
+    - Ely/Lauri vermuten sehr wahrscheinlich, dass Esperanza mit der Frau aus der Apartment-Spur zusammenfaellt; harter Bildbeweis bleibt unscharf.
+    - Bluttrinker-Wand wird als unvollstaendig wahrgenommen (Luecke/fehlender Marker; moeglicher Bezug zu gefundenem Bluttrinker oder neuem Traeger bleibt offen).
+    - Das Trio zieht sich kontrolliert/fruehzeitig zurueck und geht in den Aldecaldo-Nachlauf.
+
+  - **2077-07-25 (Lauri-Sicht + offener Rennenkontext) [ARBEITSSTAND]**:
+    - Morgenfokus liegt auf Bindung, Prioritaeten und Rennenausrichtung als Herzentscheidung statt reiner Taktik.
+    - Klare Loyalitaetsordnung wird benannt: primaere Familie bleibt das Trio; Aldecaldos sind enger Verbund, aber keine formale Zugehoerigkeit.
+    - Tagesaufgabenteilung: Ely + Lauri sprechen mit Pepe; George finalisiert KITT.
+    - Vorrennen-Kontext bleibt operativ offen (Verlauf/Platzierung/Gefahrenlage weiterhin nicht final konsolidiert).
+
+  - **2077-07-26 bis 2077-07-27 (Kontinuitaetsmarker) [ARBEITSSTAND]**:
+    - Fuer diese beiden Tage fehlt in der Timeline noch ein voll konsolidierter Tagesblock.
+    - Bereits gesetzte Einzelmarker (u. a. Padre-Auftrag am 27.07) sind vorhanden, aber noch nicht als Timeline-Eintrag synchronisiert.

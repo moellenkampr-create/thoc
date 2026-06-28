@@ -52,7 +52,7 @@ Lauri ruft Elisa an, erreicht aber nur jemanden vom "Mental Health Center Mendel
 
 Lauri aktiviert Donny und Lala, um mehr darueber herauszufinden.
 
-Im Misty-Laden ist Lauri stark ueberlastet. Misty gibt Beruhigungstee und erzaehlt vom neuen Laden "Milka way", wo man Katzen streicheln kann.
+Im Misty-Laden ist Lauri stark ueberlastet. Misty gibt Beruhigungstee und erzaehlt vom neuen Laden "Milky Way", wo man Katzen streicheln kann.
 
 Vik hilft und nimmt Lauri Blut fuer DNA-Untersuchung ab.
 

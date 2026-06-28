@@ -559,10 +559,11 @@ source: lore_db.md
   - Betaeubungs- und Elektromunition sind bei Wilson nicht verfuegbar; der Non-Lethal-Pfad bleibt damit eingeschraenkt und stark rollenabhaengig.
   - Neuer Stand 19.07 (SL): Ely erhaelt den dualen Ambidexterity-Chip bei Vik; beidhandige Praezisionsfuehrung ist nun operativ aktiv.
 - Neuer Stand 20.07 (SL):
-  - KITT ist bei Oggy bewaffnet und nahezu fertiggestellt.
+  - KITT gilt als fertig im Sinn von fahrbereit/fahrtuechtig; bewaffneter Einsatz bei Oggy ist moeglich.
   - KITT-VI ist installiert und grundlegend funktional; George kann KITT ueber Personal Link direkt aus VR steuern.
   - Neue Munition fuer KITT am 21.07 beschafft.
   - Kleinarbeiten und Optimierungen laufen weiter (21.-22.07).
+  - Zusatzpfad: Lauri aeussert den Wunsch, auch ihr Motorrad **May** perspektivisch mit einer VI auszustatten.
 - Plotfunktion:
   - Das Trio baut zeitgleich Mobilitaet, Waffenkompetenz und Schnittstellen-Upgrades auf.
   - Der Pfad koppelt direkt an Rocky-Ridge-/Gewaltfragen und an die Frage, wie "toedlich" das Trio agieren muss.
@@ -577,9 +578,16 @@ source: lore_db.md
 - Neuer Stand 20.07 (SL):
   - Ely hat direkten Kontakt mit ihrem Vater (Bertram); er ist sehr traurig und entschuldigt sich aufrichtig.
   - Treffen am Freitagabend (23.07.) im Afterlife vereinbart; Ely waehlt neutralen Boden aus Angst, festgesetzt zu werden.
+- Nachlauf 23.07 (ARBEITSSTAND):
+  - Das Treffen findet statt; Bertram deeskaliert im Kontakt und setzt Ely nicht fest.
+  - Planungsleitplanke: keine Festsetzung Lauris im Tower als geplanter Storypfad.
 - Nachschaerfung aus Lauri-Sicht (Import 19.-22.07):
   - Direkt nach VR-Eintragung folgt eine Arasaka-Rueckmeldung, dass die Eintragung im Konzernrahmen nicht gueltig ist; der Hochzeitstag kippt damit unmittelbar in Rechts-/Besitzdruck.
   - Erstgedachter Parktermin wird verworfen; final bleibt **23.07., 22:00, Afterlife** als kontrolliertes Kontaktfenster.
+- Mendelson-Kontext (ARBEITSSTAND):
+  - **Mendelson** ist die Health-Care-Klinik (kein Einzelakteur).
+  - Lauri und Ely wissen nicht, dass Lauris Mutter dort untergebracht ist.
+  - Elisa hat dort Kontakte und fuehlt sich vor Walter geschuetzt; Walter liest denselben Knoten als Kontrollhebel ueber Elisa.
 - Diese Linie soll nicht als sofortige Grosseskalation behandelt werden, sondern als wachsender Verwaltungs-, Besitz- und Loyalitaetsdruck.
 
 ### 4.10 Rocky-Ridge-Gewaltschwelle
