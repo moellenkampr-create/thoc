@@ -1,11 +1,11 @@
 ---
 title: Buch 1 – Kapitel 1 – Campus Masks
-version: 1.0.0
+version: 2.0.0
 project: thoc
 file: buch1_kap01_lauri_campus_masks.md
 type: chapter
 tags: [book, buch1, kapitel, lauri, pov, thoc]
-created: 2026-04-23
+created: 2026-06-30
 story_date: 2077-02-Ende
 pov: Erzähler (personal, Szenenfokus Lauri)
 status: ARBEITSSTAND
@@ -58,7 +58,7 @@ Dann vibrierte ein Motorengeräusch durch den Hof, tief und dreckig, ein Fremdk�
 
 Enrico.
 
-Er blieb am Rand des Geländes auf seinem Bike sitzen, Sonnenbrille, Lederjacke, Gold an den Fingern, Tattoos an Hals und Armen. Er passte in diese Kulisse wie ein Messer auf einen gedeckten Tisch.
+Er blieb am Rand des Geländes auf seinem Bike sitzen, Sonnenbrille, Lederjacke, Gold an den Fingern, Tattoos an Hals und Armen. Zwischen Rosenkranzlinien, Script-Schrift und einer kleinen Santa-Muerte-Krone war sofort klar, aus welchem Valentino-Umfeld er kam. Er passte in diese Kulisse wie ein Messer auf einen gedeckten Tisch.
 
 Sein Blick glitt zu ihnen. Kurz. Direkt. Dann drehte er den Gashahn noch einmal an.
 
@@ -82,7 +82,7 @@ Lauri grinste. "Smooth."
 
 Ely zögerte einen Herzschlag zu lang. "Wir sollten bleiben."
 
-"Wir sterben hier drin."
+"Wir sterben hier drin", sagte Lauri, rollte mit den Augen und zog das letzte Wort leicht quengelig in die Länge.
 
 Ely sah sie an. In ihren Augen lag dieselbe Unruhe, dieselbe Hitze, dieselbe Angst vor dem falschen Schritt.
 
@@ -124,11 +124,11 @@ Enrico wartete zwei Straßen weiter an einem kleinen Fast-Food-Stand, Kaffeebech
 
 Als sie anhielten, hob sich sein Mundwinkel. Vor dem Campus hatte sein Lächeln nach Herausforderung ausgesehen. Hier wirkte es weicher.
 
-"Na, meine Akademikerinnen", sagte er.
+"Na, mis academicas", sagte er, der Akzent rau auf den Vokalen.
 
 "Pass auf, sonst bilden wir dich noch weiter", sagte Lauri.
 
-"Ich hab Angst." Enrico grinste.
+"Si, claro, ich hab riesige Angst, mami." Enrico grinste.
 
 Er küsste erst Lauri, dann Ely. Routine, Vertrautheit, Wärme. Danach küssten Ely und Lauri sich kurz, nicht für die Welt, nur für sich.
 
@@ -136,7 +136,7 @@ Lauri hielt Enricos Blick einen Moment fest. Irgendetwas ruckte darin, so klein,
 
 "Alles gut?", fragte sie.
 
-"Klar", sagte Enrico zu schnell. Dann klopfte er auf seinen Helm. "Ich hab nur Hunger und schlechte Entscheidungen im Kopf."
+"Klar", sagte Enrico zu schnell. Dann klopfte er auf seinen Helm. "Ich hab nur hambre und schlechte Entscheidungen im Kopf, que quieres." 
 
 "Dann perfekt", sagte Ely trocken. "Wir haben beides dabei."
 
