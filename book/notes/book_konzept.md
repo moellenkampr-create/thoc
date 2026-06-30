@@ -32,6 +32,26 @@ Ein erwachsener, emotional intensiver Cyberpunk-Roman im Jahr **2077**, der die 
 - subtile und direkte Erotik (Blicke, Nähe, Hitze, Körpersprache)
 - realistische Gewalt (Tunnelblick, Adrenalin, Konsequenzen)
 
+### Stil-Neustart (verbindlich ab 2026-06-30)
+Der Buchtext wird ab jetzt in personaler Erzaehlperspektive in dritter Person geschrieben.
+
+**Kernregeln:**
+- **Er-/Sie-Erzaehlung statt Ich-POV**
+- **Primaere Zeitform: Praeteritum**
+- **Hoher Dialoganteil**: Konflikte, Naehe und Dynamik werden vor allem ueber Gespraeche getragen
+- **Innere Gedanken als erlebte Rede**: Gedanken und Impulse fliessen in den Erzaehltext, ohne Kursiv-Inseln
+- **Szenenfokus statt starrem Kapitel-POV**: pro Szene genau ein Innenzugang, Wechsel nur bei klarer Szenentrennung
+- **Keine allwissende Erzaehlhaltung in Nahszenen**: nur Wissen und Wahrnehmung der Fokusfigur
+
+**Zielwirkung:**
+- leichter lesbarer Erzaehlfluss
+- mehr Gespraechsdynamik zwischen den Figuren
+- emotionale Naehe ohne Ich-Form-Zwang
+- klare Orientierung trotz multipler Hauptfiguren
+
+**Status der alten Ich-POV-Regeln:**
+Die unten dokumentierten Ich-POV-Stilprinzipien bleiben als historischer Referenzstand erhalten, sind fuer Neuschriebe jedoch nicht mehr bindend.
+
 ### Ich-POV Stilprinzipien (verbindlich ab Kap 1 v2, April 2026)
 **Referenztext: `buch1_kap01_lauri_campus_masks.md` (Neuschrieb)**
 

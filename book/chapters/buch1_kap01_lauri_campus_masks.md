@@ -7,7 +7,7 @@ type: chapter
 tags: [book, buch1, kapitel, lauri, pov, thoc]
 created: 2026-04-23
 story_date: 2077-02-Ende
-pov: Lauri
+pov: Erzähler (personal, Szenenfokus Lauri)
 status: ARBEITSSTAND
 ---
 
@@ -18,87 +18,128 @@ status: ARBEITSSTAND
 
 ---
 
-Die Hitze war falsch. Es war Februar verdammt. Es sollte nach nassem Asphalt riechen oder Abgas, aber nicht nach... Kirschblüten. Sie haben diese falschen Kirschbäume in den Wintersemesterferien hier eingebuddelt und seitdem riecht es fast immer nach Kirschblüten. Nichts riecht hier mehr ehrlich. Nein, falsch, hier hat seit Ely und ich vor eineinhalb Jahren zur NCU gekommen sind, noch nie was ehrlich gerochen. Meine Uniformjacke klebte, die Krawatte wollte mich würgen und die Hosen fühlten sich an, als wären sie aus Heizdecken genäht.
+Die Hitze war falsch.
 
-Verdammter Clean Mode. Perfekt. Kontrolliert. Erstickt. Ein Glück stand Ely neben mir. So dicht, wie es der Campus zuließ — und der Campus ließ nicht viel zu. Ihre Schulter berührte meine fast, fast nicht. Der Abstand war exakt: unauffällig und gleichzeitig der falsche Abstand. Zu weit für das, was wir waren. Nah genug, dass ich jeden Atemzug von ihr hörte. Es gibt Dinge, die ich sehr viel lieber täte, aber so ist nunmal das Leben einer Henshaw auf der besten Universität in Night City.
+Es war Ende Februar, und der Innenhof der NCU roch nicht nach nassem Asphalt oder Abgas, sondern nach diesen frisch gesetzten Kirschbäumen, die so sauber dufteten, dass Lauri schlecht davon wurde. Ihre Uniformjacke klebte am Rücken. Der Knoten der Krawatte saß wie ein Griff am Hals.
 
-Ely spielte mit ihren Fingern an der Kante ihrer Uniformjacke, das fast unsichtbare hin und her ihrer Augen, das sich hinter ihrer falschen Brille abspielte, zeigte, dass sie etwas las. Ihre langen, braven glatten Haare, die hatten gerade keine Lust brav über ihren Rücken zu fallen. 
+Neben ihr stand Ely, nah genug, dass Lauri ihren Atem hörte, weit genug, dass es auf den Kamerafeeds harmlos aussah. Genau dieser Abstand. Immer dieser Abstand.
 
-*Wir dürfen nichts zeigen.* Nicht hier. Nicht vor all diesen Augen. Ich musste mich aktiv davon abhalten mir die untere Lippe zu kauen. Ihre Bluse spannte schon fast über ihren Brüsten und der kurze Rock ihrer NCU Uniform verdeckte zu viel und zu wenig von ihren Beinen. 
+"Wenn ich noch eine Minute in dem Ding stecke, kippe ich um", murmelte Lauri.
 
-Ein Raunen begann als Welle, von hinten nach vorne. Ich musste nicht hinschauen. George Willbur Smith III betrat den Innenhof. 
+Ely zog den Blick nicht vom Holo-Display. "Dann kipp bitte elegant. Wir sind hier schließlich die braven Studentinnen."
 
-Perfekte Uniform. Perfektes Lächeln. Perfekte Haltung — nicht die Haltung von jemandem, dem man sie beigebracht hatte, sondern die Art, die aus dem Körper kommt, wenn er nie gelernt hat, klein zu sein. 1,95 Meter, breit genug, dass die Menge instinktiv Platz machte. Der Quarterback. Der Sohn eines Senators. Der Typ, um den sich alles organisierte, ohne dass er etwas dafür tun musste. Ein möchtegern Weichei, da war ich mir sicher.
+Lauri schnaubte leise. "Ich hasse brave Studentinnen."
 
-Eine neue Cheerleaderin hing an seinem Arm. Blond, makellos, mit dem Lächeln von jemandem, der wusste, dass gerade alle herschauten. Hinter uns tuschelten zwei Studentinnen.
+"Ich weiß."
 
-„Er ist so unglaublich attraktiv…"
-„Und so erfolgreich…"
+Ein Raunen lief durch den Hof, von hinten nach vorn, wie eine Welle. Lauri musste nicht hinsehen, um zu wissen, wer gerade auftrat.
 
-„Tsk, verdammter Schnösel." Ich sagte es leise, aber ich meinte es.
+George Willbur Smith III. Perfekte Uniform. Perfektes Lächeln. Perfekte Haltung.
 
-Ely kicherte. Dieses kleine, warme Geräusch, das sie nur macht, wenn sie sich unbeobachtet glaubt. „Aber ein sehr attraktiver und sehr erfolgreicher Schnösel", murmelte sie, ohne aufzusehen.
+Der Typ bewegte sich, als hätte noch nie jemand versucht, ihn kleinzumachen. Um ihn herum ordnete sich die Menge, ohne dass er etwas sagte. Eine Cheerleaderin hing an seinem Arm, blond, makellos, geübt im Angeschautwerden.
 
-„Er ist halt ein geschniegeltes Vorzeigesöhnchen. Ob er schon mit allen Cheerleadern durch ist?"
+Hinter Lauri tuschelten zwei Erstsemester.
 
-„Da hast du recht." Sie lächelte. Aber ihre Augen folgten George einen Moment zu lange.
+"Er ist so unglaublich attraktiv."
 
-Ich sah es. Ich spürte es. Ich ließ es los.
+"Und erfolgreich."
 
-Dann — ein tiefes Motorengeräusch, das durch den Innenhof vibrierte, bevor ich die Quelle fand. Er drehte noch einmal kurz den Gashahn hoch, um auf sich aufmerksam zu machen. 
+"Verdammter Schnösel", sagte Lauri leise.
 
-Ich wusste, wer das war.
+Ely kicherte, dieses warme kleine Geräusch, das Lauri überall erkennen würde. "Ein sehr attraktiver und sehr erfolgreicher Schnösel."
 
-Enrico blieb auf seinem Bike sitzen, am Rand des Geländes. Sonnenbrille, Lederjacke, Tattoos an Armen und Hals, Goldketten und Goldringe an den Fingern, die Haltung von jemandem, der sich nie in einen Raum einfügte, sondern alles darin verscheuchte. Ein einziger Widerspruch zu allem, was die NCU wollte.
+"Du verteidigst ihn nicht wirklich, oder?"
 
-Er sah zu uns herüber. Kurz. Aber mit der Art Kürze, die alles sagte. Gashahn nochmal kurz aufgedreht. 
+"Ich beschreibe nur den Marktwert." Ely schob die Brille höher. "Objektiv."
 
-Mein Herz zog einen Schlag schneller. Ich ließ mir nichts anmerken.
+Lauri grinste schief, beobachtete aber trotzdem, wie Elys Blick George einen Tick zu lange folgte. Es zog kurz in ihrem Brustkorb, ein alter Reflex, der schneller kam, als Vernunft reagieren konnte. Sie ließ ihn ziehen. Nicht jetzt. Nicht hier.
 
-Wir standen da, Ely und ich, zwei brave Studentinnen mit Holos und Uniformen und dem richtigen Abstand zueinander. Ich belohnte ihn, indem ich einen imaginären Stift vom Boden aufhob und sehr bewusst meinen Hintern mit ausgestreckten Beinen in seine Richtung präsentierte. Ich wusste, dass er meinen Körper sah. Ich wusste, dass er darauf reagierte. Ich genoss es auf eine Art, die ich hier nicht zugeben konnte.
+Dann vibrierte ein Motorengeräusch durch den Hof, tief und dreckig, ein Fremdkörper in all dem NCU-Glanz.
 
-Ely hatte ihn auch bemerkt. Sie ordnete ihr Haar. Drehte sich schnell genug, dass ihr Schlüpfer unter ihrem Rock vorblitzte und dann erstarrte sie. Hatte es selbst gemerkt, was sie gemacht hatte. Ihre Wangen wurden rot, bevor sie es verbergen konnte. 
+Enrico.
 
-Ich grinste. Sie sah weg.
+Er blieb am Rand des Geländes auf seinem Bike sitzen, Sonnenbrille, Lederjacke, Gold an den Fingern, Tattoos an Hals und Armen. Er passte in diese Kulisse wie ein Messer auf einen gedeckten Tisch.
 
-„Wir sollten bleiben", sagte sie leise. „Nur noch eine Stunde."
+Sein Blick glitt zu ihnen. Kurz. Direkt. Dann drehte er den Gashahn noch einmal an.
 
-„Uhhh, eine Stunde bringt uns um." Ich sah sie an, direkt.
+Lauris Herz machte einen harten Satz nach vorn. Sie hielt das Gesicht ruhig.
 
-Sie hielt meinem Blick stand — erst. Dann nicht mehr.
+"Nicht hinsehen", sagte Ely, ohne den Kopf zu drehen.
 
-„Okay", flüsterte sie.
+"Ich seh gar nicht hin."
+
+"Lauri."
+
+"Okay, ich seh ein bisschen hin."
+
+Sie hob ihren Holo-Stift auf, langsamer als nötig, nur um Enrico zu zeigen, dass sie ihn gesehen hatte. Elys Wangen bekamen Farbe, als sie sich hastig das Haar richtete und dabei fast den ganzen Hof mit einer ungewollt eindeutigen Bewegung belohnte.
+
+Lauri grinste. "Smooth."
+
+"Halt die Klappe."
+
+"Wir verschwinden nach der Stunde."
+
+Ely zögerte einen Herzschlag zu lang. "Wir sollten bleiben."
+
+"Wir sterben hier drin."
+
+Ely sah sie an. In ihren Augen lag dieselbe Unruhe, dieselbe Hitze, dieselbe Angst vor dem falschen Schritt.
+
+"Nur eine Stunde", sagte Ely noch einmal, leiser.
+
+Lauri hielt den Blick. Wartete.
+
+"Okay", flüsterte Ely schließlich.
 
 ---
 
-Der Gang, in dem unsere Schließfachächer waren, war leer. Ich öffnete mein Fach mit der Sporttasche. Ich wusste, was darin war. Lederjacke. Stiefel. Crop-Top. Bikerboots. Jedes Mal machte es mich an. Nicht weil es cooler war — weil es ich war. Das Andere, das hier, war Kostüm.
+Der Flur bei den Schließfächern war leer.
 
-Wir zogen uns nicht hier um. Das passierte erst hinter der Mauer, wo die Kameras aufhörten. Aber allein das Gefühl die Tasche in der Hand zu haben und in Richtung Freiheit zu laufen, ließ etwas in meiner Brust lockerlassen.
+Lauri zog die Sporttasche aus dem Fach und spürte sofort, wie ihr Nacken lockerer wurde, nur wegen des Gewichts in der Hand. Lederjacke. Boots. Crop-Top. Nicht coolere Klamotten, sondern ihre.
 
-„Lauri…", murmelte Ely. Unsicher. Erregt. Nervös.
+"Ich hasse es, wie sehr ich mich auf dieses Umziehen freue", sagte Ely.
 
-„Ich weiß." Und ich wusste es wirklich.
+"Ist kein Verbrechen, sich selbst lieber zu mögen als die Uniform."
+
+"An der NCU schon fast."
+
+Sie lachten beide zu kurz, zu leise.
+
+Hinter der Mauer, im toten Winkel zwischen Versorgungscontainer und Zaun, endeten die Kameras. Dort standen die Bikes.
+
+Lauri streifte Jacke und Hemd ab, zog das Crop-Top über und strich unwillkürlich über die Linie ihres Tattoos. Das vertraute Ziehen in der Haut fühlte sich jedes Mal an wie das Aufmachen eines zu engen Verschlusses. Ein kurzer Fokusimpuls, und ihr Hair-Mode sprang vom braven Campus-Look in Street.
+
+Ely beobachtete sie einen Moment zu lange, schluckte, wandte sich ab, dann zog sie selbst die Uniform aus. Als sie wieder zu Lauri aufsah, trug sie Rot im Haar und dieses halb freche, halb unsichere Lächeln, das Lauri nie kaltließ.
+
+"Besser", sagte Ely.
+
+"Viel besser", sagte Lauri.
+
+Die Motoren sprangen an. Für Lauri war das kein Lärm. Es war eine Antwort.
 
 ---
 
-Die Motorräder standen dort, wo wir sie immer parkten — abseits, in einem toten Winkel zwischen Mauer und Versorgungscontainer. Kein Kamerablick. Kein falscher Abstand mehr.
+Enrico wartete zwei Straßen weiter an einem kleinen Fast-Food-Stand, Kaffeebecher in der Hand, als hätte er alle Zeit der Welt.
 
-Ich zog die Jacke aus. Das Hemd. Das Crop-Top glitt über meine Haut, kühl und weich, und ich strich kurz über meinen Bauch — über die Linie des Tattoos, das ich nicht haben durfte, das ich trotzdem hatte. Der Kontakt ließ mich schaudern. Nicht vor Kälte. Wenn sich so Rebellion anfühlt, dann war das ein verdammt gutes Gefühl. Ich konzentrierte mich kurz und meine Haare passten sich an. Vom braven Dread Locks look, zum Street Mode. Auf der linken Seite verschwanden die Haare, Cybertattoo aktiviert. 
+Als sie anhielten, hob sich sein Mundwinkel. Vor dem Campus hatte sein Lächeln nach Herausforderung ausgesehen. Hier wirkte es weicher.
 
-Ely sah mich kurz an. Schluckte. Wandte sich ab — nicht als Abweisung, ich kannte den Unterschied — weil es sie selbst zu sehr traf. Dann zog sie ihre Uniform aus und ihre Street-Klamotten an. Ich genoß es. Sie strich über ihre Haare, die das kräftige rot angenommen hatten, dass ich so sehr liebte. Als sie sich wieder zu mir drehte, war sie eine andere Person.
+"Na, meine Akademikerinnen", sagte er.
 
-Wir beide waren es.
+"Pass auf, sonst bilden wir dich noch weiter", sagte Lauri.
 
-Die Motoren sprangen an. Der Sound war kein Lärm. Er war eine Antwort.
+"Ich hab Angst." Enrico grinste.
 
----
+Er küsste erst Lauri, dann Ely. Routine, Vertrautheit, Wärme. Danach küssten Ely und Lauri sich kurz, nicht für die Welt, nur für sich.
 
-Enrico wartete an einem kleinen Fast-Food-Stand, zwei Straßen vom Campus entfernt. Er lehnte am Tresen, Kaffeebecher in der Hand, und lächelte, als wir hielten. Sein Lächeln war anders als vorhin. Weicher, nicht mehr aggressiv und herausfordernd. Das war das Ding mit Enrico — vor den anderen war er eine Wand, eine Geste, ein Name, ein Bad Boy... nein, kein Boy. Bei uns wurde er kleiner, echter. Ich mochte das. Ich mochte, dass es uns gehörte.
+Lauri hielt Enricos Blick einen Moment fest. Irgendetwas ruckte darin, so klein, dass sie es fast übersehen hätte. Weg war es sofort.
 
-Er begrüßte uns warm. Vertraut. Er küsste mich zuerst, dann Ely — und für einen Herzschlag, den ich sofort vergaß, stimmte etwas nicht. Ely und ich küssten uns auch — nicht lang, nicht tief, aber eindeutig.
+"Alles gut?", fragte sie.
 
-Wir waren kein Dreieck.
-Wir waren Ely und Lauri first.
-Und Enrico war Teil davon — ein guter Teil, ein gefährlicher Teil, ein schöner Teil.
+"Klar", sagte Enrico zu schnell. Dann klopfte er auf seinen Helm. "Ich hab nur Hunger und schlechte Entscheidungen im Kopf."
 
-Für einen Moment fühlte sich alles gut an. Warm, intensiv, gefährlich. Anregend.
+"Dann perfekt", sagte Ely trocken. "Wir haben beides dabei."
+
+Lauri lachte, aber der kleine Riss blieb in ihr hängen. Zu kurz, um ihn festzuhalten. Zu deutlich, um ihn ganz zu vergessen.
+
+Für den Moment fühlte es sich trotzdem richtig an: warm, gefährlich, lebendig.
