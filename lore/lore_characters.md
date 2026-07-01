@@ -376,6 +376,8 @@ source: lore_db.md
 - Offener Hook bleibt getrennt gefuehrt: V/George-Aehnlichkeit und spaetere Verwicklungen sind kein gesetzter Kanonpfad.
 
 ### Walter Frederick Henshaw
+- Geboren: **2019-11-03**, **Night City**
+- Alter 2077: **57**
 - Nach aussen disziplinierter, traditionsbewusster Konzernpatriarch; nach innen zunehmend ideologischer **Arasaka-Fundamentalist**.
 - Saburo Arasaka gilt ihm nicht nur als Konzernchef, sondern als Ordnungsprinzip; **Yorinobu** ist fuer ihn als Nachfolger untragbar, **Hanako** hoechstens stuetzende Dynastietraegerin.
 - Sieht **Elias Smith** als bestechlichen politischen Gegner und als Gefahr fuer Night City, weil Elias eine staerkere NUSA-Anbindung vorantreibt.
@@ -395,7 +397,10 @@ source: lore_db.md
   - Elisa als stille Kraft bleibt dem Trio voellig verborgen (ARBEITSSTAND).
 
 ### Bertram von Eichner
+- Geboren: **2021-04-18**, **Night City**
+- Alter 2077: **56**
 - Kam ueber die **NCU** frueh mit Walter zusammen; anfangs wirkte Walter auf ihn wie ein verlaesslicher, harter, nuetzlicher Freund.
+- Alters-/NCU-Korridor (KANON): Bertram ist etwas juenger als Walter; gleicher Abschlussjahrgang wird ueber fruehen Schulvorsprung (Ueberspringen) erklaert.
 - Technischer, sozial glatter und moralisch schwaecher als Walter; rechtfertigt eigenes Wegsehen oft damit, Schlimmeres verhindert zu haben.
 - Fuehlt sich heute von Walter benutzt und weiss, wie kalt dieser tatsaechlich ist.
 - Seine klare Sollbruchstelle ist **Ely**; zusaetzlich ist echte, schuldgefaerbte Zuneigung zu **Lauri** plausibel, auch wenn sie nicht der Ely-Bindung entspricht.
@@ -409,14 +414,17 @@ source: lore_db.md
 - **NCU-Verbindung / falsche Freundschaft**: Fruehe Corporate- und Netzwerkverbindung an der NCU; Bertram hielt Walter lange fuer echten Freund, Walter dachte schon frueh in Nutzenkategorien.
 - **Frueher Laborzwischenfall / erste Vertuschung**: In einer Biotechnica-nahen Night-City-Forschungsumgebung kam es zu fehlerhaften Markern, instabilen Resultaten und problematischer Entsorgung; Walter schirmte Strukturen, Bertram half technisch bei Bereinigung und lernte, wie kalt Walter wirklich ist.
 - **Lauris Entstehung / private Zweckentfremdung**: Aus einem abgeschotteten Host-Viability-/Bio-Compatibility-Black-Project im Umfeld von Arasakas Unsterblichkeitsforschung wurde durch Walter zusaetzlich eine private dynastische Operation; Bertram half technisch oder logistisch mit und verlor Walter dabei innerlich endgueltig.
-- **Subjekt-Entsorgung / Bertrams Bruchlinie (KANON):** Ueber einen Zeitraum von etwa **3-4 Jahren** (vor Lauris Geburt) wurden im Black-Project insgesamt **11 Kinderfaelle** als "auszusortieren" markiert. Davon wurden **7** (bereits tot oder mit schweren Schaeden) durch Bertram als "entsorgt" abgewickelt. Die Vertuschung lief ueber gleichzeitige Entsorgung gefaehrlicher Materialien im Biotechnica-Entsorgungsofen, sodass die Vorgaenge im Materialrauschen untergingen.
-- **Vier lebende, lebensfaehige Kinder (KANON):** **4** Kinder hat Bertram nicht getoetet, sondern verdeckt an ein offizielles Waisenhaus abgegeben, flankiert durch eine diskrete Spende und ohne namentliche Rueckverfolgbarkeit zu Bertram.
-- **Waisenhaus-Folge (KANON):** Das Waisenhaus registrierte diese Kinder nicht regulär, sondern vermittelte/verkaufte sie "schwarz" weiter.
+- **Projektumfang / Laufzeit (KANON):** Operative Cloning-Serie ueber etwa **7-10 Jahre** (fruehe Vorphase plus Hauptserie). Gesamtmenge der dokumentierten Faelle in dieser Linie: **64**.
+- **Verbleibslogik (KANON):** Von den 64 Faellen gelten **50** als tot oder irreversibel beschaedigt und wurden in Vertuschungsroutinen abgewickelt (u. a. ueber Biotechnica-nahe Entsorgungswege).
+- **Arasaka-Transfergruppe (KANON):** **10** Faelle wurden aus Walters direkter Hand heraus in Arasaka-Sonderprogramme ueberstellt; Walter hat spaeter keinen belastbaren operativen Zugriff mehr auf diese Gruppe und geht intern eher von Totalausfall aus.
+- **Mikoshi-/Blacksite-Aufteilung (KANON):** Die Transfergruppe ist verteilt: vermutlich **1-2** Sonderfaelle im Mikoshi-nahen Forschungskorridor, der Rest auf getrennten Blacksites mit separaten Ausbildungs-/Beobachtungspfaden.
+- **Vier freie Ueberlebende ausserhalb Arasaka-Bestand (KANON):** **4** Ueberlebende blieben ausserhalb der Arasaka-Transfergruppe. Eine davon ist **Esperanza**; drei weitere Identitaeten bleiben bewusst offen.
+- **Findelkind-/Waisenhauskette (KANON):** Mindestens ein freier Ueberlebendenpfad lief ueber eine verdeckte Unterbringung mit spaeterem Abriss der offiziellen Spur (Findelkind-/Schattenaufnahme im Strassenmilieu).
 - **Zeitanker Lauri (KANON):** Lauri gilt als **letztes von Walter in dieser Linie hergestelltes Kind**; aeltere Ueberlebende aus den frueheren Jahrgaengen sind dadurch zeitlich plausibel.
 - **Badlands-Entsorgungsfall vor ca. 6-8 Jahren**: Problematische chemische Abfaelle aus einem Arasaka-nahen Vorgang wurden ueber Biotechnica-nahe Strukturen und einen Suendenbock in die Badlands verlagert. Der Vorfall wurde in abgeschwaechter Form bekannt; Biotechnica zahlte, der Suendenbock fiel, die eigentliche Altlast blieb liegen. Seitdem mehren sich in betroffenen Randzonen Berichte ueber veraenderte oder aggressivere Tierpopulationen.
 
 ### Moeglicher spaeterer Plothook
-- Ein spaeterer Befreiungs- oder Spurenfaden zu ueberlebenden Kindern / Restsubjekten aus dem Black-Project-Umfeld bleibt bewusst offen. **Fixiert sind nur die Eckdaten** (7 entsorgte Faelle, 4 lebend ausgelagerte Faelle, Lauri als letzter Herstellungsfall); konkrete Identitaeten, Aufenthaltsorte und heutige Lebenslagen bleiben offen.
+- Ein spaeterer Befreiungs- oder Spurenfaden zu Restsubjekten aus dem Black-Project-Umfeld bleibt bewusst offen. **Fixiert sind nur die Eckdaten** (64 Gesamtfaelle, 50 tote/beschaedigte Faelle, 10 Arasaka-Transferfaelle, 4 freie Ueberlebende inkl. Esperanza, Lauri als letzter Herstellungsfall); konkrete Identitaeten, Aufenthaltsorte und heutige Lebenslagen der offenen Slots bleiben variabel.
 
 ## 4. Plotnahe Figuren im Vorlauf
 

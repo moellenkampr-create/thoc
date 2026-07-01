@@ -18,7 +18,7 @@ source: lore_db.md
 - 1.3 Langfristige Folgen der Day-6/7-Arc und der NCU-Rueckkehr als offenes Trio
 - 1.4 George-Konflikt mit Football-Umfeld
 - 1.5 Maria-Suchfaden bei Lauri - **ARBEITSSTAND:** Maria lebt in Santo Domingo in einem prekaer-stabilen Schutzalltag (Streetfood-Stand, Familienbindung, Schutzpartner Zoltan), ist aber als Suchknoten fuer Walter-Linie weiterhin gefaehrdet. **OFFEN BLEIBT:** Ob Lauri Maria "rausholen" will oder Maria bewusst vor Ort/unabhaengig bleibt; wann genau Donny die naechste belastbare Lageinfo liefert.
-- 1.6 Henshaw-/von-Eichner-Black-Project-Spuren - **TEILAUFGELOEST (KANON-KERN GESETZT):** Kernfakten sind gesetzt (11 Kinderfaelle ueber 3-4 Jahre; 7 entsorgte Faelle; 4 lebend in ein offizielles Waisenhaus geschleust und dort schwarz weitervermittelt; Lauri als letzter Herstellungsfall). **OFFEN BLEIBT:** Identitaet, Aufenthaltsorte, heutige Lage und moegliche Rueckverknuepfung der 4 ueberlebenden Kinder.
+- 1.6 Henshaw-/von-Eichner-Black-Project-Spuren - **TEILAUFGELOEST (KANON-KERN GESETZT):** Kernfakten sind gesetzt (64 Gesamtfaelle ueber etwa 7-10 Jahre; 50 tote/irreversibel beschaedigte Faelle; 10 in Arasaka-Sonderprogramme ueberstellte Faelle; 4 freie Ueberlebende ausserhalb Arasaka-Bestand, davon eine Spur als Esperanza; Lauri als letzter Herstellungsfall). **OFFEN BLEIBT:** Identitaet, Aufenthaltsorte, heutige Lage und moegliche Rueckverknuepfung der offenen Ueberlebenden-/Transferslots.
 - 1.7 Grosses Rennen strukturell weiterfuehren, sobald Spielerentscheidungen zu Teilnahme und Tiefe feststehen
 
 ## 2. Bewusst offen gehaltene Punkte
