@@ -1,6 +1,6 @@
 ---
 title: Book Startdatei
-version: 1.0.1
+version: 1.0.2
 project: thoc
 file: start_book.md
 type: startfile
@@ -110,6 +110,18 @@ Diese Regeln gelten fuer `book/chapters/*.md` als Standard-Workflow und sind nac
 - Gilt auch fuer sehr kurze Einwuerfe, Einzelwoerter und System-/Nebenstimmen.
 - Die im Text verwendeten Kuerzel muessen mit `speaker_tags` uebereinstimmen.
 
-### 10.4 Konsistenzregel
+### 10.4 Markierung von Gedanken
+- Gedanken werden analog zu gesprochener Sprache markiert.
+- Standardformat: `"[KUERZEL_TH] ..."` (Beispiel: `"[G_TH] Gut."`).
+- Gedanken-Tags werden ebenfalls in `speaker_tags` gepflegt.
+- Wenn ein Gedanke kein Dialog ist, bleibt die Markierung trotzdem bestehen, damit die Erzaehlfunktion eindeutig ist.
+
+### 10.5 Dialog mit Beitext (verbindlich)
+- Gesprochene Zeilen und Gedanken duerfen bewusst von kurzen beschreibenden Beitexten begleitet werden.
+- Wenn Emotion, Melancholie, Wut oder koerperliche Reaktion nicht klar aus der Rede hervorgehen, wird ein knapper Beitext ergaenzt.
+- Typische Beitexte: Blickverhalten, Handspannung/Faust, Zaehneknirschen unterdruecken, Atemreaktionen, Koerperhaltung.
+- Beitexte stehen ausserhalb der markierten Rede und halten die Sprecher-Markierung sauber.
+
+### 10.6 Konsistenzregel
 - Beim Ueberarbeiten bestehender Kapitel sind Header und Dialog-Markierung gemeinsam zu pflegen.
 - Wenn neue Sprecher hinzukommen, wird `speaker_tags` im selben Arbeitsschritt erweitert.

@@ -1,6 +1,6 @@
 ---
 title: Buch 1 – Kapitel 2 – Red Peaks
-version: 3.0.1
+version: 3.0.3
 project: thoc
 file: buch1_kap02_george_red_peaks.md
 type: chapter
@@ -17,6 +17,7 @@ speaker_tags:
 	EM: Emily (Emmy)
 	LNS: Lindsay
 	SYS: Fahrzeugsystem
+	G_TH: Georges Gedanke
 ---
 
 # Kapitel 2 – Red Peaks
@@ -26,27 +27,17 @@ speaker_tags:
 
 ---
 
-Georges Lächeln saß, bevor er daran dachte.
+Georges Lächeln saß, noch bevor er daran dachte. Mundwinkel knapp oben, Augen gerade warm genug, Schultern locker, aber nie nachlässig. Die Campus-Version. Die Senatorensohn-Version. Die Version, die niemand in Frage stellte, weil alle davon profitierten. Lindsay hing an seinem Arm, blond, makellos, perfekt im Takt der Blicke um sie herum. Der Innenhof rauschte. George ließ das Rauschen passieren, ohne es an sich heranzulassen.
 
-Mundwinkel knapp oben, Augen gerade warm genug, Schultern locker, aber nie nachlässig. Die Campus-Version. Die Senatorensohn-Version. Die Version, die niemand in Frage stellte, weil alle davon profitierten.
-
-Lindsay hing an seinem Arm, blond, makellos, perfekt im Takt der Blicke um sie herum. Der Innenhof rauschte. George ließ das Rauschen passieren, ohne es an sich heranzulassen.
-
-Auf der anderen Seite des Hofes standen zwei Mädchen in Uniformen. Ely und Lauri. Er erkannte sie sofort, ohne hinzusehen wie ein Stalker, nur wie jemand, der trainiert war, alles zu registrieren. Der Abstand zwischen ihnen wirkte korrekt und falsch zugleich.
-
-Kurz trafen sich Blicke. Dann war der Moment wieder weg.
+Auf der anderen Seite des Hofes standen zwei Mädchen in Uniformen. Ely und Lauri. Er erkannte sie sofort, ohne hinzusehen wie ein Stalker, nur wie jemand, der trainiert war, alles zu registrieren. Der Abstand zwischen ihnen wirkte korrekt und falsch zugleich. Kurz trafen sich Blicke. Dann war der Moment wieder weg und seine Schritte zogen die Cheerleaderin weiter zum Parkplatz.
 
 ---
 
-Der Wagen wartete drei Reihen weiter: dunkel, gepanzert, anonym genug, um teuer zu schreien. Elias hatte ihn ausgesucht. Elias suchte immer aus.
-
-Lindsay drehte sich halb zu George, zog den Saum ihrer Uniform ein Stück hoch und hielt seinen Blick.
+Der Wagen wartete drei Reihen weiter: dunkel, gepanzert, anonym genug, um teuer zu schreien. Elias, sein Vater, der Senator, hatte ihn ausgesucht. Elias suchte immer aus. Lindsay drehte sich halb zu George, zog den Saum ihrer Uniform ein Stück hoch und hielt seinen Blick.
 
 "[LNS] Kommst du mit?"
 
-George lächelte. Nicht das Ja-Lächeln. Das brauchbare Lächeln.
-
-Er öffnete die Beifahrertür.
+George lächelte. Nicht das Ja-Lächeln. Das brauchbare Lächeln. Er öffnete die Beifahrertür.
 
 "[G] Bring Lindsay nach Hause."
 
@@ -60,45 +51,27 @@ George strich ihr für die Kamera sanft über die Wange.
 
 "[G] Hnn."
 
-Keine Erklärung. Erklärungen öffneten Türen, die Elias später nutzen konnte.
-
-Lindsay hielt noch einen Herzschlag, dann stieg sie ein. George schloss die Tür und wartete, bis der Wagen um die Ecke war.
-
-Nicht aus Höflichkeit. Aus Gewohnheit.
-
-Er nahm den Weg durch die toten Winkel, die Donny und er getestet hatten, bis zu seiner Arc. Von dem Bike wussten nur wenige. Wenn Elias je davon erfuhr, landete es in einer Presse.
+Keine Erklärung. Erklärungen öffneten Türen, die Elias später nutzen konnte. Lindsay hielt noch einen Herzschlag, dann stieg sie ein. George schloss die Tür und wartete, bis der Wagen um die Ecke war. Nicht aus Höflichkeit. Aus Gewohnheit. Er nahm den Weg durch die toten Winkel, die Donny und er getestet hatten, bis zu seiner Arc. Von dem Bike wussten nur wenige. Wenn Elias je davon erfuhr, landete es in einer Schrottpresse.
 
 ---
 
-George zog die Campusjacke aus, verstaute sie unter dem Sitz, setzte den Helm auf und schlüpfte in die dunkelgelbe Lederjacke. Die Farbe war fast golden. Fast.
-
-Goldenboy war er auf Plakaten. Auf der Arc war er etwas anderes.
-
-Der Motor sprang an, und etwas in seiner Brust löste sich schmerzhaft, bevor es leicht wurde.
+George zog die Campusjacke aus, verstaute sie unter dem Sitz, setzte den Helm auf und schlüpfte in die dunkelgelbe Lederjacke. Die Farbe war fast golden. Fast. Goldenboy war er auf Plakaten. Auf der Arc war er etwas anderes. Der Motor sprang an, und etwas in seiner Brust löste sich schmerzhaft, bevor es leicht wurde.
 
 Visier runter. Gang rein. Gas.
 
-Night City zog in Neon und Beton vorbei. Auf der Überführung legte sich der Wind breiter gegen seine Schultern. Ein Wagen scherte plötzlich aus.
+Night City zog in Neon und Beton vorbei. Auf der Überführung legte sich der Wind breiter gegen seine Schultern. Ein Wagen scherte plötzlich aus. George aktivierte das Dynalar OS, einen Einbau, den Elias ihm mit den Worten "Damit du alle Vorteile hast, die man legal nutzen kann" hatte einbauen lassen. Zeit wurde zäh. Winkel wurden klar. Er zog die Arc um Zentimeter nach links und schoss vorbei. Vik, sein leiblicher Vater, hatte es ausgebaut, und Donny hatte die Software bereinigt. Die beiden hatten sauber gearbeitet. Das OS lieferte keine echten Daten mehr an Elias. Schon vier Monate Freiheit. Nicht groß, aber real.
 
-George aktivierte das Dynalar OS.
-
-Zeit wurde zäh. Winkel wurden klar. Er zog die Arc um Zentimeter nach links und schoss vorbei.
-
-Vik und Donny hatten sauber gearbeitet. Das OS lieferte keine echten Daten mehr an Elias. Vier Monate Freiheit. Nicht groß, aber real.
-
-Auf dem Bike dachte George weniger. Das war der Punkt.
+George schüttelte den Kopf frei. Auf dem Bike dachte er weniger. Das war der Punkt.
 
 ---
 
-Red Peaks lag jenseits des glatten Stadtbilds. Oggys Platz sah von außen wie Schrott aus, von innen wie Ordnung mit Narben.
-
-Das Tor stand offen. Oggy lehnte an der Hallenwand, Zigarette zwischen den Fingern.
+Red Peaks lag jenseits des glatten Stadtbilds. Oggys Platz sah von außen wie Schrott aus, von innen wie Ordnung mit Narben. Das Tor stand offen. Oggy lehnte an der Hallenwand, Zigarette zwischen den Fingern.
 
 "[OG] Choombata."
 
 "[G] Oggy."
 
-Oggy musterte ihn kurz, dann warf ihm ohne Warnung eine Schutzweste zu. George fing sie reflexhaft.
+Oggy musterte ihn kurz, dann warf ihm ohne Warnung eine Kevlar-Schutzweste zu. George fing sie reflexhaft.
 
 "[G] Stufe zwölf heute."
 
@@ -110,29 +83,15 @@ Oggy musterte ihn kurz, dann warf ihm ohne Warnung eine Schutzweste zu. George f
 
 "[G] Ich weiß."
 
-Oggy schnaubte, schüttelte den Kopf und ging in die Halle.
-
-Das war sein Ja.
+Oggy schnaubte, schüttelte den Kopf und ging in die Halle. Das war sein Ja.
 
 ---
 
-Der Kampfbot stand schon bereit. Kalibrierungston. Servozucken. Stufe zwölf.
+Der Kampfbot stand schon bereit. Kalibrierungston. Servozucken. Stufe zwölf. 
 
-George ging in Stellung. Der Bot wartete nicht.
+George ging in Stellung. Der Bot wartete nicht. Der erste Treffer kam auf den Unterarm, noch bevor er richtig stand. Der zweite rammte seine Deckung nach oben. Der dritte traf Rippen. Schmerz, ungefiltert. Kein gedämpftes Sportsignal. Keine freundliche Bewertung. Nur Treffer.
 
-Der erste Treffer kam auf den Unterarm, noch bevor er richtig stand. Der zweite rammte seine Deckung nach oben. Der dritte traf Rippen.
-
-Schmerz, ungefiltert.
-
-Kein gedämpftes Sportsignal. Keine freundliche Bewertung. Nur Treffer.
-
-Gut.
-
-Genau das wollte er: den Unterschied zwischen einem verwalteten Körper und seinem eigenen.
-
-Er kam hoch. Der Bot kam wieder. Viertelstunde in Blöcken aus Ausweichen, Blocken, Einschlägen. Drei Stürze, drei Aufstiege.
-
-Beim vierten Mal blieb er eine Sekunde zu lange liegen und sah in die Hallendecke.
+"[G_TH] Gut." Der Gedanke sprang ihm in den Kopf. Genau das wollte er: den Unterschied zwischen einem verwalteten Körper und seinem eigenen. Er kam hoch. Der Bot kam wieder. Viertelstunde in Blöcken aus Ausweichen, Blocken, Einschlägen. Drei Stürze, drei Aufstiege. Beim vierten Mal blieb er eine Sekunde zu lange liegen und sah in die Hallendecke.
 
 "[G] Fuck... Freiheit tut echt weh."
 
@@ -140,27 +99,23 @@ Beim vierten Mal blieb er eine Sekunde zu lange liegen und sah in die Hallendeck
 
 Oggys Stimme war trocken wie Sandpapier.
 
-"[OG] Nicht flennen."
+"[OG] Und nicht flennen."
 
-George stand auf. Nicht wegen Stolz. Weil Oggy recht hatte.
+George stand auf. Nicht wegen Stolz. Weil Oggy recht hatte. Wenn er jetzt nicht aufstand, würde er liegenbleiben.
 
 ---
 
-Später saßen sie auf dem Hof zwischen langen Februarschatten. Oggy rauchte. George lehnte an der Werkstattwand und spürte das Pochen in den Rippen.
+Später saßen sie auf dem Hof zwischen langen Februarschatten. Oggy rauchte. George lehnte an der Werkstattwand und spürte das Pochen in den Rippen. Mit Oggy musste er nicht performen. Das war selten genug, um kostbar zu sein.
 
-Mit Oggy musste er nicht performen. Das war selten genug, um kostbar zu sein.
+"[OG] Heute Abend bleibst du zum Essen?" Es klang mehr nach Ansage als nach Frage.
 
-"[OG] Heute Abend bleibst du zum Essen?"
-
-"[G] Wenn Jenny einverstanden ist."
+"[G] Wenn es Jenny gut genug geht und sie einverstanden ist." Dabei rieb George mit dem Daumen über die Knöchel seiner Faust, als müsste er den Druck dort rausdrücken.
 
 "[OG] Frag sie selbst, amigo."
 
 ---
 
-Der Wohncontainer war kleiner als er wirkte.
-
-Jenny drehte sich vom Herd um, erschrak kurz beim Anblick seiner Blessuren und fing sich sofort.
+Der Wohncontainer war kleiner als er wirkte. Jenny drehte sich vom Herd um, erschrak kurz beim Anblick seiner Blessuren und fing sich sofort.
 
 "[J] George, warum nur. Komm her."
 
@@ -168,9 +123,7 @@ Jenny drehte sich vom Herd um, erschrak kurz beim Anblick seiner Blessuren und f
 
 "[J] Das sagst du jedes Mal."
 
-Sie setzte ihn an den kleinen Tisch und holte Verbandszeug. Oggy übernahm wortlos den Herd.
-
-Jenny arbeitete schnell, ruhig, präzise. George ließ es zu.
+Sie setzte ihn an den kleinen Tisch und holte Verbandszeug. Oggy übernahm wortlos den Herd. Jenny arbeitete schnell, ruhig, präzise. George ließ es zu.
 
 "[G] Wie geht es dir wirklich? Letzter Monat war hart, oder?"
 
@@ -188,23 +141,17 @@ Das Zögern davor war klein, aber da.
 
 "[J] Fang nicht damit an. Wir sind keine Bittsteller."
 
-George hielt den Blick auf ihre Hände. Cyberniere, Firmware, Lieferfenster. Jemand nannte das Service und legte eine Hand um ihre Luftzufuhr.
-
-Er sagte nichts mehr. Noch nicht.
+George hielt den Blick auf ihre Hände. Cyberniere, Firmware, Lieferfenster. Jemand nannte das Service und legte gleichzeitig eine Hand um ihre Luftzufuhr. Er spürte, wie sich seine Kiefermuskeln anspannten, aber er vermied es mit den Zähnen zu knirschen. Er sagte nichts mehr. Noch nicht.
 
 ---
 
-Dann flogen die Kinder in den Container.
+Dann flogen die Kinder in den Container. Colan zuerst, zehn Jahre Motor auf Anschlag.
 
-Colan zuerst, zehn Jahre Motor auf Anschlag.
+"[C] Onkel George. Uh... blut uns bloß nicht alles voll, ja?" Er tat erst angewidert, beugte sich dann aber neugierig vor und hielt den Finger fast zu nah an die Wunde.
 
-"[C] Onkel George. Uh... blut uns nicht alles voll, ja?"
+George lachte kurz. Es zog in den Rippen. Emmy blieb erst an der Tür, musterte sein Gesicht, die Verbände, wieder sein Gesicht.
 
-George lachte kurz. Es zog in den Rippen.
-
-Emmy blieb erst an der Tür, musterte sein Gesicht, die Verbände, wieder sein Gesicht.
-
-"[EM] Lebst du noch?"
+"[EM] Lebst du noch?" Sie fragte es fast vorsichtig.
 
 "[G] Ja."
 
@@ -214,21 +161,11 @@ Sie kam rein. Frage, Antwort, fertig. Ihr Stil.
 
 ---
 
-Nach dem Essen wurde es stiller. Colan und Emmy zeichneten auf dem Boden. Oggy und Jenny redeten in der Küche in halben Sätzen.
-
-Emmy schob George ein Blatt zu, ohne aufzusehen.
+Nach dem Essen wurde es stiller. Colan und Emmy zeichneten auf dem Boden. Oggy und Jenny redeten in der Küche in halben Sätzen. Emmy schob George ein Blatt zu, ohne aufzusehen.
 
 "[EM] Das bist du."
 
-Die Figur in der Mitte war groß, eckig, mit einem schiefen Halbmond-Lächeln. Daneben vier kleinere Figuren. Alle dicht zusammen. Familie in Kinderlogik.
-
-George blieb einen Moment lang hängen.
-
-Mitten drin. Nicht am Rand.
-
-Er nahm einen Magneten vom Tisch, stand auf und hängte das Bild auf Augenhöhe an die Wand neben dem Herd.
-
-Emmy sah hoch, dann zur Wand, dann wieder zu ihm.
+Die Figur in der Mitte war groß, eckig, mit einem schiefen Halbmond-Lächeln. Daneben vier kleinere Figuren. Alle dicht zusammen. Familie in Kinderlogik. George blieb einen Moment lang hängen. Mitten drin. Nicht am Rand. Er nahm einen Magneten vom Tisch, stand auf und hängte das Bild auf Augenhöhe an die Wand neben dem Herd. Emmy sah hoch, dann zur Wand, dann wieder zu ihm.
 
 "[EM] Gut so."
 
@@ -240,24 +177,14 @@ Er setzte sich wieder. Emmy zeichnete weiter.
 
 ---
 
-Draußen war die Nacht kalt genug, um den Tag aus den Knochen zu drücken.
+Draußen war die Nacht kalt genug, um den Tag aus den Knochen zu drücken. Oggy wartete am Tor, als George den Helm schloss.
 
-Oggy wartete am Tor, als George den Helm schloss.
-
-"[OG] Pass auf dich auf."
+"[OG] Pass auf dich auf, cabrón."
 
 "[G] Immer."
 
 Oggy schnaubte.
 
-"[OG] Luegner."
+"[OG] Lügner."
 
-Dann fuhr George los.
-
-Auf der Überführung wurde die Stadt wieder groß, laut, endlos. Irgendwo darin saß Elias in seinem Netz aus Fürsorge, die sich wie Kontrolle anfühlte.
-
-Das Netz war noch da. Nur lockerer.
-
-Bei Oggy hatte es ihn heute nicht erreicht.
-
-George gab Gas, diesmal ruhiger, und ließ die Nacht den Rest schlucken.
+Dann fuhr George los. Auf der Überführung wurde die Stadt wieder groß, laut, endlos. Irgendwo darin saß Elias in seinem Netz aus Fürsorge, die in Wahrheit nichts anderes als Kontrolle war. Elias liebte Kontrolle. Das Netz war noch da. Nur lockerer. Bei Oggy erreichte es ihn nicht. Jetzt kehrte er in dieses Netz zurück. George gab Gas, diesmal ruhiger, und ließ die Nacht den Rest schlucken.
