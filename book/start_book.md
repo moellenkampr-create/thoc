@@ -1,6 +1,6 @@
 ---
 title: Book Startdatei
-version: 1.0.0
+version: 1.0.1
 project: thoc
 file: start_book.md
 type: startfile
@@ -88,3 +88,28 @@ Lore bleibt die priorisierte Quelle bei Welt- und Kanonfragen.
 
 ## 9. Versionierung
 Aenderungen an dieser Startdatei nur auf explizite Anweisung.
+
+---
+
+## 10. Verbindliche Kapitel-Formatregeln (operativ)
+Diese Regeln gelten fuer `book/chapters/*.md` als Standard-Workflow und sind nach Laden von `book/start_book.md` direkt anzuwenden.
+
+### 10.1 Kapitel-Versioning
+- Keine Vollversion fuer reine Formatanpassungen.
+- Format-/Header-/Tag-Anpassungen werden als **Minor Change** gefuehrt: `x.y.z` -> `x.y.(z+1)`.
+- Vollversionen (`x.(y+1).0` oder `(x+1).0.0`) nur bei substanziellen inhaltlichen Neuschrieben oder strukturellen Umbauten.
+
+### 10.2 Header-Pflichtfeld fuer Sprecherkuerzel
+- Jedes Kapitel mit direkter Rede fuehrt im Frontmatter ein Feld `speaker_tags:`.
+- `speaker_tags` listet alle im Kapitel verwendeten Kuerzel und deren Klarname.
+- Kuerzel sollen kurz und eindeutig sein (z. B. `L`, `E`, `EN`, `G`, `OG`, `J`, `EM`, `SYS`).
+
+### 10.3 Markierung gesprochener Sprache
+- Jede gesprochene Zeile wird direkt am Anfang des gesprochenen Textes mit eckigen Klammern markiert.
+- Format: `"[KUERZEL] ..."`
+- Gilt auch fuer sehr kurze Einwuerfe, Einzelwoerter und System-/Nebenstimmen.
+- Die im Text verwendeten Kuerzel muessen mit `speaker_tags` uebereinstimmen.
+
+### 10.4 Konsistenzregel
+- Beim Ueberarbeiten bestehender Kapitel sind Header und Dialog-Markierung gemeinsam zu pflegen.
+- Wenn neue Sprecher hinzukommen, wird `speaker_tags` im selben Arbeitsschritt erweitert.

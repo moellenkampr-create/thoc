@@ -1,6 +1,6 @@
 ---
 title: Buch 1 – Kapitel 1 – Campus Masks
-version: 2.0.0
+version: 2.0.1
 project: thoc
 file: buch1_kap01_lauri_campus_masks.md
 type: chapter
@@ -9,6 +9,12 @@ created: 2026-06-30
 story_date: 2077-02-Ende
 pov: Erzähler (personal, Szenenfokus Lauri)
 status: ARBEITSSTAND
+speaker_tags:
+	L: Lauri
+	E: Ely
+	EN: Enrico
+	S1: Erstsemester 1
+	S2: Erstsemester 2
 ---
 
 # Kapitel 1 – Campus Masks
@@ -24,13 +30,13 @@ Es war Ende Februar, und der Innenhof der NCU roch nicht nach nassem Asphalt ode
 
 Neben ihr stand Ely, nah genug, dass Lauri ihren Atem hörte, weit genug, dass es auf den Kamerafeeds harmlos aussah. Genau dieser Abstand. Immer dieser Abstand.
 
-"Wenn ich noch eine Minute in dem Ding stecke, kippe ich um", murmelte Lauri.
+"[L] Wenn ich noch eine Minute in dem Ding stecke, kippe ich um", murmelte Lauri.
 
-Ely zog den Blick nicht vom Holo-Display. "Dann kipp bitte elegant. Wir sind hier schließlich die braven Studentinnen."
+Ely zog den Blick nicht vom Holo-Display. "[E] Dann kipp bitte elegant. Wir sind hier schließlich die braven Studentinnen."
 
-Lauri schnaubte leise. "Ich hasse brave Studentinnen."
+Lauri schnaubte leise. "[L] Ich hasse brave Studentinnen."
 
-"Ich weiß."
+"[E] Ich weiß."
 
 Ein Raunen lief durch den Hof, von hinten nach vorn, wie eine Welle. Lauri musste nicht hinsehen, um zu wissen, wer gerade auftrat.
 
@@ -40,17 +46,17 @@ Der Typ bewegte sich, als hätte noch nie jemand versucht, ihn kleinzumachen. Um
 
 Hinter Lauri tuschelten zwei Erstsemester.
 
-"Er ist so unglaublich attraktiv."
+"[S1] Er ist so unglaublich attraktiv."
 
-"Und erfolgreich."
+"[S2] Und erfolgreich."
 
-"Verdammter Schnösel", sagte Lauri leise.
+"[L] Verdammter Schnösel", sagte Lauri leise.
 
-Ely kicherte, dieses warme kleine Geräusch, das Lauri überall erkennen würde. "Ein sehr attraktiver und sehr erfolgreicher Schnösel."
+Ely kicherte, dieses warme kleine Geräusch, das Lauri überall erkennen würde. "[E] Ein sehr attraktiver und sehr erfolgreicher Schnösel."
 
-"Du verteidigst ihn nicht wirklich, oder?"
+"[L] Du verteidigst ihn nicht wirklich, oder?"
 
-"Ich beschreibe nur den Marktwert." Ely schob die Brille höher. "Objektiv."
+"[E] Ich beschreibe nur den Marktwert." Ely schob die Brille höher. "[E] Objektiv."
 
 Lauri grinste schief, beobachtete aber trotzdem, wie Elys Blick George einen Tick zu lange folgte. Es zog kurz in ihrem Brustkorb, ein alter Reflex, der schneller kam, als Vernunft reagieren konnte. Sie ließ ihn ziehen. Nicht jetzt. Nicht hier.
 
@@ -64,33 +70,33 @@ Sein Blick glitt zu ihnen. Kurz. Direkt. Dann drehte er den Gashahn noch einmal 
 
 Lauris Herz machte einen harten Satz nach vorn. Sie hielt das Gesicht ruhig.
 
-"Nicht hinsehen", sagte Ely, ohne den Kopf zu drehen.
+"[E] Nicht hinsehen", sagte Ely, ohne den Kopf zu drehen.
 
-"Ich seh gar nicht hin."
+"[L] Ich seh gar nicht hin."
 
-"Lauri."
+"[E] Lauri."
 
-"Okay, ich seh ein bisschen hin."
+"[L] Okay, ich seh ein bisschen hin."
 
 Sie hob ihren Holo-Stift auf, langsamer als nötig, nur um Enrico zu zeigen, dass sie ihn gesehen hatte. Elys Wangen bekamen Farbe, als sie sich hastig das Haar richtete und dabei fast den ganzen Hof mit einer ungewollt eindeutigen Bewegung belohnte.
 
-Lauri grinste. "Smooth."
+Lauri grinste. "[L] Smooth."
 
-"Halt die Klappe."
+"[E] Halt die Klappe."
 
-"Wir verschwinden nach der Stunde."
+"[L] Wir verschwinden nach der Stunde."
 
-Ely zögerte einen Herzschlag zu lang. "Wir sollten bleiben."
+Ely zögerte einen Herzschlag zu lang. "[E] Wir sollten bleiben."
 
-"Wir sterben hier drin", sagte Lauri, rollte mit den Augen und zog das letzte Wort leicht quengelig in die Länge.
+"[L] Wir sterben hier drin", sagte Lauri, rollte mit den Augen und zog das letzte Wort leicht quengelig in die Länge.
 
 Ely sah sie an. In ihren Augen lag dieselbe Unruhe, dieselbe Hitze, dieselbe Angst vor dem falschen Schritt.
 
-"Nur eine Stunde", sagte Ely noch einmal, leiser.
+"[E] Nur eine Stunde", sagte Ely noch einmal, leiser.
 
 Lauri hielt den Blick. Wartete.
 
-"Okay", flüsterte Ely schließlich.
+"[E] Okay", flüsterte Ely schließlich.
 
 ---
 
@@ -98,11 +104,11 @@ Der Flur bei den Schließfächern war leer.
 
 Lauri zog die Sporttasche aus dem Fach und spürte sofort, wie ihr Nacken lockerer wurde, nur wegen des Gewichts in der Hand. Lederjacke. Boots. Crop-Top. Nicht coolere Klamotten, sondern ihre.
 
-"Ich hasse es, wie sehr ich mich auf dieses Umziehen freue", sagte Ely.
+"[E] Ich hasse es, wie sehr ich mich auf dieses Umziehen freue", sagte Ely.
 
-"Ist kein Verbrechen, sich selbst lieber zu mögen als die Uniform."
+"[L] Ist kein Verbrechen, sich selbst lieber zu mögen als die Uniform."
 
-"An der NCU schon fast."
+"[E] An der NCU schon fast."
 
 Sie lachten beide zu kurz, zu leise.
 
@@ -112,9 +118,9 @@ Lauri streifte Jacke und Hemd ab, zog das Crop-Top über und strich unwillkürli
 
 Ely beobachtete sie einen Moment zu lange, schluckte, wandte sich ab, dann zog sie selbst die Uniform aus. Als sie wieder zu Lauri aufsah, trug sie Rot im Haar und dieses halb freche, halb unsichere Lächeln, das Lauri nie kaltließ.
 
-"Besser", sagte Ely.
+"[E] Besser", sagte Ely.
 
-"Viel besser", sagte Lauri.
+"[L] Viel besser", sagte Lauri.
 
 Die Motoren sprangen an. Für Lauri war das kein Lärm. Es war eine Antwort.
 
@@ -124,21 +130,21 @@ Enrico wartete zwei Straßen weiter an einem kleinen Fast-Food-Stand, Kaffeebech
 
 Als sie anhielten, hob sich sein Mundwinkel. Vor dem Campus hatte sein Lächeln nach Herausforderung ausgesehen. Hier wirkte es weicher.
 
-"Na, mis academicas", sagte er, der Akzent rau auf den Vokalen.
+"[EN] Na, mis academicas", sagte er, der Akzent rau auf den Vokalen.
 
-"Pass auf, sonst bilden wir dich noch weiter", sagte Lauri.
+"[L] Pass auf, sonst bilden wir dich noch weiter", sagte Lauri.
 
-"Si, claro, ich hab riesige Angst, mami." Enrico grinste.
+"[EN] Si, claro, ich hab riesige Angst, mami." Enrico grinste.
 
 Er küsste erst Lauri, dann Ely. Routine, Vertrautheit, Wärme. Danach küssten Ely und Lauri sich kurz, nicht für die Welt, nur für sich.
 
 Lauri hielt Enricos Blick einen Moment fest. Irgendetwas ruckte darin, so klein, dass sie es fast übersehen hätte. Weg war es sofort.
 
-"Alles gut?", fragte sie.
+"[L] Alles gut?", fragte sie.
 
-"Klar", sagte Enrico zu schnell. Dann klopfte er auf seinen Helm. "Ich hab nur hambre und schlechte Entscheidungen im Kopf, que quieres." 
+"[EN] Klar", sagte Enrico zu schnell. Dann klopfte er auf seinen Helm. "[EN] Ich hab nur hambre und schlechte Entscheidungen im Kopf, que quieres." 
 
-"Dann perfekt", sagte Ely trocken. "Wir haben beides dabei."
+"[E] Dann perfekt", sagte Ely trocken. "[E] Wir haben beides dabei."
 
 Lauri lachte, aber der kleine Riss blieb in ihr hängen. Zu kurz, um ihn festzuhalten. Zu deutlich, um ihn ganz zu vergessen.
 
