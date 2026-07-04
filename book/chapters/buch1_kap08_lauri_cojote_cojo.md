@@ -1,5 +1,5 @@
 ---
-title: Buch 1 – Kapitel 8 – Cojote Cojo
+title: Buch 1 – Kapitel 8 – El Coyote Cojo
 version: 1.0.0
 project: thoc
 file: buch1_kap08_lauri_cojote_cojo.md
@@ -11,7 +11,7 @@ pov: Lauri
 status: ARBEITSSTAND
 ---
 
-# Kapitel 8 – Cojote Cojo
+# Kapitel 8 – El Coyote Cojo
 
 **Ende Mai 2077 – Heywood**
 **Zwei Tage vor dem neuen Semester**
@@ -28,7 +28,7 @@ Ich trug die Schüssel. Ely trug die Tasche mit dem Rest.
 
 ---
 
-Das Cojote Cojo war ein Bar-Lokal in Heywood, das sich so angefühlt hatte wie Night City sich anfühlen musste, bevor die Megacorps angefangen hatten, alles zu glätten. Niedrige Decke, Holztische, die Hände von zwanzig Jahren Ellenbogen kannten. An der Wand Bilder und Kerzen und Dinge, die jemand hingestellt hatte, weil sie für jemanden wichtig gewesen waren — nicht als Deko, sondern weil das hier der Platz dafür war.
+Das El Coyote Cojo war ein Bar-Lokal in Heywood, das sich so angefühlt hatte wie Night City sich anfühlen musste, bevor die Megacorps angefangen hatten, alles zu glätten. Niedrige Decke, Holztische, die Hände von zwanzig Jahren Ellenbogen kannten. An der Wand Bilder und Kerzen und Dinge, die jemand hingestellt hatte, weil sie für jemanden wichtig gewesen waren — nicht als Deko, sondern weil das hier der Platz dafür war.
 
 Mama Wells stand an der Tür.
 

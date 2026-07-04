@@ -13,7 +13,7 @@ status: ARBEITSSTAND
 
 # Kapitel 4 – Bluttrinker
 
-**Ende Februar 2077 – Plaza-Apartment / Cojote Cojo**
+**Ende Februar 2077 – Plaza-Apartment / El Coyote Cojo**
 **Ein Tag vor dem Ende**
 
 ---

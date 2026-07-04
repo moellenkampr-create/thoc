@@ -116,7 +116,7 @@ Finale: Die Abschaltung (7. Juni)
 
 ### Akt 3
 
-#### Kapitel 8 — *Cojote Cojo* [LAURI-POV]
+#### Kapitel 8 — *El Coyote Cojo* [LAURI-POV]
 - Ende Mai: Einladung zur Totenfeier von Mama Wells
 - Das Umfeld hat gewartet — die Bedeutung sickert erst langsam durch
 - Lauri zeigt echte Trauer vor Menschen, die sie nicht kennt — und das ist richtig
