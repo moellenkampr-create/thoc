@@ -7,7 +7,7 @@
 - Status: ARBEITSSTAND (Einzelsicht Ely)
 
 ## Ely-Sicht
-- Einladung zur Enrico-Trauerfeier im Cojote Cojo wird als realer Wendepunkt nach Klinik-/Psychophase beschrieben.
+- Einladung zur Enrico-Trauerfeier im El Coyote Cojo wird als realer Wendepunkt nach Klinik-/Psychophase beschrieben.
 - Feierpraxis im Valentinos-Umfeld: Erinnerungsaltar, Erzaehlungen, mitgebrachtes Essen als Bindungsritual.
 - Ely hoert explizit, dass auf Ely/Lauri gewartet wurde ("Enricos Chicas", Krankenhausbezug).
 - Padre kontaktiert Ely/Lauri wenige Tage spaeter wegen Infojob gegen die 5. Kolone in Haywood.

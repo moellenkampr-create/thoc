@@ -15,14 +15,14 @@
 ### Emotionale Marker
 - Morgen: Naehe, Koerperlichkeit, Vertrautheit.
 - KITT-Phase: Funktionsstolz plus sachliche Restkritik (noch Luft nach oben).
-- Coyote Cojo: soziale Dichte, kontrollierter Konsum, erhoehte Wachsamkeit.
+- El Coyote Cojo: soziale Dichte, kontrollierter Konsum, erhoehte Wachsamkeit.
 - Nachtlauf Muehle: koerperliche Entladung, danach totale Erschoepfung.
 
 ### Fakten
 - Campmorgen mit Crepes; danach Arbeitstag bei Oggy.
 - KITT am Nachmittag als fertig markiert; Probefahrt George/Ely laeuft grundsaetzlich stabil.
 - Lauri organisiert parallel den Udon-Topf fuer Jackies Feier.
-- Coyote Cojo ist voll (Valentino-Praesenz sichtbar); Hintereingangsszene mit verbaler Eskalation durch Dritte, Lauri setzt Grenzen.
+- El Coyote Cojo ist voll (Valentino-Praesenz sichtbar); Hintereingangsszene mit verbaler Eskalation durch Dritte, Lauri setzt Grenzen.
 - Mama Wells begruesst das Trio; Feier laeuft an.
 - V erzaehlt ueber Jackie.
 - Ely sammelt aktiv Bluttrinker-Informationen und arbeitet optische Vergleichslogik zur Apartment-Frau.
@@ -58,7 +58,7 @@
 ## Konsolidierung
 
 ### Gemeinsame Schnittmenge
-- Kompatibel mit bestehendem 24.07-Rahmen (Coyote Cojo, V-/Esperanza-Begegnung, Aldecaldo-Ruecklauf).
+- Kompatibel mit bestehendem 24.07-Rahmen (El Coyote Cojo, V-/Esperanza-Begegnung, Aldecaldo-Ruecklauf).
 - Schiebt den Fokus staerker auf Elys Wahrnehmungs- und Vergleichsarbeit vor Ort.
 
 ### Perspektivkonflikte

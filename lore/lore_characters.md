@@ -324,7 +324,7 @@ source: lore_db.md
 - Begegnungsstatus (KANON): Esperanza hat Lauri bisher nicht in direkter Nahbegegnung erlebt; wenn Sichtkontakt, dann nur auf Distanz oder von hinten.
 - Haltung zu Bluttrinker (KANON): kennt die Geschichte, ist aberglaeubisch und will den Bluttrinker-Tod-Kreis aktiv brechen.
 - Dynamik zu Lauri (ARBEITSSTAND): steht Lauri tendenziell wohlwollend gegenueber, nutzt sie aber zugleich funktional als Schluesselperson in der Bluttrinker-Linie.
-- Erster Kontakt-Hook (ARBEITSSTAND): bei der Jackie-Wells-Totenfeier im Cojote Cojo wird ein unmittelbarer olfaktorischer Resonanzmoment zwischen Lauri und Esperanza erwartet ("sich sofort riechen").
+- Erster Kontakt-Hook (ARBEITSSTAND): bei der Jackie-Wells-Totenfeier im El Coyote Cojo wird ein unmittelbarer olfaktorischer Resonanzmoment zwischen Lauri und Esperanza erwartet ("sich sofort riechen").
 - Platziert spaeter Kreuz + Klinge unter Lauris Bett (Kreuz an der Kordel): als Schutz- und Abschiedszeichen — Enrico soll nicht ganz aus der Klinge verschwinden, aber die Klinge soll auch nicht frei im Raum liegen
 - Spaetere operative Rolle in der Handlung bleibt offen.
 
@@ -338,7 +338,7 @@ source: lore_db.md
 
 ### Mama Wells
 **KANON**
-- lud Ely und Lauri zur Trauerfeier fuer Enrico im Cojote Cojo ein
+- lud Ely und Lauri zur Trauerfeier fuer Enrico im El Coyote Cojo ein
 - steht fuer den gemeinschaftlichen Toten- und Erinnerungskontext der Valentinos
 
 ### Padre

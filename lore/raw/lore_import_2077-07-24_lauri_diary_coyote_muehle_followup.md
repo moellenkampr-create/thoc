@@ -25,7 +25,7 @@ Misty weiss bereits von der Idee, reagiert positiv; Lauri verspricht, Mistys Nam
 
 ---
 
-## 2077-07-24 abends / Coyote Cojo
+## 2077-07-24 abends / El Coyote Cojo
 
 Anfahrt ueber Hintereingang; Valentino-Sperrungen in den Strassen.
 
@@ -58,7 +58,7 @@ Rueckzug:
 
 ## 2077-07-24 spaeter Nacht / Rueckfahrt + Muehle
 
-Rueckfahrt mit hohem Spannungsabfall und deutlichem Wunsch, aus dem Cojote-Kontext rauszukommen.
+Rueckfahrt mit hohem Spannungsabfall und deutlichem Wunsch, aus dem El Coyote Cojo-Kontext rauszukommen.
 
 Aldecaldo-Nachwache begruesst das Trio; danach vorgezogener Trainings-/Entladungsblock:
 - Joggen zur Muehle,
@@ -67,4 +67,4 @@ Aldecaldo-Nachwache begruesst das Trio; danach vorgezogener Trainings-/Entladung
 
 Verfassungsmarker:
 - Starker Bruch zwischen sozialem Feiermodus und innerer Distanz.
-- Deutliches Motiv "wir gehoeren inzwischen eher zu den Aldecaldos als in den Cojote-Kontext".
+- Deutliches Motiv "wir gehoeren inzwischen eher zu den Aldecaldos als in den El Coyote Cojo-Kontext".

@@ -59,7 +59,7 @@ source: lore_db.md
   - **Gleiches Datum, Abend — Donnys Meldung**: Donny meldet George, dass zwei NCU-Studentinnen (Henshaw / von Eichner) in einen schweren Unfall an der Watson-Bruecke verwickelt waren. Detailmeldung: eine mit Schaedel- und Rippenverletzungen akut (Lauri); die andere mit Schock und leichten Verletzungen (Ely). Beide im Privatkliniksystem, Eltern bereits eingetroffen, Informationen abgeschottet. George kennt ihren Familienhintergrund ueber "die Konten" (Arasaka / Biotechnica). Er entscheidet sich, nicht sofort hinzufahren, legt aber eine Beobachtungslinie an. Georges erster Kontaktpunkt mit dem Trio.
 
 - **Winter 2076**: Enrico-Phase und Enrico-Tragoedie.
-  - Ely und Lauri werden ueber Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **Cojote Cojo**.
+  - Ely und Lauri werden ueber Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **El Coyote Cojo**.
   - Zwischen Ely, Lauri und Enrico entsteht eine echte intime Phase ohne die ueblichen gesellschaftlichen Masken.
   - Kurz vor dem Unfall verschenkt Enrico seine Machete an Lauri (spaeterer Bluttrinker-Kontext) und bricht eine Erklaerung dazu mitten im Satz ab.
   - In der Vorphase eskaliert Enrico sichtbar am Verlust seines Kreuzes; Pupillenbild und Verhalten deuten in Lauris Wahrnehmung auf Substanzeinfluss. **Korrekturnote (ARBEITSSTAND):** Das Kreuz war bei Enricos Schwester geblieben, wo er es am selben Tag vergessen hatte; er ruft spaeter bei Lauri/Ely an, weil er es dort vermutet.
@@ -128,7 +128,7 @@ source: lore_db.md
 - Lauris innere Phase bleibt instabil, ueberlagert und nicht sauber linear erinnerbar; Trauer, Kontrolle von aussen, Medikamente und Identitaetssuche treffen gleichzeitig aufeinander.
 
 - **Ende Mai 2077**:
-  - Vor dem neuen Uni-Semester erhalten Ely und Lauri eine Einladung zur Trauerfeier fuer Enrico im **Cojote Cojo** von **Mama Wells**.
+  - Vor dem neuen Uni-Semester erhalten Ely und Lauri eine Einladung zur Trauerfeier fuer Enrico im **El Coyote Cojo** von **Mama Wells**.
   - Ely und Lauri bringen ein Enrico-Gericht zur Feier mit; Erinnerungsaltar und Erzaehlrunde werden als zentraler Ritualrahmen beschrieben.
   - Die Feier macht deutlich, dass die Valentinos bzw. das Umfeld mit der Zeremonie bewusst auf Ely und Lauri gewartet haben, damit beide teilnehmen koennen.
   - Ely hoert dazu im Umfeld explizit die Markierung als "Enricos Chicas" (inkl. Verweis auf Lauris vorherige Krankenhausphase).
@@ -979,7 +979,7 @@ source: lore_db.md
 
   - **2077-07-24 (konsolidiert aus SL-/Ely-/Lauri-Sicht) [ARBEITSSTAND]**:
     - Tagsueber: KITT gilt als fertig im Sinn von **fahrtuechtig**; Feintuning/Optimierungen bleiben laufendes Projekt.
-    - Vorbereitung fuer Jackies Totenfeier (u. a. Arc-Topf/Udon-Mitbringsel), danach Abend im Coyote Cojo.
+    - Vorbereitung fuer Jackies Totenfeier (u. a. Arc-Topf/Udon-Mitbringsel), danach Abend im El Coyote Cojo.
     - Begegnungen im Coyote: V als Jackie-Vertrauter sowie Esperanza als harter Enrico-/Bluttrinker-Nachhallmarker.
     - Ely/Lauri vermuten sehr wahrscheinlich, dass Esperanza mit der Frau aus der Apartment-Spur zusammenfaellt; harter Bildbeweis bleibt unscharf.
     - Bluttrinker-Wand wird als unvollstaendig wahrgenommen (Luecke/fehlender Marker; moeglicher Bezug zu gefundenem Bluttrinker oder neuem Traeger bleibt offen).

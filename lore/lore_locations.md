@@ -24,7 +24,7 @@ source: lore_db.md
 - Lizzy's
 - Mandy's
 - Club Empath
-- Cojote Cojo
+- El Coyote Cojo
 
 ## 2. Ortsbezogene Kurzlogik
 **KANON**
@@ -33,7 +33,7 @@ source: lore_db.md
 - **Plaza Apartment / Penthouse** ist die praegende fruehere NCU- und Vor-Shutdown-Phase.
 - **No Tell Motel** ist der unmittelbare Uebergangsraum nach der Abschaltung.
 - **Vik-Klinik** ist Schluesselort fuer Aufdeckung, Befreiung und medizinische Stabilisierung.
-- **Cojote Cojo** ist Schluesselort fuer Enricos Trauerkontext und die fruehe Valentinos-Anbindung.
+- **El Coyote Cojo** ist Schluesselort fuer Enricos Trauerkontext und die fruehe Valentinos-Anbindung.
 - **Oggys Schrottplatz** ist Scharnierort fuer Kurierbike-, Oggy- und Big-Race-Vorlauf.
 
 ## 3. Mandy's (Kendal Street)

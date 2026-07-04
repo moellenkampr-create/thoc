@@ -1,4 +1,4 @@
-# Rohimport 2077-07-23 bis 2077-07-24 - SL-Sicht (Oggy, Bertram, Vik, Cojote Cojo)
+# Rohimport 2077-07-23 bis 2077-07-24 - SL-Sicht (Oggy, Bertram, Vik, El Coyote Cojo)
 
 Quelle: SL-Zusammenfassung, moeglichst wortnah als Rohtext abgelegt (ASCII-normalisiert).
 
@@ -41,9 +41,9 @@ Das Trio spricht mit Oggy ueber mehrere Themen und bereitet sich weiter auf das 
 
 ---
 
-## 2077-07-24 abends / Coyote Cojo
+## 2077-07-24 abends / El Coyote Cojo
 
-Trio geht zur Feier im Coyote Cojo.
+Trio geht zur Feier im El Coyote Cojo.
 - Begegnung mit V (offensichtlich enger Freund von Jackie).
 - Begegnung mit Esperanza; die Situation verstoert das Trio spuerbar.
 

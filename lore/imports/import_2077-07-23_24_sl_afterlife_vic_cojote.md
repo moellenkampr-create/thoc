@@ -1,5 +1,5 @@
 ---
-title: "Import 2077-07-23 bis 2077-07-24 - SL-Sicht (Oggy, Bertram, Vik, Coyote Cojo)"
+title: "Import 2077-07-23 bis 2077-07-24 - SL-Sicht (Oggy, Bertram, Vik, El Coyote Cojo)"
 date: 2077-07-23
 pov: Spielleitung
 type: structured-import
@@ -42,8 +42,8 @@ source: raw/lore_import_2077-07-23_24_sl_afterlife_vic_cojote.md
 - Trio spricht mit Oggy ueber diverse Punkte.
 - Rennenvorbereitung laeuft weiter.
 
-### 2077-07-24 abends / Coyote Cojo + Ruecklauf
-- Feier im Coyote Cojo.
+### 2077-07-24 abends / El Coyote Cojo + Ruecklauf
+- Feier im El Coyote Cojo.
 - Begegnung mit V (deutlich als enger Jackie-Vertrauter lesbar).
 - Begegnung mit Esperanza; emotional verstoerender Marker fuer das Trio.
 - Rueckfahrt zu den Aldecaldos; Gespraech mit Pepe und seiner Frau wegen Vorrennen bleibt offen.
@@ -51,13 +51,13 @@ source: raw/lore_import_2077-07-23_24_sl_afterlife_vic_cojote.md
 ## Emotionale Marker
 - Bertram-Block verschiebt Ely-Linie zwischen Naeheangebot und Misstrauensdruck.
 - Lauri bekommt durch den "nicht Walters/Elisas Kind"-Marker akuten Identitaets- und Gefahrenimpuls.
-- Esperanza-Begegnung im Cojote Cojo wirkt als Nachhallmarker fuer den Abend.
+- Esperanza-Begegnung im El Coyote Cojo wirkt als Nachhallmarker fuer den Abend.
 
 ## Perspektivkonflikte
 - Bertrams Vertrauensvorschlag "Elias hilft" kann taktisch motiviert sein; Belastbarkeit bleibt offen.
 - Vik ordnet fehlende Logs nicht automatisch als Sonderfall ein; Trio kann denselben Befund als Hochrisikosignal lesen.
 
 ## Zielmapping
-- lore_timeline: 23.07/24.07 um SL-Block (Bertram, Vik, Mendelson-Anschluss, Cojote Cojo, Aldecaldo-Ruecklauf) ergaenzen
+- lore_timeline: 23.07/24.07 um SL-Block (Bertram, Vik, Mendelson-Anschluss, El Coyote Cojo, Aldecaldo-Ruecklauf) ergaenzen
 - lore_plots: Corporate-/Elterndruck und Maria-/Esperanza-Nebenachsen auf Anschlusspruefung setzen
 - lore_open_threads: 1.5, 2.40, 2.116 und 2.117 auf neuen Informationsstand synchronisieren

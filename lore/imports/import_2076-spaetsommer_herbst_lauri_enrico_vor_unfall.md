@@ -34,7 +34,7 @@
 
 ## Konsolidierungshinweise
 - Einzelsicht bleibt ARBEITSSTAND bis Ely-/SL-/weitere Gegenperspektiven vorliegen.
-- Begriffe wie "Mutter Welles"/"Coyote" bleiben als Quellenwortlaut erhalten; Normschreibweise in Strukturdateien bleibt Mama Wells / Cojote Cojo.
+- Begriffe wie "Mutter Welles"/"Coyote" bleiben als Quellenwortlaut erhalten; Normschreibweise in Strukturdateien bleibt Mama Wells / El Coyote Cojo.
 
 ## Zielmapping
 - lore_timeline: Winter 2076 Vertiefung (Vorunfall + Unfallnacht)

@@ -249,7 +249,7 @@ Status: KANON / ARBEITSSTAND gemischt nach Abschnitt.
 
 ### Mama Wells
 **KANON**
-- lud Ely und Lauri zur Trauerfeier für Enrico im Cojote Cojo ein
+- lud Ely und Lauri zur Trauerfeier für Enrico im El Coyote Cojo ein
 - steht für den gemeinschaftlichen Toten- und Erinnerungskontext der Valentinos
 
 ### Padre
@@ -319,7 +319,7 @@ Status: KANON / ARBEITSSTAND gemischt nach Abschnitt.
   - Lauri bricht einem Belästiger den Arm
   - Chemie-Manipulation an einem Professor zur Notenkorrektur
 - **Winter 2076**: Enrico-Phase und Enrico-Tragödie.
-  - Ely und Lauri werden über Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **Cojote Cojo**.
+  - Ely und Lauri werden über Donny auf Enrico aufmerksam; Treffpunktphase u. a. im **El Coyote Cojo**.
   - Zwischen Ely, Lauri und Enrico entsteht eine echte intime Phase ohne die üblichen gesellschaftlichen Masken.
   - Lauri ist stark verliebt; in dieser Zeit beginnt sie, sich auch echte Tattoos stechen zu lassen.
   - Beim späteren Unfall trägt Enrico neues, verunreinigtes Zeug im System; Ely wollte die Substanz eigentlich erst an der Uni analysieren.
@@ -341,7 +341,7 @@ Status: KANON / ARBEITSSTAND gemischt nach Abschnitt.
   - Lauris innere Phase bleibt instabil, überlagert und nicht sauber linear erinnerbar; Trauer, Kontrolle von außen, Medikamente und Identitätssuche treffen gleichzeitig aufeinander.
 
 - **Ende Mai 2077**:
-  - Vor dem neuen Uni-Semester erhalten Ely und Lauri eine Einladung zur Trauerfeier für Enrico im **Cojote Cojo** von **Mama Wells**.
+  - Vor dem neuen Uni-Semester erhalten Ely und Lauri eine Einladung zur Trauerfeier für Enrico im **El Coyote Cojo** von **Mama Wells**.
   - Die Feier macht deutlich, dass die Valentinos bzw. das Umfeld mit der Zeremonie bewusst auf Ely und Lauri gewartet haben, damit beide teilnehmen können.
   - Die Bedeutung dieser Geste ist Ely und Lauri zunächst nicht voll bewusst.
   - Auf der Feier zeigen beide offen echte Trauer und echte Gefühle; das beeindruckt und freut das Umfeld.
@@ -675,7 +675,7 @@ Status: KANON / ARBEITSSTAND gemischt nach Abschnitt.
 - Lizzy’s
 - Mandy’s
 - Club Empath (im Plaza Apartment, Nebenort / keine Kernlocation)
-- Cojote Cojo
+- El Coyote Cojo
 
 ### Projektsymbol
 - THOC Snake Symbol

@@ -1,4 +1,4 @@
-# Rohimport 2077-07-24 - Ely-Zusammenfassung (KITT-Finish, Coyote Cojo, Muehlenlauf)
+# Rohimport 2077-07-24 - Ely-Zusammenfassung (KITT-Finish, El Coyote Cojo, Muehlenlauf)
 
 Quelle: Ely-Zusammenfassung, moeglichst wortnah als Rohtext abgelegt (ASCII-normalisiert).
 
@@ -20,9 +20,9 @@ Probefahrt laeuft gut, aber mit Luft nach oben.
 
 ---
 
-## 2077-07-24 abends / Coyote Cojo
+## 2077-07-24 abends / El Coyote Cojo
 
-Direktfahrt zum Coyote Cojo. George laesst Ely fahren; virtuelles Fahren liegt Ely weniger.
+Direktfahrt zum El Coyote Cojo. George laesst Ely fahren; virtuelles Fahren liegt Ely weniger.
 
 Vor Ort ist es bereits voll (viele Lowrider und Valentino-Bikes). Das Trio nimmt den Hintereingang, wird dumm angemacht; Lauri kontert scharf.
 
