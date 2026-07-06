@@ -242,6 +242,10 @@ source: lore_db.md
 - Finanzrealismus (Trio-Sicht):
   - Neben 2.0 Mio (Lauri) + 0.5 Mio (Ely) + NC-Neustatuskosten wird bereits mit Reserve/Folgekosten gerechnet; dadurch zirkuliert im Spielgespraech die grobe Marke "rund 3 Mio".
   - Gleichzeitig zeichnet sich ein spaeterer Freiheits-/Sicherheitsbedarf fuer George ab.
+- Neuer 26.07-Stand:
+  - Bertram schickt Teddy und Rueckkehrangebot ins Plaza Apartment; der Corporate-Exit-Druck wird persoenlicher und laeuft ueber Herkunft, Standortwissen und moegliche DNA-Spuren.
+  - Der Teddy wird zu Vic gebracht, um fruehere und aktuelle DNA mit dem Vergleichsanker Schlange gegenzupruefen.
+  - Die Rueckkehr ins Plaza Apartment bleibt damit nicht nur ein Wohn-, sondern ein Kontroll- und Identitaetsthema.
 - Dramatischer Kern:
   - Freiheitswunsch gegen Besitzlogik.
   - Rechtliche Selbstbestimmung gegen familiär-konzernhafte Definitionsmacht.

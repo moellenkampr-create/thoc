@@ -18,7 +18,7 @@ source: raw/lore_import_2077-07-25_lauri_diary_herzentscheidung_aldecaldos.md
 
 ## Lauri-Sicht
 - Kernwahrnehmung:
-  - Der Morgen steht im Zeichen von Bindung, Erholung und Prioritaetenklaerung.
+  - Der Morgen beginnt mit Versorgung, Gemeinschaft und akutem Alltagsstress (Fruehstueck, Tombola, KITT-Schaden).
   - Lauri verortet ihre Rennensicht als emotionale Herzentscheidung, nicht als reine Taktik.
   - Zentraler Konflikt bleibt: Nahe zu den Aldecaldos vs. klare Trio-Prioritaet.
 - Emotionale Marker:
@@ -29,7 +29,15 @@ source: raw/lore_import_2077-07-25_lauri_diary_herzentscheidung_aldecaldos.md
   - "Das ist eine Herzentscheidung."
   - "Wir gehoeren nicht ganz dazu, aber ich will, dass sie Freunde/Verbuendete bleiben."
   - "Mein Weg folgt Ely und George."
+  - "Wenn, dann nimm wenigstens den, der mehr passt." / "Smith zum Beispiel."
 - Fakten:
+  - Marder-Desaster in KITT, 500 Buck Strafe fuer sinnloses Schiessen im Lager.
+  - Absprachen mit Pepe/Mirabell: fairer Rennmodus ohne gegenseitiges Beschiessen.
+  - V und Claire sind am Start; Riff wird mit V bekannt gemacht.
+  - Thomas Goodwin wird mehrfach wegen des falschen Nachnamens gekontert.
+  - Raffens stinken am Start ab; ein Fehlstart und eine Explosion ziehen die Szene.
+  - Ely wird spaeter von einer Drohne verletzt; Lauri reagiert mit Schock, weil Blut und Verletzung nicht erwartet waren.
+  - Nach dem Rennen: Umarmung, Torten, Wiederholungsfahrt, dann klares Gespraech ueber echte Worte statt Erwartungssprache.
   - Trio spricht morgens explizit ueber Zukunftsrichtung und Aldecaldo-Traditionsbezug beim Badlands-Rennen.
   - Aufgabenteilung fuer den Tag:
     - Ely + Lauri sprechen mit Pepe,

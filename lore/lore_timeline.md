@@ -986,11 +986,25 @@ source: lore_db.md
     - Das Trio zieht sich kontrolliert/fruehzeitig zurueck und geht in den Aldecaldo-Nachlauf.
 
   - **2077-07-25 (Lauri-Sicht + offener Rennenkontext) [ARBEITSSTAND]**:
-    - Morgenfokus liegt auf Bindung, Prioritaeten und Rennenausrichtung als Herzentscheidung statt reiner Taktik.
-    - Klare Loyalitaetsordnung wird benannt: primaere Familie bleibt das Trio; Aldecaldos sind enger Verbund, aber keine formale Zugehoerigkeit.
-    - Tagesaufgabenteilung: Ely + Lauri sprechen mit Pepe; George finalisiert KITT.
-    - Vorrennen-Kontext bleibt operativ offen (Verlauf/Platzierung/Gefahrenlage weiterhin nicht final konsolidiert).
+    - Morgen startet mit Fruehstueck, Tombola und einem KITT-Schaden durch einen Marder, der Kabel anfrisst und von George im Lager sinnlos erschossen wird; dafuer faellt eine Strafe an.
+    - Ely und Lauri einigen sich mit Pepe/Mirabell auf einen fairen Rennmodus ohne gegenseitiges Beschiessen.
+    - Lauri faehrt auf May voraus, Ely und George in KITT; unterwegs wird noch Grillgut und Kohle besorgt.
+    - Vor Ort sind V und Claire da; Lauri will Riff mit V bekannt machen.
+    - Thomas Goodwin spricht Lauri mit dem falschen Nachnamen an; sie kontert provokativ auf Smith, worauf Goodwin sichtbar aus dem Tritt kommt.
+    - Die Raffens stinken am Start ab und werden beim Losfahren gerammt; ein Wagen explodiert.
+    - Lauri erlebt die Szene extrem allein, inklusive eines kurzen Sicht-/Ei-Blocks, und dreht fast durch, weil sie nicht eingreifen kann.
+    - Beim Ziel kommt Ely verletzt zurueck; die Wunde stammt von einer Drohne. Lauri reagiert schockiert und versucht, Ely nicht zu verletzen.
+    - Rueckfahrt in KITT, Feier bei den Aldecaldos mit zwei Torten und Wiederholungsfahrt, bei der George knapp gewinnt.
+    - Nach dem Rennen folgt ein klares Gespraech: George soll nicht nur Erwartungen erfuellen, sondern seine echten Worte sagen. Die drei beschliessen, die Uni im Schnelldurchlauf abzuschliessen; George spricht dabei erstmals selbst an, evtl. wieder Football spielen zu koennen.
+    - Vorrennen-Kontext bleibt operativ offen (Verlauf/Platzierung/Gefahrenlage durch die Szene zwar sichtbar, aber noch nicht vollstaendig in den Plot eingepreist).
 
   - **2077-07-26 bis 2077-07-27 (Kontinuitaetsmarker) [ARBEITSSTAND]**:
-    - Fuer diese beiden Tage fehlt in der Timeline noch ein voll konsolidierter Tagesblock.
-    - Bereits gesetzte Einzelmarker (u. a. Padre-Auftrag am 27.07) sind vorhanden, aber noch nicht als Timeline-Eintrag synchronisiert.
+    - **2077-07-26 (Lauri-Sicht, Plaza-/DNA-/Aldecaldo-Block) [ARBEITSSTAND]**:
+      - Ely und Lauri verlaengern den Morgen in Kuschelnaehe und checken Nachrichten.
+      - Bertram schickt ein Paket ins H10: Teddy plus Nachricht von Bertram und Judith mit Rueckkehrangebot ins Plaza Apartment.
+      - Das Paket wird auf Tracker geprueft; keine versteckten Tracker, nur Post-Tracking.
+      - Lauri vermutet eine Luecke in der bisherigen Sicht auf Bertrams Zugang und zieht Elys DNA als moeglichen Schluesselpunkt in Betracht.
+      - Der Teddy geht zu Vic; George will fruehere und aktuelle DNA vergleichen, Vic hat zudem die Schlange als Vergleichsanker.
+      - Ely erledigt Unterlagen fuer die Verkuerzung; anschliessend geht es zurueck zu den Aldecaldos.
+      - Bei den Aldecaldos findet das Trio wieder Musik und einen spuerbar freien Abend.
+    - **2077-07-27** bleibt als Einzelmarker weiter offen; der Padre-Call sitzt noch im Folgeanker.
