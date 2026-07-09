@@ -72,6 +72,7 @@ Der Lore‑Chat:
 - `lore/lore_relationships.md`  
 - `lore/lore_plots.md`  
 - `lore/lore_open_threads.md`  
+- `lore/lore_bestellungen.md`  
 - `lore/lore_preservation.md`  
 - `lore/lore_import_schema.md`  
 - `lore/lore_flair_quotes.md`  
