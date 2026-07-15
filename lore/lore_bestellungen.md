@@ -26,7 +26,7 @@ Zusaetzlich laufen bei Donny drei neue Identitaeten fuer das Trio. Diese sind be
 Rueckmeldung von Donny zur Maria-Lage oder Fertigmeldung der drei Identitaeten (Anfang August). Fuer die Nutzung ist danach ein separater Integrationsauftrag noetig.
 
 **Moegliche Komplikation:**
-Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert.
+Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis; George klaert den Punkt aktiv, waehrend Lauris Lagebild im Schockfenster deutlich paranoider ist.
 
 ## Viktor (Vic)
 **Offen (ARBEITSSTAND):**
@@ -51,15 +51,15 @@ Vorabtermin naechste Woche fuer May-Scoping.
 **Moegliche Komplikation:**
 Beim May-Umbau kann KITT-Nacharbeit den realen Start weiter nach hinten schieben.
 
-## Padre
-**Offen (ARBEITSSTAND):**
-Fuer den 27.07 ist ein neuer Padre-Call als Auftragsstartmarker gesetzt (Eurodyne-Gitarre/Psychofan-Kontext). Sobald das Trio den Auftrag annimmt oder ausfuehrt, bleibt der Punkt hier bis zur Uebergabe aktiv.
+## Wilson
+**Angebot aktiv (ARBEITSSTAND):**
+Wilson hat Ely nach dem 27.07-Tag eine 2020er Malorian als Deal angeboten: Waffe gegen Promotion. Der genaue Leistungsumfang der Promotion ist noch unklar; die Entscheidung ist offen.
 
 **Naechster Trigger:**
-Holoanruf abgeschlossen, Einsatzfenster bestaetigt, danach Rueckmeldung/Drop.
+Ely klaert die Dealbedingungen mit Wilson oder lehnt den Angebotspfad ab.
 
 **Moegliche Komplikation:**
-Zeitdruck gegen andere laufende Trio-Themen; Priorisierung kann Folgeauftraege verschieben.
+Hohe Sichtbarkeit durch Promo kann mit Sicherheits-/Elterndruck kollidieren; zusaetzlich ist die Waffe an passende Koerper-/Cybervoraussetzungen gebunden.
 
 ## Miri (Velvet)
 **Offen (ARBEITSSTAND):**

@@ -1007,4 +1007,26 @@ source: lore_db.md
       - Der Teddy geht zu Vic; George will fruehere und aktuelle DNA vergleichen, Vic hat zudem die Schlange als Vergleichsanker.
       - Ely erledigt Unterlagen fuer die Verkuerzung; anschliessend geht es zurueck zu den Aldecaldos.
       - Bei den Aldecaldos findet das Trio wieder Musik und einen spuerbar freien Abend.
-    - **2077-07-27** bleibt als Einzelmarker weiter offen; der Padre-Call sitzt noch im Folgeanker.
+    - **2077-07-27 (Ely-Sicht, Padre-Psychofan + Wilson/Vaterkontakt) [ARBEITSSTAND]**:
+      - Gegen 02:00 startet ein Padre-Call: Kerry-Eurodyne-Gitarre bei Gaston Slayton (Haywood) zurueckholen, moeglichst still/leise und ohne Tote.
+      - Vorbereitung zieht sich, weil George zwar Daten sammelt, aber abgelenkt wird.
+      - Das Trio geht im Clean Mode, besorgt Tasche + gepanzerte Business-Kleidung und checkt das Gebaeude zuerst aussen.
+      - Hintereingang gelingt ueber Lockpick; Aufzug bleibt ohne Alarm nicht hackbar, daher Treppenaufstieg bis Stock 17.
+      - Wegen starker Tuersicherung wird auf Dach-/Terrassenroute gewechselt; Einstieg ueber offene Balkontuer gelingt unentdeckt.
+      - Schreinraum wird ueber Keypad-Hinweise (2/5/6/0) plus Jahreszahlcode 2065 geoeffnet; Zielobjekt wird entnommen.
+      - Exfil erfolgt alarmfrei; Gitarre geht an den Drop Point.
+      - Nachlauf: Essen bei Mandy's; danach lernen Ely/Lauri im H10, George geht zu Oggy/KITT. Panam-Wohnungstausch wird im ersten Nachlauf erwogen, aber noch verworfen.
+      - Padre bestaetigt Abschluss und zahlt 3k plus 500 Bonus.
+      - Spaeter ruft Wilson Ely wegen "etwas Knusprigem": Angebot einer 2020er Malorian gegen Promotion.
+      - Im Schiessstand trifft Ely unerwartet auf ihren Vater, obwohl sie das Gespraech eigentlich kontrolliert spaeter vorbereiten wollte (u. a. Apple-Pie-Plan).
+    - **2077-07-27 (Lauri-Sicht, Nachlauf bis H10-Evakuierung) [ARBEITSSTAND]**:
+      - Padre-Call wird aus Lauris Sicht klar gerahmt: nur Zielobjekt, keine Zusatzverluste, keine Toten/Verletzten, schnelle diskrete Ausfuehrung.
+      - Das Trio geht als Red/Heat/Riff in den Auftrag; Gebaeuderecon, Hintereingang, Treppenhaus, Dach-/Terrassenroute und Balkon-Einstieg bestaetigen den leisen Pfad.
+      - Schreinraumcode wird ueber Fotojahrzahl (2065) plus Tastenmuster (2/5/6/0) geloest; Exfil und Drop laufen sauber.
+      - Zusatzmarker: Kaufinteresse des Trios an der Gitarre wird via Padre hinterlegt, falls sie jemals verkauft wird.
+      - Nachlauf bei Mandy's (u. a. Poly-/Eifersucht-/Ehrlichkeitsgespraech) und erneute Wohnsicherheitsdebatte mit Panam-Call.
+      - Nach Wilson-Besuch kommt Ely im Schock zurueck; Vaterkontakt + DocWagon-Abtransport setzen akute Alarmlage.
+      - Ely meldet zusaetzlich moegliche Donny-Exponierung; George startet sofortige Donny-Abklaerung.
+      - Bertram-Nachtrag im Schockfenster: Klon-/Projektinfos werden deutlich haerter behauptet (inkl. Lauri-Klonmarker), bleiben aber als ARBEITSSTAND-Einzelsicht gefuehrt.
+      - Sicherheitsfolge: H10 wird noch in derselben Phase vollstaendig geraeumt und gesaeubert; die zuvor verworfene Panam-Option wird im Schockfenster doch aktiviert, Panam uebernimmt den Slot fuer 4 Wochen, Trio verlagert sich voll in Richtung Aldecaldos.
+      - Lauris Endmarker: Esperanza-Schwesterfrage kippt kurz in die moegliche Enrico-Bruderfrage, bleibt ungeklaert und emotional belastet.
