@@ -1030,3 +1030,21 @@ source: lore_db.md
       - Bertram-Nachtrag im Schockfenster: Klon-/Projektinfos werden deutlich haerter behauptet (inkl. Lauri-Klonmarker), bleiben aber als ARBEITSSTAND-Einzelsicht gefuehrt.
       - Sicherheitsfolge: H10 wird noch in derselben Phase vollstaendig geraeumt und gesaeubert; die zuvor verworfene Panam-Option wird im Schockfenster doch aktiviert, Panam uebernimmt den Slot fuer 4 Wochen, Trio verlagert sich voll in Richtung Aldecaldos.
       - Lauris Endmarker: Esperanza-Schwesterfrage kippt kurz in die moegliche Enrico-Bruderfrage, bleibt ungeklaert und emotional belastet.
+      - Im Aldecaldo-Nachlauf folgt ein laengerer Doc-Block: Blutabnahme, erneute Bildkarten-/Testmarker und harte Stabilisierungsgespraeche.
+      - Lauris Zwischenfazit im Schockfenster: Wenn der Klonmarker stimmt, kann Enrico nicht ihr Bruder sein; die Aussage bleibt ARBEITSSTAND und quellengebunden.
+      - Lala setzt direkt danach eine Camp-Grenze: keine ungesicherten Klonclaims nach aussen, erst pruefen, dann sprechen/schreiben; Lauri nimmt den harten Ton als Halt an.
+      - Ely trifft Bertram; das Gespraech kippt in Klon-/Identitaetsfragen und der Herzinfarkt schneidet den Block abrupt ab.
+      - Danach wird die Wohnung an Panam uebergeben, das Trio zieht enger zu den Aldecaldos und der Abend endet am Feuer mit Bier, Doc-Besuch und einem angespannten Mama-Call.
+    - **2077-07-28 (Ely-Sicht, Malorian/Walter/Elias/Vic) [ARBEITSSTAND]**:
+      - Ely testet die von Wilson erhaltene Malorian Arms; der Rueckstoss ist so stark, dass sie sich nur knapp selbst nicht ausknockt.
+      - George bringt erneut Elias als Gespraechsthema ein; das Trio sieht weiterhin keine klare Motivation hinter Elias' Verhalten, erwaegt aber Monaco bzw. einen moeglichen Hinweis von dessen Mutter.
+      - Ely schiesst mit der Malorian, verfehlt und bekommt die Waffe ins Gesicht; Lauri schiesst ebenfalls und kugelt sich den Arm aus.
+      - Ely und Lauri gehen in die City zum Park, rufen Walter an und erleben eine sehr kalte Abwehr; auf die Klon-Erwaehnung folgt Stille, dann legt Walter auf.
+      - Eine verfolgenden Drohne wird abgeschossen; danach entkommt das Trio nach Umweg und Essen ueber Oggy wieder aus dem Druckfeld.
+      - George meldet den Rueckruf seines Vaters und kuendigt ein moegliches Gespraech mit Elias ueber Thomas an; ein Treffen im Golfclub fuer den Folgetag um 14:00 steht im Raum.
+      - Rueckkehr zu den Aldecaldos: Panams Warhorse steht da, Panam scheint einen Job zu haben, und das Trio bekommt den Auftrag, am Freitag einen alten Militech-Hoverpanzer zu klauen.
+      - Anschliessend geht es wegen einer Behandlung fuer Lauri noch einmal zu Vic.
+    - **2077-07-28 (Lauri-Sicht, Campregeln + Malorian-Folge) [ARBEITSSTAND]**:
+      - Der Morgen startet als enger Trio-Entlastungsblock; Lauris Wahrnehmung bleibt roh, aber klarer als in frueheren gedaempften Phasen.
+      - Beim gemeinsamen Malorian-Test reisst der Rueckstoss beim eigenen Schuss Arm/Schulter aus; Ely nimmt die Waffe sofort ab.
+      - Lauri markiert den Schmerz explizit als realen Marker ("Klonen fuehlen Schmerz").
