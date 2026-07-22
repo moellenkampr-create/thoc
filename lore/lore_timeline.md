@@ -1048,3 +1048,10 @@ source: lore_db.md
       - Der Morgen startet als enger Trio-Entlastungsblock; Lauris Wahrnehmung bleibt roh, aber klarer als in frueheren gedaempften Phasen.
       - Beim gemeinsamen Malorian-Test reisst der Rueckstoss beim eigenen Schuss Arm/Schulter aus; Ely nimmt die Waffe sofort ab.
       - Lauri markiert den Schmerz explizit als realen Marker ("Klonen fuehlen Schmerz").
+      - Red bringt Lauri zum Doc; mindestens ein Tag Ruhe ohne Bike wird angeordnet.
+      - Auf dem Weg ruft Vic an und bestaetigt den Klonstatus per DNA-Analyse (Marker vorhanden, aber ohne offiziellen Registertreffer; behandelte Leistungs-/Cyberwaremarker gesetzt).
+      - Walter-Call ueber Wegwerfhandy kippt sofort in Befehls-/Drohlogik; auf Lauris Alterskonter (22 statt 21) bricht Walter den Kontakt abrupt ab.
+      - Nach Drohnencheck und Verfolgung schiesst Ely die Verfolgerdrohne kontrolliert ab; Lauri deaktiviert zusaetzlich ihre SIN, das Trio entzieht sich dem Feld.
+      - Thomas setzt den Terminrahmen fuer den Folgetag: Elias-Treffen um 14:00 im Golfclub.
+      - Aldecaldo-Nachlauf: Panam, Pepe, Lala, Chubby, Scorpion, Mitch und Cassady ziehen das Trio in den Plan, einen ausgemusterten Militech-Hovertank abzufangen; KITT und Lauris Nahkampf sind bereits eingepreist.
+      - Statt Zeltabschluss folgt Rueckfahrt zu Vic, weil Red auf Naniten zur Regeneration/Einsatzfaehigkeit draengt.

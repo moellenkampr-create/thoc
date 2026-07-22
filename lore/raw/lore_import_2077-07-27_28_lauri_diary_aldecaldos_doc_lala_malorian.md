@@ -23,3 +23,20 @@
 - Beim Schuss reisst der Rueckstoss die Waffe nach hinten; beim Festhalten wird Lauris Arm/Schulter ausgerenkt.
 - Ely reagiert sofort und nimmt ihr die Waffe ab.
 - Schmerz wird von Lauri explizit als realer Marker benannt ("Klonen fuehlen Schmerz").
+
+## 2077-07-28 tagsueber/abends
+- Red bringt Lauri zum Doc; klare Anweisung: mindestens ein Tag Ruhe, kein Bike, eher mehr.
+- Auf dem Weg in die Stadt ruft Vic an: DNA-Analyse bestaetigt Klonstatus.
+- Laut Vic: Marker sind auf der DNA sichtbar, aber ohne offizielle Erfassung; Lauri ist behandelt (klueger/schneller/staerker, bessere Cyberware-Vertraeglichkeit als Standardkoerper).
+- Lauri bestaetigt, dass das Trio einen Teil davon bereits wusste.
+- Lauri laedt Vic und Misty fuer den 06.08 abends ins Velvet ein; emotionaler Marker zum "Paps"-Thema.
+- Ely und Lauri rufen Walter mit Wegwerfhandy an; Identifikation laeuft ueber Drohnencheck.
+- Walter reagiert hochaggressiv und widerspruechlich: Rueckkehrbefehl, gleichzeitiges Verlassenverbot, Drohung mit Sicherheitsmassnahmen bei Nichterscheinen zum Termin.
+- Lauri kontert mit Altersmarker ("ich bin 22; 21 muss ein anderer Klon sein"), worauf Walter abrupt abbricht.
+- Ely schiesst die Verfolgerdrohne kontrolliert ab; das Trio entzieht sich dem Feld, Lauri schaltet ihre SIN ab.
+- Nach kurzem Stopp (Mandy's) geht es zu Oggy; Lauri will zum Kampfbot, wird aber zum Essen abgefangen.
+- Thomas ruft das Trio an: Elias will ein Treffen am Folgetag um 14:00 im Golfclub.
+- Rueckkehr zu den Aldecaldos; Panam, Pepe, Lala, Chubby, Scorpion, Mitch und Cassady fangen das Trio ab.
+- Neuer Auftrag: einen ausgemusterten Militech-Hovertank fuer die Aldecaldos abfangen (mit Marker, dass Saul vermutlich dagegen waere).
+- Team bestaetigt Einsatz gemeinsam; KITT und Lauris Nahkampf sind bereits eingeplant, plus Cyberhunde als moegliche Gegenseite.
+- Rueckfahrt zu Vic: Red will Naniten fuer Lauris Regeneration/Einsatzfaehigkeit; Lauri will eigentlich nur ins Zelt.
