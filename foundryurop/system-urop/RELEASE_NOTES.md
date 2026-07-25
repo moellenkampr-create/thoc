@@ -1,5 +1,14 @@
 # URoP Foundry Release Notes
 
+## [0.1.32] - 2026-07-25
+
+### Changed
+- Systemmanifest auf Version `0.1.32` angehoben.
+- Kompatibilitaet auf Foundry VTT **v14 Stable 7 (Build 365)** verifiziert (`compatibility.verified = 14.365`).
+
+### Migration Required
+- no
+
 ## [0.1.30] - 2026-06-03
 
 ### Added

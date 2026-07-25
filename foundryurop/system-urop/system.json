@@ -2,13 +2,13 @@
   "id": "urop",
   "title": "URoP",
   "description": "URoP System fuer Foundry VTT v14 (unterstuetzende Automatisierung)",
-  "version": "0.1.31",
+  "version": "0.1.32",
   "url": "https://github.com/moellenkampr-create/thoc",
   "manifest": "https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/system.json",
   "download": "https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/urop-system.zip",
   "compatibility": {
     "minimum": "14",
-    "verified": "14"
+    "verified": "14.365"
   },
   "authors": [
     {
