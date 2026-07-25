@@ -30,13 +30,13 @@ Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure er
 
 ## Viktor (Vic)
 **Offen (ARBEITSSTAND):**
-Der DNA-Abgleich ist angestossen (Teddy plus Vergleichsanker "Schlange" und Alt-/Neuvergleich). Ergebnis steht noch aus. Kosten und Zeitfenster sind noch nicht sauber bepreist/bestaetigt.
+Der DNA-Abgleich ist im Kern geliefert: Lauri wird als Klon bestaetigt (Marker vorhanden, aber ohne offiziellen Registertreffer; behandelte Leistungs-/Cyberwaremarker). Im Nachlauf bleibt offen, wie tief Vic den Markerpfad noch aufschluesseln kann und welche Folgepraezisierung medizinisch sinnvoll ist. Kosten und Zeitfenster fuer vertiefte Nachlaeufe sind noch nicht sauber bepreist/bestaetigt.
 
 **Naechster Trigger:**
-Vic liefert Erstbefund oder fordert Nachprobe/zweiten Vergleichslauf.
+Vic liefert vertieften Zweitlauf (falls noetig) oder konkrete Nachsorge-/Stabilisierungsempfehlung (u. a. nach Lauris Schulterfolge und Nanitenblock).
 
 **Moegliche Komplikation:**
-Unklare oder widerspruechliche Marker koennen einen zweiten Diagnostikschritt notwendig machen.
+Unklare oder widerspruechliche Markerdetails koennen trotz Erstbefund einen zweiten Diagnostikschritt notwendig machen.
 
 **Angebot/Vormerkung (optional):**
 Wenn Vic zu einem bestimmten Zeitpunkt freie Cyberware-Slots/Teile verfuegbar hat, wird das hier als kurzes Angebot notiert (mit Datum, grober Kostenrichtung und Prioritaet).
@@ -60,6 +60,16 @@ Ely klaert die Dealbedingungen mit Wilson oder lehnt den Angebotspfad ab.
 
 **Moegliche Komplikation:**
 Hohe Sichtbarkeit durch Promo kann mit Sicherheits-/Elterndruck kollidieren; zusaetzlich ist die Waffe an passende Koerper-/Cybervoraussetzungen gebunden.
+
+## Elias / Thomas
+**Angebot aktiv (ARBEITSSTAND):**
+Im Golfclub-Block bietet Elias dem Trio laut Ely-Sicht einen Deal an: Freikauf aus Konzernbindungen plus NUSA-Buergerschaft. Als Gegenleistung will er verwertbare Informationen ueber Walter als Druckmittel gegen Arasaka. Zusaetzlich setzt er als politische Linie, dass sich das Trio nicht von Trump kaufen lassen und nach Moeglichkeit Trumps Team im Rennen ausbremsen soll.
+
+**Naechster Trigger:**
+Rueckmeldung des Trios auf den Dealrahmen (Annahme, Ablehnung oder harte Bedingungen) nach interner Abstimmung.
+
+**Moegliche Komplikation:**
+Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht.
 
 ## Miri (Velvet)
 **Offen (ARBEITSSTAND):**

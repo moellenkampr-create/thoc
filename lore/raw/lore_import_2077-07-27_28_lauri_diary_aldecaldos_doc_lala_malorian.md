@@ -40,3 +40,18 @@
 - Neuer Auftrag: einen ausgemusterten Militech-Hovertank fuer die Aldecaldos abfangen (mit Marker, dass Saul vermutlich dagegen waere).
 - Team bestaetigt Einsatz gemeinsam; KITT und Lauris Nahkampf sind bereits eingeplant, plus Cyberhunde als moegliche Gegenseite.
 - Rueckfahrt zu Vic: Red will Naniten fuer Lauris Regeneration/Einsatzfaehigkeit; Lauri will eigentlich nur ins Zelt.
+
+## 2077-07-28 spaetabends (Lauri-Nachtrag)
+- Waerend der Fahrt draengt Lauri auf einen Warnanruf an Bertram, weil im Walter-Call die Klonfrage offen gefallen ist.
+- Ely erreicht Bertram im Krankenhaus; waehrend der Warnung kippt dessen Stabilitaet kurz und Judith uebernimmt das Gespraech.
+- Judith bleibt ungewoehnlich kontrolliert, akzeptiert den Triorahmen etwas mehr und setzt zugleich einen Rueckhol-/Karrierepfad ueber Biotechnica.
+- Das Rueckholangebot wirkt auf Lauri emotional hart: Statt Beziehungsernst wird vor allem ein Positions-/Karriereangebot gehoert.
+- Kurzabgleich mit George zum Rennen: George beschreibt den Siegimpuls als stark; Lauri rahmt ihren Peak eher ueber Schutz-/Auffangmoment als ueber Platzierung.
+- George vergisst im Nebenlauf das Com sauber zu trennen; hoerbar ist ein weiterer Kampfbot-Test auf hoher Stufe.
+- Bei Misty: Arasaka war wegen Jackie dort; Yorinobu-gegen-Saburo-Erzaehlspur wird erneut bestaetigt.
+- Lauri warnt Misty, sie bei Arasaka-Kontakt nicht zu nennen; Schutz durch Nichtwissen wird explizit markiert.
+- Tarotmarker an der Wand: "Der Koenig" ist bereits fuer den Folgetag gezogen (Golfclub-Tag).
+- Vic untersucht den Arm, setzt Nachsorge und spricht mit Ely ueber Exoskelettoptionen; Boxen wird fuer Lauri vorerst gebremst.
+- Vor Rueckkehr ins Camp werden in Zaras Laden golfclub-taugliche Sachen nachgekauft.
+- KITT zeigt beim Ruecklauf neue variable Tarn-/Farbwirkung bis fast unsichtbar; Campankunft mit Handtuch-/Flirtmarker um George.
+- Nachtabschluss im Trio: kurze Sleep-Inducer-Ruhe, aber insgesamt nur wenig Schlaf.

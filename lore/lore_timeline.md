@@ -1044,6 +1044,10 @@ source: lore_db.md
       - George meldet den Rueckruf seines Vaters und kuendigt ein moegliches Gespraech mit Elias ueber Thomas an; ein Treffen im Golfclub fuer den Folgetag um 14:00 steht im Raum.
       - Rueckkehr zu den Aldecaldos: Panams Warhorse steht da, Panam scheint einen Job zu haben, und das Trio bekommt den Auftrag, am Freitag einen alten Militech-Hoverpanzer zu klauen.
       - Anschliessend geht es wegen einer Behandlung fuer Lauri noch einmal zu Vic.
+      - Ely-/Mutterblock als Nachlieferung: Elys Mutter sendet News zum Arasaka-Vorfall, zeigt starken Biotechnica-Andockwunsch (inkl. Jobangebot fuer Ely/Lauri), waehrend Ely den Konzernpfad ablehnt.
+      - Misty-/Jackie-Nachtrag: Im Misty-Block steht weiter Trauerdruck um Jackie; als Erzaehlspur wird genannt, dass Arasaka nach Jackies Koerper gesucht habe und V Yorinobu als mutmasslichen Saburo-Taeter benannt habe.
+      - Vic-Hinweis im Armblock: Exoskelett wird als moeglicher Stabilisierungspfad fuer Lauri genannt.
+      - Rueckwegmarker: Golfkleidung wird vor dem Golfclub-Termin besorgt; KITT wird mit zusaetzlichen Modi (Tarn, Rennen, Golfclub) beschrieben.
     - **2077-07-28 (Lauri-Sicht, Campregeln + Malorian-Folge) [ARBEITSSTAND]**:
       - Der Morgen startet als enger Trio-Entlastungsblock; Lauris Wahrnehmung bleibt roh, aber klarer als in frueheren gedaempften Phasen.
       - Beim gemeinsamen Malorian-Test reisst der Rueckstoss beim eigenen Schuss Arm/Schulter aus; Ely nimmt die Waffe sofort ab.
@@ -1055,3 +1059,22 @@ source: lore_db.md
       - Thomas setzt den Terminrahmen fuer den Folgetag: Elias-Treffen um 14:00 im Golfclub.
       - Aldecaldo-Nachlauf: Panam, Pepe, Lala, Chubby, Scorpion, Mitch und Cassady ziehen das Trio in den Plan, einen ausgemusterten Militech-Hovertank abzufangen; KITT und Lauris Nahkampf sind bereits eingepreist.
       - Statt Zeltabschluss folgt Rueckfahrt zu Vic, weil Red auf Naniten zur Regeneration/Einsatzfaehigkeit draengt.
+      - Lauri-Nachtrag zur Bertram-Linie: Vor Vic drueckt sie eine Warnung an Bertram wegen der Klon-Erwaehnung; Bertram wird im Krankenhaus erreicht, Judith uebernimmt und setzt kontrollierten Rueckholton.
+      - Judith-/Biotechnica-Ton wirkt aus Lauris Sicht kalt-transaktional: akzeptiert wird eher ein Karriere-/Rollenangebot als Beziehungsernst.
+      - Race-Nachhall im Trio: George und Lauri deuten den Peak unterschiedlich (Siegimpuls vs. Schutz-/Auffangmoment); parallel ist ein weiterer Kampfbot-Block von George auf hoher Stufe als Nebenmarker hoerbar.
+      - Misty-/Tarot-Nachtrag: Arasaka-Jackie-Suche und Yorinobu-Saburo-Erzaehlspur werden erneut gehoert; "Der Koenig" ist fuer den Folgetag bereits gezogen.
+      - Vic bremst Lauris Boxpfad im Akutfenster und versorgt den Arm; Exoskelett-Hinweise laufen an Ely weiter.
+      - Ruecklaufmarker vor Camp: Zara-Besorgungen fuer Golfclub, KITT mit variabler Tarn-/Farbwirkung bis nahezu unsichtbar.
+    - **2077-07-29 (Ely-Sicht, Golfclub-Gespraech mit Elias) [ARBEITSSTAND]**:
+      - Tagesstart mit Trainings-/Campalltag; KITT ist inzwischen als Dreisitzer nutzbar, Rennmodus aktivierbar, Turboboost/Schleudersitz aber weiterhin nicht verfuegbar.
+      - Delamain-Fahrt zum Golfclub; Trump wird beim Verlassen mit Begleiterinnen gesehen und als Fotomarker fuer einen Aldecaldo-Kontakt dokumentiert.
+      - Thomas fuehrt das Trio in ein Hinterzimmer und setzt eine 10-Minuten-Wette (George soll Elias ausreden lassen, dafuer Wunsch-Erfuellung).
+      - Ely-Sicht auf Elias' Kerninteresse im Gespraech: Das Trio soll sich nicht von Trump kaufen lassen und moeglichst Trumps Team im Rennen ausschalten.
+      - Danach kippt der Block in Vater-Sohn-Konflikt und verschiebt sich auf Lauris Konzernproblem.
+      - Elias bietet Freikauf aus Konzernbindungen plus NUSA-Buergerschaft an; als Gegenleistung fordert er verwertbare Informationen ueber Walter gegen Arasaka.
+    - **2077-07-29 (Lauri-Sicht, Morgenblock vor Golfclub) [ARBEITSSTAND]**:
+      - Der Morgen wird als Ely-Morgen gesetzt; George wirkt gleichzeitig erfreut und sichtbar erschoepft (Augenringe).
+      - Lauri setzt intern den Schutzmarker, George vor dem naechsten harten Schritt noch Schlaf zu sichern.
+      - Fruehstuecks-/Campton: suesses Porridge, Honig-Neckerei und sozialer Druckabbau vor dem Termin.
+      - Vorbereitungsblock: Training, Make-up-Hilfe durch Ely und personalisierte Parfuemflakons von George.
+      - Campspott ("Edelnutten") wird von Lauri/Ely als Unterschaetzung gelesen; Lauri setzt einen stillen Gesichts-/Sozialmarker auf die Spottenden.
