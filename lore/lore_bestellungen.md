@@ -69,7 +69,7 @@ Im Golfclub-/Golden-Hint-Block bietet Elias dem Trio laut Ely-Sicht Freikauf aus
 Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
 
 **Moegliche Komplikation:**
-Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich.
+Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich. Neuer Druckhebel seit 29.07-Separee: Elias nutzt ein altes Bandvideo gegen George; Authentizitaet und Kontextgewicht muessen vor operativen Zusagen sauber geklaert werden.
 
 ## Miri (Velvet)
 **Offen (ARBEITSSTAND):**

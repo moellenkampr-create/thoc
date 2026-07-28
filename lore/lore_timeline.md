@@ -1084,3 +1084,11 @@ source: lore_db.md
       - Fruehstuecks-/Campton: suesses Porridge, Honig-Neckerei und sozialer Druckabbau vor dem Termin.
       - Vorbereitungsblock: Training, Make-up-Hilfe durch Ely und personalisierte Parfuemflakons von George.
       - Campspott ("Edelnutten") wird von Lauri/Ely als Unterschaetzung gelesen; Lauri setzt einen stillen Gesichts-/Sozialmarker auf die Spottenden.
+    - **2077-07-29 (Lauri-Sicht, Golfclub-Separee mit Elias) [ARBEITSSTAND]**:
+      - Anfahrt ueber KITT/Parkhaus und Delamain; Trump wird am Eingang mit zwei Begleiterinnen gesehen und fuer den Aldecaldo-Ruecklauf fotografiert.
+      - Im Separee setzt Thomas den 10-Minuten-Rahmen fuer George; Elias wiederholt den "ich liebe George"-Ton, der aus Lauris Sicht zunehmend unglaubwuerdig wirkt.
+      - Ely versucht Sachrahmen zu halten, waehrend George/Lauri emotional mehrfach dazwischengehen.
+      - Elias koppelt Befreiungsangebote aus Konzernrahmen an verwertbare Walter-Infos und bestaetigt Wissen ueber Lauris Klonstatus.
+      - Nach Ablauf der 10 Minuten eskaliert George; Lauri versucht direkte Beruhigung.
+      - Zusatzzug von Elias: Bandvideo aus Georges Vergangenheit als Charakter-/Loyalitaetshebel; George wird sichtbar getroffen.
+      - Lauris Deutung: Elias nutzt Wahrheit oder seine Version davon spaet und strategisch, um George im Trio zu entbloessen und den Rahmen zu destabilisieren.
