@@ -106,5 +106,18 @@ Standard: **INTERPRETATION**
 - danach `band/production_notes.md`
 - fuer Suno-Arbeit zusaetzlich `band/suno_prompting.md` und `band/voice_profiles.md` laden
 
+## 10.2 Suno-Lyrics-Tag-Format (Standard)
+- Abschnitt und Stimme/Delivery immer in getrennten Zeilen taggen
+- Formatbeispiel:
+	- `[Verse]`
+	- `[George]`
+	- `[Chorus]`
+	- `[Lauri]`
+	- `[Final Chorus]`
+	- `[delivered a cappella]`
+	- `[harder delivery]`
+- Keine kombinierten Tags wie `[Verse - George]` oder `[Bridge - George + Lauri]`
+- Fuer bessere Suno-Stabilitaet kurze, klare Tags bevorzugen
+
 ## 11. Versionierung
 Änderungen erfolgen nach musikalischer Prüfung.
