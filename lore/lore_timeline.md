@@ -1072,6 +1072,12 @@ source: lore_db.md
       - Ely-Sicht auf Elias' Kerninteresse im Gespraech: Das Trio soll sich nicht von Trump kaufen lassen und moeglichst Trumps Team im Rennen ausschalten.
       - Danach kippt der Block in Vater-Sohn-Konflikt und verschiebt sich auf Lauris Konzernproblem.
       - Elias bietet Freikauf aus Konzernbindungen plus NUSA-Buergerschaft an; als Gegenleistung fordert er verwertbare Informationen ueber Walter gegen Arasaka.
+      - Nach dem Erstgespraech verlegt das Trio den internen Entscheidungsblock in die Badlands (Separee ohne Elias): Schwert-Coverstory, Elias-Grenzen, Trio-Zielbild.
+      - Zielbild intern: THoC auf kleiner Buehne, Night-City-Buergerschaft und Jobs mit klarem Hilfsnutzen statt neuer Konzernkette.
+      - Verhandlungsskizze an Elias: Rennen gegen Militech ausrichten und dafuer Freikaufmarker ziehen; parallel Wissenspfade zu Maria/Esperanza/Elternwissen.
+      - Ruecklauf ueber Camp/Sunset Motel in den Abendtermin um 20:00 im Golden Hint.
+      - Golden-Hint-Outcome: Elias kann Arasaka-/Biotechnica-Freikauf liefern, koppelt ihn aber an NUSA-SINS; Night-City-Buergerschaft bleibt ungeloest, daher keine Einigung.
+      - Thomas setzt beim Abschluss einen Wettmarker fuer das naechste Rennen; Ely markiert starken Schleim-/Drucknachhall.
     - **2077-07-29 (Lauri-Sicht, Morgenblock vor Golfclub) [ARBEITSSTAND]**:
       - Der Morgen wird als Ely-Morgen gesetzt; George wirkt gleichzeitig erfreut und sichtbar erschoepft (Augenringe).
       - Lauri setzt intern den Schutzmarker, George vor dem naechsten harten Schritt noch Schlaf zu sichern.

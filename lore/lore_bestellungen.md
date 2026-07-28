@@ -63,13 +63,13 @@ Hohe Sichtbarkeit durch Promo kann mit Sicherheits-/Elterndruck kollidieren; zus
 
 ## Elias / Thomas
 **Angebot aktiv (ARBEITSSTAND):**
-Im Golfclub-Block bietet Elias dem Trio laut Ely-Sicht einen Deal an: Freikauf aus Konzernbindungen plus NUSA-Buergerschaft. Als Gegenleistung will er verwertbare Informationen ueber Walter als Druckmittel gegen Arasaka. Zusaetzlich setzt er als politische Linie, dass sich das Trio nicht von Trump kaufen lassen und nach Moeglichkeit Trumps Team im Rennen ausbremsen soll.
+Im Golfclub-/Golden-Hint-Block bietet Elias dem Trio laut Ely-Sicht Freikauf aus Arasaka/Biotechnica an, koppelt den Ausstieg aber an neue NUSA-gebundene SINS. Als Gegenleistung will er verwertbare Informationen ueber Walter als Druckmittel gegen Arasaka. Zusaetzlich setzt er als politische Linie, dass sich das Trio nicht von Trump kaufen lassen und nach Moeglichkeit Trumps Team im Rennen ausbremsen soll.
 
 **Naechster Trigger:**
-Rueckmeldung des Trios auf den Dealrahmen (Annahme, Ablehnung oder harte Bedingungen) nach interner Abstimmung.
+Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
 
 **Moegliche Komplikation:**
-Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht.
+Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich.
 
 ## Miri (Velvet)
 **Offen (ARBEITSSTAND):**
