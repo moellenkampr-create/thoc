@@ -1102,3 +1102,14 @@ source: lore_db.md
       - Kontakt mit Zoltan und den Kindern auf Station; Maria liegt seit etwa drei Stunden im OP.
       - Zoltan-Verdacht: Ex-Kollege/Runner mit schlechtem Ruf wurde moeglicherweise bezahlt, um gezielt auf Maria zu schiessen.
       - Operationsfolge: Das Trio will die Drive-by-Schuetzen aktiv aufgreifen; naechster Anlaufpunkt ist die Stammkneipe des mutmasslichen Schuetzen (Kuba Libre).
+    - **2077-07-29 (Lauri-Sicht, Spaetabend nach Golden Hint) [ARBEITSSTAND]**:
+      - Delamain-Nachlauf im Hochstress: Ely und Lauri setzen wegen Elias-/Bandvideo-Sorge eine Vertrauenswarnung an George (Fake-Bilder-Hinweis).
+      - Der Warnschritt backfired direkt: George ruft fast sofort an, bricht seinen Abend ab und bleibt trotz deutlicher Trunkenheit nicht vor Ort (KITT-Autopilot aktiv).
+      - Lala meldet parallel einen Walter-Zugriff auf die gesicherte Leitung (ohne Volltreffer), kuendigt Kanalwechsel an und zieht 500 Eddies fuer den Cut ab.
+      - Soziale Gegenbewegung im selben Call: Lala will statt Geld eine Jackenstickerei (Aldecaldos-Zeichen plus THoC-Zeichen), was Lauri stark positiv stabilisiert.
+      - Materiallauf ueber Gongyi (Stoff-/Stickbedarf), Walter-Rueckruf bleibt verschoben.
+      - Vic-Check zum Notfall-Tracker wird wiederholt: ohne zusaetzliche Cyberware keine sauber versteckbare Loesung fuer Trennungsfaelle.
+      - Donny liefert Maria-Spur gegen 1000 Eddies: Maria Grimm nach Drive-by im Santo Domingo Krankenhaus; Kontext mit Zoltan Grimm und zwei Kindern wird bestaetigt.
+      - Lauri-Nachhall: kurzer Selbstschuldabsturz, dann aktiver Gegenmarker ("nicht meine Schuld") mit direktem Rueckhalt durch Ely.
+      - George-Call kippt von betrunkenem BD-Freudeton in fokussierte Krankenhaus-Zusage; er soll die Schlange aus Vics Safe mitbringen.
+      - Ely/Lauri fahren unmittelbar ins Krankenhaus und halten den Waffenstatus am Eingang per Bestechung.

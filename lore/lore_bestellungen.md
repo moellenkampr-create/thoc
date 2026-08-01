@@ -96,10 +96,10 @@ Verwaltungs-/Besitzdruck eskaliert oder zieht Folgeauflagen nach sich (Freikauf,
 
 ## Aldecaldos (Lala / Rettungsmarker)
 **Angebot aktiv (ARBEITSSTAND):**
-Lala hat fuer den 03.08 einen klaren Sicherungsrahmen angeboten: Wenn zwischen 10:00 und 12:00 kein Lebenszeichen von Lauri kommt, greifen die Aldecaldos ein. Das ist kein beauftragter Job, aber ein aktiver Rueckhalt-/Interventionskorridor.
+Lala hat fuer den 03.08 einen klaren Sicherungsrahmen angeboten: Wenn zwischen 10:00 und 12:00 kein Lebenszeichen von Lauri kommt, greifen die Aldecaldos ein. Das ist kein beauftragter Job, aber ein aktiver Rueckhalt-/Interventionskorridor. Neuer Nachlauf vom 29.07: Walter hat die gesicherte Leitung bei Lala getroffen (ohne Durchbruch), der Kanal wurde gekappt; 500 Eddies gingen fuer den Cut ab, eine neue Leitung kostet extra. Parallel setzt Lala einen persoenlichen Marker: Statt Geld will sie eine Jackenstickerei (Aldecaldos-Zeichen plus THoC-Zeichen darunter).
 
 **Naechster Trigger:**
-03.08, 10:00-12:00 Kommunikationsfenster.
+03.08, 10:00-12:00 Kommunikationsfenster; davor Aufbau eines frischen gesicherten Kanals und Abstimmung zur Jackenstickerei (Unterstoff/Farbwunsch liegt bereits als Bildreferenz vor).
 
 **Moegliche Komplikation:**
-Bei Funkstille droht harte Eskalation zwischen Rettungsimpuls und Konzernraum, falls der Zugriff ungeplant erfolgt.
+Bei Funkstille droht harte Eskalation zwischen Rettungsimpuls und Konzernraum, falls der Zugriff ungeplant erfolgt. Zusaetzlich bleibt das Kanalrisiko akut, falls der neue Sicherungspfad erneut von Walter getastet wird.
