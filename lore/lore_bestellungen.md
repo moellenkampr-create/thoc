@@ -18,15 +18,15 @@ Kurzlogik:
 
 ## Donny
 **Offen (ARBEITSSTAND):**
-Das Trio wartet auf Donnys naechste belastbare Zwischeninfos zur Maria-Lage. Das ist als laufender Rueckmeldepunkt gesetzt, aber ohne harten Tag. Kosten fuer den Ruecklauf sind aktuell nicht fix eingetragen; falls Donny einen Anteil oder Zusatzbudget will, wird das beim Rueckruf nachgetragen.
+Der Rueckmeldepunkt hat geliefert: Donny meldet am 29.07 eine belastbare Maria-Spur (Santo Domingo Memorial Hospital nach Drive-by-Schussverletzung). Das Trio setzt 1000 Eddies fuer den Suchnachlauf. Dossierlage dazu: Maria und Zoltan Grimm sind ein Paar mit zwei Kindern und Streetfood-Alltag; Zoltan wird als Runner gefuehrt.
 
 Zusaetzlich laufen bei Donny drei neue Identitaeten fuer das Trio. Diese sind bereits bezahlt und fuer Anfang August angepeilt. Wichtig: Wenn das Trio die neuen Identitaeten wirklich integriert, muss das als eigener Schritt explizit beauftragt werden, weil dann die alte Identitaetslinie getrennt eingefroren werden muss. Bis zur Integration bleiben die neuen Identitaeten reine "Papiertiger".
 
 **Naechster Trigger:**
-Rueckmeldung von Donny zur Maria-Lage oder Fertigmeldung der drei Identitaeten (Anfang August). Fuer die Nutzung ist danach ein separater Integrationsauftrag noetig.
+Donny liefert Nachlauf zur Schuetzen-/Auftraggeberlinie im Maria-Fall oder Fertigmeldung der drei Identitaeten (Anfang August). Fuer die Nutzung der Identitaeten ist danach ein separater Integrationsauftrag noetig.
 
 **Moegliche Komplikation:**
-Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis; George klaert den Punkt aktiv, waehrend Lauris Lagebild im Schockfenster deutlich paranoider ist.
+Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet; neuer Akutmarker ist der mutmasslich bezahlte Schuetzenpfad aus dem Krankenhausblock. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis; George klaert den Punkt aktiv, waehrend Lauris Lagebild im Schockfenster deutlich paranoider ist.
 
 ## Viktor (Vic)
 **Offen (ARBEITSSTAND):**
@@ -69,7 +69,7 @@ Im Golfclub-/Golden-Hint-Block bietet Elias dem Trio laut Ely-Sicht Freikauf aus
 Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
 
 **Moegliche Komplikation:**
-Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich. Neuer Druckhebel seit 29.07-Separee: Elias nutzt ein altes Bandvideo gegen George; Authentizitaet und Kontextgewicht muessen vor operativen Zusagen sauber geklaert werden. Lauri nimmt den Rahmen zudem als coercitiv wahr: Eine neue SIN haette Bedingungen; die alte SIN behalten hieße dauerhaften Arasaka-Druck; eine Loeschung ohne Ersatz wuerde das Trio in eine neue SINlose und familienpolitisch prekaere Lage druecken.
+Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich. Neuer Druckhebel seit 29.07-Separee: Elias nutzt ein altes Bandvideo gegen George; Authentizitaet und Kontextgewicht muessen vor operativen Zusagen sauber geklaert werden.
 
 ## Miri (Velvet)
 **Offen (ARBEITSSTAND):**
