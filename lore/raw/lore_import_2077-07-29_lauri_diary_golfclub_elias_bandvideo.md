@@ -15,3 +15,6 @@
 - Videoinhalt laut Szene: fruehere "Freunde" haengen nur wegen Ressourcen/Ausnutzung an George.
 - George ist sichtbar getroffen; Lauri reagiert mit starker Wut und Entwuerdigungswahrnehmung.
 - Lauris Lesart: Elias nutzt die Wahrheit (oder seine Version davon) spaet und strategisch, um George im Trio zu entbloessen/zu destabilisieren.
+- Elias' Rahmen ist nicht nur verlockend, sondern coercitiv: NUSA-/SIN-Variante mit neuer SIN wuerde an Bedingungen binden; alte SIN behalten bedeutet dauerhaften Arasaka-Druck; SINlos ohne Ersatz wuerde George und die Familie in eine neue Grenze druecken.
+- Nach dem Treffen bleibt George emotional instabil und driftet in Selbstschutz-/Gewaltreaktionen; Lauri greift ihn direkt an und zwingt eine kurze Beruhigung.
+- Im Ruecklauf der Nacht zeigt Thomas eine menschlichere Seite: er hat eine Schwäche fuer Wetten und sendet Lauri seine Wettbroker.

@@ -1077,6 +1077,7 @@ source: lore_db.md
       - Verhandlungsskizze an Elias: Rennen gegen Militech ausrichten und dafuer Freikaufmarker ziehen; parallel Wissenspfade zu Maria/Esperanza/Elternwissen.
       - Ruecklauf ueber Camp/Sunset Motel in den Abendtermin um 20:00 im Golden Hint.
       - Golden-Hint-Outcome: Elias kann Arasaka-/Biotechnica-Freikauf liefern, koppelt ihn aber an NUSA-SINS; Night-City-Buergerschaft bleibt ungeloest, daher keine Einigung.
+      - Parallel dazu erreicht das Trio eine neue Maria-Information: Maria wurde am Mittag angeschossen, ist ins Santo Domingo Memorial Hospital gekommen und dort mit schweren Verletzungen operiert worden.
       - Thomas setzt beim Abschluss einen Wettmarker fuer das naechste Rennen; Ely markiert starken Schleim-/Drucknachhall.
     - **2077-07-29 (Lauri-Sicht, Morgenblock vor Golfclub) [ARBEITSSTAND]**:
       - Der Morgen wird als Ely-Morgen gesetzt; George wirkt gleichzeitig erfreut und sichtbar erschoepft (Augenringe).
@@ -1089,6 +1090,9 @@ source: lore_db.md
       - Im Separee setzt Thomas den 10-Minuten-Rahmen fuer George; Elias wiederholt den "ich liebe George"-Ton, der aus Lauris Sicht zunehmend unglaubwuerdig wirkt.
       - Ely versucht Sachrahmen zu halten, waehrend George/Lauri emotional mehrfach dazwischengehen.
       - Elias koppelt Befreiungsangebote aus Konzernrahmen an verwertbare Walter-Infos und bestaetigt Wissen ueber Lauris Klonstatus.
-      - Nach Ablauf der 10 Minuten eskaliert George; Lauri versucht direkte Beruhigung.
+      - Der Dealrahmen erscheint Lauri nicht als freier Ausweg, sondern als coercitive Bindung: NUSA-/SIN-Variante mit neuer SIN haette Bedingungen; alte SIN behalten bedeutet dauerhaften Arasaka-Druck; SINlos ohne Ersatz wuerde George und die Familienlinie in neue Abhaengigkeiten druecken.
+      - Nach Ablauf der 10 Minuten eskaliert George; Lauri versucht direkte Beruhigung und nutzt gleichzeitig ihre eigene physische/romantische Naehe, um ihn wieder ins gemeinsame Feld zu ziehen.
       - Zusatzzug von Elias: Bandvideo aus Georges Vergangenheit als Charakter-/Loyalitaetshebel; George wird sichtbar getroffen.
       - Lauris Deutung: Elias nutzt Wahrheit oder seine Version davon spaet und strategisch, um George im Trio zu entbloessen und den Rahmen zu destabilisieren.
+      - Nach dem Treffen bleibt George emotional instabil und driftet in Selbstschutz-/Gewaltreflexe; Lauri greift ihn direkt an und zwingt eine kurzfristige Beruhigung, bevor das Trio intern die tiefere Frage nach Lebensstil und Bindung klären kann.
+      - Im Ruecklauf der Nacht zeigt Thomas eine menschlichere Seite: Er hat eine Schwäche fuer Wetten und sendet Lauri seine Wettbroker, was den Austausch deutlich entwaffnender macht.

@@ -451,6 +451,7 @@ source: lore_db.md
   - Fruehphase-Ueberwachung ueber billiges Implantat/Telemetrie statt dauerhafter Spotter
   - Maria baut in Santo Domingo einen Streetfood-Stand nahe dem umgefallenen Riesenrad auf
   - lokale Eskalation: bei Schutzgelderpressung wird Maria schwer verletzt; dabei geht die alte Ueberwachungslinie kaputt oder wird deaktiviert
+  - Am 2077-07-29 wird Maria mittags angeschossen und landet im Santo Domingo Memorial Hospital mit schweren Verletzungen; sie wird operiert und damit direkt in einen Schutz-/Containment-Fokus gerueckt
   - Zoltan Grim (Runner, Veteran) zieht Maria und den Stand danach in einen prekaer-stabilen Schutzkorridor
   - Status 2077: Maria lebt mit Zoltan sowie zwei Kindern (aelteres Maedchen, juengerer Junge) und verteidigt ihre neu gewonnene Unabhaengigkeit
   - Reaktivierung in 2077: erneute Suche ueber alte Adresse/soziale Linien; zusaetzlich Rueckschluesse ueber Marias Kontaktketten auf Lauris Bewegungen

@@ -193,6 +193,7 @@ source: lore_db.md
 - Nach wachsender Naehe zu Lauri wurde Maria aus dem direkten Haushaltsradius gedrueckt; es gab Druck und begrenztes Schweigegeld, aber keinen sauberen Schutz.
 - Spaeterer Uebergang nach Santo Domingo (Sandom): kleiner Streetfood-Stand nahe dem umgefallenen Riesenrad.
 - Maria wurde bei einer Schutzgelderpressung schwer verletzt; in diesem Kontext brach/verschwand das alte Ueberwachungsgeraet endgueltig.
+- Am 2077-07-29, mittags, wurde Maria angeschossen und kam ins Santo Domingo Memorial Hospital; sie erlitt schwere Verletzungen und wurde operiert.
 - Maria lebt heute in einem prekaer-stabilen Alltag, ist deutlich haerter geworden und verteidigt ihre Unabhaengigkeit.
 - Kinder:
   - **Isabela "Isa" Navarro** (9, aelteres Maedchen)
