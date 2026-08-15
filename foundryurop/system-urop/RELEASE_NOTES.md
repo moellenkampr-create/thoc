@@ -1,5 +1,16 @@
 # URoP Foundry Release Notes
 
+## [0.1.36] - 2026-08-15
+
+### Changed
+- Fertigkeiten-Seite als tabellarische Liste mit alternierenden Zeilenfarben neu gestaltet.
+- Proben-Button pro Fertigkeit ergänzt: „Probe: Stufe x“ mit 3W6-Auslösung und Chat-Ergebnis.
+- Regelanker werden in der Fertigkeiten-Tabelle lesbar dargestellt und bleiben in konsistenter Reihenfolge sichtbar.
+- Name der Fertigkeit bleibt separat anklickbar, damit das Item direkt geöffnet werden kann.
+
+### Migration Required
+- no
+
 ## [0.1.35] - 2026-08-15
 
 ### Changed
