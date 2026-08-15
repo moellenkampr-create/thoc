@@ -39,12 +39,20 @@
   gap: 8px;
 }
 
+.urop-sheet .sheet-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 0;
+  min-height: 0;
+}
+
 .urop-sheet .sheet-tabs {
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  padding: 8px 12px;
-  border-bottom: 1px solid var(--urop-border);
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 10px;
+  border-left: 1px solid var(--urop-border);
+  background: rgba(17, 21, 29, 0.85);
 }
 
 .urop-sheet .sheet-tabs .item {
@@ -52,7 +60,10 @@
   color: var(--urop-text);
   border: 1px solid var(--urop-border);
   border-radius: 8px;
-  padding: 6px 10px;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.82rem;
 }
 
 .urop-sheet .sheet-tabs .item.active {
@@ -64,7 +75,7 @@
 .urop-sheet .sheet-body {
   padding: 12px;
   overflow: auto;
-  height: calc(100% - 170px);
+  min-height: 0;
 }
 
 .urop-sheet .grid {

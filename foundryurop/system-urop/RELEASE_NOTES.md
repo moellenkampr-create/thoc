@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.34] - 2026-08-15
+
+### Changed
+- Charakterblatt-Tab-Navigation von der oberen Sheet-Zone auf die rechte Seitenleiste verschoben; Header bleibt auf allen Seiten konstant.
+- Layout nach der gewünschten Mockup-Struktur angepasst: schnelle Interaktion im Kopfbereich, Reiter rechts, Inhalte links im Sheet.
+- Textbasierte Boni/Mali-Erweiterung im Charakterblatt ergänzt und kompatibel gehalten.
+
+### Migration Required
+- no
+
 ## [0.1.33] - 2026-08-15
 
 ### Changed
