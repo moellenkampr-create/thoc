@@ -7,10 +7,12 @@ import {
   buildInitiativeValues,
   buildLeadAttributeValues,
   buildResistanceValues,
+  buildSkillRollLabel,
   calculateAttributeCost,
   calculateInitiativeBase,
   calculateSpentEpBreakdown,
   focusModifierForAttribute,
+  formatRuleAnchorLabel,
   resolveLeadAttributeAnchor,
   skillApplicationClassMultiplier,
   roundCommercial
@@ -220,4 +222,21 @@ test("initiative uses the rounded derived lead attribute", () => {
   });
 
   assert.equal(base, 4);
+});
+
+test("skill roll labels include the skill name and level in a compact format", () => {
+  assert.equal(
+    buildSkillRollLabel({ name: "Schleichen", system: { level: 4 } }),
+    "Probe: Stufe 4"
+  );
+  assert.equal(
+    buildSkillRollLabel({ name: "Handel", system: { level: 1 } }),
+    "Probe: Stufe 1"
+  );
+});
+
+test("rule anchors display readable names in the skill table", () => {
+  assert.equal(formatRuleAnchorLabel("koerper"), "Körper");
+  assert.equal(formatRuleAnchorLabel("staerke"), "Stärke");
+  assert.equal(formatRuleAnchorLabel(""), "–");
 });
