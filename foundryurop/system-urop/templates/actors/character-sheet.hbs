@@ -343,14 +343,32 @@
         <div class="list-header">
           <h3>Fertigkeiten</h3>
         </div>
-        <ul class="item-list interactive-list">
-          {{#each itemGroups.skill as |item|}}
-          <li>
-            <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
-            <span class="item-meta">{{item.system.ruleAnchors.[0]}} | {{item.system.ruleAnchors.[1]}} | {{item.system.ruleAnchors.[2]}} | Stufe {{item.system.level}}</span>
-          </li>
-          {{/each}}
-        </ul>
+        <div class="skill-table-wrap">
+          <table class="skill-table">
+            <thead>
+              <tr>
+                <th>Fertigkeit</th>
+                <th>Probe</th>
+                <th>Regelanker</th>
+                <th>Stufe</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each skillRows as |item|}}
+              <tr>
+                <td class="skill-name-cell">
+                  <button type="button" class="item-open skill-name-button" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
+                </td>
+                <td class="skill-probe-cell">
+                  <button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}">{{item.rollLabel}}</button>
+                </td>
+                <td class="skill-rule-anchors-cell">{{item.ruleAnchorsDisplay}}</td>
+                <td class="skill-level-cell">{{item.system.level}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 

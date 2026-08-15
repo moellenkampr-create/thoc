@@ -5,10 +5,12 @@ import {
   buildLeadAttributeValues,
   buildInitiativeValues,
   buildResistanceValues,
+  buildSkillRollLabel,
   calculateAttributeCost,
   calculateInitiativeBase,
   calculateSpentEpBreakdown,
   focusModifierForAttribute,
+  formatRuleAnchorLabel,
   isSkillAnchorMatchingFocus,
   readSkillRuleAnchors,
   resolveLeadAttributeAnchor,
@@ -94,6 +96,11 @@ export class UropCharacterSheet extends ActorSheet {
           return String(a.name || "").localeCompare(String(b.name || ""), "de", { sensitivity: "base" });
         })
     };
+    data.skillRows = data.itemGroups.skill.map((item) => ({
+      ...item,
+      rollLabel: buildSkillRollLabel(item),
+      ruleAnchorsDisplay: this._formatSkillRuleAnchors(item)
+    }));
     data.combatSkills = data.itemGroups.skill.filter((i) => i.system?.applicationClass === "combat");
 
     data.attributeModifiers = attributeModifiers;
@@ -299,6 +306,7 @@ export class UropCharacterSheet extends ActorSheet {
     super.activateListeners(html);
 
     html.find('[data-action="roll-urop"]').on("click", this._onRollUrop.bind(this));
+    html.find('[data-action="roll-skill-probe"]').on("click", this._onRollSkillProbe.bind(this));
     html.find('[data-action="roll-initiative"]').on("click", this._onRollInitiative.bind(this));
     html.find('[data-action="recalc-ep"]').on("click", this._onRecalculateEp.bind(this));
 
@@ -373,6 +381,12 @@ export class UropCharacterSheet extends ActorSheet {
     return anchors;
   }
 
+  _formatSkillRuleAnchors(item) {
+    const anchors = this._readSkillRuleAnchors(item);
+    if (anchors.length === 0) return "–";
+    return anchors.map((anchor) => formatRuleAnchorLabel(anchor)).join(" / ");
+  }
+
   _attributeCost(value) {
     return calculateAttributeCost(value);
   }
@@ -440,6 +454,25 @@ export class UropCharacterSheet extends ActorSheet {
     event.preventDefault();
 
     const label = event.currentTarget.dataset.label || game.i18n.localize("URoP.Roll.Generic");
+    const roll = await new Roll("3d6", {}).evaluate();
+    const outcome = this._getProbeOutcome(roll.total);
+    const extremeClass = roll.total === 3 ? "outcome-extreme-low" : roll.total === 18 ? "outcome-extreme-high" : "";
+
+    await ChatMessage.create({
+      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      content: `<div class="urop-roll-text ${outcome.toneClass} ${extremeClass}"><h3>${label}</h3><p><strong>${outcome.title}</strong> (${roll.total})</p><p>${outcome.text}</p></div>`
+    });
+  }
+
+  async _onRollSkillProbe(event) {
+    event.preventDefault();
+
+    const itemId = event.currentTarget.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    if (!item) return;
+
+    const skillName = item.name || game.i18n.localize("URoP.Skill");
+    const label = `${skillName} · ${buildSkillRollLabel(item)}`;
     const roll = await new Roll("3d6", {}).evaluate();
     const outcome = this._getProbeOutcome(roll.total);
     const extremeClass = roll.total === 3 ? "outcome-extreme-low" : roll.total === 18 ? "outcome-extreme-high" : "";

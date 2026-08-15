@@ -13,6 +13,24 @@ export const ATTRIBUTE_TO_LEAD_ATTRIBUTE = {
   resonanz: "praesenz"
 };
 
+export const RULE_ANCHOR_LABELS = {
+  koerper: "Körper",
+  geist: "Geist",
+  praesenz: "Präsenz",
+  staerke: "Stärke",
+  grobmotorik: "Grobmotorik",
+  feinmotorik: "Feinmotorik",
+  konstitution: "Konstitution",
+  analyse: "Analyse",
+  willenskraft: "Willenskraft",
+  aufmerksamkeit: "Aufmerksamkeit",
+  intuition: "Intuition",
+  ausdruck: "Ausdruck",
+  empathie: "Empathie",
+  dominanz: "Dominanz",
+  resonanz: "Resonanz"
+};
+
 export function toFiniteNumber(value, fallback = 0) {
   const numeric = Number(value);
   return Number.isFinite(numeric) ? numeric : fallback;
@@ -139,6 +157,16 @@ export function readSkillRuleAnchors(item) {
   }
 
   return anchors;
+}
+
+export function formatRuleAnchorLabel(anchorValue) {
+  if (typeof anchorValue !== "string" || anchorValue.trim().length === 0) return "–";
+  return RULE_ANCHOR_LABELS[anchorValue] || anchorValue;
+}
+
+export function buildSkillRollLabel(item) {
+  const level = toFiniteNumber(item?.system?.level ?? item?.system?.rank ?? 0);
+  return `Probe: Stufe ${level}`;
 }
 
 export function resolveLeadAttributeAnchor(anchorValue) {
