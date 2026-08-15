@@ -1,5 +1,14 @@
 # URoP Foundry Release Notes
 
+## [0.1.33] - 2026-08-15
+
+### Changed
+- Boni/Mali als freie Textliste im Actor-Datenmodell ergänzt (`system.modifiersText`), damit kurze Formulierungen wie `Athletics +1` und optionale Erklärungen flexibel gespeichert und im Character Sheet dargestellt werden können.
+- Character Sheet um ein freies Boni/Mali-Textfeld erweitert; bestehende numerische Attribut-Modifikatoren bleiben kompatibel erhalten.
+
+### Migration Required
+- no
+
 ## [0.1.32] - 2026-07-25
 
 ### Changed

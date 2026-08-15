@@ -57,6 +57,7 @@
       "FocusAttributes": "Leitattribute",
       "FocusLock": "Leitattribute sperren",
       "Modifiers": "Boni/Mali",
+      "ModifierText": "Boni/Mali (Text)",
       "FacetDelta": "Wert",
       "Total": "Gesamt",
       "FacetTotal": "Leitattribut",

@@ -77,6 +77,7 @@
       "combat": {
         "boostNotes": ""
       },
+      "modifiersText": "",
       "resources": {
         "epSpent": 0,
         "epTotal": 600,

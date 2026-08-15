@@ -57,6 +57,7 @@
       "FocusAttributes": "Lead Attributes",
       "FocusLock": "Lock Lead Attributes",
       "Modifiers": "Bonuses/Penalties",
+      "ModifierText": "Bonuses/Penalties (text)",
       "FacetDelta": "Value",
       "Total": "Total",
       "FacetTotal": "Lead Attribute",
