@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.35] - 2026-08-15
+
+### Changed
+- Reiter-Buttons auf der rechten Seite als kleine Flaggen-/Anhänger-Buttons neu gestaltet, mit identischer Grundform pro Seite und aktivem Highlight des geöffneten Tabs.
+- Layout entsprechend der gewünschten Mockup-Richtung angepasst: am Charakterblatt hängende Tab-Flags statt flacher Rechteckleiste.
+- Header bleibt über alle Seiten hinweg identisch; aktive Seite wird durch Rahmen/Highlight und höhere Vordergrund-Ebene deutlich markiert.
+
+### Migration Required
+- no
+
 ## [0.1.34] - 2026-08-15
 
 ### Changed
