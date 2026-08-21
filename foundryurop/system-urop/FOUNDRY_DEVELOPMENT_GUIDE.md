@@ -114,6 +114,37 @@ Buttons mit `data-action` brauchen eine passende Registrierung in `activateListe
 
 Compendium-Packs werden im Manifest unter `packs` beschrieben. Bei systemeigenen Actor-, Item- oder Adventure-Packs muss das Pack das zugehoerige `system` angeben. Packnamen sollten kleingeschrieben, eindeutig und ohne Sonderzeichen sein.
 
+### URoP Release-Notes-Pack
+
+URoP verwendet fuer die Release-Dokumentation das Journal-Pack `urop-documentation`. Es wird im Foundry-Compendium-Folder `URoP System` angezeigt.
+
+- Editierbare Quelle: `src/packs/urop-documentation/release_notes_<stable-id>.yml`
+- Ausgeliefertes Pack: `packs/urop-documentation/`
+- Dokumenttyp: `JournalEntry`
+- Pack-Key in Foundry: `urop.urop-documentation`
+- Die Journal- und Page-IDs bleiben stabil, damit spaetere Automatisierung oder Links nicht brechen.
+
+Das Pack wird nicht als einzelne JSON-Datei ausgeliefert. Ab Foundry v11 wird ein Compendium als kompiliertes LevelDB-Verzeichnis gebaut. Fuer die Kompilierung wird `@foundryvtt/foundryvtt-cli` verwendet.
+
+Minimaler Build-Schritt fuer das Journal-Pack:
+
+```powershell
+Set-Location "f:\repos\thoc\foundryurop\system-urop"
+npx --yes @foundryvtt/foundryvtt-cli@3 package pack --type System --id urop --compendiumName urop-documentation --inputDirectory src/packs/urop-documentation --outputDirectory packs --yaml --recursive
+```
+
+Falls sich die CLI-Syntax aendert, ist die installierte CLI-Hilfe und die offizielle Packaging-Dokumentation zu pruefen. Das Quellverzeichnis `src/` wird nicht in das Ruleset-ZIP aufgenommen; das kompilierte Verzeichnis unter `packs/` muss dagegen enthalten sein.
+
+### Release Notes als Journal
+
+Das Journal enthaelt mindestens:
+
+- eine sichtbare Seite mit der aktuellen Changelog-Fassung
+- eine kurze Erklaerung des Versionierungsschemas
+- den vollstaendigen Release-Workflow fuer Tests, Manifest, Pack, ZIP, Commit und Push
+
+Die Markdown-Datei `RELEASE_NOTES.md` bleibt die technische Quelle der Release-Historie. Beim Erstellen einer neuen Ruleset-Version wird ihr Inhalt in die editierbare Journal-Quelle uebertragen und das Pack anschliessend neu kompiliert.
+
 Vor einem Pack-Release pruefen:
 
 - Ist der Packpfad im ZIP enthalten?

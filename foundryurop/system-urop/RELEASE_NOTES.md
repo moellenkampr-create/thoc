@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.38] - 2026-08-21
+
+### Added
+- Erstes systemeigenes Journal-Compendium `URoP Documentation` im Folder `URoP System`.
+- Release Notes, Versionierungsschritte und Pack-Workflow als Foundry-Journal im Compendium dokumentiert.
+- Editierbare Pack-Quelle unter `src/packs/urop-documentation/` und kompilierter v11+/v14-Pack unter `packs/urop-documentation/`.
+
+### Migration Required
+- no
+
 ## [0.1.37] - 2026-08-21
 
 ### Changed

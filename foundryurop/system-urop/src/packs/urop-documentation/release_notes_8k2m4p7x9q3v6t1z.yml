@@ -1,0 +1,73 @@
+name: "Release Notes"
+_id: 8k2m4p7x9q3v6t1z
+_key: '!journal!8k2m4p7x9q3v6t1z'
+folder: null
+flags: {}
+ownership:
+  default: 0
+sort: 0
+categories: []
+pages:
+  - sort: 100000
+    name: Release Note Details
+    type: text
+    _id: 4n6r8t2y5u1i9o3p
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>URoP Release Notes</h1>
+        <p>Dieses Journal dokumentiert die Entwicklung des URoP-Rulesets fuer Foundry VTT.</p>
+        <h2>Versionierung</h2>
+        <p>Ruleset-Versionen folgen einer dreiteiligen Versionsnummer: <strong>MAJOR.MINOR.PATCH</strong>.</p>
+        <ul>
+        <li><strong>MAJOR:</strong> inkompatible Datenmodell- oder API-Aenderungen.</li>
+        <li><strong>MINOR:</strong> neue Funktionen, Dokumenttypen, Packs oder groessere Erweiterungen.</li>
+        <li><strong>PATCH:</strong> Fehlerkorrekturen, Darstellungsverbesserungen und Dokumentationsaenderungen.</li>
+        </ul>
+        <h2>Release-Workflow</h2>
+        <ol>
+        <li>Aenderung in Datenmodell, Sheet, Template, Script, Style, Pack oder Dokumentation umsetzen.</li>
+        <li>Betroffene Tests ergaenzen und mit <code>node --test tests\\urop-calculations.test.mjs</code> ausfuehren.</li>
+        <li>Version in <code>system.json</code> erhoehen.</li>
+        <li><code>RELEASE_NOTES.md</code> und diese Journal-Quelle aktualisieren.</li>
+        <li>Compendium mit der Foundry-CLI neu kompilieren.</li>
+        <li><code>urop-system.zip</code> neu bauen und die Manifest-Version im ZIP pruefen.</li>
+        <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
+        <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
+        </ol>
+        <h2>0.1.38 - 2026-08-21</h2>
+        <h3>Hinzugefuegt</h3>
+        <ul>
+        <li>Erstes systemeigenes Journal-Compendium <strong>URoP Documentation</strong> im Folder <strong>URoP System</strong>.</li>
+        <li>Dokumentation des Pack- und Versionierungs-Workflows.</li>
+        <li>Editierbare Pack-Quelle unter <code>src/packs/urop-documentation/</code>.</li>
+        </ul>
+        <h2>0.1.37 - 2026-08-21</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Lokaler Foundry-Entwicklungsleitfaden fuer Manifest, DataModel, Sheets, Migrationen, Packs und Releases ergaenzt.</li>
+        <li>Offizielle Foundry-Dokumentationsquellen verlinkt.</li>
+        </ul>
+        <h2>0.1.36 - 2026-08-15</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Fertigkeiten-Seite als Tabelle mit alternierenden Zeilenfarben gestaltet.</li>
+        <li>Proben-Button pro Fertigkeit mit 3W6-Ausloesung und Chat-Ergebnis hinzugefuegt.</li>
+        <li>Regelanker in der Fertigkeiten-Tabelle lesbar dargestellt.</li>
+        </ul>
+        <hr>
+        <p><em>Die vollstaendige technische Historie steht zusaetzlich in <code>RELEASE_NOTES.md</code> im Repository.</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!journal.pages!8k2m4p7x9q3v6t1z.4n6r8t2y5u1i9o3p'
