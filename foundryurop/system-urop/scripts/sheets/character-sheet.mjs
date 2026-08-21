@@ -101,6 +101,11 @@ export class UropCharacterSheet extends ActorSheet {
       rollLabel: buildSkillRollLabel(item),
       ruleAnchorsDisplay: this._formatSkillRuleAnchors(item)
     }));
+    data.skillGroups = [
+      { key: "combat", label: "Kampffertigkeiten", rows: data.skillRows.filter((item) => item.system?.applicationClass === "combat") },
+      { key: "action", label: "Aktionsfertigkeiten", rows: data.skillRows.filter((item) => item.system?.applicationClass === "action") },
+      { key: "fluff", label: "Flufffertigkeiten", rows: data.skillRows.filter((item) => item.system?.applicationClass === "fluff") }
+    ];
     data.combatSkills = data.itemGroups.skill.filter((i) => i.system?.applicationClass === "combat");
 
     data.attributeModifiers = attributeModifiers;

@@ -24,6 +24,7 @@
             <input type="number" class="facet-value skill-level-input" name="system.level" value="{{item.system.level}}" readonly/>
             <button type="button" class="stepper-btn" data-action="skill-level-increment">+</button>
             <button type="button" class="lock-btn skill-level-lock" data-action="toggle-skill-level-lock" title="Stufe sperren/entsperren">🔒</button>
+            <input type="number" class="skill-level-display" value="{{item.system.level}}" aria-label="Aktueller Fertigkeitswert" readonly/>
           </div>
           <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SkillType'}}">Fertigkeitsebene</label>
           <select name="system.type">

@@ -1,5 +1,18 @@
 # URoP Foundry Release Notes
 
+## [0.1.40] - 2026-08-21
+
+### Changed
+- Fertigkeiten auf der Fertigkeiten-Seite nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten gruppiert.
+- Kampffertigkeiten, Waffen und Rüstungen auf der Kampfseite in getrennten Fenstern dargestellt.
+- Kampffertigkeiten auf der Kampfseite um kompakte Drei-Würfel-Proben und die Stufe-Spalte ergänzt.
+- Ausrüstungsbereiche auf der Ausrüstungsseite in eigene Fenster aufgeteilt.
+- Manöver-Reiter direkt hinter den Kampf-Reiter verschoben.
+- Fertigkeitsdetail um ein rechtsbündiges Anzeigefeld für den aktuellen Wert ergänzt.
+
+### Migration Required
+- no
+
 ## [0.1.39] - 2026-08-21
 
 ### Changed

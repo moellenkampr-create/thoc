@@ -335,6 +335,77 @@
   background: linear-gradient(180deg, rgba(82, 117, 160, 0.45), rgba(36, 54, 75, 0.76));
 }
 
+.urop-sheet .skill-groups {
+  display: grid;
+  gap: 10px;
+}
+
+.urop-sheet .skill-page-title h3 {
+  margin: 0;
+  color: #b8d8ff;
+}
+
+.urop-sheet .skill-group-header {
+  margin-bottom: 3px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--urop-border);
+}
+
+.urop-sheet .skill-group-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.urop-sheet .combat-skill-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.urop-sheet .combat-skill-table th,
+.urop-sheet .combat-skill-table td {
+  padding: 5px 6px;
+  border-bottom: 1px solid rgba(160, 184, 214, 0.2);
+}
+
+.urop-sheet .combat-skill-table th {
+  color: var(--urop-muted);
+  font-size: 0.72rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.urop-sheet .combat-probe-head,
+.urop-sheet .combat-probe-cell {
+  text-align: center !important;
+}
+
+.urop-sheet .combat-level-head,
+.urop-sheet .combat-level-cell {
+  text-align: right !important;
+}
+
+.urop-sheet .combat-panel-card h3,
+.urop-sheet .equipment-panel-card h3 {
+  margin-bottom: 6px;
+}
+
+.urop-sheet .equipment-grid {
+  align-items: start;
+}
+
+.urop-sheet .skill-level-stepper {
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.urop-sheet .skill-level-display {
+  width: 58px;
+  min-width: 58px;
+  margin-left: auto;
+  text-align: right;
+}
+
 .urop-sheet .list-header {
   display: flex;
   align-items: center;

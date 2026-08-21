@@ -339,36 +339,28 @@
     </div>
 
     <div class="tab" data-group="primary" data-tab="skills">
-      <div class="card">
-        <div class="list-header">
-          <h3>Fertigkeiten</h3>
+      <div class="skill-groups">
+        <div class="skill-page-title"><h3>Fertigkeiten</h3></div>
+        {{#each skillGroups as |group|}}
+        <div class="card skill-group-card">
+          <div class="list-header skill-group-header"><h3>{{group.label}}</h3></div>
+          <div class="skill-table-wrap">
+            <table class="skill-table">
+              <thead><tr><th class="skill-name-head">Fertigkeit</th><th class="skill-probe-head">Probe</th><th class="skill-rule-anchors-head">Regelanker</th><th class="skill-level-head">Stufe</th></tr></thead>
+              <tbody>
+                {{#each group.rows as |item|}}
+                <tr>
+                  <td class="skill-name-cell"><button type="button" class="item-open skill-name-button" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></td>
+                  <td class="skill-probe-cell"><button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}" title="{{item.name}} – {{item.rollLabel}}" aria-label="{{item.name}} – {{item.rollLabel}}">⚄ ⚄ ⚄</button></td>
+                  <td class="skill-rule-anchors-cell">{{item.ruleAnchorsDisplay}}</td>
+                  <td class="skill-level-cell">{{item.system.level}}</td>
+                </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="skill-table-wrap">
-          <table class="skill-table">
-            <thead>
-              <tr>
-                <th class="skill-name-head">Fertigkeit</th>
-                <th class="skill-probe-head">Probe</th>
-                <th class="skill-rule-anchors-head">Regelanker</th>
-                <th class="skill-level-head">Stufe</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{#each skillRows as |item|}}
-              <tr>
-                <td class="skill-name-cell">
-                  <button type="button" class="item-open skill-name-button" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
-                </td>
-                <td class="skill-probe-cell">
-                  <button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}" title="{{item.name}} – {{item.rollLabel}}" aria-label="{{item.name}} – {{item.rollLabel}}">⚄ ⚄ ⚄</button>
-                </td>
-                <td class="skill-rule-anchors-cell">{{item.ruleAnchorsDisplay}}</td>
-                <td class="skill-level-cell">{{item.system.level}}</td>
-              </tr>
-              {{/each}}
-            </tbody>
-          </table>
-        </div>
+        {{/each}}
       </div>
     </div>
 
@@ -399,44 +391,45 @@
           <textarea name="system.combat.boostNotes">{{actor.system.combat.boostNotes}}</textarea>
         </div>
 
-        <div class="card">
-          <h3>Kampfuebersicht</h3>
-          {{#if combatDisplaySettings.showCombatSkills}}
-          <label>Kampffertigkeiten</label>
-          <ul class="item-list interactive-list">
-            {{#each combatSkills as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button>
-              <span class="item-meta">Stufe {{item.system.level}}</span>
-            </li>
-            {{/each}}
-          </ul>
-          {{/if}}
+        {{#if combatDisplaySettings.showCombatSkills}}
+        <div class="card combat-panel-card">
+          <h3>Kampffertigkeiten</h3>
+          <table class="combat-skill-table">
+            <thead><tr><th>Fertigkeit</th><th class="combat-probe-head">Probe</th><th class="combat-level-head">Stufe</th></tr></thead>
+            <tbody>
+              {{#each combatSkills as |item|}}
+              <tr>
+                <td><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></td>
+                <td class="combat-probe-cell"><button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}" title="{{item.name}} – {{item.rollLabel}}" aria-label="{{item.name}} – {{item.rollLabel}}">⚄ ⚄ ⚄</button></td>
+                <td class="combat-level-cell">{{item.system.level}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+        {{/if}}
 
-          {{#if combatDisplaySettings.showWeapons}}
-          <label>Waffen</label>
+        {{#if combatDisplaySettings.showWeapons}}
+        <div class="card combat-panel-card">
+          <h3>Waffen</h3>
           <ul class="item-list interactive-list">
             {{#each itemGroups.weapon as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button>
-              <span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span>
-            </li>
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span></li>
             {{/each}}
           </ul>
-          {{/if}}
+        </div>
+        {{/if}}
 
-          {{#if combatDisplaySettings.showArmor}}
-          <label>Ruestung</label>
+        {{#if combatDisplaySettings.showArmor}}
+        <div class="card combat-panel-card">
+          <h3>Rüstungen</h3>
           <ul class="item-list interactive-list">
             {{#each itemGroups.armor as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button>
-              <span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span>
-            </li>
+            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span></li>
             {{/each}}
           </ul>
-          {{/if}}
         </div>
+        {{/if}}
       </div>
 
       <div class="grid three-col">
@@ -462,76 +455,13 @@
     </div>
 
     <div class="tab" data-group="primary" data-tab="items">
-      <div class="grid two-col">
-        <div class="card">
-          <div class="list-header">
-            <h3>Ausrüstung</h3>
-          </div>
-          <ul class="item-list interactive-list">
-            {{#each itemGroups.gear as |item|}}
-            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
-            {{/each}}
-          </ul>
-
-          <div class="list-header">
-            <h3>Verbrauchsgegenstände</h3>
-          </div>
-          <ul class="item-list interactive-list">
-            {{#each itemGroups.consumable as |item|}}
-            <li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button></li>
-            {{/each}}
-          </ul>
-        </div>
-
-        <div class="card">
-          <div class="list-header">
-            <h3>Waffen</h3>
-          </div>
-          <ul class="item-list interactive-list">
-            {{#each itemGroups.weapon as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
-              <span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span>
-            </li>
-            {{/each}}
-          </ul>
-
-          <div class="list-header">
-            <h3>Rüstung</h3>
-          </div>
-          <ul class="item-list interactive-list">
-            {{#each itemGroups.armor as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
-              <span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span>
-            </li>
-            {{/each}}
-          </ul>
-
-          <div class="list-header">
-            <h3>Cyberware</h3>
-          </div>
-          <ul class="item-list interactive-list">
-            {{#each itemGroups.cyberware as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
-              <span class="item-meta">{{item.system.tier}} | {{item.system.activationType}} | {{#if item.system.hasModSlots}}Mod-Slots{{else}}keine Mod-Slots{{/if}}</span>
-            </li>
-            {{/each}}
-          </ul>
-
-          <div class="list-header">
-            <h3>Quickhacks</h3>
-          </div>
-          <ul class="item-list interactive-list">
-            {{#each itemGroups.quickhack as |item|}}
-            <li>
-              <button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
-              <span class="item-meta">{{item.system.hackClass}} | {{item.system.actionCost}} | {{item.system.usageWindow}}</span>
-            </li>
-            {{/each}}
-          </ul>
-        </div>
+      <div class="grid two-col equipment-grid">
+        <div class="card equipment-panel-card"><h3>Ausrüstung</h3><ul class="item-list interactive-list">{{#each itemGroups.gear as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>{{/each}}</ul></div>
+        <div class="card equipment-panel-card"><h3>Verbrauchsgegenstände</h3><ul class="item-list interactive-list">{{#each itemGroups.consumable as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>{{/each}}</ul></div>
+        <div class="card equipment-panel-card"><h3>Waffen</h3><ul class="item-list interactive-list">{{#each itemGroups.weapon as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span></li>{{/each}}</ul></div>
+        <div class="card equipment-panel-card"><h3>Rüstung</h3><ul class="item-list interactive-list">{{#each itemGroups.armor as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span></li>{{/each}}</ul></div>
+        <div class="card equipment-panel-card"><h3>Cyberware</h3><ul class="item-list interactive-list">{{#each itemGroups.cyberware as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.tier}} | {{item.system.activationType}} | {{#if item.system.hasModSlots}}Mod-Slots{{else}}keine Mod-Slots{{/if}}</span></li>{{/each}}</ul></div>
+        <div class="card equipment-panel-card"><h3>Quickhacks</h3><ul class="item-list interactive-list">{{#each itemGroups.quickhack as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.hackClass}} | {{item.system.actionCost}} | {{item.system.usageWindow}}</span></li>{{/each}}</ul></div>
       </div>
     </div>
 
@@ -655,8 +585,8 @@
     <a class="item" data-tab="attributes">{{localize "URoP.Tab.Attributes"}}</a>
     <a class="item" data-tab="skills">{{localize "URoP.Tab.Skills"}}</a>
     <a class="item" data-tab="combat">{{localize "URoP.Tab.Combat"}}</a>
-    <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
     <a class="item" data-tab="maneuvers">{{localize "URoP.Tab.Maneuvers"}}</a>
+    <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
     <a class="item" data-tab="advanced">{{localize "URoP.Tab.Advanced"}}</a>
     <a class="item" data-tab="settings">{{localize "URoP.Tab.Settings"}}</a>
   </nav>

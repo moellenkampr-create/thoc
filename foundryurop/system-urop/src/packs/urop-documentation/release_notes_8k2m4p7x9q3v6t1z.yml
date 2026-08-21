@@ -40,6 +40,15 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.40 - 2026-08-21</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Fertigkeiten nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten gruppiert.</li>
+        <li>Kampf- und Ausrüstungsbereiche in getrennte Fenster aufgeteilt.</li>
+        <li>Kampffertigkeiten um kompakte Drei-Würfel-Proben und die Stufe-Spalte ergänzt.</li>
+        <li>Manöver-Reiter direkt hinter den Kampf-Reiter verschoben.</li>
+        <li>Fertigkeitsdetail um ein rechtsbündiges Wertfeld ergänzt.</li>
+        </ul>
         <h2>0.1.39 - 2026-08-21</h2>
         <h3>Geaendert</h3>
         <ul>
