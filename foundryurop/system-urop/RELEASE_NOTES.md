@@ -1,5 +1,16 @@
 # URoP Foundry Release Notes
 
+## [0.1.41] - 2026-08-21
+
+### Changed
+- Fertigkeitsdetail-Stepper mit fester Rasterbreite korrigiert; Minus-Button und Wertanzeige bleiben innerhalb des Rahmens.
+- Quickhacks aus der Ausrüstungsseite in einen eigenen Tab `Cyberkampf` verschoben.
+- Cyberkampf-Tabelle um Drei-Würfel-Probenbuttons und die Quickhack-Typanzeige ergänzt.
+- Quickhack-Proben erscheinen im Chat als `Cyberkampfprobe` ohne nicht vorhandene Fertigkeitsstufe.
+
+### Migration Required
+- no
+
 ## [0.1.40] - 2026-08-21
 
 ### Changed

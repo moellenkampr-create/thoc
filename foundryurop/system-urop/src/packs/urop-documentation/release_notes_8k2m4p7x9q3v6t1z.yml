@@ -40,6 +40,13 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.41 - 2026-08-21</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Fertigkeitsdetail-Stepper mit fester Rasterbreite korrigiert.</li>
+        <li>Quickhacks in einen eigenen Tab <strong>Cyberkampf</strong> verschoben.</li>
+        <li>Cyberkampf um Drei-Würfel-Proben und Quickhack-Typanzeige ergänzt.</li>
+        </ul>
         <h2>0.1.40 - 2026-08-21</h2>
         <h3>Geaendert</h3>
         <ul>

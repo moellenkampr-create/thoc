@@ -395,14 +395,17 @@
 }
 
 .urop-sheet .skill-level-stepper {
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 20px 42px 20px 22px 58px;
+  width: 100%;
+  justify-content: stretch;
   gap: 4px;
 }
 
 .urop-sheet .skill-level-display {
   width: 58px;
   min-width: 58px;
-  margin-left: auto;
+  margin-left: 0;
   text-align: right;
 }
 

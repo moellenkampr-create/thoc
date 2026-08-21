@@ -477,7 +477,8 @@ export class UropCharacterSheet extends ActorSheet {
     if (!item) return;
 
     const skillName = item.name || game.i18n.localize("URoP.Skill");
-    const label = `${skillName} · ${buildSkillRollLabel(item)}`;
+    const rollLabel = item.type === "quickhack" ? "Cyberkampfprobe" : buildSkillRollLabel(item);
+    const label = `${skillName} · ${rollLabel}`;
     const roll = await new Roll("3d6", {}).evaluate();
     const outcome = this._getProbeOutcome(roll.total);
     const extremeClass = roll.total === 3 ? "outcome-extreme-low" : roll.total === 18 ? "outcome-extreme-high" : "";

@@ -461,7 +461,26 @@
         <div class="card equipment-panel-card"><h3>Waffen</h3><ul class="item-list interactive-list">{{#each itemGroups.weapon as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.designedForSizeClass}} → {{item.system.effectiveAgainstClass}} | N {{item.system.rangeBands.nah}} / M {{item.system.rangeBands.mittel}} / W {{item.system.rangeBands.weit}} / E {{item.system.rangeBands.extrem}}</span></li>{{/each}}</ul></div>
         <div class="card equipment-panel-card"><h3>Rüstung</h3><ul class="item-list interactive-list">{{#each itemGroups.armor as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.userSizeNominal}} | Schutz {{item.system.protectionValue}}</span></li>{{/each}}</ul></div>
         <div class="card equipment-panel-card"><h3>Cyberware</h3><ul class="item-list interactive-list">{{#each itemGroups.cyberware as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.tier}} | {{item.system.activationType}} | {{#if item.system.hasModSlots}}Mod-Slots{{else}}keine Mod-Slots{{/if}}</span></li>{{/each}}</ul></div>
-        <div class="card equipment-panel-card"><h3>Quickhacks</h3><ul class="item-list interactive-list">{{#each itemGroups.quickhack as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button><span class="item-meta">{{item.system.hackClass}} | {{item.system.actionCost}} | {{item.system.usageWindow}}</span></li>{{/each}}</ul></div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="cybercombat">
+      <div class="grid one-col">
+        <div class="card cybercombat-panel-card">
+          <h3>Cyberkampf</h3>
+          <table class="combat-skill-table cybercombat-table">
+            <thead><tr><th>Quickhack</th><th class="combat-probe-head">Probe</th><th class="combat-level-head">Typ</th></tr></thead>
+            <tbody>
+              {{#each itemGroups.quickhack as |item|}}
+              <tr>
+                <td><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></td>
+                <td class="combat-probe-cell"><button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}" title="{{item.name}} – Probe" aria-label="{{item.name}} – Probe">⚄ ⚄ ⚄</button></td>
+                <td class="combat-level-cell">{{item.system.hackClass}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
@@ -585,6 +604,7 @@
     <a class="item" data-tab="attributes">{{localize "URoP.Tab.Attributes"}}</a>
     <a class="item" data-tab="skills">{{localize "URoP.Tab.Skills"}}</a>
     <a class="item" data-tab="combat">{{localize "URoP.Tab.Combat"}}</a>
+    <a class="item" data-tab="cybercombat">Cyberkampf</a>
     <a class="item" data-tab="maneuvers">{{localize "URoP.Tab.Maneuvers"}}</a>
     <a class="item" data-tab="items">{{localize "URoP.Tab.Items"}}</a>
     <a class="item" data-tab="advanced">{{localize "URoP.Tab.Advanced"}}</a>
