@@ -1,5 +1,14 @@
 # URoP Foundry Release Notes
 
+## [0.1.37] - 2026-08-21
+
+### Changed
+- Ausfuehrlicher lokaler Foundry-Entwicklungsleitfaden fuer Systemstruktur, Manifest, v14-API, DataModels, Sheets, Migrationen, Packs und Release-Pruefung ergaenzt.
+- Entwicklungsleitfaden in das Ruleset-ZIP aufgenommen.
+
+### Migration Required
+- no
+
 ## [0.1.36] - 2026-08-15
 
 ### Changed

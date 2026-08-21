@@ -34,6 +34,8 @@ Der FoundryURoP‑Chat:
 
 ## 3. Arbeitsweise
 - folgt dem Manifest  
+- folgt verbindlich der lokalen technischen Dokumentation in `foundryurop/system-urop/README.md` und `foundryurop/system-urop/FOUNDRY_DEVELOPMENT_GUIDE.md`
+- gleicht technische Entscheidungen bei Bedarf mit der offiziellen Foundry-Dokumentation für die verwendete Hauptversion ab
 - nutzt `TECHNISCHE_ABBILDUNG` und `ARBEITSANNAHME`  
 - markiert neue Mechaniken klar  
 - fragt bei Lore‑Unsicherheit nach  
@@ -101,3 +103,13 @@ Diese Vorgaben sind bei jeder Arbeit am Foundry-Ruleset anzuwenden.
 - Tests immer vor jedem Commit ausfuehren; erst bei gruener Testausfuehrung committen.
 - Testlauf im Arbeitsprotokoll kurz festhalten (Befehl + Ergebnis).
 - Wenn lokal keine Testlaufzeit verfuegbar ist (z. B. Node.js fehlt), als Blocker dokumentieren und vor Commit in einer geeigneten Umgebung nachholen.
+
+---
+
+## 12. Pflege der Foundry-Dokumentationsbasis
+
+- Die offizielle Foundry-Dokumentation unter `https://foundryvtt.com/article/system-development/` und die versionsgebundene API-Dokumentation unter `https://foundryvtt.com/api/v14/` werden etwa alle 2 bis 3 Monate geprüft.
+- Bei einer neuen Foundry-Hauptversion, einem API-Kompatibilitätsproblem oder einem ungewöhnlichen Runtime-Fehler wird die Prüfung sofort vorgezogen.
+- Erkenntnisse, die für URoP relevant sind, werden in `foundryurop/system-urop/FOUNDRY_DEVELOPMENT_GUIDE.md` eingepflegt.
+- Bei jeder Prüfung wird kontrolliert, ob Manifestfelder, DataModel-Regeln, Document-APIs, Sheet-Registrierung, Migrationen oder Packaging-Anweisungen geändert wurden.
+- Wenn dieser Prüfpunkt im Gespräch nicht erwähnt wird und seit der letzten dokumentierten Prüfung ungefähr 3 Monate vergangen sind, soll der Nutzer daran erinnert werden.

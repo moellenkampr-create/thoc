@@ -19,6 +19,13 @@ Dieses Verzeichnis enthaelt ein erstes Foundry VTT Systemgeruest fuer URoP.
 - styles/: Basisdesign
 - lang/: de/en Lokalisierung
 
+## Erweiterte Entwicklungsdokumentation
+
+- [FOUNDRY_DEVELOPMENT_GUIDE.md](FOUNDRY_DEVELOPMENT_GUIDE.md): Foundry-Systemstruktur, Manifest, v10+-Datenmodell, Sheets, Migrationen, Packs, Verteilung und Release-Pruefung
+- Offizielle Systementwicklung: https://foundryvtt.com/article/system-development/
+- Offizielle Foundry-v14-API: https://foundryvtt.com/api/v14/
+- Offizielle DataModel-Dokumentation: https://foundryvtt.com/article/v10-data-model/
+
 ## Aktueller Funktionsumfang
 
 - Charakterblatt mit Tabs (Uebersicht, Attribute, Fertigkeiten, Konsequenzen, Items, Manoever, Notizen, Erweitert)
@@ -67,7 +74,7 @@ node --test tests\urop-calculations.test.mjs
 ```powershell
 Set-Location "f:\repos\thoc\foundryurop\system-urop"
 Remove-Item "urop-system.zip" -ErrorAction SilentlyContinue
-Compress-Archive -Path .gitignore,README.md,lang,packs,scripts,styles,system.json,template.json,templates -DestinationPath urop-system.zip -Force
+Compress-Archive -Path .gitignore,FOUNDRY_DEVELOPMENT_GUIDE.md,README.md,lang,packs,scripts,styles,system.json,template.json,templates -DestinationPath urop-system.zip -Force
 ```
 
 ### Manifest-URL fuer Foundry
