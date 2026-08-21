@@ -40,6 +40,13 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.39 - 2026-08-21</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Fertigkeiten-Tabelle durch kompaktere Zeilen und kleinere Probe-Buttons verdichtet.</li>
+        <li>Probe-Spalte und Drei-Wuerfel-Buttons mittig ausgerichtet; Stufe rechtsbuendig ausgerichtet.</li>
+        <li>Hover-Tipp am Probe-Button zeigt Fertigkeitsname und Probenstufe an.</li>
+        </ul>
         <h2>0.1.38 - 2026-08-21</h2>
         <h3>Hinzugefuegt</h3>
         <ul>

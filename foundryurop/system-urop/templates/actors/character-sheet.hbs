@@ -347,10 +347,10 @@
           <table class="skill-table">
             <thead>
               <tr>
-                <th>Fertigkeit</th>
-                <th>Probe</th>
-                <th>Regelanker</th>
-                <th>Stufe</th>
+                <th class="skill-name-head">Fertigkeit</th>
+                <th class="skill-probe-head">Probe</th>
+                <th class="skill-rule-anchors-head">Regelanker</th>
+                <th class="skill-level-head">Stufe</th>
               </tr>
             </thead>
             <tbody>
@@ -360,7 +360,7 @@
                   <button type="button" class="item-open skill-name-button" data-action="open-item" data-item-id="{{item._id}}" title="{{#if item.system.rulesShort}}{{item.system.rulesShort}}{{else}}{{item.system.description}}{{/if}}">{{item.name}}</button>
                 </td>
                 <td class="skill-probe-cell">
-                  <button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}">{{item.rollLabel}}</button>
+                  <button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}" title="{{item.name}} – {{item.rollLabel}}" aria-label="{{item.name}} – {{item.rollLabel}}">⚄ ⚄ ⚄</button>
                 </td>
                 <td class="skill-rule-anchors-cell">{{item.ruleAnchorsDisplay}}</td>
                 <td class="skill-level-cell">{{item.system.level}}</td>

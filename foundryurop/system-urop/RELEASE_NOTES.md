@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.39] - 2026-08-21
+
+### Changed
+- Fertigkeiten-Tabelle durch kompaktere Zeilen und kleinere Probe-Buttons verdichtet.
+- Probe-Spalte und Drei-Wuerfel-Buttons mittig ausgerichtet; Stufe rechtsbuendig ausgerichtet.
+- Hover-Tipp am Probe-Button zeigt Fertigkeitsname und Probenstufe an.
+
+### Migration Required
+- no
+
 ## [0.1.38] - 2026-08-21
 
 ### Added

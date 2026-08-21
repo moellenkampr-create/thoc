@@ -246,18 +246,28 @@
 
 .urop-sheet .skill-table th,
 .urop-sheet .skill-table td {
-  padding: 8px 10px;
+  padding: 4px 8px;
   border-bottom: 1px solid rgba(160, 184, 214, 0.22);
   vertical-align: middle;
 }
 
 .urop-sheet .skill-table thead th {
   text-align: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
   font-size: 0.72rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--urop-muted);
   background: rgba(19, 28, 35, 0.7);
+}
+
+.urop-sheet .skill-probe-head {
+  text-align: center !important;
+}
+
+.urop-sheet .skill-level-head {
+  text-align: right !important;
 }
 
 .urop-sheet .skill-table tbody tr:nth-child(odd) {
@@ -283,13 +293,12 @@
 
 .urop-sheet .skill-level-cell {
   width: 12%;
-  text-align: center;
+  text-align: right;
   font-weight: 600;
 }
 
 .urop-sheet .skill-name-button,
 .urop-sheet .skill-probe-btn {
-  width: 100%;
   border: 1px solid rgba(130, 162, 198, 0.42);
   border-radius: 6px;
   background: rgba(12, 19, 28, 0.65);
@@ -314,8 +323,14 @@
 }
 
 .urop-sheet .skill-probe-btn {
+  width: 74px;
+  min-width: 74px;
+  margin: 0 auto;
+  padding: 4px 5px;
   text-align: center;
-  min-height: 32px;
+  min-height: 27px;
+  line-height: 1;
+  letter-spacing: 0.03em;
   font-weight: 600;
   background: linear-gradient(180deg, rgba(82, 117, 160, 0.45), rgba(36, 54, 75, 0.76));
 }
