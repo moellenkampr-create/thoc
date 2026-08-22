@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-11_v3",
   "type": "cyberware_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer Cyberware im Cyberpunk-Modul. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer Cyberware im Cyberpunk-Modul. Die Regeltexte in docs/rules/ sind fuehrend.",
   "designNotes": [
     "Cyberware soll den URoP-Kern nicht ersetzen, sondern an ihn andocken.",
     "Cyberware oeffnet vor allem neue Moeglichkeiten, Sinnesmodi, Zugriffskanaele, Schutzlagen und Spezialfenster statt rohe Attributsspruenge als Standard.",

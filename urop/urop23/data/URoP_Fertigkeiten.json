@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-06-11_v3",
   "type": "skill_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer Fertigkeiten. Die MD-Datei ist die Lesefassung und Schemaerklaerung.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer Fertigkeiten. Die Regeltexte in docs/rules/ sind fuehrend.",
   "statusLogic": {
     "GELOCKT": "als gesetzt behandeln, bis ausdrücklich geändert",
     "TESTSTAND": "aktiv genutzter Probestand, noch nicht final",

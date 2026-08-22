@@ -68,6 +68,10 @@ Der FoundryURoP‑Chat:
 ## 7. Konfliktregeln
 - Lore gewinnt bei Weltfragen  
 - Foundry darf technisch abweichen, aber nicht als Kanon  
+- Vorabregelwerk, Regelwerk und Spielerhandbuch sind die führenden Quellen für alle Regelentscheidungen.
+- Bestätigte Regelentscheidungen stehen über der technischen Umsetzung im Foundry-Ruleset.
+- Das Foundry-Ruleset ist eine abgeleitete technische Abbildung und darf keine eigenen Regeln ergänzen oder stillschweigend verändern.
+- Wenn Regelwerk und Foundry-Code widersprechen, wird der Foundry-Code an den bestätigten Regelstand angepasst.
 
 ---
 
@@ -113,3 +117,16 @@ Diese Vorgaben sind bei jeder Arbeit am Foundry-Ruleset anzuwenden.
 - Erkenntnisse, die für URoP relevant sind, werden in `foundryurop/system-urop/FOUNDRY_DEVELOPMENT_GUIDE.md` eingepflegt.
 - Bei jeder Prüfung wird kontrolliert, ob Manifestfelder, DataModel-Regeln, Document-APIs, Sheet-Registrierung, Migrationen oder Packaging-Anweisungen geändert wurden.
 - Wenn dieser Prüfpunkt im Gespräch nicht erwähnt wird und seit der letzten dokumentierten Prüfung ungefähr 3 Monate vergangen sind, soll der Nutzer daran erinnert werden.
+
+---
+
+## 13. Regelwerk vor Foundry-Umsetzung
+
+- Die Regelquellen haben folgende Priorität: Vorabregelwerk, Regelwerk und Spielerhandbuch; danach bestätigte Regelentscheidungen; danach technische Dokumentation; zuletzt die konkrete Foundry-Implementierung.
+- Regelwerk und Spielerhandbuch beantworten, **was** regeltechnisch gilt.
+- `FOUNDRY_DEVELOPMENT_GUIDE.md` beantwortet, **wie** bestätigte Regeln technisch in Foundry abgebildet werden.
+- Das Foundry-Ruleset automatisiert, berechnet, würfelt, zeigt und validiert bestätigte Regeln. Es ist keine eigenständige Regelquelle.
+- Neue Automatisierungen werden erst nach Klärung und Bestätigung der zugrunde liegenden Regel umgesetzt.
+- Nach Abschluss einer Überarbeitung des Vorabregelwerks erfolgt ein eigener Abgleich des gesamten betroffenen Regelbereichs mit dem Ruleset.
+- Dabei werden Datenmodell, Berechnungen, Migrationen, Sheets, Templates, Lokalisierung, Compendium-Packs und Tests gemeinsam geprüft.
+- Abweichungen werden als offene technische oder regelbezogene Punkte dokumentiert und nicht stillschweigend entschieden.

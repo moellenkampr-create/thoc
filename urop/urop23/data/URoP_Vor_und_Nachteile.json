@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-11_v3",
   "type": "trait_list",
-  "authoritativeNote": "Fuehrende Datenquelle fuer URoP-Vor- und Nachteile. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer URoP-Vor- und Nachteile. Die Regeltexte in docs/rules/ sind fuehrend.",
   "fieldSchema": {
     "id": "Stabile interne Kennung",
     "name": "Anzeigename",

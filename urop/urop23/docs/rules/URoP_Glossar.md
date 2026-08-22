@@ -37,8 +37,11 @@ Leitgedanke:
 - Leitattribute beschreiben die gebuendelte Richtung dieser Attribute.
 
 Wertebereich:
+- Menschlicher Startwert ist grundsaetzlich 2.
 - Bei Erschaffung kann kein Attributwert mit 0 oder kleiner gewaehlt werden.
 - Im Spiel kann ein Attribut durch Mali (z. B. Konsequenzen, Ausruestung, Weltzustaende) auf 0 oder darunter fallen.
+- Natuerliche Veraenderungen kosten 30 EP pro veraenderter Stufe; Senkungen schreiben 30 EP pro Stufe gut.
+- Normale Attribute reichen grundsaetzlich bis 6; Vorteile koennen diese Grenze begruendet erweitern.
 
 Aktionsfaehigkeit:
 - Faellt mindestens ein Attribut auf 0 oder darunter, ist der Charakter aktionsunfaehig.
@@ -58,16 +61,29 @@ Beispiel:
 - Hauptattribut Koerper
 - Hauptattribute Koerper und Geist
 
+## 4. Anpassbarkeit
+
+Anpassbarkeit ist ein Sonderattribut jedes Charakters und kein viertes Leitattribut.
+
+- Menschlicher Standardwert: 6.
+- Funktion: Counter fuer nicht natuerliche Veraenderungen an Koerper und Attributen.
+- Typische Quellen: Cyberware, Kraefte, Magie, Talismane und andere Fremdeinwirkungen.
+- Jeder Eingriff sollte eigene Anpassbarkeitskosten fuehren. Diese Kosten sind variabel und koennen kleiner als 1 sein.
+- Verlorene Anpassbarkeit ist dauerhaft verloren.
+- Niedrige Anpassbarkeit erhoeht das Risiko zufaelliger bleibender Folgen.
+- Bei Anpassbarkeit 0 kann der Charakter teilweise oder vollstaendig vom Spielleiter uebernommen werden.
+- Konkrete Folgen, Schwellen, Kontrollverlust und Regeneration nach Ausbau sind noch offen.
+
 ---
 
-## 4. Begriffszuordnung (Alt -> Neu)
+## 5. Begriffszuordnung (Alt -> Neu)
 - Bisherige "Attribute" (Koerper/Geist/Praesenz) -> Leitattribute
 - Bisherige "Facetten" (Staerke etc.) -> Attribute
 - "Hauptattribute" -> Fokusauswahl auf Leitattribut-Ebene
 
 ---
 
-## 5. Abgeleitete Kampf- und Probenwerte
+## 6. Abgeleitete Kampf- und Probenwerte
 Abgeleitete Kampf-/Probenwerte:
 - Koerperwiderstand = gerundetes Leitattribut Koerper + Boni - Mali
 - Geistwiderstand = gerundetes Leitattribut Geist + Boni - Mali
@@ -75,8 +91,8 @@ Abgeleitete Kampf-/Probenwerte:
 - Initiativebasis je Bereich = gerundetes Leitattribut des gewaehlten Bereichs + Boni - Mali
 
 Balance-Hinweis:
-- Attributwerte ueber 6 bleiben als Ausnahme durch Vorteile, Zauber, Kraefte, Cyberware oder Ausruestung erlaubt.
-- Ein harter Deckel ist aktuell bewusst nicht gesetzt und wird ueber Spieltest beobachtet.
+- Normale Attributwerte enden grundsaetzlich bei 6.
+- Eine Erweiterung ueber 6 braucht einen ausdruecklichen Vorteil oder eine vergleichbare Sonderregel.
 
 ---
 

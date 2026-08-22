@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-08_v2",
   "type": "protection_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer Schutz und Ruestung. Die MD-Datei ist die Lesefassung und Schemaerklaerung.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer Schutz und Ruestung. Die Regeltexte in docs/rules/ sind fuehrend.",
   "protectionScale": {
     "0": "praktisch kein echter Schutz",
     "1": "leichter Schutz",

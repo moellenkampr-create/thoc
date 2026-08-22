@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-17_v2",
   "type": "quickhack_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer Quickhacks im Cyberpunk-Modul. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung. Diese v2 fuehrt das schlanke Einsatzprofil fuer den aktiven Referenzbestand mit.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer Quickhacks im Cyberpunk-Modul. Die Regeltexte in docs/rules/ sind fuehrend. Diese v2 fuehrt das schlanke Einsatzprofil fuer den aktiven Referenzbestand mit.",
   "designNotes": [
     "Quickhacks sind keine Magie, sondern digitale Eingriffe mit plausiblen Zugriffspfaden.",
     "Der URoP-Kern bleibt gleich: Leistungswert -> Wurf -> Ergebnis -> Wirkung/Konsequenz.",

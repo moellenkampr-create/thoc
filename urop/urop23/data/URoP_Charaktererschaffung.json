@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "2026-08-22_v1",
+  "type": "character_creation_rules",
+  "authoritativeNote": "Strukturierte technische Ablage des bestaetigten Regelstands. Die Regeltexte in docs/rules/ sind fuehrend.",
+  "sourceDocuments": [
+    "docs/rules/URoP_Vorabregelwerk_v08.md",
+    "docs/rules/URoP_Charaktererschaffung.md",
+    "docs/rules/URoP_Grundregeln.md",
+    "docs/rules/URoP_Glossar.md",
+    "docs/rules/URoP_Spielerhandbuch.md"
+  ],
+  "characterCreation": {
+    "startingBudgetEp": 600,
+    "humanStartingAttributeValue": 2,
+    "otherSpeciesMayOverrideStartingValue": true,
+    "naturalAttributeChangeCostEpPerStep": 30,
+    "attributeReductionGrantsEpPerStep": 30,
+    "attributeReductionShouldHaveDisadvantage": true,
+    "naturalAttributeMaximum": 6,
+    "advantagesMayExtendNaturalMaximum": true,
+    "leadAttributeCosts": 0,
+    "leadAttributesDerivedFromFourAttributes": true
+  },
+  "adaptability": {
+    "humanStartingValue": 6,
+    "isSpecialAttribute": true,
+    "isFourthLeadAttribute": false,
+    "tracksNonNaturalChanges": true,
+    "costsAreVariable": true,
+    "costMayBeLessThanOne": true,
+    "lossIsPermanent": true,
+    "otherSpeciesMayOverrideStartingValue": true,
+    "randomConsequencesAtLowValues": true,
+    "gameMasterControlAtZeroPossible": true,
+    "regenerationAfterRemoval": "open",
+    "controlLossDurationAndThresholds": "open",
+    "consequenceTable": "open"
+  },
+  "changeTypes": {
+    "natural": ["birth", "species", "experience", "training", "accident", "consequence", "special_training"],
+    "nonNatural": ["cyberware", "powers", "magic", "talismans", "other_foreign_interventions"]
+  },
+  "nonNaturalChangeDocumentation": [
+    "difference_from_natural_change",
+    "visible_characteristics",
+    "energy_or_maintenance_requirement",
+    "requirements",
+    "failure_risks",
+    "side_effects",
+    "removal_or_reversal",
+    "adaptability_cost"
+  ]
+}

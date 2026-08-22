@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-09_v1",
   "type": "vehicle_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer die Fahrzeug-Grundarchitektur im Cyberpunk-Modul. JSON ist die fuehrende Datenbasis, MD die erklaerende Lesefassung.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer die Fahrzeug-Grundarchitektur im Cyberpunk-Modul. Die Regeltexte in docs/rules/ sind fuehrend.",
   "designNotes": [
     "Vehicles sollen den URoP-Kern erweitern, nicht durch ein separates Rennspiel ersetzen.",
     "Die gleiche Probe loest auch unter Fahrzeugdruck aus: Leistungswert -> Wurf -> Ergebnis -> Wirkung/Konsequenz.",

@@ -31,7 +31,7 @@ URoP arbeitet im Basiskern mit drei Leitattributen:
 Leitattribute beschreiben Figuren vor allem wertemaeÃŸig und sind zentral fuer Voraussetzungen, Freischaltungen und Einordnung. Direkte Leitattributsproben sind moeglich, aber selten; im Regelfall wirken Leitattribut und Fertigkeit zusammen. Nebenfolgen werden vor allem ueber Risiko, Schaerfe und Zustandsdauer gelesen.
 
 ### 2.2 Attribute unter Leitattributen [TESTSTAND]
-Jedes Leitattribut ist in vier Attribute unterteilt. Diese Attribute sind keine Leitattribute, sondern Stellschrauben fÃ¼r Risiko, Auswirkungen und Zustandsdauer in passenden Situationen. Sie kÃ¶nnen als Vorteil/Nachteil in Stufen 1â€“3 gehalten werden.
+Jedes Leitattribut ist in vier Attribute unterteilt. Diese Attribute sind keine Leitattribute, sondern Stellschrauben fuer Risiko, Auswirkungen und Zustandsdauer in passenden Situationen. Sie werden nicht als permanente Wuerfelmodifikatoren behandelt. In einer passenden Situation koennen sie einen Vorteil oder Nachteil erzeugen, dessen Staerke auf einer dreistufigen Skala beschrieben wird. Diese Stufe beeinflusst die Qualitaet, Sicherheit und Schwere der Folgen einer Probe.
 
 #### KÃ¶rper-Attribute
 - **StÃ¤rke**: rohe Kraft, Hebeln, Tragen, Wucht
@@ -64,12 +64,21 @@ Beispiel Konstitution:
 ### 2.3 Wertebereich [TESTSTAND]
 - aktueller Arbeitsbereich: **0 bis 6**
 - Referenz: **2 = Durchschnitt**
-- Werte ueber 6 sind als Ausnahme durch Vorteile, Zauber, Kraefte, Cyberware oder Ausruestung moeglich.
+- Normale Attribute koennen grundsaetzlich nur bis **6** gesteigert werden.
+- Werte ueber 6 sind nur durch einen ausdruecklichen Vorteil oder eine vergleichbare begruendete Sonderregel moeglich.
 
 ### 2.4 Charakterkosten-Referenz [TESTSTAND]
 - Leitattributkosten entfallen; Leitattribute werden aus Attributen abgeleitet.
-- Attributkosten werden ueber die aktive Kostenregel gefuehrt (separate Kostentabelle).
+- Menschliche Charaktere beginnen grundsaetzlich mit Attributwert 2.
+- Natuerliche Attributveraenderungen kosten linear 30 EP pro veraenderter Stufe.
+- Attributsenkungen schreiben 30 EP pro Stufe gut und sollten mit einem passenden Nachteil begruendet werden.
 - Bei Erschaffung kann kein Attributwert mit 0 oder kleiner gewaehlt werden.
+
+### 2.4.1 Natuerliche und kuenstliche Veraenderungen [TESTSTAND]
+- Natuerliche Veraenderungen entstehen durch Geburt, Erfahrung, Training, Unfall, Konsequenzen oder Sondertraining.
+- Kuenstliche Veraenderungen entstehen durch Cyberware, Kraefte, Magie, Talismane oder andere Fremdeinwirkungen.
+- Bei jeder kuenstlichen Veraenderung sollten die konkreten Unterschiede zur natuerlichen Entwicklung, sichtbare Merkmale, Energie- und Wartungsbedarf, Risiken, Nebenwirkungen, Rueckbau und Anpassbarkeitskosten beschrieben werden.
+- Anpassbarkeit ist ein Sonderattribut mit menschlichem Standardwert 6 und ein Counter fuer nicht natuerliche Veraenderungen.
 
 Rundungsregel fuer Ableitungen und Modifikationen:
 - Kaufmaennische Rundung mit Vorzeichen-Erhalt.

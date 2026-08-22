@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1",
   "type": "items",
-  "authoritativeNote": "Fuehrende Datenquelle fuer allgemeine Ausruestung und Items. Der aktive Endkern bleibt bewusst schlank; Zusatzdetails gehoeren bei Bedarf in den Fliesstext oder in spezialisierte Datenschemata.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer allgemeine Ausruestung und Items. Die Regeltexte in docs/rules/ sind fuehrend; Zusatzdetails gehoeren bei Bedarf in den Fliesstext oder in spezialisierte Datenschemata.",
   "currencyUnit": "EB",
   "currencyAliases": [
     "ebbies",

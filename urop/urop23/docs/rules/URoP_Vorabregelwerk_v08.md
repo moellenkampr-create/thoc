@@ -3,7 +3,7 @@
 Stand: 2026-06-06 Â· Version 08
 
 > **Hinweis:** Diese Fassung ist die aktualisierte Vorabversion fuer den Spielbetrieb.
-> Die JSON-Dateien in `data/` bleiben die fuehrenden Datenquellen.
+> Die Regeltexte in `docs/rules/` sind die fuehrenden Regelquellen. Die JSON-Dateien in `data/` dienen der strukturierten technischen Ablage und muessen mit dem bestaetigten Regelstand uebereinstimmen.
 
 ---
 
@@ -41,7 +41,7 @@ Jedes Leitattribut gliedert sich in vier Attribute. Attribute sind die aktiv ver
 - **Passendes Attribut niedrig (âˆ’2/âˆ’3):** erhÃ¶htes Risiko, schÃ¤rfere Nebenfolge, lÃ¤ngere Zustandsdauer
 - **Neutrales Attribut (0/Â±1):** wenig Einfluss; Standard greift
 
-Attribute werden als Vorteil/Nachteil in Stufen 1â€“3 gehalten.
+Attribute werden nicht als permanente Wuerfelmodifikatoren behandelt. In einer passenden Situation koennen sie einen Vorteil oder Nachteil erzeugen, dessen Staerke auf einer dreistufigen Skala beschrieben wird. Diese Stufe beeinflusst die Qualitaet, Sicherheit und Schwere der Folgen einer Probe.
 
 | Leitattribut | Attribute |
 |----------|---------|
@@ -250,14 +250,25 @@ Wertebereich und Ausfallregel:
 - Bei Erschaffung kann kein Attributwert mit 0 oder kleiner gewaehlt werden.
 - Im Spiel koennen Mali Attribute auf 0 oder darunter druecken.
 - Faellt mindestens ein Attribut auf 0 oder darunter, ist die Figur aktionsunfaehig.
-- Werte ueber 6 sind als Ausnahme durch Vorteile, Zauber, Kraefte, Cyberware oder Ausruestung moeglich.
+- Werte ueber 6 sind bei natuerlicher Steigerung nicht zugaenglich. Sie koennen nur durch einen ausdruecklichen Vorteil oder durch eine kuenstliche Veraenderung wie Zauber, Kraefte, Cyberware oder Ausruestung entstehen.
 
 ### 2.3.1 Attributkosten
 
-Attributkosten werden ueber die aktive Kostentabelle gefuehrt.
+Menschen beginnen bei der Charaktererschaffung grundsaetzlich mit einem Wert von **2** in jedem normalen Attribut. Andere spielbare Spezies oder Herkuenfte koennen abweichende Startwerte und eigene Regeln haben.
+
+Eine natuerliche Attributveraenderung durch Erfahrung, Training oder vergleichbare Entwicklung kostet linear **30 EP pro veraenderter Stufe**. Eine Erhoehung um eine Stufe kostet 30 EP; eine Senkung um eine Stufe schreibt 30 EP gut.
+
+Eine Attributsenkung sollte mit einem passenden Nachteil verbunden sein, damit ihre Ursache sichtbar bleibt. Beispiel: **Schwacher Koerper – Staerke -1** schreibt 30 EP gut. Der Nachteil dokumentiert die Ursache und verhindert, dass eine Senkung nur zur Erzeugung zusaetzlicher EP genutzt wird.
+
+Normale Attribute koennen grundsaetzlich nur bis zum Wert **6** gesteigert werden. Vorteile koennen diese Grenze in begruendeten Faellen erweitern, zum Beispiel indem ein Vorteil die Erhoehung eines bestimmten Attributs oder Leitattributs ueber 6 erlaubt.
+
+Die Ausrichtung kann die Kosten einer natuerlichen Attributveraenderung veraendern. Die konkrete Kostenwirkung der Ausrichtung folgt der jeweils bestaetigten Kostenregel; eine Ausrichtung hebt die grundsaetzliche Linearitaet von 30 EP pro Stufe nicht auf.
 
 Regellogik:
 - Rundung immer kaufmaennisch mit Vorzeichen-Erhalt (.5 wird vom Nullpunkt weg gerundet)
+- Die 30 EP gelten pro einzelner veraenderter Stufe.
+- Gutschriften aus Senkungen werden mit anderen Entwicklungskosten verrechnet.
+- Die Gutschrift ersetzt nicht den erklaerenden Nachteil.
 
 | Lebensphase | Empfohlener Anteil |
 |-------------|-------------------|
@@ -266,6 +277,30 @@ Regellogik:
 | Ausbildung / Formung | 25â€“30 % |
 | FrÃ¼he Erwachsenenerfahrung | 25â€“30 % |
 | Aktuelle Position / Startstatus | 5â€“10 % |
+
+### 2.3.2 Natuerliche und kuenstliche Attributveraenderungen
+
+Natuerliche Veraenderungen entstehen durch Geburt, Spezies, Erfahrung, Training, Unfall, Konsequenzen oder Sondertraining. Kuenstliche Veraenderungen entstehen durch Cyberware, Kraefte, Magie, Talismane oder andere Fremdeinwirkungen auf Koerper und Attribute.
+
+Kuenstliche Veraenderungen sollten jeweils konkret beschreiben, worin sie sich von einer natuerlichen Veraenderung unterscheiden. Zu klaeren sind insbesondere sichtbare koerperliche Merkmale, Energie- oder Wartungsbedarf, Voraussetzungen, Ausfallrisiken, Nebenwirkungen, Rueckbau und Auswirkungen auf die Anpassbarkeit.
+
+Beispiel: Cybermuskeln koennen mehr Kraft ermoeglichen als natuerlich trainierte Muskulatur, benoetigen aber Energie, sind unter der Haut durch andere Strukturen erkennbar und koennen bei Energie- oder Systemausfall anders reagieren als natuerliche Muskeln.
+
+### 2.3.3 Anpassbarkeit
+
+**Anpassbarkeit** ist ein Sonderattribut jedes Charakters. Der menschliche Standardwert betraegt **6**. Andere Spezies oder Herkuenfte koennen einen abweichenden Startwert oder eigene Regeln fuer Anpassbarkeit haben.
+
+Anpassbarkeit ist ein Counter fuer nicht natuerliche Veraenderungen an Koerper und Attributen. Cyberware, Talismane, magische Veraenderungen, Kraefte und vergleichbare Fremdeinwirkungen koennen Anpassbarkeit verbrauchen. Diese Kosten fallen zusaetzlich zu Geldkosten, Ausfallzeit und sonstigen Erwerbs- oder Einsatzkosten an.
+
+Jeder kuenstliche Eingriff sollte ein eigenes Wertefeld fuer seine Anpassbarkeitskosten besitzen. Die Kosten sind variabel und koennen auch kleiner als **1** sein. Der konkrete Wert wird beim jeweiligen Eingriff angegeben und begruendet.
+
+Verlorene Anpassbarkeit ist dauerhaft verloren. Ob und unter welchen Bedingungen ausgebaute oder entfernte Fremdeinwirkungen Anpassbarkeit zurueckgeben koennen, ist noch nicht festgelegt und bleibt offen.
+
+Sinkt die Anpassbarkeit, koennen zufaellige negative Folgen oder Konsequenzen eintreten. Je niedriger die verbleibende Anpassbarkeit ist, desto hoeher ist das Risiko, dass eine Folge bestehen bleibt. Moegliche Beispiele sind Emotionslosigkeit, veraenderte Wahrnehmung oder Illusionen, staendiges Unwohlsein, Phantomschmerzen, zeitweise Systemausfaelle, Phobien oder Kontrollverlust.
+
+Kontrollverlust kann grundsaetzlich bei jeder Anpassbarkeitsstufe eintreten. Bei hoher Anpassbarkeit ist derzeit nur als Arbeitsannahme vorgesehen, dass solche Episoden eher kuerzer oder weniger dauerhaft sein koennen. Die genaue Dauer, Schwelle und Auswirkung des Kontrollverlusts wird spaeter festgelegt.
+
+Bei Anpassbarkeit **0** ist ein Charakter teilweise oder dauerhaft nicht mehr spielbar. Der Spielleiter kann die Kontrolle teilweise oder vollstaendig uebernehmen. Die konkrete Schwelle zwischen teilweiser und vollstaendiger Uebernahme bleibt offen.
 
 ### 2.4 Fertigkeitskosten
 

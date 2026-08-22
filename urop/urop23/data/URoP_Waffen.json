@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.2",
   "type": "urop_weapons",
-  "authoritativeNote": "Fuehrende Datenquelle fuer Waffen in URoP. Die Struktur bleibt spielorientiert und bewusst schlanker als echte Waffenkunde.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer Waffen in URoP. Die Regeltexte in docs/rules/ sind fuehrend; die Struktur bleibt spielorientiert und bewusst schlanker als echte Waffenkunde.",
   "designNote": "Waffen fuehren nur die Felder, die fuer Spielgefuehl, Foundry-Einordnung und spaetere Pflege echten Nutzen haben. Feinere Schnitt-, Stich- oder Schlaglogik bleibt im Beschreibungstext oder Regeltext.",
   "effectScale": {
     "1": "reduzierter Druck",

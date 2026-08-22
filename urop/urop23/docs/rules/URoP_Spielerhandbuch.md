@@ -40,12 +40,23 @@ Jedes Leitattribut hat 4 Attribute. Sie beeinflussen **nicht** den Standard eine
 
 ### Build-Kosten (Kurzreferenz)
 - **Leitattributkosten:** entfallen
-- **Attributkosten:** laut aktiver Kostentabelle
+- **Attributkosten:** 30 EP pro veraenderter Stufe
+
+Menschen beginnen grundsaetzlich mit Attributwert **2**. Eine Erhoehung um eine Stufe kostet 30 EP; eine Senkung um eine Stufe schreibt 30 EP gut. Eine Senkung sollte mit einem passenden Nachteil begruendet werden.
+
+Normale Attribute koennen grundsaetzlich nur bis **6** gesteigert werden. Ein Vorteil kann diese Grenze in begruendeten Faellen erweitern. Andere Spezies oder Herkuenfte koennen abweichende Startwerte und eigene Regeln haben.
 
 Beispiele:
 - Attributwerte <= 0 koennen nicht bei Erschaffung gewaehlt werden.
 - Leitattribute werden aus den vier zugeordneten Attributen als Mittelwert abgeleitet.
 - Gerundet wird erst bei abgeleiteten Werten (z. B. Initiative, Widerstand), kaufmaennisch mit Vorzeichen-Erhalt.
+
+### Anpassbarkeit
+Jeder Charakter besitzt das Sonderattribut **Anpassbarkeit**. Der menschliche Standardwert ist 6. Anpassbarkeit misst, wie viele nicht natuerliche Veraenderungen an Koerper und Attributen ein Charakter vertraegt.
+
+Cyberware, Kraefte, Magie, Talismane und vergleichbare Fremdeinwirkungen koennen Anpassbarkeit verbrauchen. Die jeweiligen Anpassbarkeitskosten sollten neben Geldkosten, Ausfallzeit und sonstigen Kosten angegeben werden; sie sind variabel und koennen kleiner als 1 sein. Verlorene Anpassbarkeit bleibt dauerhaft verloren.
+
+Sinkende Anpassbarkeit kann zufaellige Folgen verursachen. Je niedriger der Wert ist, desto hoeher ist das Risiko bleibender Folgen. Bei Anpassbarkeit 0 kann der Charakter teilweise oder vollstaendig vom Spielleiter uebernommen werden. Die konkreten Folgen, Schwellen, Kontrollverlustregeln und eine moegliche Regeneration nach Ausbau sind noch offen.
 
 ### Aktionsfaehigkeit
 - Faellt mindestens ein Attribut durch Mali auf 0 oder darunter, ist die Figur aktionsunfaehig.

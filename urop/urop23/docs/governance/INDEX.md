@@ -4,6 +4,7 @@ Stand: 2026-05-14
 ## Governance
 - docs/governance/GOVERNANCE.md
 - docs/governance/BACKLOG.md
+- docs/governance/FOUNDRY_ABGLEICH.md
 
 ## Regeln
 - docs/rules/URoP_Grundregeln.md
@@ -15,6 +16,8 @@ Stand: 2026-05-14
 - docs/rules/URoP_Vorabregelwerk_v07.md  ← konsolidierte Lesefassung (ersetzt Archiv v06)
 
 ## Fuehrende Daten
+- Die Regeltexte in `docs/rules/` sind fuehrend. Diese JSON-Dateien sind strukturierte technische Ablagen und muessen mit dem bestaetigten Regelstand uebereinstimmen.
+- data/URoP_Charaktererschaffung.json
 - data/URoP_Fertigkeiten.json
 - data/URoP_Vor_und_Nachteile.json
 - data/URoP_Manoever.json

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-17_v4",
   "type": "maneuver_database",
-  "authoritativeNote": "Fuehrende Datenquelle fuer volle Manoever im schlanken Kern. Lernkosten, Einsatzkosten und Rank-Familien werden getrennt gefuehrt; harte Balancing-Felder bleiben strukturiert, Voraussetzungen und Entwicklungsdetails bleiben bewusst weitgehend lesbar als Text.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer volle Manoever im schlanken Kern. Die Regeltexte in docs/rules/ sind fuehrend; Lernkosten, Einsatzkosten und Rank-Familien werden getrennt gefuehrt.",
   "designNotes": [
     "URoP fuehrt aktuell nur Basisanwendung und volles Manoever; eine eigene Zwischenebene fuer Optionen / Techniken ist vorerst nicht aktiv.",
     "Reaktive Manoever teilen sich eine gemeinsame knappe Reaktionsressource pro eigenem Initiativzyklus.",

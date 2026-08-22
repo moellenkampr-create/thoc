@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026-04-17_v2",
   "type": "state_and_consequence_list",
-  "authoritativeNote": "Fuehrende Datenquelle fuer kurzfristige Zustaende und anhaltende Konsequenzen. JSON ist die fuehrende Datenbasis, MD wird spaeter als Lesefassung abgeleitet.",
+  "authoritativeNote": "Strukturierte technische Ablage fuer kurzfristige Zustaende und anhaltende Konsequenzen. Die Regeltexte in docs/rules/ sind fuehrend.",
   "designNotes": [
     "URoP trennt taktische Zustaende (schnell wechselnd, in der Szene) von Konsequenzen (anhaltend, stufenbasiert).",
     "Beide Listen teilen sich einen Feldkern, nutzen aber unterschiedliche Pflichtfelder fuer Abhandlung und Erholung.",
