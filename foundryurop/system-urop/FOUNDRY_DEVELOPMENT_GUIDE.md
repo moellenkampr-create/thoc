@@ -110,6 +110,19 @@ Beim Hinzufuegen eines Feldes muessen typischerweise alle betroffenen Ebenen gep
 
 Buttons mit `data-action` brauchen eine passende Registrierung in `activateListeners()` und eine Methode in der Sheet-Klasse. Eine sichtbare Schaltflaeche ohne Listener ist keine vollstaendige Funktion.
 
+Die aktuelle Character-Sheet-EP-Berechnung folgt dem bestaetigten Regelstand:
+
+- Jede natuerliche Attributstufe wird relativ zum menschlichen Basiswert 2 mit 30 EP berechnet.
+- Eine Senkung unter 2 erzeugt entsprechend eine negative EP-Position beziehungsweise Gutschrift.
+- Leitattribute sind abgeleitet und haben keine eigenen EP-Kosten.
+- Fertigkeitskosten werden als `learnCostEp pro Stufe * level * applicationClass-Multiplikator` berechnet.
+- Kampffertigkeiten verwenden den Multiplikator 1,25, Aktionsfertigkeiten 1,00 und Flufffertigkeiten 0,50.
+- Manöver verwenden ihre gespeicherten Lernkosten je Rang ohne Anwendungsklassen-Multiplikator.
+- Quickhacks, Cyberware und sonstige Items werden nur dann in die EP-Summe aufgenommen, wenn dafür eine bestätigte Regel und ein eigener Kostenpfad festgelegt ist.
+- Fokus- und alte Boni-/Mali-Modifikatoren werden nicht mehr automatisch auf die EP-Summe angewendet.
+
+Wenn der Regeltext die konkrete Wirkung der Ausrichtung auf Attributkosten festlegt, muss diese Liste zusammen mit dem Berechnungstest aktualisiert werden.
+
 ## 6. Compendium-Packs
 
 Compendium-Packs werden im Manifest unter `packs` beschrieben. Bei systemeigenen Actor-, Item- oder Adventure-Packs muss das Pack das zugehoerige `system` angeben. Packnamen sollten kleingeschrieben, eindeutig und ohne Sonderzeichen sein.

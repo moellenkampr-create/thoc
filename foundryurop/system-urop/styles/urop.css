@@ -394,12 +394,49 @@
   align-items: start;
 }
 
+.urop-sheet .special-attributes-card {
+  margin-bottom: 10px;
+}
+
+.urop-sheet .special-attribute-row {
+  display: grid;
+  grid-template-columns: 1fr 64px;
+  align-items: center;
+  gap: 8px;
+}
+
+.urop-sheet .special-attribute-row input {
+  text-align: right;
+}
+
+.urop-sheet button.create-item-btn {
+  width: 28px;
+  min-width: 28px;
+  max-width: 28px;
+  height: 28px;
+  padding: 0;
+  line-height: 1;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.urop-sheet [data-tab="attributes"] .facet-head,
+.urop-sheet [data-tab="attributes"] .facet-row {
+  grid-template-columns: minmax(72px, 1fr) 86px 58px 22px;
+}
+
 .urop-sheet .skill-level-stepper {
   display: grid;
   grid-template-columns: 22px 38px 22px 22px minmax(58px, 1fr);
   width: 100%;
   min-width: 0;
   justify-content: stretch;
+  gap: 4px;
+}
+
+.urop-sheet .lead-values {
+  display: flex;
+  align-items: center;
   gap: 4px;
 }
 
@@ -416,15 +453,6 @@
   min-width: 38px;
   max-width: 38px;
   box-sizing: border-box;
-}
-
-.urop-sheet .skill-level-display {
-  width: 58px;
-  min-width: 58px;
-  max-width: 58px;
-  justify-self: end;
-  box-sizing: border-box;
-  text-align: right;
 }
 
 .urop-sheet .list-header {
@@ -656,30 +684,6 @@
   line-height: 1.1;
   overflow-wrap: anywhere;
   min-width: 0;
-}
-
-.urop-sheet .modifier-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  width: 104px;
-}
-
-.urop-sheet .lead-modifier-controls {
-  width: auto;
-}
-
-.urop-sheet .modifier-symbol {
-  color: var(--urop-muted);
-  font-size: 0.8rem;
-}
-
-.urop-sheet .modifier-input {
-  width: 30px;
-  min-width: 30px;
-  padding: 4px 3px;
-  text-align: center;
 }
 
 .urop-sheet .lead-attribute-value {

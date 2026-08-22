@@ -40,6 +40,25 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.45 - 2026-08-22</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Alte Boni/Mali-Struktur entfernt und bestehende Legacy-Felder migriert.</li>
+        <li>EP-Berechnung auf 30 EP pro natuerlicher Attributstufe und Fertigkeitskosten pro Stufe umgestellt.</li>
+        <li>Formularstand wird vor Item-Erstellen oder -Loeschen gespeichert.</li>
+        </ul>
+        <h2>0.1.44 - 2026-08-22</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Redundantes hinteres Fertigkeitswertfeld entfernt; der aktuelle Wert bleibt zwischen Minus- und Plus-Button sichtbar.</li>
+        </ul>
+        <h2>0.1.43 - 2026-08-22</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Boni/Mali-Anzeigen aus Uebersicht und Attributseite entfernt.</li>
+        <li>Sonderattribut Anpassbarkeit mit Standardwert 6 ergaenzt.</li>
+        <li>Erstellen und Rechtsklick-Loeschen fuer Fertigkeiten, Cyberkampf, Manoever und Ausruestung ergaenzt.</li>
+        </ul>
         <h2>0.1.41 - 2026-08-21</h2>
         <h3>Geaendert</h3>
         <ul>

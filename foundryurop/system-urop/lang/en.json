@@ -56,8 +56,6 @@
       "Situational": "Situational Mod",
       "FocusAttributes": "Lead Attributes",
       "FocusLock": "Lock Lead Attributes",
-      "Modifiers": "Bonuses/Penalties",
-      "ModifierText": "Bonuses/Penalties (text)",
       "FacetDelta": "Value",
       "Total": "Total",
       "FacetTotal": "Lead Attribute",
@@ -114,7 +112,7 @@
       "InternalNote": "Internal Note"
     },
     "Help": {
-      "EPSpentRecalc": "Recalculates XP spent from attributes, skills (including overcap), and maneuver costs; lead attributes are derived and free.",
+      "EPSpentRecalc": "Recalculates XP spent from natural attribute changes, skill levels, and maneuver costs.",
       "FocusAttributes": "Pick up to two lead attributes. Selecting a third one resets that change.",
       "FacetDelta": "The concrete attribute value within the lead attribute. Each step changes the value directly.",
       "ConsequenceSlots": "These values define how many input boxes for light, heavy, and critical consequences are shown on the Combat tab.",

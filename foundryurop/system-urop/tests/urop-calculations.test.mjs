@@ -11,7 +11,6 @@ import {
   calculateAttributeCost,
   calculateInitiativeBase,
   calculateSpentEpBreakdown,
-  focusModifierForAttribute,
   formatRuleAnchorLabel,
   resolveLeadAttributeAnchor,
   skillApplicationClassMultiplier,
@@ -55,54 +54,35 @@ test("derived lead values round consistently for resistance and initiative", () 
   assert.deepEqual(buildInitiativeValues(derived), { koerper: 2, geist: 3, praesenz: 3 });
 });
 
-test("attribute and lead modifiers are applied to effective lead values", () => {
-  const derived = buildDerivedLeadAttributes(
-    {
-      staerke: 2,
-      grobmotorik: 2,
-      feinmotorik: 2,
-      konstitution: 2,
-      analyse: 2,
-      willenskraft: 2,
-      aufmerksamkeit: 2,
-      intuition: 2,
-      ausdruck: 2,
-      empathie: 2,
-      dominanz: 2,
-      resonanz: 2
-    },
-    {
-      staerke: { bonus: 2, malus: 0 },
-      aufmerksamkeit: { bonus: 0, malus: 1 }
-    }
-  );
-
-  const leadValues = buildLeadAttributeValues(derived, {
-    koerper: { bonus: 1, malus: 0 },
-    geist: { bonus: 0, malus: 1 }
+test("lead attributes use only their four natural attributes", () => {
+  const derived = buildDerivedLeadAttributes({
+    staerke: 3,
+    grobmotorik: 2,
+    feinmotorik: 2,
+    konstitution: 2,
+    analyse: 2,
+    willenskraft: 2,
+    aufmerksamkeit: 2,
+    intuition: 2,
+    ausdruck: 2,
+    empathie: 2,
+    dominanz: 2,
+    resonanz: 2
   });
 
-  assert.equal(derived.koerper, 2.5);
-  assert.equal(derived.geist, 1.75);
-  assert.equal(leadValues.koerper, 3.5);
-  assert.equal(leadValues.geist, 0.75);
-});
-
-test("focus modifiers follow the selected lead attributes", () => {
-  assert.equal(focusModifierForAttribute("staerke", ["koerper"]), -0.2);
-  assert.equal(focusModifierForAttribute("analyse", ["koerper"]), 0.1);
-  assert.equal(focusModifierForAttribute("analyse", ["geist", "praesenz"]), -0.1);
-  assert.equal(focusModifierForAttribute("staerke", ["geist", "praesenz"]), 0.2);
+  assert.equal(derived.koerper, 2.25);
+  assert.equal(derived.geist, 2);
+  assert.equal(derived.praesenz, 2);
 });
 
 test("attribute cost table matches the active progression", () => {
-  assert.equal(calculateAttributeCost(0), -90);
-  assert.equal(calculateAttributeCost(1), -40);
+  assert.equal(calculateAttributeCost(0), -60);
+  assert.equal(calculateAttributeCost(1), -30);
   assert.equal(calculateAttributeCost(2), 0);
-  assert.equal(calculateAttributeCost(3), 40);
-  assert.equal(calculateAttributeCost(4), 90);
-  assert.equal(calculateAttributeCost(6), 260);
-  assert.equal(calculateAttributeCost(8), 460);
+  assert.equal(calculateAttributeCost(3), 30);
+  assert.equal(calculateAttributeCost(4), 60);
+  assert.equal(calculateAttributeCost(6), 120);
+  assert.equal(calculateAttributeCost(8), 180);
 });
 
 test("spent EP breakdown combines attributes, skill items, and maneuvers", () => {
@@ -129,14 +109,13 @@ test("spent EP breakdown combines attributes, skill items, and maneuvers", () =>
         system: { learnCostEp: 4 }
       }
     ],
-    focusLeadAttributes: ["koerper"]
   });
 
-  assert.equal(breakdown.attributes, 120);
+  assert.equal(breakdown.attributes, 90);
   assert.equal(breakdown.skills, 0);
-  assert.equal(breakdown.skillItems, 10);
+  assert.equal(breakdown.skillItems, 20);
   assert.equal(breakdown.maneuverEp, 4);
-  assert.equal(breakdown.total, 134);
+  assert.equal(breakdown.total, 114);
 });
 
 test("spent EP applies application class multipliers to skill items", () => {
@@ -171,10 +150,9 @@ test("spent EP applies application class multipliers to skill items", () => {
         }
       }
     ],
-    focusLeadAttributes: ["koerper"]
   });
 
-  assert.equal(breakdown.skillItems, 55);
+  assert.equal(breakdown.skillItems, 200);
 });
 
 test("application class multipliers resolve to expected factors", () => {
@@ -184,22 +162,15 @@ test("application class multipliers resolve to expected factors", () => {
   assert.equal(skillApplicationClassMultiplier("unknown"), 1);
 });
 
-test("spent EP uses base attribute values, not temporary bonuses or penalties", () => {
+test("spent EP charges 30 per natural attribute step from human baseline 2", () => {
   const attributes = Object.fromEntries(Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).map((key) => [key, 2]));
   attributes.staerke = 3;
 
   const breakdown = calculateSpentEpBreakdown({
     attributes,
-    attributeModifiers: {
-      staerke: { bonus: 3, malus: 0 },
-      konstitution: { bonus: 0, malus: 2 }
-    },
-    leadAttributeModifiers: {
-      koerper: { bonus: 2, malus: 1 }
-    }
   });
 
-  assert.equal(breakdown.attributes, 40);
+  assert.equal(breakdown.attributes, 30);
 });
 
 test("initiative uses the rounded derived lead attribute", () => {

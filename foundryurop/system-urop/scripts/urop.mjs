@@ -24,6 +24,18 @@ async function runSystemMigrations(fromVersion, toVersion) {
       if (!foundry.utils.hasProperty(actor, "system.sizeClass")) {
         actorUpdates["system.sizeClass"] = "G3";
       }
+      if (!foundry.utils.hasProperty(actor, "system.specialAttributes.adaptability")) {
+        actorUpdates["system.specialAttributes.adaptability"] = 6;
+      }
+      if (foundry.utils.hasProperty(actor, "system.attributeModifiers")) {
+        actorUpdates["-=system.attributeModifiers"] = null;
+      }
+      if (foundry.utils.hasProperty(actor, "system.leadAttributeModifiers")) {
+        actorUpdates["-=system.leadAttributeModifiers"] = null;
+      }
+      if (foundry.utils.hasProperty(actor, "system.modifiersText")) {
+        actorUpdates["-=system.modifiersText"] = null;
+      }
       if (!foundry.utils.hasProperty(actor, "system.settings.consequenceSlots.light")) {
         actorUpdates["system.settings.consequenceSlots.light"] = 3;
       }

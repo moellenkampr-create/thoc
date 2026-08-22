@@ -1,5 +1,37 @@
 # URoP Foundry Release Notes
 
+## [0.1.45] - 2026-08-22
+
+### Changed
+- Alte Boni/Mali-Struktur aus Character-Sheet, Datenmodell und aktiver Berechnungslogik entfernt; bestehende Legacy-Felder werden migriert.
+- EP-Berechnung auf 30 EP pro natuerlicher Attributstufe relativ zu Basiswert 2 sowie Fertigkeitskosten pro Stufe umgestellt.
+- Item-Aktionen speichern den aktuellen Actor-Formularstand vor dem Erstellen oder Loeschen eingebetteter Items.
+- Tests fuer Datenmodell, Migration, Item-Aktionen und Formularsicherung ergaenzt.
+
+### Migration Required
+- yes
+- Bestehende Actors erhalten Anpassbarkeit 6, falls das Feld fehlt, und verlieren die alten Boni/Mali-Felder.
+
+## [0.1.44] - 2026-08-22
+
+### Changed
+- Redundantes hinteres Fertigkeitswertfeld aus dem Fertigkeitsdetail entfernt; der aktuelle Wert bleibt im Stepper zwischen Minus- und Plus-Button sichtbar.
+
+### Migration Required
+- no
+
+## [0.1.43] - 2026-08-22
+
+### Changed
+- Boni/Mali-Textfeld aus der Übersicht und sichtbare Boni/Mali-Steuerelemente aus der Attributseite entfernt.
+- Sonderattribut-Box mit Anpassbarkeit und Standardwert 6 ergänzt; bestehende Actors erhalten den Wert per Migration.
+- Direkte Erstellen-Buttons für Fertigkeiten, Cyberkampf, Manöver und alle Ausrüstungsbereiche ergänzt.
+- Rechtsklick auf bestehende Items öffnet eine Löschbestätigung und entfernt das Item direkt aus dem Charakter.
+
+### Migration Required
+- yes
+- Bestehende Charaktere erhalten `system.specialAttributes.adaptability = 6`, sofern das Feld noch fehlt.
+
 ## [0.1.42] - 2026-08-22
 
 ### Changed

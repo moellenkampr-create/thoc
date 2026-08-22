@@ -53,15 +53,7 @@ export function readAttributeBaseValue(attributeValues = {}, attributeKey) {
   return toFiniteNumber(raw);
 }
 
-export function readModifierValue(modifierEntry = {}, key) {
-  return toFiniteNumber(modifierEntry?.[key]);
-}
-
-export function applyModifierPair(value, modifierEntry = {}) {
-  return toFiniteNumber(value) + readModifierValue(modifierEntry, "bonus") - readModifierValue(modifierEntry, "malus");
-}
-
-export function buildDerivedLeadAttributes(attributeValues = {}, attributeModifiers = {}) {
+export function buildDerivedLeadAttributes(attributeValues = {}) {
   const derived = {};
   const groups = getLeadAttributeGroups();
 
@@ -69,8 +61,7 @@ export function buildDerivedLeadAttributes(attributeValues = {}, attributeModifi
     const sum = attributeKeys.reduce(
       (total, attributeKey) => {
         const baseValue = readAttributeBaseValue(attributeValues, attributeKey);
-        const modifiedValue = applyModifierPair(baseValue, attributeModifiers?.[attributeKey]);
-        return total + modifiedValue;
+        return total + baseValue;
       },
       0
     );
@@ -80,11 +71,11 @@ export function buildDerivedLeadAttributes(attributeValues = {}, attributeModifi
   return derived;
 }
 
-export function buildLeadAttributeValues(derivedLeadAttributes = {}, leadAttributeModifiers = {}) {
+export function buildLeadAttributeValues(derivedLeadAttributes = {}) {
   return {
-    koerper: applyModifierPair(toFiniteNumber(derivedLeadAttributes?.koerper), leadAttributeModifiers?.koerper),
-    geist: applyModifierPair(toFiniteNumber(derivedLeadAttributes?.geist), leadAttributeModifiers?.geist),
-    praesenz: applyModifierPair(toFiniteNumber(derivedLeadAttributes?.praesenz), leadAttributeModifiers?.praesenz)
+    koerper: toFiniteNumber(derivedLeadAttributes?.koerper),
+    geist: toFiniteNumber(derivedLeadAttributes?.geist),
+    praesenz: toFiniteNumber(derivedLeadAttributes?.praesenz)
   };
 }
 
@@ -108,38 +99,6 @@ export function buildInitiativeValues(derivedLeadAttributes = {}) {
     geist: roundCommercial(toFiniteNumber(derivedLeadAttributes?.geist)),
     praesenz: roundCommercial(toFiniteNumber(derivedLeadAttributes?.praesenz))
   };
-}
-
-export function focusModifierForAttribute(attributeKey, focusLeadAttributes = []) {
-  const leadAttributeKey = ATTRIBUTE_TO_LEAD_ATTRIBUTE[attributeKey];
-  const focus = Array.from(focusLeadAttributes || []);
-
-  if (focus.length === 1) {
-    return focus.includes(leadAttributeKey) ? -0.2 : 0.1;
-  }
-
-  if (focus.length === 2) {
-    return focus.includes(leadAttributeKey) ? -0.1 : 0.2;
-  }
-
-  return 0;
-}
-
-export function applyFocusModifier(cost, modifier) {
-  const result = Number(cost || 0) * (1 + Number(modifier || 0));
-  return roundCommercial(result);
-}
-
-export function isSkillAnchorMatchingFocus(anchorValue, focusLeadAttributes = []) {
-  if (!anchorValue) return false;
-
-  const focus = Array.from(focusLeadAttributes || []);
-  if (focus.length === 0) return false;
-
-  if (focus.includes(anchorValue)) return true;
-
-  const mappedAttribute = ATTRIBUTE_TO_LEAD_ATTRIBUTE[anchorValue];
-  return Boolean(mappedAttribute && focus.includes(mappedAttribute));
 }
 
 export function readSkillRuleAnchors(item) {
@@ -188,56 +147,7 @@ export function resolveSkillPrimaryAttribute(item) {
 }
 
 export function calculateAttributeCost(value) {
-  const rawNumeric = Number(value || 0);
-  const numeric = Math.max(0, rawNumeric);
-
-  if (numeric === 2) return 0;
-  if (numeric === 1) return -40;
-  if (numeric === 0) return -90;
-
-  const table = {
-    3: 40,
-    4: 90,
-    5: 160,
-    6: 260
-  };
-
-  if (table[numeric] !== undefined) return table[numeric];
-  if (numeric > 6) return table[6] + (numeric - 6) * 100;
-
-  return 0;
-}
-
-export function skillFocusModifier(item, focusLeadAttributes = []) {
-  const focus = Array.from(focusLeadAttributes || []);
-  if (focus.length === 0) return 0;
-
-  const anchors = readSkillRuleAnchors(item);
-  const hasMatchingAnchor = anchors.some((anchor) => isSkillAnchorMatchingFocus(anchor, focus));
-
-  if (focus.length === 1) {
-    return hasMatchingAnchor ? -0.2 : 0.1;
-  }
-
-  if (focus.length === 2) {
-    return hasMatchingAnchor ? -0.1 : 0.2;
-  }
-
-  return 0;
-}
-
-export function skillOverhangCost(item, derivedLeadAttributes = {}) {
-  const level = toFiniteNumber(item?.system?.level ?? item?.system?.rank ?? 0);
-  const attrKey = resolveSkillPrimaryAttribute(item);
-  if (!attrKey) return 0;
-
-  const attrValue = toFiniteNumber(derivedLeadAttributes?.[attrKey] || 0);
-  const overhang = level - attrValue;
-
-  if (overhang <= 0) return 0;
-  if (overhang === 1) return 30;
-
-  return 90;
+  return (toFiniteNumber(value) - 2) * 30;
 }
 
 export function skillApplicationClassMultiplier(applicationClass) {
@@ -254,30 +164,22 @@ export function skillApplicationClassMultiplier(applicationClass) {
 
 export function calculateSpentEpBreakdown({
   attributes = {},
-  attributeModifiers = {},
-  leadAttributeModifiers = {},
   skillItems = [],
   maneuverItems = [],
-  focusLeadAttributes = [],
   readLearnCostEp = (item) => toFiniteNumber(item?.system?.learnCostEp ?? 0)
 } = {}) {
   const attributeTotal = Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).reduce((sum, attrKey) => {
     const baseValue = readAttributeBaseValue(attributes, attrKey);
     const baseCost = calculateAttributeCost(baseValue);
-    const modifier = focusModifierForAttribute(attrKey, focusLeadAttributes);
-    return sum + applyFocusModifier(baseCost, modifier);
+    return sum + baseCost;
   }, 0);
-
-  const derivedLeadAttributes = buildDerivedLeadAttributes(attributes, attributeModifiers);
-  const leadAttributeValues = buildLeadAttributeValues(derivedLeadAttributes, leadAttributeModifiers);
-
-  const skillTotal = 0;
 
   const skillItemTotal = skillItems.reduce((sum, item) => {
     const baseCost = readLearnCostEp(item);
+    const level = Math.max(0, toFiniteNumber(item?.system?.level ?? item?.system?.rank ?? 1));
     const applicationClass = item?.system?.applicationClass;
     const multiplier = skillApplicationClassMultiplier(applicationClass);
-    const adjustedCost = roundCommercial(toFiniteNumber(baseCost) * multiplier);
+    const adjustedCost = roundCommercial(toFiniteNumber(baseCost) * level * multiplier);
     return sum + adjustedCost;
   }, 0);
 
@@ -285,21 +187,19 @@ export function calculateSpentEpBreakdown({
 
   return {
     attributes: attributeTotal,
-    skills: skillTotal,
+    skills: 0,
     skillItems: skillItemTotal,
     maneuverEp,
-    total: Math.max(0, toFiniteNumber(attributeTotal + skillTotal + skillItemTotal + maneuverEp))
+    total: Math.max(0, toFiniteNumber(attributeTotal + skillItemTotal + maneuverEp))
   };
 }
 
 export function calculateInitiativeBase({
   initiative = {},
-  attributeValues = {},
-  attributeModifiers = {},
-  leadAttributeModifiers = {}
+  attributeValues = {}
 } = {}) {
-  const derivedLeadAttributes = buildDerivedLeadAttributes(attributeValues, attributeModifiers);
-  const leadAttributeValues = buildLeadAttributeValues(derivedLeadAttributes, leadAttributeModifiers);
+  const derivedLeadAttributes = buildDerivedLeadAttributes(attributeValues);
+  const leadAttributeValues = buildLeadAttributeValues(derivedLeadAttributes);
   const leadAttributeKey = initiative.leadAttribute;
   return Number(initiative.baseMod || 0) + roundCommercial(toFiniteNumber(leadAttributeValues?.[leadAttributeKey] || 0));
 }

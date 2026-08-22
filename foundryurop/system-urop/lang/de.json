@@ -56,8 +56,6 @@
       "Situational": "Situationsmod",
       "FocusAttributes": "Leitattribute",
       "FocusLock": "Leitattribute sperren",
-      "Modifiers": "Boni/Mali",
-      "ModifierText": "Boni/Mali (Text)",
       "FacetDelta": "Wert",
       "Total": "Gesamt",
       "FacetTotal": "Leitattribut",
@@ -114,7 +112,7 @@
       "InternalNote": "Interne Notiz"
     },
     "Help": {
-      "EPSpentRecalc": "Berechnet EP ausgegeben neu aus Attributen, Fertigkeits-Items und Manöverkosten; Leitattribute sind abgeleitet und kostenfrei. Für Lernkosten werden keine Fokus- oder Überhangaufschläge genutzt.",
+      "EPSpentRecalc": "Berechnet EP ausgegeben aus natürlichen Attributsteigerungen, Fertigkeitsstufen und Manöverkosten.",
       "FocusAttributes": "Wähle bis zu zwei Leitattribute. Bei drei Auswahlen wird die Änderung zurückgesetzt.",
       "FacetDelta": "Konkreter Attributwert innerhalb des Leitattributs. Jede Stufe verändert den Wert direkt.",
       "ConsequenceSlots": "Die Anzahl bestimmt, wie viele Eingabefelder für leichte, schwere und kritische Konsequenzen auf der Kampfseite angezeigt werden.",
