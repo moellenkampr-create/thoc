@@ -13,21 +13,24 @@
   <div class="sheet-layout">
     <section class="sheet-body">
     <div class="tab" data-group="primary" data-tab="overview">
-              <div class="lead-values"><input type="number" class="lead-derived-value" value="{{leadAttributeDerived.koerper}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/><input type="number" class="lead-attribute-value" value="{{leadAttributeValues.koerper}}" readonly/></div>
+      <div class="grid two-col">
+        <div class="card">
+          <h3>{{localize "URoP.Section.Resources"}}</h3>
+          <label>{{localize "URoP.Field.EPTotal"}}</label>
+          <input type="number" name="system.resources.epTotal" value="{{actor.system.resources.epTotal}}"/>
+          <div class="field-header">
+            <label>{{localize "URoP.Field.EPSpent"}}</label>
+            <span class="hover-help help-icon" data-help="{{localize 'URoP.Help.EPSpentRecalc'}}">?</span>
           </div>
           <input type="number" name="system.resources.epSpent" value="{{actor.system.resources.epSpent}}"/>
           <button type="button" data-action="recalc-ep" class="secondary-action">{{localize "URoP.Field.RecalculateEP"}}</button>
-
           <div class="money-section">
             <div class="field-header money-header">
               <label>{{localize "URoP.Field.MoneyStores"}}</label>
               <button type="button" class="money-add-btn" data-action="add-money-store" {{#unless canAddMoneyStore}}disabled{{/unless}}>{{localize "URoP.Field.AddMoneyStore"}}</button>
             </div>
             <div class="money-head-row">
-              <span>{{localize "URoP.Field.MoneyLabel"}}</span>
-              <span>{{localize "URoP.Field.MoneyContents"}}</span>
-              <span>{{localize "URoP.Field.MoneyAmount"}}</span>
-              <span class="money-remove-head">X</span>
+              <span>{{localize "URoP.Field.MoneyLabel"}}</span><span>{{localize "URoP.Field.MoneyContents"}}</span><span>{{localize "URoP.Field.MoneyAmount"}}</span><span class="money-remove-head">X</span>
             </div>
             {{#each moneyStores as |store index|}}
             <div class="money-row">
@@ -37,7 +40,13 @@
               <button type="button" class="money-remove-btn" data-action="remove-money-store" data-index="{{index}}" title="{{localize 'URoP.Field.RemoveMoneyStore'}}" aria-label="{{localize 'URoP.Field.RemoveMoneyStore'}}" {{#unless ../canRemoveMoneyStore}}disabled{{/unless}}>{{localize "URoP.Field.RemoveMoneyStoreShort"}}</button>
             </div>
             {{/each}}
-              <div class="lead-values"><input type="number" class="lead-derived-value" value="{{leadAttributeDerived.geist}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/><input type="number" class="lead-attribute-value" value="{{leadAttributeValues.geist}}" readonly/></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>{{localize "URoP.Section.OverviewNotes"}}</h3>
+          <label>{{localize "URoP.Field.Appearance"}}</label>
+          <textarea name="system.notes.summary">{{actor.system.notes.summary}}</textarea>
+          <label>{{localize "URoP.Field.Backstory"}}</label>
           <textarea class="large" name="system.notes.backstory">{{actor.system.notes.backstory}}</textarea>
         </div>
       </div>
@@ -61,10 +70,65 @@
         <div class="special-attribute-row">
           <span class="facet-label" title="Belastbarkeit gegen nicht natürliche Veränderungen an Körper und Attributen">Anpassbarkeit</span>
           <input type="number" name="system.specialAttributes.adaptability" value="{{adaptability}}" min="0" step="0.1"/>
-              <div class="lead-values"><input type="number" class="lead-derived-value" value="{{leadAttributeDerived.praesenz}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/><input type="number" class="lead-attribute-value" value="{{leadAttributeValues.praesenz}}" readonly/></div>
-            <div class="lead-values"><input type="number" class="lead-derived-value" value="{{leadAttributeDerived.koerper}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/><input type="number" class="lead-attribute-value" value="{{leadAttributeValues.koerper}}" readonly/></div>
+        </div>
+      </div>
+      <div class="grid three-col">
+        {{#each attributeGroups as |group|}}
+        <div class="card attr-card">
+          <div class="attr-header">
+            <span class="attr-label hover-help" data-help="{{localize group.help}}">{{group.label}}</span>
+            <div class="lead-values">
+              <input type="number" class="lead-derived-value" value="{{lookup ../leadAttributeDerived group.key}}" title="{{localize 'URoP.Field.FacetDelta'}}" readonly/>
+              <input type="number" class="lead-attribute-value" value="{{lookup ../leadAttributeValues group.key}}" readonly/>
+            </div>
           </div>
           <hr class="attr-divider"/>
+          <div class="facet-head">
+            <span></span>
+            <span class="facet-col-head facet-col-delta hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
+            <span class="facet-col-head">{{localize "URoP.Field.Total"}}</span>
+            <span></span>
+          </div>
+          {{#each group.attributes as |attribute|}}
+          <div class="facet-row">
+            <span class="facet-label hover-help" data-help="{{localize attribute.[2]}}">{{attribute.[1]}}</span>
+            <div class="facet-stepper">
+              <button type="button" class="stepper-btn" data-action="facet-decrement" data-path="system.attributes.{{attribute.[0]}}">−</button>
+              <input type="number" class="facet-value" name="system.attributes.{{attribute.[0]}}" value="{{lookup ../../actor.system.attributes attribute.[0]}}" data-locked="true" readonly/>
+              <button type="button" class="stepper-btn" data-action="facet-increment" data-path="system.attributes.{{attribute.[0]}}">+</button>
+            </div>
+            <input type="number" class="facet-total-input" value="{{lookup ../../attributeTotals attribute.[0]}}" readonly/>
+            <button type="button" class="lock-btn" data-action="toggle-lock" data-target="system.attributes.{{attribute.[0]}}" title="Bearbeiten sperren/entsperren">🔒</button>
+          </div>
+          {{/each}}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+
+    <!-- Legacy attribute markup retained only for review history; not rendered. -->
+    <!--
+    <div class="tab" data-group="primary" data-tab="attributes">
+      <div class="card focus-card">
+        <div class="field-header">
+          <label>{{localize "URoP.Field.FocusAttributes"}}</label>
+          <span class="hover-help help-icon" data-help="{{localize 'URoP.Help.FocusAttributes'}}">?</span>
+        </div>
+        <div class="focus-row">
+          <label><input type="checkbox" data-action="toggle-focus-attribute" data-attribute="koerper" {{#if isKoerperFocus}}checked{{/if}}/> Körper</label>
+          <label><input type="checkbox" data-action="toggle-focus-attribute" data-attribute="geist" {{#if isGeistFocus}}checked{{/if}}/> Geist</label>
+          <label><input type="checkbox" data-action="toggle-focus-attribute" data-attribute="praesenz" {{#if isPraesenzFocus}}checked{{/if}}/> Präsenz</label>
+          <button type="button" class="lock-btn" data-action="toggle-focus-lock" title="{{localize 'URoP.Field.FocusLock'}}">{{#if isFocusSelectionLocked}}🔒{{else}}🔓{{/if}}</button>
+        </div>
+      </div>
+      <div class="card special-attributes-card">
+        <div class="attr-header"><span class="attr-label">Sonderattribute</span></div>
+        <div class="special-attribute-row">
+          <span class="facet-label" title="Belastbarkeit gegen nicht natürliche Veränderungen an Körper und Attributen">Anpassbarkeit</span>
+          <input type="number" name="system.specialAttributes.adaptability" value="{{adaptability}}" min="0" step="0.1"/>
+        </div>
+      </div>
+      <div class="grid three-col">
           <div class="facet-head">
             <span></span>
             <span class="facet-col-head facet-col-delta hover-help" data-help="{{localize 'URoP.Help.FacetDelta'}}">{{localize "URoP.Field.FacetDelta"}}</span>
@@ -226,6 +290,7 @@
       </div>
     </div>
 
+    -->
     <div class="tab" data-group="primary" data-tab="skills">
       <div class="skill-groups">
         <div class="skill-page-title"><h3>Fertigkeiten</h3></div>

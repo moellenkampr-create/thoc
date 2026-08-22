@@ -89,6 +89,41 @@ export class UropCharacterSheet extends ActorSheet {
         })
     };
     data.adaptability = this._toFiniteNumber(this.actor.system.specialAttributes?.adaptability, 6);
+    data.attributeGroups = [
+      {
+        key: "koerper",
+        label: "Körper",
+        help: "URoP.Attr.KoerperHelp",
+        attributes: [
+          ["staerke", "Stärke", "URoP.Facet.StaerkeHelp"],
+          ["grobmotorik", "Grobmotorik", "URoP.Facet.GrobmotorikHelp"],
+          ["feinmotorik", "Feinmotorik", "URoP.Facet.FeinmotorikHelp"],
+          ["konstitution", "Konstitution", "URoP.Facet.KonstitutionHelp"]
+        ]
+      },
+      {
+        key: "geist",
+        label: "Geist",
+        help: "URoP.Attr.GeistHelp",
+        attributes: [
+          ["analyse", "Analyse", "URoP.Facet.AnalyseHelp"],
+          ["willenskraft", "Willenskraft", "URoP.Facet.WillenskraftHelp"],
+          ["aufmerksamkeit", "Aufmerksamkeit", "URoP.Facet.AufmerksamkeitHelp"],
+          ["intuition", "Intuition", "URoP.Facet.IntuitionHelp"]
+        ]
+      },
+      {
+        key: "praesenz",
+        label: "Präsenz",
+        help: "URoP.Attr.PraesenzHelp",
+        attributes: [
+          ["ausdruck", "Ausdruck", "URoP.Facet.AusdruckHelp"],
+          ["empathie", "Empathie", "URoP.Facet.EmpathieHelp"],
+          ["dominanz", "Dominanz", "URoP.Facet.DominanzHelp"],
+          ["resonanz", "Resonanz", "URoP.Facet.ResonanzHelp"]
+        ]
+      }
+    ];
     data.skillRows = data.itemGroups.skill.map((item) => ({
       ...item,
       rollLabel: buildSkillRollLabel(item),

@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.46] - 2026-08-22
+
+### Changed
+- Beschädigte Actor-Sheet-Struktur für Übersicht und Attribute korrigiert; Attribute werden wieder sauber in drei Leitattributkarten gerendert.
+- Boni/Mali-Markup vollständig aus der aktiven Attributdarstellung entfernt.
+- Neue Anpassbarkeits-Box und datengetriebene Attributgruppen gegen Template-Regressionen abgesichert.
+
+### Migration Required
+- no
+
 ## [0.1.45] - 2026-08-22
 
 ### Changed

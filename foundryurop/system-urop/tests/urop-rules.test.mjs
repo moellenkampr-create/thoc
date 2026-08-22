@@ -16,7 +16,9 @@ test("character template exposes Adaptability without the retired modifier field
   assert.equal("leadAttributeModifiers" in character, false);
   assert.equal("modifiersText" in character, false);
   assert.match(sheet, /system\.specialAttributes\.adaptability/);
-  assert.doesNotMatch(sheet, /attributeModifiers|leadAttributeModifiers|modifiersText/);
+  const renderedSheet = sheet.replace(/<!--[\s\S]*?-->/g, "");
+  assert.equal((renderedSheet.match(/<div class="tab"[^>]+data-tab="attributes"/g) || []).length, 1);
+  assert.doesNotMatch(renderedSheet, /attributeModifiers|leadAttributeModifiers|modifiersText/);
 });
 
 test("character sheet offers direct item creation and context-menu deletion", () => {
