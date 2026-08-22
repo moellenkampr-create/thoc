@@ -396,16 +396,34 @@
 
 .urop-sheet .skill-level-stepper {
   display: grid;
-  grid-template-columns: 20px 42px 20px 22px 58px;
+  grid-template-columns: 22px 38px 22px 22px minmax(58px, 1fr);
   width: 100%;
+  min-width: 0;
   justify-content: stretch;
   gap: 4px;
+}
+
+.urop-sheet .skill-level-stepper .stepper-btn,
+.urop-sheet .skill-level-stepper .skill-level-lock {
+  width: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  box-sizing: border-box;
+}
+
+.urop-sheet .skill-level-stepper .skill-level-input {
+  width: 38px;
+  min-width: 38px;
+  max-width: 38px;
+  box-sizing: border-box;
 }
 
 .urop-sheet .skill-level-display {
   width: 58px;
   min-width: 58px;
-  margin-left: 0;
+  max-width: 58px;
+  justify-self: end;
+  box-sizing: border-box;
   text-align: right;
 }
 

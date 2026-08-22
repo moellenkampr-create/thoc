@@ -1,5 +1,13 @@
 # URoP Foundry Release Notes
 
+## [0.1.42] - 2026-08-22
+
+### Changed
+- Fertigkeitsdetail-Stepper mit festen Bedienelementbreiten und rechts verankerter Wertebox ausgeliefert.
+
+### Migration Required
+- no
+
 ## [0.1.41] - 2026-08-21
 
 ### Changed
