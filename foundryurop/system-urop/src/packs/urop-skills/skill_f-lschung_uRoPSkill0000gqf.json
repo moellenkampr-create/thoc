@@ -1,0 +1,34 @@
+{
+  "name": "Fälschung",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "action",
+    "skillDomain": "knowledge",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Analyse",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (knowledge) fuer Fälschung.",
+    "description": "Fälschung (Forgery) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Analyse.",
+    "notes": "id=skill_standard_f_lschung; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_f_lschung"
+    }
+  },
+  "_id": "uRoPSkill0000gqf",
+  "_key": "!items!uRoPSkill0000gqf",
+  "folder": "uRoPSkillsAction1",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  }
+}

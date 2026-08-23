@@ -1,0 +1,34 @@
+{
+  "name": "Malen oder Zeichnen",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "fluff",
+    "skillDomain": "social",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Ausdruck",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Flufffertigkeit (social) fuer Malen oder Zeichnen.",
+    "description": "Malen oder Zeichnen (Paint or Draw) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
+    "notes": "id=skill_standard_malen_oder_zeichnen; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_malen_oder_zeichnen"
+    }
+  },
+  "_id": "uRoPSkill00010tk",
+  "_key": "!items!uRoPSkill00010tk",
+  "folder": "uRoPSkillsFluff01",
+  "sort": 6400000,
+  "ownership": {
+    "default": 0
+  }
+}

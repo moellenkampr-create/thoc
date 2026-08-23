@@ -1,0 +1,34 @@
+{
+  "name": "Beschatten",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "specialization",
+    "applicationClass": "action",
+    "skillDomain": "survival",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Aufmerksamkeit",
+      "",
+      ""
+    ],
+    "learnCostEp": 15,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (survival) fuer Beschatten.",
+    "description": "Beschatten (Shadow/Track) beschreibt typische Anwendungen im Bereich survival. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Aufmerksamkeit.",
+    "notes": "id=skill_specialization_beschatten; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_specialization_beschatten"
+    }
+  },
+  "_id": "uRoPSkill0000bgv",
+  "_key": "!items!uRoPSkill0000bgv",
+  "folder": "uRoPSkillsAction1",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0
+  }
+}

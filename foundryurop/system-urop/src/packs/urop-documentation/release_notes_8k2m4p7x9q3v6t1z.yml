@@ -40,6 +40,13 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.47 - 2026-08-23</h2>
+        <h3>Hinzugefuegt</h3>
+        <ul>
+        <li>Neues Item-Compendium <strong>URoP Fertigkeiten</strong> im Folder <strong>URoP System</strong>.</li>
+        <li>73 Fertigkeiten nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten aufgeteilt.</li>
+        <li>Reproduzierbarer Generator und Regressionstest fuer den Fertigkeits-Pack ergaenzt.</li>
+        </ul>
         <h2>0.1.46 - 2026-08-22</h2>
         <h3>Geaendert</h3>
         <ul>

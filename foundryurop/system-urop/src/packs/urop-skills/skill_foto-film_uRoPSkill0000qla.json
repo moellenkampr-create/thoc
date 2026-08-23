@@ -1,0 +1,34 @@
+{
+  "name": "Foto & Film",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "fluff",
+    "skillDomain": "social",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Ausdruck",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Flufffertigkeit (social) fuer Foto & Film.",
+    "description": "Foto & Film (Photo & Film) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
+    "notes": "id=skill_standard_foto_und_film; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_foto_und_film"
+    }
+  },
+  "_id": "uRoPSkill0000qla",
+  "_key": "!items!uRoPSkill0000qla",
+  "folder": "uRoPSkillsFluff01",
+  "sort": 5500000,
+  "ownership": {
+    "default": 0
+  }
+}

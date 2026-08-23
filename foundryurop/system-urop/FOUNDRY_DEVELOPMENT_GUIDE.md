@@ -158,6 +158,16 @@ Das Journal enthaelt mindestens:
 
 Die Markdown-Datei `RELEASE_NOTES.md` bleibt die technische Quelle der Release-Historie. Beim Erstellen einer neuen Ruleset-Version wird ihr Inhalt in die editierbare Journal-Quelle uebertragen und das Pack anschliessend neu kompiliert.
 
+### URoP Fertigkeiten-Pack
+
+`urop-skills` ist ein Item-Compendium mit den strukturierten URoP-Fertigkeiten. Es ist in die drei Character-Sheet-Gruppen `Kampffertigkeiten`, `Aktionsfertigkeiten` und `Flufffertigkeiten` aufgeteilt. Der Generator liest `urop/urop23/data/URoP_Fertigkeiten_foundry_import.json`, erstellt die editierbaren Pack-Dokumente unter `src/packs/urop-skills/` und ordnet sie nach Anwendungsklasse, Fertigkeitsebene und Name.
+
+```powershell
+Set-Location "f:\repos\thoc\foundryurop\system-urop"
+node scripts\build-skill-compendium.mjs
+npx --yes @foundryvtt/foundryvtt-cli@3 package pack --type System --id urop --compendiumName urop-skills --inputDirectory src/packs/urop-skills --outputDirectory packs --recursive
+```
+
 Vor einem Pack-Release pruefen:
 
 - Ist der Packpfad im ZIP enthalten?

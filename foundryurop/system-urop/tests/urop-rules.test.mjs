@@ -41,3 +41,25 @@ test("migration removes retired modifier data and supplies Adaptability", () => 
   assert.match(migration, /-=system\.leadAttributeModifiers/);
   assert.match(migration, /-=system\.modifiersText/);
 });
+
+test("skill compendium contains every imported skill in the matching application-class folder", () => {
+  const sourceDirectory = path.join(root, "src", "packs", "urop-skills");
+  const sourceFiles = fs.readdirSync(sourceDirectory).filter((filename) => filename.endsWith(".json"));
+  const folders = sourceFiles.filter((filename) => filename.startsWith("folder_"));
+  const skills = sourceFiles
+    .filter((filename) => filename.startsWith("skill_"))
+    .map((filename) => JSON.parse(read(path.join("src", "packs", "urop-skills", filename))));
+  const folderByClass = {
+    combat: "uRoPSkillsCombat1",
+    action: "uRoPSkillsAction1",
+    fluff: "uRoPSkillsFluff01"
+  };
+
+  assert.equal(folders.length, 3);
+  assert.equal(skills.length, 73);
+  for (const skill of skills) {
+    assert.equal(skill.type, "skill");
+    assert.equal(skill.folder, folderByClass[skill.system.applicationClass]);
+    assert.match(skill._key, /^!items![A-Za-z0-9]{16}$/);
+  }
+});

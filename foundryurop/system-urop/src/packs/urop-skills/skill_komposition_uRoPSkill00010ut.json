@@ -1,0 +1,34 @@
+{
+  "name": "Komposition",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "fluff",
+    "skillDomain": "social",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Ausdruck",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Flufffertigkeit (social) fuer Komposition.",
+    "description": "Komposition (Composition) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Ausdruck.",
+    "notes": "id=skill_standard_komposition; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_komposition"
+    }
+  },
+  "_id": "uRoPSkill00010ut",
+  "_key": "!items!uRoPSkill00010ut",
+  "folder": "uRoPSkillsFluff01",
+  "sort": 6000000,
+  "ownership": {
+    "default": 0
+  }
+}

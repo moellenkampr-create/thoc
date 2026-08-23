@@ -1,0 +1,34 @@
+{
+  "name": "Erste Hilfe",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "action",
+    "skillDomain": "medical",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Feinmotorik",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (medical) fuer Erste Hilfe.",
+    "description": "Erste Hilfe (First Aid) beschreibt typische Anwendungen im Bereich medical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
+    "notes": "id=skill_standard_erste_hilfe; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_erste_hilfe"
+    }
+  },
+  "_id": "uRoPSkill00018pv",
+  "_key": "!items!uRoPSkill00018pv",
+  "folder": "uRoPSkillsAction1",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  }
+}

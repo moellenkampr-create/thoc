@@ -1,0 +1,34 @@
+{
+  "name": "Programmierung",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "fluff",
+    "skillDomain": "knowledge",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Flufffertigkeit (knowledge) fuer Programmierung.",
+    "description": "Programmierung (Programming) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
+    "notes": "id=skill_standard_programmierung; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_programmierung"
+    }
+  },
+  "_id": "uRoPSkill0001i7b",
+  "_key": "!items!uRoPSkill0001i7b",
+  "folder": "uRoPSkillsFluff01",
+  "sort": 6800000,
+  "ownership": {
+    "default": 0
+  }
+}

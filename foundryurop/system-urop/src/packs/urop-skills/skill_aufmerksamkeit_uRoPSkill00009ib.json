@@ -1,0 +1,34 @@
+{
+  "name": "Aufmerksamkeit",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "action",
+    "skillDomain": "perception",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (perception) fuer Aufmerksamkeit.",
+    "description": "Aufmerksamkeit (Awareness/Notice) beschreibt typische Anwendungen im Bereich perception. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
+    "notes": "id=skill_standard_aufmerksamkeit; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_aufmerksamkeit"
+    }
+  },
+  "_id": "uRoPSkill00009ib",
+  "_key": "!items!uRoPSkill00009ib",
+  "folder": "uRoPSkillsAction1",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Mathematik",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "fluff",
+    "skillDomain": "knowledge",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Flufffertigkeit (knowledge) fuer Mathematik.",
+    "description": "Mathematik (Mathematics) beschreibt typische Anwendungen im Bereich knowledge. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
+    "notes": "id=skill_standard_mathematik; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_mathematik"
+    }
+  },
+  "_id": "uRoPSkill0000u1q",
+  "_key": "!items!uRoPSkill0000u1q",
+  "folder": "uRoPSkillsFluff01",
+  "sort": 6500000,
+  "ownership": {
+    "default": 0
+  }
+}

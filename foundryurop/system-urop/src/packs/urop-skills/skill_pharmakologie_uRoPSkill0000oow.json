@@ -1,0 +1,34 @@
+{
+  "name": "Pharmakologie",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "fluff",
+    "skillDomain": "medical",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Flufffertigkeit (medical) fuer Pharmakologie.",
+    "description": "Pharmakologie (Pharmaceuticals) beschreibt typische Anwendungen im Bereich medical. Im URoP-Mapping ist sie als sozial-narrative Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Geist.",
+    "notes": "id=skill_standard_pharmakologie; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_pharmakologie"
+    }
+  },
+  "_id": "uRoPSkill0000oow",
+  "_key": "!items!uRoPSkill0000oow",
+  "folder": "uRoPSkillsFluff01",
+  "sort": 6600000,
+  "ownership": {
+    "default": 0
+  }
+}

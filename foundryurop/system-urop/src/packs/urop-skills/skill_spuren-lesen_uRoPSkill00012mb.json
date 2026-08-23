@@ -1,0 +1,34 @@
+{
+  "name": "Spuren Lesen",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "specialization",
+    "applicationClass": "action",
+    "skillDomain": "survival",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Aufmerksamkeit",
+      "",
+      ""
+    ],
+    "learnCostEp": 15,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (survival) fuer Spuren Lesen.",
+    "description": "Spuren Lesen (Shadow/Track) beschreibt typische Anwendungen im Bereich survival. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Aufmerksamkeit.",
+    "notes": "id=skill_specialization_spuren_lesen; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_specialization_spuren_lesen"
+    }
+  },
+  "_id": "uRoPSkill00012mb",
+  "_key": "!items!uRoPSkill00012mb",
+  "folder": "uRoPSkillsAction1",
+  "sort": 4800000,
+  "ownership": {
+    "default": 0
+  }
+}

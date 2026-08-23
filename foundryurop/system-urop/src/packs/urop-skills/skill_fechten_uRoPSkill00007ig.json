@@ -1,0 +1,34 @@
+{
+  "name": "Fechten",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "specialization",
+    "applicationClass": "combat",
+    "skillDomain": "combat",
+    "attributeAnchor": "Körper",
+    "ruleAnchors": [
+      "",
+      "",
+      ""
+    ],
+    "learnCostEp": 15,
+    "prerequisitesText": "",
+    "rulesShort": "Kampffertigkeit (combat) fuer Fechten.",
+    "description": "Fechten (Fencing) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Körper.",
+    "notes": "id=skill_specialization_fechten; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_specialization_fechten"
+    }
+  },
+  "_id": "uRoPSkill00007ig",
+  "_key": "!items!uRoPSkill00007ig",
+  "folder": "uRoPSkillsCombat1",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  }
+}

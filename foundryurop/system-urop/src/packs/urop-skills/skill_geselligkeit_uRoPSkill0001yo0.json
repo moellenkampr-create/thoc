@@ -1,0 +1,34 @@
+{
+  "name": "Geselligkeit",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "action",
+    "skillDomain": "social",
+    "attributeAnchor": "Präsenz",
+    "ruleAnchors": [
+      "",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (social) fuer Geselligkeit.",
+    "description": "Geselligkeit (Social) beschreibt typische Anwendungen im Bereich social. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch orientiert sich die Fertigkeit vor allem an Präsenz.",
+    "notes": "id=skill_standard_geselligkeit; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_geselligkeit"
+    }
+  },
+  "_id": "uRoPSkill0001yo0",
+  "_key": "!items!uRoPSkill0001yo0",
+  "folder": "uRoPSkillsAction1",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  }
+}

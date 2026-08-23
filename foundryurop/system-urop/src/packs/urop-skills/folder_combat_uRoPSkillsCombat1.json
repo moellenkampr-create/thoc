@@ -1,0 +1,11 @@
+{
+  "_id": "uRoPSkillsCombat1",
+  "_key": "!folders!uRoPSkillsCombat1",
+  "name": "Kampffertigkeiten",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "flags": {}
+}

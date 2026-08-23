@@ -1,0 +1,34 @@
+{
+  "name": "Schlösser knacken",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "action",
+    "skillDomain": "technical",
+    "attributeAnchor": "Geist",
+    "ruleAnchors": [
+      "Feinmotorik",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Aktionsfertigkeit (technical) fuer Schlösser knacken.",
+    "description": "Schlösser knacken (Pick Lock) beschreibt typische Anwendungen im Bereich technical. Im URoP-Mapping ist sie als aktive Szenenfertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
+    "notes": "id=skill_standard_schl_sser_knacken; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_schl_sser_knacken"
+    }
+  },
+  "_id": "uRoPSkill0001tjc",
+  "_key": "!items!uRoPSkill0001tjc",
+  "folder": "uRoPSkillsAction1",
+  "sort": 3400000,
+  "ownership": {
+    "default": 0
+  }
+}

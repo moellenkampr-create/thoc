@@ -1,0 +1,34 @@
+{
+  "name": "Ausweichen & Entkommen",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "level": 1,
+    "type": "standard",
+    "applicationClass": "combat",
+    "skillDomain": "combat",
+    "attributeAnchor": "Körper",
+    "ruleAnchors": [
+      "Feinmotorik",
+      "",
+      ""
+    ],
+    "learnCostEp": 20,
+    "prerequisitesText": "",
+    "rulesShort": "Kampffertigkeit (combat) fuer Ausweichen & Entkommen.",
+    "description": "Ausweichen & Entkommen (Dodge & Escape) beschreibt typische Anwendungen im Bereich combat. Im URoP-Mapping ist sie als kampforientierte Fertigkeit einsortiert und kann Proben, Folgeaktionen und situative Vorteile strukturieren. Regeltechnisch liegt der Schwerpunkt auf Feinmotorik.",
+    "notes": "id=skill_standard_ausweichen_und_entkommen; source=cp2020_skill_mapping_v2"
+  },
+  "flags": {
+    "urop": {
+      "skillId": "skill_standard_ausweichen_und_entkommen"
+    }
+  },
+  "_id": "uRoPSkill0000ufs",
+  "_key": "!items!uRoPSkill0000ufs",
+  "folder": "uRoPSkillsCombat1",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  }
+}

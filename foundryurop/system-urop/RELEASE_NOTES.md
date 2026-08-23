@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.47] - 2026-08-23
+
+### Added
+- Neues Item-Compendium `URoP Fertigkeiten` im bestehenden Folder `URoP System`.
+- 73 Fertigkeiten aus dem strukturierten Importbestand übernommen und nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten aufgeteilt.
+- Reproduzierbarer Generator und Regressionstest für den Fertigkeits-Pack ergänzt.
+
+### Migration Required
+- no
+
 ## [0.1.46] - 2026-08-22
 
 ### Changed
