@@ -1,5 +1,14 @@
 # URoP Foundry Release Notes
 
+## [0.1.48] - 2026-08-23
+
+### Fixed
+- Fertigkeiten-Compendium korrigiert: Die drei Folder-IDs entsprechen jetzt der von Foundry v14 geforderten Länge von 16 alphanumerischen Zeichen.
+- Verhindert den System-Ladefehler beim Initialisieren von `urop.urop-skills`.
+
+### Migration Required
+- no
+
 ## [0.1.47] - 2026-08-23
 
 ### Added

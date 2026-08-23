@@ -40,6 +40,12 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.48 - 2026-08-23</h2>
+        <h3>Korrigiert</h3>
+        <ul>
+        <li>Fertigkeiten-Compendium mit gueltigen 16-stelligen Folder-IDs neu gebaut.</li>
+        <li>System-Ladefehler beim Initialisieren von <code>urop.urop-skills</code> behoben.</li>
+        </ul>
         <h2>0.1.47 - 2026-08-23</h2>
         <h3>Hinzugefuegt</h3>
         <ul>

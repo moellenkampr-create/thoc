@@ -1,0 +1,5 @@
+2026/08/23-08:15:33.829 2ca0 Delete type=3 #1
+2026/08/23-08:15:33.868 5300 Level-0 table #5: started
+2026/08/23-08:15:33.870 5300 Level-0 table #5: 20813 bytes OK
+2026/08/23-08:15:33.871 5300 Delete type=0 #3
+2026/08/23-08:15:33.871 5300 Manual compaction at level-0 from '!folders!uRoPSkillAction1' @ 72057594037927935 : 1 .. '!items!uRoPSkill0001yo0' @ 0 : 0; will stop at (end)

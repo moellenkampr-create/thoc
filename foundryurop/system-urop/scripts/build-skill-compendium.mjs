@@ -7,9 +7,9 @@ const sourcePath = path.resolve(systemRoot, "..", "..", "urop", "urop23", "data"
 const outputDirectory = path.join(systemRoot, "src", "packs", "urop-skills");
 
 const groups = [
-  { key: "combat", id: "uRoPSkillsCombat1", name: "Kampffertigkeiten", sort: 100000 },
-  { key: "action", id: "uRoPSkillsAction1", name: "Aktionsfertigkeiten", sort: 200000 },
-  { key: "fluff", id: "uRoPSkillsFluff01", name: "Flufffertigkeiten", sort: 300000 }
+  { key: "combat", id: "uRoPSkillCombat1", name: "Kampffertigkeiten", sort: 100000 },
+  { key: "action", id: "uRoPSkillAction1", name: "Aktionsfertigkeiten", sort: 200000 },
+  { key: "fluff", id: "uRoPSkillFluff01", name: "Flufffertigkeiten", sort: 300000 }
 ];
 
 function stableId(sourceId, prefix) {
