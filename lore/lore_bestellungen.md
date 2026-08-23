@@ -18,15 +18,15 @@ Kurzlogik:
 
 ## Donny
 **Offen (ARBEITSSTAND):**
-Der Rueckmeldepunkt hat geliefert: Donny meldet am 29.07 eine belastbare Maria-Spur (Santo Domingo Memorial Hospital nach Drive-by-Schussverletzung). Das Trio setzt 1000 Eddies fuer den Suchnachlauf. Dossierlage dazu: Maria und Zoltan Grimm sind ein Paar mit zwei Kindern und Streetfood-Alltag; Zoltan wird als Runner gefuehrt. Zoltan verbreitet spaeter bewusst, Maria habe die Operation nicht ueberlebt, damit sie nach aussen als tot gilt; tatsaechlich lebt Maria.
+Der Rueckmeldepunkt hat geliefert: Donny meldet am 29.07 eine belastbare Maria-Spur (Santo Domingo Memorial Hospital nach Drive-by-Schussverletzung). Das Trio setzt 1000 Eddies fuer den Suchnachlauf. Dossierlage dazu: Maria und Zoltan Grimm sind ein Paar mit zwei Kindern und Streetfood-Alltag; Zoltan wird als Runner gefuehrt.
 
 Zusaetzlich laufen bei Donny drei neue Identitaeten fuer das Trio. Diese sind bereits bezahlt und fuer Anfang August angepeilt. Wichtig: Wenn das Trio die neuen Identitaeten wirklich integriert, muss das als eigener Schritt explizit beauftragt werden, weil dann die alte Identitaetslinie getrennt eingefroren werden muss. Bis zur Integration bleiben die neuen Identitaeten reine "Papiertiger".
 
 **Naechster Trigger:**
-Donny liefert Nachlauf zur Schuetzen-/Auftraggeberlinie im Maria-Fall; die erste Spur fuehrt zu Fisto/Bob und nennt Walter als moeglichen Auftraggeber. Alternativ steht die Fertigmeldung der drei Identitaeten (Anfang August) aus. Fuer die Nutzung der Identitaeten ist danach ein separater Integrationsauftrag noetig. Ein moeglicher spaeter Zoltan-Kontakt soll Maria nach ihrer Stabilisierung und dem neuen Aufenthaltsort wieder anbinden; fuer ihre Informationen ist eine Bezahlung vorgesehen.
+Donny liefert Nachlauf zur Schuetzen-/Auftraggeberlinie im Maria-Fall oder Fertigmeldung der drei Identitaeten (Anfang August). Fuer die Nutzung der Identitaeten ist danach ein separater Integrationsauftrag noetig.
 
 **Moegliche Komplikation:**
-Die Maria-Spur ist in eine Schutztaeuschung und eine moegliche Walter-Auftraggeberlinie gekippt; unklar bleiben Beweiskraft, Vermittler und die weiteren Informationen aus Fistos Polizeigewahrsam. Beim spaeteren Kontakt muss die Gruppe beruecksichtigen, dass Maria und Zoltan Geld brauchen und der Informationsaustausch gegen Bezahlung laufen soll. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis; George klaert den Punkt aktiv, waehrend Lauris Lagebild im Schockfenster deutlich paranoider ist.
+Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet; neuer Akutmarker ist der mutmasslich bezahlte Schuetzenpfad aus dem Krankenhausblock. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis; George klaert den Punkt aktiv, waehrend Lauris Lagebild im Schockfenster deutlich paranoider ist.
 
 ## Viktor (Vic)
 **Offen (ARBEITSSTAND):**
