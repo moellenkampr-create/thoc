@@ -18,6 +18,7 @@ Stand: 2026-05-14
 14. Fertigkeiten-Domain erweitern oder bestaetigen, falls Social/Kunst/Business nicht sauber in die aktuelle Domain-Liste passen (insbesondere Ausdruck/Performance, Verwaltung, Recht, Markt, kuenstlerische Sonderfaelle)
 15. Regelanker-Freigabe praezisieren: attributeAnchor ist nur typischer Leitanker; ruleAnchors duerfen auch freie Attributnamen oder wiederholte Werte enthalten, solange sie regeltechnisch sinnvoll sind
 16. Fertigkeiten-Importkonvention festziehen: welche ParentIds muessen echte JSON-IDs sein, welche duerfen Vorstufen-/Alias-Eintraege bleiben, und wann ist Mehrfachzuordnung gewuenscht
+17. Tier-Skala vereinheitlichen: pruefen, ob die bisherige T0-T3-Stufung bei Manoevern und Ausruestung (Waffen/Ruestung/Cyberware) auf eine einheitliche 0-6-Skala analog zu Attributen und Fertigkeiten umgestellt wird; Auswirkungen auf bestehende Referenzdaten und Kostentabellen mitpruefen. Betrifft auch die neuen Hacking-Ebenen (OS/Node/System/Subsystem/Quickhack/App), die direkt mit 0-6 geplant sind.
 
 ## Mittel
 1. Preisniveaus fuer Items gegen Spielgefuehl pruefen
