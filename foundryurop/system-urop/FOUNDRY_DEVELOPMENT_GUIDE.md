@@ -168,6 +168,12 @@ node scripts\build-skill-compendium.mjs
 npx --yes @foundryvtt/foundryvtt-cli@3 package pack --type System --id urop --compendiumName urop-skills --inputDirectory src/packs/urop-skills --outputDirectory packs --recursive
 ```
 
+### Quickhack-Abbildung
+
+Quickhacks speichern ihre verwendete Fertigkeit als `system.skillItemId`. Das ist die lokale ID eines beim Actor vorhandenen Skill-Items. Dadurch funktionieren auch individuell im Charakterblatt angelegte Fertigkeiten. Das Quickhack-Sheet baut seine Auswahl aus `actor.items` vom Typ `skill`; globale Fertigkeits-IDs sind fuer diese Zuordnung nicht erforderlich.
+
+Quickhacks besitzen ausserdem `system.tier` auf der Skala 0 bis 6. Die Wurfausgabe bleibt bewusst kompakt und verwendet Quickhack-Name, Tier, Fertigkeitsname, Fertigkeitsebene und Fertigkeitsstufe. Ausfuehrliche Risiko- und Wirkungsdaten bleiben in den Quickhack-Feldern `riskProfileText` und `typicalEffectsText`.
+
 Vor einem Pack-Release pruefen:
 
 - Ist der Packpfad im ZIP enthalten?

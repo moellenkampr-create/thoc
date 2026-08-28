@@ -1,5 +1,17 @@
 # URoP Foundry Release Notes
 
+## [0.1.49] - 2026-08-28
+
+### Added
+- Quickhacks erhalten Tier `0-6` und eine charakterspezifische Fertigkeitszuordnung ueber lokale Skill-Item-IDs.
+- Quickhack-Details zeigen nur Fertigkeiten des jeweiligen Charakters zur Auswahl an.
+- Cyberkampf-Wuerfe geben Quickhack-Name, Tier, Fertigkeitsname, Fertigkeitsebene und Fertigkeitsstufe kompakt aus.
+- Quickhack-Regeln um Netzwerk-/Node-/System-/Subsystem-Hierarchie, Apps, Direktzugriff, Einzelwurf, Zustaende, Dauer, Wirkung und Risiko erweitert.
+
+### Migration Required
+- yes
+- Bestehende Quickhacks erhalten `system.tier = 0` und `system.skillItemId = ""`, falls die Felder fehlen.
+
 ## [0.1.48] - 2026-08-23
 
 ### Fixed

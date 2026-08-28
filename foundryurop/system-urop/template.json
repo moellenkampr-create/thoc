@@ -152,6 +152,8 @@
       "notes": ""
     },
     "quickhack": {
+      "tier": 0,
+      "skillItemId": "",
       "hackClass": "info",
       "actionCost": "action",
       "usageWindow": "once_per_scene",

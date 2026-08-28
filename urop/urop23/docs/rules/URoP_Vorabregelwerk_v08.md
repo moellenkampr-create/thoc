@@ -664,6 +664,44 @@ Cyberware erweitert den Kern Ã¼ber neue Sinne, Schnittstellen, Schutzlagen, Sp
 
 ### 6.2 Quickhacks
 
+#### Quickhack-Zugriff und Netzwerkstruktur
+
+Quickhacks sind digitale Eingriffe auf vernetzte Ziele, Systeme und Raumtechnik. Sie sind keine Magie. Fuer Quickhacks gilt die Hierarchie **Netzwerk -> Node -> System -> Subsystem**.
+
+- Ein **Netzwerk** verbindet Nodes und Geraete. Das Global Network gehoert nicht zum normalen Quickhack-Spiel, sondern zu einer spaeteren Matrix-/Netrunning-Ebene.
+- Ein **Node** ist ein Zugangspunkt mit eigener Sicherheit. Ein Guest-Zugang kann eine Registrierung ohne oder mit nur geringer Huerde erlauben.
+- Ein **System** ist eine eigenstaendige technische Einheit mit eigener Verarbeitung oder Sicherheitslogik, zum Beispiel PC, Notebook, Server oder komplexes OS. Ein gesichertes System wird normalerweise ueber Personal Link oder eine vergleichbare Verbindung mit einem Breach-Protokoll angegriffen.
+- Ein **Subsystem** ist eine angeschlossene Funktion, zum Beispiel Cyberware, Kamera, Monitor, Turret, Drohne, Smartwaffe oder Fahrzeugmotor.
+
+**Hacking** ist die primaere Fertigkeit fuer Registrierung, Ping, Breach und Quickhacks. Elektronik, Cybertechnik, Programmierung oder Elektronische Sicherheit koennen situativ als alternative Fertigkeiten dienen, aber mit geringerer Chance, hoeherem Risiko, geringerer Wirkungsbreite oder kuerzerer Dauer. Systemkenntnis gehoert zur spaeteren globalen Matrix-Ebene.
+
+OS, Node, System, Subsystem und Quickhack koennen auf einer gemeinsamen Tier-Skala von **0 bis 6** eingeordnet werden. Ein regulaerer Zugriff erfordert grundsaetzlich ein OS-Tier mindestens in Hoehe des Ziel-Tiers. Ein direkter Quickhack kann den Breach des uebergeordneten Systems umgehen, braucht aber weiterhin plausiblen Zugang, Zielerkennung und ein passendes Quickhack-Tier.
+
+#### Ablauf und Wurf
+
+1. Der Charakter registriert sich an einem erreichbaren Node. Solange die Registrierung besteht, ist keine erneute Registrierung noetig.
+2. Ein **Ping** untersucht, welche Systeme und Subsysteme am Node haengen. Der Ping ist ein eigener 3W6-Wurf mit den passenden Stellschrauben.
+3. Ein **System-Breach** eroeffnet weitergehenden Zugriff. Danach koennen passende Apps ohne neuen Wurf verwendet werden.
+4. Ein **direkter Quickhack** greift punktuell auf ein System oder Subsystem zu und umgeht den vollstaendigen Breach.
+
+Fuer Ping, Breach und direkten Quickhack gibt es jeweils nur einen entscheidenden Wurf. Das System macht keinen eigenen Gegenwehrwurf. Sicherheitsstufe, OS-Tier, Verbindung, Vorbereitung und Umgebung bestimmen Standard, Risiko und Wirkungsbreite.
+
+#### Apps und Quickhacks
+
+Apps sind Werkzeuge fuer einen bereits registrierten oder gebreachten Zugriff, zum Beispiel Daten extrahieren, Dateien durchsuchen, Downloads, Kamerasteuerung oder Drohnenkontrolle. Wenn der bestehende Zugriff die Anwendung plausibel erlaubt, ist kein weiterer Wurf noetig. Apps werden voraussichtlich ueber die Memory-Kapazitaet des OS begrenzt; die konkrete Memory-Regel bleibt offen.
+
+Quickhacks sind punktuelle Direktzugriffe, zum Beispiel das Stoeren oder Abschalten einer Smartwaffe, Kamera oder eines Turrets, ohne das uebergeordnete System zu breachen. Ist das System bereits gebreacht, wird der direkte Eingriff in der Regel durch eine App oder Systemkontrolle ersetzt und benoetigt keinen zusaetzlichen Wurf.
+
+#### Wiederverwendbare Systemzustaende
+
+Quickhacks koennen gemeinsame Systemzustaende erzeugen: **Aufmerksam**, **Alarmzustand**, **Gestort**, **Abgeschaltet**, **Isoliert**, **Kompromittiert**, **Markiert** und **Ueberlastet**. Diese Zustaende koennen kombiniert werden; ihre genaue Dauer und Aufhebung wird im jeweiligen Quickhack oder in der spaeteren Zustandsregel beschrieben.
+
+#### Dauer, Wirkung und Risiko
+
+Quickhacks koennen als **Impuls**, **kurz**, **Szene**, **anhaltend** oder **persistent** wirken. Ihre Wirkung kann funktional, direkt oder systemisch sein. Funktionale Stoerungen sind der Regelfall; direkter Schaden an Cyberware, Nerven, Motoren oder Servos ist moeglich, bleibt aber durch Quickhack, Ziel und Sicherheitslage begrenzt. Systemischer Schaden braucht normalerweise Vorbereitung, hohen Erfolg oder geeigneten Zugriff.
+
+Ein schlechtes Ergebnis kann Scheitern, Spur, Aufmerksamkeit, Alarm, Gegenmassnahme oder Kollateraleffekt erzeugen. Ein schwaches Ergebnis wirkt eingeschraenkt oder kuerzer; Standard erzeugt die beschriebene Grundwirkung; gute und sehr gute Ergebnisse koennen Dauer, Wirkungsbreite, Kontrolle oder Folgezugriff verbessern. Jeder Quickhack sollte ein Risikoprofil mit moeglicher Rueckverfolgung, Ueberhitzung, Gegenintrusion, Alarm oder Kollateraleffekt fuehren.
+
 Quickhacks sind digitale Eingriffe auf vernetzte Ziele, Systeme und Raumtechnik. Sie sind keine Magie. Kleine Eingriffe kÃ¶nnen basisnah bleiben; harte Kontrolle, breite Umschreibung oder tiefe Sicherheitsarbeit werden als ManÃ¶ver oder verlÃ¤ngerte Proben lesbar.
 
 **Zugangslogik** â€“ Zugang ist eine Voraussetzung, kein optionaler Bonus:

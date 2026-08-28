@@ -149,6 +149,8 @@
       "CyberwareDescription": "General cyberware description: classification, form factor, installation context, and typical technical or narrative traits.",
       "CyberwareSpecificEffectDescription": "Concrete gameplay effect of the cyberware, for example values, bonuses, extra actions, or activation conditions.",
       "HackClass": "Core quickhack category: information, disruption, control, or overload.",
+      "SkillAssignment": "Skill used for Quickhack probes. The selection contains only skills belonging to this character.",
+      "QuickhackTier": "Quickhack tier on the shared 0 to 6 scale.",
       "Availability": "How common and accessible the hack is in the setting.",
       "Scope": "Effect scope: single target, small system, or room level.",
       "SourceType": "Primary source used to execute the hack.",

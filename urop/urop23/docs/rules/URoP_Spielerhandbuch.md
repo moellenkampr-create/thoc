@@ -299,6 +299,14 @@ Quickhacks sind schnelle digitale Eingriffe (Info, StÃ¶rung, Kontrolle, Ãœbe
 ### Zugang ist King
 Du brauchst **Zugang** zum System (Kabel, Funk, bekannter Port). Kein Zugang = kein Hack.
 
+### Quickhacks und Cyberkampf
+
+Quickhacks unterscheiden **Netzwerk -> Node -> System -> Subsystem**. Hacking ist die primaere Fertigkeit. Elektronik, Cybertechnik, Programmierung oder Elektronische Sicherheit koennen situativ als alternative Fertigkeiten verwendet werden, aber mit geringerem Erfolg, hoeherem Risiko, geringerer Wirkungsbreite oder kuerzerer Dauer. Systemkenntnis gehoert zur spaeteren globalen Matrix-Ebene.
+
+Ein Node kann einen Guest-Zugang besitzen. Nach der Registrierung bleibt der Charakter dort registriert, bis die Verbindung getrennt, verloren oder durch eine Gegenmassnahme beendet wird. Ein Ping zeigt mit einem eigenen 3W6-Wurf, welche Systeme und Subsysteme am Node haengen. Ein System-Breach erlaubt anschliessend passende Apps wie Datenextraktion, Kamerasteuerung oder Drohnenkontrolle ohne neuen Wurf. Ein direkter Quickhack kann den Breach des uebergeordneten Systems umgehen und gezielt ein plausibel erreichbares Subsystem stoeren oder kontrollieren.
+
+Fuer Ping, Breach und direkten Quickhack gibt es jeweils nur einen entscheidenden Wurf; das System wuerfelt nicht separat. Sicherheit, OS-Tier, Quickhack-Tier, Zugang, Vorbereitung und Umgebung bestimmen die Stellschrauben. Quickhacks koennen die Zustaende Aufmerksam, Alarmzustand, Gestort, Abgeschaltet, Isoliert, Kompromittiert, Markiert und Ueberlastet erzeugen. Ihre Wirkung reicht von funktionaler Stoerung bis zu begrenztem direktem oder systemischem Schaden. Die konkrete Dauer und das Risikoprofil werden beim jeweiligen Quickhack beschrieben.
+
 ---
 
 ## ðŸŒ GrÃ¶ÃŸenstufen

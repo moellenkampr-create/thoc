@@ -99,6 +99,8 @@ async function runSystemMigrations(fromVersion, toVersion) {
         }
 
         if (item.type === "quickhack") {
+          if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.skillItemId")) itemUpdates["system.skillItemId"] = "";
           if (!foundry.utils.hasProperty(item, "system.hackClass")) itemUpdates["system.hackClass"] = "info";
           if (!foundry.utils.hasProperty(item, "system.actionCost")) itemUpdates["system.actionCost"] = "action";
           if (!foundry.utils.hasProperty(item, "system.usageWindow")) itemUpdates["system.usageWindow"] = "once_per_scene";
@@ -160,6 +162,8 @@ async function runSystemMigrations(fromVersion, toVersion) {
       }
 
       if (item.type === "quickhack") {
+        if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.skillItemId")) itemUpdates["system.skillItemId"] = "";
         if (!foundry.utils.hasProperty(item, "system.hackClass")) itemUpdates["system.hackClass"] = "info";
         if (!foundry.utils.hasProperty(item, "system.actionCost")) itemUpdates["system.actionCost"] = "action";
         if (!foundry.utils.hasProperty(item, "system.usageWindow")) itemUpdates["system.usageWindow"] = "once_per_scene";

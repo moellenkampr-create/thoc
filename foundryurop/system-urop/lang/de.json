@@ -149,6 +149,8 @@
       "CyberwareDescription": "Allgemeine Beschreibung der Cyberware: Einordnung, Form, Einbaukontext und typische technische oder erzählerische Merkmale.",
       "CyberwareSpecificEffectDescription": "Konkrete Regelwirkung der Cyberware im Spiel, zum Beispiel Werte, Boni, zusätzliche Aktionen oder Aktivierungsbedingungen.",
       "HackClass": "Grundtyp des Quickhacks: Information, Störung, Kontrolle oder Überlast.",
+      "SkillAssignment": "Quickhack-Proben verwenden diese Fertigkeit. Die Auswahl enthält nur Fertigkeiten dieses Charakters.",
+      "QuickhackTier": "Tierstufe des Quickhacks auf der gemeinsamen Skala von 0 bis 6.",
       "Availability": "Verbreitung und Zugänglichkeit des Hacks im Setting.",
       "Scope": "Wirkungsrahmen des Hacks: einzelnes Ziel, Teilsystem oder Raumebene.",
       "SourceType": "Primäre Quelle, über die der Hack ausgeführt wird.",

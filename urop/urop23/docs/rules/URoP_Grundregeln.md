@@ -235,6 +235,16 @@ Balancing-Leitlinie im aktuellen Teststand:
 - starke Kampfentzugs-, Ueberlast- oder bewaffnete Kontrollhacks sollen in der Regel mindestens Aktion, oft 2+ Aktionen oder 1x pro Szene tragen
 - bewaffnete Systeme kippen idealerweise erst nach verdientem Zugriff statt durch loses Funkfenster
 
+### 5.8 Quickhack-Zugriff und Fertigkeit [ARBEITSSTAND]
+
+Quickhacks folgen der Hierarchie **Netzwerk -> Node -> System -> Subsystem**. Hacking ist die primaere Fertigkeit; Elektronik, Cybertechnik, Programmierung oder Elektronische Sicherheit sind situativ als alternative Fertigkeiten moeglich, aber mit geringerem Erfolg, hoeherem Risiko, geringerer Wirkungsbreite oder kuerzerer Dauer. Systemkenntnis gehoert zur spaeteren globalen Matrix-Ebene.
+
+Ein Quickhack kann den Breach des uebergeordneten Systems umgehen und direkt auf ein plausibel erreichbares Subsystem zielen. Ein bereits gebreachtes System erlaubt die entsprechende Kontrolle grundsaetzlich ueber Apps ohne weiteren Wurf.
+
+Fuer Ping, Breach und direkten Quickhack wird jeweils nur ein entscheidender 3W6-Wurf abgelegt. Das Ziel wuerfelt nicht separat. Sicherheit, OS-Tier, Quickhack-Tier, Zugang, Vorbereitung und Umgebung bestimmen die Stellschrauben.
+
+Quickhacks koennen die Zustaende Aufmerksam, Alarmzustand, Gestort, Abgeschaltet, Isoliert, Kompromittiert, Markiert und Ueberlastet erzeugen. Wirkung, Dauer, Risiko und Gegenmassnahmen werden im jeweiligen Quickhack beschrieben.
+
 ### 5.7 Beispielkosten fuer Kraefte und Zauber [TESTSTAND]
 Bis eigene Datenbloecke fuer Magie/Psi vorliegen, gilt diese Referenz:
 - **Kraft: Fokusimpuls (T0)** = 0 EP

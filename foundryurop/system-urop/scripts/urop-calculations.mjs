@@ -128,6 +128,19 @@ export function buildSkillRollLabel(item) {
   return `Probe: Stufe ${level}`;
 }
 
+export function buildQuickhackRollLabel(quickhack, skill) {
+  const skillTypeLabels = {
+    broad: "Sammelfertigkeit",
+    standard: "Standardfertigkeit",
+    specialization: "Spezialfertigkeit"
+  };
+  const quickhackTier = toFiniteNumber(quickhack?.system?.tier, 0);
+  const skillName = skill?.name || "Keine Fertigkeit";
+  const skillType = skillTypeLabels[skill?.system?.type] || "nicht zugeordnet";
+  const skillLevel = skill ? toFiniteNumber(skill.system?.level ?? skill.system?.rank ?? 0) : "-";
+  return `Cyberkampf – ${quickhack?.name || "Quickhack"} (${quickhackTier}) mit ${skillName} (${skillType}) (${skillLevel}) ausgeführt.`;
+}
+
 export function resolveLeadAttributeAnchor(anchorValue) {
   if (!anchorValue) return null;
   if (anchorValue === "koerper" || anchorValue === "geist" || anchorValue === "praesenz") return anchorValue;

@@ -18,6 +18,17 @@
     <div class="tab" data-group="primary" data-tab="details">
       <div class="grid two-col">
         <div class="card">
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SkillAssignment'}}">Fertigkeit</label>
+          <select name="system.skillItemId">
+            <option value="">Nicht zugeordnet</option>
+            {{#each skillOptions as |skill|}}
+            <option value="{{skill._id}}" {{#if (uropEq ../item.system.skillItemId skill._id)}}selected{{/if}}>{{skill.name}} ({{skill.system.type}}, Stufe {{skill.system.level}})</option>
+            {{/each}}
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.QuickhackTier'}}">Tier</label>
+          <input type="number" name="system.tier" value="{{item.system.tier}}" min="0" max="6" step="1"/>
+
           <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.HackClass'}}">{{localize "URoP.Field.HackClass"}}</label>
           <select name="system.hackClass">
             <option value="info" {{#if (uropEq item.system.hackClass "info")}}selected{{/if}}>{{localize "URoP.QuickhackClass.Info"}}</option>
@@ -68,6 +79,17 @@
         </div>
 
         <div class="card">
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SkillAssignment'}}">Fertigkeit</label>
+          <select name="system.skillItemId">
+            <option value="">Nicht zugeordnet</option>
+            {{#each skillOptions as |skill|}}
+            <option value="{{skill._id}}" {{#if (uropEq ../item.system.skillItemId skill._id)}}selected{{/if}}>{{skill.name}} ({{skill.system.type}}, Stufe {{skill.system.level}})</option>
+            {{/each}}
+          </select>
+
+          <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.QuickhackTier'}}">Tier</label>
+          <input type="number" name="system.tier" value="{{item.system.tier}}" min="0" max="6" step="1"/>
+
           <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.SourceType'}}">{{localize "URoP.Field.SourceType"}}</label>
           <select name="system.sourceTypePrimary">
             <option value="os" {{#if (uropEq item.system.sourceTypePrimary "os")}}selected{{/if}}>{{localize "URoP.SourceType.Os"}}</option>

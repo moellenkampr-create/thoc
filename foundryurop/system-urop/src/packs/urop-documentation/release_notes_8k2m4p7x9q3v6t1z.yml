@@ -53,6 +53,13 @@ pages:
         <li>73 Fertigkeiten nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten aufgeteilt.</li>
         <li>Reproduzierbarer Generator und Regressionstest fuer den Fertigkeits-Pack ergaenzt.</li>
         </ul>
+        <h2>0.1.49 - 2026-08-28</h2>
+        <h3>Hinzugefuegt</h3>
+        <ul>
+        <li>Quickhacks erhalten Tier 0-6 und charakterspezifische Fertigkeitszuordnung ueber lokale Skill-Item-IDs.</li>
+        <li>Cyberkampf-Wuerfe geben Quickhack, Tier, Fertigkeit, Fertigkeitsebene und Fertigkeitsstufe kompakt aus.</li>
+        <li>Quickhack-Regeln um Netzwerkstruktur, Apps, Direktzugriff, Einzelwurf, Zustaende, Dauer, Wirkung und Risiko erweitert.</li>
+        </ul>
         <h2>0.1.46 - 2026-08-22</h2>
         <h3>Geaendert</h3>
         <ul>

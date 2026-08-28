@@ -7,6 +7,7 @@ import {
   buildInitiativeValues,
   buildLeadAttributeValues,
   buildResistanceValues,
+  buildQuickhackRollLabel,
   buildSkillRollLabel,
   calculateAttributeCost,
   calculateInitiativeBase,
@@ -210,4 +211,14 @@ test("rule anchors display readable names in the skill table", () => {
   assert.equal(formatRuleAnchorLabel("koerper"), "Körper");
   assert.equal(formatRuleAnchorLabel("staerke"), "Stärke");
   assert.equal(formatRuleAnchorLabel(""), "–");
+});
+
+test("quickhack roll labels include tier and assigned skill details", () => {
+  assert.equal(
+    buildQuickhackRollLabel(
+      { name: "Autoturret auf Freundlich", system: { tier: 3 } },
+      { name: "Hacking", system: { type: "specialization", level: 4 } }
+    ),
+    "Cyberkampf – Autoturret auf Freundlich (3) mit Hacking (Spezialfertigkeit) (4) ausgeführt."
+  );
 });

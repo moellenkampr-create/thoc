@@ -19,7 +19,12 @@
       "3. Wirkung klaeren: Information, Stoerung, Kontrolle oder Ueberlast?",
       "4. Risiko klaeren: Spur, Overheat, Gegenmassnahme, Alarm oder Kollateraleffekt?"
     ],
-    "gmGuideline": "Quickhacks sollen die Szene oeffnen, nicht ersetzen. Wenn ein Effekt die ganze Lage kippt, steigt meist Zugriffshuerde, Risiko oder Zeitbedarf."
+    "gmGuideline": "Quickhacks sollen die Szene oeffnen, nicht ersetzen. Wenn ein Effekt die ganze Lage kippt, steigt meist Zugriffshuerde, Risiko oder Zeitbedarf.",
+    "networkHierarchy": ["network", "node", "system", "subsystem"],
+    "primarySkill": "Hacking",
+    "alternativeSkills": ["Elektronik", "Cybertechnik", "Programmierung", "Elektronische Sicherheit"],
+    "singleRollResolution": true,
+    "systemCounterRoll": false
   },
   "enums": {
     "hackClass": [
@@ -164,6 +169,18 @@
       "required": true,
       "type": "string",
       "description": "info, stoerung, kontrolle oder ueberlast"
+    },
+    "tier": {
+      "required": true,
+      "type": "number",
+      "minimum": 0,
+      "maximum": 6,
+      "description": "Tierstufe des Quickhacks auf der gemeinsamen Skala 0 bis 6."
+    },
+    "skillItemId": {
+      "required": false,
+      "type": "string",
+      "description": "Lokale ID eines Skill-Items des Charakters; keine globale Skill-ID."
     },
     "sourceType": {
       "required": true,
