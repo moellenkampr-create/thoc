@@ -19,16 +19,4 @@ export class UropQuickhackSheet extends UropItemSheetBase {
       : [];
     return data;
   }
-
-  getData(options) {
-    const data = super.getData(options);
-    const actor = this.item.parent;
-    data.skillOptions = actor?.items
-      ? Array.from(actor.items.values())
-        .filter((item) => item.type === "skill")
-        .sort((left, right) => left.name.localeCompare(right.name, "de", { sensitivity: "base" }))
-        .map((item) => item.toObject())
-      : [];
-    return data;
-  }
 }

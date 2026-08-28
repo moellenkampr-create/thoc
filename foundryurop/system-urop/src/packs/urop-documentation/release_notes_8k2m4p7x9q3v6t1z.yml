@@ -53,6 +53,12 @@ pages:
         <li>73 Fertigkeiten nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten aufgeteilt.</li>
         <li>Reproduzierbarer Generator und Regressionstest fuer den Fertigkeits-Pack ergaenzt.</li>
         </ul>
+        <h2>0.1.50 - 2026-08-28</h2>
+        <h3>Korrigiert</h3>
+        <ul>
+        <li>Doppelte Quickhack-Felder fuer Fertigkeit und Tier entfernt.</li>
+        <li>Quickhack-Auswahl und Tierwert bleiben beim Speichern erhalten.</li>
+        </ul>
         <h2>0.1.49 - 2026-08-28</h2>
         <h3>Hinzugefuegt</h3>
         <ul>

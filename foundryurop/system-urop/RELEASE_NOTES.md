@@ -1,5 +1,15 @@
 # URoP Foundry Release Notes
 
+## [0.1.50] - 2026-08-28
+
+### Fixed
+- Doppelte Quickhack-Felder für Fertigkeit und Tier entfernt.
+- Quickhack-Sheet verwendet wieder genau ein Feld für `skillItemId` und ein Feld für `tier`, sodass Auswahl und Tierwert beim Speichern erhalten bleiben.
+- Doppelte `getData()`-Definition im Quickhack-Sheet entfernt.
+
+### Migration Required
+- no
+
 ## [0.1.49] - 2026-08-28
 
 ### Added

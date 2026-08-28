@@ -63,3 +63,11 @@ test("skill compendium contains every imported skill in the matching application
     assert.match(skill._key, /^!items![A-Za-z0-9]{16}$/);
   }
 });
+
+test("quickhack detail fields are unique to prevent duplicate form values", () => {
+  const template = read("templates/items/quickhack-sheet.hbs");
+
+  assert.equal((template.match(/name="system\.skillItemId"/g) || []).length, 1);
+  assert.equal((template.match(/name="system\.tier"/g) || []).length, 1);
+  assert.equal((template.match(/>Fertigkeit</g) || []).length, 1);
+});
