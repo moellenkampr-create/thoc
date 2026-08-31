@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0017w8ipg",
+  "_key": "!items!uRoPMan0017w8ipg",
+  "name": "Granate werfen",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_granate_werfen"
+    }
+  },
+  "system": {
+    "tier": 1,
+    "skillItemId": "",
+    "learnCostEp": 15,
+    "actionCost": "action",
+    "usageWindow": "unlimited",
+    "reuseEscalation": "none",
+    "rulesShort": "Wirft eine Granate (Splitter, Waerme, EMP, Rauch, Blendgranate) auf ein Zielgebiet.",
+    "description": "Einfaches Fernkampf-Manoever fuer Handgranaten. Einordnung: Kampf, aktiv, Effekt/Kontrolle.",
+    "notes": "Standard-Wurf-Manoever; Granatentypen definieren die Wirkung."
+  }
+}

@@ -207,11 +207,12 @@ Diese Zustaende enden typischerweise nach kurzer Zeit (z. B. naechster gegnerisc
 ### 5.5 Erwerbskosten fuer besondere Faehigkeiten (EP) [TESTSTAND]
 Fuer den Build gelten vorlaeufig feste EP-Kosten pro Faehigkeit.
 
-Basisraster:
-- **T0** = 0 EP
-- **T1** = 15 EP
-- **T2** = 30 EP
-- **T3** = 50 EP
+Aktuelles Basisraster:
+- **Tier 0** = 0 EP
+- **Tier 1** = 15 EP
+- **Tier 2** = 30 EP
+- **Tier 3** = 50 EP
+- **Tier 4 bis 6** sind im gemeinsamen Tierbereich vorgesehen; Referenzmanöver und Kosten werden erst nach Balancing festgelegt.
 
 Leitlinie:
 - Manoever nutzen direkt dieses Raster.
@@ -247,14 +248,14 @@ Quickhacks koennen die Zustaende Aufmerksam, Alarmzustand, Gestort, Abgeschaltet
 
 ### 5.7 Beispielkosten fuer Kraefte und Zauber [TESTSTAND]
 Bis eigene Datenbloecke fuer Magie/Psi vorliegen, gilt diese Referenz:
-- **Kraft: Fokusimpuls (T0)** = 0 EP
-- **Kraft: Schutzschub (T1)** = 15 EP
-- **Kraft: Kanalschub (T2)** = 30 EP
-- **Kraft: Wirksturm (T3)** = 50 EP
-- **Zauber: Lichtfaden (T0)** = 0 EP
-- **Zauber: Bannfokus (T1)** = 15 EP
-- **Zauber: Kettenblitz (T2)** = 30 EP
-- **Zauber: Dimensionsschnitt (T3)** = 50 EP
+- **Kraft: Fokusimpuls (Tier 0)** = 0 EP
+- **Kraft: Schutzschub (Tier 1)** = 15 EP
+- **Kraft: Kanalschub (Tier 2)** = 30 EP
+- **Kraft: Wirksturm (Tier 3)** = 50 EP
+- **Zauber: Lichtfaden (Tier 0)** = 0 EP
+- **Zauber: Bannfokus (Tier 1)** = 15 EP
+- **Zauber: Kettenblitz (Tier 2)** = 30 EP
+- **Zauber: Dimensionsschnitt (Tier 3)** = 50 EP
 
 ---
 

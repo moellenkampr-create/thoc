@@ -2,7 +2,7 @@
   "id": "urop",
   "title": "URoP",
   "description": "URoP System fuer Foundry VTT v14 (unterstuetzende Automatisierung)",
-  "version": "0.1.50",
+  "version": "0.1.51",
   "url": "https://github.com/moellenkampr-create/thoc",
   "manifest": "https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/system.json",
   "download": "https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/urop-system.zip",
@@ -48,6 +48,13 @@
       "system": "urop",
       "path": "packs/urop-skills",
       "type": "Item"
+    },
+    {
+      "name": "urop-maneuvers",
+      "label": "URoP Manöver",
+      "system": "urop",
+      "path": "packs/urop-maneuvers",
+      "type": "Item"
     }
   ],
   "packFolders": [
@@ -55,7 +62,7 @@
       "name": "URoP System",
       "sorting": "a",
       "color": "#2e3b4e",
-      "packs": ["urop-documentation", "urop-skills"]
+      "packs": ["urop-documentation", "urop-skills", "urop-maneuvers"]
     }
   ],
   "socket": false,

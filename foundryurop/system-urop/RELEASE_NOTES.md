@@ -1,5 +1,19 @@
 # URoP Foundry Release Notes
 
+## [0.1.51] - 2026-08-31
+
+### Added
+- Manöver erhalten wie Quickhacks eine charakterspezifische Fertigkeitszuordnung und einen numerischen Tierwert auf der Skala 0 bis 6.
+- Manöver-Tab als Tabelle mit Name, Drei-Würfel-Probe und Einsatzfenster erweitert.
+- Neues Item-Compendium `URoP Manöver` im Folder `URoP System` aus 38 strukturierten Manöver-Einträgen erzeugt.
+
+### Changed
+- Bestehende Manöver-Tiers von `T0-T3` auf numerische Werte `0-3` migriert; Tier 4 bis 6 bleibt für spätere Referenzmanöver und Balancing offen.
+
+### Migration Required
+- yes
+- Bestehende Manöver erhalten `system.skillItemId = ""`; alte Tierwerte `T0-T3` werden in `0-3` überführt.
+
 ## [0.1.50] - 2026-08-28
 
 ### Fixed

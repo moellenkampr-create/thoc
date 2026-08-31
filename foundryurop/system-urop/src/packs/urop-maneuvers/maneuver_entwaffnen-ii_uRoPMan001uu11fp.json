@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001uu11fp",
+  "_key": "!items!uRoPMan001uu11fp",
+  "name": "Entwaffnen II",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_entwaffnen_ii"
+    }
+  },
+  "system": {
+    "tier": 2,
+    "skillItemId": "",
+    "learnCostEp": 15,
+    "actionCost": "action",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "standard_conflict",
+    "rulesShort": "Fortgeschrittenes Entwaffnen mit verlaesslicherem Linienbruch und geringerem Eigenrisiko.",
+    "description": "Fortgeschrittener Rank fuer Entwaffnen. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Der Gegner fuehrt sichtbar Waffe und Linie, aber die handelnde Figur kann den Zugriff technisch kontrollierter setzen als bei Rank I. Bei Gelingen: Entwaffnung oder klare Waffenstoerung tritt verlaesslicher ein. Bei Teilerfolg: Die gegnerische Linie bleibt selten voll stabil; Anschlussaktionen auf Distanz, Haltung oder Kontrolle werden besser vorbereitbar. Risiko: Fehleinschaetzungen bleiben gefaehrlich, aber die eigene Linie kippt weniger schnell komplett auf.",
+    "notes": "Der Zugriff auf Hand und Linie bleibt sauberer; Teilerfolge brechen verlaesslicher die gegnerische Waffenfuehrung."
+  }
+}

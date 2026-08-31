@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001f9ocdu",
+  "_key": "!items!uRoPMan001f9ocdu",
+  "name": "Gespraechsschock I",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_gespraechsschock"
+    }
+  },
+  "system": {
+    "tier": 2,
+    "skillItemId": "",
+    "learnCostEp": 30,
+    "actionCost": "action",
+    "usageWindow": "once_per_scene",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Setzt eine belastende Wahrheit, Enthuellung oder Grenzueberschreitung als harten Schlag gegen Fassung und Haltung.",
+    "description": "Harter sozialer Schlag, der nicht Alltagswerkzeug, sondern Szenen-Kippmoment sein soll. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel ist emotional, sozial oder rhetorisch angreifbar und die Szene traegt einen harten Schlag gegen Haltung oder Fassade. Typische Gegenlage: Zu harte oder unpassende Schocks koennen Autoritaeten, Publikum oder Verbuendete gegen die handelnde Figur drehen. Bei Gelingen: Das Ziel verliert Fassung, Gesicht, argumentative Linie oder soziale Stabilitaet; Anschlussaktionen gegen Widerstand oder Haltung werden leichter. Bei Teilerfolg: Kein kompletter Bruch, aber sichtbare Erschuetterung, Unruhe oder defensiver Rueckzug. Risiko: Soziale Eskalation droht; die Wirkung kann kippen, wenn der Schlag als unpassend, unfair oder unklug gelesen wird. Designhinweis: Bewusst kein T1-Alltagswerkzeug, weil es soziale Szenen stark kippen kann.",
+    "notes": "Soziale Spitzenaktion mit hoher Szenenwirkung, aber ohne gesonderte Pflichtmatrix fuer Publikum oder Fallout."
+  }
+}

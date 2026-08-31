@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001b1izc3",
+  "_key": "!items!uRoPMan001b1izc3",
+  "name": "Schnellziehen II",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_schnellziehen_ii"
+    }
+  },
+  "system": {
+    "tier": 1,
+    "skillItemId": "",
+    "learnCostEp": 15,
+    "actionCost": "free",
+    "usageWindow": "once_per_scene",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Bringt die Waffe rechtzeitig in die Szene und erlaubt einen sauberen unmittelbaren Folgeangriff.",
+    "description": "Fortgeschrittener Rank fuer den Eskalationsmoment. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Wie bei Rank I, aber die Figur kontrolliert den Uebergang in Gewalt deutlich besser. Bei Gelingen: Die Waffe ist rechtzeitig da, und ein unmittelbarer Standardangriff derselben Runde bleibt nicht mehr automatisch hektisch oder riskanter. Bei Teilerfolg: Der Anschluss gelingt noch, aber die Linie bleibt nicht perfekt. Designhinweis: Rank II verbessert den Uebergang, bezahlt aber keine Kosten des Anschlussmanoevers mit.",
+    "notes": "Das Ziehen bleibt freie Reaktion; der direkte Folgeangriff derselben Runde verliert den hektischen Malus."
+  }
+}

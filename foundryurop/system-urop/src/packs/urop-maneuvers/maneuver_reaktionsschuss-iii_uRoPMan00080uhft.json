@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan00080uhft",
+  "_key": "!items!uRoPMan00080uhft",
+  "name": "Reaktionsschuss III",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 3400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_reaktionsschuss_iii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "free",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Meisterlicher Reaktionsschuss fuer harte Bewegungsunterbrechung in kritischen Zeitfenstern.",
+    "description": "Meisterrank fuer Reaktionsschuss. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Hochriskante Laufwege, Deckungswechsel oder Vorstossmomente unter Feuerdruck. Bei Gelingen: Der Gegner verliert den Vorteil aus seinem Bewegungsfenster deutlich. Bei Teilerfolg: Immer noch klares Bremsen oder Umlenken der Bewegung. Risiko: Reaktionsschuss bleibt ein einmaliges Antwortwerkzeug pro Zyklus und konkurriert weiter direkt mit anderen Reaktionen.",
+    "notes": "Meisterreaktion auf Exposition: Abfangwirkung wird in engen Fenstern sehr verbindlich, bleibt aber an Reaktionsknappheit gekoppelt."
+  }
+}

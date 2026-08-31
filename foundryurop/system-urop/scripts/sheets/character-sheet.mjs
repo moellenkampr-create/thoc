@@ -4,6 +4,7 @@ import {
   buildLeadAttributeValues,
   buildInitiativeValues,
   buildResistanceValues,
+  buildManeuverRollLabel,
   buildQuickhackRollLabel,
   buildSkillRollLabel,
   calculateAttributeCost,
@@ -135,6 +136,10 @@ export class UropCharacterSheet extends ActorSheet {
       { key: "action", label: "Aktionsfertigkeiten", rows: data.skillRows.filter((item) => item.system?.applicationClass === "action") },
       { key: "fluff", label: "Flufffertigkeiten", rows: data.skillRows.filter((item) => item.system?.applicationClass === "fluff") }
     ];
+    data.maneuverRows = data.itemGroups.maneuver.map((item) => ({
+      ...item,
+      usageWindowLabel: this._formatUsageWindow(item.system?.usageWindow)
+    }));
     data.combatSkills = data.itemGroups.skill.filter((i) => i.system?.applicationClass === "combat");
 
     data.attributeTotals = this._buildAttributeTotals(attributes);
@@ -393,6 +398,16 @@ export class UropCharacterSheet extends ActorSheet {
     return anchors.map((anchor) => formatRuleAnchorLabel(anchor)).join(" / ");
   }
 
+  _formatUsageWindow(usageWindow) {
+    const labels = {
+      unlimited: "Beliebig",
+      once_per_conflict: "1x pro Kampf",
+      once_per_scene: "1x pro Szene",
+      prepared: "Vorbereitet"
+    };
+    return labels[usageWindow] || "-";
+  }
+
   _attributeCost(value) {
     return calculateAttributeCost(value);
   }
@@ -437,11 +452,15 @@ export class UropCharacterSheet extends ActorSheet {
     if (!item) return;
 
     const skillName = item.name || game.i18n.localize("URoP.Skill");
-    const assignedSkill = item.type === "quickhack" && item.system?.skillItemId
+    const assignedSkill = ["quickhack", "maneuver"].includes(item.type) && item.system?.skillItemId
       ? this.actor.items.get(item.system.skillItemId)
       : null;
-    const rollLabel = item.type === "quickhack" ? buildQuickhackRollLabel(item, assignedSkill) : `${skillName} · ${buildSkillRollLabel(item)}`;
-    const label = item.type === "quickhack" ? rollLabel : `${skillName} · ${rollLabel}`;
+    const rollLabel = item.type === "quickhack"
+      ? buildQuickhackRollLabel(item, assignedSkill)
+      : item.type === "maneuver"
+        ? buildManeuverRollLabel(item, assignedSkill)
+        : `${skillName} · ${buildSkillRollLabel(item)}`;
+    const label = ["quickhack", "maneuver"].includes(item.type) ? rollLabel : `${skillName} · ${rollLabel}`;
     const roll = await new Roll("3d6", {}).evaluate();
     const outcome = this._getProbeOutcome(roll.total);
     const extremeClass = roll.total === 3 ? "outcome-extreme-low" : roll.total === 18 ? "outcome-extreme-high" : "";

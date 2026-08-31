@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0012mdt2q",
+  "_key": "!items!uRoPMan0012mdt2q",
+  "name": "Festsetzen II",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_festsetzen_ii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "action",
+    "usageWindow": "once_per_scene",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Fortgeschrittenes Festsetzen mit stabilerer Gegnerbindung bei weiterhin klarem Lagepreis.",
+    "description": "Fortgeschrittener Rank fuer Festsetzen. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Der Gegner ist geoeffnet oder bereits gebrochen, und die Figur kann die Bindung technisch sauber nachziehen. Bei Gelingen: Bewegung und freies Waffenspiel des Gegners werden verlaesslicher unterbunden. Bei Teilerfolg: Die Kontrolle bleibt zumindest lang genug, um Anschlussdruck zu setzen. Risiko: Die handelnde Figur bleibt gebunden, aber die eigene Linie wird nicht mehr so leicht von jeder Stoerung zerlegt wie bei Rank I.",
+    "notes": "Die eigene Bindung bleibt spuerbar, aber kontrollierter; kurze Gegenimpulse loesen die Lage seltener sofort wieder auf."
+  }
+}

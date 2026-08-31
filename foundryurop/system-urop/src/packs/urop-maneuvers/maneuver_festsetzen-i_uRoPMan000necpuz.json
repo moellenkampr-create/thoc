@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan000necpuz",
+  "_key": "!items!uRoPMan000necpuz",
+  "name": "Festsetzen I",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_festsetzen"
+    }
+  },
+  "system": {
+    "tier": 2,
+    "skillItemId": "",
+    "learnCostEp": 30,
+    "actionCost": "action",
+    "usageWindow": "once_per_scene",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Erzwingt klare Bindung und schraenkt Bewegung, Flucht oder freies Waffenspiel stark ein.",
+    "description": "Fortgeschrittenes Kontrollmanoever, das auf vorherige Oeffnung oder deutlichen Positionsvorteil baut. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Der Gegner ist bereits schlecht gebunden, am Boden, an einer Kante, in engem Raum oder aus einer Voraktion heraus offen. Typische Gegenlage: Befreiungsversuche, Werkzeugnaehe, Nahwaffen oder Eingriffe von Verbuendeten koennen die Bindung brechen. Bei Gelingen: Der Gegner wird in Bewegung oder Handlungsfreiheit klar eingeschraenkt; Flucht, freies Manoevrieren und sauberes Waffenspiel werden stark erschwert. Bei Teilerfolg: Nur kurzer Halt oder blockierte Linie, aber immerhin genug, um Tempo und Optionen des Gegners zu beschneiden. Risiko: Festsetzen bindet auch die eigene Figur und macht sie anfaelliger fuer Eingriffe von aussen. Designhinweis: Starke Kontrolle und deshalb fast nie ohne Lage- oder Kettenbindung.",
+    "notes": "Bindet die eigene Figur mit in die Lage; stark, aber selten ohne Vorarbeit sauber."
+  }
+}

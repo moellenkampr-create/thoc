@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001alcp88",
+  "_key": "!items!uRoPMan001alcp88",
+  "name": "Unterdrueckungsfeuer I",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_unterdrueckungsfeuer"
+    }
+  },
+  "system": {
+    "tier": 2,
+    "skillItemId": "",
+    "learnCostEp": 30,
+    "actionCost": "action",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "standard_conflict",
+    "rulesShort": "Kontrolliert einen Raumabschnitt, bremst Vorstoss und zwingt Gegner zu Vorsicht, Deckung oder Umweg.",
+    "description": "Flaechen- und Tempomanoever fuer Raumkontrolle statt Einzelzielpraezision. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Die Figur will nicht ein Einzelziel praezise brechen, sondern Bereich, Bewegung oder Vorstoss kontrollieren. Typische Gegenlage: Mobile Gegner, Flanken oder harte Deckungswechsel koennen eine starre Feuerlinie ausspielen. Bei Gelingen: Gegner im betroffenen Raum verlieren Tempo, wagen weniger offene Bewegung oder muessen schlechtere Positionen akzeptieren. Bei Teilerfolg: Der Bereich wird nur teilweise kontrolliert, zwingt aber immer noch zu Vorsicht, Deckung oder Umweg. Risiko: Hoher Ressourcenverbrauch und geringere Praezision; die bindende Feuerlinie kann gegen die Figur ausgespielt werden. Designhinweis: Starker Szeneneingriff, deshalb klar T2.",
+    "notes": "Hoher Munitions- und Aufmerksamkeitsverbrauch bleibt Teil der Balancing-Lesart, aber vorerst als Text statt Pflichtfeld."
+  }
+}

@@ -53,6 +53,13 @@ pages:
         <li>73 Fertigkeiten nach Kampffertigkeiten, Aktionsfertigkeiten und Flufffertigkeiten aufgeteilt.</li>
         <li>Reproduzierbarer Generator und Regressionstest fuer den Fertigkeits-Pack ergaenzt.</li>
         </ul>
+        <h2>0.1.51 - 2026-08-31</h2>
+        <h3>Hinzugefuegt</h3>
+        <ul>
+        <li>Manöver erhalten charakterspezifische Fertigkeitszuordnung und numerisches Tier 0 bis 6.</li>
+        <li>Manöver-Tabelle mit Drei-Würfel-Probe und Einsatzfenster ergänzt.</li>
+        <li>Neues Item-Compendium <strong>URoP Manöver</strong> aus 38 strukturierten Einträgen erzeugt.</li>
+        </ul>
         <h2>0.1.50 - 2026-08-28</h2>
         <h3>Korrigiert</h3>
         <ul>

@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001h9x1up",
+  "_key": "!items!uRoPMan001h9x1up",
+  "name": "Alarm verzoegern III",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_alarm_verzoegern_iii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "free",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "standard_conflict",
+    "rulesShort": "Meisterliches Alarm-verzoegern fuer harte Zeitkontrolle im laufenden Entdeckungsdruck.",
+    "description": "Meisterrank fuer Alarm verzoegern. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Mehrere Alarmschritte oder aktive Gegenwehr laufen gleichzeitig. Bei Gelingen: Der Alarmpfad wird deutlich laenger gestaut oder sauber umgeleitet. Bei Teilerfolg: Auch ohne Vollerfolg bleibt genug Zeitgewinn fuer kritische Anschlussentscheidungen. Risiko: Bei groben Fehlschlaegen drohen weiter harte Spaetfolgen, aber die Routine gegen Alarmketten ist klar auf Meistergrad.",
+    "notes": "Meisterreaktion gegen Alarmketten: Verzoegerung bleibt auch unter Gegenlast laenger stabil."
+  }
+}

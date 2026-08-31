@@ -116,6 +116,13 @@ async function runSystemMigrations(fromVersion, toVersion) {
           if (!foundry.utils.hasProperty(item, "system.learnCostEp")) itemUpdates["system.learnCostEp"] = 0;
         }
 
+        if (item.type === "maneuver") {
+          const legacyTier = item.system?.tier;
+          if (typeof legacyTier === "string" && /^T[0-6]$/.test(legacyTier)) itemUpdates["system.tier"] = Number(legacyTier.slice(1));
+          else if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 1;
+          if (!foundry.utils.hasProperty(item, "system.skillItemId")) itemUpdates["system.skillItemId"] = "";
+        }
+
         if (Object.keys(itemUpdates).length > 0) {
           await item.update(itemUpdates);
         }
@@ -177,6 +184,13 @@ async function runSystemMigrations(fromVersion, toVersion) {
         if (!foundry.utils.hasProperty(item, "system.riskProfileText")) itemUpdates["system.riskProfileText"] = "";
         if (!foundry.utils.hasProperty(item, "system.typicalEffectsText")) itemUpdates["system.typicalEffectsText"] = "";
         if (!foundry.utils.hasProperty(item, "system.learnCostEp")) itemUpdates["system.learnCostEp"] = 0;
+      }
+
+      if (item.type === "maneuver") {
+        const legacyTier = item.system?.tier;
+        if (typeof legacyTier === "string" && /^T[0-6]$/.test(legacyTier)) itemUpdates["system.tier"] = Number(legacyTier.slice(1));
+        else if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 1;
+        if (!foundry.utils.hasProperty(item, "system.skillItemId")) itemUpdates["system.skillItemId"] = "";
       }
 
       if (Object.keys(itemUpdates).length > 0) {

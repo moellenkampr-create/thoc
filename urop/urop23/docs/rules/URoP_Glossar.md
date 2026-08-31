@@ -99,7 +99,7 @@ Balance-Hinweis:
 ## 6. Item-/Manoever-Feldbegriffe (Sheet + Datenkern)
 
 ### 6.1 Gemeinsame Kernbegriffe
-- Tier: Einordnung der Staerke-/Komplexitaetsstufe (z. B. T0 bis T3).
+- Tier: Numerische Einordnung der Staerke-/Komplexitaetsstufe. Der aktuelle Standardbereich ist 0 bis 6; Werte über 6 benötigen eine ausdrückliche Sonderregel.
 - Lernkosten EP (`learnCostEp`): Erwerbskosten in Entwicklungspunkten fuer den Eintrag oder Rank.
 - Aktionskosten (`actionCost`): Einsatzaufwand im Konflikt; aktiv: `free`, `small_action`, `action`, `two_actions`, `three_actions`, `four_actions`.
 - Einsatzfenster (`usageWindow`): Nutzungsfenster je Konflikt/Szene oder vorbereitete Anwendung; aktiv: `unlimited`, `once_per_conflict`, `once_per_scene`, `prepared`.
@@ -142,7 +142,7 @@ Der Waffen-Langtext soll bei der Erstellung in dieser Reihenfolge lesbar sein:
 - Fuer den aktuellen Feldkern sind keine aktiven Doppelbezeichnungen mit unterschiedlicher Bedeutung vorgesehen.
 
 ### 6.6 Cyberware-Feldbegriffe
-- Tier (`tier`): Einordnung in Ausbaustufe/Qualitaetssegment.
+- Tier (`tier`): Numerische Einordnung in Ausbaustufe/Qualitaetssegment. Standardbereich 0 bis 6; die bestehende Manöver-Referenz nutzt aktuell Tier 0 bis 3.
 - Aktivierungstyp (`activationType`): Nutzungsmodus (`passive`, `active`, `reaction`, `scene`).
 - Hat Mod-Slots (`hasModSlots`): Boolescher Schalter, ob Zusatzmodule andocken koennen.
 - Preis (`price`): Standardkosten in der Weltoekonomie.

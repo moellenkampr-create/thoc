@@ -440,7 +440,18 @@
     <div class="tab" data-group="primary" data-tab="maneuvers">
       <div class="card">
         <div class="list-header"><h3>Manöver</h3><button type="button" class="create-item-btn" data-action="create-item" data-item-type="maneuver">+</button></div>
-        <ul class="item-list interactive-list">{{#each itemGroups.maneuver as |item|}}<li><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></li>{{/each}}</ul>
+        <table class="combat-skill-table maneuver-table">
+          <thead><tr><th>Manöver</th><th class="combat-probe-head">Probe</th><th>Einsatzfenster</th></tr></thead>
+          <tbody>
+            {{#each maneuverRows as |item|}}
+            <tr>
+              <td><button type="button" class="item-open" data-action="open-item" data-item-id="{{item._id}}">{{item.name}}</button></td>
+              <td class="combat-probe-cell"><button type="button" class="skill-probe-btn" data-action="roll-skill-probe" data-item-id="{{item._id}}" title="{{item.name}} – Probe" aria-label="{{item.name}} – Probe">⚄ ⚄ ⚄</button></td>
+              <td>{{item.usageWindowLabel}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
       </div>
     </div>
 

@@ -17,13 +17,15 @@
 
     <div class="tab" data-group="primary" data-tab="details">
       <div class="card">
-        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Tier'}}">Tier</label>
-        <select name="system.tier">
-          <option value="T0" {{#if (uropEq item.system.tier "T0")}}selected{{/if}}>T0 - Grundmanöver</option>
-          <option value="T1" {{#if (uropEq item.system.tier "T1")}}selected{{/if}}>T1 - Kernmanöver</option>
-          <option value="T2" {{#if (uropEq item.system.tier "T2")}}selected{{/if}}>T2 - Fortgeschrittenes Manöver</option>
-          <option value="T3" {{#if (uropEq item.system.tier "T3")}}selected{{/if}}>T3 - Meistermanöver</option>
+        <label>Fertigkeit</label>
+        <select name="system.skillItemId">
+          <option value="">Nicht zugeordnet</option>
+          {{#each skillOptions as |skill|}}
+          <option value="{{skill._id}}" {{#if (uropEq ../item.system.skillItemId skill._id)}}selected{{/if}}>{{skill.name}} ({{skill.system.type}}, Stufe {{skill.system.level}})</option>
+          {{/each}}
         </select>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Tier'}}">Tier</label>
+        <input type="number" name="system.tier" value="{{item.system.tier}}" min="0" max="6" step="1"/>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.LearnCostEp'}}">Lernkosten EP</label>
         <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ActionCost'}}">Aktionskosten</label>

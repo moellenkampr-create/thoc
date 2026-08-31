@@ -172,7 +172,8 @@
       "notes": ""
     },
     "maneuver": {
-      "tier": "T1",
+      "tier": 1,
+      "skillItemId": "",
       "learnCostEp": 15,
       "actionCost": "action",
       "usageWindow": "once_per_conflict",

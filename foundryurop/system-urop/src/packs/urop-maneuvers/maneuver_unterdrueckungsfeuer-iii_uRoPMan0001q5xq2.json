@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0001q5xq2",
+  "_key": "!items!uRoPMan0001q5xq2",
+  "name": "Unterdrueckungsfeuer III",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_unterdrueckungsfeuer_iii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "action",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Meisterliches Unterdrueckungsfeuer fuer harte Raumhoheit in kritischen Sto?lagen.",
+    "description": "Meisterrank fuer Unterdrueckungsfeuer. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Kritischer Raumknoten, Flankenwechsel oder gesicherter Rueckzug unter hohem Gegnerdruck. Bei Gelingen: Bewegung durch die kontrollierte Zone wird massiv unattraktiv. Bei Teilerfolg: Weniger vollstaendige Sperre, aber deutlicher Tempoverlust fuer den Gegner. Risiko: Bleibt ressourcenintensiv und kann bei Fehllesung die eigene Linie entbloessen.",
+    "notes": "Meisterliche Flaechenkontrolle: Vorstossfenster brechen haerter weg, ohne dass das Manoever zur Dauerloesung wird."
+  }
+}

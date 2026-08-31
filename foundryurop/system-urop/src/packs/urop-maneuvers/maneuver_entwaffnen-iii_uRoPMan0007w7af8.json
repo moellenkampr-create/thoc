@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0007w7af8",
+  "_key": "!items!uRoPMan0007w7af8",
+  "name": "Entwaffnen III",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_entwaffnen_iii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "action",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Meisterliches Entwaffnen fuer harte Kontrolle ueber Waffenlinie und Anschlusslage.",
+    "description": "Meisterrank fuer Entwaffnen. Einordnung: Kampf, aktiv, Oeffnung/Kontrolle. Typisches Einsatzfenster: Die Figur liest Waffenlinie, Abstand und Hebel sehr praezise und setzt den Zugriff in einem engen, aber klaren Moment. Bei Gelingen: Waffenkontrolle kippt stark zugunsten der handelnden Figur; Entwaffnung oder nachhaltige Unbrauchbarkeit wird wahrscheinlicher. Bei Teilerfolg: Der Gegner behaelt eventuell die Waffe, aber unter deutlich schlechterer Linie und mit klarer Anschlussgefahr. Risiko: Bleibt ein tiefes Linienmanoever und ist nicht als Spamwerkzeug gedacht.",
+    "notes": "Meisterlicher Zugriff auf Waffenlinie; bei guter Lage wird aus Stoerung oft nachhaltige Entwaffnung."
+  }
+}

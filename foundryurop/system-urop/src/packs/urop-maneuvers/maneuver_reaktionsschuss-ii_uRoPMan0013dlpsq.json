@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0013dlpsq",
+  "_key": "!items!uRoPMan0013dlpsq",
+  "name": "Reaktionsschuss II",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_reaktionsschuss_ii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "free",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "standard_conflict",
+    "rulesShort": "Fortgeschrittener Reaktionsschuss mit verlaesslicherem Timing gegen Peek-, Lauf- und Expositionsfenster.",
+    "description": "Fortgeschrittener Rank fuer Reaktionsschuss. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Gegnerischer Peek, Sprint oder Positionswechsel in klarer Sichtlinie. Bei Gelingen: Das Abfangfenster greift verlaesslicher und bremst Vorstoss sauberer. Bei Teilerfolg: Immer noch nennenswerter Bewegungsdruck auf den Gegner, auch wenn kein voller Stopp gelingt. Risiko: Das Reaktionsfenster bleibt knapp; Fehllesen kostet weiterhin reale Antworten gegen andere Trigger.",
+    "notes": "Die Figur bindet ihr Reaktionsfenster weiterhin voll, liest Expositionsmomente aber praeziser und verliert seltener in Feintaeuschungen."
+  }
+}

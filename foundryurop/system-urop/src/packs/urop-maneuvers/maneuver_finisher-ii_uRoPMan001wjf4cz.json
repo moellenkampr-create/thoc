@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001wjf4cz",
+  "_key": "!items!uRoPMan001wjf4cz",
+  "name": "Finisher II",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_finisher_ii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "two_actions",
+    "usageWindow": "prepared",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Sichererer oder etwas flexiblerer Finisher nach klarer Oeffnung.",
+    "description": "Fortgeschrittener Finisher-Rank fuer Figuren, die Abschlusslagen nicht nur erkennen, sondern kontrollierter ausspielen. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist deutlich angeschlagen, in gebrochener Linie oder unter stabiler Kontrolle. Typische Gegenlage: Zu frueher Einsatz bleibt riskant, aber Rank II erlaubt bereits feinere Lesart der Lage. Bei Gelingen: Der Abschluss sitzt verlaesslicher oder kippt die Szene noch deutlicher. Bei Teilerfolg: Hoher Druck bleibt erhalten, ohne dass die eigene Figur so hart offen im Leeren endet wie bei Rank I. Designhinweis: Rank II ist als Wahlverbesserung gedacht und entfernt nicht automatisch alle Nachteile.",
+    "notes": "Die Abschlusslage bleibt eng, aber die Fehlansage frisst weniger hart die eigene Linie."
+  }
+}

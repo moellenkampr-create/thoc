@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0007uqeuk",
+  "_key": "!items!uRoPMan0007uqeuk",
+  "name": "Umreissen / Niederwerfen",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_umreissen_niederwerfen"
+    }
+  },
+  "system": {
+    "tier": 1,
+    "skillItemId": "",
+    "learnCostEp": 15,
+    "actionCost": "action",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "standard_conflict",
+    "rulesShort": "Bricht Stand, Schwerpunkt oder Laufkontrolle, um ein Ziel aus stabiler Position zu holen.",
+    "description": "Kontrollmanoever gegen Haltung und Stand statt gegen rohe Trefferwirkung. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Der Gegner steht unguenstig, wird gedraengt, ist in Bewegung oder verliert kurz seine stabile Linie. Typische Gegenlage: Misslingt das Manoever, kann der Gegner Griff, Clinch oder Vorstoss gegen die tiefe Linie der angreifenden Figur setzen. Bei Gelingen: Der Gegner geht zu Boden, verliert stabilen Stand oder muss zuerst seine Haltung wiederfinden. Bei Teilerfolg: Das Ziel bleibt stehen, verliert aber Position, Tempo oder eine saubere Folgehandlung. Risiko: Scheitert das Manoever offen, steht die handelnde Figur oft tief in der Linie und laedt zu Gegengriff oder Gegenstoss ein. Designhinweis: Gute Kontrolltechnik ohne Abschlusscharakter.",
+    "notes": "Aktiver Kontrollimpuls gegen Stand und Schwerpunkt."
+  }
+}

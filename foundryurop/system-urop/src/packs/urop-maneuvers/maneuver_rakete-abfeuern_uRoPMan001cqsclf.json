@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001cqsclf",
+  "_key": "!items!uRoPMan001cqsclf",
+  "name": "Rakete abfeuern",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_rakete_abfeuern"
+    }
+  },
+  "system": {
+    "tier": 2,
+    "skillItemId": "",
+    "learnCostEp": 30,
+    "actionCost": "two_actions",
+    "usageWindow": "unlimited",
+    "reuseEscalation": "none",
+    "rulesShort": "Laden und Abfeuern einer tragbaren oder Fahrzeug-Raketenwaffe.",
+    "description": "Fernkampf-Kernmanoever fuer Raketenwaffen. Einordnung: Kampf, aktiv, Verheerende Effekte.",
+    "notes": "Schulter-Rakete oder Fahrzeug-System. Braucht ruhigen Stand oder Fahrzeug-Montage."
+  }
+}

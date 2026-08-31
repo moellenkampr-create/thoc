@@ -133,14 +133,14 @@ ManÃ¶ver, KrÃ¤fte, Zauber und Quickhacks werden Ã¼ber drei Ebenen begrenzt
 - 2. Einsatz: mindestens leichte Konsequenz
 - 3. Einsatz: mittlere oder schwere Konsequenz und erhÃ¶htes Risiko
 
-Die **Lernkosten** (EP) fÃ¼r besondere FÃ¤higkeiten folgen dem Tier-Raster:
+Die **Lernkosten** (EP) fÃ¼r besondere FÃ¤higkeiten folgen dem aktuellen Tier-Raster 0 bis 3. Der gemeinsame Standardbereich reicht von 0 bis 6; Referenzkosten für Tier 4 bis 6 bleiben bis zum Balancing offen.
 
 | Tier | EP-Richtwert |
 |------|-------------|
-| T0 | 0 EP |
-| T1 | 15 EP |
-| T2 | 30 EP |
-| T3 | 50 EP |
+| Tier 0 | 0 EP |
+| Tier 1 | 15 EP |
+| Tier 2 | 30 EP |
+| Tier 3 | 50 EP |
 
 ManÃ¶ver mit Rank-Familien kÃ¶nnen davon abweichen (â†’ Abschnitt 4.4).
 
@@ -522,35 +522,35 @@ ManÃ¶ver werden in Rank-Familien (Iâ€“III) gelernt. HÃ¶here Ranks sind 
 
 | Familie | Rank | Tier | EP (Erwerb) | Aktionskosten | Reaktionsfenster | Fenster |
 |---------|------|------|-------------|---------------|-----------------|---------|
-| Befreien aus Griff | I | T0 | 0 | frei | ja | unbegrenzt |
-| Schnellziehen | I | T0 | 0 | frei | ja | unbegrenzt |
-| Schnellziehen | II | T1 | 15 | frei | ja | unbegrenzt |
-| Schnellziehen | III | T2 | 15 | frei | ja | unbegrenzt |
-| Entwaffnen | I | T1 | 15 | Aktion | nein | 1Ã— pro Kampf |
-| Entwaffnen | II | T2 | 15 | Aktion | nein | 1Ã— pro Kampf |
-| Entwaffnen | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
-| UmreiÃŸen / Niederwerfen | I | T1 | 15 | Aktion | nein | 1Ã— pro Kampf |
-| Festsetzen | I | T2 | 30 | Aktion | nein | 1Ã— pro Szene |
-| Festsetzen | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
-| Festsetzen | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
-| Konter | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
-| Finisher | I | T2 | 30 | 2 Aktionen | nein | vorbereitet |
-| Finisher | II | T3 | 20 | 2 Aktionen | nein | vorbereitet |
-| PrÃ¤zisionsschuss | I | T1 | 15 | Aktion | nein | unbegrenzt |
-| PrÃ¤zisionsschuss | II | T2 | 15 | Aktion | nein | unbegrenzt |
-| PrÃ¤zisionsschuss | III | T3 | 20 | Aktion | nein | 1Ã— pro Kampf |
-| UnterdrÃ¼ckungsfeuer | I | T2 | 30 | 2 Aktionen | nein | 1Ã— pro Szene |
-| UnterdrÃ¼ckungsfeuer | II | T3 | 20 | 2 Aktionen | nein | 1Ã— pro Szene |
-| Reaktionsschuss | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
-| Reaktionsschuss | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
-| GesprÃ¤chsschock | I | T2 | 30 | Aktion | nein | 1Ã— pro Szene |
-| GesprÃ¤chsschock | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
-| Sozialer Konter | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
-| Sozialer Konter | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
-| Bypass | I | T2 | 30 | Aktion | nein | 1Ã— pro Szene |
-| Bypass | II | T3 | 20 | Aktion | nein | 1Ã— pro Szene |
-| Alarm verzÃ¶gern | I | T2 | 30 | frei | ja | 1Ã— pro Kampf |
-| Alarm verzÃ¶gern | II | T3 | 20 | frei | ja | 1Ã— pro Kampf |
+| Befreien aus Griff | I | 0 | 0 | frei | ja | unbegrenzt |
+| Schnellziehen | I | 0 | 0 | frei | ja | unbegrenzt |
+| Schnellziehen | II | 1 | 15 | frei | ja | unbegrenzt |
+| Schnellziehen | III | 2 | 15 | frei | ja | unbegrenzt |
+| Entwaffnen | I | 1 | 15 | Aktion | nein | 1Ã— pro Kampf |
+| Entwaffnen | II | 2 | 15 | Aktion | nein | 1Ã— pro Kampf |
+| Entwaffnen | III | 3 | 20 | Aktion | nein | 1Ã— pro Kampf |
+| UmreiÃŸen / Niederwerfen | I | 1 | 15 | Aktion | nein | 1Ã— pro Kampf |
+| Festsetzen | I | 2 | 30 | Aktion | nein | 1Ã— pro Szene |
+| Festsetzen | II | 3 | 20 | Aktion | nein | 1Ã— pro Szene |
+| Festsetzen | III | 3 | 20 | Aktion | nein | 1Ã— pro Kampf |
+| Konter | I | 2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Finisher | I | 2 | 30 | 2 Aktionen | nein | vorbereitet |
+| Finisher | II | 3 | 20 | 2 Aktionen | nein | vorbereitet |
+| PrÃ¤zisionsschuss | I | 1 | 15 | Aktion | nein | unbegrenzt |
+| PrÃ¤zisionsschuss | II | 2 | 15 | Aktion | nein | unbegrenzt |
+| PrÃ¤zisionsschuss | III | 3 | 20 | Aktion | nein | 1Ã— pro Kampf |
+| UnterdrÃ¼ckungsfeuer | I | 2 | 30 | 2 Aktionen | nein | 1Ã— pro Szene |
+| UnterdrÃ¼ckungsfeuer | II | 3 | 20 | 2 Aktionen | nein | 1Ã— pro Szene |
+| Reaktionsschuss | I | 2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Reaktionsschuss | II | 3 | 20 | frei | ja | 1Ã— pro Kampf |
+| GesprÃ¤chsschock | I | 2 | 30 | Aktion | nein | 1Ã— pro Szene |
+| GesprÃ¤chsschock | II | 3 | 20 | Aktion | nein | 1Ã— pro Szene |
+| Sozialer Konter | I | 2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Sozialer Konter | II | 3 | 20 | frei | ja | 1Ã— pro Kampf |
+| Bypass | I | 2 | 30 | Aktion | nein | 1Ã— pro Szene |
+| Bypass | II | 3 | 20 | Aktion | nein | 1Ã— pro Szene |
+| Alarm verzÃ¶gern | I | 2 | 30 | frei | ja | 1Ã— pro Kampf |
+| Alarm verzÃ¶gern | II | 3 | 20 | frei | ja | 1Ã— pro Kampf |
 
 Aktionskosten-Referenz: frei, kleine Aktion, Aktion, 2 Aktionen, 3 Aktionen, 4 Aktionen.
 Fenster-Referenz: unbegrenzt, 1x pro Kampf, 1x pro Szene, vorbereitet.

@@ -6,6 +6,7 @@ import {
   buildDerivedLeadAttributes,
   buildInitiativeValues,
   buildLeadAttributeValues,
+  buildManeuverRollLabel,
   buildResistanceValues,
   buildQuickhackRollLabel,
   buildSkillRollLabel,
@@ -220,5 +221,15 @@ test("quickhack roll labels include tier and assigned skill details", () => {
       { name: "Hacking", system: { type: "specialization", level: 4 } }
     ),
     "Cyberkampf – Autoturret auf Freundlich (3) mit Hacking (Spezialfertigkeit) (4) ausgeführt."
+  );
+});
+
+test("maneuver roll labels include tier and assigned skill details", () => {
+  assert.equal(
+    buildManeuverRollLabel(
+      { name: "Entwaffnen", system: { tier: 2 } },
+      { name: "Nahkampf", system: { type: "broad", level: 3 } }
+    ),
+    "Manöver – Entwaffnen (2) mit Nahkampf (Sammelfertigkeit) (3) ausgeführt."
   );
 });

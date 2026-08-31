@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan0016mzd68",
+  "_key": "!items!uRoPMan0016mzd68",
+  "name": "Praezisionsschuss III",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_praezisionsschuss_iii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "action",
+    "usageWindow": "unlimited",
+    "reuseEscalation": "none",
+    "rulesShort": "Meisterlicher Praezisionsschuss mit minimaler Vorbereitungszeit und hoher Zielkontrolle.",
+    "description": "Meisterrank fuer gezielte Fernkampfwirkung. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur findet auch in engeren Zeitfenstern noch saubere Zielwirkung, sofern Linie und Lage stimmen. Bei Gelingen: Hohe Praezision gegen Deckung, Ausruestung, Haltung oder kleine Zielzonen. Bei Teilerfolg: Noch immer sehr brauchbare Zielwirkung mit deutlich weniger totlaufender Vorbereitung als bei den unteren Ranks. Designhinweis: Rank III macht das Manoever schnell, aber nicht billig; Lage, Sicht und Waffenfuehrung bleiben hart.",
+    "notes": "Die Zielwirkung bleibt gezielt, aber der Schuss braucht nur noch einen Aktionsschritt statt langer Aufbaukette."
+  }
+}

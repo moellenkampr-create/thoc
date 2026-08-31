@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan000o038mz",
+  "_key": "!items!uRoPMan000o038mz",
+  "name": "Sozialer Konter III",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_sozialer_konter_iii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "free",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Meisterlicher Sozialer Konter fuer harte Deutungsumkehr in Schluesselmomenten.",
+    "description": "Meisterrank fuer Sozialer Konter. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Sichtbare Statusattacke mit hohem Publikumseffekt oder strategischer Spitze. Bei Gelingen: Der Angreifer verliert klar Deutungshoheit und oeffnet Gegenfenster fuer die reagierende Figur oder deren Team. Bei Teilerfolg: Der Angriff wird zumindest wirksam entschaerft. Risiko: Bleibt ein reaktives Spitzenwerkzeug und ist weiter durch Reaktionsknappheit und Triggerpflicht begrenzt.",
+    "notes": "Meisterreaktion im sozialen Schlagabtausch: Deutungsangriffe lassen sich in guenstige Anschlusslage drehen, ohne Reaktionsketten zu erlauben."
+  }
+}

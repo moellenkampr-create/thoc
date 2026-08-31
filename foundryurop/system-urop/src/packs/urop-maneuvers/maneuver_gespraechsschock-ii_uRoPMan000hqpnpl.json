@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan000hqpnpl",
+  "_key": "!items!uRoPMan000hqpnpl",
+  "name": "Gespraechsschock II",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_gespraechsschock_ii"
+    }
+  },
+  "system": {
+    "tier": 3,
+    "skillItemId": "",
+    "learnCostEp": 20,
+    "actionCost": "action",
+    "usageWindow": "once_per_scene",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Fortgeschrittener Gespraechsschock mit verlaesslicherem Haltungsbruch bei weiterhin hohem Eskalationspreis.",
+    "description": "Fortgeschrittener Rank fuer Gespraechsschock. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel steht unter erkennbarer Spannung und ein harter Hebel ist bereit. Bei Gelingen: Fassade und Argumentlinie brechen deutlicher, ohne sofort in chaotische Ueberhitzung zu kippen. Bei Teilerfolg: Die Erschuetterung bleibt vernuenftig verwertbar fuer Anschlussdruck. Risiko: Soziales Fallout bleibt moeglich, wird aber bei sauberer Setzung besser kontrollierbar.",
+    "notes": "Der soziale Schlag sitzt praeziser; Teilerfolge erzeugen stabilere Folgefenster fuer den eigenen Druck."
+  }
+}

@@ -71,3 +71,32 @@ test("quickhack detail fields are unique to prevent duplicate form values", () =
   assert.equal((template.match(/name="system\.tier"/g) || []).length, 1);
   assert.equal((template.match(/>Fertigkeit</g) || []).length, 1);
 });
+
+test("maneuver details and compendium use numeric tiers with local skill assignment", () => {
+  const template = JSON.parse(read("template.json"));
+  const sheet = read("templates/items/maneuver-sheet.hbs");
+  const sourceDirectory = path.join(root, "src", "packs", "urop-maneuvers");
+  const sources = fs.readdirSync(sourceDirectory).filter((filename) => filename.startsWith("maneuver_"));
+
+  assert.equal(template.Item.maneuver.tier, 1);
+  assert.equal(template.Item.maneuver.skillItemId, "");
+  assert.equal((sheet.match(/name="system\.skillItemId"/g) || []).length, 1);
+  assert.equal((sheet.match(/name="system\.tier"/g) || []).length, 1);
+  assert.equal(sources.length, 38);
+  for (const filename of sources) {
+    const maneuver = JSON.parse(read(path.join("src", "packs", "urop-maneuvers", filename)));
+    assert.equal(maneuver.type, "maneuver");
+    assert.equal(typeof maneuver.system.tier, "number");
+    assert.ok(maneuver.system.tier >= 0 && maneuver.system.tier <= 6);
+  }
+});
+
+test("structured maneuver data uses the shared numeric tier range", () => {
+  const maneuvers = JSON.parse(read("../../urop/urop23/data/URoP_Manoever.json"));
+
+  assert.deepEqual(maneuvers.enums.tier, [0, 1, 2, 3, 4, 5, 6]);
+  for (const maneuver of maneuvers.entries) {
+    assert.equal(typeof maneuver.tier, "number");
+    assert.ok(maneuver.tier >= 0 && maneuver.tier <= 6);
+  }
+});

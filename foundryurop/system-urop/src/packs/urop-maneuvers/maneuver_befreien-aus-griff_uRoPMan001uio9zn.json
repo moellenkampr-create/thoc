@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan001uio9zn",
+  "_key": "!items!uRoPMan001uio9zn",
+  "name": "Befreien aus Griff",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_befreien_aus_griff"
+    }
+  },
+  "system": {
+    "tier": 0,
+    "skillItemId": "",
+    "learnCostEp": 0,
+    "actionCost": "free",
+    "usageWindow": "unlimited",
+    "reuseEscalation": "none",
+    "rulesShort": "Loest oder lockert einen bestehenden Griff, damit wieder Bewegung oder Distanznahme moeglich wird.",
+    "description": "Defensives Grundmanoever gegen unmittelbare koerperliche Kontrolle im Nahkampf. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Die Figur steht bereits unter Griff, Halt oder direkter koerperlicher Kontrolle. Typische Gegenlage: Bei Fehlschlag bleibt der Griff bestehen und der Gegner kann Druck, Hebel oder Nachsetzen aufbauen. Typische Antwortart: entziehen. Bei Gelingen: Der gegnerische Griff wird geloest oder soweit gebrochen, dass wieder normale Bewegung, Distanznahme oder Anschlussaktion moeglich wird. Bei Teilerfolg: Die Kontrolle lockert sich, aber der Gegner bleibt in Reichweite oder eroeffnet direktes Nachsetzen. Risiko: Scheitert der Versuch klar, bleibt die Figur gebunden und oeffnet sich fuer unmittelbaren Gegendruck. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Wichtig, damit Nahkampfkontrolle stark, aber nie absolut bleibt; teilt sich das Reaktionsfenster mit anderen Antworten.",
+    "notes": "Defensives Sofortmanoever; verbraucht das Reaktionsfenster, wenn es als unmittelbare Antwort gelesen wird."
+  }
+}

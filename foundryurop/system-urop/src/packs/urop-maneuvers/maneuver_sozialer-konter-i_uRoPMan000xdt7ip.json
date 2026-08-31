@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan000xdt7ip",
+  "_key": "!items!uRoPMan000xdt7ip",
+  "name": "Sozialer Konter I",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_sozialer_konter"
+    }
+  },
+  "system": {
+    "tier": 2,
+    "skillItemId": "",
+    "learnCostEp": 30,
+    "actionCost": "free",
+    "usageWindow": "once_per_conflict",
+    "reuseEscalation": "standard_conflict",
+    "rulesShort": "Dreht einen sichtbaren Angriff auf Ansehen, Deutung oder Position gegen seinen Urheber zurueck.",
+    "description": "Reaktive Sozialmacht gegen offene Deutungs-, Status- oder Glaubwuerdigkeitsangriffe. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Jemand setzt gerade sichtbar zu Blosstellung, Deutungshoheit, Statusangriff oder Glaubwuerdigkeitsbruch an; diffuses Unbehagen reicht nicht. Typische Gegenlage: Ein schwacher Konter wirkt defensiv, duennhaeutig oder ausweichend und kann den Angriff sogar verstaerken. Typische Antwortart: umkehren. Bei Gelingen: Der Angriff laeuft ins Leere oder kippt gegen seinen Urheber; die reagierende Figur gewinnt Boden, Wuerde oder Deutungshoheit zurueck. Bei Teilerfolg: Die gegnerische Spitze wird wenigstens entschaerft, zerfasert oder auf Nebenschauplaetze gezogen. Risiko: Schlecht gesetzte Reaktivitaet kann Unsicherheit zeigen und die urspruengliche Attacke verstaerken. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Soziale Reaktivmacht muss da sein, darf aber nie kostenlose Allzweckparade werden; teilt sich das Reaktionsfenster mit anderen Antworten.",
+    "notes": "Reaktive Sozialmacht; verbraucht das gemeinsame Reaktionsfenster des Schlagabtauschs."
+  }
+}

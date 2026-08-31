@@ -1,0 +1,28 @@
+{
+  "_id": "uRoPMan000h921no",
+  "_key": "!items!uRoPMan000h921no",
+  "name": "Schnellziehen I",
+  "type": "maneuver",
+  "img": "icons/svg/combat.svg",
+  "folder": "uRoPManeuvers001",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "maneuverId": "man_schnellziehen"
+    }
+  },
+  "system": {
+    "tier": 0,
+    "skillItemId": "",
+    "learnCostEp": 0,
+    "actionCost": "free",
+    "usageWindow": "once_per_scene",
+    "reuseEscalation": "strict_scene",
+    "rulesShort": "Bringt eine Waffe im Eskalationsmoment rechtzeitig in die Szene, aber der erste Anschluss bleibt hektisch.",
+    "description": "Sehr nah an der Basisnutzung, aber mit eigenem Eskalationsfenster und klarer Tempo-Frage. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Der Uebergang von Nicht-Kampf in unmittelbare Kampfhandlung passiert gerade; es ist ein einmaliges Eskalationsfenster, kein Dauerrecht auf Vorziehen. Typische Gegenlage: Stockender Zugriff kann die Figur in Bewegung, Deckung oder Handwechsel unguenstig erwischen. Bei Gelingen: Die Figur bringt ihre Waffe rechtzeitig in die Szene und darf noch in derselben Runde anschliessen, aber der erste Angriff bleibt hektisch. Bei Teilerfolg: Die Waffe ist da, aber noch unsauber gefuehrt, schlecht ausgerichtet oder erst nach dem Gegner wirklich einsatzbereit. Risiko: Misslingt das Ziehen offen, stockt der Zugriff und die Figur verliert wertvolles Tempo im kritischen Moment. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Rank I bringt Tempo, aber noch keine kostenlose saubere Angriffsoekonomie.",
+    "notes": "Das Ziehen selbst kostet keine Aktion; der unmittelbare Folgeangriff derselben Runde ist aber erschwert oder traegt klares Risiko."
+  }
+}
