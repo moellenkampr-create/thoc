@@ -1113,3 +1113,17 @@ source: lore_db.md
       - Lauri-Nachhall: kurzer Selbstschuldabsturz, dann aktiver Gegenmarker ("nicht meine Schuld") mit direktem Rueckhalt durch Ely.
       - George-Call kippt von betrunkenem BD-Freudeton in fokussierte Krankenhaus-Zusage; er soll die Schlange aus Vics Safe mitbringen.
       - Ely/Lauri fahren unmittelbar ins Krankenhaus und halten den Waffenstatus am Eingang per Bestechung.
+  - **2077-07-30 bis 2077-07-31 (Ely-Sicht, Zugblockade / Militech-Hovertank) [ARBEITSSTAND]**:
+    - **2077-07-30 morgens/abends**:
+      - Nach Ely-Morgen und Ausruestungs-/Trainingstag gibt das Trio Thomas die Fisto-Informationen weiter und erwartet Gegeninformationen.
+      - Treffpunkt ist ein alter Bahnhof. Panam plant, einen stillgelegten Zug als Strassenblockade vor einem Militech-Konvoi zu nutzen.
+      - Der Zug fuehrt einen Uranreaktor; Ely bewertet das Verstrahlungsrisiko als massiv beunruhigend.
+      - Panam und Lauri suchen Lochkarten; Ely prueft Militech-Ruestungen auf Schwachstellen. Heat und Panam bringen den Zug wieder zum Laufen.
+      - Das Team campt am Bahnhof; Lagerfeuergeschichten ueber Nomaden und Panzerboys, Lauri trommelt.
+    - **2077-07-31 frueher Morgen/spaeter Vormittag**:
+      - Nach kurzem Sleep-Inducer-Schlaf startet der Ueberfall. KITT laeuft in Wuestentarnung.
+      - Weil der Zug zu langsam ist, wird ein Waggon abgeschossen, um die Blockade funktionieren zu lassen. Panams Fahrzeugwaffe hat parallel eine Fehlfunktion.
+      - Drohnen greifen ein; Ely setzt die schwere Waffe dagegen ein.
+      - Beim Konvoiueberfall springen Lauri und danach George aus KITT; Ely laesst KITT autonom weiterfahren und schaltet mehrere Gegner aus.
+      - Die Entfuehrung des ausgemusterten Militech-Hovertanks gelingt. Alle kehren unverletzt ins Camp zurueck, nur Lauris Hose ist beschaedigt.
+      - Im Camp entsteht Streit mit Saul ueber Panams Aktion. Ely kann ihn teilweise beruhigen; danach fruehstueckt das Trio.
