@@ -43,10 +43,10 @@ Wenn Vic zu einem bestimmten Zeitpunkt freie Cyberware-Slots/Teile verfuegbar ha
 
 ## Oggy
 **Offen (ARBEITSSTAND):**
-Der Umbau von Lauris Motorrad "May" bei Oggy ist offen. Oggy hat den Umbau nach KITT priorisiert und auf etwa 3 bis 4 Wochen gesetzt. Naechste Woche kann Lauri aber bereits vorbeikommen, damit gemeinsam geprueft wird, welche Modifikationen konkret sinnvoll und machbar sind. Seit dem 30.07 setzt Lauri zusaetzlich den direkten Kontaktmarker: Oggy soll angerufen und zum Gig eingeladen werden, weil der letzte Besuch bereits einige Tage zurueckliegt.
+Der Umbau von Lauris Motorrad "May" bei Oggy ist offen. Oggy hat den Umbau nach KITT priorisiert und auf etwa 3 bis 4 Wochen gesetzt. Naechste Woche kann Lauri aber bereits vorbeikommen, damit gemeinsam geprueft wird, welche Modifikationen konkret sinnvoll und machbar sind.
 
 **Naechster Trigger:**
-Oggy anrufen, zum Gig einladen und Vorabtermin naechste Woche fuer May-Scoping setzen.
+Vorabtermin naechste Woche fuer May-Scoping.
 
 **Moegliche Komplikation:**
 Beim May-Umbau kann KITT-Nacharbeit den realen Start weiter nach hinten schieben.
@@ -63,10 +63,10 @@ Hohe Sichtbarkeit durch Promo kann mit Sicherheits-/Elterndruck kollidieren; zus
 
 ## Elias / Thomas
 **Angebot aktiv (ARBEITSSTAND):**
-Im Golfclub-/Golden-Hint-Block bietet Elias dem Trio laut Ely-Sicht Freikauf aus Arasaka/Biotechnica an, koppelt den Ausstieg aber an neue NUSA-gebundene SINS. Als Gegenleistung will er verwertbare Informationen ueber Walter als Druckmittel gegen Arasaka. Zusaetzlich setzt er als politische Linie, dass sich das Trio nicht von Trump kaufen lassen und nach Moeglichkeit Trumps Team im Rennen ausbremsen soll. Am 30.07 leitet Lauri Thomas die Fisto-/Walter-Informationen direkt weiter; Thomas nimmt sie an und beendet den Call rasch.
+Im Golfclub-/Golden-Hint-Block bietet Elias dem Trio laut Ely-Sicht Freikauf aus Arasaka/Biotechnica an, koppelt den Ausstieg aber an neue NUSA-gebundene SINS. Als Gegenleistung will er verwertbare Informationen ueber Walter als Druckmittel gegen Arasaka. Zusaetzlich setzt er als politische Linie, dass sich das Trio nicht von Trump kaufen lassen und nach Moeglichkeit Trumps Team im Rennen ausbremsen soll.
 
 **Naechster Trigger:**
-Rueckmeldung von Thomas zu den Fisto-/Walter-Infos sowie Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
+Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
 
 **Moegliche Komplikation:**
 Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich. Neuer Druckhebel seit 29.07-Separee: Elias nutzt ein altes Bandvideo gegen George; Authentizitaet und Kontextgewicht muessen vor operativen Zusagen sauber geklaert werden.
