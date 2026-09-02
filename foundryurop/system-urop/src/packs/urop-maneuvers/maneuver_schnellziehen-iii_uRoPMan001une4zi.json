@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "free",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Schnellziehen II muss bereits gelernt sein.; Die konkrete Anschlussaktion muss weiterhin ein gueltiges Einsatzfenster, passende Lage und eigene Kosten haben.; Das Reaktionsfenster bleibt die knappe Leitplanke dieses Manoevers.",
     "rulesShort": "Meisterliches Schnellziehen, das den Uebergang in ein passendes Anschlussmanoever oeffnet, ohne dessen Preis zu loeschen.",
     "description": "Meisterrank fuer Schnellziehen. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Die Szene kippt abrupt in Gewalt, und die Figur bleibt trotzdem handlungsfaehig genug fuer einen anspruchsvolleren Anschluss. Bei Gelingen: Nicht nur der direkte Angriff, sondern auch ein passendes Anschlussmanoever derselben Runde wird moeglich, sofern dessen eigene Kosten und Voraussetzungen noch passen. Bei Teilerfolg: Die Kombination gelingt nur eingeschraenkt oder mit reduzierter Sauberkeit. Designhinweis: Rank III hebelt keine fremden Manoeverkosten aus, sondern oeffnet nur das Zeitfenster fuer sie.",
     "notes": "Die Figur darf in derselben Runde in ein passendes Anschlussmanoever uebergehen, wenn dessen normale Kosten und Voraussetzungen weiterhin erfuellt sind."

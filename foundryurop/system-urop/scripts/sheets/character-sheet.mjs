@@ -420,7 +420,6 @@ export class UropCharacterSheet extends ActorSheet {
     return calculateSpentEpBreakdown({
       attributes: this.actor.system.attributes || {},
       skillItems: Array.from(this.actor.items.values()).filter((item) => item.type === "skill"),
-      maneuverItems: Array.from(this.actor.items.values()).filter((item) => item.type === "maneuver"),
       readLearnCostEp: (item) => this._readLearnCostEp(item)
     });
   }

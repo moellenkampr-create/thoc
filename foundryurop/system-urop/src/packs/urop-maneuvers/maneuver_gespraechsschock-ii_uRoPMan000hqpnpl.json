@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Gespraechsschock I muss bereits gelernt sein.; Ein plausibler sozialer Hebel oder belastender Wahrheitsmoment bleibt Pflicht.; Die Szene muss den harten Schlag oeffentlich oder interpersonal tragen koennen.",
     "rulesShort": "Fortgeschrittener Gespraechsschock mit verlaesslicherem Haltungsbruch bei weiterhin hohem Eskalationspreis.",
     "description": "Fortgeschrittener Rank fuer Gespraechsschock. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel steht unter erkennbarer Spannung und ein harter Hebel ist bereit. Bei Gelingen: Fassade und Argumentlinie brechen deutlicher, ohne sofort in chaotische Ueberhitzung zu kippen. Bei Teilerfolg: Die Erschuetterung bleibt vernuenftig verwertbar fuer Anschlussdruck. Risiko: Soziales Fallout bleibt moeglich, wird aber bei sauberer Setzung besser kontrollierbar.",
     "notes": "Der soziale Schlag sitzt praeziser; Teilerfolge erzeugen stabilere Folgefenster fuer den eigenen Druck."

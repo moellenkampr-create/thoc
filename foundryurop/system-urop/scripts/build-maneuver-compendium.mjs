@@ -58,10 +58,10 @@ for (const [index, maneuver] of orderedManeuvers.entries()) {
     system: {
       tier: tierValue(maneuver.tier),
       skillItemId: "",
-      learnCostEp: maneuver.learnCostEp ?? 0,
       actionCost: maneuver.actionCost || "action",
       usageWindow: maneuver.usageWindow || "once_per_conflict",
       reuseEscalation: maneuver.reuseEscalationProfile || "none",
+      prerequisitesText: maneuver.requirementsText || "",
       rulesShort: maneuver.rulesShort || "",
       description: maneuver.description || "",
       notes: maneuver.activationNotes || ""

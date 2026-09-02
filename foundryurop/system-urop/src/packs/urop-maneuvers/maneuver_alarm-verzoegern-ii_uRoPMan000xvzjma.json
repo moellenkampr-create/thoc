@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Alarm verzoegern I muss bereits gelernt sein.; Ein laufender oder unmittelbar drohender Alarmpfad bleibt Pflicht.; Das Reaktionsfenster der Figur muss frei sein und wird verbraucht.",
     "rulesShort": "Fortgeschrittenes Alarm-verzoegern mit besserer Zeitgewinn-Qualitaet im laufenden Zugriff.",
     "description": "Fortgeschrittener Rank fuer Alarm verzoegern. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Alarmkette laeuft bereits oder kippt gerade. Bei Gelingen: Verzoegerung ist stabiler und schafft klarere Teamzeit fuer Flucht, Abschluss oder Umstellung. Bei Teilerfolg: Es bleibt eine kuerzere, aber verwertbare Verzoegerung mit kontrollierbarer Spur. Risiko: Reaktive Eingriffe bleiben sichtbar, doch Rank II reduziert haeufige Fruehenttarnung.",
     "notes": "Reaktiver Eingriff sitzt schneller und verlaesslicher; kurze Stoerfenster werden seltener sofort erkannt."

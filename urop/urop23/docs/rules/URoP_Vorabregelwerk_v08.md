@@ -320,6 +320,8 @@ Aktiver Regelstand fuer Lernkosten:
 
 Bei unklarer Einordnung zwischen Aktions- und Flufffertigkeit entscheidet die Spielleitung entlang der Definitionskriterien.
 
+Parent-Verknuepfungen und weitere Voraussetzungen erzeugen keine Zusatzkosten. Mit Zustimmung der Spielleitung darf eine Fertigkeit gewählt werden, wenn ihre Voraussetzungen erfüllt sind.
+
 ### 2.5 Spezialattribute / Sondernatur
 
 Spezialattribute sind optional. ZusatzkrÃ¤fte sind nicht fest an Geist gebunden; sie kÃ¶nnen an KÃ¶rper, Geist oder PrÃ¤senz andocken. ZugÃ¤nge laufen eher Ã¼ber Freischaltung, Vorteil, Begabung und passende Fertigkeiten.
@@ -555,6 +557,8 @@ ManÃ¶ver werden in Rank-Familien (Iâ€“III) gelernt. HÃ¶here Ranks sind 
 Aktionskosten-Referenz: frei, kleine Aktion, Aktion, 2 Aktionen, 3 Aktionen, 4 Aktionen.
 Fenster-Referenz: unbegrenzt, 1x pro Kampf, 1x pro Szene, vorbereitet.
 
+Die in der Referenztabelle sichtbare EP-Spalte ist historisch und nicht aktiv. Manöver kosten keine EP; sie werden mit Zustimmung der Spielleitung gewählt, wenn ihre Voraussetzungen erfüllt sind.
+
 Kurzrollen fÃ¼r die wichtigsten EinzelmanÃ¶ver:
 - **Befreien aus Griff:** LÃ¶st oder lockert einen bestehenden Griff.
 - **Schnellziehen:** Bringt Waffe im Eskalationsmoment rechtzeitig in die Szene.
@@ -667,6 +671,8 @@ Cyberware erweitert den Kern Ã¼ber neue Sinne, Schnittstellen, Schutzlagen, Sp
 #### Quickhack-Zugriff und Netzwerkstruktur
 
 Quickhacks sind digitale Eingriffe auf vernetzte Ziele, Systeme und Raumtechnik. Sie sind keine Magie. Fuer Quickhacks gilt die Hierarchie **Netzwerk -> Node -> System -> Subsystem**.
+
+Quickhacks sind Software-/Hardwarekomponenten und kosten keine EP. Sie werden mit Zustimmung der Spielleitung gewählt, wenn ihre Voraussetzungen erfüllt sind.
 
 - Ein **Netzwerk** verbindet Nodes und Geraete. Das Global Network gehoert nicht zum normalen Quickhack-Spiel, sondern zu einer spaeteren Matrix-/Netrunning-Ebene.
 - Ein **Node** ist ein Zugangspunkt mit eigener Sicherheit. Ein Guest-Zugang kann eine Registrierung ohne oder mit nur geringer Huerde erlauben.

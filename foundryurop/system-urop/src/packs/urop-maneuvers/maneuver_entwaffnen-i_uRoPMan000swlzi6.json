@@ -17,10 +17,10 @@
   "system": {
     "tier": 1,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "action",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen plausiblen Zugriff auf Hand oder Waffenlinie erlauben.; Nahkontakt oder eine offen lesbare Waffenlinie ist noetig.",
     "rulesShort": "Drueckt eine Waffe aus der Linie, aus der Hand oder macht sie akut unbrauchbar.",
     "description": "Kernmanoever, das nicht den Gegner selbst, sondern seine tragende Waffenfuehrung angreift. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Der Gegner fuehrt eine Waffe offen, ist im Austausch gebunden oder verliert kurz Kontrolle ueber seine Waffenfuehrung. Typische Gegenlage: Ein misslungenes Entwaffnen kann zu Gegenangriff, Distanzgewinn oder Konter gegen die offene eigene Linie fuehren. Bei Gelingen: Die Waffe wird verloren, aus der Linie gedraengt, zu Boden gebracht oder zumindest akut unbrauchbar gemacht. Bei Teilerfolg: Die Waffe bleibt beim Gegner, aber seine Linie bricht auf und Folgeaktionen gegen Haltung, Distanz oder Kontrolle werden leichter. Risiko: Wer zu tief in die gegnerische Linie geht, kann sich sichtbar fuer Gegenstoss oder Konter oeffnen. Designhinweis: Kernwerkzeug gegen bewaffnete Ziele, aber keine sichere Universalantwort.",
     "notes": "Klassisches aktives Kernmanoever ohne Zusatzfeldlogik jenseits von Lage und Risiko."

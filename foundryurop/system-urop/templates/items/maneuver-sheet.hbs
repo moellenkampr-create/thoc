@@ -26,8 +26,6 @@
         </select>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Tier'}}">Tier</label>
         <input type="number" name="system.tier" value="{{item.system.tier}}" min="0" max="6" step="1"/>
-        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.LearnCostEp'}}">Lernkosten EP</label>
-        <input type="number" name="system.learnCostEp" value="{{item.system.learnCostEp}}"/>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ActionCost'}}">Aktionskosten</label>
         <select name="system.actionCost">
           <option value="free" {{#if (uropEq item.system.actionCost "free")}}selected{{/if}}>Frei</option>
@@ -46,6 +44,8 @@
         </select>
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.ReuseEscalation'}}">Wiederholungs-Eskalation</label>
         <input type="text" name="system.reuseEscalation" value="{{item.system.reuseEscalation}}"/>
+        <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.PrerequisitesText'}}">Voraussetzungen</label>
+        <textarea name="system.prerequisitesText">{{item.system.prerequisitesText}}</textarea>
       </div>
     </div>
 

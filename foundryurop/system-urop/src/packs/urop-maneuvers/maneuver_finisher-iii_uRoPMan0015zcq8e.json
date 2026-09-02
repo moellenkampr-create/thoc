@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "prepared",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Finisher II muss bereits gelernt sein.; Eine klar erspielte Oeffnung oder sehr starke Kontrolle des Gegners bleibt Pflicht.; Die konkrete Abschlussform muss weiterhin plausibel aus Waffe, Technik und Lage hervorgehen.",
     "rulesShort": "Meisterlicher Abschluss, der aus einer starken Oeffnung schneller und kontrollierter gelesen werden darf.",
     "description": "Meisterrank fuer Finisher. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Noch immer kein Standardabschluss, aber die Figur kann starke Oeffnungen sicherer in harten Schlusspunkt umsetzen. Typische Gegenlage: Wer die Lage falsch liest, geht weiter Risiko ein; Rank III nimmt aber nicht die Notwendigkeit von Vorarbeit aus dem System. Bei Gelingen: Der Abschluss kippt den Konflikt mit hoher Verbindlichkeit. Bei Teilerfolg: Selbst ohne Vollabschluss bleibt die gegnerische Lage massiv beschaedigt. Designhinweis: Der Rank belohnt Spezialisierung, ohne Finisher zu einem spammbaren Alltagswerkzeug zu machen.",
     "notes": "Meisterabschluss; bleibt selten, aber der Abschluss frisst nicht mehr automatisch eine volle Zweischrittbindung."

@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Unterdrueckungsfeuer II muss bereits gelernt sein.; Es braucht weiterhin eine taktisch sinnvolle Feuerzone und ausreichende Munitionskontrolle.; Die Szene muss die hohe Aufmerksamkeitsbindung plausibel tragen.",
     "rulesShort": "Meisterliches Unterdrueckungsfeuer fuer harte Raumhoheit in kritischen Sto?lagen.",
     "description": "Meisterrank fuer Unterdrueckungsfeuer. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Kritischer Raumknoten, Flankenwechsel oder gesicherter Rueckzug unter hohem Gegnerdruck. Bei Gelingen: Bewegung durch die kontrollierte Zone wird massiv unattraktiv. Bei Teilerfolg: Weniger vollstaendige Sperre, aber deutlicher Tempoverlust fuer den Gegner. Risiko: Bleibt ressourcenintensiv und kann bei Fehllesung die eigene Linie entbloessen.",
     "notes": "Meisterliche Flaechenkontrolle: Vorstossfenster brechen haerter weg, ohne dass das Manoever zur Dauerloesung wird."

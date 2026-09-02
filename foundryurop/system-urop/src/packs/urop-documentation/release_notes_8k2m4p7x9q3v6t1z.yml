@@ -40,6 +40,21 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.52 - 2026-08-31</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Die automatische EP-Summe umfasst nur noch Attribute und Fertigkeiten; Manöver und Quickhacks sind kostenfreie Optionen.</li>
+        <li>Manöver und Quickhacks besitzen Voraussetzungen und werden bei erfüllten Voraussetzungen mit Spielleiterzustimmung gewählt.</li>
+        <li>Parent-Verknüpfungen von Fertigkeiten erzeugen keine separaten Freischaltungskosten mehr.</li>
+        <li>Manöver- und Quickhack-Daten sowie das Manöver-Compendium enthalten keine aktiven Lernkostenfelder mehr.</li>
+        <li>Vor- und Nachteile erhalten ein strukturiertes Feld für individuell festgelegte EP-Kosten beziehungsweise Rückgaben.</li>
+        </ul>
+        <h3>Korrigiert</h3>
+        <ul>
+        <li>Manuell angelegte Fertigkeiten zeigen ihr gesetztes Attribut als Regelanker, wenn keine eigene Regelanker-Liste hinterlegt ist.</li>
+        </ul>
+        <h3>Migration erforderlich</h3>
+        <p>Ja. Alte <code>system.learnCostEp</code>-Felder werden bei Quickhacks und Manövern entfernt.</p>
         <h2>0.1.48 - 2026-08-23</h2>
         <h3>Korrigiert</h3>
         <ul>

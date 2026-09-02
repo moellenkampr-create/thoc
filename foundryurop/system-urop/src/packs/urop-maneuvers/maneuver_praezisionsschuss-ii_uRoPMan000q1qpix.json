@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "two_actions",
     "usageWindow": "unlimited",
     "reuseEscalation": "none",
+    "prerequisitesText": "Praezisionsschuss I muss bereits gelernt sein.; Gute Sichtlinie und halbwegs kontrollierte Schusslage bleiben noetig.; Die Figur muss die Zielbindung fuer mindestens zwei Aktionsschritte halten koennen.",
     "rulesShort": "Gezielter Schuss mit verkuerzter Vorbereitung und saubererem Praxisfenster.",
     "description": "Fortgeschrittener Praezisionsschuss fuer Figuren, die Zielwirkung schneller herstellen koennen. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur kann eine brauchbare Linie halten, ohne sich drei ganze Aktionsschritte lang festzunageln. Bei Gelingen: Praezise Wirkung gegen Linie, Deckung oder kleines Ziel bleibt stark, aber die Vorbereitung frisst weniger Rundentempo. Bei Teilerfolg: Noch immer gezielter Druck, jedoch ohne ganz perfekte Ausbeute. Designhinweis: Rank II macht das Manoever praxistauglicher, nicht simpler.",
     "notes": "Gezielte Schussvorbereitung bleibt spuerbar, ist aber nicht mehr ganz so statisch wie bei Rank I."

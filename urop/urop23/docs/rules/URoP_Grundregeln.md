@@ -215,21 +215,14 @@ Aktuelles Basisraster:
 - **Tier 4 bis 6** sind im gemeinsamen Tierbereich vorgesehen; Referenzmanöver und Kosten werden erst nach Balancing festgelegt.
 
 Leitlinie:
-- Manoever nutzen direkt dieses Raster.
-- Kraefte und Zauber nutzen direkt dieses Raster.
-- Quickhacks sind aktuell **nicht bepreist** und werden vorlaeufig als programmierbarer Zugang behandelt.
+- Das Raster beschreibt Staerke und Komplexitaet, nicht automatisch EP-Kosten.
+- Manoever und Quickhacks sind Software-/Technikoptionen und kosten keine EP.
+- Kraefte und Zauber verwenden ihre jeweils bestaetigten Kostenregeln.
 
-### 5.6 Quickhack-Erwerbskosten (EP) [TESTSTAND]
-Quickhacks kosten im Build aktuell **0 EP**.
+### 5.6 Quickhack- und Manöver-Auswahl [TESTSTAND]
+Quickhacks und Manöver kosten keine EP. Sie werden mit Zustimmung der Spielleitung gewählt, wenn ihre Voraussetzungen erfüllt sind.
 
-Begruendung (vorlaeufig):
-- Quickhacks entstehen ueber Programmierung, Zugriffspfade und Szenen-Setup.
-- Balancing laeuft ueber Plausibilitaet, Zugang, Gegenwehr und Konsequenzen.
-- Eine eigene EP-Bepreisung wird in einem spaeteren Durchlauf neu bewertet.
-
-Praxisregel bis dahin:
-- Quickhack im Blatt eintragen: **0 EP**.
-- Kein Cyberdeck oder kein passender Zugriffspfad: kein Quickhack-Einsatz.
+Quickhacks balancieren über Zugriff, Tier, Sicherheitslage, Risiko, Einsatzfenster und Konsequenzen. Manöver balancieren über Voraussetzungen, Tier, Aktionskosten, Einsatzfenster und Konsequenzen.
 
 Balancing-Leitlinie im aktuellen Teststand:
 - kleine Info- und Zugangshacks duerfen weiter frei oder als normale Aktion lesbar bleiben

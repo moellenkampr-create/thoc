@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Unterdrueckungsfeuer I muss bereits gelernt sein.; Geeignete Waffe, Munitionslage und ein klar lesbarer Raumabschnitt bleiben Pflicht.; Die Figur muss den Bereich fuer die Dauer der Drucklage halten koennen.",
     "rulesShort": "Fortgeschrittenes Unterdrueckungsfeuer mit stabilerer Raumkontrolle und klareren Folgefenstern.",
     "description": "Fortgeschrittener Rank fuer Unterdrueckungsfeuer. Einordnung: Kampf, aktiv, Kontrolle. Typisches Einsatzfenster: Mehrere Gegner bewegen sich ueber denselben Korridor oder muessen Position wechseln. Bei Gelingen: Der kontrollierte Bereich bleibt dichter und zwingt Gegner haeufiger in schlechte Deckung. Bei Teilerfolg: Die Linie wirkt weiter, aber mit geringerer Flaechentiefe. Risiko: Verbrauch und Bindung bleiben hoch; Rank II reduziert jedoch den Streuverlust in dynamischer Lage.",
     "notes": "Die Feuerlinie bleibt unter Bewegung stabiler und haelt Gegner verlaesslicher aus offenen Wechseln heraus."

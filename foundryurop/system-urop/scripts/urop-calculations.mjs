@@ -111,7 +111,7 @@ export function readSkillRuleAnchors(item) {
   const anchors = rawAnchors.filter((anchor) => typeof anchor === "string" && anchor.trim().length > 0);
 
   const attributeAnchor = item?.system?.attributeAnchor;
-  if (typeof attributeAnchor === "string" && attributeAnchor.trim().length > 0) {
+  if (anchors.length === 0 && typeof attributeAnchor === "string" && attributeAnchor.trim().length > 0) {
     anchors.push(attributeAnchor);
   }
 
@@ -191,7 +191,6 @@ export function skillApplicationClassMultiplier(applicationClass) {
 export function calculateSpentEpBreakdown({
   attributes = {},
   skillItems = [],
-  maneuverItems = [],
   readLearnCostEp = (item) => toFiniteNumber(item?.system?.learnCostEp ?? 0)
 } = {}) {
   const attributeTotal = Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).reduce((sum, attrKey) => {
@@ -209,14 +208,12 @@ export function calculateSpentEpBreakdown({
     return sum + adjustedCost;
   }, 0);
 
-  const maneuverEp = maneuverItems.reduce((sum, item) => sum + readLearnCostEp(item), 0);
-
   return {
     attributes: attributeTotal,
     skills: 0,
     skillItems: skillItemTotal,
-    maneuverEp,
-    total: Math.max(0, toFiniteNumber(attributeTotal + skillItemTotal + maneuverEp))
+    maneuverEp: 0,
+    total: Math.max(0, toFiniteNumber(attributeTotal + skillItemTotal))
   };
 }
 

@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Alarm verzoegern II muss bereits gelernt sein.; Laufender Alarmpfad und plausibler technischer Zugriff bleiben Pflicht.; Das Reaktionsfenster muss frei sein und wird verbraucht.",
     "rulesShort": "Meisterliches Alarm-verzoegern fuer harte Zeitkontrolle im laufenden Entdeckungsdruck.",
     "description": "Meisterrank fuer Alarm verzoegern. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Mehrere Alarmschritte oder aktive Gegenwehr laufen gleichzeitig. Bei Gelingen: Der Alarmpfad wird deutlich laenger gestaut oder sauber umgeleitet. Bei Teilerfolg: Auch ohne Vollerfolg bleibt genug Zeitgewinn fuer kritische Anschlussentscheidungen. Risiko: Bei groben Fehlschlaegen drohen weiter harte Spaetfolgen, aber die Routine gegen Alarmketten ist klar auf Meistergrad.",
     "notes": "Meisterreaktion gegen Alarmketten: Verzoegerung bleibt auch unter Gegenlast laenger stabil."

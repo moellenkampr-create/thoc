@@ -14,6 +14,7 @@ import {
   calculateInitiativeBase,
   calculateSpentEpBreakdown,
   formatRuleAnchorLabel,
+  readSkillRuleAnchors,
   resolveLeadAttributeAnchor,
   skillApplicationClassMultiplier,
   roundCommercial
@@ -87,7 +88,7 @@ test("attribute cost table matches the active progression", () => {
   assert.equal(calculateAttributeCost(8), 180);
 });
 
-test("spent EP breakdown combines attributes, skill items, and maneuvers", () => {
+test("spent EP breakdown excludes maneuver software costs", () => {
   const attributes = Object.fromEntries(Object.keys(ATTRIBUTE_TO_LEAD_ATTRIBUTE).map((key) => [key, 2]));
   attributes.staerke = 3;
   attributes.analyse = 3;
@@ -116,8 +117,8 @@ test("spent EP breakdown combines attributes, skill items, and maneuvers", () =>
   assert.equal(breakdown.attributes, 90);
   assert.equal(breakdown.skills, 0);
   assert.equal(breakdown.skillItems, 20);
-  assert.equal(breakdown.maneuverEp, 4);
-  assert.equal(breakdown.total, 114);
+  assert.equal(breakdown.maneuverEp, 0);
+  assert.equal(breakdown.total, 110);
 });
 
 test("spent EP applies application class multipliers to skill items", () => {
@@ -212,6 +213,13 @@ test("rule anchors display readable names in the skill table", () => {
   assert.equal(formatRuleAnchorLabel("koerper"), "Körper");
   assert.equal(formatRuleAnchorLabel("staerke"), "Stärke");
   assert.equal(formatRuleAnchorLabel(""), "–");
+});
+
+test("manual skills fall back to their assigned attribute anchor", () => {
+  assert.deepEqual(
+    readSkillRuleAnchors({ system: { ruleAnchors: [], attributeAnchor: "geist" } }),
+    ["geist"]
+  );
 });
 
 test("quickhack roll labels include tier and assigned skill details", () => {

@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 30,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Elektronik, Sicherheitssysteme, Schlossmechanik oder aehnliches muessen den Umgehungspfad tragen koennen.; Eine relevante Schnittstelle, Leitung, Logik oder Schutzstruktur muss greifbar sein.; Vorwissen, Beobachtung oder Vorbereitung verbessern das Fenster deutlich.",
     "rulesShort": "Umgeht eine Schutzlogik ueber einen schmalen Zugangspfad statt sie frontal aufzubrechen.",
     "description": "Technischer Szenenoeffner fuer Umgehung statt rohe Oeffnung. Einordnung: Technik, aktiv, Oeffnung. Typisches Einsatzfenster: Eine direkte Oeffnung waere zu langsam, zu laut oder zu schwer; stattdessen wird die Schutzlogik umgangen. Typische Gegenlage: Fehler im Umgehungspfad koennen Spuren, Alarm, Rueckkopplungen oder sehr instabilen Teilzugriff erzeugen. Bei Gelingen: Die Sperre wird nicht klassisch gebrochen, sondern ueber einen schmalen und oft fragilen Pfad umgangen. Bei Teilerfolg: Es entsteht nur Teilzugriff, kurzer Zugriff oder Zugriff mit Spuren, Instabilitaet oder begrenzter Berechtigung. Risiko: Bypass kann leiser sein als rohe Gewalt, aber Fehler hinterlassen oft genau die Art von Spuren, die spaeter teuer werden. Designhinweis: Starker Szenenoeffner und deshalb klar oberhalb von T1.",
     "notes": "Starker Szenenoeffner; Spuren, Instabilitaet oder begrenzte Berechtigung bleiben bewusste Textbalancing-Punkte."

@@ -17,10 +17,10 @@
   "system": {
     "tier": 1,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "action",
     "usageWindow": "unlimited",
     "reuseEscalation": "none",
+    "prerequisitesText": "Fernkampf muss vorhanden sein.; Figur braucht freie Hand und Granate.; Zielposition muss sichtbar sein.",
     "rulesShort": "Wirft eine Granate (Splitter, Waerme, EMP, Rauch, Blendgranate) auf ein Zielgebiet.",
     "description": "Einfaches Fernkampf-Manoever fuer Handgranaten. Einordnung: Kampf, aktiv, Effekt/Kontrolle.",
     "notes": "Standard-Wurf-Manoever; Granatentypen definieren die Wirkung."

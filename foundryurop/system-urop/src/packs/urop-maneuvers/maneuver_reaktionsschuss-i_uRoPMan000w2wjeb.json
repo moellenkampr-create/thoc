@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 30,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Passende Waffenfuehrung und Bereitschaft muessen vorhanden sein.; Eine erkennbare gegnerische Bewegung, Exposition oder Positionsaenderung ist zwingend.; Die Figur bindet Aufmerksamkeit auf dieses Fenster; das gemeinsame Reaktionsfenster fuer den aktuellen Initiativzyklus muss noch frei sein.",
     "rulesShort": "Nutzen eines kurzen Expositionsmoments, um Bewegung oder Vorstoss direkt im Oeffnungsfenster zu brechen.",
     "description": "Timingkritisches Fernkampf-Reaktionsmanoever gegen sichtbare Bewegung oder Exposition. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Ein Ziel tritt sichtbar aus Deckung, sprintet durch eine gehaltene Linie, wechselt Position oder exponiert sich kurz; bereits abgeschlossene Handlungen sind kein gueltiger Trigger. Typische Gegenlage: Falsches Timing oder Taeuschung kann die gebundene Reaktion leer laufen lassen. Typische Antwortart: abfangen. Bei Gelingen: Der Gegner wird im Moment seiner Oeffnung getroffen, gestoert oder mindestens hart gebremst. Bei Teilerfolg: Selbst ohne volle Wirkung erzwingt die Reaktion oft Deckung, Kurswechsel oder Abbruch. Risiko: Wer Bereitschaft bindet, verliert Aufmerksamkeit fuer andere Lagen; falsches Lesen verbrennt das Reaktionsfenster. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Starkes Zeitfenstermanoever; darf nicht gleichzeitig mit anderen Reaktionen derselben Figur in demselben Zyklus genutzt werden.",
     "notes": "Bindet Aufmerksamkeit auf ein enges Expositionsfenster und verbraucht das Reaktionsfenster."

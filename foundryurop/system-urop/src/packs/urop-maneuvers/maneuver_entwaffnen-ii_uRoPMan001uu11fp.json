@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "action",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Entwaffnen I muss bereits gelernt sein.; Nahkampf, Waffenlos oder passende Nahkampfwaffe muessen den kontrollierten Zugriff tragen.; Nahkontakt oder klar lesbare Waffenlinie bleibt noetig.",
     "rulesShort": "Fortgeschrittenes Entwaffnen mit verlaesslicherem Linienbruch und geringerem Eigenrisiko.",
     "description": "Fortgeschrittener Rank fuer Entwaffnen. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Der Gegner fuehrt sichtbar Waffe und Linie, aber die handelnde Figur kann den Zugriff technisch kontrollierter setzen als bei Rank I. Bei Gelingen: Entwaffnung oder klare Waffenstoerung tritt verlaesslicher ein. Bei Teilerfolg: Die gegnerische Linie bleibt selten voll stabil; Anschlussaktionen auf Distanz, Haltung oder Kontrolle werden besser vorbereitbar. Risiko: Fehleinschaetzungen bleiben gefaehrlich, aber die eigene Linie kippt weniger schnell komplett auf.",
     "notes": "Der Zugriff auf Hand und Linie bleibt sauberer; Teilerfolge brechen verlaesslicher die gegnerische Waffenfuehrung."

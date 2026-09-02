@@ -135,7 +135,7 @@ Nicht hier, sondern in anderen Dateien:
 - Fertigkeitskosten → `URoP_Fertigkeiten.md`
 - Vorteilekosten → `URoP_Vor_und_Nachteile.md`
 - Nachteilsrückgaben → `URoP_Vor_und_Nachteile.md`
-- Manöverkosten → `URoP_Manoever.md`
+- Manöver und Quickhacks → keine EP-Kosten; Auswahl mit Spielleiterzustimmung bei erfüllten Voraussetzungen
 
 ---
 

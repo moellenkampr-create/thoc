@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Bypass I muss bereits gelernt sein.; Ein erreichbarer technischer Pfad (Schnittstelle, Logik, Leitung) bleibt Pflicht.; Vorbereitung oder Vorwissen verbessern den Erfolg weiterhin stark.",
     "rulesShort": "Fortgeschrittener Bypass mit verlaesslicherer Umgehung und besserer Zugriffsstabilitaet.",
     "description": "Fortgeschrittener Rank fuer Bypass. Einordnung: Technik, aktiv, Oeffnung. Typisches Einsatzfenster: Eine direkte Oeffnung waere weiter zu laut oder zu langsam, aber die Figur kann den Umgehungspfad deutlich robuster bauen. Bei Gelingen: Der Zugriff bleibt laenger und ist weniger fragil. Bei Teilerfolg: Noch immer moeglicher Zugriff, aber mit begrenzter Berechtigung oder Restspur. Risiko: Fehler erzeugen weiter Spuren, jedoch mit weniger chaotischem Rueckschlag als bei Rank I.",
     "notes": "Umgehungspfade werden stabiler; Teilzugriffe brechen nicht mehr so schnell unter Gegenlast weg."

@@ -166,7 +166,6 @@
       "requirementsText": "",
       "riskProfileText": "",
       "typicalEffectsText": "",
-      "learnCostEp": 0,
       "rulesShort": "",
       "description": "",
       "notes": ""
@@ -174,10 +173,10 @@
     "maneuver": {
       "tier": 1,
       "skillItemId": "",
-      "learnCostEp": 15,
       "actionCost": "action",
       "usageWindow": "once_per_conflict",
       "reuseEscalation": "none",
+      "prerequisitesText": "",
       "rulesShort": "",
       "description": "",
       "notes": ""

@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Bypass II muss bereits gelernt sein.; Zugangspunkt und plausibler Umgehungspfad bleiben erforderlich.; Unter Druck darf improvisiert werden, aber nur mit erkennbarer technischer Grundlage.",
     "rulesShort": "Meisterlicher Bypass fuer schnelle, praezise Umgehung mit kontrollierterem Fallout.",
     "description": "Meisterrank fuer Bypass. Einordnung: Technik, aktiv, Oeffnung/Kontrolle. Typisches Einsatzfenster: Hoher Zeitdruck, laufende Gegenmassnahmen oder enge Teamkette. Bei Gelingen: Der Zugriff entsteht schnell und mit hoher Zielgenauigkeit. Bei Teilerfolg: Es bleibt brauchbarer Teilzugriff statt nur kurzer Instabilitaet. Risiko: Auch Rank III ersetzt keine schlechte Vorbereitung vollstaendig, verhindert aber haeufiger den kompletten Rueckstoss.",
     "notes": "Meisterliche Umgehung auch unter Zeitdruck; Spuren bleiben moeglich, sind aber besser steuerbar."

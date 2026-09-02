@@ -258,13 +258,8 @@ Hinweis zur Herkunft:
 - Die zusaetzlichen Namen orientieren sich an dem gÃ¤ngigen Cyberpunk-Wiki/Fandom-Quickhack-Katalog.
 - Die URoP-Fassung Ã¼bernimmt diese nicht 1:1 als Lore-Kopie, sondern als regeltechnisch eingehegte URoP-Implementierung mit Zugriff, Risiko und Einsatzfenster.
 
-## 10.1 Erwerbskosten (EP) [TESTSTAND]
-Quickhacks sind im Build aktuell **nicht bepreist**.
-
-Vorlaeufige Regel:
-- Jeder Quickhack wird mit **0 EP** eingetragen.
-- Balancing erfolgt ueber Zugang, Gegenwehr, Risiko und Konsequenzen.
-- Die EP-Logik fuer Quickhacks wird spaeter separat entschieden.
+## 10.1 Auswahl und Voraussetzungen [TESTSTAND]
+Quickhacks kosten keine EP. Sie sind Software-/Hardwarekomponenten und werden mit Zustimmung der Spielleitung gewählt, wenn ihre Voraussetzungen erfüllt sind. Balancing erfolgt über Zugang, Tier, Sicherheitslage, Risiko, Einsatzfenster und Konsequenzen.
 
 ## 10.2 Kosten der Referenzhacks [TESTSTAND]
 Bis zur finalen Kostenrunde gilt fuer alle Referenzhacks:

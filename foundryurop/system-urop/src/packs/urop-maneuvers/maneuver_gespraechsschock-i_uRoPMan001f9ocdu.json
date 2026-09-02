@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 30,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Druck, Auftreten oder glaubhafte Inszenierung muessen den Schlag tragen koennen.; Es braucht einen belastenden Hebel, eine harte Wahrheit oder einen wirksamen Statusmoment.; Besonders stark nach vorherigem Druckaufbau oder sichtbarer Instabilitaet des Ziels.",
     "rulesShort": "Setzt eine belastende Wahrheit, Enthuellung oder Grenzueberschreitung als harten Schlag gegen Fassung und Haltung.",
     "description": "Harter sozialer Schlag, der nicht Alltagswerkzeug, sondern Szenen-Kippmoment sein soll. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Das Ziel ist emotional, sozial oder rhetorisch angreifbar und die Szene traegt einen harten Schlag gegen Haltung oder Fassade. Typische Gegenlage: Zu harte oder unpassende Schocks koennen Autoritaeten, Publikum oder Verbuendete gegen die handelnde Figur drehen. Bei Gelingen: Das Ziel verliert Fassung, Gesicht, argumentative Linie oder soziale Stabilitaet; Anschlussaktionen gegen Widerstand oder Haltung werden leichter. Bei Teilerfolg: Kein kompletter Bruch, aber sichtbare Erschuetterung, Unruhe oder defensiver Rueckzug. Risiko: Soziale Eskalation droht; die Wirkung kann kippen, wenn der Schlag als unpassend, unfair oder unklug gelesen wird. Designhinweis: Bewusst kein T1-Alltagswerkzeug, weil es soziale Szenen stark kippen kann.",
     "notes": "Soziale Spitzenaktion mit hoher Szenenwirkung, aber ohne gesonderte Pflichtmatrix fuer Publikum oder Fallout."

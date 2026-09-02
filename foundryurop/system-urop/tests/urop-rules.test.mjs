@@ -70,6 +70,7 @@ test("quickhack detail fields are unique to prevent duplicate form values", () =
   assert.equal((template.match(/name="system\.skillItemId"/g) || []).length, 1);
   assert.equal((template.match(/name="system\.tier"/g) || []).length, 1);
   assert.equal((template.match(/>Fertigkeit</g) || []).length, 1);
+  assert.equal((template.match(/name="system\.learnCostEp"/g) || []).length, 0);
 });
 
 test("maneuver details and compendium use numeric tiers with local skill assignment", () => {
@@ -82,12 +83,15 @@ test("maneuver details and compendium use numeric tiers with local skill assignm
   assert.equal(template.Item.maneuver.skillItemId, "");
   assert.equal((sheet.match(/name="system\.skillItemId"/g) || []).length, 1);
   assert.equal((sheet.match(/name="system\.tier"/g) || []).length, 1);
+  assert.match(sheet, /name="system\.prerequisitesText"/);
   assert.equal(sources.length, 38);
   for (const filename of sources) {
     const maneuver = JSON.parse(read(path.join("src", "packs", "urop-maneuvers", filename)));
     assert.equal(maneuver.type, "maneuver");
     assert.equal(typeof maneuver.system.tier, "number");
     assert.ok(maneuver.system.tier >= 0 && maneuver.system.tier <= 6);
+    assert.equal("learnCostEp" in maneuver.system, false);
+    assert.equal(typeof maneuver.system.prerequisitesText, "string");
   }
 });
 
@@ -98,5 +102,17 @@ test("structured maneuver data uses the shared numeric tier range", () => {
   for (const maneuver of maneuvers.entries) {
     assert.equal(typeof maneuver.tier, "number");
     assert.ok(maneuver.tier >= 0 && maneuver.tier <= 6);
+  }
+});
+
+test("software items use prerequisites instead of active EP fields", () => {
+  const template = JSON.parse(read("template.json"));
+  const quickhackImports = JSON.parse(read("../../urop/urop23/data/URoP_Quickhacks_foundry_import.json"));
+
+  assert.equal("learnCostEp" in template.Item.maneuver, false);
+  assert.equal("learnCostEp" in template.Item.quickhack, false);
+  assert.equal(template.Item.maneuver.prerequisitesText, "");
+  for (const quickhack of quickhackImports) {
+    assert.equal("learnCostEp" in quickhack.system, false);
   }
 });

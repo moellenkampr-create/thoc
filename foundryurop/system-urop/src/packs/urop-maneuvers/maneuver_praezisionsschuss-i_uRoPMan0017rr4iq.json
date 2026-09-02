@@ -17,10 +17,10 @@
   "system": {
     "tier": 1,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "three_actions",
     "usageWindow": "unlimited",
     "reuseEscalation": "none",
+    "prerequisitesText": "Fernkampf und konkrete Waffenfuehrung muessen eine saubere Zielwahl tragen.; Brauchbare Sichtlinie und eine Lage, in der sich laengere Zielbindung ueberhaupt halten laesst, sind noetig.; Die Figur muss genug Ruhe oder Deckung haben, um den Schuss vorzubereiten.",
     "rulesShort": "Verzichtet auf Schnellfeuer zugunsten gezielter Wirkung, braucht aber spuerbare Vorbereitungszeit.",
     "description": "Fernkampf-Kernmanoever fuer saubere Zielwirkung statt roher Volumentreffer. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur hat eine erkennbare Linie und entscheidet sich bewusst fuer Zielbindung statt Tempo. Typische Gegenlage: Die lange Vorbereitung macht Bewegung, Deckungswechsel oder Gegenspiel besonders relevant. Bei Gelingen: Der Schuss trifft besonders sinnvoll und kann Deckung knacken, Ausruestung stoeren oder eine gute Anschlussoeffnung schaffen. Bei Teilerfolg: Weniger direkte Wirkung, aber immer noch gezielter Druck auf die angepeilte Schwachstelle. Risiko: Wer zu lange bindet, gibt mobilen Gegnern eher Fenster. Designhinweis: Rank I ist ein echter Zeitinvest, nicht bloss ein besserer Standardschuss.",
     "notes": "Lange Zielbindung; derselbe Zug ist fast immer ganz auf Vorbereitung und den Schuss fokussiert."

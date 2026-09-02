@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 30,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Elektronik, Sicherheitssysteme oder Sensorik muessen den Alarmpfad plausibel lesbar machen.; Ein erkannter oder absehbarer Alarmweg muss bereits aktiv oder kurz vor Aktivierung sein.; Zugriff auf Sensorik, Leitung, Protokoll oder Meldepfad ist noetig.; Das gemeinsame Reaktionsfenster der Figur muss noch frei sein, wenn Alarm verzoegern als unmittelbare Gegenreaktion gelesen wird.",
     "rulesShort": "Gewinnt Zeit, indem Alarm, Meldung oder Eskalationskette gestaut, umgeleitet oder verspaetet wird.",
     "description": "Zeitkontroll-Manoever gegen drohende Entdeckung statt absolute Unsichtbarkeit. Einordnung: Technik, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Entdeckung oder Alarmweg sind bereits aktiv oder loesen gerade aus; vorab ruhige Vorbereitung ist kein Alarm-verzoegern-Manoever. Typische Gegenlage: Manipulation am Alarmweg hinterlaesst oft Spuren; spaetere Entdeckung kann haerter ausfallen, wenn der Eingriff bemerkt wird. Typische Antwortart: entziehen. Bei Gelingen: Alarm, Meldung oder Eskalationskette werden aufgehalten, umgeleitet, gestaut oder spaeter ausgeloest. Bei Teilerfolg: Nur kurze Verzoegerung, aber oft genug fuer Flucht, Abschluss oder Planwechsel. Risiko: Arbeit am Alarmpfad ist selten unsichtbar und kann spaeter fuer umso haertere Reaktion sorgen. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Sehr starker Szeneneingriff, weil Zeitkontrolle ganze Plaene rettet; als Reaktion teilt es sich dasselbe knappe Fenster.",
     "notes": "Reaktiver Eingriff in einen schon laufenden Alarmpfad; teilt sich das knappe Reaktionsfenster mit anderen Antworten."

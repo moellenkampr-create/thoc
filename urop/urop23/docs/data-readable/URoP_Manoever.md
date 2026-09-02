@@ -126,13 +126,13 @@ Wo Balancing, Spezialisierung oder Wahlverbesserungen davon gewinnen, fuehrt die
 
 Leitlinien:
 - hoeherer Rank ersetzt niedrigere Ranks nicht automatisch
-- `learnCostEp` ist immer die **Zusatzinvestition fuer genau diesen Rank**
-- die Rank-Familie darf von der reinen Tier-Kostentabelle abweichen, wenn das Balancing es braucht
+- Manöver kosten keine EP und werden mit Spielleiterzustimmung gewählt, wenn ihre Voraussetzungen erfüllt sind
+- Tier beschreibt Staerke und Komplexitaet; der aktuelle Standardbereich ist 0 bis 6
 - Voraussetzungen und Upgrade-Details bleiben oft bewusst lesbar als Text statt als starre Pflichtmatrix
 
 ---
 
-## 6. Manoeverkosten und Einsatzfenster [GELOCKT / TESTSTAND]
+## 6. Auswahl und Einsatzfenster [GELOCKT / TESTSTAND]
 ### 6.1 Aktionskosten
 Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
 - **Frei** (nur kleine, nicht kampfentscheidende Effekte)
@@ -142,18 +142,8 @@ Manoever werden ueber Aktionszeit statt Ausdauer bezahlt:
 - **3 Aktionen**
 - **4 Aktionen**
 
-### 6.1.1 Erwerbskosten (EP)
-Manoever werden im Build zusaetzlich mit Entwicklungspunkten gekauft.
-Die JSON trennt jetzt sauber zwischen **Erwerbskosten** (`learnCostEp`) und **Einsatzkosten** (`actionCost`, `usesReactionWindow`, `activationNotes`).
-
-Die Tiertabelle bleibt als Orientierungswert bestehen:
-- **T0** = 0 EP
-- **T1** = 15 EP
-- **T2** = 30 EP
-- **T3** = 50 EP
-
-Diese Tabelle ist aktuell mit `tierCost Reference` in der JSON synchronisiert.
-Bei Rank-Familien darf ein Folgerank davon bewusst abweichen, weil `learnCostEp` nur den **naechsten Schritt der Familie** bezahlt und nicht das ganze Manoever neu einkauft.
+### 6.1.1 Auswahl und Voraussetzungen
+Manöver werden nicht mit Entwicklungspunkten gekauft. Die Spielleitung bestätigt ihre Auswahl, wenn die am Manöver dokumentierten Voraussetzungen erfüllt sind. Tier und Rank ordnen Staerke, Komplexitaet und Ausbau ein; sie erzeugen keine automatische EP-Kostenregel.
 
 ### 6.2 Einsatzfenster
 Jedes Manoever erhaelt zusaetzlich ein Einsatzfenster.

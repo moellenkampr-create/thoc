@@ -117,8 +117,8 @@ Die aktuelle Character-Sheet-EP-Berechnung folgt dem bestaetigten Regelstand:
 - Leitattribute sind abgeleitet und haben keine eigenen EP-Kosten.
 - Fertigkeitskosten werden als `learnCostEp pro Stufe * level * applicationClass-Multiplikator` berechnet.
 - Kampffertigkeiten verwenden den Multiplikator 1,25, Aktionsfertigkeiten 1,00 und Flufffertigkeiten 0,50.
-- Manöver verwenden ihre gespeicherten Lernkosten je Rang ohne Anwendungsklassen-Multiplikator.
-- Quickhacks, Cyberware und sonstige Items werden nur dann in die EP-Summe aufgenommen, wenn dafür eine bestätigte Regel und ein eigener Kostenpfad festgelegt ist.
+- Manöver und Quickhacks sind kostenfreie Software-/Technikoptionen und werden nicht in die EP-Summe aufgenommen.
+- Cyberware, Talismane und sonstige Items werden nur dann in die EP-Summe aufgenommen, wenn dafür eine bestätigte Regel und ein eigener Kostenpfad festgelegt ist.
 - Fokus- und alte Boni-/Mali-Modifikatoren werden nicht mehr automatisch auf die EP-Summe angewendet.
 
 Wenn der Regeltext die konkrete Wirkung der Ausrichtung auf Attributkosten festlegt, muss diese Liste zusammen mit dem Berechnungstest aktualisiert werden.

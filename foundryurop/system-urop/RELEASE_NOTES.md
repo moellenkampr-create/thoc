@@ -1,5 +1,21 @@
 # URoP Foundry Release Notes
 
+## [0.1.52] - 2026-08-31
+
+### Changed
+- Die automatische EP-Summe umfasst nur noch Attribute und Fertigkeiten. Manöver und Quickhacks sind kostenfreie Optionen.
+- Manöver und Quickhacks besitzen Voraussetzungen und werden bei erfüllten Voraussetzungen mit Spielleiterzustimmung gewählt.
+- Parent-Verknüpfungen von Fertigkeiten erzeugen keine separate Freischaltungskosten mehr.
+- Manöver- und Quickhack-Daten sowie das Manöver-Compendium enthalten keine aktiven Lernkostenfelder mehr.
+- Vor- und Nachteile erhalten ein strukturiertes Feld für individuell festgelegte EP-Kosten beziehungsweise Rückgaben.
+
+### Fixed
+- Manuell angelegte Fertigkeiten zeigen ihr gesetztes Attribut als Regelanker, wenn keine eigene Regelanker-Liste hinterlegt ist.
+
+### Migration Required
+- yes
+- Alte `system.learnCostEp`-Felder werden bei Quickhacks und Manövern entfernt.
+
 ## [0.1.51] - 2026-08-31
 
 ### Added

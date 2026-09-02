@@ -17,10 +17,10 @@
   "system": {
     "tier": 1,
     "skillItemId": "",
-    "learnCostEp": 15,
     "actionCost": "free",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Schnellziehen I muss bereits gelernt sein.; Die Figur braucht eine zugriffsbereite Waffe und ein plausibles Eskalationsfenster.; Das Reaktionsfenster muss frei sein, wenn Schnellziehen als unmittelbare Vorgriffsreaktion genutzt wird.",
     "rulesShort": "Bringt die Waffe rechtzeitig in die Szene und erlaubt einen sauberen unmittelbaren Folgeangriff.",
     "description": "Fortgeschrittener Rank fuer den Eskalationsmoment. Einordnung: Kampf, reaktiv, Sicherung. Typisches Einsatzfenster: Wie bei Rank I, aber die Figur kontrolliert den Uebergang in Gewalt deutlich besser. Bei Gelingen: Die Waffe ist rechtzeitig da, und ein unmittelbarer Standardangriff derselben Runde bleibt nicht mehr automatisch hektisch oder riskanter. Bei Teilerfolg: Der Anschluss gelingt noch, aber die Linie bleibt nicht perfekt. Designhinweis: Rank II verbessert den Uebergang, bezahlt aber keine Kosten des Anschlussmanoevers mit.",
     "notes": "Das Ziehen bleibt freie Reaktion; der direkte Folgeangriff derselben Runde verliert den hektischen Malus."

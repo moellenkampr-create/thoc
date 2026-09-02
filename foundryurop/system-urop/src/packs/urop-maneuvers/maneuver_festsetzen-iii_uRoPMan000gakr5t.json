@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Festsetzen II muss bereits gelernt sein.; Eine klare Kettenbindung oder sehr schlechte Gegnerlage bleibt noetig.; Die Figur muss Nahkontrolle glaubhaft halten koennen.",
     "rulesShort": "Meisterliches Festsetzen mit hoher Lagehoheit gegen Flucht, Bewegung und freie Linie.",
     "description": "Meisterrank fuer Festsetzen. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Die Figur hat eine klare Oeffnung und kann den Gegner sofort in eine harte Bindung ziehen. Bei Gelingen: Gegnerische Bewegungs- und Fluchtoptionen brechen fast vollstaendig ein. Bei Teilerfolg: Auch ohne Vollbindung bleibt eine schlechte Gegnerlage mit gutem Anschluss fuer Verbundene. Risiko: Bleibt ein commitment-lastiges Kontrollmanoever und braucht weiterhin klare Vorarbeit.",
     "notes": "Meisterkontrolle: Die Bindung sitzt schneller und zwingt den Gegner deutlicher in schlechte Anschlussoptionen."

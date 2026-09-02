@@ -185,10 +185,8 @@ Damit gilt für typische Zielstufen:
 
 ### 8.2 Parent-Regel und Freischaltung
 - Parent-Verknüpfungen sind **Voraussetzungen**, keine Zusatzkosten.
-- Wenn eine Kindfertigkeit auf **dieselbe Stufe wie ihr Parent** gezogen wird, kostet diese Freischaltung einmalig **eine Fertigkeitsstufe**:
-	- **20 EP** bei Standardfertigkeiten
-	- **15 EP** bei Spezialisierungen
 - Mehrere Parent-Optionen erlauben alternative Zugänge, erzeugen aber keine Mehrkosten.
+- Mit Zustimmung der Spielleitung darf eine Fertigkeit gewählt werden, wenn ihre Voraussetzungen erfüllt sind.
 
 ### 8.3 Vereinfachung für den Spielbetrieb
 - Anwendungsklassen-Multiplikatoren auf Lernkosten sind aktiv:
@@ -199,8 +197,7 @@ Damit gilt für typische Zielstufen:
 - Keine Überhang-Aufschläge auf Lernkosten.
 
 ### 8.4 Foundry-Berechnung
-Die EP-Neuberechnung im Foundry-Ruleset addiert bei Fertigkeiten den gespeicherten Wert
-`learnCostEp` direkt und wendet dabei nur die Anwendungsklassen-Multiplikatoren an.
+Die EP-Neuberechnung im Foundry-Ruleset berechnet `learnCostEp × Stufe` und wendet darauf den Anwendungsklassen-Multiplikator an.
 
 ---
 

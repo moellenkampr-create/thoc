@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Sozialer Konter II muss bereits gelernt sein.; Trigger muss als offene soziale Spitze klar lesbar sein.; Das Reaktionsfenster muss frei sein und wird verbraucht.",
     "rulesShort": "Meisterlicher Sozialer Konter fuer harte Deutungsumkehr in Schluesselmomenten.",
     "description": "Meisterrank fuer Sozialer Konter. Einordnung: Sozial, reaktiv, Umkehren. Typisches Einsatzfenster: Sichtbare Statusattacke mit hohem Publikumseffekt oder strategischer Spitze. Bei Gelingen: Der Angreifer verliert klar Deutungshoheit und oeffnet Gegenfenster fuer die reagierende Figur oder deren Team. Bei Teilerfolg: Der Angriff wird zumindest wirksam entschaerft. Risiko: Bleibt ein reaktives Spitzenwerkzeug und ist weiter durch Reaktionsknappheit und Triggerpflicht begrenzt.",
     "notes": "Meisterreaktion im sozialen Schlagabtausch: Deutungsangriffe lassen sich in guenstige Anschlusslage drehen, ohne Reaktionsketten zu erlauben."

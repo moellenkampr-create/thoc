@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 30,
     "actionCost": "two_actions",
     "usageWindow": "prepared",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Passendes Kampfkoennen fuer die konkrete Abschlussform muss plausibel sein.; Der Gegner muss bereits klar geoeffnet, gebrochen oder hart kontrolliert sein.; Die handelnde Figur braucht genug Handlungsfreiheit fuer eine zweischrittige Abschlussaktion.",
     "rulesShort": "Abschlussmanoever nach bereits geschaffener Oeffnung oder massiver Kontrolle.",
     "description": "Seltene Abschlussaktion, die nicht aus dem Nichts kommt, sondern auf deutlicher Vorarbeit aufsetzt. Einordnung: Kampf, nachsetzend, Druck. Typisches Einsatzfenster: Der Gegner ist bereits klar geoeffnet, aus der Szene genommen oder hart unter Kontrolle. Typische Gegenlage: Wer den Finisher zu frueh ansagt, kann Stellung verlieren und der Gegenseite ein letztes Gegenfenster geben. Bei Gelingen: Der Kampf kippt massiv: Ausschalten, Aufgabe erzwingen oder letzte tragende Option des Gegners brechen. Bei Teilerfolg: Kein Vollabschluss, aber maximaler Druck und eine fuer den Gegner sehr schlechte Anschlusslage. Risiko: Finisher I ist noch hart gebunden und laesst den Nutzer bei Fehlansage sichtbar offen. Designhinweis: Rank I ist bewusst selten und verlangt klare Kettenbindung.",
     "notes": "Commitment-Aktion mit klarer Selbstoeffnung bei Fehlansage oder Fehlschlag."

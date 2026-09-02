@@ -17,10 +17,10 @@
   "system": {
     "tier": 2,
     "skillItemId": "",
-    "learnCostEp": 30,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Passendes Kampfkoennen fuer Reichweite, Linie oder Griffarbeit muss vorhanden sein.; Eine erkennbare gegnerische Aktion und das passende Timingfenster sind zwingend.; Das gemeinsame Reaktionsfenster der Figur fuer diesen Initiativzyklus muss noch frei sein; es wird durch den Konter verbraucht.",
     "rulesShort": "Faengt eine erkennbare Aktion nicht nur ab, sondern kippt sie in Nachteil oder Oeffnung fuer den Gegner.",
     "description": "Timingkritisches Reaktionsmanoever fuer Kampfsituationen mit lesbarer gegnerischer Aktion. Einordnung: Kampf, reaktiv, Umkehren. Typisches Einsatzfenster: Ein Gegner oeffnet sich mit einem klar lesbaren Angriff, Griffversuch, Entwaffnen, Clinch oder anderen deutlich sichtbaren Kampfmanoever. Typische Gegenlage: Ein verfruehter oder falscher Konter verpufft und laesst die reagierende Figur in offener Stellung zurueck. Typische Antwortart: umkehren. Bei Gelingen: Die gegnerische Aktion kippt in Nachteil, Kontrollverlust oder direkte Anschlussoeffnung fuer die reagierende Figur. Bei Teilerfolg: Die gegnerische Aktion wird wenigstens abgebremst, fehlgeleitet oder zu schwaecherer Wirkung gezwungen. Risiko: Falsches Lesen oder falsches Timing verbrennt das Reaktionsfenster und kann die eigene Lage verschlechtern. Beansprucht das gemeinsame Reaktionsfenster des Initiativzyklus. Designhinweis: Soll stark sein, aber nie als kostenlose Universalparade funktionieren; konkurriert direkt mit anderen Reaktionen.",
     "notes": "Reaktives Zeitfenstermanoever; verbraucht das Reaktionsfenster unabhaengig vom Ergebnis."

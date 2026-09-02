@@ -20,9 +20,19 @@
       "4. Risiko klaeren: Spur, Overheat, Gegenmassnahme, Alarm oder Kollateraleffekt?"
     ],
     "gmGuideline": "Quickhacks sollen die Szene oeffnen, nicht ersetzen. Wenn ein Effekt die ganze Lage kippt, steigt meist Zugriffshuerde, Risiko oder Zeitbedarf.",
-    "networkHierarchy": ["network", "node", "system", "subsystem"],
+    "networkHierarchy": [
+      "network",
+      "node",
+      "system",
+      "subsystem"
+    ],
     "primarySkill": "Hacking",
-    "alternativeSkills": ["Elektronik", "Cybertechnik", "Programmierung", "Elektronische Sicherheit"],
+    "alternativeSkills": [
+      "Elektronik",
+      "Cybertechnik",
+      "Programmierung",
+      "Elektronische Sicherheit"
+    ],
     "singleRollResolution": true,
     "systemCounterRoll": false
   },
@@ -283,11 +293,6 @@
       "type": "string",
       "description": "Lesbare Voraussetzungen des Hacks; bewusst kein Pflicht-Matrixfeld."
     },
-    "buildCost": {
-      "required": true,
-      "type": "number",
-      "description": "Build-Kosten in Entwicklungspunkten (EP). Teststand: Quickhacks aktuell pauschal 0 EP."
-    },
     "internalRefs": {
       "required": false,
       "type": "object",
@@ -342,7 +347,6 @@
       "usageWindow": "unlimited",
       "reuseEscalationProfile": "none",
       "requirementsText": "Ein plausibel erreichbares oder sichtbar markierbares Ziel muss bestehen.; Offenes Wireless-Fenster, vorheriger Scan oder direkte Netznaehe muessen das digitale Zielbild tragen koennen.; Gegen harte Black-Box-Systeme reicht blosser Sichtkontakt meist nicht aus.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik",
@@ -401,7 +405,6 @@
       "usageWindow": "unlimited",
       "reuseEscalationProfile": "none",
       "requirementsText": "Ein plausibler Zugriff auf das betroffene System oder Teilnetz muss bestehen.; Die Figur braucht genug technische Lesbarkeit, um Status, Warnlagen oder Freigabestufen sinnvoll auszuwerten.; Je groesser oder haerter segmentiert das System ist, desto eher braucht es vorbereiteten Zugang oder direct_link.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -463,7 +466,6 @@
       "usageWindow": "once_per_conflict",
       "reuseEscalationProfile": "standard_conflict",
       "requirementsText": "Ein plausibler Zugriff auf Sensorik, Kamera, Tracking oder persoenliche Cyberware muss bestehen.; Bei persoenlicher Sensorik sind Scan, Markierung oder ein klarer Netzpfad meist noetig.; Der Hack soll ein kurzes Stoerfenster schaffen, nicht dauerhaft ganze Wahrnehmungsketten ausschalten.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik",
@@ -521,7 +523,6 @@
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
       "requirementsText": "Ein plausibler Zugriff auf Smartgun-Link, vernetzte Waffenlogik oder direkt angeschlossene Cyberware muss bestehen.; Fuer verlaessliche Sperre braucht der Hack meist Scan, bekannte Kennung, klare Netznaehe oder einen nahen Port, nicht bloss vage Erreichbarkeit.; Rein mechanische Waffen oder sauber isolierte Systeme entziehen sich diesem Quickhack weitgehend.; Die Sperre soll ein kurzes Kampfentzugsfenster oeffnen, keine vollwertige dauerhafte Entwaffnung ersetzen.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -581,7 +582,6 @@
       "usageWindow": "unlimited",
       "reuseEscalationProfile": "none",
       "requirementsText": "Ein plausibler Zugriffspfad auf Tuersystem oder Raumsteuerung muss bestehen.; Technik oder vorbereiteter Zugang muessen die Freigabe tragen koennen.; Wenn das Schloss physisch freigelegt wurde, darf direct_link oder physically_exposed den Hack deutlich erleichtern.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -641,7 +641,6 @@
       "usageWindow": "once_per_conflict",
       "reuseEscalationProfile": "standard_conflict",
       "requirementsText": "Ein plausibler Zugriff auf Kamera, Kameranetz oder zugehoerige Raumsteuerung muss bestehen.; Besonders starke Umschreibungen sollten Netznaehe, vorbereiteten Zugang oder einen freigelegten Anschluss haben.; Der Hack soll eine lokale Sicherheitslage kippen, nicht ganze Anlagen ohne Vorarbeit neutralisieren.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -702,7 +701,6 @@
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
       "requirementsText": "Ein plausibler Zugriff auf Turret, Waffensteuerung oder zugehoeriges Sicherheitsnetz muss bestehen.; Netznaehe allein reicht fuer bewaffnete Systeme meist nicht: verlaessliche Umschreibung braucht vorbereiteten Zugang, einen freigelegten Anschluss oder klaren Zugriff auf den lokalen Sicherheitsknoten.; Der Hack soll eine lokale Kampfmaschine umstellen, nicht ohne Vorarbeit eine ganze Verteidigungsanlage uebernehmen.; Bei Teilzugriff darf die Wirkung eher in Pause, Fehlpriorisierung oder kurzem IFF-Fenster enden als in voller Dauerkontrolle.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -762,7 +760,6 @@
       "usageWindow": "unlimited",
       "reuseEscalationProfile": "none",
       "requirementsText": "Ein plausibler Zugriff auf Fahrzeugsicherung, Bordnetz oder Zugangssystem muss bestehen.; Vorbereiteter Zugang oder ein freigelegter Serviceport erleichtern den Hack deutlich.; Der Hack umgeht Nutzerbindung oder Wegfahrsperre, ersetzt aber keine laengere Komplettuebernahme eines komplexen Fahrzeugsystems.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik",
@@ -821,7 +818,6 @@
       "usageWindow": "unlimited",
       "reuseEscalationProfile": "none",
       "requirementsText": "Ein plausibler Angriffspunkt am Schloss oder seinem Sicherheitskontakt muss bestehen.; Vor allem physically_exposed oder direct_link machen diesen Hack stark und passend.; Der Hack soll ein einzelnes Schloss oder eine einzelne Kontaktlogik knacken, nicht ganze Gebaeudestrukturen global oeffnen.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -879,7 +875,6 @@
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
       "requirementsText": "Ein plausibler Zugriff auf Drohne, Kontrollnetz oder vorbereitete Freigabe muss bestehen.; Je militaerischer oder autonomer die Drohne ist, desto eher braucht es vorbereiteten Zugang, direkten Link oder einen starken lokalen Netzpfad statt nur lockere Funknaehe.; Der Hack soll situative Umflaggung oder Prioritaetsbruch leisten, nicht eine dauerhafte Pet-Uebernahme.; Bei knapper Zugriffslage ist ein kurzes Stocken, Fehlziel oder Prioritaetsbruch passender als komplette Fremdsteuerung.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -941,7 +936,6 @@
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
       "requirementsText": "Ein plausibler Zugriff auf vernetzte Implantate, Cyberware oder eine angrenzende Systemlogik muss bestehen.; Gegen kaum vernetzte oder sauber isolierte Ziele ist der Hack stark erschwert oder unplausibel.; Verlaesslicher Systemschock braucht meist gescanntes oder klar lesbares Ziel statt blinden Funkversuch.; Systemschock soll akuten Druck, Stoerung oder kurze Lahmphase erzeugen, nicht automatisch klassische Schadenslogik oder wiederholbaren Burst-Schaden ersetzen.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -1000,7 +994,6 @@
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
       "requirementsText": "Ein plausibler Zugriff auf Sicherheitsknoten, Netzsegment oder lokalen Wartungspfad muss bestehen.; Der Hack schafft ein begrenztes Zeit- oder Zugriffsfenster und ersetzt nicht automatisch den Folgeeingriff.; Besonders starke Folgeeffekte brauchen weiterhin eigene Probe, Manoever oder klare Anschlussfiktion.",
-      "buildCost": 0,
       "internalRefs": {
         "requiredSkillIds": [
           "skill_broad_technik"
@@ -1057,8 +1050,7 @@
       "actionCost": "free",
       "usageWindow": "once_per_conflict",
       "reuseEscalationProfile": "standard_conflict",
-      "requirementsText": "Ein plausibler digitaler Einstiegspunkt muss bestehen.; Ping liefert Netzlage und ersetzt keinen Kontrollhack.",
-      "buildCost": 0
+      "requirementsText": "Ein plausibler digitaler Einstiegspunkt muss bestehen.; Ping liefert Netzlage und ersetzt keinen Kontrollhack."
     },
     {
       "id": "qh_memory_wipe",
@@ -1105,8 +1097,7 @@
       "actionCost": "action",
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Ein plausibler Zugriff auf neurodigitale oder sensorische Schnittstellen muss bestehen.; Wirkung bleibt kurz und situativ.",
-      "buildCost": 0
+      "requirementsText": "Ein plausibler Zugriff auf neurodigitale oder sensorische Schnittstellen muss bestehen.; Wirkung bleibt kurz und situativ."
     },
     {
       "id": "qh_contagion",
@@ -1154,8 +1145,7 @@
       "actionCost": "two_actions",
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Der Effekt braucht ein plausibel gekoppeltes Netz mehrerer Ziele.; Ohne dichte Kopplung bleibt es bei Einzelzielwirkung.",
-      "buildCost": 0
+      "requirementsText": "Der Effekt braucht ein plausibel gekoppeltes Netz mehrerer Ziele.; Ohne dichte Kopplung bleibt es bei Einzelzielwirkung."
     },
     {
       "id": "qh_cripple_movement",
@@ -1202,8 +1192,7 @@
       "actionCost": "action",
       "usageWindow": "once_per_conflict",
       "reuseEscalationProfile": "standard_conflict",
-      "requirementsText": "Ein plausibler Zugriff auf Bewegungslogik, Assistenzsystem oder Motorik-Schnittstelle muss bestehen.",
-      "buildCost": 0
+      "requirementsText": "Ein plausibler Zugriff auf Bewegungslogik, Assistenzsystem oder Motorik-Schnittstelle muss bestehen."
     },
     {
       "id": "qh_overheat",
@@ -1251,8 +1240,7 @@
       "actionCost": "action",
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Ein plausibler Zugriff auf thermisch belastbare Cyberware oder Geräte muss bestehen.; Gegen minimal vernetzte Ziele sinkt die Wirkung stark.",
-      "buildCost": 0
+      "requirementsText": "Ein plausibler Zugriff auf thermisch belastbare Cyberware oder Geräte muss bestehen.; Gegen minimal vernetzte Ziele sinkt die Wirkung stark."
     },
     {
       "id": "qh_short_circuit",
@@ -1300,8 +1288,7 @@
       "actionCost": "action",
       "usageWindow": "once_per_conflict",
       "reuseEscalationProfile": "standard_conflict",
-      "requirementsText": "Ein plausibler Zugriff auf elektrische Kernlogik oder Implantatsteuerung muss bestehen.",
-      "buildCost": 0
+      "requirementsText": "Ein plausibler Zugriff auf elektrische Kernlogik oder Implantatsteuerung muss bestehen."
     },
     {
       "id": "qh_request_backup",
@@ -1347,8 +1334,7 @@
       "actionCost": "action",
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Der Hack braucht Zugriff auf Dispatch-, Alarm- oder Priorisierungslogik.",
-      "buildCost": 0
+      "requirementsText": "Der Hack braucht Zugriff auf Dispatch-, Alarm- oder Priorisierungslogik."
     },
     {
       "id": "qh_detonate_grenade",
@@ -1396,8 +1382,7 @@
       "actionCost": "two_actions",
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Es muss ein plausibel vernetztes oder digital gesichertes Sprengobjekt vorliegen.; Ohne digitales Angriffsfeld kein Hackeffekt.",
-      "buildCost": 0
+      "requirementsText": "Es muss ein plausibel vernetztes oder digital gesichertes Sprengobjekt vorliegen.; Ohne digitales Angriffsfeld kein Hackeffekt."
     },
     {
       "id": "qh_cyberpsychosis",
@@ -1446,8 +1431,7 @@
       "actionCost": "three_actions",
       "usageWindow": "prepared",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Braucht vorbereiteten Zugang oder direkten Link auf hochgradig cyberisiertes Ziel.; Dieser Hack ist kein regulärer Kampfstandard und sollte als Eskalationswerkzeug behandelt werden.",
-      "buildCost": 0
+      "requirementsText": "Braucht vorbereiteten Zugang oder direkten Link auf hochgradig cyberisiertes Ziel.; Dieser Hack ist kein regulärer Kampfstandard und sollte als Eskalationswerkzeug behandelt werden."
     },
     {
       "id": "qh_suicide",
@@ -1495,8 +1479,7 @@
       "actionCost": "four_actions",
       "usageWindow": "prepared",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Nur mit vorbereitetem Zugang oder direktem Link auf hochgradig cyberisiertes Ziel plausibel.; Als extremer Ausnahmehack mit hohen narrativen und taktischen Kosten behandeln.",
-      "buildCost": 0
+      "requirementsText": "Nur mit vorbereitetem Zugang oder direktem Link auf hochgradig cyberisiertes Ziel plausibel.; Als extremer Ausnahmehack mit hohen narrativen und taktischen Kosten behandeln."
     },
     {
       "id": "qh_synapse_burnout",
@@ -1543,35 +1526,56 @@
       "actionCost": "two_actions",
       "usageWindow": "once_per_scene",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Braucht plausiblen Zugriff auf neurodigitale Zielstruktur.; Gegen schwach cyberisierte Ziele sinkt Wirkung deutlich.",
-      "buildCost": 0
+      "requirementsText": "Braucht plausiblen Zugriff auf neurodigitale Zielstruktur.; Gegen schwach cyberisierte Ziele sinkt Wirkung deutlich."
     },
     {
       "id": "qh_system_collapse",
       "name": "System Collapse",
       "hackClass": "ueberlast",
-      "sourceType": ["deck", "prepared_access"],
-      "targetTypes": ["device", "security_system", "drone", "network_node"],
-      "accessRoutes": ["same_network", "prepared_access", "direct_link"],
+      "sourceType": [
+        "deck",
+        "prepared_access"
+      ],
+      "targetTypes": [
+        "device",
+        "security_system",
+        "drone",
+        "network_node"
+      ],
+      "accessRoutes": [
+        "same_network",
+        "prepared_access",
+        "direct_link"
+      ],
       "executionMode": "verlaengerte_probe",
       "scope": "small_system",
       "availability": "rare",
-      "tags": ["totalausfall", "netz", "hochrisko"],
+      "tags": [
+        "totalausfall",
+        "netz",
+        "hochrisko"
+      ],
       "rulesShort": "Fuehrt ein lokales Teilsystem in den kontrollierten Zusammenbruch.",
       "description": "System Collapse ist kein normaler Kampfhack, sondern ein starker Szeneneingriff gegen vernetzte Infrastruktur.",
-      "typicalEffects": ["lokaler Teilausfall", "Sicherheitsbruch", "Folgefenster fuer Team"],
-      "riskProfile": ["trace", "alarm", "collateral"],
-      "counterplay": ["Notfallpfade", "Redundanz", "manuelle Umschaltung"],
+      "typicalEffects": [
+        "lokaler Teilausfall",
+        "Sicherheitsbruch",
+        "Folgefenster fuer Team"
+      ],
+      "riskProfile": [
+        "trace",
+        "alarm",
+        "collateral"
+      ],
+      "counterplay": [
+        "Notfallpfade",
+        "Redundanz",
+        "manuelle Umschaltung"
+      ],
       "actionCost": "three_actions",
       "usageWindow": "prepared",
       "reuseEscalationProfile": "strict_scene",
-      "requirementsText": "Braucht vorbereiteten Zugang auf ein zusammenhaengendes Teilnetz oder direkten Link.",
-      "buildCost": 0
+      "requirementsText": "Braucht vorbereiteten Zugang auf ein zusammenhaengendes Teilnetz oder direkten Link."
     }
-  ],
-  "quickhackCostReference": {
-    "policy": "temporary_flat_zero",
-    "flatCost": 0,
-    "note": "Quickhacks sind bis zur finalen Kostenrunde pauschal 0 EP."
-  }
+  ]
 }

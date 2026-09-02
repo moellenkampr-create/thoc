@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "free",
     "usageWindow": "once_per_conflict",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Reaktionsschuss II muss bereits gelernt sein.; Eine gueltige Triggerlage bleibt Pflicht.; Das Reaktionsfenster muss frei sein und wird vollstaendig verbraucht.",
     "rulesShort": "Meisterlicher Reaktionsschuss fuer harte Bewegungsunterbrechung in kritischen Zeitfenstern.",
     "description": "Meisterrank fuer Reaktionsschuss. Einordnung: Kampf, reaktiv, Abbruch/Entzug. Typisches Einsatzfenster: Hochriskante Laufwege, Deckungswechsel oder Vorstossmomente unter Feuerdruck. Bei Gelingen: Der Gegner verliert den Vorteil aus seinem Bewegungsfenster deutlich. Bei Teilerfolg: Immer noch klares Bremsen oder Umlenken der Bewegung. Risiko: Reaktionsschuss bleibt ein einmaliges Antwortwerkzeug pro Zyklus und konkurriert weiter direkt mit anderen Reaktionen.",
     "notes": "Meisterreaktion auf Exposition: Abfangwirkung wird in engen Fenstern sehr verbindlich, bleibt aber an Reaktionsknappheit gekoppelt."

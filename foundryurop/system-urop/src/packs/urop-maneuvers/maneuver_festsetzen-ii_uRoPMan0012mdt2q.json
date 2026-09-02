@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "strict_scene",
+    "prerequisitesText": "Festsetzen I muss bereits gelernt sein.; Nahkontakt und bestehende Oeffnung oder schlechte Gegnerhaltung bleiben Pflicht.; Die Figur braucht ausreichend eigene Stabilitaet, um Kontrolle nicht sofort wieder zu verlieren.",
     "rulesShort": "Fortgeschrittenes Festsetzen mit stabilerer Gegnerbindung bei weiterhin klarem Lagepreis.",
     "description": "Fortgeschrittener Rank fuer Festsetzen. Einordnung: Kampf, nachsetzend, Kontrolle. Typisches Einsatzfenster: Der Gegner ist geoeffnet oder bereits gebrochen, und die Figur kann die Bindung technisch sauber nachziehen. Bei Gelingen: Bewegung und freies Waffenspiel des Gegners werden verlaesslicher unterbunden. Bei Teilerfolg: Die Kontrolle bleibt zumindest lang genug, um Anschlussdruck zu setzen. Risiko: Die handelnde Figur bleibt gebunden, aber die eigene Linie wird nicht mehr so leicht von jeder Stoerung zerlegt wie bei Rank I.",
     "notes": "Die eigene Bindung bleibt spuerbar, aber kontrollierter; kurze Gegenimpulse loesen die Lage seltener sofort wieder auf."

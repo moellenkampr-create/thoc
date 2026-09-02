@@ -82,11 +82,9 @@ Nicht mehr Teil der aktiven Struktur:
 Wenn spaeter wieder mehr Ordnung noetig wird, soll das gezielt und nur bei echtem Nutzen zurueckkommen.
 
 ## 7. Kosten- und Rueckgabedenke [TESTSTAND]
-Aktuell bleibt die grobe Leselogik:
-- Vorteile: `minor / moderate / major`
-- Nachteile: `minor / moderate / major`
+Vorteile und Nachteile haben individuelle Kosten beziehungsweise Rueckgaben, die beim jeweiligen Eintrag und mit Spielleiterzustimmung festgelegt werden. Die Gewichtung `minor / moderate / major` ist nur eine Orientierung und ersetzt keinen individuellen Wert.
 
-Konkrete Kosten und Rueckgaben werden weiter im Charakterbau gelesen, nicht ueber Zusatzfelder am Eintrag selbst.
+Vorteile und Nachteile erzeugen keine automatische Attributsenkung. Eine Attributsenkung bleibt eine eigene Attributentscheidung und wird separat mit 30 EP pro Stufe verrechnet.
 
 ## 8. Referenzbestand [ARBEITSSTAND]
 Stand: 2026-04-17 â€” 47 Eintraege. Fuehrend ist die JSON-Datei.

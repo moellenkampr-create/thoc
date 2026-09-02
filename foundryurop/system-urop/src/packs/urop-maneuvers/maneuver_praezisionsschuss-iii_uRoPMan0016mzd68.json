@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "unlimited",
     "reuseEscalation": "none",
+    "prerequisitesText": "Praezisionsschuss II muss bereits gelernt sein.; Eine brauchbare Sichtlinie und eine Waffe, die saubere Zielarbeit ueberhaupt zulaesst, bleiben Pflicht.; Auch Rank III ersetzt keine fehlende Stellung oder fehlende Schussruhe.",
     "rulesShort": "Meisterlicher Praezisionsschuss mit minimaler Vorbereitungszeit und hoher Zielkontrolle.",
     "description": "Meisterrank fuer gezielte Fernkampfwirkung. Einordnung: Kampf, aktiv, Oeffnung. Typisches Einsatzfenster: Die Figur findet auch in engeren Zeitfenstern noch saubere Zielwirkung, sofern Linie und Lage stimmen. Bei Gelingen: Hohe Praezision gegen Deckung, Ausruestung, Haltung oder kleine Zielzonen. Bei Teilerfolg: Noch immer sehr brauchbare Zielwirkung mit deutlich weniger totlaufender Vorbereitung als bei den unteren Ranks. Designhinweis: Rank III macht das Manoever schnell, aber nicht billig; Lage, Sicht und Waffenfuehrung bleiben hart.",
     "notes": "Die Zielwirkung bleibt gezielt, aber der Schuss braucht nur noch einen Aktionsschritt statt langer Aufbaukette."

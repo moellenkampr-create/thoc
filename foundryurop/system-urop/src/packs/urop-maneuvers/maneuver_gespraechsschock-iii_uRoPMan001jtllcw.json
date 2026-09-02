@@ -17,10 +17,10 @@
   "system": {
     "tier": 3,
     "skillItemId": "",
-    "learnCostEp": 20,
     "actionCost": "action",
     "usageWindow": "once_per_scene",
     "reuseEscalation": "standard_conflict",
+    "prerequisitesText": "Gespraechsschock II muss bereits gelernt sein.; Es braucht weiter einen tragfaehigen sozialen Hebel und passende Szenenlage.; Der Schlag muss plausibel und nicht rein willkuerlich gesetzt werden.",
     "rulesShort": "Meisterlicher Gespraechsschock fuer harte Deutungshoheit in Schluesselmomenten.",
     "description": "Meisterrank fuer Gespraechsschock. Einordnung: Sozial, aktiv, Druck. Typisches Einsatzfenster: Schluesselmoment mit hohem Publikumseffekt, Statusbruch oder strategischer Enthuellung. Bei Gelingen: Das Ziel verliert deutlich Haltung und Deutungshoheit, waehrend die eigene Linie stabiler bleibt. Bei Teilerfolg: Immer noch klarer Schockeffekt mit verwertbarem Anschluss. Risiko: Bleibt ein seltenes Spitzenwerkzeug, das bei Fehlansage soziale Gegenwellen ausloesen kann.",
     "notes": "Meisterlicher sozialer Schlag mit hoher Deutungswirkung und kontrollierterem Folgechaos."

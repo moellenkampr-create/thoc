@@ -7,6 +7,7 @@
     "name": "Anzeigename",
     "kind": "Marker fuer advantage oder disadvantage",
     "tier": "Gewichtung bzw. grobe Kosten- oder Rueckgabeklasse: minor, moderate, major",
+    "costEp": "Individueller EP-Kostenwert fuer Vorteile oder EP-Rueckgabewert fuer Nachteile; wird je Eintrag mit Spielleiterzustimmung festgelegt.",
     "rulesShort": "Kurzregel in 1-2 Saetzen",
     "description": "Lesefassung und ausfuehrlicher Regelsinn",
     "attributeAnchor": "Optionale Hauptausrichtung auf Koerper, Geist oder Praesenz",
