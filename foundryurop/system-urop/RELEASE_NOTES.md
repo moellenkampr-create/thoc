@@ -1,5 +1,18 @@
 # URoP Foundry Release Notes
 
+## [0.1.55] - 2026-09-05
+
+### Changed
+- Module, Waffen und Panzerung werden im Vehicle-Sheet nach Sektionen gruppiert und in der Reihenfolge der Einstellungen angezeigt.
+- Waffen und Panzerung verwenden bei eingebetteten Vehicle-Actors ein dynamisches Sektions-Dropdown statt einer freien Texteingabe.
+- Nicht zugeordnete Items bleiben unter `Ohne Sektion` sichtbar.
+
+### Fixed
+- Interne Notizen und SL-Notizen werden für Nicht-SL nicht mehr aus dem Sheet-Datenmodell gerendert.
+
+### Migration Required
+- no
+
 ## [0.1.54] - 2026-09-05
 
 ### Fixed

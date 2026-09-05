@@ -90,6 +90,7 @@ export class UropCharacterSheet extends ActorSheet {
           return String(a.name || "").localeCompare(String(b.name || ""), "de", { sensitivity: "base" });
         })
     };
+    data.isGM = Boolean(game.user?.isGM);
     data.adaptability = this._toFiniteNumber(this.actor.system.specialAttributes?.adaptability, 6);
     data.attributeGroups = [
       {

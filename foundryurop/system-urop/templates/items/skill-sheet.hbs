@@ -115,7 +115,7 @@
     <div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
-        <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
+        <textarea class="large" name="system.notes">{{#if isGM}}{{item.system.notes}}{{/if}}</textarea>
       </div>
     </div>
 

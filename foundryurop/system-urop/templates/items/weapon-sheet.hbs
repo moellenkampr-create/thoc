@@ -88,7 +88,7 @@
           <label>Montage</label>
           <select name="system.mounting"><option value="personal" {{#if (uropEq item.system.mounting "personal")}}selected{{/if}}>Persönlich</option><option value="vehicle" {{#if (uropEq item.system.mounting "vehicle")}}selected{{/if}}>Fahrzeug</option><option value="both" {{#if (uropEq item.system.mounting "both")}}selected{{/if}}>Beides</option></select>
           <label>Sektion</label>
-          <input type="text" name="system.sectionId" value="{{item.system.sectionId}}"/>
+          {{#if isVehicleParent}}<select name="system.sectionId"><option value="">Ohne Sektion</option>{{#each sectionOptions as |section|}}<option value="{{section.id}}" {{#if (uropEq ../item.system.sectionId section.id)}}selected{{/if}}>{{section.name}}</option>{{/each}}</select>{{else}}<input type="text" name="system.sectionId" value="{{item.system.sectionId}}"/>{{/if}}
           <label>Montagevoraussetzung</label>
           <input type="text" name="system.mountRequirementText" value="{{item.system.mountRequirementText}}"/>
         </div>
@@ -110,12 +110,12 @@
       </div>
     </div>
 
-    <div class="tab" data-group="primary" data-tab="notes">
+    {{#if isGM}}<div class="tab" data-group="primary" data-tab="notes">
       <div class="card">
         <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.InternalNote'}}">{{localize "URoP.Field.InternalNote"}}</label>
         <textarea class="large" name="system.notes">{{item.system.notes}}</textarea>
       </div>
-    </div>
+    </div>{{/if}}
 
   </section>
 </form>

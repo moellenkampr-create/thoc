@@ -9,8 +9,6 @@ export class UropVehicleModuleSheet extends UropItemSheetBase {
 
   getData(options) {
     const data = super.getData(options);
-    const sections = this.item.parent?.system?.settings?.sections;
-    data.sectionOptions = Array.isArray(sections) ? sections : [];
     return data;
   }
 }

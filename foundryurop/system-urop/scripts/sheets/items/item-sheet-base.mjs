@@ -22,6 +22,12 @@ export class UropItemSheetBase extends ItemSheet {
   getData(options) {
     const data = super.getData(options);
     data.itemTypeLabel = game.i18n.localize(`URoP.ItemType.${this.item.type}`);
+    data.isGM = Boolean(game.user?.isGM);
+    if (!data.isGM && data.item?.system) data.item.system.notes = "";
+    data.isVehicleParent = this.item.parent?.type === "vehicle";
+    data.sectionOptions = Array.isArray(this.item.parent?.system?.settings?.sections)
+      ? this.item.parent.system.settings.sections
+      : [];
     return data;
   }
 }

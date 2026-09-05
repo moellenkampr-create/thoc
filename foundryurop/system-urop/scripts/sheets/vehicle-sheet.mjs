@@ -21,6 +21,8 @@ export class UropVehicleSheet extends ActorSheet {
     const sections = this._sections(this.actor.system.settings?.sections);
 
     data.sections = sections;
+    data.isGM = Boolean(game.user?.isGM);
+    if (!data.isGM && data.actor?.system?.notes) data.actor.system.notes.gm = "";
     data.consequenceFields = this._consequenceFields(this.actor.system.consequences, slotConfig);
     data.itemGroups = {
       module: allItems.filter((item) => item.type === "vehicle_module"),
@@ -29,10 +31,17 @@ export class UropVehicleSheet extends ActorSheet {
       gear: allItems.filter((item) => item.type === "gear"),
       consumable: allItems.filter((item) => item.type === "consumable")
     };
-    data.moduleRows = data.itemGroups.module.map((item) => ({
-      ...item,
-      sectionName: sections.find((section) => section.id === item.system?.sectionId)?.name || "Ohne Sektion"
+    data.sectionGroups = sections.map((section) => ({
+      ...section,
+      modules: data.itemGroups.module.filter((item) => item.system?.sectionId === section.id),
+      weapons: data.itemGroups.weapon.filter((item) => item.system?.sectionId === section.id),
+      armor: data.itemGroups.armor.filter((item) => item.system?.sectionId === section.id)
     }));
+    data.unassignedItems = {
+      modules: data.itemGroups.module.filter((item) => !sections.some((section) => section.id === item.system?.sectionId)),
+      weapons: data.itemGroups.weapon.filter((item) => !sections.some((section) => section.id === item.system?.sectionId)),
+      armor: data.itemGroups.armor.filter((item) => !sections.some((section) => section.id === item.system?.sectionId))
+    };
     return data;
   }
 
