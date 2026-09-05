@@ -67,6 +67,33 @@ export class UropVehicleSheet extends ActorSheet {
     ]));
   }
 
+  _sectionsFromFormData(formData = {}) {
+    const sectionFields = new Map();
+
+    for (const [path, value] of Object.entries(formData)) {
+      const match = /^system\.settings\.sections\.(\d+)\.(id|name|notes)$/.exec(path);
+      if (!match) continue;
+      const index = Number(match[1]);
+      if (!sectionFields.has(index)) sectionFields.set(index, {});
+      sectionFields.get(index)[match[2]] = value;
+    }
+
+    if (sectionFields.size === 0) return this._sections(this.actor.system.settings?.sections);
+    return this._sections(Array.from(sectionFields.entries())
+      .sort(([left], [right]) => left - right)
+      .map(([, section]) => section));
+  }
+
+  _consequencesFromFormData(formData = {}, slotConfig) {
+    const consequences = {};
+    for (const type of UropVehicleSheet.CONSEQUENCE_TYPES) {
+      consequences[type] = Array.from({ length: slotConfig[type] }, (_, index) =>
+        String(formData[`system.consequences.${type}.${index}`] ?? "")
+      );
+    }
+    return consequences;
+  }
+
   activateListeners(html) {
     super.activateListeners(html);
     html.find('[data-action="open-item"]').on("click", this._onOpenItem.bind(this));
@@ -105,9 +132,9 @@ export class UropVehicleSheet extends ActorSheet {
 
   async _onAddSection(event) {
     event.preventDefault();
-    await this._saveForm(event);
-    const sections = this._sections(this.actor.system.settings?.sections);
-    const nextNumber = sections.length + 1;
+    const sections = this._sectionsFromFormData(this._getSubmitData());
+    let nextNumber = sections.length + 1;
+    while (sections.some((section) => section.id === `section_${nextNumber}`)) nextNumber += 1;
     sections.push({ id: `section_${nextNumber}`, name: `Sektion ${nextNumber}`, notes: "" });
     await this.actor.update({ "system.settings.sections": sections });
   }
@@ -115,10 +142,29 @@ export class UropVehicleSheet extends ActorSheet {
   async _onRemoveSection(event) {
     event.preventDefault();
     const index = Number(event.currentTarget.dataset.index);
-    await this._saveForm(event);
-    const sections = this._sections(this.actor.system.settings?.sections);
+    const sections = this._sectionsFromFormData(this._getSubmitData());
     if (sections.length <= 1 || !Number.isInteger(index)) return;
     sections.splice(index, 1);
     await this.actor.update({ "system.settings.sections": sections });
+  }
+
+  async _updateObject(event, formData) {
+    const updateData = { ...formData };
+    const slotConfig = this._slotConfig({
+      light: formData["system.settings.consequenceSlots.light"] ?? this.actor.system.settings?.consequenceSlots?.light,
+      heavy: formData["system.settings.consequenceSlots.heavy"] ?? this.actor.system.settings?.consequenceSlots?.heavy,
+      critical: formData["system.settings.consequenceSlots.critical"] ?? this.actor.system.settings?.consequenceSlots?.critical
+    });
+
+    for (const key of Object.keys(updateData)) {
+      if (key.startsWith("system.settings.sections.")
+        || key.startsWith("system.settings.consequenceSlots.")
+        || key.startsWith("system.consequences.")) delete updateData[key];
+    }
+
+    updateData["system.settings.sections"] = this._sectionsFromFormData(formData);
+    updateData["system.settings.consequenceSlots"] = slotConfig;
+    updateData["system.consequences"] = this._consequencesFromFormData(formData, slotConfig);
+    await this.actor.update(updateData);
   }
 }

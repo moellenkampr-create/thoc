@@ -133,6 +133,10 @@ test("vehicles are modular actors with configurable structure consequences", () 
   assert.ok("vehicle_module" in manifest.documentTypes.Item);
   assert.match(vehicleSheet, /system\.settings\.sections/);
   assert.match(vehicleSheet, /system\.consequences\.light/);
+  const vehicleSheetLogic = read("scripts/sheets/vehicle-sheet.mjs");
+  assert.match(vehicleSheetLogic, /_sectionsFromFormData/);
+  assert.match(vehicleSheetLogic, /const sections = this\._sectionsFromFormData\(this\._getSubmitData\(\)\)/);
+  assert.match(vehicleSheetLogic, /async _updateObject\(event, formData\)/);
   assert.match(characterSheet, /data-vehicle-select/);
   assert.equal(vehicleSources.length, 3);
   assert.equal(moduleSources.length, 8);

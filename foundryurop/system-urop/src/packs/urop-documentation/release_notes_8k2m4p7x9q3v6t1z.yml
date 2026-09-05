@@ -40,6 +40,13 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.54 - 2026-09-05</h2>
+        <h3>Korrigiert</h3>
+        <ul>
+        <li>Das Hinzufügen und Entfernen von Fahrzeugsektionen übernimmt die sichtbaren Sektionsfelder atomar. Bestehende Namen und Notizen bleiben erhalten; neue Sektionen erhalten konfliktfreie IDs.</li>
+        </ul>
+        <h3>Migration erforderlich</h3>
+        <p>Nein.</p>
         <h2>0.1.53 - 2026-09-05</h2>
         <h3>Hinzugefuegt</h3>
         <ul>

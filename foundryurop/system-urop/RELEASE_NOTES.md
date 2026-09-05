@@ -1,5 +1,13 @@
 # URoP Foundry Release Notes
 
+## [0.1.54] - 2026-09-05
+
+### Fixed
+- Das Hinzufügen und Entfernen von Fahrzeugsektionen übernimmt die sichtbaren Sektionsfelder atomar. Bestehende Namen und Notizen bleiben erhalten; neue Sektionen erhalten konfliktfreie IDs.
+
+### Migration Required
+- no
+
 ## [0.1.53] - 2026-09-05
 
 ### Added
