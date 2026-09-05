@@ -40,6 +40,17 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.55 - 2026-09-05</h2>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Module, Waffen und Panzerung werden im Vehicle-Sheet nach Sektionen gruppiert und in der Reihenfolge der Einstellungen angezeigt.</li>
+        <li>Waffen und Panzerung verwenden bei eingebetteten Vehicle-Actors ein dynamisches Sektions-Dropdown statt einer freien Texteingabe.</li>
+        <li>Nicht zugeordnete Items bleiben unter <code>Ohne Sektion</code> sichtbar.</li>
+        </ul>
+        <h3>Korrigiert</h3>
+        <p>Interne Notizen und SL-Notizen werden für Nicht-SL nicht mehr aus dem Sheet-Datenmodell gerendert.</p>
+        <h3>Migration erforderlich</h3>
+        <p>Nein.</p>
         <h2>0.1.54 - 2026-09-05</h2>
         <h3>Korrigiert</h3>
         <ul>
