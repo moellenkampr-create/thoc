@@ -1,0 +1,29 @@
+{
+  "name": "Mobile Werkbank",
+  "type": "vehicle_module",
+  "img": "icons/svg/tool-case.svg",
+  "system": {
+    "moduleCategory": "utility",
+    "sectionId": "cargo",
+    "tier": 1,
+    "sizeClass": "G2",
+    "price": 1800,
+    "availability": "common",
+    "prerequisitesText": "Laderaum oder ausreichend große Sektion.",
+    "rulesShort": "Ermöglicht Notreparaturen und vorbereitetes Technikspiel im Fahrzeug.",
+    "description": "Werkzeug, Halterungen und Energieanschlüsse für improvisierte Reparaturen unter Zeitdruck.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh0006dhnvu",
+  "_key": "!items!uRoPVeh0006dhnvu",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

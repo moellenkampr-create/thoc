@@ -158,6 +158,11 @@ export class UropCharacterSheet extends ActorSheet {
     data.consequenceSlotConfig = consequenceSlotConfig;
     data.combatDisplaySettings = combatDisplaySettings;
     data.consequenceFields = this._buildConsequenceFieldRows(consequences);
+    data.vehicleLinks = this._normalizeVehicleLinks(this.actor.system.vehicleLinks || []);
+    data.vehicleOptions = Array.from(game.actors.values())
+      .filter((actor) => actor.type === "vehicle")
+      .map((actor) => ({ id: actor.id, name: actor.name }))
+      .sort((left, right) => left.name.localeCompare(right.name, "de", { sensitivity: "base" }));
 
     return data;
   }
@@ -197,6 +202,18 @@ export class UropCharacterSheet extends ActorSheet {
       contents: "",
       amount: 0
     };
+  }
+
+  _normalizeVehicleLinks(links = []) {
+    if (!Array.isArray(links)) return [];
+    return links
+      .filter((link) => typeof link?.actorId === "string" && link.actorId.length > 0)
+      .map((link) => ({
+        actorId: link.actorId,
+        name: game.actors.get(link.actorId)?.name || String(link.name || "Unbekanntes Fahrzeug"),
+        relation: String(link.relation || "Zugeordnet"),
+        notes: String(link.notes || "")
+      }));
   }
 
   _normalizeMoneyStores(moneyStores = []) {
@@ -334,6 +351,8 @@ export class UropCharacterSheet extends ActorSheet {
     html.find('[data-action="open-item"]').on("contextmenu", this._onDeleteItemMenu.bind(this));
     html.find('[data-action="add-money-store"]').on("click", this._onAddMoneyStore.bind(this));
     html.find('[data-action="remove-money-store"]').on("click", this._onRemoveMoneyStore.bind(this));
+    html.find('[data-action="add-vehicle-link"]').on("click", this._onAddVehicleLink.bind(this));
+    html.find('[data-action="remove-vehicle-link"]').on("click", this._onRemoveVehicleLink.bind(this));
 
     // Apply initial lock visual state
     this._applyLockState(html);
@@ -702,6 +721,28 @@ export class UropCharacterSheet extends ActorSheet {
     await this.actor.update({ "system.resources.moneyStores": current });
   }
 
+  async _onAddVehicleLink(event) {
+    event.preventDefault();
+    await this._saveFormBeforeItemAction(event);
+    const actorId = this.element.find('[data-vehicle-select]').val();
+    const vehicle = game.actors.get(actorId);
+    if (!vehicle || vehicle.type !== "vehicle") return;
+    const links = this._normalizeVehicleLinks(this.actor.system.vehicleLinks || []);
+    if (links.some((link) => link.actorId === actorId)) return;
+    links.push({ actorId, name: vehicle.name, relation: "Zugeordnet", notes: "" });
+    await this.actor.update({ "system.vehicleLinks": links });
+  }
+
+  async _onRemoveVehicleLink(event) {
+    event.preventDefault();
+    await this._saveFormBeforeItemAction(event);
+    const index = Number(event.currentTarget.dataset.index);
+    const links = this._normalizeVehicleLinks(this.actor.system.vehicleLinks || []);
+    if (!Number.isInteger(index) || index < 0 || index >= links.length) return;
+    links.splice(index, 1);
+    await this.actor.update({ "system.vehicleLinks": links });
+  }
+
   async _updateObject(event, formData) {
     const updateData = { ...formData };
 
@@ -733,12 +774,19 @@ export class UropCharacterSheet extends ActorSheet {
       if (key.startsWith("system.settings.combatDisplay.")) {
         delete updateData[key];
       }
+
+      if (key.startsWith("system.vehicleLinks.")) delete updateData[key];
     }
 
     updateData["system.resources.moneyStores"] = this._collectMoneyStoresFromFormData(formData);
     updateData["system.settings.consequenceSlots"] = consequenceSlotConfig;
     updateData["system.settings.combatDisplay"] = combatDisplaySettings;
     updateData["system.consequences"] = this._collectConsequencesFromFormData(formData, consequenceSlotConfig);
+    updateData["system.vehicleLinks"] = this._normalizeVehicleLinks(this.actor.system.vehicleLinks || []).map((link, index) => ({
+      ...link,
+      relation: String(formData[`system.vehicleLinks.${index}.relation`] ?? link.relation),
+      notes: String(formData[`system.vehicleLinks.${index}.notes`] ?? link.notes)
+    }));
 
     await this.actor.update(updateData);
   }

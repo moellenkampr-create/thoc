@@ -40,6 +40,20 @@ pages:
         <li><code>git diff --check</code>, Commit und Push ausfuehren.</li>
         <li>In Foundry ueber die Manifest-URL aktualisieren und Pack sowie Journal pruefen.</li>
         </ol>
+        <h2>0.1.53 - 2026-09-05</h2>
+        <h3>Hinzugefuegt</h3>
+        <ul>
+        <li>Neuer Actor-Typ <code>vehicle</code> mit Vergleichswerten, Sektionen und konfigurierbaren Strukturkonsequenzen.</li>
+        <li>Neues Item <code>vehicle_module</code> für Antrieb, Tank, Crew, Laderaum, Sensorik, Steuerung, Netz und Spezialumbauten.</li>
+        <li>Neue Compendia <strong>URoP Fahrzeuge</strong> mit Motorrad, gepanzertem Auto und LKW sowie <strong>URoP Fahrzeugmodule</strong> mit acht Beispielen.</li>
+        <li>Charaktere können Vehicle-Actors auf der Ausrüstungsseite zuordnen.</li>
+        </ul>
+        <h3>Geaendert</h3>
+        <ul>
+        <li>Gear erhält Lagerort/Montage und Platzbedarf; Waffen und Rüstungen können auf Vehicle-Actors verwendet werden.</li>
+        </ul>
+        <h3>Migration erforderlich</h3>
+        <p>Ja. Bestehende Charaktere erhalten eine leere Fahrzeugzuordnung; Waffen und Rüstungen erhalten sichere Standardwerte für Fahrzeugmontage.</p>
         <h2>0.1.52 - 2026-08-31</h2>
         <h3>Geaendert</h3>
         <ul>

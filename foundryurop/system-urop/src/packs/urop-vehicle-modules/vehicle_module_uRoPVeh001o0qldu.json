@@ -1,0 +1,29 @@
+{
+  "name": "Straßenantrieb Kestrel",
+  "type": "vehicle_module",
+  "img": "icons/svg/wingfoot.svg",
+  "system": {
+    "moduleCategory": "mobility",
+    "sectionId": "main",
+    "tier": 1,
+    "sizeClass": "G1",
+    "price": 2200,
+    "availability": "common",
+    "prerequisitesText": "Passende Hauptsektion und Wartungszugang.",
+    "rulesShort": "Leichter Hochleistungsantrieb für Stadt- und Straßenfahrten.",
+    "description": "Sorgt für direkte Beschleunigung; die konkrete Wirkung bleibt über Fahrzeuglage und Fahrerprobe lesbar.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh001o0qldu",
+  "_key": "!items!uRoPVeh001o0qldu",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

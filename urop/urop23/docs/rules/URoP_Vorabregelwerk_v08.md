@@ -322,6 +322,10 @@ Bei unklarer Einordnung zwischen Aktions- und Flufffertigkeit entscheidet die Sp
 
 Parent-Verknuepfungen und weitere Voraussetzungen erzeugen keine Zusatzkosten. Mit Zustimmung der Spielleitung darf eine Fertigkeit gewählt werden, wenn ihre Voraussetzungen erfüllt sind.
 
+### 2.4.1 Fahrzeuge
+
+Fahrzeuge sind modulare Plattformen. Die handelnde Figur würfelt weiterhin mit der passenden Fertigkeit; Plattformwerte, Sektionen, Module und Strukturkonsequenzen beschreiben die Lage und ihre Folgen. Fahrzeug- und Modulregeln stehen führend in `URoP_Fahrzeugregeln.md`.
+
 ### 2.5 Spezialattribute / Sondernatur
 
 Spezialattribute sind optional. ZusatzkrÃ¤fte sind nicht fest an Geist gebunden; sie kÃ¶nnen an KÃ¶rper, Geist oder PrÃ¤senz andocken. ZugÃ¤nge laufen eher Ã¼ber Freischaltung, Vorteil, Begabung und passende Fertigkeiten.

@@ -1,0 +1,29 @@
+{
+  "name": "Verstärkter Treibstofftank",
+  "type": "vehicle_module",
+  "img": "icons/svg/gas-pump.svg",
+  "system": {
+    "moduleCategory": "power",
+    "sectionId": "main",
+    "tier": 1,
+    "sizeClass": "G1",
+    "price": 800,
+    "availability": "common",
+    "prerequisitesText": "Freier Einbauplatz im Rahmen oder Rumpf.",
+    "rulesShort": "Erhöht Reichweite und schützt den Tank gegen leichte Beschädigungen.",
+    "description": "Ein robuster Tank für lange Fahrten und Einsätze abseits gesicherter Versorgung.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh000zppgyx",
+  "_key": "!items!uRoPVeh000zppgyx",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

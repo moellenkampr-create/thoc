@@ -1,5 +1,20 @@
 # URoP Foundry Release Notes
 
+## [0.1.53] - 2026-09-05
+
+### Added
+- Neuer Actor-Typ `vehicle` mit Vergleichswerten für Geschwindigkeit, Beschleunigung und Manövrierbarkeit, frei beschreibbaren Vergleichseinheiten, Sektionen und konfigurierbaren Strukturkonsequenzen.
+- Neues Item `vehicle_module` für Antrieb, Tank, Crew, Laderaum, Sensorik, Steuerung, Netz/Kommunikation und weitere Einbauten; jedes Modul führt Tier, Größe, Preis, Verfügbarkeit und Voraussetzungen.
+- Neue Compendia `URoP Fahrzeuge` mit Motorrad, gepanzertem Auto und LKW sowie `URoP Fahrzeugmodule` mit acht Beispielen.
+- Charaktere können Vehicle-Actors auf der Ausrüstungsseite zuordnen und die Beziehung notieren.
+
+### Changed
+- Gear erhält Lagerort/Montage und Platzbedarf; Waffen und Rüstungen können über Tier, Sektion und Montage/Geltungsbereich auf Vehicle-Actors verwendet werden.
+
+### Migration Required
+- yes
+- Bestehende Charaktere erhalten eine leere Fahrzeugzuordnung; Waffen und Rüstungen erhalten sichere Standardwerte für Fahrzeugmontage.
+
 ## [0.1.52] - 2026-08-31
 
 ### Changed

@@ -1,0 +1,29 @@
+{
+  "name": "Sensorpaket M-12",
+  "type": "vehicle_module",
+  "img": "icons/svg/radar.svg",
+  "system": {
+    "moduleCategory": "sensors",
+    "sectionId": "main",
+    "tier": 2,
+    "sizeClass": "G1",
+    "price": 3200,
+    "availability": "uncommon",
+    "prerequisitesText": "Stromversorgung und freie Sichtlinie.",
+    "rulesShort": "Liefert Wärmebild, Bewegungserfassung und stabile Sichtunterstützung.",
+    "description": "Mehrkanal-Sensorik für Suche, Verfolgung und Navigation unter schlechter Sicht.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh000kr4dtj",
+  "_key": "!items!uRoPVeh000kr4dtj",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

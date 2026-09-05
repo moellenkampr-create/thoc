@@ -1,4 +1,5 @@
 import { UropCharacterSheet } from "./sheets/character-sheet.mjs";
+import { UropVehicleSheet } from "./sheets/vehicle-sheet.mjs";
 import { UropSkillSheet } from "./sheets/items/skill-sheet.mjs";
 import { UropManeuverSheet } from "./sheets/items/maneuver-sheet.mjs";
 import { UropWeaponSheet } from "./sheets/items/weapon-sheet.mjs";
@@ -7,6 +8,7 @@ import { UropCyberwareSheet } from "./sheets/items/cyberware-sheet.mjs";
 import { UropQuickhackSheet } from "./sheets/items/quickhack-sheet.mjs";
 import { UropGearSheet } from "./sheets/items/gear-sheet.mjs";
 import { UropConsumableSheet } from "./sheets/items/consumable-sheet.mjs";
+import { UropVehicleModuleSheet } from "./sheets/items/vehicle-module-sheet.mjs";
 
 async function runSystemMigrations(fromVersion, toVersion) {
   console.log(`URoP | Migration gestartet: ${fromVersion} -> ${toVersion}`);
@@ -54,6 +56,7 @@ async function runSystemMigrations(fromVersion, toVersion) {
       if (!foundry.utils.hasProperty(actor, "system.settings.combatDisplay.showArmor")) {
         actorUpdates["system.settings.combatDisplay.showArmor"] = true;
       }
+      if (!foundry.utils.hasProperty(actor, "system.vehicleLinks")) actorUpdates["system.vehicleLinks"] = [];
 
       if (Object.keys(actorUpdates).length > 0) {
         await actor.update(actorUpdates);
@@ -63,6 +66,10 @@ async function runSystemMigrations(fromVersion, toVersion) {
         const itemUpdates = {};
 
         if (item.type === "weapon") {
+          if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.mounting")) itemUpdates["system.mounting"] = "personal";
+          if (!foundry.utils.hasProperty(item, "system.sectionId")) itemUpdates["system.sectionId"] = "";
+          if (!foundry.utils.hasProperty(item, "system.mountRequirementText")) itemUpdates["system.mountRequirementText"] = "";
           if (!foundry.utils.hasProperty(item, "system.damageType")) itemUpdates["system.damageType"] = "";
           if (!foundry.utils.hasProperty(item, "system.initiativeModifier")) itemUpdates["system.initiativeModifier"] = 0;
           if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
@@ -75,6 +82,10 @@ async function runSystemMigrations(fromVersion, toVersion) {
         }
 
         if (item.type === "armor") {
+          if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 0;
+          if (!foundry.utils.hasProperty(item, "system.armorScope")) itemUpdates["system.armorScope"] = "personal";
+          if (!foundry.utils.hasProperty(item, "system.sectionId")) itemUpdates["system.sectionId"] = "";
+          if (!foundry.utils.hasProperty(item, "system.mountRequirementText")) itemUpdates["system.mountRequirementText"] = "";
           if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
           if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
           if (!foundry.utils.hasProperty(item, "system.userSizeNominal")) itemUpdates["system.userSizeNominal"] = "G3";
@@ -134,6 +145,10 @@ async function runSystemMigrations(fromVersion, toVersion) {
       const itemUpdates = {};
 
       if (item.type === "weapon") {
+        if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.mounting")) itemUpdates["system.mounting"] = "personal";
+        if (!foundry.utils.hasProperty(item, "system.sectionId")) itemUpdates["system.sectionId"] = "";
+        if (!foundry.utils.hasProperty(item, "system.mountRequirementText")) itemUpdates["system.mountRequirementText"] = "";
         if (!foundry.utils.hasProperty(item, "system.damageType")) itemUpdates["system.damageType"] = "";
         if (!foundry.utils.hasProperty(item, "system.initiativeModifier")) itemUpdates["system.initiativeModifier"] = 0;
         if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
@@ -146,6 +161,10 @@ async function runSystemMigrations(fromVersion, toVersion) {
       }
 
       if (item.type === "armor") {
+        if (!foundry.utils.hasProperty(item, "system.tier")) itemUpdates["system.tier"] = 0;
+        if (!foundry.utils.hasProperty(item, "system.armorScope")) itemUpdates["system.armorScope"] = "personal";
+        if (!foundry.utils.hasProperty(item, "system.sectionId")) itemUpdates["system.sectionId"] = "";
+        if (!foundry.utils.hasProperty(item, "system.mountRequirementText")) itemUpdates["system.mountRequirementText"] = "";
         if (!foundry.utils.hasProperty(item, "system.price")) itemUpdates["system.price"] = 0;
         if (!foundry.utils.hasProperty(item, "system.prerequisitesText")) itemUpdates["system.prerequisitesText"] = "";
         if (!foundry.utils.hasProperty(item, "system.userSizeNominal")) itemUpdates["system.userSizeNominal"] = "G3";
@@ -247,6 +266,11 @@ Hooks.once("init", () => {
     makeDefault: true,
     label: "URoP.CharacterSheet"
   });
+  Actors.registerSheet("urop", UropVehicleSheet, {
+    types: ["vehicle"],
+    makeDefault: true,
+    label: "URoP.VehicleSheet"
+  });
 
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("urop", UropSkillSheet,      { types: ["skill"],       makeDefault: true, label: "URoP.Sheet.Skill" });
@@ -257,6 +281,7 @@ Hooks.once("init", () => {
   Items.registerSheet("urop", UropQuickhackSheet,  { types: ["quickhack"],   makeDefault: true, label: "URoP.Sheet.Quickhack" });
   Items.registerSheet("urop", UropGearSheet,       { types: ["gear"],        makeDefault: true, label: "URoP.Sheet.Gear" });
   Items.registerSheet("urop", UropConsumableSheet, { types: ["consumable"],  makeDefault: true, label: "URoP.Sheet.Consumable" });
+  Items.registerSheet("urop", UropVehicleModuleSheet, { types: ["vehicle_module"], makeDefault: true, label: "URoP.Sheet.VehicleModule" });
 
   Handlebars.registerHelper("uropEq", function (a, b) {
     return a === b;

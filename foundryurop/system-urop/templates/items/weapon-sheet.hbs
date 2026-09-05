@@ -83,6 +83,14 @@
           <input type="number" name="system.rangeBands.extrem" value="{{item.system.rangeBands.extrem}}" step="1"/>
           <label class="hover-help" data-help="{{localize 'URoP.ItemHelp.Quality'}}">Qualität</label>
           <input type="text" name="system.quality" value="{{item.system.quality}}"/>
+          <label>Tier</label>
+          <input type="number" min="0" max="6" step="1" name="system.tier" value="{{item.system.tier}}"/>
+          <label>Montage</label>
+          <select name="system.mounting"><option value="personal" {{#if (uropEq item.system.mounting "personal")}}selected{{/if}}>Persönlich</option><option value="vehicle" {{#if (uropEq item.system.mounting "vehicle")}}selected{{/if}}>Fahrzeug</option><option value="both" {{#if (uropEq item.system.mounting "both")}}selected{{/if}}>Beides</option></select>
+          <label>Sektion</label>
+          <input type="text" name="system.sectionId" value="{{item.system.sectionId}}"/>
+          <label>Montagevoraussetzung</label>
+          <input type="text" name="system.mountRequirementText" value="{{item.system.mountRequirementText}}"/>
         </div>
       </div>
     </div>

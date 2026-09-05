@@ -2,7 +2,7 @@
   "id": "urop",
   "title": "URoP",
   "description": "URoP System fuer Foundry VTT v14 (unterstuetzende Automatisierung)",
-  "version": "0.1.52",
+  "version": "0.1.53",
   "url": "https://github.com/moellenkampr-create/thoc",
   "manifest": "https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/system.json",
   "download": "https://raw.githubusercontent.com/moellenkampr-create/thoc/main/foundryurop/system-urop/urop-system.zip",
@@ -55,6 +55,20 @@
       "system": "urop",
       "path": "packs/urop-maneuvers",
       "type": "Item"
+    },
+    {
+      "name": "urop-vehicles",
+      "label": "URoP Fahrzeuge",
+      "system": "urop",
+      "path": "packs/urop-vehicles",
+      "type": "Actor"
+    },
+    {
+      "name": "urop-vehicle-modules",
+      "label": "URoP Fahrzeugmodule",
+      "system": "urop",
+      "path": "packs/urop-vehicle-modules",
+      "type": "Item"
     }
   ],
   "packFolders": [
@@ -62,13 +76,14 @@
       "name": "URoP System",
       "sorting": "a",
       "color": "#2e3b4e",
-      "packs": ["urop-documentation", "urop-skills", "urop-maneuvers"]
+      "packs": ["urop-documentation", "urop-skills", "urop-maneuvers", "urop-vehicles", "urop-vehicle-modules"]
     }
   ],
   "socket": false,
   "documentTypes": {
     "Actor": {
-      "character": {}
+      "character": {},
+      "vehicle": {}
     },
     "Item": {
       "gear": {},
@@ -78,7 +93,8 @@
       "cyberware": {},
       "quickhack": {},
       "maneuver": {},
-      "skill": {}
+      "skill": {},
+      "vehicle_module": {}
     }
   },
   "grid": {

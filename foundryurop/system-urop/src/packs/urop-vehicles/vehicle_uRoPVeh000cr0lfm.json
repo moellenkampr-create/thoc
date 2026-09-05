@@ -1,0 +1,75 @@
+{
+  "name": "Street Bike Kestrel",
+  "type": "vehicle",
+  "img": "icons/svg/motorcycle.svg",
+  "system": {
+    "identity": {
+      "vehicleClass": "ground",
+      "subtype": "Motorrad",
+      "sizeClass": "G2",
+      "tier": 1,
+      "price": 7000,
+      "availability": "uncommon"
+    },
+    "performance": {
+      "speed": 5,
+      "speedDisplay": "220 km/h",
+      "acceleration": 6,
+      "accelerationDisplay": "0-100 km/h in 3,4 s",
+      "maneuverability": 5
+    },
+    "operation": {
+      "crew": "1 Fahrer, 1 Sozius",
+      "passengerCapacity": 1,
+      "handlingNotes": "Schnell und schmal im Stadtverkehr; auf losem Untergrund oder unter Feuer schwer stabil zu halten."
+    },
+    "settings": {
+      "consequenceSlots": {
+        "light": 3,
+        "heavy": 2,
+        "critical": 1
+      },
+      "sections": [
+        {
+          "id": "main",
+          "name": "Hauptsektion",
+          "notes": "Rahmen, Antrieb und Sitzbank."
+        }
+      ]
+    },
+    "consequences": {
+      "light": [
+        "",
+        "",
+        ""
+      ],
+      "heavy": [
+        "",
+        ""
+      ],
+      "critical": [
+        ""
+      ]
+    },
+    "scene": {
+      "position": "gleichauf",
+      "notes": ""
+    },
+    "notes": {
+      "summary": "Runner-Bike für schnelle Stadtfluchten und enge Verfolgungen.",
+      "gm": ""
+    }
+  },
+  "_id": "uRoPVeh000cr0lfm",
+  "_key": "!actors!uRoPVeh000cr0lfm",
+  "folder": "uRoPVeh001oszsf8",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicles"
+    }
+  }
+}

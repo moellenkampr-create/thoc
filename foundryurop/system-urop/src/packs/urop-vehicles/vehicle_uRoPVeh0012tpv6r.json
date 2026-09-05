@@ -1,0 +1,82 @@
+{
+  "name": "Box Truck Hauler",
+  "type": "vehicle",
+  "img": "icons/svg/wagon-covered.svg",
+  "system": {
+    "identity": {
+      "vehicleClass": "ground",
+      "subtype": "LKW",
+      "sizeClass": "G5",
+      "tier": 2,
+      "price": 28000,
+      "availability": "common"
+    },
+    "performance": {
+      "speed": 2,
+      "speedDisplay": "110 km/h",
+      "acceleration": 1,
+      "accelerationDisplay": "träge unter Last",
+      "maneuverability": 1
+    },
+    "operation": {
+      "crew": "1 Fahrer, 1 Beifahrer",
+      "passengerCapacity": 2,
+      "handlingNotes": "Langsam im Antritt und unhandlich in engen Straßen; robust beim Blocken und für Abtransporte."
+    },
+    "settings": {
+      "consequenceSlots": {
+        "light": 5,
+        "heavy": 2,
+        "critical": 1
+      },
+      "sections": [
+        {
+          "id": "cab",
+          "name": "Kabine",
+          "notes": "Steuerung und Crew."
+        },
+        {
+          "id": "cargo",
+          "name": "Laderaum",
+          "notes": "Fracht und Innenausbau."
+        }
+      ]
+    },
+    "consequences": {
+      "light": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "heavy": [
+        "",
+        ""
+      ],
+      "critical": [
+        ""
+      ]
+    },
+    "scene": {
+      "position": "gleichauf",
+      "notes": ""
+    },
+    "notes": {
+      "summary": "Lastwagen für Material, Tarnabtransporte und mobile Einsatzbasis.",
+      "gm": ""
+    }
+  },
+  "_id": "uRoPVeh0012tpv6r",
+  "_key": "!actors!uRoPVeh0012tpv6r",
+  "folder": "uRoPVeh001oszsf8",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicles"
+    }
+  }
+}

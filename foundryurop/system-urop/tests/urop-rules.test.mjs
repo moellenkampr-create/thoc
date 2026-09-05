@@ -116,3 +116,33 @@ test("software items use prerequisites instead of active EP fields", () => {
     assert.equal("learnCostEp" in quickhack.system, false);
   }
 });
+
+test("vehicles are modular actors with configurable structure consequences", () => {
+  const template = JSON.parse(read("template.json"));
+  const manifest = JSON.parse(read("system.json"));
+  const vehicleSheet = read("templates/actors/vehicle-sheet.hbs");
+  const characterSheet = read("templates/actors/character-sheet.hbs");
+  const vehicleSources = fs.readdirSync(path.join(root, "src", "packs", "urop-vehicles"))
+    .filter((filename) => filename.startsWith("vehicle_"));
+  const moduleSources = fs.readdirSync(path.join(root, "src", "packs", "urop-vehicle-modules"))
+    .filter((filename) => filename.startsWith("vehicle_module_"));
+
+  assert.ok(template.Actor.types.includes("vehicle"));
+  assert.ok(template.Item.types.includes("vehicle_module"));
+  assert.ok("vehicle" in manifest.documentTypes.Actor);
+  assert.ok("vehicle_module" in manifest.documentTypes.Item);
+  assert.match(vehicleSheet, /system\.settings\.sections/);
+  assert.match(vehicleSheet, /system\.consequences\.light/);
+  assert.match(characterSheet, /data-vehicle-select/);
+  assert.equal(vehicleSources.length, 3);
+  assert.equal(moduleSources.length, 8);
+  const truck = JSON.parse(read(path.join("src", "packs", "urop-vehicles", vehicleSources.find((filename) => filename.includes("Box-Truck")) || vehicleSources[2])));
+  assert.equal(truck.system.settings.consequenceSlots.light, 5);
+  for (const filename of moduleSources) {
+    const module = JSON.parse(read(path.join("src", "packs", "urop-vehicle-modules", filename)));
+    assert.equal(module.type, "vehicle_module");
+    assert.ok(module.system.tier >= 0 && module.system.tier <= 6);
+    assert.equal(typeof module.system.price, "number");
+    assert.equal(typeof module.system.availability, "string");
+  }
+});

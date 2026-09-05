@@ -1,0 +1,29 @@
+{
+  "name": "Gepanzertes Cockpit",
+  "type": "vehicle_module",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "moduleCategory": "defense",
+    "sectionId": "cab",
+    "tier": 2,
+    "sizeClass": "G2",
+    "price": 6500,
+    "availability": "restricted",
+    "prerequisitesText": "Tragfähige Karosserie oder Kabinensektion.",
+    "rulesShort": "Schützt Fahrer und Steuerung; Schadensfolgen bleiben als Konsequenzen festgehalten.",
+    "description": "Zusatzplatten, verstärkte Scheiben und geschützte Leitungen für den Fahrbereich.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh000ojqj2g",
+  "_key": "!items!uRoPVeh000ojqj2g",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

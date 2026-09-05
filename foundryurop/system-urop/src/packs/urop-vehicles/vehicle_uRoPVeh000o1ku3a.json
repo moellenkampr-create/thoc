@@ -1,0 +1,75 @@
+{
+  "name": "Armored City Sedan",
+  "type": "vehicle",
+  "img": "icons/svg/car.svg",
+  "system": {
+    "identity": {
+      "vehicleClass": "ground",
+      "subtype": "Gepanzerte Limousine",
+      "sizeClass": "G3",
+      "tier": 3,
+      "price": 65000,
+      "availability": "restricted"
+    },
+    "performance": {
+      "speed": 4,
+      "speedDisplay": "190 km/h",
+      "acceleration": 3,
+      "accelerationDisplay": "0-100 km/h in 8 s",
+      "maneuverability": 3
+    },
+    "operation": {
+      "crew": "1 Fahrer, 4 Passagiere",
+      "passengerCapacity": 4,
+      "handlingNotes": "Stabil und geschützt, aber schwerer in engen Gassen und beim abrupten Wechsel der Linie."
+    },
+    "settings": {
+      "consequenceSlots": {
+        "light": 3,
+        "heavy": 2,
+        "critical": 1
+      },
+      "sections": [
+        {
+          "id": "main",
+          "name": "Hauptsektion",
+          "notes": "Karosserie, Fahrerkabine und Passagierraum."
+        }
+      ]
+    },
+    "consequences": {
+      "light": [
+        "",
+        "",
+        ""
+      ],
+      "heavy": [
+        "",
+        ""
+      ],
+      "critical": [
+        ""
+      ]
+    },
+    "scene": {
+      "position": "gleichauf",
+      "notes": ""
+    },
+    "notes": {
+      "summary": "Zivile Schutzplattform mit nachgerüsteter Panzerung und Platz für ein kleines Team.",
+      "gm": ""
+    }
+  },
+  "_id": "uRoPVeh000o1ku3a",
+  "_key": "!actors!uRoPVeh000o1ku3a",
+  "folder": "uRoPVeh001oszsf8",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicles"
+    }
+  }
+}

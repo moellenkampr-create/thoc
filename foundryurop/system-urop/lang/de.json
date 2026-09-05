@@ -297,7 +297,8 @@
       "cyberware": "Cyberware",
       "quickhack": "Quickhack",
       "maneuver": "Manöver",
-      "skill": "Fertigkeit"
+      "skill": "Fertigkeit",
+      "vehicle_module": "Fahrzeugmodul"
     }
   }
 }

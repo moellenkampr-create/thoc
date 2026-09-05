@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character"],
+    "types": ["character", "vehicle"],
     "character": {
       "meta": {
         "locking": {
@@ -76,18 +76,51 @@
           "max": 1
         }
       },
+      "vehicleLinks": [],
       "notes": {
         "summary": "",
         "backstory": "",
         "gm": ""
       }
+    },
+    "vehicle": {
+      "identity": {
+        "vehicleClass": "ground",
+        "subtype": "",
+        "sizeClass": "G3",
+        "tier": 0,
+        "price": 0,
+        "availability": "common"
+      },
+      "performance": {
+        "speed": 0,
+        "speedDisplay": "",
+        "acceleration": 0,
+        "accelerationDisplay": "",
+        "maneuverability": 0
+      },
+      "operation": {
+        "crew": "",
+        "passengerCapacity": 0,
+        "handlingNotes": ""
+      },
+      "settings": {
+        "consequenceSlots": { "light": 3, "heavy": 2, "critical": 1 },
+        "sections": [{ "id": "main", "name": "Hauptsektion", "notes": "" }]
+      },
+      "consequences": { "light": ["", "", ""], "heavy": ["", ""], "critical": [""] },
+      "scene": { "position": "gleichauf", "notes": "" },
+      "notes": { "summary": "", "gm": "" }
     }
   },
   "Item": {
-    "types": ["gear", "consumable", "weapon", "armor", "cyberware", "quickhack", "maneuver", "skill"],
+    "types": ["gear", "consumable", "weapon", "armor", "cyberware", "quickhack", "maneuver", "skill", "vehicle_module"],
     "gear": {
       "tier": "T0",
       "price": 0,
+      "availability": "common",
+      "storageOrMountText": "",
+      "bulkOrSpaceText": "",
       "rulesShort": "",
       "description": "",
       "notes": ""
@@ -102,10 +135,14 @@
       "notes": ""
     },
     "weapon": {
+      "tier": 0,
       "damageBaseline": 2,
       "damageType": "",
       "initiativeModifier": 0,
       "prerequisitesText": "",
+      "mounting": "personal",
+      "sectionId": "",
+      "mountRequirementText": "",
       "quality": "standard",
       "designedForSizeClass": "G3",
       "effectiveAgainstClass": "G3",
@@ -121,11 +158,15 @@
       "notes": ""
     },
     "armor": {
+      "tier": 0,
       "protectionValue": 0,
       "price": 0,
       "quality": "standard",
       "userSizeNominal": "G3",
       "prerequisitesText": "",
+      "armorScope": "personal",
+      "sectionId": "",
+      "mountRequirementText": "",
       "protectionByDamageType": [
         {
           "damageType": "",
@@ -189,6 +230,18 @@
       "attributeAnchor": "",
       "ruleAnchors": ["", "", ""],
       "learnCostEp": 0,
+      "prerequisitesText": "",
+      "rulesShort": "",
+      "description": "",
+      "notes": ""
+    },
+    "vehicle_module": {
+      "moduleCategory": "utility",
+      "sectionId": "",
+      "tier": 0,
+      "sizeClass": "G1",
+      "price": 0,
+      "availability": "common",
       "prerequisitesText": "",
       "rulesShort": "",
       "description": "",

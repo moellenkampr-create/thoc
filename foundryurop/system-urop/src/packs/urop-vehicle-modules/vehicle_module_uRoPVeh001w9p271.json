@@ -1,0 +1,29 @@
+{
+  "name": "Abschließbarer Laderaumausbau",
+  "type": "vehicle_module",
+  "img": "icons/svg/package.svg",
+  "system": {
+    "moduleCategory": "cargo",
+    "sectionId": "cargo",
+    "tier": 1,
+    "sizeClass": "G3",
+    "price": 2400,
+    "availability": "common",
+    "prerequisitesText": "Laderaumsektion.",
+    "rulesShort": "Geschützter Stauraum für Gear, Material und sensible Fracht.",
+    "description": "Führt keine eigene Frachtlogik ein; Gear wird direkt im Vehicle-Actor abgelegt und mit Lagerort beschrieben.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh001w9p271",
+  "_key": "!items!uRoPVeh001w9p271",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

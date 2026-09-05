@@ -1,0 +1,29 @@
+{
+  "name": "Vernetzte Fahrzeugsteuerung",
+  "type": "vehicle_module",
+  "img": "icons/svg/circuit.svg",
+  "system": {
+    "moduleCategory": "network",
+    "sectionId": "cab",
+    "tier": 3,
+    "sizeClass": "G1",
+    "price": 4800,
+    "availability": "restricted",
+    "prerequisitesText": "Steuerungsmodul und autorisierte Zugangsdaten.",
+    "rulesShort": "Ermöglicht Telematik, Diagnose, Fernzugriff und Quickhack-Angriffsflächen.",
+    "description": "Verbindet Steuerung, Verriegelung und Diagnose. Ohne dieses oder ein vergleichbares Modul besitzt die Plattform keine besondere Netzoffenheit.",
+    "notes": "Hacking-Hooks: Ortung, Türen, Wegfahrsperre."
+  },
+  "_id": "uRoPVeh0019y7gjc",
+  "_key": "!items!uRoPVeh0019y7gjc",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}

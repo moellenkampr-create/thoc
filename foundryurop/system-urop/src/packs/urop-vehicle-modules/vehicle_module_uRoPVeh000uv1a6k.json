@@ -1,0 +1,29 @@
+{
+  "name": "Autopilot-VI",
+  "type": "vehicle_module",
+  "img": "icons/svg/bot.svg",
+  "system": {
+    "moduleCategory": "control",
+    "sectionId": "cab",
+    "tier": 3,
+    "sizeClass": "G1",
+    "price": 9000,
+    "availability": "restricted",
+    "prerequisitesText": "Vernetzte Fahrzeugsteuerung oder isolierter Steuerkern.",
+    "rulesShort": "Unterstützt Routinefahrten und klare, vorher definierte Fahrbefehle.",
+    "description": "Keine universelle KI: Unter Druck, bei widersprüchlichen Lagen oder komplexem Gelände entscheidet weiterhin die Szene und gegebenenfalls eine Probe.",
+    "notes": ""
+  },
+  "_id": "uRoPVeh000uv1a6k",
+  "_key": "!items!uRoPVeh000uv1a6k",
+  "folder": "uRoPVeh001uga88f",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urop": {
+      "source": "urop-vehicle-modules"
+    }
+  }
+}
