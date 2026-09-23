@@ -385,6 +385,42 @@ source: lore_db.md
 - Verliert sich mit den Jahren immer staerker in Hierarchie-, Opfer- und Kontrolllogik; rechtfertigt schmutzige Entscheidungen als notwendige Verteidigung von Arasaka und Ordnung.
 - **Nach Enricos Unfall (ARBEITSSTAND):** Macht Ely gegenueber Bertram explizit verantwortlich fuer Lauris Verbindung zu den Valentinos. Fordert vollstaendigen und dauerhaften Kontaktabbruch zwischen Ely und Lauri. Scheitert daran, weil **Dr. Redmond** sich medizinisch dagegen stellt. Spricht in der gesamten Klinik-Nachsorgephase nie direkt mit Ely.
 
+#### Psychologisches und ideologisches Profil [ARBEITSSTAND]
+- Walter ist kein emotionsloser Soziopath im simplen Sinn. Plausibler ist ein hochfunktionaler, narzisstischer Instrumentalist mit antisozialen Zuegen und stark selektiver Empathie.
+- Er kann Bindung und sogar Liebe empfinden, verwechselt Liebe aber mit Schutz, Besitz, Optimierung, Loyalitaet und Dankbarkeit.
+- Walter hat Lauri nie wirklich als seine Tochter gesehen. In seiner inneren Ordnung ist sie primaer **Elisas Tochter**, Walters wissenschaftlicher Erfolg, ein lebender Beweis seiner Faehigkeiten und ein von ihm verwaltetes Projekt.
+- Er kann Lauri bedauern und ihren Tod als Verlust empfinden, wuerde fuer seine Ziele aber notfalls ueber ihre Leiche gehen. Das koennte er sich sogar als "sein groesstes Opfer" umdeuten.
+- Walter kann Fehler als technische oder strategische Fehleinschaetzung erkennen, aber keine moralische Schuld akzeptieren. Wenn andere seine Handlungen als Unrecht bezeichnen, wertet er das als Ergebnis verkorkster Moral oder mangelnden Verstaendnisses.
+- Sein Selbstbild: Er ist der schlauste Mann im Raum und deshalb berechtigt, Entscheidungen fuer andere zu treffen. Widerspruch bestaetigt fuer ihn eher die Unterlegenheit des Gegenuebers.
+
+#### Menschenbild und Forschungslogik [ARBEITSSTAND]
+- Walter betrachtet Menschen als eine Form von Intelligenz und zugleich als biologisch unvollendete Wesen. Die Tiermetapher meint fuer ihn nicht Wertlosigkeit, sondern den Ausgangspunkt einer naechsten Entwicklungsstufe.
+- Moral ist fuer ihn kein universelles Gesetz, sondern ein historisches Ueberlebenswerkzeug. Wenn 10.000 Menschen sterben muessen, damit ein realer, dauerhafter Fortschritt entsteht, ist das fuer ihn ein notwendiges Opfer.
+- Er fasziniert sich fuer Genetik, Hirn, Cyberware, KI und Bewusstseinsmodelle. Kuenstlichkeit ist fuer ihn weder minderwertig noch automatisch ueberlegen; entscheidend ist, was leistungsfaehiger, stabiler und weiterentwicklungsfaehig ist.
+- Arasaka ist fuer ihn keine Familie, sondern die leistungsfaehige Infrastruktur, die Forschung, Kapital, Sicherheit, Militaer und Unsterblichkeitszugang zusammenhaelt.
+- Er kennt Hinweise auf Mikoshi und das Secure-Your-Soul-Projekt und interessiert sich fuer eine technische Fortsetzung des Bewusstseins. Er glaubt nicht an eine Seele; ein funktionsfaehiges Konstrukt mit Erinnerungen, Zugriff und Entscheidungsfaehigkeit waere fuer ihn ausreichend.
+- Sein Ziel ist nicht bloss ewiges Leben, sondern die Fortsetzung seiner Forschung ueber den biologischen Tod hinaus. Der eigentliche Erfolg waere ein reproduzierbares System aus Genetik, Klontechnik, Cyberware, KI-gestuetzter Analyse und Bewusstseinsuebertragung.
+
+#### Elisa, Lauri und Enrico [ARBEITSSTAND]
+- Walter heiratete Elisa wahrscheinlich zunaechst aus Pflicht, Familienlogik und strategischer Vernunft. Echte Zuneigung kann sich entwickelt haben, wurde von ihm aber zunehmend in Kontrolle uebersetzt.
+- Nach der erwarteten Fehlgeburt liess Walter Lauri als Ersatz fuer Elisas verlorenes Kind klonen, schob sie ihr unter und trieb die Schwangerschaft mit Hormonen weiter, damit Elisa eine scheinbar reale Schwangerschaft und Geburt erleben konnte.
+- Elisa fand die Wahrheit selbst oder wurde von einer bislang nicht festgelegten Person gezielt darauf gestossen. Zeitpunkt, Ort und genaue Beweisfuehrung bleiben offen, sind fuer den aktuellen Handlungsverlauf aber nicht zwingend zu entscheiden.
+- Der Bruch zwischen Walter und Elisa entstand nicht nur durch den Klon selbst, sondern durch die Ausloeschung von Elisas eigener Trauer und Entscheidungsfreiheit. Elisa ist psychisch instabiler geworden und hat sich von Lauri teilweise abgekapselt; trotz des Bindungsbruchs steht Lauri in ihrer inneren Gewichtung vor Walter.
+- Enrico war fuer Walter keine persoenliche Nemesis, sondern eine unnuetze, kontraproduktive Stoerung und Schmeissfliege. Walter hatte nur nie genug Zeit oder Anlass, sich aktiv um ihn zu kuemmern. Als er es gekonnt haette, war Enrico bereits tot.
+
+#### Tod, Konstrukte und moegliche Selbstkopien [ARBEITSSTAND / EPO-HOOK]
+- Walter fuerchtet den Tod nicht als mysterioeses oder spirituelles Ereignis. Er fuerchtet die Unterbrechung seiner Arbeit, den Kontrollverlust und ein unvollendetes Ziel.
+- Eine Fortsetzung als Konstrukt waere fuer ihn akzeptabel, solange Gedachtnis, Zugriff, Entscheidungsfaehigkeit und Forschungsarbeit erhalten bleiben.
+- Als moeglicher spaeter Epos-Hook koennte Walter bereits mindestens einen genetischen oder biologisch-technischen Klon seiner selbst erschaffen haben, ohne Arasakas Wissen oder Zustimmung. Ebenso moeglich ist eine Serie von Walter-Abbildern, von denen einige aussortiert, eingelagert oder beseitigt wurden, weil sie seiner Ideologie, Leistungsnorm oder Selbstvorstellung nicht entsprachen.
+- Dieser Hook ist nicht als bestaetigter Gegenwarts-Kanon gesetzt. Offen bleibt, ob ein Walter-Klon existiert, ob Walter ihn als Nachfolger, Backup, Testkoerper oder Konkurrenz betrachtet und ob ein spaeterer Epos-Teil diese Wahrheit aufdeckt.
+
+#### Leitsaetze fuer Walters Redeanteil [ARBEITSSTAND]
+- "Ich habe sie nicht erschaffen, weil ich sie wollte. Ich habe sie erschaffen, weil Elisa sie brauchte. Dass sie heute ohne mich nicht existieren wuerde, macht mich trotzdem fuer sie verantwortlich."
+- "Ich habe euch nie geschadet. Ich habe euch nur zu dem gemacht, was ihr ohne mich niemals haettet werden koennen."
+- "Wenn Lauri dabei stirbt, verliere ich etwas Wertvolles. Wenn ich sie nicht weiterentwickle, verliere ich vielleicht die Zukunft."
+- "Wenn man mich kopieren, laden und weiterarbeiten lassen kann, ist die Frage nach einer Seele nur eine Frage der Terminologie."
+- "Tiere akzeptieren, was sie sind. Menschen behaupten, sie stuenden darueber, und nennen ihre Angst Moral."
+
 ### Elisa Fredderic-Henshaw
 - War frueher deutlich waermer, hoffnungsvoller und familienorientierter; die heutige Kaelte ist **nicht Ursprung**, sondern Ergebnis von Taeuschung, Ohnmacht und Langzeitkontrolle.
 - Die vorgetaeuschte Schwangerschaft, die gestoerte fruehe Bindung zu Lauri, spaetere Verdachtsmomente und Walters fortgesetzte Kontrolle deformieren sie ueber Jahre.
