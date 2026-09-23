@@ -10,6 +10,7 @@
 - Samantha, Lucy und Barbara sprechen das Trio an. Sie sind sicher, dass Ely und Lauri zu THoC gehoeren, und wissen, dass sie mit George verheiratet sind.
 - Lauri gibt ihnen eine Challenge: Wenn sie bis Mittwoch schweigen, erhalten sie eine Ueberraschung.
 - Um 10:00 treffen sie Donny und George. Lauri uebergibt George die OS-Erweiterung und den Splitter.
+- Der Splitter enthaelt Bilder von Lauri als Kleinkind: fruehe liebevolle Alltagsszenen mit Elisa (Baden, gemeinsames Spielen, erstes Eis) und spaetere, auffallend sterile Aufnahmen. Der Stilbruch legt nahe, dass sich Elisas und Walters Familienwirklichkeit um Lauris drittes bis viertes Lebensjahr veraenderte.
 - Donny berichtet, dass Fisto tot aufgefunden wurde und Walter Henshaw involviert sein soll.
 - Das Trio leakt zwei weitere Lieder an den Radiosender und erwaegt, dem Sender gegen Schweigen Datum und Ort einer Ueberraschung zu nennen.
 - Die Anwaeltin ruft an. Lauri holt Ely dazu; der Arasaka-Termin wird auf den 18.08.2077 verschoben.

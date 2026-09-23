@@ -437,6 +437,8 @@ source: lore_db.md
 - Die vorgetaeuschte Schwangerschaft, die gestoerte fruehe Bindung zu Lauri, spaetere Verdachtsmomente und Walters fortgesetzte Kontrolle deformieren sie ueber Jahre.
 - Walter haelt Elisa mit Aerzten, Medikamenten, sozialem Druck und in den letzten Jahren wohl auch gezielteren Eingriffen in Wahrnehmung und Erinnerung klein.
 - Elisa sieht in Lauri zugleich ihre Tochter, Walters Luege, die eigene Ohnmacht und einen echten Menschen, den sie nie sauber schuetzen konnte.
+- **Splitter-Bildspur (ARBEITSSTAND):** Ein von Elias an Lauri gegebener Splitter enthaelt fruehe Aufnahmen von Lauri und Elisa: Baden, gemeinsames Spielen, erstes Eis und andere sichtbar liebevolle Alltagsszenen. Spaetere Bilder wirken deutlich steriler und dokumentarischer. Der Stilbruch liegt ungefaehr bei Lauris drittem bis viertem Lebensjahr und bietet einen zeitlichen Marker fuer den Beginn des familiaren Bruchs.
+- Die Bilder sind kein vollstaendiger Beweis fuer den exakten Ausloeser. Sie belegen vor allem eine Veraenderung in Naehe, Inszenierung oder Dokumentationsweise; wer sie angefertigt und warum Elias sie weitergegeben hat, bleibt offen.
 - **Nach Enricos Unfall — Stille Gegenkraft (ARBEITSSTAND, Kap05):**
   - Elisa koennte nicht offen gegen Walters Kontaktverbot-Forderung antreten; sie ist zu kontrolliert.
   - Stattdessen engagierte sie **Dr. Redmond**, um das Verbot medizinisch zu blockieren: ein Gutachten, das Walters Entscheidung illegitim macht, ohne dass Walters Name direkt widersprochen wird.
