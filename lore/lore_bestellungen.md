@@ -86,13 +86,13 @@ Der Auftritt kann bewusst kurzfristig eingestreut werden, wenn im Plot Leerlauf 
 
 ## Arasaka HR (Frau Bose)
 **Offen (ARBEITSSTAND):**
-Der HR-Termin fuer Lauri ist fix gesetzt: 03.08., 10:00, Arasaka Tower. Das ist kein klassischer Trio-Auftrag, aber ein laufender externer Vorgang mit hoher Prioritaet, der wie ein Pflichttermin behandelt werden muss.
+Der HR-Termin fuer Lauri wurde auf den 18.08., 10:00, im Arasaka Tower verschoben. Das ist kein klassischer Trio-Auftrag, aber ein laufender externer Vorgang mit hoher Prioritaet; juristische Vorbereitung laeuft am 05.08 abends.
 
 **Naechster Trigger:**
-Terminwoche Anfang August, dann Vor-Ort-Gespraech im Tower.
+Auswertung des Face-to-Face-Termins mit der Anwaeltin vom 05.08 abends; danach Vor-Ort-Gespraech im Arasaka Tower am 18.08., 10:00.
 
 **Moegliche Komplikation:**
-Verwaltungs-/Besitzdruck eskaliert oder zieht Folgeauflagen nach sich (Freikauf, Asset-Status, weitere Gespraechsschritte).
+Verwaltungs-/Besitzdruck eskaliert oder zieht Folgeauflagen nach sich (Freikauf, Asset-Status, weitere Gespraechsschritte). Die juristische Strategie muss zudem mit Georges Verletzung, der OS-Erweiterung und dem Fisto-/Walter-Faden abgestimmt werden. Lauris Pruefungsstress kann die Vorbereitung und Offenlegungsentscheidung verengen.
 
 ## Aldecaldos (Lala / Rettungsmarker)
 **Angebot aktiv (ARBEITSSTAND):**
