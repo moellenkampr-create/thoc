@@ -35,7 +35,10 @@ source: lore_db.md
 - George <-> Elias: aktive Kontroll- und Ueberwachungsfeindschaft
 - George <-> Viktor: biologische Familie + medizinischer / emotionaler Stuetzpunkt
 - Lauri <-> Enrico: vergangene Beziehung, durch Tod beendet, Trauma bleibt
-- Donny <-> Trio: vertrauenswuerdiger Backend-Knoten, **kein viertes Teammitglied**
+- Donny <-> Trio: vertrauenswuerdiger Backend-Knoten, **kein viertes Teammitglied**; seine Loyalitaet richtet sich am staerksten auf George und erst danach auf Ely/Lauri als Teil von Georges geschlossenem Trio.
+- Donny <-> George: sehr hohe persoenliche Loyalitaet und Vertrauensannahme; Donny glaubt, sich auf George voll verlassen zu koennen, und prueft innerlich, ob er sich langfristig an Georges Runnergruppe anhaengen kann.
+- Donny <-> Schwester: juengere Schwester als familiaerer Spitzenanker neben George. Sie sieht Donny als Uni-Held und Vorbild, weiss nicht, was er wirklich arbeitet, will seine finanzielle Hilfe nicht dauerhaft annehmen und versucht selbst aus ihrer prekaeren Lage herauszukommen.
+- Donny <-> Valentinos: lose bis belastbare Kontakt- und Informationsverbindungen ohne gesetzte formale Zugehoerigkeit; Donny haelt diese Ebene vor seiner Schwester verborgen.
 - Oggy <-> George: **sehr guter Freund**, fuer George quasi **Familie**
 - Oggy/Familie <-> Lauri/Ely: nach 2077-07-10 explizit als **Family** anerkannt
 - Aldecaldos <-> Trio: als sehr enge, verlaessliche Freunde mit hoher interner Vertrauensstufe eingestuft
