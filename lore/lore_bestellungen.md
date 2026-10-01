@@ -30,10 +30,10 @@ Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure er
 
 ## Viktor (Vic)
 **Offen (ARBEITSSTAND):**
-Der DNA-Abgleich ist im Kern geliefert: Lauri wird als Klon bestaetigt (Marker vorhanden, aber ohne offiziellen Registertreffer; behandelte Leistungs-/Cyberwaremarker). Im Nachlauf bleibt offen, wie tief Vic den Markerpfad noch aufschluesseln kann und welche Folgepraezisierung medizinisch sinnvoll ist. Am 07.08 bietet Vic Cyber-Unterschenkel fuer Lauri an; George erkennt sie als ehemalige Fisto-Prothesen, wodurch neben der technischen Eignung auch ein starker psychologischer Akutkonflikt entsteht.
+Der DNA-Abgleich ist im Kern geliefert: Lauri wird als Klon bestaetigt (Marker vorhanden, aber ohne offiziellen Registertreffer; behandelte Leistungs-/Cyberwaremarker). Im Nachlauf bleibt offen, wie tief Vic den Markerpfad noch aufschluesseln kann und welche Folgepraezisierung medizinisch sinnvoll ist. Am 07.08 bietet Vic Cyber-Unterschenkel fuer Lauri an; George erkennt sie als ehemalige Fisto-Prothesen, wodurch neben der technischen Eignung auch ein starker psychologischer Akutkonflikt entsteht. Vic gibt Lauri ausserdem eine noch nicht genauer benannte Pille zur Absicherung bis zum Monatsende.
 
 **Naechster Trigger:**
-Vic liefert vertieften Zweitlauf (falls noetig), prueft die Fisto-Prothesen auf Restdaten/Spuren und gibt eine konkrete Nachsorge-/Stabilisierungsempfehlung (u. a. nach Lauris Schulterfolge und Nanitenblock).
+Vic liefert vertieften Zweitlauf (falls noetig), klaert die Funktion der Monatsend-Pille, prueft die Fisto-Prothesen auf Restdaten/Spuren und gibt eine konkrete Nachsorge-/Stabilisierungsempfehlung (u. a. nach Lauris Schulterfolge und Nanitenblock).
 
 **Moegliche Komplikation:**
 Unklare oder widerspruechliche Markerdetails koennen trotz Erstbefund einen zweiten Diagnostikschritt notwendig machen.
@@ -43,10 +43,10 @@ Wenn Vic zu einem bestimmten Zeitpunkt freie Cyberware-Slots/Teile verfuegbar ha
 
 ## Oggy
 **Offen (ARBEITSSTAND):**
-Der Umbau von Lauris Motorrad "May" bei Oggy ist offen. Oggy hat den Umbau nach KITT priorisiert und auf etwa 3 bis 4 Wochen gesetzt. Am 06.08 meldet sich Oggy nach dem Angriff mit erheblichem KITT-Schaden; Reparatur und staerkere Scheiben-/Panzerloesung werden akut. Naechste Woche kann Lauri weiterhin vorbeikommen, damit gemeinsam geprueft wird, welche Modifikationen konkret sinnvoll und machbar sind.
+Der Umbau von Lauris Motorrad "May" bei Oggy ist offen. Oggy hat den Umbau nach KITT priorisiert und auf etwa 3 bis 4 Wochen gesetzt. Nach dem 06.08-Angriff und dem Velvet-Nachlauf arbeitet das Umfeld weiter an erheblichem KITT-Schaden; Reparatur und staerkere Scheiben-/Panzerloesung bleiben akut. Naechste Woche kann Lauri weiterhin vorbeikommen, damit gemeinsam geprueft wird, welche Modifikationen konkret sinnvoll und machbar sind.
 
 **Naechster Trigger:**
-KITT-Reparatur und Schadensaufnahme nach dem 07.08-Angriff abschliessen; danach Vorabtermin naechste Woche fuer May-Scoping.
+KITT-Reparatur und Schadensaufnahme nach dem 07.08-Angriff abschliessen; das Trio kehrt nach dem Vic-Termin zur weiteren Arbeit an KITT zurueck. Danach Vorabtermin naechste Woche fuer May-Scoping.
 
 **Moegliche Komplikation:**
 Beim May-Umbau kann KITT-Nacharbeit den realen Start weiter nach hinten schieben.
@@ -66,17 +66,17 @@ Hohe Sichtbarkeit durch Promo kann mit Sicherheits-/Elterndruck kollidieren; zus
 Im Golfclub-/Golden-Hint-Block bietet Elias dem Trio laut Ely-Sicht Freikauf aus Arasaka/Biotechnica an, koppelt den Ausstieg aber an neue NUSA-gebundene SINS. Als Gegenleistung will er verwertbare Informationen ueber Walter als Druckmittel gegen Arasaka. Zusaetzlich setzt er als politische Linie, dass sich das Trio nicht von Trump kaufen lassen und nach Moeglichkeit Trumps Team im Rennen ausbremsen soll.
 
 **Naechster Trigger:**
-Treffen mit Thomas und dem Operationsteam am 07.08., 10:00, zur Walter-Entfuehrung; danach Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
+Treffen mit Thomas und dem Operationsteam am 07.08., 10:00, zur Walter-Entfuehrung; zusaetzlich Essen mit Thomas am Samstag. Lauri will dabei beziehungsweise am Folgetag beichten, dass Ely Thomas' private Lieblingsschokolade weitergegeben hat. Danach Rueckmeldung des Trios auf den Dealrahmen mit klarer Grenzfrage: Ist ein Freikauf ohne NUSA-SIN-Bindung moeglich und kompatibel mit dem Ziel Night-City-Buergerschaft?
 
 **Moegliche Komplikation:**
 Der Deal kann in eine neue Abhaengigkeit kippen, falls Fristen/Bedingungen unklar bleiben oder die Walter-Infoforderung das Trio in direkten Gegenverkehr mit Arasaka zieht. Zusatzproblem seit Golden Hint: NC-Buergerschaft und NUSA-SIN-Pfad sind aktuell nicht deckungsgleich. Neuer Druckhebel seit 29.07-Separee: Elias nutzt ein altes Bandvideo gegen George; Authentizitaet und Kontextgewicht muessen vor operativen Zusagen sauber geklaert werden.
 
 ## Miri (Velvet)
 **Offen (ARBEITSSTAND):**
-Das Trio will einen Auftritt im Velvet. Die Songliste ist bereits bei Miri abgegeben, aber ein konkreter Slot wurde noch nicht rueckgemeldet.
+Das Trio hat am 06.08 fuenf Lieder im Velvet gespielt. Der Club war durch Donnys Werbung ueberfuellt; Miri brach den Auftritt ab, warf einen draengenden Vertragsvertreter hinaus und bat das Trio, den Club vorerst nicht mehr zu bespielen. Ein neuer Slot ist deshalb offen und belastet durch den entstandenen Ruf-/Sicherheitsdruck.
 
 **Naechster Trigger:**
-Rueckmeldung von Miri mit Terminfenster oder aktives Nachhaken durch das Trio.
+Rueckmeldung von Miri, Klaerung des Vertragsvertreters und des Donny-Werbungseffekts; erst danach neues Terminfenster oder aktives Nachhaken durch das Trio.
 
 **Moegliche Komplikation:**
 Wenn der Slot kurzfristig kommt, kann er mit laufenden Prioritaeten kollidieren.

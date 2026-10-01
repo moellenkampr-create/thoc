@@ -1125,6 +1125,12 @@ source: lore_db.md
     - **2077-08-05**: Vormittags- und Nachmittagspruefung laufen gut, die zweite sogar sehr gut. George wartet mit Businesskostuemen mit Roecken und High Heels fuer den Anwaltstermin statt der erwarteten verstaerkten Anzuege. Nach Dusche und Essen faehrt das Trio zur Kanzlei.
     - **2077-08-05 abends**: Auf dem Weg zum Termin bestaetigt Donny die Splitter-Bildfolge: liebevolle Elisa-Lauri-Bilder bis ungefaehr Lauris drittem Lebensjahr, danach kuehlere gestellte Fotografenaufnahmen; ab etwa zehn fehlen Bilder. Das Treffen mit Leila Zimbeck findet in einer teuren Afterlife-Variante der Corporate Zone statt. Zimbeck erklaert einen Stufenplan: Lauri ist noch Arasaka-Asset beziehungsweise Anhaengsel ihres Vaters; als erster Schritt muss ihr Benefactor aus dem unmittelbaren Zugriff entfernt werden. Lauri uebergibt ein Foto ihrer Einbauten, Ely berichtet von der Abschaltung.
     - **Nachlauf**: Nach Essen, Thomas-Telefonat und Dessert faehrt das Trio im fensterlosen Aldecaldo-Kastenwagen zum Sunset Motel und wechselt dort in KITT. Elias schlaegt telefonisch vor, Walter bei Gelegenheit des neutralen Vermittlungsgespraechs zu entfuehren. Sein Wissen ueber THoC wird sichtbar, als er die Lieder des Trios lobt; Quelle dieses Wissens bleibt offen.
+    - **2077-08-05 (Lauri-Sicht, Zimbeck / Thomas / Elias / Schokolade) [ARBEITSSTAND]**:
+      - Donny bestaetigt Lauri direkt die Splitterauswertung: Babyfotos mit Elisa bis etwa zum vierten Lebensjahr warm und gemeinsam, danach kuehler und gestellt; mit Mars Verschwinden endet die Bildspur.
+      - Lauri erkennt darin einen ungefaehren Marker des familiaren Bruchs und kippt kurz in Selbstanklage. Das Treffen mit Leila Zimbeck findet in einer sehr edlen Afterlife-aehnlichen Location statt; Zimbeck reagiert auf die alten Einbauten alarmiert, vermittelt Lauri aber grundsaetzlich Sicherheit.
+      - Lauri ruft Thomas zum Dank an. Lieblingsschokoladen werden ausgetauscht; Thomas laedt das Trio fuer Samstag zum Essen ein. Lauri erkennt, dass Thomas sie wieder bei ihrem Namen nennt und private Informationen teilt.
+      - Lauri erzaehlt Ely die alte Schokoladen-Erinnerung aus der Kindheit. Vor dem Dessert ruft Elias an, bestaetigt indirekt Thomas' Informationsweitergabe und schlaegt erneut Walters Entfuehrung nach dem neutralen Vermittlungsgespraech vor.
+      - Ely verrät dabei versehentlich Thomas' private Lieblingsschokolade; Lauri will es am Folgetag beichten. Die Entscheidung ueber Walter bleibt vertagt. Nachlauf ueber Sunset Motel und enge Rueckkehr ins Aldecaldo-Zelt.
   - **2077-08-06 (Ely-Sicht, Angriff / Pruefungen / Velvet / Walter-Plan) [ARBEITSSTAND]**:
     - Clean-Mode-Fahrt mit Gespraech ueber Elias' Walter-Entfuehrungsvorschlag; Angriff durch bewaffnete Gegner. Ely nutzt KITTs grosse Waffe, lenkt einen Panzerfaustschuss ab, schaltet mehrere Gegner aus und zerstoert den angreifenden Truck. KITT verliert dabei eine Scheibe.
     - Wegen knapper Pruefungszeit parkt das Trio dank Panam bei der 66th Street Gang und faehrt mit Delamain zur Uni. Die Pruefungen laufen gut; Ely schneidet gut ab.
@@ -1132,9 +1138,31 @@ source: lore_db.md
     - Das Trio faehrt nach Kleidungsvorbereitung zum vollen Velvet, schleicht sich hinten hinein und spielt vier Songs inklusive "Und dann singen sie". Nach der Pause draengt ein schmieriger Vertragsmann; Miri wirft ihn hinaus und bittet das Trio anschliessend zu gehen. Ein moeglicher Donny-Zusammenhang bleibt ungeklaert.
     - Nacht bei Oggy: Reparaturversuch an KITT, Sleep-Inducer-Schlaf und uebersuesster Erbsenbrei als Camp-/Familiennachlauf. Vor dem Sunset Motel steht ein Net54-Uebertragungswagen.
     - Lauri meldet Thomas die Zustimmung des Trios zur Walter-Entfuehrung. Thomas setzt fuer den 07.08 um 10:00 ein Treffen mit dem Operationsteam an.
+  - **2077-08-06 (Lauri-Sicht, Halloweeners / Pruefungen / Velvet) [ARBEITSSTAND]**:
+    - Halloweeners greifen das Trio auf dem Weg zur letzten Pruefung an. Lauri weicht einer zurueckkommenden Rakete aus und bringt KITT trotz Treffern wieder auf Kurs; ein Gegner wird mit Bike aus dem Kampf geschleudert, Ely schaltet weitere Gegner aus.
+    - KITT wird stark beschaedigt. Panam organisiert einen Fahrzeugwechsel bei der 6th Street; das Trio erreicht die Uni zwei Minuten vor Beginn und erhaelt 30 Minuten zum Frischmachen.
+    - Lauri nennt im Pruefungsraum ihren Vater als moeglichen Hauptinvestor, ohne Walter konkret zu belasten. Die Pruefung laeuft trotz Angriff und Chaos gut; Bestleistungen, Campusunterkunft und Psychologin werden als Optionen genannt.
+    - Alexej, Ivans Vater und Hausmeister, unterbricht den Campus-Nachlauf und bestaetigt, dass das Trio gute Musik macht.
+    - Im Velvet erzeugt Donnys Werbung eine sehr grosse, teilweise sehr junge Menschenmenge; das Trio spielt fuenf Lieder, bevor Miri wegen Ueberlastung abbricht. Ein Vertragsvertreter draengt auf eine sofortige Unterschrift und wird von Miri hinausgeworfen.
+    - Miri macht Donnys Werbung fuer die Situation mitverantwortlich. Das Trio flieht zu Oggy; viele Kontakte melden sich, Mandy's ist leergegessen und leergetrunken.
   - **2077-08-07 (Ely-Sicht, Black/Ombudsmann / Vic-Cyberbeine) [ARBEITSSTAND]**:
     - Um 10:00 geht das Trio hinten in den Uebertragungswagenbereich. Zwei grosse Begleiter kommen mit hinein; Lauri und Ely ziehen Waffen, weil George fehlt und Ely eine Falle vermutet.
     - Susan und eine Kontaktseite namens Black beziehungsweise Blond wollen nur Zeit und Ort des neutralen Ombudsmann-Treffens wissen. Nach einer Rotsy-Frage kippt das Gespraech; Susan lehnt engere Zusammenarbeit ab.
     - Thomas hinterlaesst dem Trio Lieblingsschokolade als Geschenk. Danach geht es zu Oggy an KITT.
     - Vic bietet Cyber-Unterschenkel fuer Lauri an. Motorradcops an der Night-City-Grenze loesen eine kurze Flucht-/Adrenalinszene von Lauri und George aus; Ely faehrt allein zu Vic.
     - George erkennt, dass die Prothesen zuvor Fisto gehoerten. Lauri will sie impulsiv zerstoeren; Ely wird untersucht und holt anschliessend bei Misty eine Teemischung fuer Miss Pumpernickel.
+  - **2077-08-07 (Lauri-Sicht, Black-Kontakt / Vic / Cyberbeine) [ARBEITSSTAND]**:
+    - Nach kurzer Schlafpause und weiterem KITT-Schrauben geht das Trio zum Sunset Motel. Zwei albernde Kontakte nennen sich Flach und Witz beziehungsweise Black und Black; Susan fragt nach Rotzy/Rotsy und zieht sich nach dem Dementi mit der Bitte um Ort und Zeit des Ombudsmann-Treffens zurueck.
+    - Thomas schickt erneut die Lieblingsschokolade. Bei Oggy soll KITT fertig werden.
+    - Vic kuendigt Cyberbeine fuer Lauri an. Lauri und George liefern sich nach nicht eingeschalteten SINs eine kurze Verfolgung mit zwei Motorradcops und entkommen per Rauchgranate.
+    - George erkennt bei Vic, dass die Prothesen zuvor Fisto gehoerten. Lauri spricht mit Vic; eine Pille zur Absicherung bis zum Monatsende wird ausgegeben. Ely holt Tee fuer Frau Pumpernickel bei Misty.
+    - Der genaue Inhalt von Lauris neuem Plan bleibt offen; KITT ist weiterhin nicht fertig.
+  - **2077-08-07 abends (Ely-Sicht, Privater Penthouse-Abend / Highspeed-Rennen) [ARBEITSSTAND]**:
+    - George fuehrt Ely und Lauri ueber Kartensignal in ein wohlhabendes Gebiet, trifft sie bei Foodtrucks mit Eis und bringt sie anschliessend ueber eine nicht oeffentliche Tiefgarage in ein Penthouse.
+    - Der private Ort bietet einen halb innen, halb ausserhalb liegenden Pool mit Sprudelfunktion. Nach etwa einer Stunde im Wasser bereitet George Abendessen aus hochwertigem Fertigessen und drei unterschiedlich gefuellte Lava-Cakes zu.
+    - Beim Essen bespricht das Trio das Rennen am Folgetag: ein Highspeed-Rennen rund um Night City mit voraussichtlich weniger Schusswechseln als die bisherigen Laeufe. Der Abend endet in privater Trio-Naehe.
+  - **2077-08-08 morgens (Ely-Sicht, Oggy / Apfelkuchen / Rennvorbereitung) [ARBEITSSTAND]**:
+    - George bereitet nach Liegestuetztraining ein improvisiertes Sonntagsfruehstueck mit Gebaeck, Kaffee und Eiern zu.
+    - Bei Oggy bringt Ely Schokocreme fuer die Kinder mit. Lauri besorgt Apfelschaeler und Aepfel; Jenny lehnt die bitteren Biotechnica-Aepfel ab, waehrend die Kinder die neuen Aepfel moegen. Gemeinsam entsteht ein gedeckter Apfelkuchen.
+    - Fuer das Highspeed-Rennen wird KITTs grosse Kanone wegen des Gewichts ausgebaut.
+    - Lauri faehrt zum Aldecaldo-Lager, um ein vergessenes Geschenk fuer George zu holen, und trifft vor dem Trio-Zelt Mitch.
