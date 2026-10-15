@@ -18,15 +18,15 @@ Kurzlogik:
 
 ## Donny
 **Offen (ARBEITSSTAND):**
-Der Rueckmeldepunkt hat geliefert: Donny meldet am 29.07 eine belastbare Maria-Spur (Santo Domingo Memorial Hospital nach Drive-by-Schussverletzung). Das Trio setzt 1000 Eddies fuer den Suchnachlauf. Dossierlage dazu: Maria und Zoltan Grimm sind ein Paar mit zwei Kindern und Streetfood-Alltag; Zoltan wird als Runner gefuehrt.
+Der Rueckmeldepunkt hat geliefert: Donny meldet am 29.07 eine belastbare Maria-Spur (Santo Domingo Memorial Hospital nach Drive-by-Schussverletzung). Das Trio setzt 1000 Eddies fuer den Suchnachlauf. Dossierlage dazu: Maria und Zoltan Grimm sind ein Paar mit zwei Kindern und Streetfood-Alltag; Zoltan wird als Runner gefuehrt. Donnys spaetere Meldung, Fisto sei tot und Walter involviert, gilt fuer das Trio als ausreichender Abschluss; es wird nicht weiter nachgeforscht.
 
 Zusaetzlich laufen bei Donny drei neue Identitaeten fuer das Trio. Diese sind bereits bezahlt und fuer Anfang August angepeilt. Wichtig: Wenn das Trio die neuen Identitaeten wirklich integriert, muss das als eigener Schritt explizit beauftragt werden, weil dann die alte Identitaetslinie getrennt eingefroren werden muss. Bis zur Integration bleiben die neuen Identitaeten reine "Papiertiger".
 
 **Naechster Trigger:**
-Donny liefert Nachlauf zur Schuetzen-/Auftraggeberlinie im Maria-Fall oder Fertigmeldung der drei Identitaeten (Anfang August). Fuer die Nutzung der Identitaeten ist danach ein separater Integrationsauftrag noetig.
+Donny liefert Nachlauf zur Schuetzen-/Auftraggeberlinie im Maria-Fall oder Fertigmeldung der drei Identitaeten (Anfang August). Der Fisto-Fall ist fuer die Gruppe abgeschlossen und wird nicht weiterverfolgt. Fuer die Nutzung der Identitaeten ist danach ein separater Integrationsauftrag noetig.
 
 **Moegliche Komplikation:**
-Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet; neuer Akutmarker ist der mutmasslich bezahlte Schuetzenpfad aus dem Krankenhausblock. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis; George klaert den Punkt aktiv, waehrend Lauris Lagebild im Schockfenster deutlich paranoider ist.
+Die Lage kann heisser werden, wenn Maria als Suchknoten durch externe Akteure erneut unter Druck geraet; der mutmasslich bezahlte Schuetzenpfad bleibt wegen Maria offen. Fisto/Walter gelten fuer die Gruppe als abgeschlossen, waehrend die abweichende SL-Wahrheit ausserhalb ihres Wissens bleibt. Beim Identitaetspfad liegt das Risiko in einem unsauberen Uebergang zwischen alter und neuer Identitaet, falls die Einfrierung nicht sauber getrennt passiert. Sicherheitsmarker seit 27.07: aktuell kein harter Donny-Leak-Nachweis.
 
 ## Viktor (Vic)
 **Offen (ARBEITSSTAND):**
@@ -43,10 +43,10 @@ Wenn Vic zu einem bestimmten Zeitpunkt freie Cyberware-Slots/Teile verfuegbar ha
 
 ## Oggy
 **Offen (ARBEITSSTAND):**
-Der Umbau von Lauris Motorrad "May" bei Oggy ist offen. Oggy hat den Umbau nach KITT priorisiert und auf etwa 3 bis 4 Wochen gesetzt. Nach dem 06.08-Angriff und dem Velvet-Nachlauf arbeitet das Umfeld weiter an erheblichem KITT-Schaden; Reparatur und staerkere Scheiben-/Panzerloesung bleiben akut. Naechste Woche kann Lauri weiterhin vorbeikommen, damit gemeinsam geprueft wird, welche Modifikationen konkret sinnvoll und machbar sind.
+Der Umbau von Lauris Motorrad **Mayday** (Kurzform: **May**) bei Oggy ist offen. George will Lauri eine staerkere Maschine einbauen; Oggy hat dafuer einen neuen Motor gefunden. Der Umbau folgt auf KITT und ist auf etwa 3 bis 4 Wochen angesetzt. Nach dem 06.08-Angriff und dem Velvet-Nachlauf arbeitet das Umfeld weiter an erheblichem KITT-Schaden; Reparatur und staerkere Scheiben-/Panzerloesung bleiben akut.
 
 **Naechster Trigger:**
-KITT-Reparatur und Schadensaufnahme nach dem 07.08-Angriff abschliessen; das Trio kehrt nach dem Vic-Termin zur weiteren Arbeit an KITT zurueck. Danach Vorabtermin naechste Woche fuer May-Scoping.
+KITT-Reparatur und Schadensaufnahme abschliessen; danach den staerkeren Motor fuer Mayday mit George und Oggy abstimmen und einbauen.
 
 **Moegliche Komplikation:**
 Beim May-Umbau kann KITT-Nacharbeit den realen Start weiter nach hinten schieben.
@@ -92,7 +92,7 @@ Der HR-Termin fuer Lauri wurde auf den 18.08., 10:00, im Arasaka Tower verschobe
 Treffen mit Thomas und dem Operationsteam am 07.08., 10:00, zur Vorbereitung der Walter-Entfuehrung; parallel Auswertung von Zimbecks Stufenplan und Benefactor-Schritt. Danach Vor-Ort-Gespraech im Arasaka Tower am 18.08., 10:00.
 
 **Moegliche Komplikation:**
-Verwaltungs-/Besitzdruck eskaliert oder zieht Folgeauflagen nach sich (Freikauf, Asset-Status, weitere Gespraechsschritte). Die juristische Strategie muss zudem mit Georges Verletzung, der OS-Erweiterung und dem Fisto-/Walter-Faden abgestimmt werden. Lauris Benefactor kann als Schutz-, Besitz- oder Kontrollperson reagieren; Elias' Entfuehrungsvorschlag fuer Walter kann die juristische Linie in eine operative Eskalation kippen. Der Net54-Uebertragungswagen am Sunset Motel kann zusaetzlichen Beobachtungsdruck anzeigen.
+Verwaltungs-/Besitzdruck eskaliert oder zieht Folgeauflagen nach sich (Freikauf, Asset-Status, weitere Gespraechsschritte). Die juristische Strategie muss zudem mit Georges Verletzung, der OS-Erweiterung und dem Walter-Faden abgestimmt werden. Lauris Benefactor kann als Schutz-, Besitz- oder Kontrollperson reagieren; Elias' Entfuehrungsvorschlag fuer Walter kann die juristische Linie in eine operative Eskalation kippen. Der Net54-Wagen am Sunset Motel war eine Elias-Spion-Tarnung und ist kein echter Net54-Druckfaden.
 
 ## Aldecaldos (Lala / Rettungsmarker)
 **Angebot aktiv (ARBEITSSTAND):**

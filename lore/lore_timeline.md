@@ -1136,7 +1136,7 @@ source: lore_db.md
     - Wegen knapper Pruefungszeit parkt das Trio dank Panam bei der 66th Street Gang und faehrt mit Delamain zur Uni. Die Pruefungen laufen gut; Ely schneidet gut ab.
     - Nachlauf mit Cheerleadern und Campus-/Hausmeister-Unterbrechung; Oggy meldet erheblichen KITT-Schaden.
     - Das Trio faehrt nach Kleidungsvorbereitung zum vollen Velvet, schleicht sich hinten hinein und spielt vier Songs inklusive "Und dann singen sie". Nach der Pause draengt ein schmieriger Vertragsmann; Miri wirft ihn hinaus und bittet das Trio anschliessend zu gehen. Ein moeglicher Donny-Zusammenhang bleibt ungeklaert.
-    - Nacht bei Oggy: Reparaturversuch an KITT, Sleep-Inducer-Schlaf und uebersuesster Erbsenbrei als Camp-/Familiennachlauf. Vor dem Sunset Motel steht ein Net54-Uebertragungswagen.
+    - Nacht bei Oggy: Reparaturversuch an KITT, Sleep-Inducer-Schlaf und uebersuesster Erbsenbrei als Camp-/Familiennachlauf. Vor dem Sunset Motel steht ein als Net54 getarnter Uebertragungswagen; **SL-WAHRHEIT:** Er wird von Elias' Spionen als Red Herring genutzt, nicht von echtem Net54.
     - Lauri meldet Thomas die Zustimmung des Trios zur Walter-Entfuehrung. Thomas setzt fuer den 07.08 um 10:00 ein Treffen mit dem Operationsteam an.
   - **2077-08-06 (Lauri-Sicht, Halloweeners / Pruefungen / Velvet) [ARBEITSSTAND]**:
     - Halloweeners greifen das Trio auf dem Weg zur letzten Pruefung an. Lauri weicht einer zurueckkommenden Rakete aus und bringt KITT trotz Treffern wieder auf Kurs; ein Gegner wird mit Bike aus dem Kampf geschleudert, Ely schaltet weitere Gegner aus.
@@ -1173,7 +1173,7 @@ source: lore_db.md
     - Am Morgen des 08.08 wirkt Georges Sonntagsfruehstueck fuer das Trio wie ein moegliches gemeinsames Alltagsbild. Sie beschliessen, schwere Waffen aus KITT zu entfernen.
     - Apfelschaeler, Aepfel und gedeckter Apfelkuchen bei Oggy; Jenny ist wegen Biotechnica-Aepfeln skeptisch, die Kinder moegen sie. Lauri faehrt danach zum Aldecaldo-Lager, um ein vergessenes Geschenk fuer George zu holen, und trifft Mitch.
   - **2077-08-08 (Ely-Sicht, Highspeed-Rennen abgebrochen / Dakota / 66th Street) [ARBEITSSTAND]**:
-    - Lauri zeigt Ely den fast fertigen Panzer fuer May. Ely schenkt George die gelb lackierte Dying Light mit "Georgina"-Gravur; Lauri fragt Dakota, ob sie den gelben Flitzer verkaufen kann, ein Verkauf ist noch nicht bestaetigt.
+    - Lauri zeigt Ely den fast fertigen Panzer fuer Mayday (Kurzform May). Ely schenkt George die gelb lackierte Dying Light mit "Georgina"-Gravur; Lauri verkauft den gelben Flitzer ueber Dakota und erhaelt den Erloes von ihr.
     - Das Trio posiert an der Pinky-Bushaltestelle mit KITT und May. Fuer das Rennen werden SINs eingeschaltet und sie fahren in die Innenstadt.
     - Vor dem Start sieht das Trio eine Auseinandersetzung zwischen Tigerclaws und einem anderen japanischen Team; ein aelterer Japaner trennt einem Tigerclaw mit einer Waffe den Arm ab.
     - Die Strecke wird kurzfristig durch Downtown und Westbrook verlegt. Thomas warnt, dass sie fuer eine Teilnahme die SINs ausschalten muessten. Das Trio bewertet das Polizeirisiko als zu hoch und bricht vor dem Start ab.
@@ -1181,7 +1181,7 @@ source: lore_db.md
     - Lauri bestreitet einen Hand-to-hand-Kampf mit 1.200 Eddies Einsatz, kaempft gut, landet einen starken Treffer und gibt dann auf. Sie blutet aus der Nase und wird von George und Ely versorgt.
     - Lauri und Ely fahren mit KITT zu den Aldecaldos zurueck; George bleibt mit May fuer einen nicht naeher benannten Auftrag beziehungsweise eine Ueberraschung zurueck.
   - **2077-08-08 (Lauri-Sicht, Dakota / Rennabbruch / Nahkampf) [ARBEITSSTAND]**:
-    - Lauri sieht vor dem Aufbruch den fast fertigen Panzer fuer May; Mitch verraet nicht, womit George den ersten Fahrplatz ausgehandelt hat. Lauri faehrt wegen des gelben Flitzers zu Dakota. Dakota ist verärgert ueber die lange Funkstille; Lauri verspricht taegliche Anrufe. Das Fahrzeug war nach einem Sandsturm bei Dakota untergebracht, ein Verkauf bleibt unbestaetigt.
+    - Lauri sieht vor dem Aufbruch den fast fertigen Panzer fuer Mayday; Mitch verraet nicht, womit George den ersten Fahrplatz ausgehandelt hat. Lauri faehrt wegen des gelben Flitzers zu Dakota. Dakota ist verärgert ueber die lange Funkstille; Lauri verspricht taegliche Anrufe. Das Fahrzeug wird ueber Dakota verkauft und der Erloes ausgezahlt.
     - Ely schenkt George die gelb lackierte Dying Light mit "Georgina"-Gravur. Am Startplatz posiert das Trio an der Pinky-Bushaltestelle; Lauri kauft Schokozuckerwatte und bekommt die erste Fahrt mit George im Panzer. George erklaert spaeter, dass er Mitch mit seiner Kalibrierfaehigkeit ueberzeugt hat.
     - Lauri hasst die Aussicht, beim Rennen von Ely und George getrennt zu sein, draengt Ely aber nicht. Als die Strecke durch Downtown und Westbrook verlaeuft und Thomas vor ausgeschalteten SINs sowie Polizeiscans warnt, sagt Ely selbst ab. Lauri ist erleichtert und bestaetigt ihre Entscheidung.
     - Das Trio sieht Maelstrom an der ersten Kreuzung vier Menschen ueberfahren, was den Rennabbruch bestaetigt.

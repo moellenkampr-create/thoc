@@ -113,6 +113,10 @@ source: lore_db.md
 - Mutter: **Elisa Fredderic-Henshaw**
 - Familienkontext: Arasaka-nahe Konzernelite, strenge Kontrolle
 
+#### Transportmittel [ARBEITSSTAND]
+- Persoenliches Motorrad: **Mayday**, meist **May** genannt.
+- Oggy hat einen neuen Motor fuer Mayday gefunden; George moechte Lauri eine staerkere Maschine einbauen. Umbau und endgueltige Konfiguration sind noch offen.
+
 #### Cyberware / Koerperzustand
 - Kyroshi Cyberoptics MK IV, modifiziert
 - Biodyne Berserker OS
