@@ -1166,3 +1166,23 @@ source: lore_db.md
     - Bei Oggy bringt Ely Schokocreme fuer die Kinder mit. Lauri besorgt Apfelschaeler und Aepfel; Jenny lehnt die bitteren Biotechnica-Aepfel ab, waehrend die Kinder die neuen Aepfel moegen. Gemeinsam entsteht ein gedeckter Apfelkuchen.
     - Fuer das Highspeed-Rennen wird KITTs grosse Kanone wegen des Gewichts ausgebaut.
     - Lauri faehrt zum Aldecaldo-Lager, um ein vergessenes Geschenk fuer George zu holen, und trifft vor dem Trio-Zelt Mitch.
+  - **2077-08-07 spaet bis 2077-08-08 morgens (Lauri-Sicht, Penthouse / Rennvorbereitung) [ARBEITSSTAND]**:
+    - George fordert Ely und Lauri spielerisch auf, ihn auf dem Motorrad einzuholen; Lauri erkennt, wie stark Pruefungsstress und Erschoepfung das Trio belasten. George hat Eis fuer alle organisiert.
+    - George zeigt ihnen das Penthouse eines Freundes: nicht oeffentliche Tiefgarage, Wintergarten mit halb aussenliegendem Pool und Sprudelfunktion, versteckte Raeume, Spielzeuge, Fesselvorrichtungen, Trophaeenraum und vollstaendig verspiegeltes Schlafzimmer.
+    - Lauri geniesst Pool und Privatsphaere, merkt aber, dass die Spiegelumgebung auf Dauer zu viel waere. Nach gemeinsamer Nacht kuschelt sie sich beim Aufwachen mit Ely ein, um sich zu orientieren.
+    - Am Morgen des 08.08 wirkt Georges Sonntagsfruehstueck fuer das Trio wie ein moegliches gemeinsames Alltagsbild. Sie beschliessen, schwere Waffen aus KITT zu entfernen.
+    - Apfelschaeler, Aepfel und gedeckter Apfelkuchen bei Oggy; Jenny ist wegen Biotechnica-Aepfeln skeptisch, die Kinder moegen sie. Lauri faehrt danach zum Aldecaldo-Lager, um ein vergessenes Geschenk fuer George zu holen, und trifft Mitch.
+  - **2077-08-08 (Ely-Sicht, Highspeed-Rennen abgebrochen / Dakota / 66th Street) [ARBEITSSTAND]**:
+    - Lauri zeigt Ely den fast fertigen Panzer fuer May. Ely schenkt George die gelb lackierte Dying Light mit "Georgina"-Gravur; Lauri fragt Dakota, ob sie den gelben Flitzer verkaufen kann, ein Verkauf ist noch nicht bestaetigt.
+    - Das Trio posiert an der Pinky-Bushaltestelle mit KITT und May. Fuer das Rennen werden SINs eingeschaltet und sie fahren in die Innenstadt.
+    - Vor dem Start sieht das Trio eine Auseinandersetzung zwischen Tigerclaws und einem anderen japanischen Team; ein aelterer Japaner trennt einem Tigerclaw mit einer Waffe den Arm ab.
+    - Die Strecke wird kurzfristig durch Downtown und Westbrook verlegt. Thomas warnt, dass sie fuer eine Teilnahme die SINs ausschalten muessten. Das Trio bewertet das Polizeirisiko als zu hoch und bricht vor dem Start ab.
+    - Stattdessen faehrt das Trio in Santo Domingo ins Gebiet der 66th Street Gang. Ely testet an einem Stand eine seltene russische Sniper Rifle; der Verkaeufer kennt ihren Seltenheitswert offenbar nicht.
+    - Lauri bestreitet einen Hand-to-hand-Kampf mit 1.200 Eddies Einsatz, kaempft gut, landet einen starken Treffer und gibt dann auf. Sie blutet aus der Nase und wird von George und Ely versorgt.
+    - Lauri und Ely fahren mit KITT zu den Aldecaldos zurueck; George bleibt mit May fuer einen nicht naeher benannten Auftrag beziehungsweise eine Ueberraschung zurueck.
+  - **2077-08-08 (Lauri-Sicht, Dakota / Rennabbruch / Nahkampf) [ARBEITSSTAND]**:
+    - Lauri sieht vor dem Aufbruch den fast fertigen Panzer fuer May; Mitch verraet nicht, womit George den ersten Fahrplatz ausgehandelt hat. Lauri faehrt wegen des gelben Flitzers zu Dakota. Dakota ist verärgert ueber die lange Funkstille; Lauri verspricht taegliche Anrufe. Das Fahrzeug war nach einem Sandsturm bei Dakota untergebracht, ein Verkauf bleibt unbestaetigt.
+    - Ely schenkt George die gelb lackierte Dying Light mit "Georgina"-Gravur. Am Startplatz posiert das Trio an der Pinky-Bushaltestelle; Lauri kauft Schokozuckerwatte und bekommt die erste Fahrt mit George im Panzer. George erklaert spaeter, dass er Mitch mit seiner Kalibrierfaehigkeit ueberzeugt hat.
+    - Lauri hasst die Aussicht, beim Rennen von Ely und George getrennt zu sein, draengt Ely aber nicht. Als die Strecke durch Downtown und Westbrook verlaeuft und Thomas vor ausgeschalteten SINs sowie Polizeiscans warnt, sagt Ely selbst ab. Lauri ist erleichtert und bestaetigt ihre Entscheidung.
+    - Das Trio sieht Maelstrom an der ersten Kreuzung vier Menschen ueberfahren, was den Rennabbruch bestaetigt.
+    - Beim 66th-Street-Waffenstand handelt Lauri einen Nahkampf mit 1.200 Eddies Einsatz aus, damit Ely die seltene russische Sniper Rifle testen darf. Lauri gibt nach einem starken Treffer auf; sie blutet aus der Nase, George und Ely versorgen sie.
