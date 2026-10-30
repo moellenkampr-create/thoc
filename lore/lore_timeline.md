@@ -1186,3 +1186,16 @@ source: lore_db.md
     - Lauri hasst die Aussicht, beim Rennen von Ely und George getrennt zu sein, draengt Ely aber nicht. Als die Strecke durch Downtown und Westbrook verlaeuft und Thomas vor ausgeschalteten SINs sowie Polizeiscans warnt, sagt Ely selbst ab. Lauri ist erleichtert und bestaetigt ihre Entscheidung.
     - Das Trio sieht Maelstrom an der ersten Kreuzung vier Menschen ueberfahren, was den Rennabbruch bestaetigt.
     - Beim 66th-Street-Waffenstand handelt Lauri einen Nahkampf mit 1.200 Eddies Einsatz aus, damit Ely die seltene russische Sniper Rifle testen darf. Lauri gibt nach einem starken Treffer auf; sie blutet aus der Nase, George und Ely versorgen sie.
+  - **2077-08-08 nachts (Lauri-Sicht, Raffen-Shiv-Angriff bei Oggy) [ARBEITSSTAND]**:
+    - Nach der Rueckkehr zu Oggy greifen Raffen Shivs den Hof beziehungsweise den Wohnwagenbereich an. Lauri reagiert mit starkem Schutz-/Besitzimpuls gegen die Bedrohung ihrer Aldecaldo-Familie.
+    - Ely und George erwidern sofort das Feuer; Lauri nutzt Parkour und Trust, um einen Angreifer am Durchbruch zum Wohnwagen zu hindern. Vier Raffen-Shiv-Angreifer werden getoetet; die genaue Trefferzuordnung bleibt in der Mitschrift unscharf.
+    - Lauri geraet in Tunnelblick, wird durch Ely schrittweise beruhigt, behaelt aber viel Adrenalin. Vic und Hollyday lehnen Cyberware der Toten ab.
+    - Die vier Leichen werden zusammengetragen, mit Benzin uebergossen und angezuendet. Lauri waescht sich in einer Aussenwanne; George hat Ely versorgt. Oggy erkundigt sich nach dem Zustand aller und laesst dem Trio danach Raum.
+  - **2077-08-09 (Lauri-Sicht, Schule / Bertram / Thomas / Donny) [ARBEITSSTAND]**:
+    - Das Trio liefert Rennbier bei den Aldecaldos ab und faehrt nach Duschen und Anziehen zur Schule. Lauri berichtet, ihre Pruefungen bestanden zu haben.
+    - Das Trio erwaegt eine anonyme Rooftop-Performance: drei Songs, je einer pro Person, danach sofort verschwinden. Realfeeling-Aufnahmen werden ebenfalls als Moeglichkeit genannt; George und Ely wollen darueber nachdenken.
+    - Es kursieren Pornhubetube-Videos, die das Trio nackt zeigen und mit ihrer Musik verbinden. Lauri schickt eine Korrektur zur Darstellung von Reds Koerper. Quelle, Einwilligung und Umfang der Veroeffentlichung sind ungeklaert.
+    - Ely meldet ein gemeinsames Abendessen mit ihrem Vater um 18:00.
+    - Lauri ruft Thomas an: Er erinnert sie an eine fruehere Samstagverabredung, an die Lauri sich nicht erinnert. Lauri entschuldigt sich; Thomas setzt einen neuen Termin fuer den 10.08 um 20:00 im Rose Garden.
+    - Donny bringt Blumen. Das Trio schlaegt vor, ihn bei kuenftigen Rooftop-Auftritten fuer Ton/Audio einzusetzen; Donny will spaeter darueber sprechen.
+    - Im Rushhour-Stau endet der Schulweg mit spielerischer Trio-Naehe.
